@@ -186,7 +186,7 @@ export default function ComparisonPage({
         <p className="text-slate-600">
           Sound quality scores: {a.model} {a.scores.sound?.toFixed(1)}/10, {b.model} {b.scores.sound?.toFixed(1)}
           /10. Driver size is {String(a.specs.driverSize)}mm on the {a.model} versus {String(b.specs.driverSize)}mm
-          on the {b.model} — larger drivers don't guarantee better sound, but they're one input into tuning.
+          on the {b.model} — larger drivers don&apos;t guarantee better sound, but they&apos;re one input into tuning.
         </p>
       </section>
 
