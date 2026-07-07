@@ -51,8 +51,18 @@ something extra to configure.
 
 ## 4. Keeping it automatic while you edit
 
-Two ways to push changes without thinking about it, both defined in
+Three ways to push changes without thinking about it, all defined in
 `package.json`:
+
+**Auto-push hook (set once, works forever):**
+
+```bash
+npm run install-hooks
+```
+
+Installs a `post-commit` git hook (from `scripts/git-hooks/post-commit`)
+that pushes automatically every time you run `git commit`, so you never
+forget the push step. This also runs automatically after `npm install`.
 
 **Watch mode (recommended while actively working):**
 

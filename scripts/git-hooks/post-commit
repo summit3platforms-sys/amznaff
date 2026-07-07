@@ -1,0 +1,20 @@
+#!/bin/sh
+# Auto-push hook: after any `git commit` in this repo, immediately push to
+# the configured remote so Vercel's Git integration picks it up. Paired
+# with `npm run watch-deploy` for hands-free commit+push, or just use this
+# on its own if you prefer to `git commit` manually but never want to
+# forget to push.
+#
+# Installed by DEPLOY.md into .git/hooks/post-commit — git does not track
+# hook scripts as part of the repo, so this file lives at the project root
+# and DEPLOY.md tells you to copy it into place once.
+branch=$(git rev-parse --abbrev-ref HEAD)
+remote=$(git remote 2>/dev/null | head -n1)
+
+if [ -z "$remote" ]; then
+  echo "[post-commit] no git remote configured yet — skipping auto-push"
+  exit 0
+fi
+
+echo "[post-commit] pushing $branch to $remote..."
+git push "$remote" "$branch" || echo "[post-commit] push failed — push manually with: git push $remote $branch"

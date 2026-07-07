@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "new-product": "node scripts/new-product.js",
     "watch-deploy": "node scripts/watch-deploy.js",
-    "deploy": "node scripts/deploy.js"
+    "deploy": "node scripts/deploy.js",
+    "install-hooks": "node scripts/install-hooks.js",
+    "postinstall": "node scripts/install-hooks.js || true"
   },
   "dependencies": {
     "next": "14.2.16",
