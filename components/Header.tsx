@@ -1,30 +1,24 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { categories } from '@/data/categories';
+
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About' },
+  { href: '/categories', label: 'Categories' },
+  { href: '/guides', label: 'Guides' },
+  { href: '/brands', label: 'Brands' }
+];
 
 export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [categoriesOpen, setCategoriesOpen] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setMobileOpen(false);
-    setCategoriesOpen(false);
   }, [pathname]);
-
-  useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
-        setCategoriesOpen(false);
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
-  }, []);
 
   const isActive = (href: string) => (href === '/' ? pathname === '/' : pathname?.startsWith(href));
 
@@ -43,79 +37,17 @@ export default function Header() {
 
         {/* Desktop nav — right aligned */}
         <nav className="hidden items-center gap-1 lg:flex">
-          <Link
-            href="/"
-            className={`rounded-md px-3.5 py-2 text-sm font-medium transition ${
-              isActive('/') && pathname === '/' ? 'bg-slate-100 text-slate-900' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
-            }`}
-          >
-            Home
-          </Link>
-          <Link
-            href="/about"
-            className={`rounded-md px-3.5 py-2 text-sm font-medium transition ${
-              isActive('/about') ? 'bg-slate-100 text-slate-900' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
-            }`}
-          >
-            About
-          </Link>
-
-          {/* Categories dropdown */}
-          <div className="relative" ref={dropdownRef}>
-            <button
-              type="button"
-              onClick={() => setCategoriesOpen((v) => !v)}
-              aria-expanded={categoriesOpen}
-              className={`flex items-center gap-1 rounded-md px-3.5 py-2 text-sm font-medium transition ${
-                categoriesOpen || isActive('/categories') ? 'bg-slate-100 text-slate-900' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={`rounded-md px-3.5 py-2 text-sm font-medium transition ${
+                isActive(link.href) ? 'bg-slate-100 text-slate-900' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
               }`}
             >
-              Categories
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className={`transition-transform ${categoriesOpen ? 'rotate-180' : ''}`}>
-                <path d="M6 9l6 6 6-6" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </button>
-            {categoriesOpen && (
-              <div className="absolute left-0 top-full mt-2 w-64 rounded-xl border border-slate-200 bg-white p-2 shadow-lg">
-                {categories.map((c) => (
-                  <Link
-                    key={c.slug}
-                    href={`/${c.slug}`}
-                    className="block rounded-lg px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50"
-                    onClick={() => setCategoriesOpen(false)}
-                  >
-                    {c.pluralName}
-                  </Link>
-                ))}
-                <div className="mt-1 border-t border-slate-100 pt-1">
-                  <Link
-                    href="/categories"
-                    className="block rounded-lg px-3 py-2 text-sm font-semibold text-brand-600 hover:bg-slate-50"
-                    onClick={() => setCategoriesOpen(false)}
-                  >
-                    View all categories →
-                  </Link>
-                </div>
-              </div>
-            )}
-          </div>
-
-          <Link
-            href="/guides"
-            className={`rounded-md px-3.5 py-2 text-sm font-medium transition ${
-              isActive('/guides') ? 'bg-slate-100 text-slate-900' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
-            }`}
-          >
-            Guides
-          </Link>
-          <Link
-            href="/brands"
-            className={`rounded-md px-3.5 py-2 text-sm font-medium transition ${
-              isActive('/brands') ? 'bg-slate-100 text-slate-900' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-900'
-            }`}
-          >
-            Brands
-          </Link>
+              {link.label}
+            </Link>
+          ))}
         </nav>
 
         {/* Mobile menu button */}
@@ -140,14 +72,7 @@ export default function Header() {
       {mobileOpen && (
         <nav className="border-t border-slate-200 bg-white lg:hidden">
           <div className="container-page flex flex-col gap-1 py-3">
-            {[
-              { href: '/', label: 'Home' },
-              { href: '/about', label: 'About' },
-              ...categories.map((c) => ({ href: `/${c.slug}`, label: c.pluralName })),
-              { href: '/categories', label: 'All Categories' },
-              { href: '/guides', label: 'Guides' },
-              { href: '/brands', label: 'Brands' }
-            ].map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}

@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
+import { categoryGroups } from '@/data/categoryGroups';
 import { getAllComparisonPairs, getProductsByCategory } from '@/lib/products';
 import ProductCard from '@/components/ProductCard';
+import CategoryGroupCard from '@/components/CategoryGroupCard';
 
 export default function HomePage() {
   return (
@@ -19,18 +21,16 @@ export default function HomePage() {
       </section>
 
       <section className="container-page py-14">
-        <h2 className="mb-6 text-2xl font-bold text-slate-900">Browse categories</h2>
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="text-2xl font-bold text-slate-900">Browse categories</h2>
+          <Link href="/categories" className="text-sm font-semibold text-brand-600 hover:underline">
+            All categories →
+          </Link>
+        </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {categories.map((c) => {
-            const count = getProductsByCategory(c.slug).length;
-            return (
-              <Link key={c.slug} href={`/${c.slug}`} className="card p-6 transition hover:shadow-lg">
-                <h3 className="text-lg font-bold text-slate-900">{c.pluralName}</h3>
-                <p className="mt-1 text-sm text-slate-500">{c.description}</p>
-                <p className="mt-3 text-xs font-medium text-brand-600">{count} models compared →</p>
-              </Link>
-            );
-          })}
+          {categoryGroups.map((group) => (
+            <CategoryGroupCard key={group.name} group={group} />
+          ))}
         </div>
       </section>
 
