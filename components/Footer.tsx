@@ -45,11 +45,11 @@ const legalLinks = [
 function FooterColumn({ title, links }: { title: string; links: { href: string; label: string }[] }) {
   return (
     <div>
-      <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">{title}</h3>
+      <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">{title}</h3>
       <ul className="mt-3 space-y-2">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="text-sm text-slate-600 hover:text-brand-600">
+            <Link href={l.href} className="text-sm text-slate-400 hover:text-white">
               {l.label}
             </Link>
           </li>
@@ -63,36 +63,36 @@ export default function Footer() {
   const topBrands = getAllBrands().slice(0, 10);
 
   return (
-    <footer className="mt-20 border-t border-slate-200 bg-white">
+    <footer className="mt-20 bg-slate-900">
       <div className="container-page py-12">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4">
           <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
-              <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg bg-slate-900 text-xs font-bold text-white">
+              <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg bg-white text-xs font-bold text-slate-900">
                 TCR
               </span>
-              <span className="text-base font-bold tracking-tight text-slate-900">
-                The Comparison <span className="text-brand-600">Report</span>
+              <span className="text-base font-bold tracking-tight text-white">
+                The Comparison <span className="text-brand-400">Report</span>
               </span>
             </Link>
-            <p className="mt-3 max-w-sm text-sm text-slate-500">
+            <p className="mt-3 max-w-sm text-sm text-slate-400">
               Spec-for-spec product comparisons generated from structured data — no top-10 lists, no opinion
               pieces. Just the answer to &ldquo;which one should I buy?&rdquo;
             </p>
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Products</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Products</h3>
             <ul className="mt-3 space-y-2">
               {categories.map((c) => (
                 <li key={c.slug}>
-                  <Link href={`/${c.slug}`} className="text-sm text-slate-600 hover:text-brand-600">
+                  <Link href={`/${c.slug}`} className="text-sm text-slate-400 hover:text-white">
                     {c.pluralName}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/categories" className="text-sm font-medium text-brand-600 hover:underline">
+                <Link href="/categories" className="text-sm font-medium text-brand-400 hover:text-brand-300">
                   All Categories →
                 </Link>
               </li>
@@ -100,17 +100,17 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Brands</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Brands</h3>
             <ul className="mt-3 space-y-2">
               {topBrands.map((b) => (
                 <li key={b.slug}>
-                  <Link href={`/brands/${b.slug}`} className="text-sm text-slate-600 hover:text-brand-600">
+                  <Link href={`/brands/${b.slug}`} className="text-sm text-slate-400 hover:text-white">
                     {b.name}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/brands" className="text-sm font-medium text-brand-600 hover:underline">
+                <Link href="/brands" className="text-sm font-medium text-brand-400 hover:text-brand-300">
                   View All Brands →
                 </Link>
               </li>
@@ -118,17 +118,17 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Comparisons</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-500">Comparisons</h3>
             <ul className="mt-3 space-y-2">
               {comparisonLinks.map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-slate-600 hover:text-brand-600">
+                  <Link href={l.href} className="text-sm text-slate-400 hover:text-white">
                     {l.label}
                   </Link>
                 </li>
               ))}
               <li>
-                <Link href="/comparisons" className="text-sm font-medium text-brand-600 hover:underline">
+                <Link href="/comparisons" className="text-sm font-medium text-brand-400 hover:text-brand-300">
                   Browse All Comparisons →
                 </Link>
               </li>
@@ -141,18 +141,18 @@ export default function Footer() {
           <FooterColumn title="Legal" links={legalLinks} />
         </div>
 
-        <div className="mt-10 border-t border-slate-100 pt-6">
-          <p className="max-w-3xl text-xs text-slate-400">
+        <div className="mt-10 border-t border-slate-800 pt-6">
+          <p className="max-w-3xl text-xs text-slate-500">
             As an Amazon Associate, The Comparison Report earns from qualifying purchases. We link to products on
             Amazon and may earn a commission on sales made through those links, at no additional cost to you. This
             does not influence our comparisons, which are generated from structured product specifications. See
             our{' '}
-            <Link href="/affiliate-disclosure" className="underline hover:text-slate-600">
+            <Link href="/affiliate-disclosure" className="underline hover:text-slate-300">
               Affiliate Disclosure
             </Link>
             .
           </p>
-          <p className="mt-4 text-xs text-slate-400">
+          <p className="mt-4 text-xs text-slate-500">
             © {new Date().getFullYear()} The Comparison Report. All product names, logos, and brands are property
             of their respective owners.
           </p>

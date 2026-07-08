@@ -1,3 +1,5 @@
+import { CategoryIconKey } from '@/components/icons/CategoryIcon';
+
 // ---------------------------------------------------------------------------
 // Full category taxonomy shown on the homepage and /categories, covering
 // where the site is headed — not just what has product data today. An item
@@ -13,14 +15,14 @@ export type CategoryGroupItem = {
 
 export type CategoryGroup = {
   name: string;
-  icon: string;
+  iconKey: CategoryIconKey;
   items: CategoryGroupItem[];
 };
 
 export const categoryGroups: CategoryGroup[] = [
   {
     name: 'TV & Home Entertainment',
-    icon: '📺',
+    iconKey: 'tv',
     items: [
       { name: 'Smart TVs' },
       { name: 'Streaming Devices' },
@@ -32,7 +34,7 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Audio',
-    icon: '🎧',
+    iconKey: 'audio',
     items: [
       { name: 'Bluetooth Speakers' },
       { name: 'Wireless Earbuds' },
@@ -43,12 +45,12 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Wearables',
-    icon: '⌚',
+    iconKey: 'wearable',
     items: [{ name: 'Smartwatches' }, { name: 'Fitness Trackers' }, { name: 'GPS Watches' }, { name: 'Smart Rings' }]
   },
   {
     name: 'Smart Home',
-    icon: '🏡',
+    iconKey: 'smart-home',
     items: [
       { name: 'Video Doorbells' },
       { name: 'Security Cameras' },
@@ -61,7 +63,7 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Cameras',
-    icon: '📷',
+    iconKey: 'camera',
     items: [
       { name: 'Mirrorless Cameras' },
       { name: 'Action Cameras' },
@@ -73,12 +75,12 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Tablets & E-Readers',
-    icon: '📱',
+    iconKey: 'tablet',
     items: [{ name: 'Tablets' }, { name: 'E-Readers' }, { name: 'Digital Notebooks' }]
   },
   {
     name: 'Home Office',
-    icon: '🖨️',
+    iconKey: 'printer',
     items: [
       { name: 'Printers' },
       { name: 'Label Printers' },
@@ -89,7 +91,7 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Charging & Power',
-    icon: '🔋',
+    iconKey: 'power',
     items: [
       { name: 'Power Banks' },
       { name: 'Charging Stations' },
@@ -100,7 +102,7 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Car Electronics',
-    icon: '🚗',
+    iconKey: 'car',
     items: [
       { name: 'Dash Cams' },
       { name: 'GPS Units' },
@@ -112,7 +114,7 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: 'Home Electronics',
-    icon: '🏠',
+    iconKey: 'home-electronics',
     items: [
       { name: 'Air Purifiers' },
       { name: 'Humidifiers' },

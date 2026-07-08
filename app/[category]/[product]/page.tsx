@@ -7,6 +7,7 @@ import { cheaperAlternative, premiumAlternative, sameBrand } from '@/lib/related
 import { overallScore } from '@/lib/scoring';
 import AmazonButton from '@/components/AmazonButton';
 import ProductCard from '@/components/ProductCard';
+import PlaceholderImage from '@/components/PlaceholderImage';
 
 export function generateStaticParams() {
   return getAllProducts().map((p) => ({ category: p.categorySlug, product: p.slug }));
@@ -48,9 +49,7 @@ export default function ProductPage({ params }: { params: { category: string; pr
       </p>
 
       <div className="mt-4 grid grid-cols-1 gap-10 lg:grid-cols-2">
-        <div className="flex aspect-square items-center justify-center rounded-xl bg-slate-100 text-slate-300">
-          Image
-        </div>
+        <PlaceholderImage label={`${product.brand} ${product.model}`} className="aspect-square" />
         <div>
           <span className="pill mb-3">{product.brand} · {product.series}</span>
           <h1 className="text-3xl font-extrabold text-slate-900">{product.model}</h1>

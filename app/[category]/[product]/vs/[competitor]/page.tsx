@@ -16,6 +16,7 @@ import JumpNav from '@/components/JumpNav';
 import RelatedLinks from '@/components/RelatedLinks';
 import FilterTags from '@/components/FilterTags';
 import AmazonButton from '@/components/AmazonButton';
+import PlaceholderImage from '@/components/PlaceholderImage';
 
 // At small-to-medium scale, every comparison page is pre-rendered at build
 // time (fast, fully static). At the scale described in the product brief
@@ -100,17 +101,13 @@ export default function ComparisonPage({
       {/* Hero */}
       <div className="mt-4 grid grid-cols-[1fr_auto_1fr] items-center gap-4 sm:gap-8">
         <Link href={`/${category.slug}/${a.slug}`} className="text-center">
-          <div className="mx-auto flex aspect-square w-full max-w-[180px] items-center justify-center rounded-xl bg-slate-100 text-slate-300">
-            Image
-          </div>
+          <PlaceholderImage label={a.model} className="mx-auto aspect-square w-full max-w-[180px]" />
           <p className="mt-2 font-bold text-slate-900">{a.model}</p>
           <p className="text-sm text-slate-400">${a.price.toFixed(2)}</p>
         </Link>
         <span className="text-xl font-extrabold text-slate-300">VS</span>
         <Link href={`/${category.slug}/${b.slug}`} className="text-center">
-          <div className="mx-auto flex aspect-square w-full max-w-[180px] items-center justify-center rounded-xl bg-slate-100 text-slate-300">
-            Image
-          </div>
+          <PlaceholderImage label={b.model} className="mx-auto aspect-square w-full max-w-[180px]" />
           <p className="mt-2 font-bold text-slate-900">{b.model}</p>
           <p className="text-sm text-slate-400">${b.price.toFixed(2)}</p>
         </Link>

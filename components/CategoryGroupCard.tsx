@@ -2,13 +2,14 @@ import Link from 'next/link';
 import { CategoryGroup } from '@/data/categoryGroups';
 import { getCategory } from '@/data/categories';
 import { getProductsByCategory } from '@/lib/products';
+import CategoryIcon from './icons/CategoryIcon';
 
 export default function CategoryGroupCard({ group }: { group: CategoryGroup }) {
   return (
     <div className="card p-5">
-      <div className="mb-3 flex items-center gap-2">
-        <span className="text-xl" aria-hidden="true">
-          {group.icon}
+      <div className="mb-3 flex items-center gap-2.5">
+        <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-slate-100 text-slate-600">
+          <CategoryIcon iconKey={group.iconKey} />
         </span>
         <h3 className="font-bold text-slate-900">{group.name}</h3>
       </div>
