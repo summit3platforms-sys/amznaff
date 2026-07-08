@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of service for using WhichOneToBuy.'
+  description: 'Terms of service for using The Comparison Report.'
 };
 
 export default function TermsPage() {

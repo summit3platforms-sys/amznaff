@@ -6,14 +6,14 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'),
   title: {
-    default: 'WhichOneToBuy — Product Comparisons That Answer One Question',
-    template: '%s | WhichOneToBuy'
+    default: 'The Comparison Report — Product Comparisons That Answer One Question',
+    template: '%s | The Comparison Report'
   },
   description:
     'Spec-for-spec product comparisons that answer one question: which one should you buy? No top-10 lists, no opinion pieces — just data-driven comparisons.',
   openGraph: {
     type: 'website',
-    siteName: 'WhichOneToBuy'
+    siteName: 'The Comparison Report'
   }
 };
 

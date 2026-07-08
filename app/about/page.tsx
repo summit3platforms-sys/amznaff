@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Why WhichOneToBuy exists and how our comparisons are built.'
+  description: 'Why The Comparison Report exists and how our comparisons are built.'
 };
 
 export default function AboutPage() {
   return (
     <div className="container-page max-w-2xl py-14">
-      <h1 className="text-3xl font-extrabold text-slate-900">About WhichOneToBuy</h1>
+      <h1 className="text-3xl font-extrabold text-slate-900">About The Comparison Report</h1>
 
       <div className="mt-6 space-y-5 text-slate-600">
         <p>

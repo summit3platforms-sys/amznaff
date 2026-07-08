@@ -1,4 +1,4 @@
-# WhichOneToBuy — Programmatic Comparison Site
+# The Comparison Report — Programmatic Comparison Site
 
 A programmatic-SEO Amazon affiliate site. Every page answers one question:
 **"Which one should I buy?"** No articles, no opinion pieces — every page is

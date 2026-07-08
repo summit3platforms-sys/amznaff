@@ -5,13 +5,13 @@ export default function RelatedLinks({
   title,
   pairs
 }: {
-  title: string;
+  title?: string;
   pairs: Array<{ product: Product; competitor: Product }>;
 }) {
   if (pairs.length === 0) return null;
   return (
     <div>
-      <h3 className="mb-3 text-lg font-bold text-slate-900">{title}</h3>
+      {title && <h3 className="mb-3 text-lg font-bold text-slate-900">{title}</h3>}
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {pairs.map(({ product, competitor }) => (
           <Link

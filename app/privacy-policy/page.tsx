@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'How WhichOneToBuy collects and uses information.'
+  description: 'How The Comparison Report collects and uses information.'
 };
 
 export default function PrivacyPolicyPage() {

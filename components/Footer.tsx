@@ -1,29 +1,78 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
+import { getAllBrands } from '@/lib/brands';
+
+const comparisonLinks = [
+  { href: '/comparisons/popular', label: 'Popular Comparisons' },
+  { href: '/comparisons/latest', label: 'Latest Comparisons' },
+  { href: '/comparisons/editors-picks', label: "Editor's Picks" }
+];
+
+const resourceLinks = [
+  { href: '/guides', label: 'Buying Guides' },
+  { href: '/product-finder', label: 'Product Finder' },
+  { href: '/compare-tool', label: 'Compare Tool' },
+  { href: '/price-tracker', label: 'Price Tracker' },
+  { href: '/glossary', label: 'Glossary' },
+  { href: '/faqs', label: 'FAQs' }
+];
 
 const companyLinks = [
-  { href: '/about', label: 'About' },
-  { href: '/contact', label: 'Contact' }
+  { href: '/about', label: 'About Us' },
+  { href: '/our-review-process', label: 'Our Review Process' },
+  { href: '/how-we-compare', label: 'How We Compare Products' },
+  { href: '/affiliate-disclosure', label: 'Affiliate Disclosure' },
+  { href: '/contact', label: 'Contact Us' },
+  { href: '/careers', label: 'Careers' },
+  { href: '/press', label: 'Press' }
+];
+
+const supportLinks = [
+  { href: '/help-center', label: 'Help Center' },
+  { href: '/report-incorrect-info', label: 'Report Incorrect Information' },
+  { href: '/request-a-comparison', label: 'Request a Comparison' },
+  { href: '/feedback', label: 'Feedback' }
 ];
 
 const legalLinks = [
-  { href: '/affiliate-disclosure', label: 'Affiliate Disclosure' },
   { href: '/privacy-policy', label: 'Privacy Policy' },
-  { href: '/terms', label: 'Terms of Service' }
+  { href: '/terms', label: 'Terms of Service' },
+  { href: '/cookie-policy', label: 'Cookie Policy' },
+  { href: '/dmca', label: 'DMCA' },
+  { href: '/accessibility', label: 'Accessibility' }
 ];
 
+function FooterColumn({ title, links }: { title: string; links: { href: string; label: string }[] }) {
+  return (
+    <div>
+      <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">{title}</h3>
+      <ul className="mt-3 space-y-2">
+        {links.map((l) => (
+          <li key={l.href}>
+            <Link href={l.href} className="text-sm text-slate-600 hover:text-brand-600">
+              {l.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 export default function Footer() {
+  const topBrands = getAllBrands().slice(0, 10);
+
   return (
     <footer className="mt-20 border-t border-slate-200 bg-white">
       <div className="container-page py-12">
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
-          <div className="col-span-2">
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:grid-cols-4">
+          <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="flex items-center gap-2">
               <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg bg-slate-900 text-xs font-bold text-white">
-                W
+                TCR
               </span>
               <span className="text-base font-bold tracking-tight text-slate-900">
-                Which<span className="text-brand-600">One</span>ToBuy
+                The Comparison <span className="text-brand-600">Report</span>
               </span>
             </Link>
             <p className="mt-3 max-w-sm text-sm text-slate-500">
@@ -33,7 +82,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Shop by category</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Products</h3>
             <ul className="mt-3 space-y-2">
               {categories.map((c) => (
                 <li key={c.slug}>
@@ -42,47 +91,70 @@ export default function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link href="/categories" className="text-sm font-medium text-brand-600 hover:underline">
+                  All Categories →
+                </Link>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Company</h3>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Brands</h3>
             <ul className="mt-3 space-y-2">
-              {companyLinks.map((l) => (
-                <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-slate-600 hover:text-brand-600">
-                    {l.label}
+              {topBrands.map((b) => (
+                <li key={b.slug}>
+                  <Link href={`/brands/${b.slug}`} className="text-sm text-slate-600 hover:text-brand-600">
+                    {b.name}
                   </Link>
                 </li>
               ))}
-            </ul>
-
-            <h3 className="mt-6 text-xs font-semibold uppercase tracking-wide text-slate-400">Legal</h3>
-            <ul className="mt-3 space-y-2">
-              {legalLinks.map((l) => (
-                <li key={l.href}>
-                  <Link href={l.href} className="text-sm text-slate-600 hover:text-brand-600">
-                    {l.label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/brands" className="text-sm font-medium text-brand-600 hover:underline">
+                  View All Brands →
+                </Link>
+              </li>
             </ul>
           </div>
+
+          <div>
+            <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Comparisons</h3>
+            <ul className="mt-3 space-y-2">
+              {comparisonLinks.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="text-sm text-slate-600 hover:text-brand-600">
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/comparisons" className="text-sm font-medium text-brand-600 hover:underline">
+                  Browse All Comparisons →
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <FooterColumn title="Resources" links={resourceLinks} />
+          <FooterColumn title="Company" links={companyLinks} />
+          <FooterColumn title="Support" links={supportLinks} />
+          <FooterColumn title="Legal" links={legalLinks} />
         </div>
 
         <div className="mt-10 border-t border-slate-100 pt-6">
           <p className="max-w-3xl text-xs text-slate-400">
-            As an Amazon Associate, WhichOneToBuy earns from qualifying purchases. We link to products on Amazon
-            and may earn a commission on sales made through those links, at no additional cost to you. This does
-            not influence our comparisons, which are generated from structured product specifications. See our{' '}
+            As an Amazon Associate, The Comparison Report earns from qualifying purchases. We link to products on
+            Amazon and may earn a commission on sales made through those links, at no additional cost to you. This
+            does not influence our comparisons, which are generated from structured product specifications. See
+            our{' '}
             <Link href="/affiliate-disclosure" className="underline hover:text-slate-600">
               Affiliate Disclosure
             </Link>
             .
           </p>
           <p className="mt-4 text-xs text-slate-400">
-            © {new Date().getFullYear()} WhichOneToBuy. All product names, logos, and brands are property of
-            their respective owners.
+            © {new Date().getFullYear()} The Comparison Report. All product names, logos, and brands are property
+            of their respective owners.
           </p>
         </div>
       </div>
