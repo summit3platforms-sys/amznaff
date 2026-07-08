@@ -27,10 +27,10 @@ export default function Header() {
       <div className="container-page flex h-16 items-center justify-between sm:h-20">
         {/* Logo */}
         <Link href="/" className="flex flex-shrink-0 items-center gap-2" onClick={() => setMobileOpen(false)}>
-          <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-slate-900 text-xs font-bold text-white">
+          <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-slate-900 text-xs font-medium text-white">
             TCR
           </span>
-          <span className="text-base font-bold tracking-tight text-slate-900 sm:text-lg">
+          <span className="text-base font-medium tracking-tight text-slate-900 sm:text-lg">
             The Comparison <span className="text-brand-600">Report</span>
           </span>
         </Link>

@@ -1,5 +1,5 @@
 import { categories, getCategory } from '@/data/categories';
-import { Product } from '@/data/types';
+import { Product, Category } from '@/data/types';
 import { getAllComparisonPairs } from './products';
 import { determineOverallWinner } from './scoring';
 
@@ -51,4 +51,52 @@ export function getEditorsPicks(limit = 12): ComparisonPair[] {
     .sort((a, b) => b.margin - a.margin)
     .slice(0, limit)
     .map((x) => x.pair);
+}
+
+/**
+ * Popular comparisons, but capped at 2 appearances per product so the
+ * homepage doesn't show the same flagship product in every card. Still
+ * ranked by the same real popularity signal (combined rating count) —
+ * this only changes *which* high-popularity pairs get shown, not how
+ * popularity itself is measured.
+ */
+export function getDiversePopularComparisons(limit = 6): ComparisonPair[] {
+  const ranked = getPopularComparisons(getAllComparisonsAcrossCategories().length);
+  const seenCount = new Map<string, number>();
+  const picked: ComparisonPair[] = [];
+
+  for (const pair of ranked) {
+    if (picked.length >= limit) break;
+    const aCount = seenCount.get(pair.product.id) ?? 0;
+    const bCount = seenCount.get(pair.competitor.id) ?? 0;
+    if (aCount >= 2 || bCount >= 2) continue;
+    picked.push(pair);
+    seenCount.set(pair.product.id, aCount + 1);
+    seenCount.set(pair.competitor.id, bCount + 1);
+  }
+
+  return picked;
+}
+
+/**
+ * One-line verdict teaser derived from real scores: which product wins
+ * overall, and the single dimension where its lead over the other product
+ * is largest. Never invents a reason — picks the biggest real score gap.
+ */
+export function getVerdictTeaser(
+  product: Product,
+  competitor: Product,
+  category: Category
+): { winnerModel: string; dimensionLabel: string } {
+  const { winner, loser } = determineOverallWinner(product, competitor, category);
+  let bestDim = category.scoreDimensions[0];
+  let bestGap = -Infinity;
+  for (const dim of category.scoreDimensions) {
+    const gap = (winner.scores[dim.key] ?? 0) - (loser.scores[dim.key] ?? 0);
+    if (gap > bestGap) {
+      bestGap = gap;
+      bestDim = dim;
+    }
+  }
+  return { winnerModel: winner.model, dimensionLabel: bestDim.label.toLowerCase() };
 }

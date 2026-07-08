@@ -1,38 +1,45 @@
 import Link from 'next/link';
 
+const iconProps = { width: 18, height: 18, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.6, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
+
 const steps = [
   {
-    number: '01',
-    title: 'Structured specs',
-    description:
-      'Every product starts as a full spec sheet — battery, weight, connectivity, price — pulled from manufacturer data, not opinion.'
+    label: 'Structured specs, not opinion',
+    icon: (
+      <svg {...iconProps}>
+        <rect x="4" y="3" width="16" height="18" rx="1.5" />
+        <path d="M8 8h8M8 12h8M8 16h5" />
+      </svg>
+    )
   },
   {
-    number: '02',
-    title: 'Consistent scoring',
-    description:
-      'Every product in a category is scored 0-10 on the same dimensions, the same way, so comparisons stay apples-to-apples.'
+    label: 'Scored the same way, every time',
+    icon: (
+      <svg {...iconProps}>
+        <path d="M5 20V10M12 20V4M19 20v-7" />
+      </svg>
+    )
   },
   {
-    number: '03',
-    title: 'A direct verdict',
-    description: 'One page, one answer: which one you should buy, and exactly why — not a list of ten options.'
+    label: 'One clear verdict',
+    icon: (
+      <svg {...iconProps}>
+        <path d="m5 12 5 5 9-10" />
+      </svg>
+    )
   }
 ];
 
 export default function HowItWorks() {
   return (
-    <div>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-        {steps.map((step) => (
-          <div key={step.number}>
-            <span className="text-sm font-bold text-brand-600">{step.number}</span>
-            <h3 className="mt-1 font-bold text-slate-900">{step.title}</h3>
-            <p className="mt-1.5 text-sm text-slate-500">{step.description}</p>
-          </div>
-        ))}
-      </div>
-      <Link href="/how-we-compare" className="mt-6 inline-block text-sm font-semibold text-brand-600 hover:underline">
+    <div className="flex flex-col gap-4 border-y border-slate-200 py-5 sm:flex-row sm:items-center sm:justify-between">
+      {steps.map((step) => (
+        <div key={step.label} className="flex items-center gap-2.5">
+          <span className="flex-shrink-0 text-slate-500">{step.icon}</span>
+          <span className="text-sm text-slate-600">{step.label}</span>
+        </div>
+      ))}
+      <Link href="/how-we-compare" className="text-sm text-brand-600 hover:underline">
         See the full method →
       </Link>
     </div>
