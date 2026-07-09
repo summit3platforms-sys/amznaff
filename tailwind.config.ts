@@ -24,10 +24,21 @@ const config: Config = {
           50: '#f0fdf4',
           500: '#22c55e',
           600: '#16a34a'
+        },
+        deal: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          500: '#f97316',
+          600: '#ea580c'
         }
       },
       boxShadow: {
-        card: '0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.06)'
+        card: '0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.06)',
+        soft: '0 2px 8px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04)',
+        premium: '0 20px 40px -12px rgba(15, 23, 42, 0.18), 0 4px 12px rgba(15, 23, 42, 0.06)'
+      },
+      borderRadius: {
+        '4xl': '2rem'
       }
     }
   },

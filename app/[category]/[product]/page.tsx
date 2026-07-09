@@ -8,6 +8,7 @@ import { overallScore } from '@/lib/scoring';
 import AmazonButton from '@/components/AmazonButton';
 import ProductCard from '@/components/ProductCard';
 import PlaceholderImage from '@/components/PlaceholderImage';
+import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
 
 export function generateStaticParams() {
   return getAllProducts().map((p) => ({ category: p.categorySlug, product: p.slug }));
@@ -41,6 +42,7 @@ export default function ProductPage({ params }: { params: { category: string; pr
 
   return (
     <div className="container-page py-12">
+      <RecentlyViewedTracker categorySlug={category.slug} slug={product.slug} />
       <p className="text-sm text-slate-400">
         <Link href={`/${category.slug}`} className="hover:text-brand-600">
           {category.pluralName}

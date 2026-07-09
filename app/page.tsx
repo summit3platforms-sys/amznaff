@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getCategory } from '@/data/categories';
+import { categoryGroups } from '@/data/categoryGroups';
 import { getProductsByCategory } from '@/lib/products';
 import { getAllComparisonsAcrossCategories, getDiversePopularComparisons } from '@/lib/comparisons';
 import ProductCard from '@/components/ProductCard';
@@ -8,6 +9,13 @@ import ComparisonPicker from '@/components/ComparisonPicker';
 import HowItWorks from '@/components/HowItWorks';
 import ComingSoonStrip from '@/components/ComingSoonStrip';
 import PricesUpdated from '@/components/PricesUpdated';
+import CategoryGroupCard from '@/components/CategoryGroupCard';
+import BrandWall from '@/components/BrandWall';
+import BestOfGrid from '@/components/BestOfGrid';
+import DealsGrid from '@/components/DealsGrid';
+import LatestComparisonsMasonry from '@/components/LatestComparisonsMasonry';
+import RecentlyViewedSection from '@/components/RecentlyViewedSection';
+import { getRealDeals } from '@/lib/bestOf';
 
 export default function HomePage() {
   // Headphones is the only live category right now — the picker and
@@ -17,28 +25,51 @@ export default function HomePage() {
   const products = getProductsByCategory(category.slug);
   const totalComparisons = getAllComparisonsAcrossCategories().length;
   const popularPairs = getDiversePopularComparisons(6);
+  const heroChips = popularPairs.slice(0, 4);
+  const hasDeals = getRealDeals(category, 1).length > 0;
 
   return (
-    <div className="container-page">
-      <section className="py-16 text-center sm:py-20">
-        <h1 className="mx-auto max-w-2xl text-3xl font-medium tracking-tight text-slate-900 sm:text-4xl">
-          Which one should you buy?
-        </h1>
-        <p className="mx-auto mt-3 max-w-md text-slate-500">
-          Head-to-head verdicts, not top-10 lists.
-        </p>
+    <div>
+      <section className="section-gradient relative overflow-hidden border-b border-slate-100">
+        <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-brand-100 opacity-40 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-24 -right-16 h-72 w-72 rounded-full bg-winner-50 opacity-60 blur-3xl" />
+        <div className="container-page relative py-20 text-center sm:py-28">
+          <span className="pill mx-auto">Structured specs, not opinion</span>
+          <h1 className="mx-auto mt-5 max-w-2xl text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
+            Which one should you buy?
+          </h1>
+          <p className="mx-auto mt-4 max-w-md text-slate-500">
+            Head-to-head verdicts, not top-10 lists.
+          </p>
 
-        <div className="mt-8">
-          <ComparisonPicker categorySlug={category.slug} products={products} />
+          <div className="mt-10">
+            <ComparisonPicker categorySlug={category.slug} products={products} />
+          </div>
+
+          <p className="mt-5 text-sm text-slate-500">
+            {totalComparisons} head-to-head verdicts · {category.pluralName.toLowerCase()} live now
+          </p>
+
+          {heroChips.length > 0 && (
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
+              {heroChips.map(({ product, competitor, categorySlug }) => (
+                <Link
+                  key={`${product.id}-${competitor.id}`}
+                  href={`/${categorySlug}/${product.slug}/vs/${competitor.slug}`}
+                  className="pill bg-white transition hover:-translate-y-0.5 hover:shadow-soft"
+                >
+                  {product.brand} {product.model} vs {competitor.brand} {competitor.model}
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
-
-        <p className="mt-4 text-sm text-slate-500">
-          {totalComparisons} head-to-head verdicts · {category.pluralName.toLowerCase()} live now
-        </p>
       </section>
 
+      <div className="container-page">
+
       <section className="py-12">
-        <h2 className="mb-6 text-xl font-medium text-slate-900">Popular comparisons</h2>
+        <h2 className="mb-6 text-xl font-semibold text-slate-900">Popular comparisons</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {popularPairs.map(({ product, competitor, categorySlug }) => {
             const pairCategory = getCategory(categorySlug);
@@ -46,6 +77,40 @@ export default function HomePage() {
             return <VsCard key={`${product.id}-${competitor.id}`} product={product} competitor={competitor} category={pairCategory} />;
           })}
         </div>
+      </section>
+
+      <section className="py-12">
+        <h2 className="mb-6 text-xl font-semibold text-slate-900">Best {category.pluralName.toLowerCase()} by need</h2>
+        <BestOfGrid category={category} />
+      </section>
+
+      {hasDeals && (
+        <section className="py-12">
+          <div className="mb-6 flex items-center gap-2">
+            <h2 className="text-xl font-semibold text-slate-900">Real deals right now</h2>
+            <span className="pill bg-deal-50 text-deal-600">Price cut, not a fake countdown</span>
+          </div>
+          <DealsGrid category={category} />
+        </section>
+      )}
+
+      <section className="py-12">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="text-xl font-semibold text-slate-900">Browse by category</h2>
+          <Link href="/categories" className="text-sm font-medium text-brand-600 hover:underline">
+            View all →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {categoryGroups.map((group) => (
+            <CategoryGroupCard key={group.name} group={group} />
+          ))}
+        </div>
+      </section>
+
+      <section className="py-12">
+        <h2 className="mb-6 text-xl font-semibold text-slate-900">Brands we cover</h2>
+        <BrandWall />
       </section>
 
       <section className="py-12">
@@ -63,13 +128,29 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="py-12">
+        <h2 className="mb-6 text-xl font-semibold text-slate-900">Latest comparisons</h2>
+        <LatestComparisonsMasonry limit={6} />
+      </section>
+
+      <RecentlyViewedSection />
+
       <section className="py-8">
         <HowItWorks />
       </section>
 
-      <section className="py-10">
-        <ComingSoonStrip />
+      <section className="py-12">
+        <div className="section-gradient card p-8 sm:p-10">
+          <h2 className="text-xl font-semibold text-slate-900">Stay updated</h2>
+          <p className="mt-1.5 max-w-md text-sm text-slate-500">
+            Get notified as new categories and comparisons go live.
+          </p>
+          <div className="mt-5">
+            <ComingSoonStrip />
+          </div>
+        </div>
       </section>
+      </div>
     </div>
   );
 }

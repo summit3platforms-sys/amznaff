@@ -7,7 +7,7 @@ export default function PlaceholderImage({ label, className = '' }: { label: str
     <div
       role="img"
       aria-label={label}
-      className={`flex items-center justify-center rounded-xl bg-slate-100 text-slate-300 ${className}`}
+      className={`flex items-center justify-center rounded-2xl bg-gradient-to-br from-slate-100 to-slate-50 text-slate-300 ${className}`}
     >
       <svg width="34%" height="34%" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
         <rect x="3" y="4" width="18" height="16" rx="2" />

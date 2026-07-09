@@ -7,25 +7,43 @@ html {
 }
 
 body {
-  @apply bg-slate-50 text-slate-900;
+  @apply bg-white text-slate-900;
 }
 
 .container-page {
   @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
 }
 
+/* Premium card: 24px rounding, soft shadow, lift on hover */
 .card {
-  @apply rounded-xl border border-slate-200 bg-white shadow-card;
+  @apply rounded-3xl border border-slate-100 bg-white shadow-soft;
+}
+
+.card-hover {
+  @apply transition duration-300 hover:-translate-y-1 hover:shadow-premium;
 }
 
 .btn-amazon {
-  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-[#FF9900] px-5 py-2.5 font-semibold text-slate-900 transition hover:bg-[#e88a00] focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2;
+  @apply inline-flex items-center justify-center gap-2 rounded-2xl bg-[#FF9900] px-5 py-3 font-semibold text-slate-900 shadow-soft transition hover:-translate-y-0.5 hover:bg-[#e88a00] hover:shadow-premium focus:outline-none focus:ring-2 focus:ring-[#FF9900] focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-2xl bg-brand-600 px-5 py-3 font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-brand-700 hover:shadow-premium;
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-5 py-2.5 font-semibold text-slate-700 transition hover:bg-slate-100;
+  @apply inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-3 font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-soft;
 }
 
 .pill {
-  @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-3 py-1 text-xs font-medium text-slate-600;
+  @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3.5 py-1.5 text-xs font-medium text-slate-600;
+}
+
+.glass-card {
+  @apply rounded-3xl border border-white/60 bg-white/70 shadow-soft backdrop-blur-md;
+}
+
+.section-gradient {
+  background: radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(34, 197, 94, 0.06), transparent 40%);
 }

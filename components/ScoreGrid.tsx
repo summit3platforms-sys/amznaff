@@ -31,7 +31,7 @@ function ScoreRow({ label, value, highlighted }: { label: string; value: number;
       </span>
       <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-100">
         <div
-          className={`h-full rounded-full ${highlighted ? 'bg-brand-600' : 'bg-slate-300'}`}
+          className={`h-full rounded-full transition-all duration-700 ease-out ${highlighted ? 'bg-brand-600' : 'bg-slate-300'}`}
           style={{ width: `${(value / 10) * 100}%` }}
         />
       </div>

@@ -17,6 +17,8 @@ import RelatedLinks from '@/components/RelatedLinks';
 import FilterTags from '@/components/FilterTags';
 import AmazonButton from '@/components/AmazonButton';
 import PlaceholderImage from '@/components/PlaceholderImage';
+import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
+import SaveShareBar from '@/components/SaveShareBar';
 
 // At small-to-medium scale, every comparison page is pre-rendered at build
 // time (fast, fully static). At the scale described in the product brief
@@ -85,43 +87,57 @@ export default function ComparisonPage({
   };
 
   return (
-    <div className="container-page py-12">
+    <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-
-      <p className="text-sm text-slate-400">
-        <Link href={`/${category.slug}`} className="hover:text-brand-600">
-          {category.pluralName}
-        </Link>{' '}
-        / {a.model} vs {b.model}
-      </p>
+      <RecentlyViewedTracker categorySlug={category.slug} slug={a.slug} />
 
       {/* Hero */}
-      <div className="mt-4 grid grid-cols-[1fr_auto_1fr] items-center gap-4 sm:gap-8">
-        <Link href={`/${category.slug}/${a.slug}`} className="text-center">
-          <PlaceholderImage label={a.model} className="mx-auto aspect-square w-full max-w-[180px]" />
-          <p className="mt-2 font-bold text-slate-900">{a.model}</p>
-          <p className="text-sm text-slate-400">${a.price.toFixed(2)}</p>
-        </Link>
-        <span className="text-xl font-extrabold text-slate-300">VS</span>
-        <Link href={`/${category.slug}/${b.slug}`} className="text-center">
-          <PlaceholderImage label={b.model} className="mx-auto aspect-square w-full max-w-[180px]" />
-          <p className="mt-2 font-bold text-slate-900">{b.model}</p>
-          <p className="text-sm text-slate-400">${b.price.toFixed(2)}</p>
-        </Link>
-      </div>
+      <section className="section-gradient relative overflow-hidden border-b border-slate-100">
+        <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-brand-100 opacity-40 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-24 -right-16 h-72 w-72 rounded-full bg-winner-50 opacity-60 blur-3xl" />
+        <div className="container-page relative py-12 sm:py-16">
+          <p className="text-sm text-slate-400">
+            <Link href={`/${category.slug}`} className="hover:text-brand-600">
+              {category.pluralName}
+            </Link>{' '}
+            / {a.model} vs {b.model}
+          </p>
 
-      <h1 className="mt-8 text-center text-2xl font-extrabold text-slate-900 sm:text-3xl">
-        {a.model} vs {b.model}
-      </h1>
+          <div className="mt-6 grid grid-cols-[1fr_auto_1fr] items-center gap-4 sm:gap-8">
+            <Link href={`/${category.slug}/${a.slug}`} className="glass-card p-4 text-center transition hover:-translate-y-1">
+              <PlaceholderImage label={a.model} className="mx-auto aspect-square w-full max-w-[180px]" />
+              <p className="mt-2 font-bold text-slate-900">{a.model}</p>
+              <p className="text-sm text-slate-400">${a.price.toFixed(2)}</p>
+            </Link>
+            <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-slate-900 text-sm font-extrabold text-white shadow-premium sm:h-14 sm:w-14">
+              VS
+            </span>
+            <Link href={`/${category.slug}/${b.slug}`} className="glass-card p-4 text-center transition hover:-translate-y-1">
+              <PlaceholderImage label={b.model} className="mx-auto aspect-square w-full max-w-[180px]" />
+              <p className="mt-2 font-bold text-slate-900">{b.model}</p>
+              <p className="text-sm text-slate-400">${b.price.toFixed(2)}</p>
+            </Link>
+          </div>
 
-      <div className="mt-6">
-        <WinnerCard winner={winner} margin={margin} isClose={isClose} />
-      </div>
+          <h1 className="mt-8 text-center text-2xl font-extrabold tracking-tight text-slate-900 sm:text-3xl">
+            {a.model} vs {b.model}
+          </h1>
 
-      <div className="mt-8">
+          <div className="mt-4">
+            <SaveShareBar href={`/${category.slug}/${a.slug}/vs/${b.slug}`} title={`${a.model} vs ${b.model}`} />
+          </div>
+
+          <div className="mt-6">
+            <WinnerCard winner={winner} margin={margin} isClose={isClose} />
+          </div>
+        </div>
+      </section>
+
+      <div className="container-page py-12">
+      <div className="mt-2">
         <JumpNav />
       </div>
 
@@ -287,6 +303,7 @@ export default function ComparisonPage({
       <section id="alternatives" className="mt-14 scroll-mt-24">
         <RelatedLinks title="You May Also Like" pairs={related} />
       </section>
+      </div>
     </div>
   );
 }
