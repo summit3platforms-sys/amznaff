@@ -1,42 +1,18 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
-import { getAllBrands } from '@/lib/brands';
 
-// Full multi-column footer. Every link points at a real, existing route —
-// "Products" and "Brands" columns are generated from live data (categories
-// and brands only appear once they have real products), everything else
-// links to pages that already exist under app/*.
+// Trimmed multi-column footer (4 columns). Every link points at a real,
+// existing route — the "Explore" column is generated from live category
+// data, everything else links to pages that already exist under app/*.
 export default function Footer() {
-  const brands = getAllBrands().slice(0, 5);
-
   const columns: { heading: string; links: { href: string; label: string }[] }[] = [
     {
-      heading: 'Products',
+      heading: 'Explore',
       links: [
         ...categories.map((c) => ({ href: `/${c.slug}`, label: c.pluralName })),
-        { href: '/categories', label: 'All categories' }
-      ]
-    },
-    {
-      heading: 'Brands',
-      links: [...brands.map((b) => ({ href: `/brands/${b.slug}`, label: b.name })), { href: '/brands', label: 'All brands' }]
-    },
-    {
-      heading: 'Comparisons',
-      links: [
         { href: '/comparisons', label: 'All comparisons' },
         { href: '/guides', label: 'Buying guides' },
-        { href: '/compare-tool', label: 'Compare tool' },
-        { href: '/product-finder', label: 'Product finder' }
-      ]
-    },
-    {
-      heading: 'Resources',
-      links: [
-        { href: '/how-we-compare', label: 'How we compare' },
-        { href: '/our-review-process', label: 'Our review process' },
-        { href: '/faqs', label: 'FAQs' },
-        { href: '/glossary', label: 'Glossary' }
+        { href: '/brands', label: 'Brands' }
       ]
     },
     {
@@ -52,9 +28,9 @@ export default function Footer() {
       heading: 'Support',
       links: [
         { href: '/help-center', label: 'Help center' },
+        { href: '/faqs', label: 'FAQs' },
         { href: '/feedback', label: 'Feedback' },
-        { href: '/report-incorrect-info', label: 'Report incorrect info' },
-        { href: '/request-a-comparison', label: 'Request a comparison' }
+        { href: '/report-incorrect-info', label: 'Report incorrect info' }
       ]
     },
     {
@@ -63,36 +39,29 @@ export default function Footer() {
         { href: '/privacy-policy', label: 'Privacy' },
         { href: '/terms', label: 'Terms' },
         { href: '/affiliate-disclosure', label: 'Affiliate disclosure' },
-        { href: '/cookie-policy', label: 'Cookie policy' },
-        { href: '/dmca', label: 'DMCA' },
-        { href: '/accessibility', label: 'Accessibility' }
+        { href: '/cookie-policy', label: 'Cookie policy' }
       ]
     }
   ];
 
   return (
-    <footer className="relative mt-20 bg-slate-900">
-      <div className="container-page py-14">
-        <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
-          <div className="max-w-xs">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-xl bg-white text-xs font-semibold text-slate-900">
-                TCR
-              </span>
-              <span className="text-base font-medium tracking-tight text-white">
-                The Comparison <span className="text-brand-400">Report</span>
-              </span>
-            </Link>
-            <p className="mt-4 text-sm text-slate-400">
-              Head-to-head product verdicts built from structured specs — not opinion articles.
-            </p>
-          </div>
+    <footer className="mt-20 bg-slate-900">
+      <div className="container-page py-10">
+        <div className="flex flex-col gap-8 sm:flex-row sm:justify-between">
+          <Link href="/" className="flex flex-shrink-0 items-center gap-2">
+            <span className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-lg bg-white text-xs font-medium text-slate-900">
+              TCR
+            </span>
+            <span className="text-base font-medium tracking-tight text-white">
+              The Comparison <span className="text-brand-400">Report</span>
+            </span>
+          </Link>
 
-          <div className="grid flex-1 grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4 lg:gap-x-8">
+          <div className="grid grid-cols-2 gap-x-6 gap-y-8 sm:grid-cols-4 sm:gap-x-10">
             {columns.map((col) => (
               <div key={col.heading}>
-                <h3 className="text-sm font-semibold text-white">{col.heading}</h3>
-                <ul className="mt-3 space-y-2.5">
+                <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">{col.heading}</h3>
+                <ul className="mt-2.5 space-y-2">
                   {col.links.map((l) => (
                     <li key={l.href}>
                       <Link href={l.href} className="text-sm text-slate-400 hover:text-white">
@@ -106,7 +75,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-slate-800 pt-6">
+        <div className="mt-8 border-t border-slate-800 pt-6">
           <p className="max-w-2xl text-xs text-slate-500">
             As an Amazon Associate, The Comparison Report earns from qualifying purchases. This does not influence
             our comparisons, which are generated from structured product specifications. See our{' '}

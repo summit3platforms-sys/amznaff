@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import GuideSidebar from '@/components/GuideSidebar';
+import GuideThumbnail from '@/components/GuideThumbnail';
 
 export const metadata: Metadata = {
   title: 'How to Choose Wireless Headphones: A Buying Guide',
@@ -9,14 +11,18 @@ export const metadata: Metadata = {
 
 export default function HowToChooseHeadphonesGuide() {
   return (
-    <div className="container-page max-w-2xl py-12">
+    <div className="container-page py-12">
       <p className="text-sm text-slate-400">
         <Link href="/guides" className="hover:text-brand-600">
           Guides
         </Link>{' '}
         / How to Choose Wireless Headphones
       </p>
-      <h1 className="mt-2 text-3xl font-extrabold text-slate-900">How to Choose Wireless Headphones</h1>
+
+      <div className="mt-6 grid grid-cols-1 gap-10 lg:grid-cols-[1fr_280px]">
+        <div className="max-w-2xl">
+      <GuideThumbnail label="How to Choose Wireless Headphones" className="aspect-[16/7] w-full" />
+      <h1 className="mt-6 text-3xl font-extrabold text-slate-900">How to Choose Wireless Headphones</h1>
       <p className="mt-3 text-slate-500">
         Every comparison on this site scores headphones across ten categories. Here is what each one actually
         means, and which ones should carry the most weight depending on how you plan to use them.
@@ -102,6 +108,10 @@ export default function HowToChooseHeadphonesGuide() {
             and use the category scores to weight the decision toward what you actually need.
           </p>
         </section>
+      </div>
+        </div>
+
+        <GuideSidebar currentSlug="how-to-choose-headphones" />
       </div>
     </div>
   );

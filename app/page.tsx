@@ -9,13 +9,18 @@ import ComparisonPicker from '@/components/ComparisonPicker';
 import HowItWorks from '@/components/HowItWorks';
 import ComingSoonStrip from '@/components/ComingSoonStrip';
 import PricesUpdated from '@/components/PricesUpdated';
-import CategoryGroupCard from '@/components/CategoryGroupCard';
 import BrandWall from '@/components/BrandWall';
 import BestOfGrid from '@/components/BestOfGrid';
 import DealsGrid from '@/components/DealsGrid';
 import LatestComparisonsMasonry from '@/components/LatestComparisonsMasonry';
 import RecentlyViewedSection from '@/components/RecentlyViewedSection';
 import { getRealDeals } from '@/lib/bestOf';
+import SearchBar from '@/components/SearchBar';
+import CategoryIconCard from '@/components/CategoryIconCard';
+import GuideCard from '@/components/GuideCard';
+import NewReleasesGrid from '@/components/NewReleasesGrid';
+import TestimonialsSection from '@/components/TestimonialsSection';
+import { guides } from '@/data/guides';
 
 export default function HomePage() {
   // Headphones is the only live category right now — the picker and
@@ -42,7 +47,15 @@ export default function HomePage() {
             Head-to-head verdicts, not top-10 lists.
           </p>
 
-          <div className="mt-10">
+          <div className="mx-auto mt-8 max-w-md">
+            <SearchBar />
+          </div>
+
+          <p className="mx-auto mt-4 max-w-xs text-xs font-medium uppercase tracking-wide text-slate-500">
+            or pick two to compare directly
+          </p>
+
+          <div className="mt-4">
             <ComparisonPicker categorySlug={category.slug} products={products} />
           </div>
 
@@ -69,6 +82,43 @@ export default function HomePage() {
       <div className="container-page">
 
       <section className="py-12">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="text-xl font-semibold text-slate-900">Browse by category</h2>
+          <Link href="/categories" className="text-sm font-medium text-brand-600 hover:underline">
+            View all →
+          </Link>
+        </div>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+          {categoryGroups.map((group) => (
+            <CategoryIconCard key={group.name} group={group} />
+          ))}
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="text-xl font-semibold text-slate-900">Guides</h2>
+          <Link href="/guides" className="text-sm font-medium text-brand-600 hover:underline">
+            View all →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {guides.slice(0, 4).map((g) => (
+            <GuideCard key={g.slug} guide={g} />
+          ))}
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="mb-6 flex items-end justify-between">
+          <h2 className="text-xl font-semibold text-slate-900">New releases</h2>
+        </div>
+        <NewReleasesGrid limit={5} />
+      </section>
+
+      <TestimonialsSection />
+
+      <section className="py-12">
         <h2 className="mb-6 text-xl font-semibold text-slate-900">Popular comparisons</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           {popularPairs.map(({ product, competitor, categorySlug }) => {
@@ -93,20 +143,6 @@ export default function HomePage() {
           <DealsGrid category={category} />
         </section>
       )}
-
-      <section className="py-12">
-        <div className="mb-6 flex items-end justify-between">
-          <h2 className="text-xl font-semibold text-slate-900">Browse by category</h2>
-          <Link href="/categories" className="text-sm font-medium text-brand-600 hover:underline">
-            View all →
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {categoryGroups.map((group) => (
-            <CategoryGroupCard key={group.name} group={group} />
-          ))}
-        </div>
-      </section>
 
       <section className="py-12">
         <h2 className="mb-6 text-xl font-semibold text-slate-900">Brands we cover</h2>

@@ -1,10 +1,11 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { categories, getCategory } from '@/data/categories';
-import { getProductsByCategory } from '@/lib/products';
+import { getAllComparisonPairs, getProductsByCategory } from '@/lib/products';
 import { productMatchesFilter } from '@/lib/filters';
 import ProductCard from '@/components/ProductCard';
 import FilterTags from '@/components/FilterTags';
+import VsCard from '@/components/VsCard';
 
 export function generateStaticParams() {
   return categories.map((c) => ({ category: c.slug }));
@@ -32,6 +33,7 @@ export default function CategoryPage({
   const allProducts = getProductsByCategory(category.slug);
   const activeFilter = category.filters.find((f) => f.slug === searchParams.filter);
   const products = activeFilter ? allProducts.filter((p) => productMatchesFilter(p, activeFilter)) : allProducts;
+  const comparisonPairs = getAllComparisonPairs(category.slug);
 
   return (
     <div className="container-page py-12">
@@ -50,6 +52,17 @@ export default function CategoryPage({
 
       {products.length === 0 && (
         <p className="mt-10 text-center text-slate-400">No models match this filter yet.</p>
+      )}
+
+      {comparisonPairs.length > 0 && (
+        <section className="mt-16">
+          <h2 className="mb-6 text-xl font-semibold text-slate-900">All {category.pluralName.toLowerCase()} comparisons</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {comparisonPairs.map(({ product, competitor }) => (
+              <VsCard key={`${product.id}-${competitor.id}`} product={product} competitor={competitor} category={category} />
+            ))}
+          </div>
+        </section>
       )}
     </div>
   );
