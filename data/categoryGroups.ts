@@ -38,7 +38,7 @@ export const categoryGroups: CategoryGroup[] = [
     items: [
       { name: 'Bluetooth Speakers' },
       { name: 'Wireless Earbuds' },
-      { name: 'Noise-Canceling Headphones', slug: 'headphones' },
+      { name: 'Headphones', slug: 'headphones' },
       { name: 'Soundbars' },
       { name: 'Home Speakers' }
     ]
