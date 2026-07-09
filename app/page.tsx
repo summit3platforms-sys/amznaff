@@ -136,19 +136,9 @@ export default function HomePage() {
         <LatestComparisonsMasonry limit={6} />
       </section>
 
-      <section className="py-12">
-        <div className="section-gradient card p-8 sm:p-10">
-          <h2 className="text-xl font-semibold text-slate-900">Stay updated</h2>
-          <p className="mt-1.5 max-w-md text-sm text-slate-500">
-            Get notified as new categories and comparisons go live.
-          </p>
-          <div className="mt-5">
-            <ComingSoonStrip />
-          </div>
-        </div>
-      </section>
-
       <TestimonialsSection />
+
+      <ComingSoonStrip />
       </div>
     </div>
   );
