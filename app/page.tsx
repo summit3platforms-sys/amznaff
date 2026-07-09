@@ -3,17 +3,11 @@ import { getCategory } from '@/data/categories';
 import { categoryGroups } from '@/data/categoryGroups';
 import { getProductsByCategory } from '@/lib/products';
 import { getAllComparisonsAcrossCategories, getDiversePopularComparisons } from '@/lib/comparisons';
-import ProductCard from '@/components/ProductCard';
 import VsCard from '@/components/VsCard';
 import ComparisonPicker from '@/components/ComparisonPicker';
-import HowItWorks from '@/components/HowItWorks';
 import ComingSoonStrip from '@/components/ComingSoonStrip';
-import PricesUpdated from '@/components/PricesUpdated';
-import BrandWall from '@/components/BrandWall';
-import BestOfGrid from '@/components/BestOfGrid';
 import DealsGrid from '@/components/DealsGrid';
 import LatestComparisonsMasonry from '@/components/LatestComparisonsMasonry';
-import RecentlyViewedSection from '@/components/RecentlyViewedSection';
 import { getRealDeals } from '@/lib/bestOf';
 import SearchBar from '@/components/SearchBar';
 import CategoryIconCard from '@/components/CategoryIconCard';
@@ -116,8 +110,6 @@ export default function HomePage() {
         <NewReleasesGrid limit={5} />
       </section>
 
-      <TestimonialsSection />
-
       <section className="py-12">
         <h2 className="mb-6 text-xl font-semibold text-slate-900">Popular comparisons</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -127,11 +119,6 @@ export default function HomePage() {
             return <VsCard key={`${product.id}-${competitor.id}`} product={product} competitor={competitor} category={pairCategory} />;
           })}
         </div>
-      </section>
-
-      <section className="py-12">
-        <h2 className="mb-6 text-xl font-semibold text-slate-900">Best {category.pluralName.toLowerCase()} by need</h2>
-        <BestOfGrid category={category} />
       </section>
 
       {hasDeals && (
@@ -145,34 +132,8 @@ export default function HomePage() {
       )}
 
       <section className="py-12">
-        <h2 className="mb-6 text-xl font-semibold text-slate-900">Brands we cover</h2>
-        <BrandWall />
-      </section>
-
-      <section className="py-12">
-        <div className="mb-1 flex items-end justify-between">
-          <h2 className="text-xl font-medium text-slate-900">{category.pluralName}</h2>
-          <Link href={`/${category.slug}`} className="text-sm text-brand-600 hover:underline">
-            View all →
-          </Link>
-        </div>
-        <PricesUpdated className="mb-6" />
-        <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 lg:grid-cols-5">
-          {products.map((p) => (
-            <ProductCard key={p.id} product={p} />
-          ))}
-        </div>
-      </section>
-
-      <section className="py-12">
         <h2 className="mb-6 text-xl font-semibold text-slate-900">Latest comparisons</h2>
         <LatestComparisonsMasonry limit={6} />
-      </section>
-
-      <RecentlyViewedSection />
-
-      <section className="py-8">
-        <HowItWorks />
       </section>
 
       <section className="py-12">
@@ -186,6 +147,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <TestimonialsSection />
       </div>
     </div>
   );
