@@ -20,7 +20,6 @@ export default function Footer() {
       links: [
         { href: '/about', label: 'About' },
         { href: '/careers', label: 'Careers' },
-        { href: '/press', label: 'Press' },
         { href: '/contact', label: 'Contact' }
       ]
     },
