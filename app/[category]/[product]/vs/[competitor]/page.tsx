@@ -54,7 +54,9 @@ export function generateMetadata({
   if (!category || !a || !b) return {};
   return {
     title: `${a.model} vs ${b.model}: Which Should You Buy?`,
-    description: `${a.model} vs ${b.model} compared on battery, noise cancelling, comfort, sound, calls, travel, gaming, and value — full spec breakdown and buying advice.`
+    description: `${a.model} vs ${b.model} compared on ${category.scoreDimensions
+      .map((d) => d.label.toLowerCase())
+      .join(', ')} — full spec breakdown and buying advice.`
   };
 }
 
@@ -138,7 +140,7 @@ export default function ComparisonPage({
 
       <div className="container-page py-12">
       <div className="mt-2">
-        <JumpNav />
+        <JumpNav category={category} />
       </div>
 
       {/* Quick verdict */}
@@ -163,73 +165,30 @@ export default function ComparisonPage({
         </div>
       </section>
 
-      {/* Deep-dive sections addressing every search intent on one page */}
-      <section id="battery" className="mt-14 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Battery Life</h2>
-        <p className="text-slate-600">
-          The {a.model} is rated for up to {String(a.specs.battery)} hours with ANC on
-          {a.specs.batteryAncOff ? ` (${String(a.specs.batteryAncOff)} hours with ANC off)` : ''}, while the{' '}
-          {b.model} is rated for up to {String(b.specs.battery)} hours with ANC on
-          {b.specs.batteryAncOff ? ` (${String(b.specs.batteryAncOff)} hours with ANC off)` : ''}. Quick charge gets
-          the {a.model} roughly 3 hours of playback from a {String(a.specs.quickCharge)}-minute top-up, versus a{' '}
-          {String(b.specs.quickCharge)}-minute top-up for the {b.model}.
-        </p>
-      </section>
-
-      <section id="anc" className="mt-10 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Noise Cancelling</h2>
-        <p className="text-slate-600">
-          On our noise cancelling score, the {a.model} rates {a.scores.anc?.toFixed(1)}/10 versus{' '}
-          {b.scores.anc?.toFixed(1)}/10 for the {b.model}. {winner.model} carries the ANC edge overall in this
-          matchup based on the combined scoring above — see the Scores section for the full category breakdown.
-        </p>
-      </section>
-
-      <section id="comfort" className="mt-10 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Comfort</h2>
-        <p className="text-slate-600">
-          The {a.model} weighs {String(a.specs.weight)}g and scores {a.scores.comfort?.toFixed(1)}/10 for comfort;
-          the {b.model} weighs {String(b.specs.weight)}g and scores {b.scores.comfort?.toFixed(1)}/10. Lighter
-          weight generally means less clamp fatigue over multi-hour sessions.
-        </p>
-      </section>
-
-      <section id="sound" className="mt-10 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Sound Quality</h2>
-        <p className="text-slate-600">
-          Sound quality scores: {a.model} {a.scores.sound?.toFixed(1)}/10, {b.model} {b.scores.sound?.toFixed(1)}
-          /10. Driver size is {String(a.specs.driverSize)}mm on the {a.model} versus {String(b.specs.driverSize)}mm
-          on the {b.model} — larger drivers don&apos;t guarantee better sound, but they&apos;re one input into tuning.
-        </p>
-      </section>
-
-      <section id="calls" className="mt-10 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Calls &amp; Microphone</h2>
-        <p className="text-slate-600">
-          The {a.model} uses a {String(a.specs.micCount)}-microphone array and scores{' '}
-          {a.scores.calls?.toFixed(1)}/10 for calls, while the {b.model} uses {String(b.specs.micCount)} microphones
-          and scores {b.scores.calls?.toFixed(1)}/10.
-        </p>
-      </section>
-
-      <section id="travel" className="mt-10 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Travel</h2>
-        <p className="text-slate-600">
-          For travel we weight battery life, ANC, and foldability together. The {a.model} scores{' '}
-          {a.scores.travel?.toFixed(1)}/10 and {String(a.specs.foldable) === 'true' ? 'folds flat' : 'does not fold flat'}; the{' '}
-          {b.model} scores {b.scores.travel?.toFixed(1)}/10 and{' '}
-          {String(b.specs.foldable) === 'true' ? 'folds flat' : 'does not fold flat'}.
-        </p>
-      </section>
-
-      <section id="gaming" className="mt-10 scroll-mt-24">
-        <h2 className="mb-3 text-xl font-bold text-slate-900">Gaming</h2>
-        <p className="text-slate-600">
-          Neither model is a dedicated gaming headset, but relative gaming scores are {a.scores.gaming?.toFixed(1)}
-          /10 for the {a.model} and {b.scores.gaming?.toFixed(1)}/10 for the {b.model}. For latency-sensitive games,
-          a wired connection is recommended for either.
-        </p>
-      </section>
+      {/* Deep-dive sections addressing every search intent on one page —
+          one section per category.scoreDimensions entry, so this works for
+          headphones, TVs, or any future category without hardcoding spec
+          keys here. */}
+      {category.scoreDimensions.map((dim, i) => {
+        const scoreA = a.scores[dim.key] ?? 0;
+        const scoreB = b.scores[dim.key] ?? 0;
+        const leader = scoreA >= scoreB ? a : b;
+        const leaderScore = scoreA >= scoreB ? scoreA : scoreB;
+        const otherScore = scoreA >= scoreB ? scoreB : scoreA;
+        const isTie = Math.abs(scoreA - scoreB) < 0.15;
+        return (
+          <section key={dim.key} id={dim.key} className={i === 0 ? 'mt-14 scroll-mt-24' : 'mt-10 scroll-mt-24'}>
+            <h2 className="mb-3 text-xl font-bold text-slate-900">{dim.label}</h2>
+            <p className="text-slate-600">
+              On {dim.label.toLowerCase()}, the {a.model} scores {scoreA.toFixed(1)}/10 versus {scoreB.toFixed(1)}
+              /10 for the {b.model} — {dim.description.toLowerCase()}.{' '}
+              {isTie
+                ? `The two are essentially tied here.`
+                : `The ${leader.model} has the edge (${leaderScore.toFixed(1)} vs ${otherScore.toFixed(1)}).`}
+            </p>
+          </section>
+        );
+      })}
 
       {/* Best for */}
       <section id="best-for" className="mt-14 scroll-mt-24">

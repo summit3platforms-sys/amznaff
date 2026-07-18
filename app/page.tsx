@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { getCategory } from '@/data/categories';
+import { categories, getCategory } from '@/data/categories';
 import { categoryGroups } from '@/data/categoryGroups';
-import { getProductsByCategory } from '@/lib/products';
+import { getAllProducts, getProductsByCategory } from '@/lib/products';
 import { getAllComparisonsAcrossCategories, getDiversePopularComparisons } from '@/lib/comparisons';
 import VsCard from '@/components/VsCard';
 import ComparisonPicker from '@/components/ComparisonPicker';
@@ -17,15 +17,21 @@ import TestimonialsSection from '@/components/TestimonialsSection';
 import { guides } from '@/data/guides';
 
 export default function HomePage() {
-  // Headphones is the only live category right now — the picker and
-  // product grid both key off it. Once a second category goes live, this
-  // can become a small category selector instead of a hardcoded lookup.
-  const category = getCategory('headphones')!;
+  // Hero picker + deals grid feature whichever live category currently has
+  // the most products (not hardcoded), so this stays correct automatically
+  // as categories go live, go empty, or overtake each other in size.
+  const liveCategory =
+    categories
+      .map((c) => ({ c, count: getProductsByCategory(c.slug).length }))
+      .filter((x) => x.count > 0)
+      .sort((a, b) => b.count - a.count)[0]?.c ?? categories[0];
+  const category = liveCategory;
   const products = getProductsByCategory(category.slug);
   const totalComparisons = getAllComparisonsAcrossCategories().length;
   const popularPairs = getDiversePopularComparisons(6);
   const heroChips = popularPairs.slice(0, 4);
   const hasDeals = getRealDeals(category, 1).length > 0;
+  const hasAnyProducts = getAllProducts().length > 0;
 
   return (
     <div>
@@ -45,17 +51,23 @@ export default function HomePage() {
             <SearchBar />
           </div>
 
-          <p className="mx-auto mt-4 max-w-xs text-xs font-medium uppercase tracking-wide text-slate-500">
-            or pick two to compare directly
-          </p>
+          {products.length >= 2 ? (
+            <>
+              <p className="mx-auto mt-4 max-w-xs text-xs font-medium uppercase tracking-wide text-slate-500">
+                or pick two to compare directly
+              </p>
 
-          <div className="mt-4">
-            <ComparisonPicker categorySlug={category.slug} products={products} />
-          </div>
+              <div className="mt-4">
+                <ComparisonPicker categorySlug={category.slug} products={products} />
+              </div>
 
-          <p className="mt-5 text-sm text-slate-500">
-            {totalComparisons} head-to-head verdicts · {category.pluralName.toLowerCase()} live now
-          </p>
+              <p className="mt-5 text-sm text-slate-500">
+                {totalComparisons} head-to-head verdicts · {category.pluralName.toLowerCase()} live now
+              </p>
+            </>
+          ) : (
+            <p className="mt-5 text-sm text-slate-500">New comparisons launching soon.</p>
+          )}
 
           {heroChips.length > 0 && (
             <div className="mt-6 flex flex-wrap items-center justify-center gap-2">
@@ -103,23 +115,27 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-12">
-        <div className="mb-6 flex items-end justify-between">
-          <h2 className="text-xl font-semibold text-slate-900">New releases</h2>
-        </div>
-        <NewReleasesGrid limit={5} />
-      </section>
+      {hasAnyProducts && (
+        <section className="py-12">
+          <div className="mb-6 flex items-end justify-between">
+            <h2 className="text-xl font-semibold text-slate-900">New releases</h2>
+          </div>
+          <NewReleasesGrid limit={5} />
+        </section>
+      )}
 
-      <section className="py-12">
-        <h2 className="mb-6 text-xl font-semibold text-slate-900">Popular comparisons</h2>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {popularPairs.map(({ product, competitor, categorySlug }) => {
-            const pairCategory = getCategory(categorySlug);
-            if (!pairCategory) return null;
-            return <VsCard key={`${product.id}-${competitor.id}`} product={product} competitor={competitor} category={pairCategory} />;
-          })}
-        </div>
-      </section>
+      {popularPairs.length > 0 && (
+        <section className="py-12">
+          <h2 className="mb-6 text-xl font-semibold text-slate-900">Popular comparisons</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {popularPairs.map(({ product, competitor, categorySlug }) => {
+              const pairCategory = getCategory(categorySlug);
+              if (!pairCategory) return null;
+              return <VsCard key={`${product.id}-${competitor.id}`} product={product} competitor={competitor} category={pairCategory} />;
+            })}
+          </div>
+        </section>
+      )}
 
       {hasDeals && (
         <section className="py-12">
@@ -131,10 +147,12 @@ export default function HomePage() {
         </section>
       )}
 
-      <section className="py-12">
-        <h2 className="mb-6 text-xl font-semibold text-slate-900">Latest comparisons</h2>
-        <LatestComparisonsMasonry limit={6} />
-      </section>
+      {totalComparisons > 0 && (
+        <section className="py-12">
+          <h2 className="mb-6 text-xl font-semibold text-slate-900">Latest comparisons</h2>
+          <LatestComparisonsMasonry limit={6} />
+        </section>
+      )}
 
       <TestimonialsSection />
 

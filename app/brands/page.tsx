@@ -18,16 +18,20 @@ export default function BrandsPage() {
         more categories, more brands will show up here.
       </p>
 
-      <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {brands.map((b) => (
-          <Link key={b.slug} href={`/brands/${b.slug}`} className="card p-5 transition hover:border-brand-400">
-            <p className="font-semibold text-slate-900">{b.name}</p>
-            <p className="mt-1 text-sm text-slate-400">
-              {b.productCount} {b.productCount === 1 ? 'product' : 'products'}
-            </p>
-          </Link>
-        ))}
-      </div>
+      {brands.length > 0 ? (
+        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+          {brands.map((b) => (
+            <Link key={b.slug} href={`/brands/${b.slug}`} className="card p-5 transition hover:border-brand-400">
+              <p className="font-semibold text-slate-900">{b.name}</p>
+              <p className="mt-1 text-sm text-slate-400">
+                {b.productCount} {b.productCount === 1 ? 'product' : 'products'}
+              </p>
+            </Link>
+          ))}
+        </div>
+      ) : (
+        <p className="mt-10 text-center text-slate-400">No brands live yet — check back soon.</p>
+      )}
     </div>
   );
 }

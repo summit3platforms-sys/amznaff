@@ -123,21 +123,12 @@ function buildChooseList(subject: Product, other: Product, category: Category): 
 }
 
 function dimensionReason(product: Product, dim: ScoreDimension): string {
-  const templates: Record<string, string> = {
-    battery: `You want maximum battery life — the ${product.model} runs up to ${product.specs.battery} hours on a charge.`,
-    anc: `Noise cancelling is your top priority — the ${product.model} scores ${product.scores.anc?.toFixed(
-      1
-    )}/10 for blocking ambient noise.`,
-    comfort: `You wear headphones for hours at a time and need superior comfort.`,
-    sound: `Sound quality matters most to you — the ${product.model} is tuned for detail and clarity.`,
-    calls: `You're on calls constantly and need clear mic pickup with background noise rejection.`,
-    travel: `You travel often and want reliable ANC, a compact fold, and long battery life on planes.`,
-    gaming: `You care about low latency for gaming or watching video without audio lag.`,
-    value: `You want the most performance for the lowest price.`,
-    durability: `You want the most durable build quality for daily heavy use.`,
-    features: `You want the deepest app ecosystem and extra features like spatial audio or multipoint.`
-  };
-  return templates[dim.key] ?? `The ${product.model} performs better on ${dim.label.toLowerCase()}.`;
+  // Fully generic, driven only by the category's own scoreDimensions (label +
+  // description) and the product's scores — works for any category, not just
+  // headphones, without needing a hardcoded per-key template map.
+  return `${dim.label} matters most to you — the ${product.model} scores ${product.scores[dim.key]?.toFixed(
+    1
+  )}/10 here (${dim.description.toLowerCase()}).`;
 }
 
 function buildFaqs(
@@ -146,6 +137,10 @@ function buildFaqs(
   category: Category,
   winner: Product
 ): { question: string; answer: string }[] {
+  // Fully generic — driven only by category.scoreDimensions, product.scores,
+  // product.useCases, and other fields present on every Product regardless
+  // of category, so this works unmodified for headphones, TVs, or anything
+  // added later without hardcoding category-specific spec keys.
   const faqs: { question: string; answer: string }[] = [];
 
   faqs.push({
@@ -153,13 +148,17 @@ function buildFaqs(
     answer: `Based on our ${category.scoreDimensions.length}-category scoring, the ${winner.model} comes out ahead overall. See the full breakdown in the scores section above — the right pick still depends on which categories matter most for your use case.`
   });
 
-  faqs.push({
-    question: `Which has better battery life, the ${a.model} or the ${b.model}?`,
-    answer:
-      (a.specs.battery as number) >= (b.specs.battery as number)
-        ? `The ${a.model} lasts longer, rated for up to ${a.specs.battery} hours with ANC on versus ${b.specs.battery} hours for the ${b.model}.`
-        : `The ${b.model} lasts longer, rated for up to ${b.specs.battery} hours with ANC on versus ${a.specs.battery} hours for the ${a.model}.`
-  });
+  const diffs = topDifferentiators(a, b, category, 4);
+  for (const dim of diffs) {
+    const leader = leaderOnDimension(a, b, dim.key);
+    const other = leader.id === a.id ? b : a;
+    faqs.push({
+      question: `Which is better for ${dim.label.toLowerCase()}, the ${a.model} or the ${b.model}?`,
+      answer: `The ${leader.model} scores higher on ${dim.label.toLowerCase()} (${leader.scores[dim.key]?.toFixed(
+        1
+      )}/10 vs ${other.scores[dim.key]?.toFixed(1)}/10) — ${dim.description.toLowerCase()}.`
+    });
+  }
 
   faqs.push({
     question: `Is the ${a.model} worth the price difference over the ${b.model}?`,
@@ -173,48 +172,18 @@ function buildFaqs(
           }.`
   });
 
-  faqs.push({
-    question: `Which is better for travel, the ${a.model} or the ${b.model}?`,
-    answer: `For travel, we weight battery life, ANC performance, and foldability. The ${
-      leaderOnDimension(a, b, 'travel').model
-    } scores higher here (${leaderOnDimension(a, b, 'travel').scores.travel?.toFixed(1)}/10).`
-  });
-
-  faqs.push({
-    question: `Which has better noise cancelling?`,
-    answer: `The ${leaderOnDimension(a, b, 'anc').model} has the stronger ANC, scoring ${leaderOnDimension(
-      a,
-      b,
-      'anc'
-    ).scores.anc?.toFixed(1)}/10 versus ${
-      (leaderOnDimension(a, b, 'anc').id === a.id ? b : a).scores.anc?.toFixed(1)
-    }/10.`
-  });
-
-  faqs.push({
-    question: `Can I use the ${a.model} and ${b.model} for gaming?`,
-    answer: `Both support standard Bluetooth audio, but neither is purpose-built for competitive gaming latency. Between the two, the ${
-      leaderOnDimension(a, b, 'gaming').model
-    } scores better for gaming use (${leaderOnDimension(a, b, 'gaming').scores.gaming?.toFixed(1)}/10). For latency-critical gaming, a wired connection is recommended for either.`
-  });
-
-  faqs.push({
-    question: `Do the ${a.model} and ${b.model} support multipoint Bluetooth pairing?`,
-    answer: `${a.specs.multipoint ? `Yes, the ${a.model} supports multipoint.` : `No, the ${a.model} does not support multipoint.`} ${
-      b.specs.multipoint ? `Yes, the ${b.model} supports multipoint too.` : `The ${b.model} does not support multipoint.`
-    }`
-  });
-
-  faqs.push({
-    question: `Which is more comfortable for long listening sessions?`,
-    answer: `The ${leaderOnDimension(a, b, 'comfort').model} scores higher on comfort (${leaderOnDimension(
-      a,
-      b,
-      'comfort'
-    ).scores.comfort?.toFixed(1)}/10), largely due to clamp force, padding, and weight — the ${a.model} weighs ${
-      a.specs.weight
-    }g and the ${b.model} weighs ${b.specs.weight}g.`
-  });
+  const uniqueUseCasesA = a.useCases.filter((uc) => !b.useCases.includes(uc));
+  const uniqueUseCasesB = b.useCases.filter((uc) => !a.useCases.includes(uc));
+  if (uniqueUseCasesA.length > 0 || uniqueUseCasesB.length > 0) {
+    faqs.push({
+      question: `Which is better suited to my use case?`,
+      answer: `The ${a.model} is the better fit if you mainly care about ${
+        (uniqueUseCasesA.length > 0 ? uniqueUseCasesA : a.useCases).slice(0, 2).join(' or ')
+      }. The ${b.model} is the better fit for ${
+        (uniqueUseCasesB.length > 0 ? uniqueUseCasesB : b.useCases).slice(0, 2).join(' or ')
+      }.`
+    });
+  }
 
   faqs.push({
     question: `What's the warranty on the ${a.model} vs the ${b.model}?`,

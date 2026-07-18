@@ -87,4 +87,9 @@ export type Product = {
   accessorySlugs?: string[];
   useCases: string[]; // e.g. ["travel", "gaming", "office", "commute"]
   shortTagline: string;
+  /** False for products confirmed NOT sold on US Amazon (e.g. EU/UK-only
+   * models). When false, amazonAsin is '' and price/msrp are a USD-converted
+   * estimate from the product's home-market price for comparison purposes
+   * only — UI should hide/replace the "Buy on Amazon" button. */
+  usAvailable?: boolean;
 };

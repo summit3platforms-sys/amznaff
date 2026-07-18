@@ -46,6 +46,47 @@ export const categories: Category[] = [
       { slug: 'office', label: 'Office', kind: 'use-case' },
       { slug: 'workout', label: 'Workouts', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'tv',
+    name: 'TV',
+    pluralName: 'TVs',
+    description:
+      'Flagship and mid-range OLED TVs compared spec-for-spec — panel technology, peak brightness, refresh rate, gaming features, and smart platform — so you know exactly which one to buy.',
+    specFields: [
+      { key: 'screenSize', label: 'Screen Size', unit: 'in', betterDirection: 'none' },
+      { key: 'panelType', label: 'Panel Type', betterDirection: 'none' },
+      { key: 'resolution', label: 'Resolution', betterDirection: 'none' },
+      { key: 'peakBrightness', label: 'Peak Brightness', unit: 'nits', betterDirection: 'higher' },
+      { key: 'refreshRate', label: 'Refresh Rate', unit: 'Hz', betterDirection: 'higher' },
+      { key: 'processor', label: 'Processor', betterDirection: 'none' },
+      { key: 'hdmi21Ports', label: 'HDMI 2.1 Ports', unit: 'ports', betterDirection: 'higher' },
+      { key: 'hdrFormats', label: 'HDR Formats', betterDirection: 'none' },
+      { key: 'smartPlatform', label: 'Smart Platform', betterDirection: 'none' },
+      { key: 'variableRefreshRate', label: 'Variable Refresh Rate (VRR)', betterDirection: 'none' },
+      { key: 'audioSystem', label: 'Built-in Audio System', betterDirection: 'none' },
+      { key: 'dolbyAtmos', label: 'Built-in Dolby Atmos', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'picture', label: 'Picture Quality', description: 'Panel technology, contrast, and color accuracy' },
+      { key: 'brightness', label: 'Brightness & HDR', description: 'Peak nits and HDR format support for highlight detail' },
+      { key: 'gaming', label: 'Gaming Features', description: 'Refresh rate, VRR, input lag, and console support' },
+      { key: 'smartPlatform', label: 'Smart Platform', description: 'OS responsiveness, app ecosystem, and voice assistant support' },
+      { key: 'sound', label: 'Built-in Sound', description: 'Onboard speaker power, clarity, and Dolby Atmos support' },
+      { key: 'design', label: 'Design & Build', description: 'Panel thinness, bezels, stand/mount options, and finish' },
+      { key: 'connectivity', label: 'Connectivity', description: 'HDMI 2.1 port count and other I/O for consoles and soundbars' },
+      { key: 'value', label: 'Value', description: 'Performance and features relative to price' }
+    ],
+    filters: [
+      { slug: 'under-2000', label: 'Under $2,000', kind: 'price-max', value: 2000 },
+      { slug: 'under-3000', label: 'Under $3,000', kind: 'price-max', value: 3000 },
+      { slug: 'under-4000', label: 'Under $4,000', kind: 'price-max', value: 4000 },
+      { slug: 'under-6000', label: 'Under $6,000', kind: 'price-max', value: 6000 },
+      { slug: 'gaming', label: 'Gaming', kind: 'use-case' },
+      { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
+      { slug: 'flagship', label: 'Flagship', kind: 'use-case' },
+      { slug: 'wall-mounted', label: 'Wall-Mounted / Space-Saving', kind: 'use-case' }
+    ]
   }
 ];
 

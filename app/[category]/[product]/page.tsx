@@ -18,7 +18,11 @@ export function generateMetadata({ params }: { params: { category: string; produ
   const product = getProductBySlug(params.category, params.product);
   if (!product) return {};
   return {
-    title: `${product.brand} ${product.model} Review — Specs, Price & Best Alternatives`,
+    // Hub-style title (not a "review") — each product page is a comparison
+    // hub linking out to every relevant "X vs Y" page, matching the site's
+    // comparison-first architecture rather than reading as a standalone
+    // review article.
+    title: `${product.model}: Specs, Features, Price & Comparisons`,
     description: product.shortTagline
   };
 }
