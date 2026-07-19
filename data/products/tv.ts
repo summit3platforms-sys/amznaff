@@ -591,7 +591,12 @@ export const tvProducts: Product[] = [
       'Only 2 of 4 HDMI ports are full-bandwidth HDMI 2.1',
       'Available in just 55" and 65" sizes'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/sony-bravia-8-ii.webp',
+        alt: 'Sony BRAVIA 8 II'
+      }
+    ],
     amazonAsin: 'B0DYK7Y2YB',
     rating: 0,
     ratingCount: 0,
@@ -655,7 +660,12 @@ export const tvProducts: Product[] = [
       'Only 2 of 4 HDMI ports are full-bandwidth HDMI 2.1',
       '120Hz cap, no 165Hz mode'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/sony-a95l.jpg',
+        alt: 'Sony A95L'
+      }
+    ],
     amazonAsin: 'B0BYPYRH4F',
     rating: 0,
     ratingCount: 0,
@@ -793,7 +803,12 @@ export const tvProducts: Product[] = [
       'Price shown is converted from UK pricing (£1,499) for comparison purposes only',
       '144Hz refresh, below the LG/Samsung 165Hz flagships'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/panasonic-z90b.jpg',
+        alt: 'Panasonic Z90B'
+      }
+    ],
     amazonAsin: '',
     usAvailable: false,
     rating: 0,
@@ -931,7 +946,12 @@ export const tvProducts: Product[] = [
       "Price shown is an estimate based on the predecessor OLED910's UK launch price; official 2026 pricing has not been announced",
       'New Titan OS platform is unproven versus webOS, Tizen, or Google TV'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/philips-oled911.webp',
+        alt: 'Philips OLED911'
+      }
+    ],
     amazonAsin: '',
     usAvailable: false,
     rating: 0,
@@ -995,7 +1015,12 @@ export const tvProducts: Product[] = [
       'Price shown is estimated from the predecessor OLED810\'s 77" UK launch price — no confirmed 65" pricing exists yet for the OLED811',
       'Official 2026 pricing and full availability have not been announced'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/philips-oled811.webp',
+        alt: 'Philips OLED811'
+      }
+    ],
     amazonAsin: '',
     usAvailable: false,
     rating: 0,
