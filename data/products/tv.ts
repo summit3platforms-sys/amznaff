@@ -236,7 +236,12 @@ export const tvProducts: Product[] = [
       'No flush wall mount included',
       'Peak brightness not independently confirmed at review time'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/lg-c6.avif',
+        alt: 'LG C6'
+      }
+    ],
     amazonAsin: 'B0GRK5D3RW',
     rating: 0,
     ratingCount: 0,
@@ -300,7 +305,12 @@ export const tvProducts: Product[] = [
       '120Hz native panel vs 165Hz on the C6/G6/W6',
       'Base 2.0-channel 20W speakers'
     ],
-    images: [],
+    images: [
+      {
+        url: '/images/products/tv/lg-b6.avif',
+        alt: 'LG B6'
+      }
+    ],
     amazonAsin: 'B0GRKHPSZK',
     rating: 0,
     ratingCount: 0,
