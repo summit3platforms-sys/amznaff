@@ -55,7 +55,11 @@ export default function ProductPage({ params }: { params: { category: string; pr
       </p>
 
       <div className="mt-4 grid grid-cols-1 gap-10 lg:grid-cols-2">
-        <PlaceholderImage label={`${product.brand} ${product.model}`} className="aspect-square" />
+        <PlaceholderImage
+          label={`${product.brand} ${product.model}`}
+          className="aspect-square"
+          src={product.images[0]?.url}
+        />
         <div>
           <span className="pill mb-3">{product.brand} · {product.series}</span>
           <h1 className="text-3xl font-extrabold text-slate-900">{product.model}</h1>

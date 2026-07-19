@@ -110,7 +110,11 @@ export default function ComparisonPage({
 
           <div className="mt-6 grid grid-cols-[1fr_auto_1fr] items-center gap-4 sm:gap-8">
             <Link href={`/${category.slug}/${a.slug}`} className="glass-card p-4 text-center transition hover:-translate-y-1">
-              <PlaceholderImage label={a.model} className="mx-auto aspect-square w-full max-w-[180px]" />
+              <PlaceholderImage
+                label={a.model}
+                className="mx-auto aspect-square w-full max-w-[180px]"
+                src={a.images[0]?.url}
+              />
               <p className="mt-2 font-bold text-slate-900">{a.model}</p>
               <p className="text-sm text-slate-400">${a.price.toFixed(2)}</p>
             </Link>
@@ -118,7 +122,11 @@ export default function ComparisonPage({
               VS
             </span>
             <Link href={`/${category.slug}/${b.slug}`} className="glass-card p-4 text-center transition hover:-translate-y-1">
-              <PlaceholderImage label={b.model} className="mx-auto aspect-square w-full max-w-[180px]" />
+              <PlaceholderImage
+                label={b.model}
+                className="mx-auto aspect-square w-full max-w-[180px]"
+                src={b.images[0]?.url}
+              />
               <p className="mt-2 font-bold text-slate-900">{b.model}</p>
               <p className="text-sm text-slate-400">${b.price.toFixed(2)}</p>
             </Link>

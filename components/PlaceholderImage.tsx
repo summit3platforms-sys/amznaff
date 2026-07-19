@@ -1,8 +1,33 @@
-// Branded placeholder shown until real product photography is added (see
-// README — amazonAsin/images are the two fields that need real data before
-// launch). Renders a subtle icon instead of a literal "Image" label so
-// cards don't look broken while photos are pending.
-export default function PlaceholderImage({ label, className = '' }: { label: string; className?: string }) {
+import Image from 'next/image';
+
+// Renders the real product photo when one is available (product.images[0]),
+// falling back to a branded placeholder icon otherwise — so cards never
+// look broken for categories/products that don't have photography yet.
+// `src` should come from Product["images"][0]?.url; leave it undefined to
+// always render the placeholder.
+export default function PlaceholderImage({
+  label,
+  className = '',
+  src
+}: {
+  label: string;
+  className?: string;
+  src?: string;
+}) {
+  if (src) {
+    return (
+      <div className={`relative overflow-hidden rounded-2xl bg-slate-50 ${className}`}>
+        <Image
+          src={src}
+          alt={label}
+          fill
+          sizes="(max-width: 768px) 50vw, 400px"
+          className="object-contain p-3"
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       role="img"

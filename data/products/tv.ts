@@ -92,7 +92,14 @@ export const tvProducts: Product[] = [
       'Not yet confirmed as sold directly on Amazon.com at launch — check LG.com or Best Buy',
       'webOS still carries ads on the home screen'
     ],
-    images: [],
+    images: [
+      {
+        // Official LG global newsroom press image (CES 2026 Wallpaper TV
+        // announcement, which also included a G6 press photo).
+        url: 'https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/media-entertainment-solution/lg-unveils-the-wallpaper-tv-the-worlds-thinnest-true-wireless-oled-tv/lg-oled-evo-g6.jpg',
+        alt: 'LG OLED evo G6'
+      }
+    ],
     amazonAsin: '',
     rating: 0,
     ratingCount: 0,
@@ -157,7 +164,14 @@ export const tvProducts: Product[] = [
       'Wireless box adds setup complexity versus a standard TV',
       'Not yet confirmed as sold directly on Amazon.com at launch'
     ],
-    images: [],
+    images: [
+      {
+        // Official LG global newsroom press image (CES 2026 Wallpaper TV
+        // announcement).
+        url: 'https://www.lg.com/content/dam/channel/wcms/global/newsroom/news/media-entertainment-solution/lg-unveils-the-wallpaper-tv-the-worlds-thinnest-true-wireless-oled-tv/lg-oled-evo-w6-1.jpg',
+        alt: 'LG OLED evo W6'
+      }
+    ],
     amazonAsin: '',
     rating: 0,
     ratingCount: 0,
@@ -353,7 +367,14 @@ export const tvProducts: Product[] = [
       'Premium pricing near the top of the category',
       'Not yet confirmed as sold directly on Amazon.com at launch — check Samsung.com, Best Buy, or Target'
     ],
-    images: [],
+    images: [
+      {
+        // Official Samsung Newsroom press kit image, explicitly labeled for
+        // this product line (QA..S95H..).
+        url: 'https://img.us.news.samsung.com/us/wp-content/uploads/2026/04/01170145/QA77S95HAEXXS_010_Front3_Slate-Black-2-scaled.jpg',
+        alt: 'Samsung S95H'
+      }
+    ],
     amazonAsin: '',
     rating: 0,
     ratingCount: 0,
@@ -417,7 +438,14 @@ export const tvProducts: Product[] = [
       'No Dolby Vision support',
       'Panel sourcing not independently confirmed for the 2026 model year'
     ],
-    images: [],
+    images: [
+      {
+        // Official Samsung Newsroom press kit image, explicitly labeled for
+        // this product line (QN..S90H..).
+        url: 'https://img.us.news.samsung.com/us/wp-content/uploads/2026/04/01170052/QN83S90HAEXZA_006_Front2_Graphite-Black-2-scaled.jpg',
+        alt: 'Samsung S90H'
+      }
+    ],
     amazonAsin: 'B0H4S2Q9NP',
     rating: 0,
     ratingCount: 0,
@@ -480,7 +508,14 @@ export const tvProducts: Product[] = [
       '120Hz refresh rate versus 165Hz on the higher tiers',
       'Base 2.0-channel 20W speakers'
     ],
-    images: [],
+    images: [
+      {
+        // Official Samsung Newsroom press kit image, explicitly labeled for
+        // this exact SKU (QN65S85HAEXZA matches our product's ASIN/model).
+        url: 'https://img.us.news.samsung.com/us/wp-content/uploads/2026/04/01170111/QN65S85HAEXZA_006_Front2_Graphite-Black-2-scaled.jpg',
+        alt: 'Samsung S85H'
+      }
+    ],
     amazonAsin: 'B0GQ6YWP33',
     rating: 0,
     ratingCount: 0,
@@ -678,7 +713,14 @@ export const tvProducts: Product[] = [
       'Fire TV platform has a smaller native app/settings footprint than webOS or Tizen',
       'Peak brightness not independently measured at review time'
     ],
-    images: [],
+    images: [
+      {
+        // Official Panasonic North America press release image (na.panasonic.com,
+        // og:image on the Z95B launch article).
+        url: 'https://na.panasonic.com/hs-fs/hubfs/PEXNA%20-%20Panasonic%20North%20America/CES%20Site%20Images/Press%20Release%20images/TV%20Z95B%20image.png',
+        alt: 'Panasonic Z95B'
+      }
+    ],
     amazonAsin: 'B0F8MW11YS',
     rating: 0,
     ratingCount: 0,
@@ -807,7 +849,14 @@ export const tvProducts: Product[] = [
       "Price shown is an estimate based on the predecessor OLED950's UK launch price; official 2026 pricing has not been announced",
       'New Titan OS platform is unproven versus webOS, Tizen, or Google TV'
     ],
-    images: [],
+    images: [
+      {
+        // Official TP Vision (Philips) press blog og:image, explicitly named
+        // for this product ("PressRelease-OLED951").
+        url: 'https://www.tpvision.com/wp-content/uploads/TP-Vision-PressRelease-OLED951-767x300-01.webp',
+        alt: 'Philips OLED951'
+      }
+    ],
     amazonAsin: '',
     usAvailable: false,
     rating: 0,

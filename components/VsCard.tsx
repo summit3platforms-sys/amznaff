@@ -10,11 +10,15 @@ export default function VsCard({ product, competitor, category }: { product: Pro
   return (
     <Link href={href} className="card card-hover block p-5">
       <div className="flex items-center justify-center gap-3">
-        <PlaceholderImage label={product.model} className="h-16 w-16 flex-shrink-0" />
+        <PlaceholderImage label={product.model} className="h-16 w-16 flex-shrink-0" src={product.images[0]?.url} />
         <span className="flex-shrink-0 rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-[11px] font-medium text-slate-500">
           vs
         </span>
-        <PlaceholderImage label={competitor.model} className="h-16 w-16 flex-shrink-0" />
+        <PlaceholderImage
+          label={competitor.model}
+          className="h-16 w-16 flex-shrink-0"
+          src={competitor.images[0]?.url}
+        />
       </div>
 
       <div className="mt-4 flex items-start justify-between text-sm">

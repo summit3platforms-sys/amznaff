@@ -16,7 +16,11 @@ export default function ProductCard({ product, competitorSlug }: { product: Prod
           Deal
         </span>
       )}
-      <PlaceholderImage label={`${product.brand} ${product.model}`} className="aspect-square" />
+      <PlaceholderImage
+        label={`${product.brand} ${product.model}`}
+        className="aspect-square"
+        src={product.images[0]?.url}
+      />
       <p className="mt-3 text-sm font-medium text-slate-900 group-hover:text-brand-600">
         {product.brand} {product.model}
       </p>

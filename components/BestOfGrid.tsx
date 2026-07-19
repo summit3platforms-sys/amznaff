@@ -19,7 +19,11 @@ export default function BestOfGrid({ category }: { category: Category }) {
           className="card card-hover flex flex-col p-4"
         >
           <span className="pill mb-3 w-fit bg-brand-50 text-brand-700">Best for {entry.dimensionLabel}</span>
-          <PlaceholderImage label={`${entry.product.brand} ${entry.product.model}`} className="aspect-square" />
+          <PlaceholderImage
+            label={`${entry.product.brand} ${entry.product.model}`}
+            className="aspect-square"
+            src={entry.product.images[0]?.url}
+          />
           <p className="mt-3 text-sm font-medium text-slate-900">
             {entry.product.brand} {entry.product.model}
           </p>
