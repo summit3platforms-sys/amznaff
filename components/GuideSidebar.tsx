@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
-import { guides, getGuidesByCategory, GuideSummary } from '@/data/guides';
+import { getPublishedGuides, getGuidesByCategory, GuideSummary } from '@/data/guides';
 
 export default function GuideSidebar({ currentSlug }: { currentSlug: string }) {
-  const related = guides.filter((g) => g.slug !== currentSlug).slice(0, 4);
+  const related = getPublishedGuides()
+    .filter((g) => g.slug !== currentSlug)
+    .slice(0, 4);
 
   return (
     <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">

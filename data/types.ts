@@ -93,3 +93,23 @@ export type Product = {
    * only — UI should hide/replace the "Buy on Amazon" button. */
   usAvailable?: boolean;
 };
+
+// ---------------------------------------------------------------------------
+// Guides (buying-guide articles) — managed via /admin/guides.
+// Content is authored as Markdown (headings with #/##/###, blank-line
+// paragraphs, "- " bullet lists, **bold**, *italic*, and [text](url) links)
+// and rendered by lib/markdown.tsx. Draft guides are excluded from every
+// public listing/page until their status is switched to "published".
+// ---------------------------------------------------------------------------
+export type GuideStatus = 'draft' | 'published';
+
+export type Guide = {
+  slug: string;
+  title: string;
+  excerpt: string;
+  categorySlug: string;
+  content: string; // Markdown body
+  status: GuideStatus;
+  publishedAt: string; // ISO 8601
+  updatedAt: string; // ISO 8601
+};

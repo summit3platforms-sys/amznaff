@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { guides } from '@/data/guides';
+import { getPublishedGuides } from '@/data/guides';
 import GuideCard, { GuideCardPlaceholder } from '@/components/GuideCard';
 
 export const metadata: Metadata = {
@@ -8,6 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function GuidesPage() {
+  const guides = getPublishedGuides();
   const placeholderCount = Math.max(0, 4 - guides.length);
 
   return (

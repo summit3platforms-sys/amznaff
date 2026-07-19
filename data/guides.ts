@@ -1,27 +1,36 @@
-// Lightweight guide index. Each entry needs a matching page at
-// app/guides/<slug>/page.tsx — this file only drives the /guides listing
-// and any "related guide" links elsewhere on the site.
-export type GuideSummary = {
-  slug: string;
-  title: string;
-  excerpt: string;
-  categorySlug: string;
-};
+import raw from './guides.json';
+import { Guide } from './types';
 
-export const guides: GuideSummary[] = [
-  {
-    slug: 'how-to-choose-headphones',
-    title: 'How to Choose Wireless Headphones: A Buying Guide',
-    excerpt:
-      'What battery life, ANC, driver size, and the other specs on our comparison pages actually mean for how a pair of headphones will feel to use — and which ones matter most for your use case.',
-    categorySlug: 'headphones'
-  }
-];
+// ---------------------------------------------------------------------------
+// Guide data lives in guides.json (not hand-written here) so the admin
+// dashboard (/admin/guides) can read and rewrite it directly — see
+// lib/github-content.ts for how admin edits get committed and deployed.
+// This file is just the typed accessor layer everything else in the app
+// uses; nothing outside /admin should import guides.json directly.
+// ---------------------------------------------------------------------------
 
-export function getGuideBySlug(slug: string): GuideSummary | undefined {
+// Kept as a named export for backward compatibility with existing imports
+// across the app (GuideCard, GuideSidebar, etc.) — it is just an alias for
+// the full Guide type now that guides carry status/dates/content too.
+export type GuideSummary = Guide;
+
+export const guides: Guide[] = raw as Guide[];
+
+/** Every guide, including drafts — for admin use only. */
+export function getAllGuides(): Guide[] {
+  return guides;
+}
+
+/** Guides visible on the public site. */
+export function getPublishedGuides(): Guide[] {
+  return guides.filter((g) => g.status === 'published');
+}
+
+export function getGuideBySlug(slug: string): Guide | undefined {
   return guides.find((g) => g.slug === slug);
 }
 
-export function getGuidesByCategory(categorySlug: string): GuideSummary[] {
-  return guides.filter((g) => g.categorySlug === categorySlug);
+/** Published guides in a given category — used by the public site. */
+export function getGuidesByCategory(categorySlug: string): Guide[] {
+  return getPublishedGuides().filter((g) => g.categorySlug === categorySlug);
 }

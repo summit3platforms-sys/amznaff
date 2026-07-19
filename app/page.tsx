@@ -14,7 +14,7 @@ import CategoryIconCard from '@/components/CategoryIconCard';
 import GuideCard from '@/components/GuideCard';
 import NewReleasesGrid from '@/components/NewReleasesGrid';
 import TestimonialsSection from '@/components/TestimonialsSection';
-import { guides } from '@/data/guides';
+import { getPublishedGuides } from '@/data/guides';
 
 export default function HomePage() {
   // Hero picker + deals grid feature whichever live category currently has
@@ -109,7 +109,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {guides.slice(0, 4).map((g) => (
+          {getPublishedGuides().slice(0, 4).map((g) => (
             <GuideCard key={g.slug} guide={g} />
           ))}
         </div>
