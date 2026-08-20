@@ -79,7 +79,11 @@
       "panasonic-z95b",
       "philips-oled951",
       "lg-w6",
-      "lg-c6"
+      "lg-c6",
+      "sony-a95l",
+      "samsung-qn990f",
+      "samsung-r85h",
+      "sony-bravia-9-ii"
     ],
     "useCases": [
       "home-theater",
@@ -252,7 +256,8 @@
       "panasonic-z90b",
       "philips-oled911",
       "lg-g6",
-      "lg-b6"
+      "lg-b6",
+      "samsung-qn80h"
     ],
     "useCases": [
       "gaming",
@@ -336,7 +341,8 @@
     "competitorSlugs": [
       "samsung-s85h",
       "philips-oled811",
-      "lg-c6"
+      "lg-c6",
+      "samsung-m80h"
     ],
     "useCases": [
       "gaming",
@@ -423,7 +429,10 @@
       "sony-bravia-8-ii",
       "panasonic-z95b",
       "philips-oled951",
-      "samsung-s90h"
+      "samsung-s90h",
+      "lg-w6",
+      "sony-a95l",
+      "samsung-r85h"
     ],
     "useCases": [
       "home-theater",
@@ -509,7 +518,8 @@
       "panasonic-z90b",
       "philips-oled911",
       "samsung-s95h",
-      "samsung-s85h"
+      "samsung-s85h",
+      "samsung-qn80h"
     ],
     "useCases": [
       "gaming",
@@ -665,12 +675,7 @@
       "Only 2 of 4 HDMI ports are full-bandwidth HDMI 2.1",
       "Available in just 55\" and 65\" sizes"
     ],
-    "images": [
-      {
-        "url": "/images/products/tv/sony-bravia-8-ii.webp",
-        "alt": "Sony BRAVIA 8 II"
-      }
-    ],
+    "images": [],
     "amazonAsin": "B0DYK7Y2YB",
     "rating": 0,
     "ratingCount": 0,
@@ -679,7 +684,9 @@
       "samsung-s95h",
       "panasonic-z95b",
       "philips-oled951",
-      "sony-a95l"
+      "sony-a95l",
+      "lg-w6",
+      "samsung-qn990f"
     ],
     "useCases": [
       "home-theater",
@@ -852,7 +859,8 @@
       "samsung-s95h",
       "sony-bravia-8-ii",
       "philips-oled951",
-      "panasonic-z90b"
+      "panasonic-z90b",
+      "sony-a95l"
     ],
     "useCases": [
       "home-theater",
@@ -1022,7 +1030,8 @@
       "samsung-s95h",
       "sony-bravia-8-ii",
       "panasonic-z95b",
-      "philips-oled911"
+      "philips-oled911",
+      "lg-w6"
     ],
     "useCases": [
       "home-theater",
@@ -1199,5 +1208,2591 @@
       "home-theater"
     ],
     "shortTagline": "Philips' mid-range 2026 OLED with 165Hz gaming specs — not sold on US Amazon, pricing estimated."
+  },
+  {
+    "id": "tv-samsung-qn990f",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Neo QLED 8K QN990F",
+    "model": "Samsung QN990F",
+    "slug": "samsung-qn990f",
+    "releaseYear": 2025,
+    "price": 5499.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Neo QLED 8K Mini LED panel, Wireless One Connect Box",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "HDMI 2.1 (via Wireless One Connect Box)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "NQ8 AI Gen3 Processor with 8K AI Upscaling Pro",
+      "Wireless One Connect Box keeps cables off the wall",
+      "Samsung Vision AI Companion",
+      "Infinity Air near-bezel-less design"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Neo QLED 8K Mini LED (Quantum Mini LED)",
+      "resolution": "7680x4320 (8K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "NQ8 AI Gen3 Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 9.3,
+      "brightness": 9.7,
+      "gaming": 8,
+      "smartPlatform": 8.7,
+      "sound": 7,
+      "design": 8.8,
+      "connectivity": 9,
+      "value": 4.5
+    },
+    "pros": [
+      "Samsung's current 8K flagship with the NQ8 AI Gen3 Processor and 8K AI Upscaling Pro",
+      "Wireless One Connect Box keeps every cable off the wall",
+      "Available up to a 98\" size for true home-theater scale",
+      "No Dolby Vision, but full HDR10+/HDR10/HLG support"
+    ],
+    "cons": [
+      "Carried into 2026 without a refresh — same generation as 2025, not a new-for-2026 model",
+      "Extremely limited native 8K content library",
+      "Among the most expensive TVs in this comparison set",
+      "Peak brightness and HDMI 2.1 port count not independently confirmed for this exact 2026 configuration"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-qn900f",
+      "lg-g6",
+      "sony-bravia-8-ii",
+      "sony-bravia-9-ii"
+    ],
+    "useCases": [
+      "home-theater",
+      "flagship"
+    ],
+    "shortTagline": "Samsung's current 8K Neo QLED flagship, carried into 2026 without a refresh."
+  },
+  {
+    "id": "tv-samsung-qn900f",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Neo QLED 8K QN900F",
+    "model": "Samsung QN900F",
+    "slug": "samsung-qn900f",
+    "releaseYear": 2025,
+    "price": 3299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Neo QLED 8K Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E",
+      "Bluetooth 5.3",
+      "HDMI 2.1",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "NQ8 AI Gen3 Processor with 8K AI Upscaling",
+      "Samsung Vision AI Companion",
+      "One UI Tizen smart platform"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Neo QLED 8K Mini LED (Quantum Mini LED)",
+      "resolution": "7680x4320 (8K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "NQ8 AI Gen3 Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 9,
+      "brightness": 9.5,
+      "gaming": 7.8,
+      "smartPlatform": 8.7,
+      "sound": 6.8,
+      "design": 8.5,
+      "connectivity": 8.8,
+      "value": 5
+    },
+    "pros": [
+      "Same NQ8 AI Gen3 Processor and 8K AI Upscaling as the flagship QN990F, at a lower price",
+      "Very high Mini LED peak brightness for an 8K panel",
+      "Samsung Vision AI Companion and 7 years of Tizen OS updates",
+      "Full HDR10+/HDR10/HLG support"
+    ],
+    "cons": [
+      "No Wireless One Connect Box (standard wired HDMI instead)",
+      "Only offered in 65\" and 85\" — no larger or smaller sizes",
+      "Carried into 2026 without a refresh, same generation as 2025",
+      "Extremely limited native 8K content library, same as any 8K TV today"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-qn990f",
+      "samsung-qn80h"
+    ],
+    "useCases": [
+      "home-theater",
+      "flagship"
+    ],
+    "shortTagline": "Samsung's step-down 8K Neo QLED, same processor as the flagship without the wireless box."
+  },
+  {
+    "id": "tv-samsung-qn80h",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Neo QLED 4K QN80H",
+    "model": "Samsung QN80H",
+    "slug": "samsung-qn80h",
+    "releaseYear": 2026,
+    "price": 1599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Titanium Black"
+    ],
+    "material": "Neo QLED (Quantum Mini LED Full Array) panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1 x4",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Quantum Mini LED Full Array with more dimming zones than the outgoing QN80F",
+      "NQ4 AI Gen2 Processor with 4K AI Upscaling",
+      "Motion Xcelerator 144Hz",
+      "Dolby Atmos with Object Tracking Sound Lite",
+      "AI Soccer Mode"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Neo QLED (Quantum Mini LED Full Array)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 144,
+      "processor": "NQ4 AI Gen2 Processor",
+      "hdmi21Ports": 4,
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified (Object Tracking Sound Lite, Dolby Atmos)",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.3,
+      "brightness": 8.8,
+      "gaming": 8.7,
+      "smartPlatform": 8.7,
+      "sound": 6.8,
+      "design": 8,
+      "connectivity": 8.8,
+      "value": 7.8
+    },
+    "pros": [
+      "More Mini LED dimming zones than the outgoing QN80F for better contrast",
+      "Motion Xcelerator 144Hz with FreeSync Premium Pro for gaming",
+      "Four full-bandwidth HDMI 2.1 ports",
+      "Dolby Atmos with Object Tracking Sound Lite"
+    ],
+    "cons": [
+      "Replaces the discontinued QN90 tier as Samsung's new mid-range ceiling — no direct higher-Neo-QLED-4K option below the 8K models",
+      "Peak brightness not independently confirmed for the 2026 model year",
+      "No Dolby Vision (Samsung remains HDR10+ only)"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-qn70h",
+      "samsung-r85h",
+      "lg-c6",
+      "samsung-s90h",
+      "samsung-qn900f",
+      "tcl-qm8l",
+      "hisense-u9qg",
+      "lg-qned85"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Samsung's 2026 Neo QLED 4K mid-range flagship, now the top non-8K Neo QLED tier."
+  },
+  {
+    "id": "tv-samsung-qn70h",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Neo QLED 4K QN70H",
+    "model": "Samsung QN70H",
+    "slug": "samsung-qn70h",
+    "releaseYear": 2026,
+    "price": 1199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Neo QLED (Quantum Mini LED) panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Quantum Mini LED backlighting",
+      "NQ4 AI Processor",
+      "Motion Xcelerator with Dual Line Gate technology (up to 288Hz at reduced vertical resolution)",
+      "AI Soccer Mode"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Neo QLED (Quantum Mini LED)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed (Dual Line Gate boosts to up to 288Hz at reduced vertical resolution)",
+      "processor": "NQ4 AI Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.8,
+      "brightness": 8,
+      "gaming": 8.3,
+      "smartPlatform": 8.5,
+      "sound": 6.5,
+      "design": 7.6,
+      "connectivity": 8.5,
+      "value": 8.2
+    },
+    "pros": [
+      "Entry point into Samsung's 2026 Neo QLED (Quantum Mini LED) lineup",
+      "Dual Line Gate gaming tech pushes up to 288Hz for competitive play",
+      "Available across 5 sizes from 43\" to 85\"",
+      "AI Soccer Mode and Samsung Vision AI Companion carried down from the flagships"
+    ],
+    "cons": [
+      "No Dolby Atmos, unlike the QN80H",
+      "Peak brightness and HDMI 2.1 port count not independently confirmed",
+      "Fewer dimming zones than the QN80H above it"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-qn80h",
+      "samsung-m80h",
+      "lg-qned82"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Samsung's entry 2026 Neo QLED, with a 288Hz gaming mode at reduced vertical resolution."
+  },
+  {
+    "id": "tv-samsung-r85h",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Micro RGB R85H",
+    "model": "Samsung R85H",
+    "slug": "samsung-r85h",
+    "releaseYear": 2026,
+    "price": 2099.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Micro RGB LED LCD panel (sub-100-micron self-emissive RGB LEDs)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1a x4",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Self-emissive Micro RGB LEDs (no white backlight or color filters)",
+      "100% BT.2020 color coverage",
+      "Motion Xcelerator up to 165Hz (144Hz native)",
+      "Dynamic VRR over HDMI 2.1a"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Micro RGB LED LCD",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 144,
+      "processor": "Micro RGB AI Engine Processor",
+      "hdmi21Ports": 4,
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 9.2,
+      "brightness": 9.4,
+      "gaming": 8.5,
+      "smartPlatform": 8.7,
+      "sound": 7,
+      "design": 8.7,
+      "connectivity": 8.8,
+      "value": 6
+    },
+    "pros": [
+      "New self-emissive Micro RGB technology — 100% BT.2020 color coverage no QLED or Neo QLED panel can match",
+      "Sits between Neo QLED and OLED for brightness and color together",
+      "Four HDMI 2.1a ports with dynamic VRR for gaming",
+      "Replaces the discontinued QN90 as Samsung's premium LCD tier"
+    ],
+    "cons": [
+      "New, unproven technology for its first full model year",
+      "Priced well above the QN80H Neo QLED for a brightness/color upgrade most viewers won't max out",
+      "Peak brightness not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-qn80h",
+      "lg-g6",
+      "samsung-s95h",
+      "sony-bravia-9-ii"
+    ],
+    "useCases": [
+      "home-theater",
+      "flagship",
+      "gaming"
+    ],
+    "shortTagline": "Samsung's new self-emissive Micro RGB TV — replaces the QN90 as its premium LCD tier for 2026."
+  },
+  {
+    "id": "tv-samsung-m90h",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Mini LED M90H",
+    "model": "Samsung M90H",
+    "slug": "samsung-m90h",
+    "releaseYear": 2026,
+    "price": 2499.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED LCD panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Supersize Picture Enhancer for large-format clarity",
+      "NQ4 AI Gen2 Processor",
+      "Motion Xcelerator 144Hz plus DLG 240Hz for PC gaming",
+      "Pure Spectrum Color"
+    ],
+    "specs": {
+      "screenSize": 100,
+      "panelType": "Mini LED LCD",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 144,
+      "processor": "NQ4 AI Gen2 Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG (Mini LED HDR)",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.9,
+      "brightness": 8.3,
+      "gaming": 8,
+      "smartPlatform": 8.5,
+      "sound": 6.3,
+      "design": 7.5,
+      "connectivity": 8.3,
+      "value": 7
+    },
+    "pros": [
+      "Largest TV in Samsung's new Mini LED lineup — 100\" only",
+      "Supersize Picture Enhancer reduces noise and softness at large scale",
+      "Same NQ4 AI Gen2 Processor and gaming spec (144Hz, DLG 240Hz) as the M80H",
+      "Pure Spectrum Color for consistent color across the huge panel"
+    ],
+    "cons": [
+      "Only available in a single 100\" size — no smaller options",
+      "New Mini LED sub-brand, sits below Neo QLED in brightness/dimming precision",
+      "HDMI 2.1 port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-m80h",
+      "lg-qned90"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Samsung's largest new Mini LED TV — a 100\" screen at a fraction of Neo QLED 8K pricing."
+  },
+  {
+    "id": "tv-samsung-m80h",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Mini LED M80H",
+    "model": "Samsung M80H",
+    "slug": "samsung-m80h",
+    "releaseYear": 2026,
+    "price": 799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED LCD panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "New for 2026 — Samsung's first dedicated Mini LED sub-brand below Neo QLED",
+      "NQ4 AI Gen2 Processor (shared with QN80H/M90H)",
+      "Pure Spectrum Color with optional Color Booster Pro",
+      "Motion Xcelerator 144Hz plus DLG 240Hz for PC gaming"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Mini LED LCD",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 144,
+      "processor": "NQ4 AI Gen2 Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG (Mini LED HDR)",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.6,
+      "brightness": 8,
+      "gaming": 8,
+      "smartPlatform": 8.5,
+      "sound": 6.2,
+      "design": 7.4,
+      "connectivity": 8.3,
+      "value": 8.3
+    },
+    "pros": [
+      "Same NQ4 AI Gen2 Processor as the pricier QN80H Neo QLED, at a much lower price",
+      "Genuine Mini LED backlighting — a real step up from basic edge-lit QLED",
+      "DLG 240Hz for PC gaming plus Motion Xcelerator 144Hz",
+      "Available from 55\" up to 85\""
+    ],
+    "cons": [
+      "Fewer dimming zones and less precise local dimming than Neo QLED",
+      "No Dolby Atmos",
+      "Peak brightness and HDMI 2.1 port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-m70h",
+      "samsung-qn70h",
+      "lg-b6",
+      "samsung-m90h"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Samsung's new entry Mini LED TV — the QN80H's processor at a fraction of the price."
+  },
+  {
+    "id": "tv-samsung-m70h",
+    "categorySlug": "tv",
+    "brand": "Samsung",
+    "series": "Mini LED M70H",
+    "model": "Samsung M70H",
+    "slug": "samsung-m70h",
+    "releaseYear": 2026,
+    "price": 529.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED LCD panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Most affordable TV in Samsung's new Mini LED lineup",
+      "Motion Xcelerator 144Hz plus DLG 240Hz for PC gaming",
+      "Color Booster (standard, not Pro)",
+      "Soccer Mode"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Mini LED LCD",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 144,
+      "processor": "Not officially specified (lower-tier than the NQ4 AI Gen2 used on M80H/M90H)",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Tizen (Samsung Vision AI, One UI Tizen)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7,
+      "brightness": 7.2,
+      "gaming": 7.3,
+      "smartPlatform": 8,
+      "sound": 5.8,
+      "design": 7,
+      "connectivity": 8,
+      "value": 8.6
+    },
+    "pros": [
+      "Most affordable Mini LED TV in Samsung's 2026 lineup",
+      "Still gets Motion Xcelerator 144Hz and DLG 240Hz for gaming",
+      "Available across 6 sizes from 43\" to 85\"",
+      "AI Sound Controller and some Vision AI features carried down from higher tiers"
+    ],
+    "cons": [
+      "Lacks the AI Sound Controller and Object Tracking Sound features found on pricier models",
+      "Standard Color Booster rather than Color Booster Pro",
+      "Processor generation and HDMI 2.1 port count not officially specified"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-m80h"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Samsung's most affordable 2026 Mini LED TV."
+  },
+  {
+    "id": "tv-tcl-qm8l",
+    "categorySlug": "tv",
+    "brand": "TCL",
+    "series": "SQD Mini LED QM8L",
+    "model": "TCL QM8L",
+    "slug": "tcl-qm8l",
+    "releaseYear": 2026,
+    "price": 2499.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "SQD (Super Quantum Dot) Mini LED panel, HVA 2.0 Pro Panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Super Quantum Dot (SQD) color, up to 100% BT.2020 per TCL",
+      "26-bit backlight controller with up to 4,000 local dimming zones (98\" model)",
+      "TSR AI Processor",
+      "Successor to the 2025 QM8K"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "SQD Mini LED (HVA 2.0 Pro Panel)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 4000,
+      "refreshRate": "Not independently confirmed",
+      "processor": "TSR AI Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Not independently confirmed for this exact model",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.9,
+      "brightness": 9.2,
+      "gaming": 8.3,
+      "smartPlatform": 8.3,
+      "sound": 7,
+      "design": 8,
+      "connectivity": 8,
+      "value": 8
+    },
+    "pros": [
+      "Super Quantum Dot color for up to 100% BT.2020 coverage per TCL",
+      "Up to 4,000 local dimming zones on the largest size — among the most of any Mini LED TV",
+      "Up to 4,000 nits specified peak brightness",
+      "Meaningfully cheaper than Samsung/Sony flagships at similar performance tiers"
+    ],
+    "cons": [
+      "Already discounted from launch MSRP, suggesting price volatility",
+      "Refresh rate and exact HDMI 2.1 port count not independently confirmed for this model",
+      "Google TV platform has more ads/sponsored content than Tizen or webOS"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tcl-qm7l",
+      "samsung-qn80h",
+      "hisense-u9qg"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming",
+      "flagship"
+    ],
+    "shortTagline": "TCL's 2026 SQD Mini LED flagship — up to 4,000 dimming zones at a mid-flagship price."
+  },
+  {
+    "id": "tv-tcl-qm7l",
+    "categorySlug": "tv",
+    "brand": "TCL",
+    "series": "SQD Mini LED QM7L",
+    "model": "TCL QM7L",
+    "slug": "tcl-qm7l",
+    "releaseYear": 2026,
+    "price": 799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "SQD Mini LED panel, HVA 2.0 Pro Panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1 x4 (144Hz on 2 of 4 ports)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "TSR AI Processor",
+      "Bang & Olufsen speaker array with Dolby Atmos FlexConnect (3.1.3-channel, optional wireless subwoofer)",
+      "Gemini for Google TV",
+      "Successor to the 2025 QM7K"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "SQD Mini LED (HVA 2.0 Pro Panel)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 3000,
+      "refreshRate": 144,
+      "processor": "TSR AI Processor",
+      "hdmi21Ports": 4,
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV (Gemini for Google TV)",
+      "variableRefreshRate": true,
+      "audioSystem": "Bang & Olufsen speaker array, Dolby Atmos FlexConnect (3.1.3-channel)",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.3,
+      "brightness": 8.6,
+      "gaming": 8.2,
+      "smartPlatform": 8.3,
+      "sound": 7.8,
+      "design": 7.8,
+      "connectivity": 8.3,
+      "value": 8.7
+    },
+    "pros": [
+      "Bang & Olufsen-tuned speaker array with Dolby Atmos FlexConnect — unusually good built-in sound for the price",
+      "Up to 2,100 local dimming zones (98\" model) with the same 26-bit backlight controller as the QM8L",
+      "Four HDMI 2.1 ports, though 144Hz is limited to 2 of them",
+      "Aggressive pricing versus the outgoing QM7K"
+    ],
+    "cons": [
+      "Only 2 of 4 HDMI ports support the full 144Hz refresh",
+      "Lower peak brightness and fewer dimming zones than the QM8L above it",
+      "Google TV platform has more ads/sponsored content than Tizen or webOS"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tcl-qm8l",
+      "tcl-qm6k",
+      "hisense-u8qg",
+      "sharp-aquos-xled"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "TCL's 2026 mid-range SQD Mini LED — Bang & Olufsen sound at a value price."
+  },
+  {
+    "id": "tv-tcl-qm6k",
+    "categorySlug": "tv",
+    "brand": "TCL",
+    "series": "QD-Mini LED QM6K",
+    "model": "TCL QM6K",
+    "slug": "tcl-qm6k",
+    "releaseYear": 2025,
+    "price": 529.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QD-Mini LED panel, Halo Control System",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "LD500 Precise Dimming with Halo Control System",
+      "AIPQ Processor PRO",
+      "Game Accelerator 288",
+      "Onkyo audio system",
+      "IMAX Enhanced certified"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QD-Mini LED (Halo Control System, LD500 Precise Dimming)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 3000,
+      "refreshRate": 144,
+      "processor": "AIPQ Processor PRO",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Onkyo-tuned speaker system",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 7.8,
+      "brightness": 8.2,
+      "gaming": 8.4,
+      "smartPlatform": 8,
+      "sound": 7,
+      "design": 7.3,
+      "connectivity": 7.8,
+      "value": 9
+    },
+    "pros": [
+      "Genuine QD-Mini LED at a genuinely budget price",
+      "Game Accelerator 288 and 144Hz native refresh punch well above its price for gaming",
+      "Onkyo-tuned audio and IMAX Enhanced certification are rare at this tier",
+      "New 50\" size added for 2026, still sold alongside the newer QM7L/QM8L"
+    ],
+    "cons": [
+      "Carried over from 2025 without a full refresh — TCL's newer SQD Mini LED tech is reserved for the QM7L/QM8L above it",
+      "Fewer local dimming zones than the QM7L/QM8L",
+      "HDMI 2.1 port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tcl-qm7l",
+      "tcl-q6",
+      "hisense-u7sg",
+      "sony-bravia-5",
+      "lg-qned82",
+      "amazon-omni-mini-led",
+      "roku-pro-series"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "TCL's budget QD-Mini LED — carried over from 2025 as its entry Mini LED option for 2026."
+  },
+  {
+    "id": "tv-tcl-q6",
+    "categorySlug": "tv",
+    "brand": "TCL",
+    "series": "Q Class Q6",
+    "model": "TCL Q6",
+    "slug": "tcl-q6",
+    "releaseYear": 2025,
+    "price": 599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED panel (edge-lit, non-Mini-LED)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "QLED Pro Quantum Dot color",
+      "High Brightness+ LED backlight (edge-lit, not Mini LED)",
+      "AIPQ Processor",
+      "Game Accelerator 120",
+      "Adjustable-width stand"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QLED (edge-lit, non-Mini-LED)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 60,
+      "processor": "AIPQ Processor",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": false,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 6.5,
+      "brightness": 6.8,
+      "gaming": 6.5,
+      "smartPlatform": 7.8,
+      "sound": 6.2,
+      "design": 6.8,
+      "connectivity": 7.2,
+      "value": 8.3
+    },
+    "pros": [
+      "TCL's most affordable QLED tier — quantum dot color without the Mini LED price premium",
+      "Full Dolby Vision and Dolby Atmos support at an entry price",
+      "Adjustable-width stand fits a range of furniture",
+      "Available across 4 sizes from 55\" to 85\""
+    ],
+    "cons": [
+      "Edge-lit backlight, not Mini LED — noticeably less contrast and more blooming than the QM-series above it",
+      "60Hz native refresh with no true VRR, weaker for gaming than the QM6K",
+      "Peak brightness and HDMI port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tcl-qm6k",
+      "hisense-u6sf-pro",
+      "hisense-qd7",
+      "amazon-omni-qled",
+      "toshiba-c350",
+      "toshiba-m550",
+      "roku-plus-series",
+      "sharp-aquos-qled"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "TCL's entry QLED — quantum dot color on a basic edge-lit panel."
+  },
+  {
+    "id": "tv-hisense-u9qg",
+    "categorySlug": "tv",
+    "brand": "Hisense",
+    "series": "ULED U9QG",
+    "model": "Hisense U9QG",
+    "slug": "hisense-u9qg",
+    "releaseYear": 2025,
+    "price": 2999,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED panel with Quantum Dot color",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Hi-View AI Engine X — 16-bit neural chipset, up to 65,536 brightness levels",
+      "Native 165Hz refresh with FreeSync Premium Pro and ALLM",
+      "CineStage X Surround with Dolby Atmos and DTS Virtual:X",
+      "Dolby Vision IQ, HDR10+, IMAX Enhanced, Filmmaker Mode",
+      "First-ever 65\" size added to the U9 line"
+    ],
+    "specs": {
+      "screenSize": 75,
+      "panelType": "Mini LED (Quantum Dot)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 6500,
+      "refreshRate": 165,
+      "processor": "Hi-View AI Engine X",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "CineStage X Surround, 4.1.2ch (65\") / 5.1.2ch (75\"/85\"), Dolby Atmos, DTS Virtual:X",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 9.1,
+      "brightness": 9.8,
+      "gaming": 9,
+      "smartPlatform": 8.2,
+      "sound": 8.3,
+      "design": 8.2,
+      "connectivity": 8,
+      "value": 7.2
+    },
+    "pros": [
+      "6,500-nit reported peak brightness — among the brightest TVs on the market",
+      "Native 165Hz refresh with FreeSync Premium Pro for high-end gaming",
+      "CineStage X Surround delivers genuine multi-channel Dolby Atmos without a soundbar",
+      "First year offered in a 65\" size, not just 75\"/85\""
+    ],
+    "cons": [
+      "65\" pricing not yet announced at review time — priced here using the confirmed 75\" price",
+      "Carried into 2026 without a refresh, same generation as 2025",
+      "HDMI 2.1 port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-u8qg",
+      "tcl-qm8l",
+      "samsung-qn80h",
+      "sony-bravia-7-ii",
+      "lg-qned90"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming",
+      "flagship"
+    ],
+    "shortTagline": "Hisense's flagship ULED — 6,500-nit reported brightness and native 165Hz refresh."
+  },
+  {
+    "id": "tv-hisense-u8qg",
+    "categorySlug": "tv",
+    "brand": "Hisense",
+    "series": "ULED U8QG",
+    "model": "Hisense U8QG",
+    "slug": "hisense-u8qg",
+    "releaseYear": 2025,
+    "price": 1499,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED panel with Quantum Dot color",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Up to LD5600 local dimming zones",
+      "Native 165Hz refresh, VRR up to 288",
+      "Dolby Vision IQ, HDR10+, IMAX Enhanced",
+      "4.1.2-channel audio with Dolby Atmos",
+      "Replaces the 2024 U8N"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Mini LED (Quantum Dot)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 5000,
+      "refreshRate": 165,
+      "processor": "Hi-View AI Engine (Gen not independently confirmed)",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision IQ, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "4.1.2-channel, Dolby Atmos, DTS Virtual:X",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.8,
+      "brightness": 9.3,
+      "gaming": 8.9,
+      "smartPlatform": 8.2,
+      "sound": 7.8,
+      "design": 7.9,
+      "connectivity": 7.9,
+      "value": 8.5
+    },
+    "pros": [
+      "5,000-nit measured peak brightness — exceptional for the price",
+      "Native 165Hz refresh with VRR up to 288 for competitive gaming",
+      "Up to LD5600 local dimming zones for strong contrast control",
+      "Frequently cited as one of the best-value Mini LED TVs tested"
+    ],
+    "cons": [
+      "Listed price reflects the 55\" starting configuration, not necessarily the 65\" price",
+      "Carried into 2026 without a refresh, same generation as 2025",
+      "Processor generation and HDMI 2.1 port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-u9qg",
+      "hisense-u7sg",
+      "tcl-qm7l"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Hisense's value-flagship ULED — 5,000-nit brightness and 165Hz for well under $2,000."
+  },
+  {
+    "id": "tv-hisense-u7sg",
+    "categorySlug": "tv",
+    "brand": "Hisense",
+    "series": "ULED U7SG",
+    "model": "Hisense U7SG",
+    "slug": "hisense-u7sg",
+    "releaseYear": 2026,
+    "price": 1299,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Hi-QLED Mini LED panel, Full Array Local Dimming",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Hi-QLED MiniLED Pro with Full Array Local Dimming",
+      "Hi-View AI Engine Pro",
+      "Native 165Hz refresh",
+      "50W 2.1.2-channel audio with Dolby Atmos and DTS Virtual:X",
+      "Available up to 116\"",
+      "Part of Hisense's official FIFA World Cup 2026 lineup"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Hi-QLED Mini LED Pro (Full Array Local Dimming)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 165,
+      "processor": "Hi-View AI Engine Pro",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "50W, 2.1.2-channel, Dolby Atmos, DTS Virtual:X",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.2,
+      "brightness": 8.4,
+      "gaming": 8.6,
+      "smartPlatform": 8,
+      "sound": 7.5,
+      "design": 7.6,
+      "connectivity": 7.8,
+      "value": 8.6
+    },
+    "pros": [
+      "New for 2026 — replaces the U7QF/U7N generation with a Pro-tier processor and panel",
+      "Native 165Hz refresh for the price is rare in this tier",
+      "50W 2.1.2-channel Dolby Atmos + DTS Virtual:X built in",
+      "Available in sizes up to a massive 116\""
+    ],
+    "cons": [
+      "Peak brightness and HDMI 2.1 port count not independently confirmed",
+      "Also sold as the U7SF with Fire TV instead of Google TV — platform varies by retailer",
+      "Sits below the U8QG/U9QG in dimming precision"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-u8qg",
+      "hisense-u6sf-pro",
+      "tcl-qm6k"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Hisense's new 2026 mid-range ULED, built around FIFA World Cup 2026 sports viewing."
+  },
+  {
+    "id": "tv-hisense-u6sf-pro",
+    "categorySlug": "tv",
+    "brand": "Hisense",
+    "series": "ULED U6SF Pro",
+    "model": "Hisense U6SF Pro",
+    "slug": "hisense-u6sf-pro",
+    "releaseYear": 2026,
+    "price": 599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Hi-QLED Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Hi-QLED Mini LED with Full Array Local Dimming and Quantum Dot color",
+      "AI-driven picture optimization",
+      "Integrated subwoofer with Dolby Atmos",
+      "Available from 55\" to 100\"",
+      "Fire TV smart platform"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Hi-QLED Mini LED (Quantum Dot)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Fire TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Integrated subwoofer, Dolby Atmos",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 7.5,
+      "brightness": 7.7,
+      "gaming": 7.5,
+      "smartPlatform": 7.8,
+      "sound": 7,
+      "design": 7.2,
+      "connectivity": 7.5,
+      "value": 8.6
+    },
+    "pros": [
+      "Leads Hisense's entry Mini LED tier for 2026 — real local dimming at a budget price",
+      "Integrated subwoofer adds real bass most budget TVs lack",
+      "AI-driven picture optimization tunes settings automatically per source",
+      "Available across a wide size range, 55\" to 100\""
+    ],
+    "cons": [
+      "Positioned below the plain U6SF, but exact spec differences (brightness, refresh, HDMI) not independently confirmed",
+      "Fire TV only — no Google TV option, unlike the U7 Series",
+      "Peak brightness and refresh rate not officially specified in available sources"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-u7sg",
+      "tcl-q6",
+      "hisense-qd7",
+      "sony-bravia-5",
+      "amazon-omni-mini-led",
+      "roku-pro-series"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Hisense's 2026 entry Mini LED TV, leading its budget U6 lineup."
+  },
+  {
+    "id": "tv-hisense-qd7",
+    "categorySlug": "tv",
+    "brand": "Hisense",
+    "series": "QD7",
+    "model": "Hisense QD7",
+    "slug": "hisense-qd7",
+    "releaseYear": 2025,
+    "price": 599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED panel with Quantum Dot color (basic tier)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Entry Mini LED backlighting with Quantum Dot color",
+      "Better brightness than the non-Mini-LED QD6 below it",
+      "Available from 50\" to 100\""
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "Mini LED (Quantum Dot, entry tier)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": "Not independently confirmed",
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 6.8,
+      "brightness": 7,
+      "gaming": 6.5,
+      "smartPlatform": 7.8,
+      "sound": 6,
+      "design": 6.8,
+      "connectivity": 7.2,
+      "value": 8.2
+    },
+    "pros": [
+      "Genuine Mini LED backlighting at a sub-$600 price point",
+      "Quantum Dot color for richer color than basic LED TVs",
+      "Wide size range from 50\" up to 100\"",
+      "Google TV platform with broad app support"
+    ],
+    "cons": [
+      "Exact model generation/suffix not fully confirmed — publishing under the base \"QD7\" name rather than guessing a specific generation code",
+      "Below the U6/U7/U8/U9 tiers in nearly every spec",
+      "Most detailed specs (brightness, refresh, HDMI, processor) not officially published"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-u6sf-pro",
+      "tcl-q6"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Hisense's entry Mini LED tier — Quantum Dot color under $600."
+  },
+  {
+    "id": "tv-sony-bravia-9-ii",
+    "categorySlug": "tv",
+    "brand": "Sony",
+    "series": "BRAVIA 9 II",
+    "model": "Sony BRAVIA 9 II",
+    "slug": "sony-bravia-9-ii",
+    "releaseYear": 2026,
+    "price": 3600,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "True RGB Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1 x2",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Sony's first True RGB backlight — individually controlled red, green and blue LEDs instead of a white backlight",
+      "2.2.2-channel Acoustic Multi-Audio+ with upward-firing speakers for Dolby Atmos and DTS:X",
+      "Cognitive Processor XR",
+      "Google TV smart platform",
+      "Available up to a 115\" size"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "True RGB Mini LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 3990,
+      "refreshRate": "Not independently confirmed",
+      "processor": "Cognitive Processor XR",
+      "hdmi21Ports": 2,
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Acoustic Multi-Audio+, 2.2.2-channel, Dolby Atmos, DTS:X",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 9.6,
+      "brightness": 9.6,
+      "gaming": 7.5,
+      "smartPlatform": 8.5,
+      "sound": 8.8,
+      "design": 9,
+      "connectivity": 6.5,
+      "value": 4.8
+    },
+    "pros": [
+      "Sony's first True RGB backlight — individually controlled RGB LEDs for more accurate color than white-backlight Mini LED",
+      "3,990-nit measured peak brightness in Professional Mode",
+      "2.2.2-channel Acoustic Multi-Audio+ with real upward-firing Dolby Atmos speakers",
+      "Available up to a massive 115\""
+    ],
+    "cons": [
+      "Only 2 HDMI 2.1 ports — fewer than most competing flagships",
+      "Among the most expensive TVs in this entire comparison set ($31,000 at 115\")",
+      "Refresh rate not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-bravia-7-ii",
+      "samsung-r85h",
+      "lg-g6",
+      "samsung-qn990f"
+    ],
+    "useCases": [
+      "home-theater",
+      "flagship"
+    ],
+    "shortTagline": "Sony's first True RGB TV — individually controlled RGB backlighting replaces white LEDs entirely."
+  },
+  {
+    "id": "tv-sony-bravia-7-ii",
+    "categorySlug": "tv",
+    "brand": "Sony",
+    "series": "BRAVIA 7 II",
+    "model": "Sony BRAVIA 7 II",
+    "slug": "sony-bravia-7-ii",
+    "releaseYear": 2026,
+    "price": 2600,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "True RGB Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "True RGB backlight technology carried down from the BRAVIA 9 II",
+      "Cognitive Processor XR",
+      "Google TV smart platform",
+      "New 98\" size added for 2026",
+      "PS5-specific gaming features"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "True RGB Mini LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 2078,
+      "refreshRate": "Not independently confirmed",
+      "processor": "Cognitive Processor XR",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 9,
+      "brightness": 8.9,
+      "gaming": 8,
+      "smartPlatform": 8.5,
+      "sound": 7.8,
+      "design": 8.6,
+      "connectivity": 7,
+      "value": 6.5
+    },
+    "pros": [
+      "Brings Sony's new True RGB backlight down from the flagship BRAVIA 9 II at a lower price",
+      "2,078-nit measured peak brightness in Professional Mode",
+      "New 98\" size option for 2026, up from a smaller previous max",
+      "PS5-specific gaming features and Google TV smart platform"
+    ],
+    "cons": [
+      "Meaningfully dimmer than the flagship BRAVIA 9 II",
+      "HDMI port count and refresh rate not independently confirmed",
+      "Still a significant price jump over the non-RGB BRAVIA 5"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-bravia-9-ii",
+      "sony-bravia-5",
+      "hisense-u9qg"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "Sony's mid-range True RGB TV — the flagship's new backlight tech at a lower price."
+  },
+  {
+    "id": "tv-sony-bravia-5",
+    "categorySlug": "tv",
+    "brand": "Sony",
+    "series": "BRAVIA 5",
+    "model": "Sony BRAVIA 5",
+    "slug": "sony-bravia-5",
+    "releaseYear": 2025,
+    "price": 898,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED VA panel (conventional white backlight, not True RGB)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI x4 (2 support advanced gaming features)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Mini LED backlighting with zone-rich local dimming",
+      "Cognitive Processor XR with AI-based upscaling",
+      "PS5-specific gaming features",
+      "Google TV smart platform",
+      "No \"II\" refresh — carried over unchanged for 2026"
+    ],
+    "specs": {
+      "screenSize": 55,
+      "panelType": "Mini LED VA panel",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 1000,
+      "refreshRate": 120,
+      "processor": "Cognitive Processor XR",
+      "hdmi21Ports": "Labeled HDMI 2.1 on 2 of 4 ports, but bandwidth-limited to 24Gbps per some testing — not full-bandwidth 4K/120 HDR",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 7.8,
+      "brightness": 7.5,
+      "gaming": 7.3,
+      "smartPlatform": 8.5,
+      "sound": 6.5,
+      "design": 7.5,
+      "connectivity": 6.8,
+      "value": 8.7
+    },
+    "pros": [
+      "Real Mini LED local dimming at Sony's most accessible price point",
+      "Cognitive Processor XR — the same AI upscaling brand used on Sony's flagships",
+      "Available up to a huge 98\"",
+      "Frequent deep discounts make it an exceptional value pick"
+    ],
+    "cons": [
+      "HDMI ports are labeled HDMI 2.1 but bandwidth-limited on some models — not true full-bandwidth 4K/120 HDR on every port",
+      "No True RGB backlight, unlike the 9 II/7 II",
+      "Lower measured brightness than the rest of this Sony lineup"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-bravia-7-ii",
+      "hisense-u6sf-pro",
+      "tcl-qm6k"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Sony's accessible Mini LED TV — no True RGB, but real local dimming at a value price."
+  },
+  {
+    "id": "tv-lg-qned90",
+    "categorySlug": "tv",
+    "brand": "LG",
+    "series": "QNED evo QNED90",
+    "model": "LG QNED90",
+    "slug": "lg-qned90",
+    "releaseYear": 2026,
+    "price": 12999.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QNED evo Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Flagship of the 2026 QNED lineup — LG's largest-ever QNED at 115\"",
+      "Alpha 8 AI Processor Gen 3 with Precision Dimming Ultra",
+      "Dynamic QNED Color Pro, Intertek-certified 100% Color Volume",
+      "VRR up to 165Hz and Motion Booster up to 330Hz",
+      "AI Sound Pro virtual 11.1.2-channel surround",
+      "webOS 26 with Sports Portal and Sports Alert"
+    ],
+    "specs": {
+      "screenSize": 115,
+      "panelType": "QNED evo Mini LED (Precision Dimming Ultra)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 165,
+      "processor": "Alpha 8 AI Processor Gen 3",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "webOS 26",
+      "variableRefreshRate": true,
+      "audioSystem": "AI Sound Pro, virtual 11.1.2-channel surround (built-in speakers)",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.7,
+      "brightness": 8.5,
+      "gaming": 9.2,
+      "smartPlatform": 8.8,
+      "sound": 7.5,
+      "design": 8.3,
+      "connectivity": 7.5,
+      "value": 4.5
+    },
+    "pros": [
+      "LG's largest-ever QNED at a genuinely massive 115\"",
+      "Intertek-certified 100% Color Volume — a real, independently verified claim",
+      "VRR up to 165Hz plus a 330Hz Motion Booster mode for competitive gaming",
+      "AI Sound Pro delivers virtual 11.1.2-channel surround from the TV alone"
+    ],
+    "cons": [
+      "Extremely expensive — among the priciest TVs in this entire comparison set",
+      "Only confirmed in the 115\" size; smaller QNED90 configurations not verified",
+      "Peak brightness and HDMI 2.1 port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "lg-qned85",
+      "samsung-m90h",
+      "hisense-u9qg"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming",
+      "flagship"
+    ],
+    "shortTagline": "LG's flagship 2026 QNED — a 115\" Mini LED screen with 330Hz gaming and certified 100% color volume."
+  },
+  {
+    "id": "tv-lg-qned85",
+    "categorySlug": "tv",
+    "brand": "LG",
+    "series": "QNED evo QNED85",
+    "model": "LG QNED85",
+    "slug": "lg-qned85",
+    "releaseYear": 2026,
+    "price": 3999.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QNED evo Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "100\" cinematic home-theater size",
+      "Alpha 8 AI Processor Gen 3 with AI Super Upscaling",
+      "Dynamic Tone Mapping Pro",
+      "AMD FreeSync Premium",
+      "webOS 26 with Sports Portal and Sports Alert"
+    ],
+    "specs": {
+      "screenSize": 100,
+      "panelType": "QNED evo Mini LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed (165Hz VRR and 330Hz Motion Booster are QNED90-exclusive per LG)",
+      "processor": "Alpha 8 AI Processor Gen 3",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "webOS 26",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 8.2,
+      "brightness": 8,
+      "gaming": 8.2,
+      "smartPlatform": 8.8,
+      "sound": 7,
+      "design": 8,
+      "connectivity": 7.5,
+      "value": 6.5
+    },
+    "pros": [
+      "Same Alpha 8 AI Processor Gen 3 as the flagship QNED90, at a fraction of the price",
+      "AI Super Upscaling shared only with the QNED90",
+      "Massive 100\" size for genuine home-theater scale",
+      "webOS 26 with the same Sports Portal and AI features as the flagship"
+    ],
+    "cons": [
+      "Lacks the QNED90's 165Hz VRR and 330Hz Motion Booster",
+      "Peak brightness, refresh rate, and HDMI 2.1 port count not independently confirmed",
+      "US retail SKU naming may appear slightly differently by retailer (e.g. QNED84-series badging)"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "lg-qned90",
+      "lg-qned82",
+      "samsung-qn80h"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "LG's 100\" mid-flagship QNED — the QNED90's processor at cinematic scale."
+  },
+  {
+    "id": "tv-lg-qned82",
+    "categorySlug": "tv",
+    "brand": "LG",
+    "series": "QNED evo QNED82",
+    "model": "LG QNED82",
+    "slug": "lg-qned82",
+    "releaseYear": 2026,
+    "price": 699.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QNED evo Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "eARC",
+      "Ethernet"
+    ],
+    "features": [
+      "Alpha 8 AI Processor Gen 3",
+      "Dynamic Tone Mapping Pro",
+      "AMD FreeSync Premium",
+      "webOS 26 with Sports Portal and Sports Alert",
+      "Available up to 86\""
+    ],
+    "specs": {
+      "screenSize": 55,
+      "panelType": "QNED evo Mini LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "Alpha 8 AI Processor Gen 3",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "webOS 26",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 7.6,
+      "brightness": 7.5,
+      "gaming": 7.8,
+      "smartPlatform": 8.8,
+      "sound": 6.5,
+      "design": 7.5,
+      "connectivity": 7.5,
+      "value": 8.3
+    },
+    "pros": [
+      "Entry point into LG's Alpha 8 AI Processor Gen 3 lineup for 2026",
+      "Same webOS 26 smart platform and Sports Portal as the flagship QNED90",
+      "Available across a wide size range up to 86\"",
+      "AMD FreeSync Premium included even at this tier"
+    ],
+    "cons": [
+      "No Dynamic QNED Color Pro or Precision Dimming Ultra — those stay on the QNED90/85 above it",
+      "Peak brightness, refresh rate, and HDMI 2.1 port count not independently confirmed",
+      "Fewer local dimming zones than the QNED85/90"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "lg-qned85",
+      "samsung-qn70h",
+      "tcl-qm6k"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "LG's entry 2026 QNED Mini LED — the Alpha 8 Gen 3 processor at a budget price."
+  },
+  {
+    "id": "tv-amazon-omni-mini-led",
+    "categorySlug": "tv",
+    "brand": "Amazon",
+    "series": "Fire TV Omni Mini-LED",
+    "model": "Amazon Fire TV Omni Mini-LED",
+    "slug": "amazon-omni-mini-led",
+    "releaseYear": 2026,
+    "price": 959.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED Mini-LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1 x2 (one doubles as eARC)",
+      "Ethernet"
+    ],
+    "features": [
+      "4K QLED Mini-LED with over a billion colors",
+      "512 local dimming zones",
+      "New 2026 Fire TV interface",
+      "Hands-free Alexa+ and Fire TV Ambient Experience",
+      "AMD FreeSync Premium Pro-certified 144Hz"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QLED Mini-LED (512 dimming zones)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 1400,
+      "refreshRate": 144,
+      "processor": "Not officially specified",
+      "hdmi21Ports": 2,
+      "hdrFormats": "Dolby Vision IQ, HDR10+ Adaptive, HDR10, HLG",
+      "smartPlatform": "Fire TV (2026 interface)",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.6,
+      "brightness": 7.8,
+      "gaming": 7.8,
+      "smartPlatform": 7.5,
+      "sound": 6,
+      "design": 6.8,
+      "connectivity": 6.8,
+      "value": 8.5
+    },
+    "pros": [
+      "512 local dimming zones and 1,400-nit peak brightness are excellent for the price",
+      "AMD FreeSync Premium Pro-certified 144Hz — genuinely gaming-capable",
+      "Hands-free Alexa+ built directly into the TV",
+      "Redesigned 2026 Fire TV interface"
+    ],
+    "cons": [
+      "Only 2 HDMI 2.1 ports, and only 4 total inputs",
+      "No Dolby Atmos support",
+      "Processor and audio system not officially specified"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazon-omni-qled",
+      "tcl-qm6k",
+      "hisense-u6sf-pro"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Amazon's own Mini-LED TV — 512 dimming zones and 144Hz gaming with Alexa+ built in."
+  },
+  {
+    "id": "tv-amazon-omni-qled",
+    "categorySlug": "tv",
+    "brand": "Amazon",
+    "series": "Fire TV Omni QLED",
+    "model": "Amazon Fire TV Omni QLED",
+    "slug": "amazon-omni-qled",
+    "releaseYear": 2026,
+    "price": 279.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED panel (edge-lit with local dimming, not Mini-LED)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "Ethernet"
+    ],
+    "features": [
+      "4K Quantum Dot display with full-array local dimming (48 zones)",
+      "Adaptive Brightness via built-in sensor",
+      "Hands-free Alexa+ and Fire TV Ambient Experience",
+      "Dolby Vision IQ and HDR10+ Adaptive"
+    ],
+    "specs": {
+      "screenSize": 50,
+      "panelType": "QLED (full-array local dimming, 48 zones)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 800,
+      "refreshRate": "Not independently confirmed",
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision IQ, HDR10+ Adaptive, HDR10, HLG",
+      "smartPlatform": "Fire TV (2026 interface)",
+      "variableRefreshRate": false,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 6.5,
+      "brightness": 6.2,
+      "gaming": 5.8,
+      "smartPlatform": 7.5,
+      "sound": 5.8,
+      "design": 6.3,
+      "connectivity": 6.5,
+      "value": 8.7
+    },
+    "pros": [
+      "48-zone full-array local dimming is unusual at this price",
+      "Hands-free Alexa+ built directly into the TV, no remote needed for voice",
+      "Adaptive Brightness sensor tunes the picture to room lighting automatically",
+      "Frequently discounted well below launch price"
+    ],
+    "cons": [
+      "No Mini-LED backlight, no VRR, and no Dolby Atmos",
+      "Meaningfully lower peak brightness than the Omni Mini-LED above it",
+      "Refresh rate, processor, and HDMI port count not officially specified"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazon-omni-mini-led",
+      "tcl-q6"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Amazon's entry QLED — 48-zone local dimming and hands-free Alexa+ at a budget price."
+  },
+  {
+    "id": "tv-toshiba-c350",
+    "categorySlug": "tv",
+    "brand": "Toshiba",
+    "series": "C350",
+    "model": "Toshiba C350",
+    "slug": "toshiba-c350",
+    "releaseYear": 2025,
+    "price": 279.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "LED panel (non-QLED)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "Ethernet"
+    ],
+    "features": [
+      "REGZA Engine ZR for sharpness, color accuracy and contrast",
+      "AI 4K Upscaling for HD content",
+      "Onkyo-tuned audio",
+      "Fire TV smart platform",
+      "Near-bezel-free design"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "LED (non-QLED, no local dimming)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 60,
+      "processor": "REGZA Engine ZR",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "Fire TV",
+      "variableRefreshRate": false,
+      "audioSystem": "Onkyo-tuned speakers",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 5.8,
+      "brightness": 5.5,
+      "gaming": 5,
+      "smartPlatform": 7.3,
+      "sound": 6.3,
+      "design": 6.5,
+      "connectivity": 6.5,
+      "value": 8.8
+    },
+    "pros": [
+      "Onkyo-tuned audio is a genuine step up from typical budget-TV speakers",
+      "AI 4K Upscaling helps older HD content look sharper",
+      "Fire TV platform with deep Alexa integration",
+      "Available across 6 sizes from 43\" to 85\" at very low prices"
+    ],
+    "cons": [
+      "No QLED, no local dimming, and no VRR — a basic LED panel",
+      "60Hz refresh only, not suited for high-frame-rate gaming",
+      "Peak brightness and HDMI port count not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "toshiba-m550",
+      "tcl-q6"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Toshiba's budget LED TV — Onkyo-tuned sound and Fire TV at a rock-bottom price."
+  },
+  {
+    "id": "tv-toshiba-m550",
+    "categorySlug": "tv",
+    "brand": "Toshiba",
+    "series": "M550",
+    "model": "Toshiba M550",
+    "slug": "toshiba-m550",
+    "releaseYear": 2025,
+    "price": 579.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED panel with Full Array Local Dimming",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "Ethernet"
+    ],
+    "features": [
+      "Quantum dot color for over 1 billion colors and wider DCI-P3 coverage",
+      "Full Array Local Dimming",
+      "Dolby Vision IQ and Dolby Atmos passthrough",
+      "Google TV smart platform (vs. Fire TV on the C350)"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QLED (Full Array Local Dimming)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision IQ, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": false,
+      "audioSystem": "Not officially specified (Dolby Atmos passthrough)",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 7,
+      "brightness": 6.8,
+      "gaming": 5.8,
+      "smartPlatform": 7.8,
+      "sound": 6.3,
+      "design": 6.8,
+      "connectivity": 6.8,
+      "value": 8
+    },
+    "pros": [
+      "Genuine quantum dot QLED color with Full Array Local Dimming at a budget price",
+      "Dolby Vision IQ and Dolby Atmos passthrough — rare combination this cheap",
+      "Google TV platform offers broader app support than the C350's Fire TV",
+      "Meaningfully better contrast than the non-QLED C350"
+    ],
+    "cons": [
+      "Pricing has fluctuated significantly and availability has narrowed at some retailers",
+      "No confirmed VRR or high refresh rate for gaming",
+      "Peak brightness, refresh rate, and HDMI port count not officially specified"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "toshiba-c350",
+      "tcl-q6"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Toshiba's step-up QLED — quantum dot color and Dolby Vision IQ over the base C350."
+  },
+  {
+    "id": "tv-roku-pro-series",
+    "categorySlug": "tv",
+    "brand": "Roku",
+    "series": "Pro Series",
+    "model": "Roku Pro Series",
+    "slug": "roku-pro-series",
+    "releaseYear": 2025,
+    "price": 698,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED Mini-LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "Ethernet"
+    ],
+    "features": [
+      "Thousands of mini-LEDs for vivid highlights and deep blacks",
+      "Dolby Vision IQ",
+      "120Hz refresh with FreeSync Premium Pro, ALLM and VRR",
+      "Backlit Roku Voice Remote Pro",
+      "Built-in Roku OS — direct access to every major streaming app"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QLED Mini-LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 120,
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision IQ, HDR10, HLG",
+      "smartPlatform": "Roku TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.9,
+      "brightness": 8,
+      "gaming": 8,
+      "smartPlatform": 8.3,
+      "sound": 6.3,
+      "design": 7.3,
+      "connectivity": 7,
+      "value": 8.6
+    },
+    "pros": [
+      "Brighter than the outgoing Plus Series, Roku's own step-up claim",
+      "120Hz refresh with FreeSync Premium Pro, ALLM, and VRR for genuine gaming credentials",
+      "Native Roku TV OS is one of the simplest, fastest smart TV interfaces available",
+      "Backlit Roku Voice Remote Pro included"
+    ],
+    "cons": [
+      "No Dolby Atmos support",
+      "Peak brightness, processor, and HDMI port count not officially specified",
+      "Roku TV has less on-device AI/voice feature depth than Samsung, LG, or Google TV platforms"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roku-plus-series",
+      "tcl-qm6k",
+      "hisense-u6sf-pro"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Roku's own brightest TV — Mini-LED QLED with 120Hz gaming and the native Roku interface."
+  },
+  {
+    "id": "tv-roku-plus-series",
+    "categorySlug": "tv",
+    "brand": "Roku",
+    "series": "Plus Series",
+    "model": "Roku Plus Series",
+    "slug": "roku-plus-series",
+    "releaseYear": 2025,
+    "price": 649.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED Mini-LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "Ethernet"
+    ],
+    "features": [
+      "QLED display with Mini-LED backlighting",
+      "Dolby Vision and Dolby Atmos",
+      "Enhanced Roku voice remote with lost-remote finder and personal shortcut button",
+      "Available in 55\"-75\" sizes"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QLED Mini-LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "Dolby Vision, HDR10, HLG",
+      "smartPlatform": "Roku TV",
+      "variableRefreshRate": false,
+      "audioSystem": "Not officially specified (Dolby Atmos supported)",
+      "dolbyAtmos": true
+    },
+    "scores": {
+      "picture": 7.3,
+      "brightness": 7.2,
+      "gaming": 6.5,
+      "smartPlatform": 8.3,
+      "sound": 6.5,
+      "design": 7,
+      "connectivity": 6.8,
+      "value": 8.4
+    },
+    "pros": [
+      "Genuine Mini-LED QLED with Dolby Vision and Dolby Atmos at an accessible price",
+      "Enhanced remote includes a lost-remote finder and personal shortcut button",
+      "Native Roku TV OS — simple, fast, ad-supported but not intrusive",
+      "Frequently discounted well below MSRP"
+    ],
+    "cons": [
+      "Dimmer than the newer Pro Series above it",
+      "No confirmed VRR or high refresh rate for gaming",
+      "Peak brightness, refresh rate, and HDMI port count not officially specified"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roku-pro-series",
+      "tcl-q6"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Roku's mid-tier Mini-LED QLED — Dolby Vision and Atmos on the simple native Roku interface."
+  },
+  {
+    "id": "tv-philips-xtra-pml9008",
+    "categorySlug": "tv",
+    "brand": "Philips",
+    "series": "The Xtra PML9008",
+    "model": "Philips The Xtra",
+    "slug": "philips-the-xtra",
+    "releaseYear": 2023,
+    "price": 1501,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Mini LED panel, 3-sided Ambilight",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 5",
+      "Bluetooth 5.0",
+      "HDMI 2.1 x2 + HDMI 2.0 x2",
+      "CI+ slot",
+      "Ethernet"
+    ],
+    "features": [
+      "3-sided Ambilight",
+      "P5 Perfect Picture Engine (dual-core)",
+      "Google TV with Chromecast built-in and Google Assistant",
+      "AMD FreeSync Premium certified"
+    ],
+    "specs": {
+      "screenSize": 55,
+      "panelType": "Mini LED",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": 1000,
+      "refreshRate": 120,
+      "processor": "P5 Perfect Picture Engine (dual-core)",
+      "hdmi21Ports": 2,
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.7,
+      "brightness": 7.3,
+      "gaming": 7.6,
+      "smartPlatform": 8,
+      "sound": 6.3,
+      "design": 8,
+      "connectivity": 7,
+      "value": 6.8
+    },
+    "pros": [
+      "3-sided Ambilight is a genuinely distinctive feature no other brand in this comparison offers",
+      "Full Dolby Vision, HDR10+, HDR10, and HLG support",
+      "120Hz native refresh with FreeSync Premium certification",
+      "Google TV platform with built-in Chromecast"
+    ],
+    "cons": [
+      "Not sold on US Amazon — Philips TVs sold in the US come from a different licensee and this lineup isn't distributed there",
+      "Price converted from the EUR European launch price (€1,390) for comparison purposes only",
+      "Newer RGB Mini-LED \"Xtra\" successor (MLED981) was announced for 2026 but has no price yet, so this priced, currently-available generation is shown instead"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "usAvailable": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "philips-pqs9001"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Philips' Ambilight Mini LED TV — not sold on US Amazon, priced from its European launch."
+  },
+  {
+    "id": "tv-philips-pqs9001",
+    "categorySlug": "tv",
+    "brand": "Philips",
+    "series": "The One PQS9001",
+    "model": "Philips PQS9001",
+    "slug": "philips-pqs9001",
+    "releaseYear": 2026,
+    "price": 863,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QD LCD panel, 3-sided Ambilight",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1 x4",
+      "Ethernet"
+    ],
+    "features": [
+      "3-sided Ambilight with new AmbiScape smart-lighting sync",
+      "7th-generation P5 processor with MediaTek Pentonic 800 chipset",
+      "Dolby Vision 2 support",
+      "DLG mode for up to 240Hz (PC gaming)",
+      "HDR10+ gaming support with FreeSync Premium"
+    ],
+    "specs": {
+      "screenSize": 43,
+      "panelType": "144Hz QD LCD (wide color gamut)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 144,
+      "processor": "7th-Gen P5 Processor + MediaTek Pentonic 800",
+      "hdmi21Ports": 4,
+      "hdrFormats": "Dolby Vision 2, HDR10+, HDR10, HLG",
+      "smartPlatform": "Not officially specified",
+      "variableRefreshRate": true,
+      "audioSystem": "20W 2.0 (43\"); 40W 4.0 (50-65\"); 50W 2.1 (75-100\")",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 8,
+      "brightness": 7.8,
+      "gaming": 8.4,
+      "smartPlatform": 7,
+      "sound": 6.8,
+      "design": 8,
+      "connectivity": 8,
+      "value": 7.5
+    },
+    "pros": [
+      "144Hz native QD LCD panel with four full-bandwidth HDMI 2.1 ports — rare combination at this price",
+      "Dolby Vision 2 support ahead of most competitors",
+      "DLG mode pushes up to 240Hz for PC gaming",
+      "Available across 7 sizes from 43\" up to 100\""
+    ],
+    "cons": [
+      "Not sold on US Amazon — Philips TVs sold in the US come from a different licensee and this lineup isn't distributed there",
+      "Price shown is converted from the EUR European launch price (€799, 43\" size) for comparison purposes only",
+      "Peak brightness and exact smart platform not independently confirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "usAvailable": false,
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "philips-the-xtra"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Philips' 2026 QD LCD lineup — 144Hz gaming and Dolby Vision 2, not sold on US Amazon."
+  },
+  {
+    "id": "tv-sharp-aquos-xled",
+    "categorySlug": "tv",
+    "brand": "Sharp",
+    "series": "AQUOS XLED",
+    "model": "Sharp AQUOS XLED",
+    "slug": "sharp-aquos-xled",
+    "releaseYear": 2024,
+    "price": 1999.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QD Mini LED panel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI 2.1 x4 (ALLM/VRR/eARC)",
+      "Ethernet"
+    ],
+    "features": [
+      "Xtreme Brightness with Deep Chroma QD (quantum dot)",
+      "Over 2,000 local dimming zones",
+      "2.1.2-channel speaker system with 11 built-in speakers",
+      "Google TV smart platform"
+    ],
+    "specs": {
+      "screenSize": 65,
+      "panelType": "QD Mini LED (2,000+ dimming zones)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": 120,
+      "processor": "Not officially specified",
+      "hdmi21Ports": 4,
+      "hdrFormats": "Dolby Vision IQ, HDR10, HLG",
+      "smartPlatform": "Google TV",
+      "variableRefreshRate": true,
+      "audioSystem": "2.1.2-channel, 11 built-in speakers, Dolby Digital",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 7.9,
+      "brightness": 7.8,
+      "gaming": 7.7,
+      "smartPlatform": 8,
+      "sound": 7.8,
+      "design": 7.3,
+      "connectivity": 8,
+      "value": 7
+    },
+    "pros": [
+      "Over 2,000 local dimming zones — genuinely high-end for a lesser-known brand",
+      "Unusual 2.1.2-channel, 11-speaker built-in audio system",
+      "Four full-bandwidth HDMI 2.1 ports with ALLM/VRR/eARC",
+      "Google TV platform with broad app support"
+    ],
+    "cons": [
+      "Pricing varies significantly by retailer, from roughly $2,000 to over $3,000",
+      "Peak brightness and processor not officially specified",
+      "Sharp has a smaller US service/support footprint than the major TV brands"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sharp-aquos-qled",
+      "tcl-qm7l"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "Sharp's step-up QD Mini LED — over 2,000 dimming zones and an 11-speaker built-in sound system."
+  },
+  {
+    "id": "tv-sharp-aquos-qled",
+    "categorySlug": "tv",
+    "brand": "Sharp",
+    "series": "AQUOS QLED",
+    "model": "Sharp AQUOS QLED",
+    "slug": "sharp-aquos-qled",
+    "releaseYear": 2026,
+    "price": 419,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "QLED panel (quantum dot-enhanced LED, non-Mini-LED)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth",
+      "HDMI (port count not independently confirmed)",
+      "Ethernet"
+    ],
+    "features": [
+      "Quantum dot-enhanced LED backlight",
+      "Available in 5 sizes from 50\" to 85\"",
+      "Xumo TV or Google TV smart platform depending on model",
+      "Positioned in the $300-$500 budget segment"
+    ],
+    "specs": {
+      "screenSize": 55,
+      "panelType": "QLED (quantum dot-enhanced LED, non-Mini-LED)",
+      "resolution": "3840x2160 (4K UHD)",
+      "peakBrightness": "Not independently confirmed",
+      "refreshRate": "Not independently confirmed",
+      "processor": "Not officially specified",
+      "hdmi21Ports": "Not independently confirmed",
+      "hdrFormats": "HDR10, HLG",
+      "smartPlatform": "Xumo TV or Google TV (varies by model)",
+      "variableRefreshRate": false,
+      "audioSystem": "Not officially specified",
+      "dolbyAtmos": false
+    },
+    "scores": {
+      "picture": 6.2,
+      "brightness": 6,
+      "gaming": 5.5,
+      "smartPlatform": 7,
+      "sound": 5.8,
+      "design": 6.3,
+      "connectivity": 6.5,
+      "value": 8.3
+    },
+    "pros": [
+      "Genuinely low entry price for quantum dot color",
+      "Available in 5 sizes from 50\" up to a large 85\"",
+      "Google TV variant offers strong app/casting support",
+      "Simple, no-frills option for budget shoppers"
+    ],
+    "cons": [
+      "No Mini-LED backlight or local dimming confirmed",
+      "No Dolby Vision or Dolby Atmos support",
+      "Most detailed specs (brightness, refresh, HDMI, processor) not officially published"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sharp-aquos-xled",
+      "tcl-q6"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "Sharp's budget QLED — quantum dot color from $399, no Mini-LED."
   }
 ]

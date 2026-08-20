@@ -52,7 +52,7 @@ export const categories: Category[] = [
     name: 'TV',
     pluralName: 'TVs',
     description:
-      'Flagship and mid-range OLED TVs compared spec-for-spec — panel technology, peak brightness, refresh rate, gaming features, and smart platform — so you know exactly which one to buy.',
+      'Flagship and mid-range OLED, QLED, and Mini-LED TVs compared spec-for-spec — panel technology, peak brightness, refresh rate, gaming features, and smart platform — so you know exactly which one to buy.',
     specFields: [
       { key: 'screenSize', label: 'Screen Size', unit: 'in', betterDirection: 'none' },
       { key: 'panelType', label: 'Panel Type', betterDirection: 'none' },
