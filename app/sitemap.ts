@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { categories } from '@/data/categories';
-import { getAllComparisonPairs, getProductsByCategory } from '@/lib/products';
+import { getAllComparisonPairs, getProductsByCategory, isCategoryLive } from '@/lib/products';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
 
@@ -11,6 +11,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [{ url: SITE_URL, changeFrequency: 'weekly', priority: 1 }];
 
   for (const category of categories) {
+    // A category with no products yet is served as a noindex "coming soon"
+    // page (see app/[category]/page.tsx) — it must not appear here, or the
+    // sitemap would be advertising a page we're explicitly telling Google
+    // not to index.
+    if (!isCategoryLive(category.slug)) continue;
+
     entries.push({ url: `${SITE_URL}/${category.slug}`, changeFrequency: 'weekly', priority: 0.9 });
 
     for (const product of getProductsByCategory(category.slug)) {

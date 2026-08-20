@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
+import { isCategoryLive } from '@/lib/products';
 
 // Trimmed multi-column footer (4 columns). Every link points at a real,
 // existing route — the "Explore" column is generated from live category
@@ -9,7 +10,10 @@ export default function Footer() {
     {
       heading: 'Explore',
       links: [
-        ...categories.map((c) => ({ href: `/${c.slug}`, label: c.pluralName })),
+        // Only categories that actually have products — a site-wide footer
+        // link is the strongest internal signal on the site, so it must
+        // never point at an empty, noindexed category page.
+        ...categories.filter((c) => isCategoryLive(c.slug)).map((c) => ({ href: `/${c.slug}`, label: c.pluralName })),
         { href: '/comparisons', label: 'All comparisons' },
         { href: '/guides', label: 'Buying guides' },
         { href: '/brands', label: 'Brands' }

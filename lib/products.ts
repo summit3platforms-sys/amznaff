@@ -43,6 +43,20 @@ export function getAllComparisonPairs(categorySlug: string): Array<{ product: Pr
   return pairs;
 }
 
+// ---------------------------------------------------------------------------
+// Category liveness. A category is "live" only once it has real product data
+// behind it. Everything user-facing and crawlable — the sitemap, the footer's
+// Explore column, the guide sidebar, the category route itself — derives from
+// these helpers so an empty category can never leak a thin, indexable page or
+// an internal link into a dead end. Nothing to toggle by hand: add products
+// to the category's JSON and it goes live everywhere at once; empty it and it
+// disappears again. Mirrors the rule CategoryGroupCard already applies on the
+// homepage and /categories grid.
+// ---------------------------------------------------------------------------
+export function isCategoryLive(categorySlug: string): boolean {
+  return getProductsByCategory(categorySlug).length > 0;
+}
+
 export function getCompetitors(product: Product): Product[] {
   const products = getProductsByCategory(product.categorySlug);
   return product.competitorSlugs

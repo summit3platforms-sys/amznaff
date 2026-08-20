@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
 import { getPublishedGuides, getGuidesByCategory, GuideSummary } from '@/data/guides';
+import { isCategoryLive } from '@/lib/products';
 
 export default function GuideSidebar({ currentSlug }: { currentSlug: string }) {
   const related = getPublishedGuides()
@@ -14,11 +15,21 @@ export default function GuideSidebar({ currentSlug }: { currentSlug: string }) {
         <ul className="mt-3 space-y-2">
           {categories.map((c) => {
             const count = getGuidesByCategory(c.slug).length;
+            // A category without products yet is shown, but as plain text —
+            // the guide itself is still worth reading, the empty category
+            // page behind it isn't worth linking to.
             return (
-              <li key={c.slug} className="flex items-center justify-between text-sm">
-                <Link href={`/${c.slug}`} className="text-slate-600 hover:text-brand-600">
-                  {c.pluralName}
-                </Link>
+              <li key={c.slug} className="flex items-center justify-between gap-2 text-sm">
+                {isCategoryLive(c.slug) ? (
+                  <Link href={`/${c.slug}`} className="text-slate-600 hover:text-brand-600">
+                    {c.pluralName}
+                  </Link>
+                ) : (
+                  <span className="flex items-center gap-2 text-slate-400">
+                    {c.pluralName}
+                    <span className="pill !py-0.5 !text-[10px]">Soon</span>
+                  </span>
+                )}
                 <span className="text-xs text-slate-400">{count}</span>
               </li>
             );

@@ -1,11 +1,12 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { categories, getCategory } from '@/data/categories';
-import { getAllComparisonPairs, getProductsByCategory } from '@/lib/products';
+import { getAllComparisonPairs, getProductsByCategory, isCategoryLive } from '@/lib/products';
 import { productMatchesFilter } from '@/lib/filters';
 import ProductCard from '@/components/ProductCard';
 import FilterTags from '@/components/FilterTags';
 import VsCard from '@/components/VsCard';
+import ComingSoon from '@/components/ComingSoon';
 
 export function generateStaticParams() {
   return categories.map((c) => ({ category: c.slug }));
@@ -14,6 +15,21 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { category: string } }): Metadata {
   const category = getCategory(params.category);
   if (!category) return {};
+
+  // A category defined in data/categories.ts but with no products yet still
+  // resolves (rather than 404ing) so that any URL already in Google's index
+  // returns a real 200 carrying an explicit noindex — that's how a page gets
+  // dropped cleanly. `follow` stays on so the outbound links to live
+  // comparisons still pass their signal. It is also kept out of the sitemap
+  // (app/sitemap.ts) and out of every internal nav surface.
+  if (!isCategoryLive(category.slug)) {
+    return {
+      title: `${category.pluralName} Comparisons — Coming Soon`,
+      description: `${category.pluralName} comparisons are not live on The Comparison Report yet. Browse the categories we have published so far.`,
+      robots: { index: false, follow: true }
+    };
+  }
+
   return {
     title: `${category.pluralName} Compared — Which One Should You Buy?`,
     description: category.description
@@ -29,6 +45,15 @@ export default function CategoryPage({
 }) {
   const category = getCategory(params.category);
   if (!category) notFound();
+
+  if (!isCategoryLive(category.slug)) {
+    return (
+      <ComingSoon
+        title={`${category.pluralName} comparisons are coming soon`}
+        description={`We only publish a category once every model in it has verified specs and a real retail listing behind it. ${category.pluralName} aren't there yet — here's what is live in the meantime.`}
+      />
+    );
+  }
 
   const allProducts = getProductsByCategory(category.slug);
   const activeFilter = category.filters.find((f) => f.slug === searchParams.filter);
