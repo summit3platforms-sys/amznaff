@@ -87,6 +87,49 @@ export const categories: Category[] = [
       { slug: 'flagship', label: 'Flagship', kind: 'use-case' },
       { slug: 'wall-mounted', label: 'Wall-Mounted / Space-Saving', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'streaming-devices',
+    name: 'Streaming Device',
+    pluralName: 'Streaming Devices',
+    description:
+      'Streaming sticks and boxes compared spec-for-spec \u2014 4K and HDR support, Dolby Vision and Atmos, processor, storage, Wi-Fi and remote features \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'maxResolution', label: 'Max Resolution', betterDirection: 'none' },
+      { key: 'hdrFormats', label: 'HDR Formats', betterDirection: 'none' },
+      { key: 'dolbyVision', label: 'Dolby Vision', betterDirection: 'none' },
+      { key: 'dolbyAtmos', label: 'Dolby Atmos', betterDirection: 'none' },
+      { key: 'processor', label: 'Processor', betterDirection: 'none' },
+      { key: 'ram', label: 'RAM', unit: 'GB', betterDirection: 'higher' },
+      { key: 'storage', label: 'Storage', unit: 'GB', betterDirection: 'higher' },
+      { key: 'wifi', label: 'Wi-Fi', betterDirection: 'none' },
+      { key: 'ethernet', label: 'Ethernet', betterDirection: 'none' },
+      { key: 'bluetooth', label: 'Bluetooth', betterDirection: 'none' },
+      { key: 'smartPlatform', label: 'Operating System', betterDirection: 'none' },
+      { key: 'remoteFeatures', label: 'Remote', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'performance', label: 'Speed & Performance', description: 'Processor, RAM, and how quickly menus and apps respond' },
+      { key: 'video', label: 'Video Quality', description: 'Maximum resolution and which HDR formats are supported' },
+      { key: 'audio', label: 'Audio Support', description: 'Dolby Atmos and DTS handling, and whether audio is decoded or only passed through' },
+      { key: 'platform', label: 'Platform & Apps', description: 'Operating system, app catalogue, and how advertising-led the interface is' },
+      { key: 'connectivity', label: 'Connectivity', description: 'Wi-Fi standard, ethernet, Bluetooth, and expansion ports' },
+      { key: 'remote', label: 'Remote', description: 'Voice control, backlighting, rechargeability, and remote-finder features' },
+      { key: 'smartHome', label: 'Smart Home', description: 'Matter, Thread, and built-in voice assistant capability' },
+      { key: 'value', label: 'Value', description: 'Features and performance relative to price' }
+    ],
+    filters: [
+      { slug: 'under-40', label: 'Under $40', kind: 'price-max', value: 40 },
+      { slug: 'under-60', label: 'Under $60', kind: 'price-max', value: 60 },
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: '4k-hdr', label: '4K HDR', kind: 'use-case' },
+      { slug: 'budget', label: 'Budget', kind: 'use-case' },
+      { slug: 'travel', label: 'Travel', kind: 'use-case' },
+      { slug: 'gaming', label: 'Gaming', kind: 'use-case' },
+      { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
+      { slug: 'smart-home', label: 'Smart Home', kind: 'use-case' }
+    ]
   }
 ];
 

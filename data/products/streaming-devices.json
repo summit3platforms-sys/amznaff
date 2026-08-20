@@ -1,0 +1,1168 @@
+[
+  {
+    "id": "sd-fire-tv-stick-hd",
+    "categorySlug": "streaming-devices",
+    "brand": "Amazon",
+    "series": "Fire TV Stick",
+    "model": "Fire TV Stick HD (2026)",
+    "slug": "fire-tv-stick-hd",
+    "releaseYear": 2026,
+    "price": 34.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick, Direct Power (runs from the TV's USB port)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6 (dual-band)",
+      "Bluetooth 5.3 + BLE",
+      "HDMI 2.1",
+      "USB-C 2.0",
+      "Ethernet via optional adapter"
+    ],
+    "features": [
+      "Direct Power — runs off the TV's USB port, no wall adapter needed",
+      "Alexa Voice Remote (3rd Gen) with TV power and volume control",
+      "Alexa+ voice search built in",
+      "Amazon's slimmest streaming stick",
+      "Roughly 30% faster than the 2024 Fire TV Stick HD it replaces"
+    ],
+    "specs": {
+      "maxResolution": "1080p at 60fps",
+      "hdrFormats": "HDR10, HDR10+, HLG",
+      "dolbyVision": false,
+      "dolbyAtmos": true,
+      "processor": "MediaTek MT8698D — quad-core Cortex-A55 at 1.7GHz",
+      "ram": 1,
+      "storage": 8,
+      "wifi": "Wi-Fi 6",
+      "ethernet": "Adapter only (sold separately)",
+      "bluetooth": "5.3 + BLE",
+      "smartPlatform": "Vega OS 1.1 (Linux-based, not Android)",
+      "remoteFeatures": "Voice, TV power and volume; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 6.0,
+      "video": 4.5,
+      "audio": 7.0,
+      "platform": 6.0,
+      "connectivity": 7.0,
+      "remote": 5.5,
+      "smartHome": 5.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Cheapest way onto Fire TV, and the remote controls your TV's power and volume",
+      "Powers straight from the TV's USB port — genuinely cable-free behind the screen",
+      "Wi-Fi 6 and Bluetooth 5.3 are real upgrades over the 2024 model it replaces",
+      "Passes Dolby Atmos through to a soundbar or receiver"
+    ],
+    "cons": [
+      "1080p output only — no 4K, so it will not grow with a 4K TV",
+      "No Dolby Vision",
+      "Vega OS is not Android: no sideloading and no Downloader, and the app catalogue is Amazon Appstore only",
+      "1GB of RAM is the least in the Fire TV line",
+      "Fire TV's home screen is heavily ad-driven"
+    ],
+    "images": [],
+    "amazonAsin": "B0DJGDC3BD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roku-streaming-stick",
+      "fire-tv-stick-4k-select",
+      "fire-tv-stick-4k-plus"
+    ],
+    "useCases": [
+      "budget",
+      "travel"
+    ],
+    "shortTagline": "Amazon's cheapest stick — HD only, but it powers straight from the TV's USB port."
+  },
+  {
+    "id": "sd-fire-tv-stick-4k-select",
+    "categorySlug": "streaming-devices",
+    "brand": "Amazon",
+    "series": "Fire TV Stick",
+    "model": "Fire TV Stick 4K Select",
+    "slug": "fire-tv-stick-4k-select",
+    "releaseYear": 2025,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 5 (802.11ac 2x2 MIMO)",
+      "Bluetooth 5.0 + BLE",
+      "HDMI",
+      "Ethernet via optional adapter"
+    ],
+    "features": [
+      "The first non-Android Fire TV, running Amazon's own Vega OS",
+      "Alexa Voice Remote (3rd Gen) with TV power and volume control",
+      "Alexa+ voice search built in",
+      "Marketed by Amazon as the fastest 4K streaming stick under $40"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "HDR10, HDR10+, HLG",
+      "dolbyVision": false,
+      "dolbyAtmos": true,
+      "processor": "MediaTek MT8698 — quad-core Cortex-A55 at 1.7GHz",
+      "ram": 1,
+      "storage": 8,
+      "wifi": "Wi-Fi 5",
+      "ethernet": "Adapter only (sold separately)",
+      "bluetooth": "5.0 + BLE",
+      "smartPlatform": "Vega OS 1.1 (Linux-based, not Android)",
+      "remoteFeatures": "Voice, TV power and volume; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 6.0,
+      "video": 6.5,
+      "audio": 6.5,
+      "platform": 6.0,
+      "connectivity": 5.5,
+      "remote": 5.5,
+      "smartHome": 5.0,
+      "value": 8.0
+    },
+    "pros": [
+      "4K output for under $40 at list, and it is discounted hard and often",
+      "Snappier in use than the price suggests",
+      "Same TV-controlling Alexa remote as the pricier sticks"
+    ],
+    "cons": [
+      "Wi-Fi 5 only — a step down from the 4K Plus and 4K Max, which both have Wi-Fi 6 or better",
+      "No Dolby Vision",
+      "Dolby Atmos is passthrough to an external receiver; Amazon's own documentation and hands-on reviews disagree on whether the device decodes Atmos itself",
+      "Vega OS means no sideloading, and reviewers found gaps including Xbox Game Pass and limited VPN options",
+      "1GB of RAM — the first 4K Fire TV to ship with that little"
+    ],
+    "images": [],
+    "amazonAsin": "B0C6W3D4RM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fire-tv-stick-4k-plus",
+      "roku-streaming-stick-plus",
+      "fire-tv-stick-hd",
+      "fire-tv-stick-4k-max"
+    ],
+    "useCases": [
+      "budget",
+      "travel",
+      "4k-hdr"
+    ],
+    "shortTagline": "The cheapest 4K Fire TV stick — but Wi-Fi 5 and no Dolby Vision are the trade."
+  },
+  {
+    "id": "sd-fire-tv-stick-4k-plus",
+    "categorySlug": "streaming-devices",
+    "brand": "Amazon",
+    "series": "Fire TV Stick",
+    "model": "Fire TV Stick 4K Plus",
+    "slug": "fire-tv-stick-4k-plus",
+    "releaseYear": 2025,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6 (dual-band)",
+      "Bluetooth 5.2 + BLE",
+      "HDMI 2.1 with ARC input support",
+      "Ethernet via optional adapter (10/100)"
+    ],
+    "features": [
+      "Dolby Vision, Dolby Atmos decode and DTS-HD passthrough — the cheapest Fire TV with all three",
+      "Runs Fire OS 8 (Android 11), so sideloading still works",
+      "AI-powered Fire TV Search with Alexa+",
+      "Cloud gaming via Amazon Luna and Xbox Game Pass"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10, HDR10+, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "MediaTek MT8696D — quad-core Cortex-A55 at 1.7GHz",
+      "ram": 2,
+      "storage": 8,
+      "wifi": "Wi-Fi 6",
+      "ethernet": "Adapter only (10/100, sold separately)",
+      "bluetooth": "5.2 + BLE",
+      "smartPlatform": "Fire OS 8 (Android 11)",
+      "remoteFeatures": "Voice, TV/soundbar power and volume; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 7.0,
+      "video": 8.5,
+      "audio": 9.0,
+      "platform": 7.5,
+      "connectivity": 7.0,
+      "remote": 5.5,
+      "smartHome": 5.0,
+      "value": 8.8
+    },
+    "pros": [
+      "The cheapest way to get Dolby Vision and full Dolby Atmos decoding on Fire TV",
+      "DTS and DTS-HD passthrough for disc-quality audio to a receiver",
+      "Still Android-based, so sideloading and Downloader work",
+      "Wi-Fi 6 and 2GB of RAM at a $49.99 list price"
+    ],
+    "cons": [
+      "Only 8GB of storage — half the 4K Max",
+      "Wi-Fi 6, not the 4K Max's Wi-Fi 6E",
+      "Ethernet needs a separate dongle",
+      "Ad-heavy Fire TV home screen",
+      "Amazon has said all future Fire TV sticks will move to Vega OS, so long-term Android app support here is uncertain"
+    ],
+    "images": [],
+    "amazonAsin": "B0F7Z4QZTT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fire-tv-stick-4k-max",
+      "roku-streaming-stick-4k",
+      "fire-tv-stick-4k-select",
+      "google-tv-streamer"
+    ],
+    "useCases": [
+      "4k-hdr",
+      "home-theater",
+      "budget"
+    ],
+    "shortTagline": "The value pick of the Fire TV line — Dolby Vision and Atmos decode for $50."
+  },
+  {
+    "id": "sd-fire-tv-stick-4k-max",
+    "categorySlug": "streaming-devices",
+    "brand": "Amazon",
+    "series": "Fire TV Stick",
+    "model": "Fire TV Stick 4K Max (2nd Gen)",
+    "slug": "fire-tv-stick-4k-max",
+    "releaseYear": 2023,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E (tri-band 2.4/5/6GHz)",
+      "Bluetooth 5.2 + BLE",
+      "HDMI 2.1 with ARC input support",
+      "Ethernet via optional adapter (10/100)"
+    ],
+    "features": [
+      "Wi-Fi 6E — the only Fire TV stick with tri-band support",
+      "Ambient Experience displays artwork and widgets when idle",
+      "Alexa Voice Remote Enhanced with Recent and Settings shortcuts",
+      "16GB of storage, double the rest of the stick line",
+      "Fire OS 8 (Android 11) with sideloading support"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10, HDR10+, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "MediaTek MT8696T — quad-core Cortex-A55 at 2.0GHz",
+      "ram": 2,
+      "storage": 16,
+      "wifi": "Wi-Fi 6E",
+      "ethernet": "Adapter only (10/100, sold separately)",
+      "bluetooth": "5.2 + BLE",
+      "smartPlatform": "Fire OS 8 (Android 11)",
+      "remoteFeatures": "Voice, TV power/volume/channel, Recent and Settings shortcuts; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 8.0,
+      "video": 8.5,
+      "audio": 9.0,
+      "platform": 7.5,
+      "connectivity": 8.5,
+      "remote": 6.5,
+      "smartHome": 5.0,
+      "value": 7.8
+    },
+    "pros": [
+      "Fastest Fire TV stick, and the only one with Wi-Fi 6E",
+      "16GB of storage leaves real room for apps and games",
+      "Best Fire TV stick for cloud gaming",
+      "Ambient Experience turns an idle TV into an art frame"
+    ],
+    "cons": [
+      "Three years old with no 2026 refresh",
+      "Ethernet still requires a dongle",
+      "Costs $10 more than the 4K Plus for the same Dolby Vision and Atmos support",
+      "Ad-heavy Fire TV home screen",
+      "Likely the last Android-based Fire TV stick, which is a plus for sideloading today and a risk for app support later"
+    ],
+    "images": [],
+    "amazonAsin": "B0BP9SNVH9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fire-tv-stick-4k-plus",
+      "google-tv-streamer",
+      "roku-streaming-stick-4k",
+      "apple-tv-4k-64gb",
+      "fire-tv-cube",
+      "onn-4k-pro"
+    ],
+    "useCases": [
+      "4k-hdr",
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "The fastest Fire TV stick — Wi-Fi 6E and 16GB, built for cloud gaming."
+  },
+  {
+    "id": "sd-fire-tv-cube",
+    "categorySlug": "streaming-devices",
+    "brand": "Amazon",
+    "series": "Fire TV Cube",
+    "model": "Fire TV Cube (3rd Gen)",
+    "slug": "fire-tv-cube",
+    "releaseYear": 2022,
+    "price": 139.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped set-top box with built-in speaker",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E (tri-band, 2x2 MIMO)",
+      "Bluetooth 5.0 + BLE",
+      "HDMI 2.1 input",
+      "HDMI 2.1 output with ARC",
+      "Ethernet (10/100, built in)",
+      "USB 2.0",
+      "IR extender"
+    ],
+    "features": [
+      "The only Fire TV with an HDMI input — route a cable box or console through it",
+      "Built-in ethernet, no dongle required",
+      "Far-field hands-free Alexa with a built-in speaker",
+      "Super Resolution Upscaling lifts HD content toward 4K",
+      "USB port for a webcam to make video calls on the TV"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10, HDR10+, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "Amlogic POP1-G — octa-core, 4x Cortex-A73 at 2.2GHz + 4x Cortex-A53 at 2.0GHz",
+      "ram": 2,
+      "storage": 16,
+      "wifi": "Wi-Fi 6E",
+      "ethernet": "Built in (10/100)",
+      "bluetooth": "5.0 + BLE",
+      "smartPlatform": "Fire OS 7 (Android 9)",
+      "remoteFeatures": "Alexa Voice Remote Enhanced; hands-free far-field voice on the device itself; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 9.0,
+      "video": 8.5,
+      "audio": 8.5,
+      "platform": 6.5,
+      "connectivity": 9.5,
+      "remote": 6.5,
+      "smartHome": 8.5,
+      "value": 5.5
+    },
+    "pros": [
+      "By far the fastest Fire TV device, roughly twice the 4K Max",
+      "Built-in ethernet and an HDMI input are unique in the Fire TV line",
+      "Hands-free Alexa without needing a separate Echo",
+      "Super Resolution Upscaling genuinely helps older HD content"
+    ],
+    "cons": [
+      "No hardware refresh since 2022 — the oldest device in the Fire TV line",
+      "Still on Fire OS 7 (Android 9), while the sticks have moved to Fire OS 8",
+      "Ethernet is 10/100, not gigabit",
+      "Roughly double the price of the 4K Max for the same Dolby Vision and Atmos support",
+      "Reviewers report it sometimes fails to switch into Dolby Vision automatically"
+    ],
+    "images": [],
+    "amazonAsin": "B09BZZ3MM7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-tv-4k-128gb",
+      "roku-ultra",
+      "fire-tv-stick-4k-max",
+      "nvidia-shield-tv-pro"
+    ],
+    "useCases": [
+      "home-theater",
+      "smart-home",
+      "gaming"
+    ],
+    "shortTagline": "Fire TV's flagship box — HDMI input, built-in ethernet and hands-free Alexa."
+  },
+  {
+    "id": "sd-roku-streaming-stick",
+    "categorySlug": "streaming-devices",
+    "brand": "Roku",
+    "series": "Roku Streaming Stick",
+    "model": "Roku Streaming Stick (2025)",
+    "slug": "roku-streaming-stick",
+    "releaseYear": 2025,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick, USB-powered from the TV",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi (2.4/5GHz)",
+      "Bluetooth",
+      "HDMI",
+      "USB-C power (from the TV's USB port)"
+    ],
+    "features": [
+      "Powers from the TV's USB port — no wall adapter in the box",
+      "Roku OS, the most app-neutral streaming platform",
+      "Bluetooth headphone mode for private listening",
+      "AirPlay, HomeKit, Alexa and Google Home support",
+      "Slim body that will not block adjacent HDMI ports"
+    ],
+    "specs": {
+      "maxResolution": "1080p (upscales from 720p)",
+      "hdrFormats": "None — this model has no HDR support",
+      "dolbyVision": false,
+      "dolbyAtmos": false,
+      "processor": "ARM Cortex-A55",
+      "ram": 0.5,
+      "storage": "Not published by Roku",
+      "wifi": "Dual-band; Roku does not publish the 802.11 standard for this model",
+      "ethernet": "None",
+      "bluetooth": "Yes — supports headphone mode",
+      "smartPlatform": "Roku OS 15",
+      "remoteFeatures": "Roku Voice Remote, AAA batteries, TV power and volume; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 5.0,
+      "video": 3.5,
+      "audio": 5.5,
+      "platform": 8.5,
+      "connectivity": 5.5,
+      "remote": 5.0,
+      "smartHome": 5.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Roku OS is the cleanest and least ad-driven of the major streaming platforms",
+      "Runs entirely off the TV's USB port",
+      "Bluetooth headphone mode works directly from the device",
+      "Tiny and genuinely travel-friendly"
+    ],
+    "cons": [
+      "1080p only, and no HDR of any kind — the only current Roku with no HDR at all",
+      "512MB of RAM, the least of any device here",
+      "No ethernet option",
+      "Basic AAA remote with no backlight or finder",
+      "List price rose to $39.99 in July 2026, which is a lot for an HD, no-HDR stick"
+    ],
+    "images": [],
+    "amazonAsin": "B0DXXYS4BJ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fire-tv-stick-hd",
+      "roku-streaming-stick-plus"
+    ],
+    "useCases": [
+      "budget",
+      "travel"
+    ],
+    "shortTagline": "Roku's entry stick — clean software, but HD only with no HDR."
+  },
+  {
+    "id": "sd-roku-streaming-stick-plus",
+    "categorySlug": "streaming-devices",
+    "brand": "Roku",
+    "series": "Roku Streaming Stick",
+    "model": "Roku Streaming Stick Plus (2025)",
+    "slug": "roku-streaming-stick-plus",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick, USB-powered from the TV",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi (2.4/5GHz)",
+      "Bluetooth",
+      "HDMI",
+      "USB-C power (from the TV's USB port)"
+    ],
+    "features": [
+      "4K HDR with no wall adapter required — powers from the TV's USB port",
+      "Roku OS, the most app-neutral streaming platform",
+      "Bluetooth headphone mode for private listening",
+      "AirPlay, HomeKit, Alexa and Google Home support"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "HDR10, HDR10+, HLG",
+      "dolbyVision": false,
+      "dolbyAtmos": false,
+      "processor": "ARM Cortex-A55",
+      "ram": 1,
+      "storage": "Not published by Roku",
+      "wifi": "Dual-band; Roku does not publish the 802.11 standard for this model",
+      "ethernet": "None",
+      "bluetooth": "Yes — supports headphone mode",
+      "smartPlatform": "Roku OS 15",
+      "remoteFeatures": "Roku Voice Remote, AAA batteries, TV power and volume; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 6.0,
+      "video": 6.5,
+      "audio": 5.5,
+      "platform": 8.5,
+      "connectivity": 5.5,
+      "remote": 5.0,
+      "smartHome": 5.0,
+      "value": 6.5
+    },
+    "pros": [
+      "4K HDR from a stick that needs no wall outlet — unusual and genuinely useful for travel",
+      "Roku OS remains the cleanest major streaming platform",
+      "Bluetooth headphone mode direct from the device",
+      "Same 0.9oz body as the HD stick"
+    ],
+    "cons": [
+      "No Dolby Vision — HDR10, HDR10+ and HLG only",
+      "No Dolby Atmos",
+      "No ethernet option",
+      "Basic AAA remote with no backlight or finder",
+      "List price rose from $39.99 to $59.99 in July 2026"
+    ],
+    "images": [],
+    "amazonAsin": "B0DXY833HV",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roku-streaming-stick-4k",
+      "fire-tv-stick-4k-select",
+      "roku-streaming-stick",
+      "fire-tv-stick-4k-plus"
+    ],
+    "useCases": [
+      "4k-hdr",
+      "travel",
+      "budget"
+    ],
+    "shortTagline": "4K HDR Roku that runs off the TV's USB port — the travel pick."
+  },
+  {
+    "id": "sd-roku-streaming-stick-4k",
+    "categorySlug": "streaming-devices",
+    "brand": "Roku",
+    "series": "Roku Streaming Stick",
+    "model": "Roku Streaming Stick 4K",
+    "slug": "roku-streaming-stick-4k",
+    "releaseYear": 2021,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic HDMI stick with long-range Wi-Fi receiver built into the power cable",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "802.11ac dual-band MIMO Wi-Fi",
+      "HDMI 2.0b",
+      "Mains power adapter (included)"
+    ],
+    "features": [
+      "The only Roku stick with Dolby Vision",
+      "Long-range Wi-Fi receiver built into the supplied power cable",
+      "Roku OS, the most app-neutral streaming platform",
+      "Small enough to travel with a projector"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10, HDR10+, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "ARM Cortex-A55",
+      "ram": 1,
+      "storage": "Not published by Roku",
+      "wifi": "802.11ac (Wi-Fi 5) dual-band MIMO with long-range receiver",
+      "ethernet": "None",
+      "bluetooth": "None — this model has no Bluetooth",
+      "smartPlatform": "Roku OS 15",
+      "remoteFeatures": "Roku Voice Remote, AAA batteries, TV power and volume; no backlight; no remote finder"
+    },
+    "scores": {
+      "performance": 6.0,
+      "video": 8.5,
+      "audio": 6.5,
+      "platform": 8.5,
+      "connectivity": 5.0,
+      "remote": 5.0,
+      "smartHome": 5.0,
+      "value": 5.5
+    },
+    "pros": [
+      "The only Roku stick with Dolby Vision",
+      "Long-range Wi-Fi receiver helps in rooms far from the router",
+      "Roku OS remains the cleanest major streaming platform",
+      "Compact enough to pair with a projector"
+    ],
+    "cons": [
+      "No Bluetooth at all, so private listening only works through the phone app",
+      "Needs a wall outlet, unlike the two 2025 Roku sticks",
+      "802.11ac Wi-Fi, not Wi-Fi 6",
+      "The oldest silicon in Roku's current line",
+      "List price rose from $49.99 to $79.99 in July 2026, the steepest increase in the range",
+      "Dolby Atmos is passthrough to a receiver, not decoded on the device"
+    ],
+    "images": [],
+    "amazonAsin": "B09BKCDXZC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roku-streaming-stick-plus",
+      "fire-tv-stick-4k-max",
+      "google-tv-streamer",
+      "roku-ultra"
+    ],
+    "useCases": [
+      "4k-hdr",
+      "home-theater"
+    ],
+    "shortTagline": "The only Roku stick with Dolby Vision — but no Bluetooth and ageing silicon."
+  },
+  {
+    "id": "sd-roku-ultra",
+    "categorySlug": "streaming-devices",
+    "brand": "Roku",
+    "series": "Roku Ultra",
+    "model": "Roku Ultra (2024)",
+    "slug": "roku-ultra",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Set-top box, mains powered",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "802.11ax Wi-Fi 6 dual-band MIMO",
+      "Bluetooth",
+      "HDMI 2.1b",
+      "Ethernet (10/100, built in)",
+      "USB 3.0",
+      "DC power"
+    ],
+    "features": [
+      "HDMI 2.1 Quick Media Switching for judder-free refresh-rate changes",
+      "AV1 codec support",
+      "USB 3.0 port for local media playback",
+      "Roku Voice Remote Pro (2nd edition) — rechargeable, backlit, hands-free voice, lost-remote finder",
+      "Premium HDMI cable included in the box"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10, HDR10+, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "Quad-core ARM Cortex-A55; Roku claims over 30% faster than its other players",
+      "ram": 2,
+      "storage": "Not published by Roku",
+      "wifi": "Wi-Fi 6 (802.11ax) dual-band MIMO",
+      "ethernet": "Built in (10/100)",
+      "bluetooth": "Yes — supports headphone mode",
+      "smartPlatform": "Roku OS 15",
+      "remoteFeatures": "Voice Remote Pro: USB-C rechargeable, backlit, hands-free voice, lost-remote finder; no headphone jack"
+    },
+    "scores": {
+      "performance": 8.5,
+      "video": 9.0,
+      "audio": 8.5,
+      "platform": 8.5,
+      "connectivity": 8.0,
+      "remote": 9.0,
+      "smartHome": 5.5,
+      "value": 6.0
+    },
+    "pros": [
+      "The best remote of any streaming device here — backlit, rechargeable, hands-free voice and a lost-remote finder",
+      "Decodes Dolby Atmos rather than only passing it through",
+      "HDMI 2.1 with Quick Media Switching, rare outside Apple TV",
+      "Built-in ethernet and a USB 3.0 port for local media",
+      "Fastest Roku by a wide margin"
+    ],
+    "cons": [
+      "Ethernet is 10/100, not gigabit",
+      "The Voice Remote Pro (2nd edition) dropped the headphone jack the first-gen Pro had",
+      "List price rose from $99.99 to $149.99 in July 2026",
+      "No design change since the 2021 Ultra"
+    ],
+    "images": [],
+    "amazonAsin": "B0DF44RTTP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "google-tv-streamer",
+      "apple-tv-4k-128gb",
+      "fire-tv-cube",
+      "roku-streaming-stick-4k",
+      "nvidia-shield-tv-pro"
+    ],
+    "useCases": [
+      "home-theater",
+      "4k-hdr",
+      "gaming"
+    ],
+    "shortTagline": "Roku's flagship — the best remote in the category, plus ethernet and AV1."
+  },
+  {
+    "id": "sd-apple-tv-4k-64gb",
+    "categorySlug": "streaming-devices",
+    "brand": "Apple",
+    "series": "Apple TV 4K",
+    "model": "Apple TV 4K (3rd Gen, 64GB Wi-Fi)",
+    "slug": "apple-tv-4k-64gb",
+    "releaseYear": 2022,
+    "price": 199.0,
+    "msrp": 129.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Aluminium and plastic set-top box",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6 (802.11ax) 2x2 MIMO",
+      "Bluetooth 5.0",
+      "HDMI 2.1"
+    ],
+    "features": [
+      "Apple A15 Bionic — the fastest chip in any mainstream streaming box",
+      "Completely ad-free tvOS home screen",
+      "Siri Remote (3rd Gen) with USB-C charging",
+      "AirPlay 2 receiver",
+      "Apple Arcade gaming",
+      "Works as a HomeKit hub and Matter controller"
+    ],
+    "specs": {
+      "maxResolution": "4K (2160p) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "Apple A15 Bionic, 5-core CPU at 2.9GHz",
+      "ram": 4,
+      "storage": 64,
+      "wifi": "Wi-Fi 6",
+      "ethernet": "None on this variant",
+      "bluetooth": "5.0",
+      "smartPlatform": "tvOS 26",
+      "remoteFeatures": "Siri Remote (3rd Gen), USB-C rechargeable, Siri voice; no backlight; no Find My tracking"
+    },
+    "scores": {
+      "performance": 9.5,
+      "video": 9.0,
+      "audio": 9.0,
+      "platform": 9.0,
+      "connectivity": 6.5,
+      "remote": 7.5,
+      "smartHome": 7.0,
+      "value": 4.5
+    },
+    "pros": [
+      "Comfortably the fastest streaming box you can buy",
+      "tvOS has no ads on the home screen, unlike Fire TV and Google TV",
+      "Excellent Dolby Vision and Dolby Atmos handling",
+      "Rechargeable USB-C Siri Remote",
+      "Longest software support record in the category"
+    ],
+    "cons": [
+      "No ethernet port on this variant — you need the 128GB model for that",
+      "No Thread radio, so it cannot act as a Thread border router",
+      "Price rose from $129 to $199 in June 2026, a 54% increase",
+      "2022 hardware with a successor widely reported as imminent",
+      "Bluetooth 5.0 and Wi-Fi 6, both behind newer rivals",
+      "No USB-C cable included in the box"
+    ],
+    "images": [],
+    "amazonAsin": "B0BJLDVJTC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-tv-4k-128gb",
+      "google-tv-streamer",
+      "fire-tv-stick-4k-max",
+      "roku-ultra"
+    ],
+    "useCases": [
+      "home-theater",
+      "4k-hdr",
+      "gaming"
+    ],
+    "shortTagline": "The fastest streaming box, with an ad-free interface — at a price that just jumped."
+  },
+  {
+    "id": "sd-apple-tv-4k-128gb",
+    "categorySlug": "streaming-devices",
+    "brand": "Apple",
+    "series": "Apple TV 4K",
+    "model": "Apple TV 4K (3rd Gen, 128GB Wi-Fi + Ethernet)",
+    "slug": "apple-tv-4k-128gb",
+    "releaseYear": 2022,
+    "price": 249.0,
+    "msrp": 149.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Aluminium and plastic set-top box",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6 (802.11ax) 2x2 MIMO",
+      "Gigabit Ethernet",
+      "Thread",
+      "Bluetooth 5.0",
+      "HDMI 2.1"
+    ],
+    "features": [
+      "Apple A15 Bionic — the fastest chip in any mainstream streaming box",
+      "Gigabit ethernet and a Thread radio, neither of which the 64GB model has",
+      "Acts as a HomeKit hub, Matter controller and Thread border router",
+      "Completely ad-free tvOS home screen",
+      "Siri Remote (3rd Gen) with USB-C charging",
+      "AirPlay 2 receiver"
+    ],
+    "specs": {
+      "maxResolution": "4K (2160p) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10+, HDR10, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "Apple A15 Bionic, 5-core CPU at 2.9GHz",
+      "ram": 4,
+      "storage": 128,
+      "wifi": "Wi-Fi 6",
+      "ethernet": "Gigabit (built in)",
+      "bluetooth": "5.0",
+      "smartPlatform": "tvOS 26",
+      "remoteFeatures": "Siri Remote (3rd Gen), USB-C rechargeable, Siri voice; no backlight; no Find My tracking"
+    },
+    "scores": {
+      "performance": 9.5,
+      "video": 9.0,
+      "audio": 9.0,
+      "platform": 9.0,
+      "connectivity": 9.0,
+      "remote": 7.5,
+      "smartHome": 9.0,
+      "value": 4.0
+    },
+    "pros": [
+      "Gigabit ethernet plus a Thread border router — the most capable smart-home hub here",
+      "Comfortably the fastest streaming box you can buy",
+      "tvOS has no ads on the home screen",
+      "Double the storage of the 64GB model",
+      "Excellent Dolby Vision and Dolby Atmos handling"
+    ],
+    "cons": [
+      "At $249 it is by far the most expensive device in this category",
+      "Price rose from $149 to $249 in June 2026, a 67% increase",
+      "2022 hardware with a successor widely reported as imminent",
+      "Bluetooth 5.0 and Wi-Fi 6, both behind newer rivals",
+      "No USB-C cable included in the box"
+    ],
+    "images": [],
+    "amazonAsin": "B0BJMGB95J",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-tv-4k-64gb",
+      "google-tv-streamer",
+      "roku-ultra",
+      "nvidia-shield-tv-pro",
+      "fire-tv-cube"
+    ],
+    "useCases": [
+      "home-theater",
+      "smart-home",
+      "4k-hdr",
+      "gaming"
+    ],
+    "shortTagline": "Apple TV with gigabit ethernet and Thread — the best smart-home hub in the category."
+  },
+  {
+    "id": "sd-google-tv-streamer",
+    "categorySlug": "streaming-devices",
+    "brand": "Google",
+    "series": "Google TV Streamer",
+    "model": "Google TV Streamer (4K)",
+    "slug": "google-tv-streamer",
+    "releaseYear": 2024,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Porcelain",
+      "Hazel"
+    ],
+    "material": "Recycled-plastic set-top box (at least 65% recycled content)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "802.11ac Wi-Fi 5 (2.4/5GHz)",
+      "Gigabit Ethernet",
+      "Thread",
+      "Matter",
+      "Bluetooth 5.1",
+      "HDMI 2.1",
+      "USB-C"
+    ],
+    "features": [
+      "Gigabit ethernet and a Thread border router at $99 — Apple charges $249 for the same combination",
+      "Google Home panel for cameras, lights, thermostats and blinds",
+      "Gemini assistant with content summaries and conversational search",
+      "Find My Remote — the remote chimes on command",
+      "32GB of storage, four times the old Chromecast with Google TV"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10, HDR10+, HLG",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "MediaTek MT8696 — quad-core Cortex-A55 up to 2.0GHz",
+      "ram": 4,
+      "storage": 32,
+      "wifi": "Wi-Fi 5 (802.11ac)",
+      "ethernet": "Gigabit (built in)",
+      "bluetooth": "5.1",
+      "smartPlatform": "Google TV on Android 14 for TV",
+      "remoteFeatures": "Voice remote with Gemini, AAA batteries, customizable shortcut button, Find My Remote chime"
+    },
+    "scores": {
+      "performance": 7.5,
+      "video": 8.5,
+      "audio": 8.5,
+      "platform": 8.5,
+      "connectivity": 7.5,
+      "remote": 7.5,
+      "smartHome": 9.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Gigabit ethernet and Thread border router built in, at a quarter of the price Apple charges for the same",
+      "4GB of RAM and 32GB of storage is generous at this price",
+      "Google Home panel makes it a genuine smart-home hub, not just a streamer",
+      "Find My Remote solves a problem every other remote here ignores",
+      "Full Dolby Vision and Dolby Atmos support"
+    ],
+    "cons": [
+      "Wi-Fi 5 only — no Wi-Fi 6, which is hard to defend on a device launched in 2024",
+      "The Cortex-A55 chip is modest next to Apple's A15",
+      "Remote takes disposable AAA batteries rather than charging over USB-C",
+      "Google TV's home screen is advertising-led, like Fire TV's",
+      "Capped at 4K60"
+    ],
+    "images": [],
+    "amazonAsin": "B0D8WJYSF9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-tv-4k-64gb",
+      "roku-ultra",
+      "fire-tv-stick-4k-max",
+      "onn-4k-pro",
+      "apple-tv-4k-128gb",
+      "nvidia-shield-tv-pro"
+    ],
+    "useCases": [
+      "smart-home",
+      "home-theater",
+      "4k-hdr"
+    ],
+    "shortTagline": "Ethernet and Thread for $99 — the best-value smart-home streaming hub."
+  },
+  {
+    "id": "sd-nvidia-shield-tv-pro",
+    "categorySlug": "streaming-devices",
+    "brand": "NVIDIA",
+    "series": "SHIELD TV",
+    "model": "NVIDIA SHIELD TV Pro",
+    "slug": "nvidia-shield-tv-pro",
+    "releaseYear": 2019,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Set-top box, mains powered",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "802.11ac dual-band Wi-Fi 5",
+      "Gigabit Ethernet",
+      "Bluetooth 5.0 + LE",
+      "HDMI 2.0b (HDCP 2.2, CEC)",
+      "2x USB 3.0 Type-A"
+    ],
+    "features": [
+      "AI-enhanced 4K upscaling, still unique in this category",
+      "Can host a Plex Media Server",
+      "Two USB 3.0 ports for external storage",
+      "GeForce NOW cloud gaming",
+      "SMB and NAS network playback",
+      "Backlit motion-activated remote with an IR blaster and a programmable button"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160) at 60fps",
+      "hdrFormats": "Dolby Vision, HDR10",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "NVIDIA Tegra X1+ with 256-core GPU",
+      "ram": 3,
+      "storage": 16,
+      "wifi": "Wi-Fi 5 (802.11ac) dual-band",
+      "ethernet": "Gigabit (built in)",
+      "bluetooth": "5.0 + LE",
+      "smartPlatform": "Android TV 11 (not Google TV)",
+      "remoteFeatures": "Motion-activated backlit buttons, built-in mic, programmable button, IR blaster for TV and soundbar"
+    },
+    "scores": {
+      "performance": 8.0,
+      "video": 8.0,
+      "audio": 9.0,
+      "platform": 6.5,
+      "connectivity": 8.0,
+      "remote": 8.0,
+      "smartHome": 6.5,
+      "value": 4.0
+    },
+    "pros": [
+      "AI upscaling genuinely improves HD sources and nothing else here does it",
+      "Gigabit ethernet plus two USB 3.0 ports make it the best local-media and Plex box in the category",
+      "DTS-X passthrough and hi-res audio up to 24-bit/192kHz",
+      "Backlit remote with an IR blaster and a programmable button"
+    ],
+    "cons": [
+      "Seven-year-old hardware still selling at $199",
+      "Wi-Fi 5 and HDMI 2.0b — no Wi-Fi 6, no 4K120",
+      "Still on Android 11, and it runs Android TV rather than Google TV",
+      "No HDR10+ support",
+      "NVIDIA has confirmed the non-Pro SHIELD TV is out of stock with no availability update, so platform end-of-life is a real risk"
+    ],
+    "images": [],
+    "amazonAsin": "B07YP9FBMM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-tv-4k-128gb",
+      "google-tv-streamer",
+      "roku-ultra",
+      "fire-tv-cube"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "The enthusiast box — AI upscaling, Plex hosting and gigabit, on ageing hardware."
+  },
+  {
+    "id": "sd-onn-4k-pro",
+    "categorySlug": "streaming-devices",
+    "brand": "onn.",
+    "series": "onn. 4K Pro",
+    "model": "onn. 4K Pro (2026)",
+    "slug": "onn-4k-pro",
+    "releaseYear": 2026,
+    "price": 59.98,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Elliptical set-top box",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Ethernet (100 Mbps)",
+      "Bluetooth",
+      "HDMI",
+      "USB-A 2.0",
+      "USB-C power"
+    ],
+    "features": [
+      "Google TV with the Gemini assistant",
+      "Matter-over-Thread border router support",
+      "Backlit remote with Find My Remote and a customizable button",
+      "Hands-free voice with a microphone mute toggle",
+      "3GB of RAM and 32GB of storage at $59.98"
+    ],
+    "specs": {
+      "maxResolution": "4K UHD (3840x2160); Walmart does not publish a frame-rate ceiling for this model",
+      "hdrFormats": "Dolby Vision confirmed; HDR10 and HLG not separately confirmed for this SKU",
+      "dolbyVision": true,
+      "dolbyAtmos": true,
+      "processor": "Amlogic S905X5M (reported; Walmart does not publish the chipset)",
+      "ram": 3,
+      "storage": 32,
+      "wifi": "Wi-Fi 6",
+      "ethernet": "Built in, but capped at 100 Mbps",
+      "bluetooth": "Present; version not published",
+      "smartPlatform": "Google TV with Gemini",
+      "remoteFeatures": "Backlit buttons, Find My Remote, customizable star button, hands-free voice with mic mute"
+    },
+    "scores": {
+      "performance": 8.0,
+      "video": 8.0,
+      "audio": 8.0,
+      "platform": 8.5,
+      "connectivity": 7.0,
+      "remote": 8.5,
+      "smartHome": 8.5,
+      "value": 9.5
+    },
+    "pros": [
+      "Flagship-tier performance and features for $59.98",
+      "Backlit remote with Find My Remote, which costs far more elsewhere",
+      "Gemini assistant and Matter-over-Thread support",
+      "3GB of RAM and 32GB of storage undercut every rival at the price"
+    ],
+    "cons": [
+      "Walmart-exclusive — not sold on Amazon by Walmart or onn., so there is no authorised Amazon listing to buy from",
+      "Ethernet is capped at 100 Mbps, not gigabit",
+      "USB port downgraded to 2.0 from the previous generation's USB 3.0",
+      "Chronic stock shortages, with resellers marking it up substantially",
+      "Walmart does not publish frame-rate, Bluetooth version or full HDR format details for this model"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "google-tv-streamer",
+      "fire-tv-stick-4k-max",
+      "roku-streaming-stick-4k"
+    ],
+    "useCases": [
+      "smart-home",
+      "4k-hdr",
+      "budget",
+      "home-theater"
+    ],
+    "shortTagline": "The price-to-performance leader — but Walmart-exclusive, so not buyable on Amazon.",
+    "usAvailable": false
+  }
+]

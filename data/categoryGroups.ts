@@ -25,7 +25,7 @@ export const categoryGroups: CategoryGroup[] = [
     iconKey: 'tv',
     items: [
       { name: 'Smart TVs', slug: 'tv' },
-      { name: 'Streaming Devices' },
+      { name: 'Streaming Devices', slug: 'streaming-devices' },
       { name: 'Soundbars' },
       { name: 'Projectors' },
       { name: 'TV Mounts' },

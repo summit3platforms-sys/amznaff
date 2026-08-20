@@ -1,6 +1,7 @@
 import { Product } from '@/data/types';
 import { headphonesProducts } from '@/data/products/headphones';
 import { tvProducts } from '@/data/products/tv';
+import { streamingDeviceProducts } from '@/data/products/streaming-devices';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -8,7 +9,7 @@ import { tvProducts } from '@/data/products/tv';
 // helper in the app. This is the only place that needs to change when a
 // new category is added.
 // ---------------------------------------------------------------------------
-const allProducts: Product[] = [...headphonesProducts, ...tvProducts];
+const allProducts: Product[] = [...headphonesProducts, ...tvProducts, ...streamingDeviceProducts];
 
 export function getAllProducts(): Product[] {
   return allProducts;
