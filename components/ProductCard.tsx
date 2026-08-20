@@ -32,8 +32,11 @@ export default function ProductCard({ product, competitorSlug }: { product: Prod
           </>
         ) : (
           `$${product.price.toFixed(2)}`
-        )}{' '}
-        · ★ {product.rating.toFixed(1)}
+        )}
+        {/* Only render a rating when one has actually been recorded. Products
+            seeded without verified Amazon rating data carry ratingCount 0, and
+            printing "★ 0.0" for those reads as a broken or terrible product. */}
+        {product.ratingCount > 0 && <> · ★ {product.rating.toFixed(1)}</>}
       </p>
     </Link>
   );

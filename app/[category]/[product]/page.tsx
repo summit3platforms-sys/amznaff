@@ -72,7 +72,15 @@ export default function ProductPage({ params }: { params: { category: string; pr
             )}
           </div>
           <p className="mt-1 text-sm text-slate-400">
-            ★ {product.rating.toFixed(1)} ({product.ratingCount.toLocaleString()} ratings) · Overall score {score}/10
+            {/* Ratings are only shown once real, verified figures exist — see
+                ProductCard for the same rule. The overall score is derived from
+                our own scored dimensions and always stands on its own. */}
+            {product.ratingCount > 0 && (
+              <>
+                ★ {product.rating.toFixed(1)} ({product.ratingCount.toLocaleString()} ratings) ·{' '}
+              </>
+            )}
+            Overall score {score}/10
           </p>
 
           <div className="mt-6 flex flex-wrap gap-3">
