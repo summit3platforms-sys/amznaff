@@ -1,0 +1,922 @@
+[
+  {
+    "id": "pb-iniu-carry-p50-e1",
+    "categorySlug": "power-banks",
+    "brand": "INIU",
+    "series": "Carry",
+    "model": "INIU Carry P50-E1",
+    "slug": "iniu-carry-p50-e1",
+    "releaseYear": 2024,
+    "price": 32.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with detachable USB-C lanyard cable",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A",
+      "Detachable USB-C lanyard cable"
+    ],
+    "features": [
+      "36Wh in a genuinely pocketable body",
+      "Detachable USB-C lanyard doubles as the charging cable",
+      "Digital percentage readout",
+      "45W single-port output"
+    ],
+    "specs": {
+      "capacityMah": 10000,
+      "capacityWh": 36,
+      "maxOutputWatts": 45,
+      "portCount": "2x USB-C, 1x USB-A",
+      "builtInCable": "Yes — detachable USB-C lanyard cable",
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "Digital percentage",
+      "weight": 160,
+      "rechargeTimeMin": "Not published by the manufacturer",
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 6.0,
+      "chargingSpeed": 7.5,
+      "portability": 9.0,
+      "buildQuality": 7.0,
+      "display": 7.5,
+      "features": 7.5,
+      "versatility": 8.0,
+      "value": 9.0
+    },
+    "pros": [
+      "45W is enough to charge a phone at full speed and top up a small laptop",
+      "The lanyard cable means you can leave a separate cable at home",
+      "Only 160g",
+      "Digital percentage rather than four LED dots"
+    ],
+    "cons": [
+      "No confirmed standalone Amazon listing could be matched to this exact model number — INIU runs several near-identical 45W 10,000mAh SKUs, so verify the model before buying",
+      "Output drops to 15W shared when several devices are attached",
+      "Pass-through charging is not documented by INIU"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-nano-10k-30w",
+      "nitecore-nb10000-g4",
+      "baseus-picogo-am52"
+    ],
+    "useCases": [
+      "everyday",
+      "travel",
+      "airline"
+    ],
+    "shortTagline": "36Wh and 45W with a built-in lanyard cable — the pocketable everyday pick."
+  },
+  {
+    "id": "pb-anker-nano-10k-30w",
+    "categorySlug": "power-banks",
+    "brand": "Anker",
+    "series": "Nano",
+    "model": "Anker Nano Power Bank 10K 30W (A1259)",
+    "slug": "anker-nano-10k-30w",
+    "releaseYear": 2023,
+    "price": 49.99,
+    "msrp": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Blue",
+      "Green"
+    ],
+    "material": "Plastic with integrated USB-C cable",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "1x USB-C",
+      "1x USB-A",
+      "Integrated USB-C cable"
+    ],
+    "features": [
+      "Integrated USB-C cable, so nothing else to carry",
+      "Colour screen showing charge and output",
+      "50% recharge in 45 minutes",
+      "30W single-port output"
+    ],
+    "specs": {
+      "capacityMah": 10000,
+      "capacityWh": "Not published by the manufacturer",
+      "maxOutputWatts": 30,
+      "portCount": "1x USB-C, 1x USB-A, plus an integrated USB-C cable",
+      "builtInCable": "Yes — integrated USB-C",
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "Colour screen",
+      "weight": 215,
+      "rechargeTimeMin": "50% in 45 minutes; full time not published",
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 6.0,
+      "chargingSpeed": 6.5,
+      "portability": 8.0,
+      "buildQuality": 8.0,
+      "display": 8.5,
+      "features": 7.5,
+      "versatility": 7.5,
+      "value": 8.0
+    },
+    "pros": [
+      "The integrated cable is the single most useful feature in a pocket power bank",
+      "Colour screen is clearer than any LED-dot rival",
+      "Anker's warranty and support are the best in the category"
+    ],
+    "cons": [
+      "30W total is modest — 24W once two devices are attached",
+      "215g is heavy for 10,000mAh",
+      "Anker publishes mAh but not watt-hours, so airline compliance has to be inferred",
+      "Three years old with no refresh"
+    ],
+    "images": [],
+    "amazonAsin": "B0C9CJKCH3",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "iniu-carry-p50-e1",
+      "nitecore-nb10000-g4",
+      "ugreen-magflow-10k",
+      "baseus-picogo-am52"
+    ],
+    "useCases": [
+      "everyday",
+      "travel",
+      "airline"
+    ],
+    "shortTagline": "Integrated cable and a colour screen — the no-excuses everyday bank."
+  },
+  {
+    "id": "pb-ekrist-hx160y8",
+    "categorySlug": "power-banks",
+    "brand": "Ekrist",
+    "series": "HX",
+    "model": "Ekrist HX160Y8 25800mAh",
+    "slug": "ekrist-hx160y8",
+    "releaseYear": 2019,
+    "price": 25.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-A output",
+      "1x USB-C in/out",
+      "Micro-USB input"
+    ],
+    "features": [
+      "Very large raw cell capacity for the price",
+      "Four-LED charge indicator",
+      "Perennial Amazon bestseller"
+    ],
+    "specs": {
+      "capacityMah": "25,800 as marketed — this is a cell-count figure rather than usable output, and no watt-hour rating is published anywhere",
+      "capacityWh": "Not published by the manufacturer",
+      "maxOutputWatts": 15,
+      "portCount": "2x USB-A out, 1x USB-C in/out, micro-USB in",
+      "builtInCable": false,
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "4 LED dots",
+      "weight": "Not published by the manufacturer",
+      "rechargeTimeMin": "Not published by the manufacturer",
+      "airlineSafe": "Likely, but unconfirmed — no watt-hour figure is published, and at this capacity it sits close to the 100Wh carry-on limit",
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 8.5,
+      "chargingSpeed": 2.5,
+      "portability": 3.5,
+      "buildQuality": 4.5,
+      "display": 3.0,
+      "features": 2.5,
+      "versatility": 4.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Enormous raw capacity for around $25",
+      "Still one of the best-selling power banks on Amazon"
+    ],
+    "cons": [
+      "No USB Power Delivery at all — 5V/3A output means roughly 15W, so a modern phone charges slowly and a laptop not at all",
+      "The 25,800mAh headline is a cell-count marketing figure, not usable output",
+      "No watt-hour rating is published, so you cannot verify airline compliance",
+      "A 2019 design still being sold in 2026, with micro-USB input"
+    ],
+    "images": [],
+    "amazonAsin": "B07XQ94ZL9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "iniu-carry-p50-e1",
+      "anker-nano-10k-30w"
+    ],
+    "useCases": [
+      "everyday"
+    ],
+    "shortTagline": "Huge raw capacity for $25 — but no USB-PD, so everything charges slowly."
+  },
+  {
+    "id": "pb-baseus-picogo-am52",
+    "categorySlug": "power-banks",
+    "brand": "Baseus",
+    "series": "PicoGo",
+    "model": "Baseus PicoGo AM52 Qi2.2",
+    "slug": "baseus-picogo-am52",
+    "releaseYear": 2026,
+    "price": 79.99,
+    "msrp": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with magnetic array",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "1x USB-C",
+      "Qi2.2 magnetic wireless"
+    ],
+    "features": [
+      "Qi2.2 certified 25W magnetic wireless charging — the fastest wireless standard",
+      "45W wired output",
+      "Charges two devices at once",
+      "197g despite the magnetic array"
+    ],
+    "specs": {
+      "capacityMah": 10000,
+      "capacityWh": "Not published by the manufacturer",
+      "maxOutputWatts": "45 wired, 25 wireless",
+      "portCount": "1x USB-C",
+      "builtInCable": false,
+      "passThrough": "Charges two devices at once; self-charging while in use is not documented",
+      "displayType": "5 LED dots",
+      "weight": 197,
+      "rechargeTimeMin": "About 90 at 30W",
+      "airlineSafe": true,
+      "magsafe": "Yes — Qi2.2 certified at 25W"
+    },
+    "scores": {
+      "capacity": 6.0,
+      "chargingSpeed": 8.5,
+      "portability": 8.0,
+      "buildQuality": 7.5,
+      "display": 5.5,
+      "features": 8.5,
+      "versatility": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Qi2.2 at 25W is genuinely twice as fast as the 'MagSafe compatible' 7.5W pucks it sits beside on Amazon",
+      "45W wired output as well, so it is not wireless-only",
+      "Light for a magnetic bank at 197g"
+    ],
+    "cons": [
+      "Only five LED dots rather than a percentage readout",
+      "Baseus publishes mAh but no watt-hour figure",
+      "25W wireless requires a phone that supports Qi2.2 — older iPhones fall back to 15W",
+      "Single USB-C port"
+    ],
+    "images": [],
+    "amazonAsin": "B0G5XYNLNC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-magflow-10k",
+      "belkin-boostcharge-qi2-10k",
+      "anker-nano-10k-30w",
+      "nitecore-nb10000-g4"
+    ],
+    "useCases": [
+      "magsafe",
+      "everyday",
+      "travel"
+    ],
+    "shortTagline": "Qi2.2 at 25W — twice the wireless speed of the pucks it sits next to."
+  },
+  {
+    "id": "pb-nitecore-nb10000-g4",
+    "categorySlug": "power-banks",
+    "brand": "Nitecore",
+    "series": "NB",
+    "model": "Nitecore NB10000 Gen4",
+    "slug": "nitecore-nb10000-g4",
+    "releaseYear": 2026,
+    "price": 69.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Carbon fibre composite shell",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "USB-C lanyard cable"
+    ],
+    "features": [
+      "143g — the lightest 10,000mAh bank here by a wide margin",
+      "Carbon fibre shell",
+      "True pass-through charging",
+      "39Wh published, so airline compliance is verifiable"
+    ],
+    "specs": {
+      "capacityMah": 10000,
+      "capacityWh": 39,
+      "maxOutputWatts": "22.5 single, 15 total",
+      "portCount": "2x USB-C",
+      "builtInCable": "Yes — USB-C lanyard cable",
+      "passThrough": true,
+      "displayType": "LED check indicator",
+      "weight": 143,
+      "rechargeTimeMin": "Not published by the manufacturer",
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 6.0,
+      "chargingSpeed": 5.0,
+      "portability": 10.0,
+      "buildQuality": 9.0,
+      "display": 4.0,
+      "features": 6.5,
+      "versatility": 6.5,
+      "value": 6.5
+    },
+    "pros": [
+      "143g is a genuine differentiator if you are counting grams for hiking or ultralight travel",
+      "Carbon fibre shell is tougher than any plastic rival here",
+      "Nitecore publishes the watt-hour figure, so you can prove airline compliance at a gate",
+      "True pass-through — it charges itself and a device at the same time"
+    ],
+    "cons": [
+      "22.5W is the slowest output of any modern bank here, and only 15W once both ports are used",
+      "$69.95 for 10,000mAh is expensive — you are paying for the weight saving",
+      "No percentage display, just a check indicator"
+    ],
+    "images": [],
+    "amazonAsin": "B0H61KHJ1X",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "iniu-carry-p50-e1",
+      "anker-nano-10k-30w",
+      "baseus-picogo-am52"
+    ],
+    "useCases": [
+      "travel",
+      "airline",
+      "everyday"
+    ],
+    "shortTagline": "143g of carbon fibre — the ultralight pick, if you can live with 22.5W."
+  },
+  {
+    "id": "pb-ugreen-magflow-10k",
+    "categorySlug": "power-banks",
+    "brand": "UGREEN",
+    "series": "MagFlow",
+    "model": "UGREEN MagFlow Qi2 25W 10K (65958)",
+    "slug": "ugreen-magflow-10k",
+    "releaseYear": 2025,
+    "price": 89.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with magnetic array and strap cable",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "Qi2.2 magnetic wireless",
+      "USB-C strap cable"
+    ],
+    "features": [
+      "Qi2.2 certified 25W magnetic charging",
+      "Digital display rather than LED dots",
+      "Built-in USB-C strap cable",
+      "30W wired output"
+    ],
+    "specs": {
+      "capacityMah": 10000,
+      "capacityWh": "Not published by the manufacturer",
+      "maxOutputWatts": "30 wired, 25 wireless",
+      "portCount": "2x USB-C plus a Qi2 pad",
+      "builtInCable": "Yes — USB-C strap cable",
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "Digital display",
+      "weight": 254,
+      "rechargeTimeMin": "About 120",
+      "airlineSafe": true,
+      "magsafe": "Yes — Qi2.2 certified at 25W"
+    },
+    "scores": {
+      "capacity": 6.0,
+      "chargingSpeed": 8.0,
+      "portability": 6.5,
+      "buildQuality": 7.5,
+      "display": 8.5,
+      "features": 8.5,
+      "versatility": 8.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Qi2.2 at 25W plus a digital display and a built-in strap cable — the most complete feature set here",
+      "Two USB-C ports as well as the wireless pad",
+      "Digital readout beats LED dots for knowing what you actually have left"
+    ],
+    "cons": [
+      "254g is the heaviest 10,000mAh bank here",
+      "30W wired is modest for the price",
+      "UGREEN publishes no watt-hour figure",
+      "Two hours to recharge is slow"
+    ],
+    "images": [],
+    "amazonAsin": "B0F37VLJQW",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "baseus-picogo-am52",
+      "belkin-boostcharge-qi2-10k",
+      "anker-nano-10k-30w"
+    ],
+    "useCases": [
+      "magsafe",
+      "everyday",
+      "travel"
+    ],
+    "shortTagline": "Qi2.2, a digital display and a strap cable — the most featured magnetic bank."
+  },
+  {
+    "id": "pb-belkin-boostcharge-qi2-10k",
+    "categorySlug": "power-banks",
+    "brand": "Belkin",
+    "series": "BoostCharge Pro",
+    "model": "Belkin BoostCharge Pro Qi2 15W 10K (BPD008)",
+    "slug": "belkin-boostcharge-qi2-10k",
+    "releaseYear": 2024,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black",
+      "Pink"
+    ],
+    "material": "Plastic with magnetic array",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "1x USB-C",
+      "Qi2 magnetic wireless"
+    ],
+    "features": [
+      "Qi2 certified 15W magnetic charging",
+      "True pass-through charging",
+      "Belkin's Connected Equipment Warranty",
+      "Integrated kickstand on some variants"
+    ],
+    "specs": {
+      "capacityMah": 10000,
+      "capacityWh": "Not published by the manufacturer",
+      "maxOutputWatts": "12 wired, 15 wireless",
+      "portCount": "1x USB-C",
+      "builtInCable": false,
+      "passThrough": true,
+      "displayType": "4 LED dots",
+      "weight": 218,
+      "rechargeTimeMin": "Not published by the manufacturer",
+      "airlineSafe": true,
+      "magsafe": "Yes — Qi2 certified at 15W"
+    },
+    "scores": {
+      "capacity": 6.0,
+      "chargingSpeed": 5.5,
+      "portability": 6.5,
+      "buildQuality": 8.5,
+      "display": 5.0,
+      "features": 6.5,
+      "versatility": 6.0,
+      "value": 5.5
+    },
+    "pros": [
+      "Genuine Qi2 certification rather than a 'MagSafe compatible' claim",
+      "True pass-through charging",
+      "Belkin's build quality and warranty are a step above the budget brands"
+    ],
+    "cons": [
+      "Only 12W over the cable — the slowest wired output of any bank here",
+      "Qi2 15W, not Qi2.2 25W, so it is a generation behind the Baseus and UGREEN at a higher list price",
+      "$99.99 list for 10,000mAh is hard to justify",
+      "218g and only four LED dots"
+    ],
+    "images": [],
+    "amazonAsin": "B0CTJCQL66",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "baseus-picogo-am52",
+      "ugreen-magflow-10k",
+      "anker-nano-10k-30w"
+    ],
+    "useCases": [
+      "magsafe",
+      "everyday"
+    ],
+    "shortTagline": "Certified Qi2 with real pass-through — but only 12W over the cable."
+  },
+  {
+    "id": "pb-anker-737",
+    "categorySlug": "power-banks",
+    "brand": "Anker",
+    "series": "737",
+    "model": "Anker 737 Power Bank / PowerCore 24K (A1289)",
+    "slug": "anker-737",
+    "releaseYear": 2022,
+    "price": 149.99,
+    "msrp": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with smart display",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "140W output — enough for a 16-inch MacBook Pro at full speed",
+      "86.4Wh published, comfortably under the airline limit",
+      "Colour smart display showing per-port wattage",
+      "Recharges itself at 140W in about an hour"
+    ],
+    "specs": {
+      "capacityMah": 24000,
+      "capacityWh": 86.4,
+      "maxOutputWatts": 140,
+      "portCount": "2x USB-C, 1x USB-A",
+      "builtInCable": false,
+      "passThrough": false,
+      "displayType": "Colour smart display",
+      "weight": 630,
+      "rechargeTimeMin": 60,
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 9.0,
+      "chargingSpeed": 9.5,
+      "portability": 4.0,
+      "buildQuality": 8.5,
+      "display": 9.0,
+      "features": 8.0,
+      "versatility": 9.0,
+      "value": 7.5
+    },
+    "pros": [
+      "140W genuinely charges a 16-inch MacBook Pro at full speed, which almost nothing else at this size does",
+      "86.4Wh is published, so airline compliance is provable",
+      "Recharges itself in about an hour",
+      "The smart display shows real per-port wattage rather than a vague percentage"
+    ],
+    "cons": [
+      "No pass-through — it cannot charge itself and a device at the same time, which is unusual at this price",
+      "630g is a brick; this is a bag item, not a pocket item",
+      "Four years old with no successor announced",
+      "Frequently discounted, so the $149.99 list is misleading"
+    ],
+    "images": [],
+    "amazonAsin": "B09VPHVT2Z",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-25k-200w",
+      "sharge-170",
+      "anker-prime-20k-220w",
+      "anker-prime-26k-300w"
+    ],
+    "useCases": [
+      "laptop",
+      "travel",
+      "airline"
+    ],
+    "shortTagline": "140W and 86.4Wh — charges a 16-inch MacBook Pro and still flies."
+  },
+  {
+    "id": "pb-ugreen-nexode-25k-200w",
+    "categorySlug": "power-banks",
+    "brand": "UGREEN",
+    "series": "Nexode",
+    "model": "UGREEN Nexode 25000mAh 200W",
+    "slug": "ugreen-nexode-25k-200w",
+    "releaseYear": 2024,
+    "price": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with TFT display",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "200W total output across three ports",
+      "90Wh published, under the airline limit",
+      "TFT smart display",
+      "140W from a single USB-C port"
+    ],
+    "specs": {
+      "capacityMah": 25000,
+      "capacityWh": 90,
+      "maxOutputWatts": "200 total, 140 from a single port",
+      "portCount": "2x USB-C, 1x USB-A",
+      "builtInCable": false,
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "TFT smart display",
+      "weight": 600,
+      "rechargeTimeMin": "Not published; input is capped at 65W per port",
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 9.0,
+      "chargingSpeed": 9.5,
+      "portability": 4.0,
+      "buildQuality": 8.0,
+      "display": 8.5,
+      "features": 8.0,
+      "versatility": 9.0,
+      "value": 8.5
+    },
+    "pros": [
+      "200W total means you can run a laptop, a phone and a tablet at once without throttling",
+      "90Wh published and airline-legal",
+      "140W single-port matches the Anker 737 for $20 less"
+    ],
+    "cons": [
+      "65W maximum input per port makes recharging slow for a 90Wh pack",
+      "600g",
+      "UGREEN's own US and EU pages disagree on the weight",
+      "Pass-through is not documented"
+    ],
+    "images": [],
+    "amazonAsin": "B0CXHM5RY2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-737",
+      "sharge-170",
+      "anker-prime-20k-220w"
+    ],
+    "useCases": [
+      "laptop",
+      "travel",
+      "airline"
+    ],
+    "shortTagline": "200W across three ports and 90Wh — the best watts-per-dollar big bank."
+  },
+  {
+    "id": "pb-sharge-170",
+    "categorySlug": "power-banks",
+    "brand": "SHARGE",
+    "series": "Shargeek",
+    "model": "SHARGE Shargeek 170 (SP170)",
+    "slug": "sharge-170",
+    "releaseYear": 2024,
+    "price": 214.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Transparent"
+    ],
+    "material": "Transparent polycarbonate shell",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "Transparent shell showing the internals — genuinely distinctive",
+      "170W total output",
+      "True pass-through charging",
+      "0 to 50% in about 20 minutes"
+    ],
+    "specs": {
+      "capacityMah": 24000,
+      "capacityWh": 86.4,
+      "maxOutputWatts": "170 total, 140 from a single port",
+      "portCount": "2x USB-C, 1x USB-A",
+      "builtInCable": false,
+      "passThrough": true,
+      "displayType": "Smart LED display",
+      "weight": 680,
+      "rechargeTimeMin": "0 to 50% in about 20",
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 9.0,
+      "chargingSpeed": 9.5,
+      "portability": 3.5,
+      "buildQuality": 8.0,
+      "display": 8.0,
+      "features": 8.5,
+      "versatility": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "The transparent shell is the only genuinely distinctive design in this category",
+      "True pass-through, which the Anker 737 lacks",
+      "0 to 50% in 20 minutes is the fastest recharge here",
+      "86.4Wh and airline-legal"
+    ],
+    "cons": [
+      "$214.99 list is the highest here, though street price is far lower",
+      "680g is the heaviest bank in this list",
+      "The transparent shell scratches and marks easily"
+    ],
+    "images": [],
+    "amazonAsin": "B0D2VWVPRX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-737",
+      "ugreen-nexode-25k-200w",
+      "anker-prime-26k-300w"
+    ],
+    "useCases": [
+      "laptop",
+      "travel",
+      "airline"
+    ],
+    "shortTagline": "A transparent 170W brick with real pass-through — the enthusiast pick."
+  },
+  {
+    "id": "pb-anker-prime-20k-220w",
+    "categorySlug": "power-banks",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime Power Bank 20K 220W (A110B)",
+    "slug": "anker-prime-20k-220w",
+    "releaseYear": 2025,
+    "price": 229.99,
+    "msrp": 229.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "Aluminium with smart screen",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A",
+      "Charging base contacts"
+    ],
+    "features": [
+      "220W total output",
+      "Smart screen with companion app control",
+      "Works with the Anker Prime charging base for dock-style recharging",
+      "100W input"
+    ],
+    "specs": {
+      "capacityMah": 20100,
+      "capacityWh": "Not published by the manufacturer",
+      "maxOutputWatts": "220 total, 140 from a single port",
+      "portCount": "2x USB-C, 1x USB-A, plus base contacts",
+      "builtInCable": false,
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "Smart screen with app control",
+      "weight": 510,
+      "rechargeTimeMin": "Not published; 100W maximum input",
+      "airlineSafe": true,
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 8.0,
+      "chargingSpeed": 9.5,
+      "portability": 5.0,
+      "buildQuality": 9.0,
+      "display": 9.5,
+      "features": 9.5,
+      "versatility": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "220W from a 510g pack is an excellent power-to-weight ratio",
+      "The app and smart screen give the most detailed monitoring of any bank here",
+      "The optional charging base turns it into a desk dock",
+      "Aluminium build feels the price"
+    ],
+    "cons": [
+      "Anker publishes mAh but not watt-hours for this model, so airline compliance has to be assumed",
+      "$229.99 is a lot for 20,000mAh",
+      "The charging base is sold separately",
+      "Pass-through is not documented"
+    ],
+    "images": [],
+    "amazonAsin": "B0F66NH2ZX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-26k-300w",
+      "anker-737",
+      "ugreen-nexode-25k-200w",
+      "sharge-170"
+    ],
+    "useCases": [
+      "laptop",
+      "travel"
+    ],
+    "shortTagline": "220W from 510g, with app monitoring — the best power-to-weight here."
+  },
+  {
+    "id": "pb-anker-prime-26k-300w",
+    "categorySlug": "power-banks",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime Power Bank 26K 300W (A110A)",
+    "slug": "anker-prime-26k-300w",
+    "releaseYear": 2026,
+    "price": 229.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "Aluminium with smart screen",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A",
+      "Charging base contacts"
+    ],
+    "features": [
+      "300W total output — the highest of any power bank here",
+      "50% charge in 13 minutes, 80% in 40",
+      "Smart screen with app control",
+      "Newest design in this list"
+    ],
+    "specs": {
+      "capacityMah": 26250,
+      "capacityWh": "Just under 100 — Anker does not publish an exact figure, and it sits close enough to the limit that a gate agent may query it",
+      "maxOutputWatts": "300 total, 140 from a single port",
+      "portCount": "2x USB-C, 1x USB-A, plus base contacts",
+      "builtInCable": false,
+      "passThrough": "Not published by the manufacturer",
+      "displayType": "Smart screen with app control",
+      "weight": 600,
+      "rechargeTimeMin": "50% in 13, 80% in 40",
+      "airlineSafe": "Yes, but marginal — just under the 100Wh limit",
+      "magsafe": false
+    },
+    "scores": {
+      "capacity": 9.5,
+      "chargingSpeed": 10.0,
+      "portability": 4.0,
+      "buildQuality": 9.0,
+      "display": 9.5,
+      "features": 9.5,
+      "versatility": 9.5,
+      "value": 7.5
+    },
+    "pros": [
+      "300W is more than most wall chargers — it will run a 16-inch laptop and two more devices without throttling",
+      "50% in 13 minutes is the fastest recharge of any bank here",
+      "Same excellent smart screen and app as the 20K model",
+      "Newest hardware in this category"
+    ],
+    "cons": [
+      "Capacity sits just under the 100Wh airline limit and Anker does not publish the exact figure, so expect the occasional gate question",
+      "600g",
+      "Pass-through is not documented",
+      "Only worth it over the 20K model if you genuinely need 300W"
+    ],
+    "images": [],
+    "amazonAsin": "B0F66LNB8D",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-20k-220w",
+      "anker-737",
+      "sharge-170",
+      "ugreen-nexode-25k-200w"
+    ],
+    "useCases": [
+      "laptop",
+      "travel"
+    ],
+    "shortTagline": "300W and a 13-minute half charge — the most powerful bank you can buy."
+  }
+]

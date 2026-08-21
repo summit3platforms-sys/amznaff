@@ -420,6 +420,212 @@ export const categories: Category[] = [
       { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
       { slug: 'audiophile', label: 'Audiophile', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'power-banks',
+    name: 'Power Bank',
+    pluralName: 'Power Banks',
+    description:
+      'Portable power banks compared spec-for-spec \u2014 real capacity in watt-hours, output wattage, ports, pass-through charging and airline compliance \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'capacityMah', label: 'Capacity', unit: 'mAh', betterDirection: 'higher' },
+      { key: 'capacityWh', label: 'Capacity', unit: 'Wh', betterDirection: 'higher' },
+      { key: 'maxOutputWatts', label: 'Max Output', unit: 'W', betterDirection: 'higher' },
+      { key: 'portCount', label: 'Ports', betterDirection: 'none' },
+      { key: 'builtInCable', label: 'Built-in Cable', betterDirection: 'none' },
+      { key: 'passThrough', label: 'Pass-Through Charging', betterDirection: 'none' },
+      { key: 'displayType', label: 'Display', betterDirection: 'none' },
+      { key: 'weight', label: 'Weight', unit: 'g', betterDirection: 'lower' },
+      { key: 'rechargeTimeMin', label: 'Recharge Time', betterDirection: 'none' },
+      { key: 'airlineSafe', label: 'Airline Carry-On Safe', betterDirection: 'none' },
+      { key: 'magsafe', label: 'Magnetic Wireless', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'capacity', label: 'Capacity', description: 'How many full phone or laptop charges it actually delivers' },
+      { key: 'chargingSpeed', label: 'Charging Speed', description: 'Output wattage and how fast it refills your devices' },
+      { key: 'portability', label: 'Portability', description: 'Weight and size relative to the capacity you get' },
+      { key: 'buildQuality', label: 'Build Quality', description: 'Materials, finish and how well it survives a bag' },
+      { key: 'display', label: 'Display', description: 'How clearly it tells you what charge is left' },
+      { key: 'features', label: 'Features', description: 'Pass-through, built-in cables, app control and extras' },
+      { key: 'versatility', label: 'Versatility', description: 'Range of devices it can usefully charge, from earbuds to laptops' },
+      { key: 'value', label: 'Value', description: 'Capacity and output relative to price' }
+    ],
+    filters: [
+      { slug: 'under-35', label: 'Under $35', kind: 'price-max', value: 35 },
+      { slug: 'under-80', label: 'Under $80', kind: 'price-max', value: 80 },
+      { slug: 'under-150', label: 'Under $150', kind: 'price-max', value: 150 },
+      { slug: 'under-250', label: 'Under $250', kind: 'price-max', value: 250 },
+      { slug: 'everyday', label: 'Everyday Carry', kind: 'use-case' },
+      { slug: 'travel', label: 'Travel', kind: 'use-case' },
+      { slug: 'laptop', label: 'Laptop Charging', kind: 'use-case' },
+      { slug: 'magsafe', label: 'Magnetic / MagSafe', kind: 'use-case' },
+      { slug: 'airline', label: 'Airline Approved', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'portable-power-stations',
+    name: 'Portable Power Station',
+    pluralName: 'Portable Power Stations',
+    description:
+      'Portable power stations compared spec-for-spec \u2014 usable capacity, real AC output, battery chemistry, cycle life, solar input and expandability \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'capacityWh', label: 'Capacity', unit: 'Wh', betterDirection: 'higher' },
+      { key: 'acOutputWatts', label: 'AC Output', unit: 'W', betterDirection: 'higher' },
+      { key: 'surgeWatts', label: 'Surge Output', betterDirection: 'none' },
+      { key: 'batteryChemistry', label: 'Battery Chemistry', betterDirection: 'none' },
+      { key: 'cycleLife', label: 'Cycle Life', betterDirection: 'none' },
+      { key: 'acOutlets', label: 'AC Outlets', betterDirection: 'none' },
+      { key: 'portCount', label: 'Other Ports', betterDirection: 'none' },
+      { key: 'solarInputWatts', label: 'Max Solar Input', betterDirection: 'none' },
+      { key: 'rechargeTimeMin', label: 'AC Recharge Time', betterDirection: 'none' },
+      { key: 'weight', label: 'Weight', unit: 'lbs', betterDirection: 'lower' },
+      { key: 'expandable', label: 'Expandable', betterDirection: 'none' },
+      { key: 'ups', label: 'UPS Switchover', betterDirection: 'none' },
+      { key: 'appControl', label: 'App Control', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'capacity', label: 'Capacity', description: 'Usable watt-hours and how long it runs real appliances' },
+      { key: 'outputPower', label: 'Output Power', description: 'Continuous AC output and whether the surge rating is genuine' },
+      { key: 'recharging', label: 'Recharge Speed', description: 'How quickly it refills from mains power' },
+      { key: 'solar', label: 'Solar Input', description: 'Maximum solar input and how practical off-grid recharging is' },
+      { key: 'portability', label: 'Portability', description: 'Weight and handling relative to capacity' },
+      { key: 'expandability', label: 'Expandability', description: 'Whether extra battery packs can be added, and how far it scales' },
+      { key: 'features', label: 'Features', description: 'UPS switchover, app control, port variety and extras' },
+      { key: 'value', label: 'Value', description: 'Capacity and output relative to price' }
+    ],
+    filters: [
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'under-900', label: 'Under $900', kind: 'price-max', value: 900 },
+      { slug: 'under-2000', label: 'Under $2,000', kind: 'price-max', value: 2000 },
+      { slug: 'under-5000', label: 'Under $5,000', kind: 'price-max', value: 5000 },
+      { slug: 'camping', label: 'Camping', kind: 'use-case' },
+      { slug: 'home-backup', label: 'Home Backup', kind: 'use-case' },
+      { slug: 'van-life', label: 'Van Life & RV', kind: 'use-case' },
+      { slug: 'cpap', label: 'CPAP & Medical', kind: 'use-case' },
+      { slug: 'off-grid', label: 'Off Grid', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'usb-chargers',
+    name: 'USB Charger',
+    pluralName: 'USB Chargers',
+    description:
+      'USB wall chargers compared spec-for-spec \u2014 total output, single-port wattage, GaN, PPS support and what actually happens to each port when several devices are plugged in.',
+    specFields: [
+      { key: 'maxOutputWatts', label: 'Max Total Output', unit: 'W', betterDirection: 'higher' },
+      { key: 'singlePortMaxWatts', label: 'Single-Port Max', betterDirection: 'none' },
+      { key: 'portCount', label: 'Ports', betterDirection: 'none' },
+      { key: 'gan', label: 'GaN', betterDirection: 'none' },
+      { key: 'pdVersion', label: 'USB-PD & PPS', betterDirection: 'none' },
+      { key: 'foldablePlug', label: 'Foldable Prongs', betterDirection: 'none' },
+      { key: 'dimensions', label: 'Dimensions', betterDirection: 'none' },
+      { key: 'weight', label: 'Weight', unit: 'g', betterDirection: 'lower' },
+      { key: 'laptopCapable', label: 'Laptop Charging', betterDirection: 'none' },
+      { key: 'powerSharing', label: 'Power Sharing', betterDirection: 'none' },
+      { key: 'displayType', label: 'Display', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'outputPower', label: 'Output Power', description: 'Total wattage and single-port maximum' },
+      { key: 'portCount', label: 'Ports', description: 'How many devices it can charge at once' },
+      { key: 'powerSharing', label: 'Power Sharing', description: 'How well it holds wattage when several ports are in use \u2014 the spec buyers most often get caught by' },
+      { key: 'portability', label: 'Portability', description: 'Size, weight and whether the prongs fold' },
+      { key: 'buildQuality', label: 'Build Quality', description: 'Materials, heat handling and warranty' },
+      { key: 'features', label: 'Features', description: 'Displays, protocol support and extras' },
+      { key: 'compatibility', label: 'Compatibility', description: 'PPS, PD version and support for Samsung, Pixel and Apple fast charging' },
+      { key: 'value', label: 'Value', description: 'Watts and ports relative to price' }
+    ],
+    filters: [
+      { slug: 'under-25', label: 'Under $25', kind: 'price-max', value: 25 },
+      { slug: 'under-50', label: 'Under $50', kind: 'price-max', value: 50 },
+      { slug: 'under-90', label: 'Under $90', kind: 'price-max', value: 90 },
+      { slug: 'under-130', label: 'Under $130', kind: 'price-max', value: 130 },
+      { slug: 'compact', label: 'Compact', kind: 'use-case' },
+      { slug: 'travel', label: 'Travel', kind: 'use-case' },
+      { slug: 'laptop', label: 'Laptop Charging', kind: 'use-case' },
+      { slug: 'multi-device', label: 'Multiple Devices', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'wireless-chargers',
+    name: 'Wireless Charger',
+    pluralName: 'Wireless Chargers',
+    description:
+      'Wireless chargers compared spec-for-spec \u2014 the real Qi standard, actual wattage, which devices they charge, and whether a power adapter is included \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'chargerType', label: 'Type', betterDirection: 'none' },
+      { key: 'qiStandard', label: 'Qi Standard', betterDirection: 'none' },
+      { key: 'maxPhoneWatts', label: 'Max Phone Output', unit: 'W', betterDirection: 'higher' },
+      { key: 'devicesCharged', label: 'Devices Charged', betterDirection: 'none' },
+      { key: 'appleWatchCharging', label: 'Apple Watch Charging', betterDirection: 'none' },
+      { key: 'magnetic', label: 'Magnetic Alignment', betterDirection: 'none' },
+      { key: 'adapterIncluded', label: 'Power Adapter Included', betterDirection: 'none' },
+      { key: 'cableAttached', label: 'Cable', betterDirection: 'none' },
+      { key: 'foldable', label: 'Foldable', betterDirection: 'none' },
+      { key: 'cooling', label: 'Cooling', betterDirection: 'none' },
+      { key: 'weight', label: 'Weight', unit: 'g', betterDirection: 'lower' }
+    ],
+    scoreDimensions: [
+      { key: 'chargingSpeed', label: 'Charging Speed', description: 'Real wireless wattage and which Qi standard it is certified to' },
+      { key: 'deviceSupport', label: 'Device Support', description: 'How many devices it charges, and whether the watch charges fast' },
+      { key: 'buildQuality', label: 'Build Quality', description: 'Materials, finish and durability' },
+      { key: 'cooling', label: 'Cooling', description: 'Whether it sustains full wattage or throttles under load' },
+      { key: 'portability', label: 'Portability', description: 'Weight, folding design and travel practicality' },
+      { key: 'features', label: 'Features', description: 'Kickstands, adapters included, international plugs and extras' },
+      { key: 'design', label: 'Design', description: 'How it looks on a desk or nightstand' },
+      { key: 'value', label: 'Value', description: 'Speed and device support relative to price, including any adapter you must buy separately' }
+    ],
+    filters: [
+      { slug: 'under-35', label: 'Under $35', kind: 'price-max', value: 35 },
+      { slug: 'under-80', label: 'Under $80', kind: 'price-max', value: 80 },
+      { slug: 'under-160', label: 'Under $160', kind: 'price-max', value: 160 },
+      { slug: 'desk', label: 'Desk', kind: 'use-case' },
+      { slug: 'bedside', label: 'Bedside', kind: 'use-case' },
+      { slug: 'travel', label: 'Travel', kind: 'use-case' },
+      { slug: 'multi-device', label: 'Multiple Devices', kind: 'use-case' },
+      { slug: 'apple-ecosystem', label: 'Apple Ecosystem', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'charging-stations',
+    name: 'Charging Station',
+    pluralName: 'Charging Stations',
+    description:
+      'Desktop charging stations compared spec-for-spec \u2014 total output, port mix, AC outlets, surge protection and how the wattage actually splits across ports \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'stationType', label: 'Type', betterDirection: 'none' },
+      { key: 'maxOutputWatts', label: 'Max Total Output', betterDirection: 'none' },
+      { key: 'usbcPorts', label: 'USB-C Ports', unit: 'ports', betterDirection: 'higher' },
+      { key: 'usbaPorts', label: 'USB-A Ports', unit: 'ports', betterDirection: 'higher' },
+      { key: 'acOutlets', label: 'AC Outlets', betterDirection: 'none' },
+      { key: 'wirelessPad', label: 'Wireless Pad', betterDirection: 'none' },
+      { key: 'deviceCapacity', label: 'Devices at Once', unit: 'devices', betterDirection: 'higher' },
+      { key: 'appleWatchCharging', label: 'Apple Watch Charging', betterDirection: 'none' },
+      { key: 'cablesIncluded', label: 'Cables Included', betterDirection: 'none' },
+      { key: 'surgeProtection', label: 'Surge Protection', betterDirection: 'none' },
+      { key: 'powerSharing', label: 'Power Sharing', betterDirection: 'none' },
+      { key: 'displayType', label: 'Display', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'outputPower', label: 'Output Power', description: 'Total wattage and single-port maximum' },
+      { key: 'portVariety', label: 'Port Variety', description: 'Mix of USB-C, USB-A and AC outlets' },
+      { key: 'powerSharing', label: 'Power Sharing', description: 'How much of the headline wattage survives when several devices are attached' },
+      { key: 'buildQuality', label: 'Build Quality', description: 'Materials, heat handling and warranty' },
+      { key: 'cableManagement', label: 'Cable Management', description: 'Built-in, retractable or included cables, and how tidy the result is' },
+      { key: 'features', label: 'Features', description: 'Displays, surge protection, wireless pads and extras' },
+      { key: 'design', label: 'Design', description: 'Footprint and how it looks on a desk or nightstand' },
+      { key: 'value', label: 'Value', description: 'Ports and wattage relative to price' }
+    ],
+    filters: [
+      { slug: 'under-40', label: 'Under $40', kind: 'price-max', value: 40 },
+      { slug: 'under-90', label: 'Under $90', kind: 'price-max', value: 90 },
+      { slug: 'under-160', label: 'Under $160', kind: 'price-max', value: 160 },
+      { slug: 'under-260', label: 'Under $260', kind: 'price-max', value: 260 },
+      { slug: 'desk', label: 'Desk', kind: 'use-case' },
+      { slug: 'bedside', label: 'Bedside', kind: 'use-case' },
+      { slug: 'travel', label: 'Travel', kind: 'use-case' },
+      { slug: 'laptop', label: 'Laptop Charging', kind: 'use-case' },
+      { slug: 'multi-device', label: 'Multiple Devices', kind: 'use-case' }
+    ]
   }
 ];
 

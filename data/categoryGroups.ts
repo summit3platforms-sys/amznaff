@@ -93,11 +93,11 @@ export const categoryGroups: CategoryGroup[] = [
     name: 'Charging & Power',
     iconKey: 'power',
     items: [
-      { name: 'Power Banks' },
-      { name: 'Charging Stations' },
-      { name: 'USB Chargers' },
-      { name: 'Wireless Chargers' },
-      { name: 'Portable Power Stations' }
+      { name: 'Power Banks', slug: 'power-banks' },
+      { name: 'Charging Stations', slug: 'charging-stations' },
+      { name: 'USB Chargers', slug: 'usb-chargers' },
+      { name: 'Wireless Chargers', slug: 'wireless-chargers' },
+      { name: 'Portable Power Stations', slug: 'portable-power-stations' }
     ]
   },
   {

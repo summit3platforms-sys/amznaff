@@ -1,0 +1,981 @@
+[
+  {
+    "id": "ps-jackery-explorer-240-v2",
+    "categorySlug": "portable-power-stations",
+    "brand": "Jackery",
+    "series": "Explorer",
+    "model": "Jackery Explorer 240 v2",
+    "slug": "jackery-explorer-240-v2",
+    "releaseYear": 2024,
+    "price": 249.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Orange and Black"
+    ],
+    "material": "Plastic with folding handle",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "1x AC outlet",
+      "1x USB-C 100W in/out",
+      "1x USB-C 15W",
+      "1x USB-A 15W"
+    ],
+    "features": [
+      "UL1778 certified UPS with 20ms switchover",
+      "App control over Bluetooth",
+      "Fast-charge mode drops full recharge to about an hour",
+      "7.7lb — the lightest station here"
+    ],
+    "specs": {
+      "capacityWh": 256,
+      "acOutputWatts": 300,
+      "surgeWatts": 500,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "3,000 cycles to 70% capacity",
+      "acOutlets": 1,
+      "portCount": "1x USB-C 100W in/out, 1x USB-C 15W, 1x USB-A 15W",
+      "solarInputWatts": 100,
+      "rechargeTimeMin": "120 standard, about 60 in app fast-charge mode",
+      "weight": 7.7,
+      "expandable": false,
+      "ups": "Yes — UL1778 certified, 20ms switchover",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 3.0,
+      "outputPower": 3.5,
+      "recharging": 6.5,
+      "solar": 3.0,
+      "portability": 9.5,
+      "expandability": 1.0,
+      "features": 7.0,
+      "value": 7.0
+    },
+    "pros": [
+      "7.7lb makes it genuinely one-hand portable, unlike almost everything else here",
+      "UL1778 certified UPS is a real certification, not a marketing claim",
+      "LiFePO4 chemistry at this price point",
+      "App control over Bluetooth"
+    ],
+    "cons": [
+      "256Wh runs a CPAP for roughly one night, no more",
+      "300W output rules out kettles, hairdryers and most power tools",
+      "Only one AC outlet",
+      "100W solar input means a full solar recharge takes most of a day",
+      "Jackery rates cycle life to 70% capacity while rivals quote 80%, so the numbers are not directly comparable"
+    ],
+    "images": [],
+    "amazonAsin": "B0D2L1B7PK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-solix-c300",
+      "bluetti-elite-30-v2",
+      "jackery-explorer-1000-v2"
+    ],
+    "useCases": [
+      "camping",
+      "cpap"
+    ],
+    "shortTagline": "7.7lb with a certified UPS — the most genuinely portable station here."
+  },
+  {
+    "id": "ps-anker-solix-c300",
+    "categorySlug": "portable-power-stations",
+    "brand": "Anker",
+    "series": "SOLIX",
+    "model": "Anker SOLIX C300",
+    "slug": "anker-solix-c300",
+    "releaseYear": 2024,
+    "price": 298.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with integrated handle",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "3x AC outlets",
+      "3x USB-C (one 140W two-way)",
+      "3x USB-A",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "140W two-way USB-C — fast in and fast out",
+      "10ms UPS switchover",
+      "63-minute full recharge",
+      "Bluetooth and Wi-Fi app control",
+      "Nine outputs in a 9lb body"
+    ],
+    "specs": {
+      "capacityWh": 288,
+      "acOutputWatts": 300,
+      "surgeWatts": 600,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "3,000 cycles",
+      "acOutlets": 3,
+      "portCount": "3x USB-A, 3x USB-C (one 140W two-way), 1x 12V/10A car socket",
+      "solarInputWatts": 100,
+      "rechargeTimeMin": 63,
+      "weight": 9.1,
+      "expandable": false,
+      "ups": "Yes — 10ms switchover",
+      "appControl": "Yes — Bluetooth and Wi-Fi"
+    },
+    "scores": {
+      "capacity": 3.5,
+      "outputPower": 3.5,
+      "recharging": 7.5,
+      "solar": 3.0,
+      "portability": 9.0,
+      "expandability": 1.0,
+      "features": 8.5,
+      "value": 8.0
+    },
+    "pros": [
+      "Nine outputs including three AC and a 140W two-way USB-C — the most connected small station here",
+      "63 minutes to full is fast for the class",
+      "10ms UPS is quick enough for a desktop PC",
+      "Both Bluetooth and Wi-Fi app control"
+    ],
+    "cons": [
+      "288Wh and 300W keep it in the phones-laptops-CPAP bracket, not appliances",
+      "100W solar input",
+      "Not expandable",
+      "A newer C300X adds a second 140W port and is replacing this model"
+    ],
+    "images": [],
+    "amazonAsin": "B0D62GMQ3F",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jackery-explorer-240-v2",
+      "bluetti-elite-30-v2",
+      "anker-solix-c1000-g2"
+    ],
+    "useCases": [
+      "camping",
+      "cpap",
+      "home-backup"
+    ],
+    "shortTagline": "Nine outputs and a 63-minute recharge in a 9lb box."
+  },
+  {
+    "id": "ps-bluetti-elite-30-v2",
+    "categorySlug": "portable-power-stations",
+    "brand": "BLUETTI",
+    "series": "Elite",
+    "model": "BLUETTI Elite 30 V2",
+    "slug": "bluetti-elite-30-v2",
+    "releaseYear": 2025,
+    "price": 299.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Grey"
+    ],
+    "material": "Plastic with folding handle",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2x AC outlets",
+      "2x USB-C (140W and 100W)",
+      "2x USB-A",
+      "2x DC5521",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "600W continuous AC from a 288Wh pack — the best output-to-capacity ratio here",
+      "200W solar input, double most rivals at this size",
+      "Turbo charging to 80% in 45 minutes",
+      "10ms UPS switchover"
+    ],
+    "specs": {
+      "capacityWh": 288,
+      "acOutputWatts": 600,
+      "surgeWatts": "1,500 via Power Lifting. This is a voltage-reduction mode, not true inverter surge — it will run resistive loads like kettles and heaters but will not start a motor or compressor that a genuine surge rating would",
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "3,000+ cycles to 80% capacity",
+      "acOutlets": 2,
+      "portCount": "2x USB-C (140W and 100W), 2x USB-A 15W, 2x DC5521 12V/5A, 1x 12V/10A car socket",
+      "solarInputWatts": 200,
+      "rechargeTimeMin": "About 120 standard, 45 to 80% in turbo mode",
+      "weight": 9.48,
+      "expandable": false,
+      "ups": "Yes — 10ms or better",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 3.5,
+      "outputPower": 6.0,
+      "recharging": 8.0,
+      "solar": 5.0,
+      "portability": 9.0,
+      "expandability": 1.0,
+      "features": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "600W continuous from a 288Wh pack is genuinely unusual — it will run a blender or a small power tool",
+      "200W solar input is double what Jackery and Anker offer at this size",
+      "3,000+ cycles rated to 80%, a stricter and more useful measure than Jackery's 70%",
+      "Two 140W-class USB-C ports"
+    ],
+    "cons": [
+      "The 1,500W 'Power Lifting' figure is voltage reduction, not true surge — it will not start a compressor",
+      "288Wh still limits runtime regardless of the output rating",
+      "Not expandable",
+      "BLUETTI's own product pages are unreliable and frequently redirect, which makes spec checking harder than it should be"
+    ],
+    "images": [],
+    "amazonAsin": "B0F42HLLSC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-solix-c300",
+      "jackery-explorer-240-v2",
+      "ecoflow-delta-3-plus"
+    ],
+    "useCases": [
+      "camping",
+      "cpap",
+      "van-life"
+    ],
+    "shortTagline": "600W from a 288Wh pack — punches far above its size."
+  },
+  {
+    "id": "ps-jackery-explorer-1000-v2",
+    "categorySlug": "portable-power-stations",
+    "brand": "Jackery",
+    "series": "Explorer",
+    "model": "Jackery Explorer 1000 v2",
+    "slug": "jackery-explorer-1000-v2",
+    "releaseYear": 2024,
+    "price": 549.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Orange and Black"
+    ],
+    "material": "Plastic with folding handle",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "3x AC outlets",
+      "2x USB-C (100W and 30W)",
+      "1x USB-A",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "1,500W continuous with 3,000W genuine surge",
+      "400W solar input",
+      "95-minute full recharge, about 60 in emergency mode",
+      "23.8lb — light for 1kWh"
+    ],
+    "specs": {
+      "capacityWh": 1070,
+      "acOutputWatts": 1500,
+      "surgeWatts": 3000,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles to 70% capacity",
+      "acOutlets": 3,
+      "portCount": "2x USB-C (100W and 30W), 1x USB-A 18W, 1x 12V/10A car socket",
+      "solarInputWatts": 400,
+      "rechargeTimeMin": "95, or about 60 in emergency mode",
+      "weight": 23.8,
+      "expandable": false,
+      "ups": "Yes — under 20ms",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 6.5,
+      "outputPower": 7.5,
+      "recharging": 7.0,
+      "solar": 6.0,
+      "portability": 7.5,
+      "expandability": 1.0,
+      "features": 7.0,
+      "value": 8.0
+    },
+    "pros": [
+      "1,500W with a genuine 3,000W surge will start a fridge compressor, which the voltage-reduction rivals will not",
+      "23.8lb is light for a 1kWh LiFePO4 station",
+      "Jackery's build quality and US support are consistently well regarded",
+      "Deeply and frequently discounted below list"
+    ],
+    "cons": [
+      "Not expandable — the Explorer 1000 Plus is the expandable model, and Jackery's own copy blurs the two",
+      "Cycle life is quoted to 70% capacity, not the 80% rivals use",
+      "Only one USB-A port",
+      "Amazon's list price is inflated well above Jackery's own MSRP"
+    ],
+    "images": [],
+    "amazonAsin": "B0D7PPG25F",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-solix-c1000-g2",
+      "ecoflow-delta-3-plus",
+      "dji-power-1000-v2",
+      "jackery-explorer-2000-v2"
+    ],
+    "useCases": [
+      "camping",
+      "home-backup",
+      "van-life"
+    ],
+    "shortTagline": "1,500W with a real 3,000W surge — it will actually start a fridge."
+  },
+  {
+    "id": "ps-ecoflow-delta-3-plus",
+    "categorySlug": "portable-power-stations",
+    "brand": "EcoFlow",
+    "series": "DELTA",
+    "model": "EcoFlow DELTA 3 Plus",
+    "slug": "ecoflow-delta-3-plus",
+    "releaseYear": 2024,
+    "price": 899.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with side handles",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "6x AC outlets",
+      "2x USB-C 140W",
+      "2x USB-A",
+      "1x car socket",
+      "2x DC5521"
+    ],
+    "features": [
+      "1,000W of solar input across dual MPPT — the highest here at this size",
+      "56-minute full recharge",
+      "Expandable to 2,048Wh, or 5kWh with the wider EcoFlow ecosystem",
+      "Six AC outlets",
+      "Sub-10ms UPS"
+    ],
+    "specs": {
+      "capacityWh": 1024,
+      "acOutputWatts": 1800,
+      "surgeWatts": "3,600 via X-Boost. This is a voltage-reduction mode, not true inverter surge — it will run resistive loads like kettles and heaters but will not start a motor or compressor that a genuine surge rating would",
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles to 80% capacity",
+      "acOutlets": 6,
+      "portCount": "2x USB-C 140W, 2x USB-A (36W total), 1x car socket 126W, 2x DC5521",
+      "solarInputWatts": "1,000 across dual 500W MPPT",
+      "rechargeTimeMin": 56,
+      "weight": 27.6,
+      "expandable": "Yes — to 2,048Wh, or 5kWh within the wider EcoFlow ecosystem",
+      "ups": "Yes — under 10ms",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 6.5,
+      "outputPower": 8.0,
+      "recharging": 9.0,
+      "solar": 9.5,
+      "portability": 6.5,
+      "expandability": 8.5,
+      "features": 9.0,
+      "value": 8.0
+    },
+    "pros": [
+      "1,000W of solar input means a genuine same-day solar recharge, which nothing else at this size manages",
+      "Six AC outlets and 56 minutes to full",
+      "Expandable to 2,048Wh if your needs grow",
+      "Sub-10ms UPS is fast enough for desktop PCs and networking gear"
+    ],
+    "cons": [
+      "The 3,600W X-Boost figure is voltage reduction, not real surge",
+      "Only 36W total across both USB-A ports",
+      "27.6lb",
+      "EcoFlow's ecosystem pricing escalates quickly once you start expanding"
+    ],
+    "images": [],
+    "amazonAsin": "B0DCC2BVFW",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jackery-explorer-1000-v2",
+      "anker-solix-c1000-g2",
+      "dji-power-1000-v2",
+      "bluetti-elite-200-v2"
+    ],
+    "useCases": [
+      "home-backup",
+      "off-grid",
+      "van-life"
+    ],
+    "shortTagline": "1,000W solar input and six outlets — the best solar recharge at 1kWh."
+  },
+  {
+    "id": "ps-anker-solix-c1000-g2",
+    "categorySlug": "portable-power-stations",
+    "brand": "Anker",
+    "series": "SOLIX",
+    "model": "Anker SOLIX C1000 Gen 2",
+    "slug": "anker-solix-c1000-g2",
+    "releaseYear": 2025,
+    "price": 799.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with integrated handles",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "5x AC outlets",
+      "2x USB-C 140W",
+      "1x USB-C 15W",
+      "1x USB-A",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "2,000W continuous with a genuine 3,000W surge",
+      "49-minute full recharge — the fastest here",
+      "600W solar input",
+      "Sub-10ms UPS",
+      "24.9lb"
+    ],
+    "specs": {
+      "capacityWh": 1024,
+      "acOutputWatts": 2000,
+      "surgeWatts": 3000,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles to 80% capacity",
+      "acOutlets": 5,
+      "portCount": "2x USB-C 140W, 1x USB-C 15W, 1x USB-A 12W, 1x 12V/10A car socket",
+      "solarInputWatts": 600,
+      "rechargeTimeMin": 49,
+      "weight": 24.9,
+      "expandable": "No — Anker removed expansion on Gen 2 to save weight. The Gen 1 C1000 and C1000X do support the BP1000 add-on battery",
+      "ups": "Yes — under 10ms",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 6.5,
+      "outputPower": 8.5,
+      "recharging": 9.5,
+      "solar": 7.0,
+      "portability": 7.0,
+      "expandability": 1.0,
+      "features": 8.0,
+      "value": 9.0
+    },
+    "pros": [
+      "2,000W continuous with a genuine 3,000W surge is the strongest real output at 1kWh here",
+      "49 minutes to full is the fastest recharge of any station in this list",
+      "Five AC outlets and two 140W USB-C ports",
+      "Routinely discounted to around half its list price"
+    ],
+    "cons": [
+      "Gen 2 deliberately removed battery expansion — if you want the add-on pack you need the Gen 1 C1000 or C1000X instead, which is easy to get wrong when both are listed",
+      "Only 12W from the single USB-A port",
+      "600W solar is good but well behind the EcoFlow's 1,000W"
+    ],
+    "images": [],
+    "amazonAsin": "B0FN7MSY4L",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecoflow-delta-3-plus",
+      "jackery-explorer-1000-v2",
+      "dji-power-1000-v2",
+      "bluetti-elite-200-v2"
+    ],
+    "useCases": [
+      "home-backup",
+      "camping",
+      "van-life"
+    ],
+    "shortTagline": "2,000W real output and a 49-minute recharge — but no longer expandable."
+  },
+  {
+    "id": "ps-dji-power-1000-v2",
+    "categorySlug": "portable-power-stations",
+    "brand": "DJI",
+    "series": "Power",
+    "model": "DJI Power 1000 V2",
+    "slug": "dji-power-1000-v2",
+    "releaseYear": 2025,
+    "price": 699.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Grey"
+    ],
+    "material": "Plastic with recessed handles and tripod threads",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "4x AC outlets",
+      "2x USB-C 140W",
+      "2x USB-A",
+      "SDC and SDC Lite ports",
+      "2x quarter-inch threads"
+    ],
+    "features": [
+      "2,600W continuous — the highest output per watt-hour here",
+      "Expandable to 11,264Wh across five add-on packs",
+      "56-minute recharge, 37 to 80%",
+      "Two quarter-inch tripod threads for mounting",
+      "DJI Home app integration"
+    ],
+    "specs": {
+      "capacityWh": 1024,
+      "acOutputWatts": 2600,
+      "surgeWatts": "Not published by the manufacturer",
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles to 80% capacity",
+      "acOutlets": 4,
+      "portCount": "2x USB-C 140W (280W combined), 2x USB-A, 1x SDC, 1x SDC Lite, 2x quarter-inch threads. Note there is no standard 12V car socket and no DC5521",
+      "solarInputWatts": "Retailer spec sheets state 1,800W while hands-on reviews measure around 1,200W, and solar requires DJI's own proprietary SDC adapter sold separately",
+      "rechargeTimeMin": "56 to full, 37 to 80%",
+      "weight": 31.3,
+      "expandable": "Yes — to 11,264Wh across five add-on packs",
+      "ups": "Yes — about 10ms",
+      "appControl": "Yes — DJI Home"
+    },
+    "scores": {
+      "capacity": 6.5,
+      "outputPower": 9.5,
+      "recharging": 9.0,
+      "solar": 6.0,
+      "portability": 6.0,
+      "expandability": 9.0,
+      "features": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "2,600W from a 1kWh pack is the highest output-to-capacity ratio in this list",
+      "Expandable to over 11kWh, far beyond anything else at this size",
+      "Tripod threads make it genuinely useful for film and photo crews",
+      "56 minutes to full"
+    ],
+    "cons": [
+      "No standard 12V car socket and no DC5521 — the I/O is a walled garden",
+      "Solar needs DJI's proprietary SDC adapter, an extra cost, and the published 1,800W figure is contradicted by measured results around 1,200W",
+      "DJI publishes no surge rating at all",
+      "31.3lb"
+    ],
+    "images": [],
+    "amazonAsin": "B0FD9Z5F3S",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-solix-c1000-g2",
+      "ecoflow-delta-3-plus",
+      "jackery-explorer-1000-v2"
+    ],
+    "useCases": [
+      "off-grid",
+      "van-life",
+      "home-backup"
+    ],
+    "shortTagline": "2,600W and 11kWh of expansion — but a proprietary, walled-garden port set."
+  },
+  {
+    "id": "ps-bluetti-elite-200-v2",
+    "categorySlug": "portable-power-stations",
+    "brand": "BLUETTI",
+    "series": "Elite",
+    "model": "BLUETTI Elite 200 V2",
+    "slug": "bluetti-elite-200-v2",
+    "releaseYear": 2024,
+    "price": 999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Grey"
+    ],
+    "material": "Plastic with folding handles",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "4x AC outlets",
+      "2x USB-C 100W",
+      "2x USB-A",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "6,000+ cycles to 80% — by far the longest-lived battery here",
+      "2,073Wh with 2,600W continuous output",
+      "1,000W solar input",
+      "TurboBoost to 80% in under an hour"
+    ],
+    "specs": {
+      "capacityWh": 2073.6,
+      "acOutputWatts": 2600,
+      "surgeWatts": "3,900 via Power Lifting. This is a voltage-reduction mode, not true inverter surge — it will run resistive loads like kettles and heaters but will not start a motor or compressor that a genuine surge rating would",
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "6,000+ cycles to 80% capacity",
+      "acOutlets": 4,
+      "portCount": "2x USB-C 100W, 2x USB-A 15W, 1x 12V/10A car socket",
+      "solarInputWatts": 1000,
+      "rechargeTimeMin": "84 to full, roughly 50 to 66 to 80% in TurboBoost",
+      "weight": 53.4,
+      "expandable": false,
+      "ups": "Yes — about 15 to 20ms",
+      "appControl": "Yes — Wi-Fi and Bluetooth"
+    },
+    "scores": {
+      "capacity": 8.5,
+      "outputPower": 9.0,
+      "recharging": 8.0,
+      "solar": 8.5,
+      "portability": 4.5,
+      "expandability": 1.0,
+      "features": 8.0,
+      "value": 9.0
+    },
+    "pros": [
+      "6,000+ cycles to 80% is roughly 50% more life than any rival here — over a decade of daily use",
+      "2,073Wh and 2,600W covers almost any household appliance short of an electric oven",
+      "1,000W solar input",
+      "Excellent value against the 2kWh competition"
+    ],
+    "cons": [
+      "53.4lb — this is a two-hands, plan-ahead station",
+      "Not expandable despite the capacity",
+      "The 3,900W Power Lifting figure is voltage reduction, not real surge",
+      "UPS switchover is 15 to 20ms, slower than the sub-10ms class, which matters for some desktop PCs",
+      "Only two USB-C ports at 100W, behind the 140W rivals"
+    ],
+    "images": [],
+    "amazonAsin": "B0DCJV9LTB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jackery-explorer-2000-v2",
+      "goal-zero-yeti-1500",
+      "ecoflow-delta-3-plus",
+      "anker-solix-c1000-g2"
+    ],
+    "useCases": [
+      "home-backup",
+      "off-grid",
+      "van-life"
+    ],
+    "shortTagline": "6,000 cycles and 2kWh — the longest-lived battery in the category."
+  },
+  {
+    "id": "ps-jackery-explorer-2000-v2",
+    "categorySlug": "portable-power-stations",
+    "brand": "Jackery",
+    "series": "Explorer",
+    "model": "Jackery Explorer 2000 v2",
+    "slug": "jackery-explorer-2000-v2",
+    "releaseYear": 2024,
+    "price": 1499.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Orange and Black"
+    ],
+    "material": "Plastic with folding handle and wheels",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "3x AC outlets",
+      "2x USB-C (100W and 30W)",
+      "1x USB-A",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "2,042Wh with 2,200W continuous and a genuine 4,400W surge",
+      "39.5lb — remarkably light for 2kWh",
+      "105-minute full recharge",
+      "Sub-20ms UPS"
+    ],
+    "specs": {
+      "capacityWh": 2042,
+      "acOutputWatts": 2200,
+      "surgeWatts": 4400,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles to 70% capacity",
+      "acOutlets": 3,
+      "portCount": "2x USB-C (100W and 30W), 1x USB-A 18W, 1x 12V/10A car socket",
+      "solarInputWatts": 400,
+      "rechargeTimeMin": 105,
+      "weight": 39.5,
+      "expandable": false,
+      "ups": "Yes — under 20ms",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 8.5,
+      "outputPower": 8.5,
+      "recharging": 6.5,
+      "solar": 3.5,
+      "portability": 6.0,
+      "expandability": 1.0,
+      "features": 7.0,
+      "value": 7.0
+    },
+    "pros": [
+      "39.5lb for 2kWh is the best weight-to-capacity ratio in this list by a wide margin",
+      "A genuine 4,400W surge, not a voltage-reduction trick — it will start large motors",
+      "Jackery's US support network is the strongest in the category"
+    ],
+    "cons": [
+      "400W solar input on a 2,042Wh battery is the weakest solar spec here by far — a full solar recharge takes more than five hours of ideal sun",
+      "Only three AC outlets for 2kWh",
+      "Not expandable",
+      "Cycle life quoted to 70% rather than 80%",
+      "Amazon list price is far above real street price"
+    ],
+    "images": [],
+    "amazonAsin": "B0DFG2WDQH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "bluetti-elite-200-v2",
+      "goal-zero-yeti-1500",
+      "ecoflow-delta-pro-3",
+      "jackery-explorer-1000-v2"
+    ],
+    "useCases": [
+      "home-backup",
+      "camping",
+      "van-life"
+    ],
+    "shortTagline": "2kWh at just 39.5lb with a real 4,400W surge — but weak solar input."
+  },
+  {
+    "id": "ps-goal-zero-yeti-1500",
+    "categorySlug": "portable-power-stations",
+    "brand": "Goal Zero",
+    "series": "Yeti",
+    "model": "Goal Zero Yeti 1500 (6th Gen)",
+    "slug": "goal-zero-yeti-1500",
+    "releaseYear": 2026,
+    "price": 1499.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black and Green"
+    ],
+    "material": "Aluminium and polycarbonate, IPX4 rated",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "4x AC outlets",
+      "1x USB-C 140W",
+      "1x USB-C 60W",
+      "2x USB-C 30W",
+      "2x USB-A",
+      "12V aux",
+      "HPP solar port"
+    ],
+    "features": [
+      "IPX4 weather resistance and an aluminium chassis — the most rugged build here",
+      "High Power Port taking 600W of solar on top of a 300W 8mm input",
+      "Newest station in this list",
+      "US-based support and warranty"
+    ],
+    "specs": {
+      "capacityWh": 1505,
+      "acOutputWatts": 2000,
+      "surgeWatts": 3600,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles",
+      "acOutlets": 4,
+      "portCount": "1x USB-C 140W, 1x USB-C 60W, 2x USB-C 30W, 2x USB-A 18W, 12V aux, HPP port",
+      "solarInputWatts": "900 total — 300W via 8mm plus 600W via the High Power Port",
+      "rechargeTimeMin": 66,
+      "weight": 52.75,
+      "expandable": false,
+      "ups": "Yes — under 15ms",
+      "appControl": "Yes — Wi-Fi and Bluetooth"
+    },
+    "scores": {
+      "capacity": 7.5,
+      "outputPower": 8.5,
+      "recharging": 8.0,
+      "solar": 8.0,
+      "portability": 4.5,
+      "expandability": 1.0,
+      "features": 8.0,
+      "value": 5.5
+    },
+    "pros": [
+      "IPX4 rating and an aluminium chassis make it the only station here you would leave out in the weather",
+      "Four USB-C ports including a 140W",
+      "900W of combined solar input",
+      "US-based support, which the Chinese brands cannot match"
+    ],
+    "cons": [
+      "Roughly twice the cost per watt-hour of the Chinese-brand competition",
+      "Not expandable at all, unlike rivals at half the price",
+      "52.75lb",
+      "You are paying a substantial premium for build quality and support rather than for capacity or output"
+    ],
+    "images": [],
+    "amazonAsin": "B0GMKKGQCY",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "bluetti-elite-200-v2",
+      "jackery-explorer-2000-v2",
+      "anker-solix-c1000-g2",
+      "ecoflow-delta-pro-3"
+    ],
+    "useCases": [
+      "off-grid",
+      "camping",
+      "home-backup"
+    ],
+    "shortTagline": "IPX4 and aluminium — the only one built to sit outside, at a premium."
+  },
+  {
+    "id": "ps-ecoflow-delta-pro-3",
+    "categorySlug": "portable-power-stations",
+    "brand": "EcoFlow",
+    "series": "DELTA Pro",
+    "model": "EcoFlow DELTA Pro 3",
+    "slug": "ecoflow-delta-pro-3",
+    "releaseYear": 2024,
+    "price": 2799.0,
+    "msrp": 3699.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with telescoping handle and wheels",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "6x AC outlets including 240V TT-30R, 6-20R and L14-30R",
+      "2x USB-C",
+      "2x USB-A",
+      "30A Anderson",
+      "DC5221"
+    ],
+    "features": [
+      "240V output via L14-30R — it can back-feed a home transfer switch",
+      "Expandable to 12kWh directly, or 48kWh as a full system",
+      "4,000W continuous, 6,000W with X-Boost",
+      "2,600W of dual-MPPT solar input",
+      "10ms UPS"
+    ],
+    "specs": {
+      "capacityWh": 4096,
+      "acOutputWatts": "4,000 continuous, 6,000 with X-Boost",
+      "surgeWatts": 8000,
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "4,000 cycles to 80% capacity",
+      "acOutlets": "6, including TT-30R, 6-20R and L14-30R 240V",
+      "portCount": "2x USB-C, 2x USB-A, 1x 30A Anderson, 1x DC5221",
+      "solarInputWatts": "2,600 across dual MPPT",
+      "rechargeTimeMin": "About 50 to 80%",
+      "weight": 113.5,
+      "expandable": "Yes — to 12kWh directly, or 48kWh as a full system",
+      "ups": "Yes — 10ms",
+      "appControl": "Yes — Wi-Fi, Bluetooth and CAN"
+    },
+    "scores": {
+      "capacity": 9.5,
+      "outputPower": 9.8,
+      "recharging": 9.0,
+      "solar": 9.8,
+      "portability": 2.5,
+      "expandability": 9.8,
+      "features": 9.5,
+      "value": 8.0
+    },
+    "pros": [
+      "240V output through an L14-30R means it can genuinely back-feed a house transfer switch, which almost nothing else here can",
+      "Expandable to 48kWh as a full system — this is whole-home territory",
+      "2,600W of solar input across dual MPPT",
+      "Its price has fallen roughly $900 from launch"
+    ],
+    "cons": [
+      "113.5lb — it has wheels for a reason, and it is not going camping",
+      "The 6,000W X-Boost figure is voltage reduction, not true surge",
+      "Only two USB-C and two USB-A ports on a station this size",
+      "Full system expansion runs into five figures quickly"
+    ],
+    "images": [],
+    "amazonAsin": "B0D14FMFZD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-solix-f3800-plus",
+      "bluetti-elite-200-v2",
+      "goal-zero-yeti-1500",
+      "jackery-explorer-2000-v2"
+    ],
+    "useCases": [
+      "home-backup",
+      "off-grid"
+    ],
+    "shortTagline": "4kWh, 240V output and 48kWh of expansion — genuine whole-home backup."
+  },
+  {
+    "id": "ps-anker-solix-f3800-plus",
+    "categorySlug": "portable-power-stations",
+    "brand": "Anker",
+    "series": "SOLIX",
+    "model": "Anker SOLIX F3800 Plus",
+    "slug": "anker-solix-f3800-plus",
+    "releaseYear": 2025,
+    "price": 4799.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with telescoping handle and wheels",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "8x AC outlets including TT-30R and L14-30R 240V",
+      "2x USB-C 100W",
+      "2x USB-A",
+      "1x 12V car socket"
+    ],
+    "features": [
+      "6,000W continuous output — the highest here",
+      "Expandable to 53.8kWh across six add-on packs",
+      "3,200W of dual-MPPT solar with an 11 to 165V range",
+      "Eight AC outlets including 240V"
+    ],
+    "specs": {
+      "capacityWh": 3840,
+      "acOutputWatts": 6000,
+      "surgeWatts": "Not published by the manufacturer",
+      "batteryChemistry": "LiFePO4",
+      "cycleLife": "3,000+ cycles",
+      "acOutlets": "8, including 6x 5-20R, 1x TT-30R and 1x L14-30R 240V",
+      "portCount": "2x USB-C 100W, 2x USB-A 12W, 1x 12V/10A car socket",
+      "solarInputWatts": "3,200 across dual MPPT, 11 to 165V",
+      "rechargeTimeMin": "Not published; 1,800W AC input implies roughly 145 minutes",
+      "weight": 136.7,
+      "expandable": "Yes — to 53.8kWh across six add-on packs",
+      "ups": "Yes — 20ms, rising to 30 to 50ms when running from a generator",
+      "appControl": true
+    },
+    "scores": {
+      "capacity": 9.5,
+      "outputPower": 10.0,
+      "recharging": 8.5,
+      "solar": 10.0,
+      "portability": 2.0,
+      "expandability": 10.0,
+      "features": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "6,000W continuous is more than most household circuits and covers essentially any appliance",
+      "53.8kWh of expansion is the largest here — genuine multi-day whole-home capability",
+      "3,200W of solar input with a very wide 11 to 165V range accepts almost any panel array",
+      "Eight AC outlets including two 240V options"
+    ],
+    "cons": [
+      "136.7lb and $4,799 — this is an installed home-backup appliance, not a portable",
+      "20ms UPS switchover is slower than the 10ms class, and 30 to 50ms on generator power, which is marginal for sensitive equipment",
+      "Anker publishes no surge rating and no full-recharge figure",
+      "Only 12W from each USB-A port on a $4,799 product"
+    ],
+    "images": [],
+    "amazonAsin": "B0DTSSCHG6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecoflow-delta-pro-3",
+      "bluetti-elite-200-v2",
+      "goal-zero-yeti-1500"
+    ],
+    "useCases": [
+      "home-backup",
+      "off-grid"
+    ],
+    "shortTagline": "6,000W and 53.8kWh of expansion — whole-home backup in a box."
+  }
+]

@@ -9,6 +9,11 @@ import { homeSpeakerProducts } from '@/data/products/home-speakers';
 import { projectorProducts } from '@/data/products/projectors';
 import { tvMountProducts } from '@/data/products/tv-mounts';
 import { bluRayPlayerProducts } from '@/data/products/blu-ray-players';
+import { powerBankProducts } from '@/data/products/power-banks';
+import { portablePowerStationProducts } from '@/data/products/portable-power-stations';
+import { usbChargerProducts } from '@/data/products/usb-chargers';
+import { wirelessChargerProducts } from '@/data/products/wireless-chargers';
+import { chargingStationProducts } from '@/data/products/charging-stations';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -26,7 +31,12 @@ const allProducts: Product[] = [
   ...homeSpeakerProducts,
   ...projectorProducts,
   ...tvMountProducts,
-  ...bluRayPlayerProducts
+  ...bluRayPlayerProducts,
+  ...powerBankProducts,
+  ...portablePowerStationProducts,
+  ...usbChargerProducts,
+  ...wirelessChargerProducts,
+  ...chargingStationProducts
 ];
 
 export function getAllProducts(): Product[] {

@@ -1,0 +1,904 @@
+[
+  {
+    "id": "wc-anker-maggo-pad",
+    "categorySlug": "wireless-chargers",
+    "brand": "Anker",
+    "series": "MagGo",
+    "model": "Anker MagGo Wireless Charger Pad (A25M0)",
+    "slug": "anker-maggo-pad",
+    "releaseYear": 2023,
+    "price": 25.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic pad with attached cable",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Attached 5ft USB-C cable"
+    ],
+    "features": [
+      "Genuine Qi2 certification at 15W",
+      "94g — packs flat for travel",
+      "Attached 5ft cable"
+    ],
+    "specs": {
+      "chargerType": "Pad",
+      "qiStandard": "Qi2, certified",
+      "maxPhoneWatts": 15,
+      "devicesCharged": "Phone only",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": false,
+      "cableAttached": "Attached, 5ft",
+      "foldable": false,
+      "cooling": "Passive",
+      "weight": 94
+    },
+    "scores": {
+      "chargingSpeed": 6.5,
+      "deviceSupport": 3.0,
+      "buildQuality": 8.0,
+      "cooling": 6.0,
+      "portability": 9.0,
+      "features": 5.0,
+      "design": 7.5,
+      "value": 8.5
+    },
+    "pros": [
+      "Genuine Qi2 certification at 15W rather than a vague 'MagSafe compatible' claim",
+      "94g and flat — the easiest charger here to throw in a bag",
+      "Anker's warranty and support"
+    ],
+    "cons": [
+      "No power adapter in the box — budget another $20 or so for a 30W brick",
+      "Qi2 15W rather than Qi2.2 25W, so it is a generation behind newer rivals at similar money",
+      "Phone only",
+      "Attached cable means a damaged cable ends the product"
+    ],
+    "images": [],
+    "amazonAsin": "B0CMH2JVMM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-magflow-pad",
+      "belkin-ultracharge-qi2",
+      "esr-halolock-kickstand",
+      "apple-magsafe-25w"
+    ],
+    "useCases": [
+      "travel",
+      "desk",
+      "bedside"
+    ],
+    "shortTagline": "Certified Qi2 at 15W in a 94g pad — the simple, honest choice."
+  },
+  {
+    "id": "wc-ugreen-magflow-pad",
+    "categorySlug": "wireless-chargers",
+    "brand": "UGREEN",
+    "series": "MagFlow",
+    "model": "UGREEN MagFlow Qi2.2 25W Charging Pad",
+    "slug": "ugreen-magflow-pad",
+    "releaseYear": 2025,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic pad with attached cable",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Attached 5ft USB-C cable"
+    ],
+    "features": [
+      "Qi2 25W certified — the fastest wireless standard",
+      "Attached 5ft cable",
+      "Slim pad profile"
+    ],
+    "specs": {
+      "chargerType": "Pad",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone only",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": false,
+      "cableAttached": "Attached, 5ft",
+      "foldable": false,
+      "cooling": "Passive",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 9.0,
+      "deviceSupport": 3.0,
+      "buildQuality": 7.5,
+      "cooling": 6.0,
+      "portability": 8.5,
+      "features": 5.5,
+      "design": 7.0,
+      "value": 8.5
+    },
+    "pros": [
+      "25W Qi2.2 for $40 — genuinely 67% faster than the Qi2 15W pads next to it on Amazon",
+      "Certified rather than merely 'MagSafe compatible'",
+      "Long 5ft attached cable"
+    ],
+    "cons": [
+      "No power adapter included, and hitting 25W needs a 30W or better brick",
+      "UGREEN publishes no weight",
+      "25W requires a phone supporting Qi2.2; iPhone 12 to 15 fall back to 15W",
+      "UGREEN sells several near-identical MagFlow pads, so check the exact listing"
+    ],
+    "images": [],
+    "amazonAsin": "B0FXGQ1NMC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-maggo-pad",
+      "belkin-ultracharge-qi2",
+      "apple-magsafe-25w",
+      "esr-halolock-kickstand"
+    ],
+    "useCases": [
+      "desk",
+      "bedside",
+      "travel"
+    ],
+    "shortTagline": "25W Qi2.2 for $40 — the cheapest way onto the fastest wireless standard."
+  },
+  {
+    "id": "wc-belkin-ultracharge-qi2",
+    "categorySlug": "wireless-chargers",
+    "brand": "Belkin",
+    "series": "UltraCharge",
+    "model": "Belkin UltraCharge Magnetic Charger Qi2 25W (WIA014)",
+    "slug": "belkin-ultracharge-qi2",
+    "releaseYear": 2025,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic pad with integrated kickstand",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Attached USB-C cable"
+    ],
+    "features": [
+      "Qi2 25W certified",
+      "Integrated kickstand for landscape viewing",
+      "ChillBoost passive cooling",
+      "Belkin Connected Equipment Warranty"
+    ],
+    "specs": {
+      "chargerType": "Pad with kickstand",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone only",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": "Depends on the listing — the black variant includes an adapter and the white one does not, at roughly $10 to $15 apart",
+      "cableAttached": "Attached",
+      "foldable": false,
+      "cooling": "Passive, marketed as ChillBoost",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 9.0,
+      "deviceSupport": 3.5,
+      "buildQuality": 8.5,
+      "cooling": 6.5,
+      "portability": 8.0,
+      "features": 6.0,
+      "design": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Qi2 25W certified with Belkin build quality and warranty",
+      "The kickstand makes it genuinely usable for watching video while charging",
+      "ChillBoost cooling helps sustain 25W"
+    ],
+    "cons": [
+      "Two Amazon listings exist that differ only by whether a power adapter is included — check the title carefully before ordering",
+      "Belkin publishes no weight",
+      "Phone only",
+      "25W requires a phone supporting Qi2.2; iPhone 12 to 15 fall back to 15W"
+    ],
+    "images": [],
+    "amazonAsin": "B0GFW9DBPT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-magflow-pad",
+      "anker-maggo-pad",
+      "apple-magsafe-25w"
+    ],
+    "useCases": [
+      "desk",
+      "bedside"
+    ],
+    "shortTagline": "Qi2 25W with a kickstand — just check which listing includes the adapter."
+  },
+  {
+    "id": "wc-esr-halolock-kickstand",
+    "categorySlug": "wireless-chargers",
+    "brand": "ESR",
+    "series": "HaloLock",
+    "model": "ESR HaloLock Kickstand Wireless Charger",
+    "slug": "esr-halolock-kickstand",
+    "releaseYear": 2021,
+    "price": 22.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with kickstand and detachable cable",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable 5ft USB-C cable"
+    ],
+    "features": [
+      "Integrated kickstand",
+      "Strong magnetic alignment",
+      "Detachable cable",
+      "Very low street price"
+    ],
+    "specs": {
+      "chargerType": "Pad with kickstand",
+      "qiStandard": "Plain Qi only — the listing says 'MagSafe compatible' but it is not Qi2 certified and does not deliver 15W",
+      "maxPhoneWatts": 7.5,
+      "devicesCharged": "Phone only",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": false,
+      "cableAttached": "Detachable, 5ft",
+      "foldable": false,
+      "cooling": "Passive",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 2.5,
+      "deviceSupport": 3.0,
+      "buildQuality": 6.5,
+      "cooling": 5.0,
+      "portability": 8.0,
+      "features": 5.0,
+      "design": 7.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Very cheap, frequently under $16",
+      "Detachable cable, so a damaged cable is replaceable",
+      "The kickstand works well for bedside video"
+    ],
+    "cons": [
+      "This is the clearest example of the Qi2 trap: it is plain Qi at 7.5W, one third the speed of the Qi2.2 pads that cost $10 to $20 more, despite the 'MagSafe compatible' marketing",
+      "No adapter included",
+      "A 2021 design still being sold in 2026",
+      "ESR's own Qi2 15W HaloLock Mini costs barely more and is twice as fast"
+    ],
+    "images": [],
+    "amazonAsin": "B08YYHDTFQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-maggo-pad",
+      "ugreen-magflow-pad",
+      "belkin-ultracharge-qi2"
+    ],
+    "useCases": [
+      "bedside",
+      "desk"
+    ],
+    "shortTagline": "Cheap and popular — but 7.5W Qi, not Qi2, despite the MagSafe marketing."
+  },
+  {
+    "id": "wc-apple-magsafe-25w",
+    "categorySlug": "wireless-chargers",
+    "brand": "Apple",
+    "series": "MagSafe",
+    "model": "Apple MagSafe Charger 25W (2025)",
+    "slug": "apple-magsafe-25w",
+    "releaseYear": 2025,
+    "price": 49.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Aluminium and plastic puck with attached cable",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Attached 2m USB-C cable"
+    ],
+    "features": [
+      "Qi2 25W certified, so it hits 25W on Pixel and other Qi2.2 phones as well as iPhone",
+      "2m attached cable",
+      "Apple's own hardware and support",
+      "Also sold in a 1m version"
+    ],
+    "specs": {
+      "chargerType": "Pad",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone only",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": false,
+      "cableAttached": "Attached, 2m",
+      "foldable": false,
+      "cooling": "Passive",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 9.0,
+      "deviceSupport": 3.0,
+      "buildQuality": 9.0,
+      "cooling": 6.0,
+      "portability": 8.0,
+      "features": 5.0,
+      "design": 9.0,
+      "value": 6.5
+    },
+    "pros": [
+      "The 2025 revision is genuinely Qi2 25W certified, so it charges Pixel and other Qi2.2 phones at full speed too",
+      "2m cable is longer than almost every rival",
+      "Apple build quality and support"
+    ],
+    "cons": [
+      "No power adapter — you need a 30W or better brick, adding $20 to $40",
+      "The superseded 2024 model is still on Amazon at a nearly identical price and is NOT Qi2 25W certified — check the listing carefully",
+      "$49 for a phone-only pad",
+      "Phone only, no watch or earbuds"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQFTXT7K",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-magflow-pad",
+      "belkin-ultracharge-qi2",
+      "anker-maggo-pad",
+      "twelve-south-butterfly-se"
+    ],
+    "useCases": [
+      "desk",
+      "bedside",
+      "apple-ecosystem"
+    ],
+    "shortTagline": "Apple's own, now genuinely Qi2 25W — but check you get the 2025 revision."
+  },
+  {
+    "id": "wc-belkin-2in1-foldable",
+    "categorySlug": "wireless-chargers",
+    "brand": "Belkin",
+    "series": "UltraCharge",
+    "model": "Belkin UltraCharge 2-in-1 Foldable Qi2 25W (WIZ039)",
+    "slug": "belkin-2in1-foldable",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Folding plastic and fabric travel unit",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable USB-C cable",
+      "5W USB-C output port"
+    ],
+    "features": [
+      "Folds flat for travel",
+      "45W power adapter included in the box",
+      "Qi2 25W certified",
+      "Second USB-C port for AirPods"
+    ],
+    "specs": {
+      "chargerType": "2-in-1, foldable",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone plus AirPods via a 5W USB-C port",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": "Yes — a 45W adapter",
+      "cableAttached": "Detachable",
+      "foldable": true,
+      "cooling": "Passive",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 9.0,
+      "deviceSupport": 5.5,
+      "buildQuality": 8.5,
+      "cooling": 6.0,
+      "portability": 9.0,
+      "features": 7.5,
+      "design": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "A 45W adapter is included, which is unusual and worth $30 on its own",
+      "Folds genuinely flat for a bag",
+      "Qi2 25W certified",
+      "Belkin warranty"
+    ],
+    "cons": [
+      "Despite the '2-in-1' name it charges phone plus AirPods, not phone plus watch — a very common misreading",
+      "The AirPods port is only 5W",
+      "No Apple Watch support at all",
+      "Belkin publishes no weight"
+    ],
+    "images": [],
+    "amazonAsin": "B0FMBFVD34",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-magflow-2in1",
+      "twelve-south-butterfly-se",
+      "anker-prime-3in1",
+      "baseus-picogo-3in1"
+    ],
+    "useCases": [
+      "travel",
+      "desk"
+    ],
+    "shortTagline": "Folds flat with a 45W adapter in the box — but it is phone plus AirPods, not watch."
+  },
+  {
+    "id": "wc-ugreen-magflow-2in1",
+    "categorySlug": "wireless-chargers",
+    "brand": "UGREEN",
+    "series": "MagFlow",
+    "model": "UGREEN MagFlow Qi2 25W 2-in-1 Foldable Station",
+    "slug": "ugreen-magflow-2in1",
+    "releaseYear": 2025,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Folding plastic travel unit",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable USB-C cable included"
+    ],
+    "features": [
+      "Folds flat for travel",
+      "Qi2 25W certified",
+      "Charges phone and AirPods together",
+      "USB-C cable included"
+    ],
+    "specs": {
+      "chargerType": "2-in-1, foldable",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone plus AirPods",
+      "appleWatchCharging": false,
+      "magnetic": true,
+      "adapterIncluded": "No — the listing states the adapter is not included",
+      "cableAttached": "Detachable, cable included",
+      "foldable": true,
+      "cooling": "Passive",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 9.0,
+      "deviceSupport": 5.5,
+      "buildQuality": 7.5,
+      "cooling": 6.0,
+      "portability": 9.0,
+      "features": 6.5,
+      "design": 7.5,
+      "value": 7.0
+    },
+    "pros": [
+      "Qi2 25W certified and folds flat",
+      "USB-C cable included even though the adapter is not",
+      "Same 25W speed as the Belkin at the same list price"
+    ],
+    "cons": [
+      "No power adapter included, and 25W needs a 45W brick — that is a real $30 gap against the Belkin, which includes one",
+      "Phone plus AirPods only, no Apple Watch",
+      "UGREEN publishes no weight"
+    ],
+    "images": [],
+    "amazonAsin": "B0DZX7X8YB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "belkin-2in1-foldable",
+      "twelve-south-butterfly-se",
+      "baseus-picogo-3in1"
+    ],
+    "useCases": [
+      "travel",
+      "desk"
+    ],
+    "shortTagline": "Same 25W fold-flat design as the Belkin — but no adapter in the box."
+  },
+  {
+    "id": "wc-twelve-south-butterfly-se",
+    "categorySlug": "wireless-chargers",
+    "brand": "Twelve South",
+    "series": "ButterFly",
+    "model": "Twelve South ButterFly SE 2-in-1",
+    "slug": "twelve-south-butterfly-se",
+    "releaseYear": 2024,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Aluminium and leather folding unit",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable 1m braided USB-C cable included"
+    ],
+    "features": [
+      "Genuine Apple Watch fast charging",
+      "Folds into a palm-sized aluminium puck",
+      "119g — the lightest multi-device charger here",
+      "Braided cable included"
+    ],
+    "specs": {
+      "chargerType": "2-in-1, travel folding",
+      "qiStandard": "Qi2, certified at 15W",
+      "maxPhoneWatts": 15,
+      "devicesCharged": "Phone plus Apple Watch, or AirPods on the watch puck — not both at once",
+      "appleWatchCharging": "Yes, with fast charging at 5W",
+      "magnetic": true,
+      "adapterIncluded": "No — needs a 30W or better adapter",
+      "cableAttached": "Detachable 1m braided, included",
+      "foldable": true,
+      "cooling": "Passive",
+      "weight": 119
+    },
+    "scores": {
+      "chargingSpeed": 6.5,
+      "deviceSupport": 7.0,
+      "buildQuality": 9.5,
+      "cooling": 6.0,
+      "portability": 9.5,
+      "features": 7.5,
+      "design": 9.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The best-built travel charger here — aluminium and leather rather than plastic",
+      "Genuine Apple Watch fast charging, which the cheaper 2-in-1s do not offer at all",
+      "119g and folds to palm size",
+      "Braided cable included"
+    ],
+    "cons": [
+      "Qi2 15W rather than Qi2.2 25W, so phone charging is a generation behind",
+      "The watch puck charges either the watch or AirPods, not both",
+      "No adapter included, and it needs 30W or more",
+      "$79.99 for 15W is a lot if you do not care about the build"
+    ],
+    "images": [],
+    "amazonAsin": "B0DCLRTV4P",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-3in1",
+      "baseus-picogo-3in1",
+      "belkin-2in1-foldable",
+      "satechi-3in1-foldable"
+    ],
+    "useCases": [
+      "travel",
+      "apple-ecosystem"
+    ],
+    "shortTagline": "Aluminium, 119g, real Apple Watch fast charging — the travel pick."
+  },
+  {
+    "id": "wc-esr-cryoboost-3in1",
+    "categorySlug": "wireless-chargers",
+    "brand": "ESR",
+    "series": "HaloLock",
+    "model": "ESR HaloLock CryoBoost 3-in-1 Qi2.2 25W",
+    "slug": "esr-cryoboost-3in1",
+    "releaseYear": 2026,
+    "price": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic stand with active cooling fan",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable 1.5m USB-C cable",
+      "50W adapter included"
+    ],
+    "features": [
+      "Active fan cooling, so it sustains 25W rather than throttling",
+      "50W power adapter included",
+      "Charges phone, watch and earbuds",
+      "Qi2.2 certified"
+    ],
+    "specs": {
+      "chargerType": "3-in-1",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone, Apple Watch and earbuds",
+      "appleWatchCharging": "Yes, with fast charging",
+      "magnetic": true,
+      "adapterIncluded": "Yes — a 50W adapter",
+      "cableAttached": "Detachable, 1.5m",
+      "foldable": "No on the stand version; a foldable sibling exists",
+      "cooling": "Active fan, marketed as CryoBoost",
+      "weight": "Not published by the manufacturer"
+    },
+    "scores": {
+      "chargingSpeed": 9.5,
+      "deviceSupport": 9.0,
+      "buildQuality": 7.5,
+      "cooling": 9.5,
+      "portability": 5.5,
+      "features": 9.0,
+      "design": 7.5,
+      "value": 8.5
+    },
+    "pros": [
+      "Active cooling means it actually holds 25W under sustained load, where passive rivals throttle",
+      "A 50W adapter is included, which alone is worth $30 to $40",
+      "Charges all three Apple devices with genuine watch fast charging"
+    ],
+    "cons": [
+      "The fan is audible in a quiet bedroom",
+      "The stand version does not fold, so it is a desk fixture",
+      "ESR publishes no weight",
+      "Plastic construction at $129.99"
+    ],
+    "images": [],
+    "amazonAsin": "B0FHQFBQSM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-3in1",
+      "satechi-3in1-foldable",
+      "baseus-picogo-3in1",
+      "twelve-south-butterfly-se"
+    ],
+    "useCases": [
+      "desk",
+      "multi-device",
+      "apple-ecosystem"
+    ],
+    "shortTagline": "Active cooling holds a real 25W, and a 50W adapter is in the box."
+  },
+  {
+    "id": "wc-anker-prime-3in1",
+    "categorySlug": "wireless-chargers",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime 3-in-1 Foldable Qi2.2 25W (A25N1)",
+    "slug": "anker-prime-3in1",
+    "releaseYear": 2026,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Folding aluminium unit with active cooling",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable 1.5m USB-C cable",
+      "45W adapter included"
+    ],
+    "features": [
+      "Active AirCool fan running at just 19dB",
+      "Folds flat for travel",
+      "45W adapter included",
+      "Qi2.2 certified at 25W with Apple Watch fast charging"
+    ],
+    "specs": {
+      "chargerType": "3-in-1, travel folding",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone, Apple Watch and earbuds",
+      "appleWatchCharging": "Yes, with fast charging at 5W",
+      "magnetic": true,
+      "adapterIncluded": "Yes — a 45W adapter",
+      "cableAttached": "Detachable, 1.5m",
+      "foldable": true,
+      "cooling": "Active fan, marketed as AirCool, rated 19dB",
+      "weight": 224
+    },
+    "scores": {
+      "chargingSpeed": 9.5,
+      "deviceSupport": 9.0,
+      "buildQuality": 9.0,
+      "cooling": 9.5,
+      "portability": 8.5,
+      "features": 9.5,
+      "design": 9.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The only charger here that both folds for travel and has active cooling — you get sustained 25W in a bag-friendly package",
+      "19dB fan is genuinely inaudible in a bedroom, unlike the ESR",
+      "45W adapter included",
+      "224g, light for a cooled 3-in-1"
+    ],
+    "cons": [
+      "$149.99 is the highest list price here",
+      "Anker's own product page says a 45W adapter is needed separately while the Amazon listing and reviews confirm one is included — verify before buying",
+      "Fan means moving parts that can eventually fail"
+    ],
+    "images": [],
+    "amazonAsin": "B0FHWK3W1S",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "esr-cryoboost-3in1",
+      "satechi-3in1-foldable",
+      "baseus-picogo-3in1",
+      "twelve-south-butterfly-se"
+    ],
+    "useCases": [
+      "travel",
+      "multi-device",
+      "apple-ecosystem",
+      "desk"
+    ],
+    "shortTagline": "Folds for travel AND has a 19dB fan — sustained 25W anywhere."
+  },
+  {
+    "id": "wc-satechi-3in1-foldable",
+    "categorySlug": "wireless-chargers",
+    "brand": "Satechi",
+    "series": "3-in-1",
+    "model": "Satechi 3-in-1 Foldable Qi2 25W Stand (ST-Q25F31C-EA)",
+    "slug": "satechi-3in1-foldable",
+    "releaseYear": 2025,
+    "price": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Space Grey"
+    ],
+    "material": "Aluminium folding stand",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable USB-C cable",
+      "45W adapter with UK and EU plugs included"
+    ],
+    "features": [
+      "45W adapter included with UK and EU plugs — genuinely travel-ready",
+      "Aluminium construction",
+      "Apple Watch fast charging for Series 7 through 11, SE 3 and Ultra",
+      "Qi2 25W certified"
+    ],
+    "specs": {
+      "chargerType": "3-in-1, foldable",
+      "qiStandard": "Qi2 25W, equivalent to the Qi2.2 class",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone, Apple Watch and earbuds",
+      "appleWatchCharging": "Yes, with fast charging for Series 7 to 11, SE 3 and Ultra",
+      "magnetic": true,
+      "adapterIncluded": "Yes — a 45W adapter with UK and EU plugs",
+      "cableAttached": "Detachable USB-C",
+      "foldable": true,
+      "cooling": "Passive",
+      "weight": 399
+    },
+    "scores": {
+      "chargingSpeed": 8.5,
+      "deviceSupport": 9.0,
+      "buildQuality": 9.0,
+      "cooling": 6.0,
+      "portability": 5.5,
+      "features": 8.5,
+      "design": 9.0,
+      "value": 7.5
+    },
+    "pros": [
+      "The included adapter ships with UK and EU plugs, making it the most genuinely international charger here",
+      "Aluminium build quality matches the Twelve South",
+      "Full three-device charging with watch fast charging"
+    ],
+    "cons": [
+      "399g is by far the heaviest charger here, which undercuts the travel positioning it is sold on",
+      "Passive cooling means it will throttle below 25W under sustained load, unlike the Anker and ESR",
+      "$129.99 and heavier than rivals that cost the same"
+    ],
+    "images": [],
+    "amazonAsin": "B0GNRSY36V",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-3in1",
+      "esr-cryoboost-3in1",
+      "baseus-picogo-3in1",
+      "twelve-south-butterfly-se"
+    ],
+    "useCases": [
+      "desk",
+      "multi-device",
+      "apple-ecosystem"
+    ],
+    "shortTagline": "Aluminium with UK and EU plugs included — but 399g is no travel weight."
+  },
+  {
+    "id": "wc-baseus-picogo-3in1",
+    "categorySlug": "wireless-chargers",
+    "brand": "Baseus",
+    "series": "PicoGo",
+    "model": "Baseus PicoGo 3-in-1 Qi2.2 25W (AF21)",
+    "slug": "baseus-picogo-3in1",
+    "releaseYear": 2025,
+    "price": 89.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Folding plastic travel unit",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Detachable USB-C cable included",
+      "45W adapter included"
+    ],
+    "features": [
+      "45W adapter included",
+      "Folds for travel",
+      "Qi2.2 certified at 25W",
+      "Charges phone, watch and earbuds",
+      "Cheapest full 3-in-1 here"
+    ],
+    "specs": {
+      "chargerType": "3-in-1, travel folding",
+      "qiStandard": "Qi2.2, certified at 25W",
+      "maxPhoneWatts": 25,
+      "devicesCharged": "Phone, Apple Watch and earbuds",
+      "appleWatchCharging": "Yes, with fast charging",
+      "magnetic": true,
+      "adapterIncluded": "Yes — a 45W adapter",
+      "cableAttached": "Detachable, included",
+      "foldable": true,
+      "cooling": "Passive — no active fan",
+      "weight": 254
+    },
+    "scores": {
+      "chargingSpeed": 8.5,
+      "deviceSupport": 9.0,
+      "buildQuality": 7.5,
+      "cooling": 5.5,
+      "portability": 8.0,
+      "features": 8.5,
+      "design": 7.5,
+      "value": 9.5
+    },
+    "pros": [
+      "The cheapest genuine Qi2.2 3-in-1 with a 45W adapter included — roughly $60 less than the Anker for the same core function",
+      "Folds for travel at 254g",
+      "Full watch fast charging"
+    ],
+    "cons": [
+      "Passive cooling only, so sustained 25W will throttle where the Anker and ESR hold it",
+      "Plastic construction next to the aluminium Satechi and Twelve South",
+      "Several Apple phones including the SE, mini and 16e are excluded from magnetic alignment"
+    ],
+    "images": [],
+    "amazonAsin": "B0FRLZFGRY",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-3in1",
+      "esr-cryoboost-3in1",
+      "satechi-3in1-foldable",
+      "twelve-south-butterfly-se"
+    ],
+    "useCases": [
+      "travel",
+      "multi-device",
+      "apple-ecosystem"
+    ],
+    "shortTagline": "The cheapest real Qi2.2 3-in-1 with the adapter included."
+  }
+]

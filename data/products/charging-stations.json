@@ -1,0 +1,925 @@
+[
+  {
+    "id": "cs-baseus-120w-6in1",
+    "categorySlug": "charging-stations",
+    "brand": "Baseus",
+    "series": "Charging Station",
+    "model": "Baseus 120W 6-in-1 Charging Station",
+    "slug": "baseus-120w-6in1",
+    "releaseYear": 2025,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic desktop unit",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "4x USB-C",
+      "2x USB-A"
+    ],
+    "features": [
+      "120W total across six ports",
+      "65W maximum from a single port",
+      "Compact desktop footprint"
+    ],
+    "specs": {
+      "stationType": "Multi-port desktop charger",
+      "maxOutputWatts": 120,
+      "usbcPorts": 4,
+      "usbaPorts": 2,
+      "acOutlets": 0,
+      "wirelessPad": false,
+      "deviceCapacity": 6,
+      "appleWatchCharging": false,
+      "cablesIncluded": "No — AC cord only",
+      "surgeProtection": "Not applicable — no AC outlets",
+      "powerSharing": "65W maximum from a single port and 120W total, but Baseus publishes no per-combination table",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 7.0,
+      "portVariety": 7.5,
+      "powerSharing": 5.0,
+      "buildQuality": 6.5,
+      "cableManagement": 3.0,
+      "features": 5.0,
+      "design": 6.5,
+      "value": 8.5
+    },
+    "pros": [
+      "Six ports and 120W for around $30 street is strong value",
+      "Four USB-C ports is more than most rivals",
+      "Compact enough for a bedside table"
+    ],
+    "cons": [
+      "Baseus publishes no power-sharing table, so you cannot know what each port gives with several devices attached",
+      "No model number on the US Amazon listing",
+      "No AC outlets",
+      "No display",
+      "No cables included"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQ61D186",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-pro-100w",
+      "anker-525-station",
+      "anker-nano-6in1"
+    ],
+    "useCases": [
+      "desk",
+      "multi-device"
+    ],
+    "shortTagline": "Six ports and 120W for around $30 — but no published sharing table."
+  },
+  {
+    "id": "cs-baseus-powercombo-65w",
+    "categorySlug": "charging-stations",
+    "brand": "Baseus",
+    "series": "PowerCombo",
+    "model": "Baseus PowerCombo 65W 6-in-1 (PSLR0001011)",
+    "slug": "baseus-powercombo-65w",
+    "releaseYear": 2023,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic power strip with retractable cable",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "3x AC outlets",
+      "2x USB-C (one retractable)",
+      "1x USB-A"
+    ],
+    "features": [
+      "Built-in 65W retractable USB-C cable",
+      "1200 joule surge protection — the highest here",
+      "Three AC outlets plus three USB ports"
+    ],
+    "specs": {
+      "stationType": "Power strip with USB",
+      "maxOutputWatts": "65 across USB, 1,625 across AC",
+      "usbcPorts": 2,
+      "usbaPorts": 1,
+      "acOutlets": 3,
+      "wirelessPad": false,
+      "deviceCapacity": 6,
+      "appleWatchCharging": false,
+      "cablesIncluded": "Yes — a built-in 65W retractable USB-C cable of about 2.6ft",
+      "surgeProtection": "1,200 joules",
+      "powerSharing": "Baseus describes intelligent allocation but publishes no table. Its own documentation warns charging may be interrupted two or three times as devices are added",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 6.0,
+      "portVariety": 8.5,
+      "powerSharing": 4.5,
+      "buildQuality": 7.0,
+      "cableManagement": 9.0,
+      "features": 7.0,
+      "design": 7.5,
+      "value": 8.0
+    },
+    "pros": [
+      "The retractable 65W cable is genuinely the best cable-management solution in this list",
+      "1,200 joules of surge protection is the highest here and twice Anker's 300J",
+      "Three AC outlets plus three USB ports covers a whole desk"
+    ],
+    "cons": [
+      "Baseus's own documentation admits charging may be interrupted two or three times when devices are added, which is a striking thing to publish",
+      "No per-port sharing table",
+      "65W total across USB is modest for six devices"
+    ],
+    "images": [],
+    "amazonAsin": "B0BKS7S6P5",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-525-station",
+      "anker-nano-6in1",
+      "anker-nano-7in1-100w",
+      "anker-prime-140w-6in1"
+    ],
+    "useCases": [
+      "desk",
+      "bedside",
+      "multi-device"
+    ],
+    "shortTagline": "A retractable 65W cable and 1,200J surge — the best cable management here."
+  },
+  {
+    "id": "cs-anker-525-station",
+    "categorySlug": "charging-stations",
+    "brand": "Anker",
+    "series": "525",
+    "model": "Anker 525 Charging Station 7-in-1 (A91C0)",
+    "slug": "anker-525-station",
+    "releaseYear": 2022,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Green"
+    ],
+    "material": "Plastic power strip",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "3x AC outlets",
+      "2x USB-C",
+      "2x USB-A"
+    ],
+    "features": [
+      "Seven outputs in a flat desktop body",
+      "300 joule surge protection",
+      "Anker's 18-month warranty"
+    ],
+    "specs": {
+      "stationType": "Power strip with USB",
+      "maxOutputWatts": "67 across USB, 1,875 across AC",
+      "usbcPorts": 2,
+      "usbaPorts": 2,
+      "acOutlets": 3,
+      "wirelessPad": false,
+      "deviceCapacity": 7,
+      "appleWatchCharging": false,
+      "cablesIncluded": false,
+      "surgeProtection": "300 joules",
+      "powerSharing": "Two USB-C gives 45W plus 20W, or 30W plus 30W. Four USB ports gives 30W plus 20W plus 15W. USB-C never reaches 65W once a second device is attached",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 6.0,
+      "portVariety": 9.0,
+      "powerSharing": 6.0,
+      "buildQuality": 8.5,
+      "cableManagement": 4.0,
+      "features": 6.0,
+      "design": 7.5,
+      "value": 9.0
+    },
+    "pros": [
+      "Seven outputs including three AC for $39.99 is the best port-per-dollar here",
+      "Anker publishes the full sharing table, which several rivals do not",
+      "Flat profile sits neatly behind a monitor",
+      "Three colour options"
+    ],
+    "cons": [
+      "300 joules is modest surge protection — a quarter of the Baseus PowerCombo's rating",
+      "USB-C drops to 45W as soon as a second device is attached",
+      "No cables included",
+      "No display"
+    ],
+    "images": [],
+    "amazonAsin": "B0B3HW6MPD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-nano-6in1",
+      "baseus-powercombo-65w",
+      "anker-nano-7in1-100w",
+      "baseus-120w-6in1"
+    ],
+    "useCases": [
+      "desk",
+      "multi-device",
+      "bedside"
+    ],
+    "shortTagline": "Seven outputs and three AC sockets for $40 — the port-per-dollar winner."
+  },
+  {
+    "id": "cs-anker-nano-6in1",
+    "categorySlug": "charging-stations",
+    "brand": "Anker",
+    "series": "Nano",
+    "model": "Anker Nano Charging Station 6-in-1 67W (A9129)",
+    "slug": "anker-nano-6in1",
+    "releaseYear": 2023,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Slim plastic power strip",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x AC outlets",
+      "2x USB-C",
+      "2x USB-A"
+    ],
+    "features": [
+      "Very slim profile",
+      "67W across USB",
+      "Priority charging on the laptop-marked USB-C port"
+    ],
+    "specs": {
+      "stationType": "Power strip with USB",
+      "maxOutputWatts": "67 across USB, 1,875 across AC",
+      "usbcPorts": 2,
+      "usbaPorts": 2,
+      "acOutlets": 2,
+      "wirelessPad": false,
+      "deviceCapacity": 6,
+      "appleWatchCharging": false,
+      "cablesIncluded": false,
+      "surgeProtection": "Not published by the manufacturer",
+      "powerSharing": "One port gives 67W. Both USB-C gives 20W plus 45W. Three ports gives 20W plus 30W plus 12W. Four ports gives 20W plus 30W plus 15W shared. The laptop-marked C2 port has priority over C1",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 6.0,
+      "portVariety": 8.0,
+      "powerSharing": 6.5,
+      "buildQuality": 8.5,
+      "cableManagement": 4.0,
+      "features": 6.0,
+      "design": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "The slimmest station here — genuinely disappears behind a desk",
+      "The port-priority design means your laptop keeps its power when phones are added",
+      "Full sharing table published"
+    ],
+    "cons": [
+      "Anker publishes no surge joule rating for this model, unlike its own 525",
+      "Only two AC outlets",
+      "Reported to be in clearance, so availability may be limited",
+      "No cables included"
+    ],
+    "images": [],
+    "amazonAsin": "B0C5QY4BL2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-525-station",
+      "anker-nano-7in1-100w",
+      "baseus-powercombo-65w",
+      "baseus-120w-6in1"
+    ],
+    "useCases": [
+      "desk",
+      "travel",
+      "bedside"
+    ],
+    "shortTagline": "The slimmest strip here, with laptop port priority — but check stock."
+  },
+  {
+    "id": "cs-ugreen-nexode-pro-100w",
+    "categorySlug": "charging-stations",
+    "brand": "UGREEN",
+    "series": "Nexode Pro",
+    "model": "UGREEN Nexode Pro 100W 5-Port GaN",
+    "slug": "ugreen-nexode-pro-100w",
+    "releaseYear": 2025,
+    "price": 69.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic desktop unit with display",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "4x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "Smart touch display showing per-port wattage, protocol and temperature",
+      "100W from a single port",
+      "Five ports in a compact body"
+    ],
+    "specs": {
+      "stationType": "Multi-port desktop charger",
+      "maxOutputWatts": 100,
+      "usbcPorts": 4,
+      "usbaPorts": 1,
+      "acOutlets": 0,
+      "wirelessPad": false,
+      "deviceCapacity": 5,
+      "appleWatchCharging": false,
+      "cablesIncluded": false,
+      "surgeProtection": "Not applicable — no AC outlets",
+      "powerSharing": "100W from a single port, dropping to about 45W sustained when all five ports are loaded",
+      "displayType": "Smart touch display showing per-port wattage, protocol and temperature"
+    },
+    "scores": {
+      "outputPower": 7.5,
+      "portVariety": 7.0,
+      "powerSharing": 6.5,
+      "buildQuality": 8.0,
+      "cableManagement": 3.0,
+      "features": 9.0,
+      "design": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "The touch display showing which protocol each port has negotiated is genuinely useful for diagnosing slow charging",
+      "100W single-port handles a 14-inch laptop",
+      "Four USB-C ports",
+      "Frequently discounted to around $50"
+    ],
+    "cons": [
+      "Total output drops to roughly 45W when all five ports are in use, which is a steep fall from 100W",
+      "No AC outlets",
+      "No cables included"
+    ],
+    "images": [],
+    "amazonAsin": "B0F9FHXPDF",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-250w",
+      "satechi-165w-4port",
+      "baseus-120w-6in1",
+      "anker-prime-140w-6in1"
+    ],
+    "useCases": [
+      "desk",
+      "laptop",
+      "multi-device"
+    ],
+    "shortTagline": "A touch display that tells you exactly what each port negotiated."
+  },
+  {
+    "id": "cs-anker-nano-7in1-100w",
+    "categorySlug": "charging-stations",
+    "brand": "Anker",
+    "series": "Nano",
+    "model": "Anker Nano Charging Station 7-in-1 100W InstaCord (A91C8)",
+    "slug": "anker-nano-7in1-100w",
+    "releaseYear": 2024,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic power strip with retractable cable",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "3x AC outlets",
+      "3x USB-C (one retractable)",
+      "1x USB-A"
+    ],
+    "features": [
+      "InstaCord retractable USB-C cable locking at seven lengths",
+      "300 joule surge protection across all three AC outlets",
+      "1.3 inch LCD display",
+      "100W single-port"
+    ],
+    "specs": {
+      "stationType": "Power strip with USB",
+      "maxOutputWatts": "100 across USB; AC rating not published",
+      "usbcPorts": 3,
+      "usbaPorts": 1,
+      "acOutlets": 3,
+      "wirelessPad": false,
+      "deviceCapacity": 7,
+      "appleWatchCharging": false,
+      "cablesIncluded": "Yes — a 2.3ft retractable InstaCord USB-C cable with seven lock lengths",
+      "surgeProtection": "300 joules across all three AC outlets",
+      "powerSharing": "One USB-C gives 100W. Two gives 67W plus 33W or 50W plus 50W. USB-C plus USB-A gives 88W plus 12W. Three USB-C gives 34W plus 33W plus 33W or 46W plus 27W plus 27W. All four gives 30W plus 28W plus 30W plus 12W",
+      "displayType": "1.3 inch LCD"
+    },
+    "scores": {
+      "outputPower": 8.0,
+      "portVariety": 9.5,
+      "powerSharing": 8.0,
+      "buildQuality": 8.5,
+      "cableManagement": 9.5,
+      "features": 9.0,
+      "design": 8.5,
+      "value": 8.5
+    },
+    "pros": [
+      "The seven-position retractable cable is the most refined cable solution here, better than Baseus's simple retract",
+      "A genuine 50W plus 50W two-port split, which is unusually even",
+      "Seven outputs, a display and surge protection together — the most complete station in this list",
+      "Anker publishes an exhaustive sharing table"
+    ],
+    "cons": [
+      "Anker does not publish the AC wattage rating",
+      "300 joules is modest surge protection",
+      "$79.99 list, though it routinely sells around $60"
+    ],
+    "images": [],
+    "amazonAsin": "B0DFH1DNNT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-140w-6in1",
+      "baseus-powercombo-65w",
+      "anker-525-station",
+      "ugreen-nexode-pro-100w"
+    ],
+    "useCases": [
+      "desk",
+      "multi-device",
+      "laptop"
+    ],
+    "shortTagline": "A seven-position retractable cable, a display and surge protection in one."
+  },
+  {
+    "id": "cs-anker-prime-140w-6in1",
+    "categorySlug": "charging-stations",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime 6-in-1 Charging Station 140W (A9128)",
+    "slug": "anker-prime-140w-6in1",
+    "releaseYear": 2023,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic desktop unit with smart display",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x AC outlets",
+      "2x USB-C",
+      "2x USB-A"
+    ],
+    "features": [
+      "140W across USB — enough for a 16-inch MacBook Pro",
+      "Smart display showing per-port wattage, voltage and current",
+      "A genuine 65W plus 65W two-port split",
+      "5ft detachable AC cord"
+    ],
+    "specs": {
+      "stationType": "Power strip with USB",
+      "maxOutputWatts": "140 across USB",
+      "usbcPorts": 2,
+      "usbaPorts": 2,
+      "acOutlets": 2,
+      "wirelessPad": false,
+      "deviceCapacity": 6,
+      "appleWatchCharging": false,
+      "cablesIncluded": "No — a 5ft detachable AC cord only",
+      "surgeProtection": "None — Anker states explicitly that this model has no surge protection",
+      "powerSharing": "Two USB-C gives 65W plus 65W. One USB-C plus two USB-A gives 120W plus 12W. All four gives 65W plus 60W plus 15W. A 5A e-marked cable is required for 60W or more",
+      "displayType": "Smart display showing per-port wattage, voltage and current"
+    },
+    "scores": {
+      "outputPower": 9.0,
+      "portVariety": 8.0,
+      "powerSharing": 9.0,
+      "buildQuality": 8.5,
+      "cableManagement": 4.0,
+      "features": 8.5,
+      "design": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "A true 65W plus 65W split across two USB-C ports — the most even division of any station here",
+      "140W total runs a 16-inch MacBook Pro at full speed",
+      "The smart display shows real voltage and current, not just wattage"
+    ],
+    "cons": [
+      "No surge protection at all despite having two AC outlets, which Anker states plainly but most buyers will assume otherwise",
+      "Needs a 5A e-marked cable to reach 60W or more, and none is included",
+      "Only two AC outlets"
+    ],
+    "images": [],
+    "amazonAsin": "B0BSGH355C",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-nano-7in1-100w",
+      "anker-prime-250w",
+      "ugreen-nexode-pro-100w",
+      "anker-525-station"
+    ],
+    "useCases": [
+      "desk",
+      "laptop",
+      "multi-device"
+    ],
+    "shortTagline": "A real 65+65W split and 140W total — but no surge protection at all."
+  },
+  {
+    "id": "cs-belkin-3in1-stand",
+    "categorySlug": "charging-stations",
+    "brand": "Belkin",
+    "series": "BoostCharge Pro",
+    "model": "Belkin 3-in-1 Magnetic Wireless Charging Stand Qi2 15W (WIZ023)",
+    "slug": "belkin-3in1-stand",
+    "releaseYear": 2024,
+    "price": 109.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Aluminium and plastic stand",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Included 36W power supply with captive cable"
+    ],
+    "features": [
+      "Qi2 15W magnetic phone charging",
+      "Apple Watch fast charging",
+      "Power supply included",
+      "Charges phone, watch and earbuds from one base"
+    ],
+    "specs": {
+      "stationType": "Charging dock/valet",
+      "maxOutputWatts": "36 including the supplied power adapter",
+      "usbcPorts": 0,
+      "usbaPorts": 0,
+      "acOutlets": 0,
+      "wirelessPad": "Yes — Qi2 15W",
+      "deviceCapacity": 3,
+      "appleWatchCharging": "Yes, fast-charge capable",
+      "cablesIncluded": "Yes — a 36W power supply with a captive cable",
+      "surgeProtection": false,
+      "powerSharing": "Fixed three-pad allocation from a 36W supply; not user-adjustable. The earbuds pad wattage is not published",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 4.0,
+      "portVariety": 3.5,
+      "powerSharing": 6.0,
+      "buildQuality": 9.0,
+      "cableManagement": 8.5,
+      "features": 7.5,
+      "design": 9.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Belkin build quality and the Connected Equipment Warranty",
+      "Power supply included, which many rivals omit",
+      "Apple Watch fast charging",
+      "One cable to the wall for three devices — the tidiest bedside solution here"
+    ],
+    "cons": [
+      "Qi2 15W rather than Qi2.2 25W, so phone charging is a generation behind",
+      "$109.99 list, though it has sat around $70 for most of 2026",
+      "No USB ports at all — this charges three specific devices and nothing else",
+      "Belkin does not publish the earbuds pad wattage"
+    ],
+    "images": [],
+    "amazonAsin": "B0CYDDTB8W",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "twelve-south-hirise-3",
+      "anker-nano-7in1-100w",
+      "baseus-powercombo-65w"
+    ],
+    "useCases": [
+      "bedside",
+      "desk",
+      "multi-device"
+    ],
+    "shortTagline": "One cable to the wall, three Apple devices charged — the tidy bedside pick."
+  },
+  {
+    "id": "cs-twelve-south-hirise-3",
+    "categorySlug": "charging-stations",
+    "brand": "Twelve South",
+    "series": "HiRise",
+    "model": "Twelve South HiRise 3 Deluxe",
+    "slug": "twelve-south-hirise-3",
+    "releaseYear": 2023,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "Aluminium and leather stand",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Included 36W power supply with 1.5m cord and international plugs"
+    ],
+    "features": [
+      "Aluminium and leather construction",
+      "36W power supply with international plugs included",
+      "Rear Qi pad in addition to the phone and watch positions",
+      "MagSafe 15W"
+    ],
+    "specs": {
+      "stationType": "Charging dock/valet",
+      "maxOutputWatts": "36 including the supplied power adapter",
+      "usbcPorts": 0,
+      "usbaPorts": 0,
+      "acOutlets": 0,
+      "wirelessPad": "Yes — MagSafe 15W plus a 7.5W rear Qi pad",
+      "deviceCapacity": 3,
+      "appleWatchCharging": "Yes at 5W, and it supports the Apple fast charger",
+      "cablesIncluded": "Yes — a 36W power supply, 1.5m cord and international plugs",
+      "surgeProtection": false,
+      "powerSharing": "Fixed allocation — 15W phone, 5W watch and 7.5W rear Qi pad. Twelve South advises against substituting a third-party USB-C charger",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 4.0,
+      "portVariety": 3.5,
+      "powerSharing": 6.0,
+      "buildQuality": 9.5,
+      "cableManagement": 8.5,
+      "features": 7.0,
+      "design": 9.5,
+      "value": 6.0
+    },
+    "pros": [
+      "The best-looking charger in this list by some distance — aluminium and leather rather than plastic",
+      "International plugs included, so it travels",
+      "A third rear Qi pad for a second phone or earbuds"
+    ],
+    "cons": [
+      "MagSafe 15W, not Qi2.2 25W",
+      "No USB ports",
+      "Twelve South warns against using a third-party power supply, so a lost adapter is a real problem",
+      "$99.99 for 15W charging is design-led pricing"
+    ],
+    "images": [],
+    "amazonAsin": "B0CV4WNKHT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "belkin-3in1-stand",
+      "anker-nano-7in1-100w",
+      "ugreen-nexode-pro-100w"
+    ],
+    "useCases": [
+      "bedside",
+      "desk"
+    ],
+    "shortTagline": "Aluminium and leather with international plugs — the design-led dock."
+  },
+  {
+    "id": "cs-satechi-165w-4port",
+    "categorySlug": "charging-stations",
+    "brand": "Satechi",
+    "series": "GaN",
+    "model": "Satechi 165W USB-C 4-Port PD GaN (ST-UC165GM)",
+    "slug": "satechi-165w-4port",
+    "releaseYear": 2022,
+    "price": 119.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Space Grey"
+    ],
+    "material": "Aluminium desktop unit with stand",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "4x USB-C"
+    ],
+    "features": [
+      "165W total across four USB-C ports",
+      "100W from a single port",
+      "Aluminium construction with an included stand",
+      "Fully published power-sharing table"
+    ],
+    "specs": {
+      "stationType": "Multi-port desktop charger",
+      "maxOutputWatts": 165,
+      "usbcPorts": 4,
+      "usbaPorts": 0,
+      "acOutlets": 0,
+      "wirelessPad": false,
+      "deviceCapacity": 4,
+      "appleWatchCharging": false,
+      "cablesIncluded": "No — AC cord and stand only",
+      "surgeProtection": false,
+      "powerSharing": "One port gives 100W. Two gives 100W plus 60W. Three gives 60W plus 60W plus 45W, or 100W plus 30W plus 30W. Four gives 60W plus 45W plus 30W plus 30W",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 9.0,
+      "portVariety": 6.0,
+      "powerSharing": 8.5,
+      "buildQuality": 9.0,
+      "cableManagement": 3.0,
+      "features": 6.0,
+      "design": 8.5,
+      "value": 7.0
+    },
+    "pros": [
+      "Four USB-C ports that still deliver 60W plus 45W plus 30W plus 30W fully loaded — one of the best-behaved splits here",
+      "Aluminium build with an included stand",
+      "Satechi publishes the complete sharing table"
+    ],
+    "cons": [
+      "No USB-A ports at all, which is limiting if you still have older accessories",
+      "No display at $119.99",
+      "No AC outlets",
+      "2022 hardware, and Satechi's own 200W sibling has confusing overlapping listings"
+    ],
+    "images": [],
+    "amazonAsin": "B09PMDZWZ6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-250w",
+      "ugreen-nexode-pro-100w",
+      "ugreen-nexode-500w",
+      "anker-prime-140w-6in1"
+    ],
+    "useCases": [
+      "desk",
+      "laptop",
+      "multi-device"
+    ],
+    "shortTagline": "Four USB-C ports that stay useful when all four are loaded."
+  },
+  {
+    "id": "cs-anker-prime-250w",
+    "categorySlug": "charging-stations",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime Charger 250W 6-Port GaNPrime (A2345)",
+    "slug": "anker-prime-250w",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic desktop unit with LCD and control dial",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "4x USB-C",
+      "2x USB-A"
+    ],
+    "features": [
+      "250W total — the least lossy multi-port unit here",
+      "2.26 inch LCD with a physical control dial",
+      "140W from the primary USB-C port",
+      "Per-port readout on screen"
+    ],
+    "specs": {
+      "stationType": "Multi-port desktop charger",
+      "maxOutputWatts": 250,
+      "usbcPorts": 4,
+      "usbaPorts": 2,
+      "acOutlets": 0,
+      "wirelessPad": false,
+      "deviceCapacity": 6,
+      "appleWatchCharging": false,
+      "cablesIncluded": "No — a C7 AC cord only",
+      "surgeProtection": false,
+      "powerSharing": "C1 gives 140W alone, C2 to C4 give 100W alone and USB-A gives 22.5W. Two ports deliver 240W total and three or more deliver 250W total — genuinely the least lossy unit in this list",
+      "displayType": "2.26 inch LCD with a control dial and per-port readout"
+    },
+    "scores": {
+      "outputPower": 9.8,
+      "portVariety": 8.5,
+      "powerSharing": 9.8,
+      "buildQuality": 9.0,
+      "cableManagement": 3.0,
+      "features": 9.5,
+      "design": 8.5,
+      "value": 8.5
+    },
+    "pros": [
+      "250W total with almost no loss when multiple ports are loaded — the standout technical achievement here",
+      "140W from the primary port runs a 16-inch MacBook Pro while five other devices charge",
+      "The LCD and control dial give the most detailed monitoring of any station in this list"
+    ],
+    "cons": [
+      "No AC outlets and no surge protection",
+      "No cables included, only a C7 AC cord",
+      "$149.99 list, though it commonly sells around $100",
+      "Large desktop footprint"
+    ],
+    "images": [],
+    "amazonAsin": "B0CYLL8Y89",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-500w",
+      "satechi-165w-4port",
+      "anker-prime-140w-6in1",
+      "ugreen-nexode-pro-100w"
+    ],
+    "useCases": [
+      "desk",
+      "laptop",
+      "multi-device"
+    ],
+    "shortTagline": "250W with almost no loss across six ports — the technical benchmark."
+  },
+  {
+    "id": "cs-ugreen-nexode-500w",
+    "categorySlug": "charging-stations",
+    "brand": "UGREEN",
+    "series": "Nexode",
+    "model": "UGREEN Nexode 500W 6-Port GaN",
+    "slug": "ugreen-nexode-500w",
+    "releaseYear": 2024,
+    "price": 249.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Large plastic desktop unit",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "5x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "500W total — the highest output of any desktop charger here",
+      "240W from a single USB-C port",
+      "Six ports",
+      "Enough to run several laptops at once"
+    ],
+    "specs": {
+      "stationType": "Multi-port desktop charger",
+      "maxOutputWatts": 500,
+      "usbcPorts": 5,
+      "usbaPorts": 1,
+      "acOutlets": 0,
+      "wirelessPad": false,
+      "deviceCapacity": 6,
+      "appleWatchCharging": false,
+      "cablesIncluded": false,
+      "surgeProtection": false,
+      "powerSharing": "240W from a single port and 500W total, but UGREEN publishes only headline figures with no per-combination table",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 10.0,
+      "portVariety": 8.0,
+      "powerSharing": 7.0,
+      "buildQuality": 8.0,
+      "cableManagement": 3.0,
+      "features": 6.5,
+      "design": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "500W total genuinely replaces several separate chargers — it will run two laptops and four other devices",
+      "240W from a single port exceeds anything else here",
+      "Five USB-C ports"
+    ],
+    "cons": [
+      "UGREEN publishes no per-combination sharing table on a $249.99 product, which is the most important spec in this category",
+      "No display at this price when the cheaper Anker Prime 250W has an excellent one",
+      "Large and heavy",
+      "No AC outlets, no surge protection, no cables"
+    ],
+    "images": [],
+    "amazonAsin": "B0DL5L1ZLH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-250w",
+      "satechi-165w-4port",
+      "ugreen-nexode-pro-100w"
+    ],
+    "useCases": [
+      "desk",
+      "laptop",
+      "multi-device"
+    ],
+    "shortTagline": "500W and 240W single-port — raw power, but no sharing table published."
+  }
+]

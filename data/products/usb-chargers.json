@@ -1,0 +1,905 @@
+[
+  {
+    "id": "uc-anker-nano-30w",
+    "categorySlug": "usb-chargers",
+    "brand": "Anker",
+    "series": "Nano",
+    "model": "Anker Nano Charger 30W (A2147)",
+    "slug": "anker-nano-30w",
+    "releaseYear": 2022,
+    "price": 22.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Blue",
+      "Green"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "1x USB-C"
+    ],
+    "features": [
+      "30W from a body barely larger than Apple's 20W brick",
+      "Foldable prongs",
+      "PPS support for Samsung and Pixel fast charging",
+      "Anker's 18-month warranty"
+    ],
+    "specs": {
+      "maxOutputWatts": 30,
+      "singlePortMaxWatts": 30,
+      "portCount": "1x USB-C",
+      "gan": true,
+      "pdVersion": "PD 3.0 with PPS (3.3-11V/2.7A and 3.3-16V/2A)",
+      "foldablePlug": true,
+      "dimensions": "28.4 x 28.4 x 35.3mm",
+      "weight": "Not published by the manufacturer",
+      "laptopCapable": false,
+      "powerSharing": "Not applicable — single port",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 5.0,
+      "portCount": 2.0,
+      "powerSharing": 10.0,
+      "portability": 9.5,
+      "buildQuality": 8.5,
+      "features": 6.0,
+      "compatibility": 8.5,
+      "value": 9.0
+    },
+    "pros": [
+      "30W in a genuinely tiny body — 50% more power than Apple's 20W in a similar footprint",
+      "PPS support means proper fast charging on Samsung and Pixel, which Apple's brick cannot do",
+      "Foldable prongs make it pocketable",
+      "Anker's warranty and support are the best here"
+    ],
+    "cons": [
+      "Single port — no good if you charge two devices at once",
+      "30W will not fast-charge any laptop",
+      "Anker does not publish a weight for this model",
+      "Four years old, though nothing has superseded it"
+    ],
+    "images": [],
+    "amazonAsin": "B0B2MLRF93",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-30w",
+      "apple-20w",
+      "inju-i624-65w"
+    ],
+    "useCases": [
+      "travel",
+      "compact"
+    ],
+    "shortTagline": "30W and PPS in an Apple-20W-sized body — the default small charger."
+  },
+  {
+    "id": "uc-ugreen-nexode-30w",
+    "categorySlug": "usb-chargers",
+    "brand": "UGREEN",
+    "series": "Nexode",
+    "model": "UGREEN Nexode 30W GaN II (90901)",
+    "slug": "ugreen-nexode-30w",
+    "releaseYear": 2022,
+    "price": 22.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "1x USB-C"
+    ],
+    "features": [
+      "30W GaN II in a compact body",
+      "PPS support",
+      "Foldable prongs",
+      "Two colour options"
+    ],
+    "specs": {
+      "maxOutputWatts": 30,
+      "singlePortMaxWatts": 30,
+      "portCount": "1x USB-C",
+      "gan": true,
+      "pdVersion": "PD 3.0 with PPS (3.3-11V/2.7A)",
+      "foldablePlug": true,
+      "dimensions": "40 x 32 x 32mm",
+      "weight": "Not published by the manufacturer",
+      "laptopCapable": false,
+      "powerSharing": "Not applicable — single port",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 5.0,
+      "portCount": 2.0,
+      "powerSharing": 10.0,
+      "portability": 9.0,
+      "buildQuality": 8.0,
+      "features": 6.0,
+      "compatibility": 8.5,
+      "value": 9.0
+    },
+    "pros": [
+      "Same 30W and PPS as the Anker at the same price",
+      "Foldable prongs",
+      "Available in white as well as black"
+    ],
+    "cons": [
+      "Slightly larger than the Anker Nano at 40mm versus 28mm across",
+      "Single port",
+      "UGREEN publishes no weight; retailer figures are shipping weights",
+      "Will not fast-charge a laptop"
+    ],
+    "images": [],
+    "amazonAsin": "B0BJ6BB44D",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-nano-30w",
+      "apple-20w",
+      "ugreen-nexode-65w-3port"
+    ],
+    "useCases": [
+      "travel",
+      "compact"
+    ],
+    "shortTagline": "The UGREEN answer to the Anker Nano — same 30W, same price."
+  },
+  {
+    "id": "uc-apple-20w",
+    "categorySlug": "usb-chargers",
+    "brand": "Apple",
+    "series": "Power Adapter",
+    "model": "Apple 20W USB-C Power Adapter (A2305)",
+    "slug": "apple-20w",
+    "releaseYear": 2020,
+    "price": 19.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic with fixed prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "1x USB-C"
+    ],
+    "features": [
+      "Apple's own adapter, guaranteed compatible with every iPhone and iPad",
+      "Widely available",
+      "The reference 20W brick most iPhone fast-charging claims are measured against"
+    ],
+    "specs": {
+      "maxOutputWatts": 20,
+      "singlePortMaxWatts": 20,
+      "portCount": "1x USB-C",
+      "gan": false,
+      "pdVersion": "PD 2.0 and 3.0, no PPS",
+      "foldablePlug": false,
+      "dimensions": "Not published by Apple",
+      "weight": "Not published by the manufacturer",
+      "laptopCapable": false,
+      "powerSharing": "Not applicable — single port",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 3.0,
+      "portCount": 2.0,
+      "powerSharing": 10.0,
+      "portability": 6.5,
+      "buildQuality": 7.5,
+      "features": 2.0,
+      "compatibility": 6.0,
+      "value": 4.0
+    },
+    "pros": [
+      "Apple's own brick, so compatibility is never in question",
+      "Sold everywhere and easy to replace",
+      "Still one of the best-selling chargers on Amazon"
+    ],
+    "cons": [
+      "Only 20W, and no GaN — the 30W Anker and UGREEN cost the same and are smaller",
+      "No PPS at all, so it will not fast-charge Samsung or Pixel phones properly",
+      "Fixed prongs, so it does not pack flat",
+      "2020 silicon, functionally superseded by Apple's own 40W Dynamic adapter"
+    ],
+    "images": [],
+    "amazonAsin": "B0DJFW7PNM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-nano-30w",
+      "ugreen-nexode-30w",
+      "apple-40w-dynamic"
+    ],
+    "useCases": [
+      "compact"
+    ],
+    "shortTagline": "The default iPhone brick — outclassed by 30W rivals at the same price."
+  },
+  {
+    "id": "uc-inju-i624-65w",
+    "categorySlug": "usb-chargers",
+    "brand": "INIU",
+    "series": "I624",
+    "model": "INIU 65W Dual USB-C GaN (I624)",
+    "slug": "inju-i624-65w",
+    "releaseYear": 2023,
+    "price": 29.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x USB-C"
+    ],
+    "features": [
+      "65W across two USB-C ports at under $30",
+      "GaN construction",
+      "Foldable prongs",
+      "PPS support"
+    ],
+    "specs": {
+      "maxOutputWatts": 65,
+      "singlePortMaxWatts": 65,
+      "portCount": "2x USB-C",
+      "gan": true,
+      "pdVersion": "PD 3.0 with PPS",
+      "foldablePlug": true,
+      "dimensions": "INIU publishes only packaging dimensions",
+      "weight": "Not published by the manufacturer",
+      "laptopCapable": "Yes for a 14-inch laptop at standard speed; not for a 16-inch",
+      "powerSharing": "INIU publishes no per-port split table at all, which is unusual and worth treating as a warning sign in this category",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 7.0,
+      "portCount": 5.0,
+      "powerSharing": 4.0,
+      "portability": 8.0,
+      "buildQuality": 6.5,
+      "features": 5.5,
+      "compatibility": 7.5,
+      "value": 8.5
+    },
+    "pros": [
+      "65W and two USB-C ports for under $30 is the best raw watts-per-dollar here",
+      "Will run a 14-inch laptop at standard speed",
+      "GaN and foldable prongs"
+    ],
+    "cons": [
+      "INIU publishes no power-sharing table whatsoever — you cannot know what each port delivers when both are in use, and in this category that is the single most important spec",
+      "INIU's own site shows an inflated $79.99 'regular' price against a $29.99 real price",
+      "No published dimensions or weight for the charger itself, only packaging"
+    ],
+    "images": [],
+    "amazonAsin": "B0CB1GDZK2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-65w-3port",
+      "anker-prime-67w",
+      "belkin-45w-dual",
+      "anker-nano-30w"
+    ],
+    "useCases": [
+      "laptop",
+      "travel",
+      "multi-device"
+    ],
+    "shortTagline": "65W and two ports under $30 — but no published power-sharing table."
+  },
+  {
+    "id": "uc-apple-40w-dynamic",
+    "categorySlug": "usb-chargers",
+    "brand": "Apple",
+    "series": "Power Adapter",
+    "model": "Apple 40W Dynamic Power Adapter with 60W Max (A3365)",
+    "slug": "apple-40w-dynamic",
+    "releaseYear": 2025,
+    "price": 39.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "1x USB-C"
+    ],
+    "features": [
+      "Dynamic power delivery bursting to 60W",
+      "Foldable prongs, unlike Apple's 20W brick",
+      "Designed alongside the iPhone 17 and iPhone Air",
+      "80g"
+    ],
+    "specs": {
+      "maxOutputWatts": "60 dynamic burst, 40 sustained",
+      "singlePortMaxWatts": 60,
+      "portCount": "1x USB-C",
+      "gan": "Not stated by Apple; teardowns do not confirm the switching material",
+      "pdVersion": "PD 3.0 with AVS. Note this is not PPS, so it will not trigger Samsung Super Fast Charging 2.0",
+      "foldablePlug": true,
+      "dimensions": "45.72 x 45.73 x 28.11mm",
+      "weight": 80,
+      "laptopCapable": "Charges a MacBook Air at around 56W; not enough for a 14-inch Pro at full speed",
+      "powerSharing": "Not applicable — single port. Note the 60W figure is a burst rating, not sustained",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 6.5,
+      "portCount": 2.0,
+      "powerSharing": 10.0,
+      "portability": 8.0,
+      "buildQuality": 8.5,
+      "features": 5.0,
+      "compatibility": 6.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Foldable prongs, which Apple's 20W brick never had",
+      "Genuinely charges a MacBook Air at around 56W",
+      "The burst-to-60W behaviour is useful for phones that can take it",
+      "Apple build quality and support"
+    ],
+    "cons": [
+      "The 60W headline is a burst, not sustained — 40W is the real continuous rating",
+      "Uses AVS rather than PPS, so Samsung owners will not get Super Fast Charging 2.0 — buy the Samsung 45W instead",
+      "Single port at $39 when 65W dual-port rivals cost less",
+      "Apple does not confirm whether it uses GaN"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQFPN3WR",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-20w",
+      "samsung-45w",
+      "anker-nano-30w",
+      "belkin-45w-dual"
+    ],
+    "useCases": [
+      "travel",
+      "compact"
+    ],
+    "shortTagline": "Apple's 40W with a 60W burst — but AVS, not PPS, so no Samsung fast charge."
+  },
+  {
+    "id": "uc-samsung-45w",
+    "categorySlug": "usb-chargers",
+    "brand": "Samsung",
+    "series": "Power Adapter",
+    "model": "Samsung 45W Power Adapter (EP-T4510)",
+    "slug": "samsung-45w",
+    "releaseYear": 2022,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with fixed prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "1x USB-C"
+    ],
+    "features": [
+      "45W PPS, which unlocks Samsung Super Fast Charging 2.0",
+      "GaN construction",
+      "Ships with a USB-C to USB-C cable",
+      "98g"
+    ],
+    "specs": {
+      "maxOutputWatts": 45,
+      "singlePortMaxWatts": 45,
+      "portCount": "1x USB-C",
+      "gan": "Yes — GaN Systems GS-065-008-1-L",
+      "pdVersion": "PD 3.0 with PPS (3.3-21V/2.25A, which is Samsung Super Fast Charging 2.0)",
+      "foldablePlug": false,
+      "dimensions": "41.03 x 37.36 x 21.46mm",
+      "weight": 98,
+      "laptopCapable": false,
+      "powerSharing": "Not applicable — single port",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 6.0,
+      "portCount": 2.0,
+      "powerSharing": 10.0,
+      "portability": 7.0,
+      "buildQuality": 8.0,
+      "features": 5.5,
+      "compatibility": 7.0,
+      "value": 6.0
+    },
+    "pros": [
+      "The 3.3-21V PPS range is exactly what Samsung Super Fast Charging 2.0 requires — no third-party charger guarantees this as reliably",
+      "Genuine GaN in a small body",
+      "Includes a USB-C cable in the retail box"
+    ],
+    "cons": [
+      "Fixed prongs on the US version, so it does not pack flat",
+      "Single port at $49.99 list",
+      "45W is not enough for a laptop",
+      "Only worth the premium if you own a Samsung phone that supports 45W charging"
+    ],
+    "images": [],
+    "amazonAsin": "B09MV3ZZ57",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-40w-dynamic",
+      "belkin-45w-dual",
+      "anker-nano-30w",
+      "ugreen-nexode-65w-3port"
+    ],
+    "useCases": [
+      "compact",
+      "travel"
+    ],
+    "shortTagline": "The one charger that reliably triggers Samsung's 45W fast charging."
+  },
+  {
+    "id": "uc-ugreen-nexode-65w-3port",
+    "categorySlug": "usb-chargers",
+    "brand": "UGREEN",
+    "series": "Nexode",
+    "model": "UGREEN Nexode 65W 3-Port (10334)",
+    "slug": "ugreen-nexode-65w-3port",
+    "releaseYear": 2022,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "65W across three ports",
+      "GaN II construction",
+      "Foldable prongs",
+      "122g"
+    ],
+    "specs": {
+      "maxOutputWatts": 65,
+      "singlePortMaxWatts": 65,
+      "portCount": "2x USB-C, 1x USB-A",
+      "gan": true,
+      "pdVersion": "PD 3.0 with PPS",
+      "foldablePlug": true,
+      "dimensions": "66 x 40.6 x 30.5mm",
+      "weight": 122,
+      "laptopCapable": "Yes for a 14-inch laptop at standard speed; not for a 16-inch",
+      "powerSharing": "Two USB-C gives 45W plus 20W. USB-C plus USB-A gives 45W plus 18W. All three ports gives 45W plus 8.5W plus 8.5W",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 7.0,
+      "portCount": 7.0,
+      "powerSharing": 4.5,
+      "portability": 8.0,
+      "buildQuality": 8.0,
+      "features": 6.0,
+      "compatibility": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Three ports and 65W at $39.99",
+      "Genuinely good as a single-laptop charger",
+      "Foldable prongs and a compact 122g body",
+      "UGREEN publishes the full sharing table, which many rivals do not"
+    ],
+    "cons": [
+      "This is the clearest example of the power-sharing trap in the category: load all three ports and the secondary ports drop to 8.5W each, which is slower than a decade-old phone charger",
+      "The 65W headline is single-port only",
+      "No display"
+    ],
+    "images": [],
+    "amazonAsin": "B091BGMKYS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-67w",
+      "inju-i624-65w",
+      "belkin-45w-dual",
+      "anker-prime-100w"
+    ],
+    "useCases": [
+      "laptop",
+      "travel",
+      "multi-device"
+    ],
+    "shortTagline": "65W across three ports — but all three loaded drops two of them to 8.5W."
+  },
+  {
+    "id": "uc-belkin-45w-dual",
+    "categorySlug": "usb-chargers",
+    "brand": "Belkin",
+    "series": "BoostCharge Pro",
+    "model": "Belkin BoostCharge Pro 45W Dual USB-C GaN (WCH011)",
+    "slug": "belkin-45w-dual",
+    "releaseYear": 2022,
+    "price": 39.95,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x USB-C"
+    ],
+    "features": [
+      "Two USB-C ports with PPS",
+      "GaN construction",
+      "Foldable prongs",
+      "Belkin Connected Equipment Warranty"
+    ],
+    "specs": {
+      "maxOutputWatts": 45,
+      "singlePortMaxWatts": 45,
+      "portCount": "2x USB-C",
+      "gan": true,
+      "pdVersion": "PD 3.0 with PPS",
+      "foldablePlug": true,
+      "dimensions": "61.7 x 40.6 x 39.1mm",
+      "weight": 125,
+      "laptopCapable": false,
+      "powerSharing": "Both ports in use gives 25W plus 20W — the 45W single-port rating drops to 25W maximum",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 5.5,
+      "portCount": 5.0,
+      "powerSharing": 5.0,
+      "portability": 7.5,
+      "buildQuality": 8.5,
+      "features": 5.5,
+      "compatibility": 8.0,
+      "value": 5.5
+    },
+    "pros": [
+      "Belkin build quality and the Connected Equipment Warranty",
+      "Two USB-C ports with PPS",
+      "Widely stocked, including in Apple Stores"
+    ],
+    "cons": [
+      "45W is single-port only; using both drops it to 25W plus 20W",
+      "At $39.95 it is comprehensively outclassed on watts-per-dollar by the UGREEN 65W three-port and the Anker Prime 67W",
+      "Will not fast-charge any laptop",
+      "No display"
+    ],
+    "images": [],
+    "amazonAsin": "B0BF9ZYCQ5",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-65w-3port",
+      "anker-prime-67w",
+      "samsung-45w",
+      "inju-i624-65w"
+    ],
+    "useCases": [
+      "travel",
+      "multi-device"
+    ],
+    "shortTagline": "Solid Belkin build — but 45W becomes 25W the moment you use both ports."
+  },
+  {
+    "id": "uc-anker-prime-67w",
+    "categorySlug": "usb-chargers",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime 67W GaN Wall Charger (A2669)",
+    "slug": "anker-prime-67w",
+    "releaseYear": 2023,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "67W across three ports with GaNPrime",
+      "Foldable prongs",
+      "PPS support",
+      "135.7g"
+    ],
+    "specs": {
+      "maxOutputWatts": 67,
+      "singlePortMaxWatts": "67 from USB-C, 22.5 from USB-A",
+      "portCount": "2x USB-C, 1x USB-A",
+      "gan": "Yes — GaNPrime",
+      "pdVersion": "PD 3.0 with PPS",
+      "foldablePlug": true,
+      "dimensions": "39.8 x 38.5 x 50mm",
+      "weight": 135.7,
+      "laptopCapable": "Yes for a 14-inch laptop at standard speed; not for a 16-inch",
+      "powerSharing": "Two ports gives 45W plus 20W for 65W total. Three ports gives 64.5W total",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 7.0,
+      "portCount": 7.0,
+      "powerSharing": 6.0,
+      "portability": 8.0,
+      "buildQuality": 9.0,
+      "features": 6.5,
+      "compatibility": 8.5,
+      "value": 8.0
+    },
+    "pros": [
+      "Holds 64.5W total even with three ports loaded, which is far better behaved than the UGREEN equivalent",
+      "GaNPrime runs noticeably cooler than older GaN designs",
+      "Anker's warranty and support",
+      "Frequently discounted well below the $59.99 list"
+    ],
+    "cons": [
+      "Two ports still splits to 45W plus 20W rather than anything closer to even",
+      "No display at this price when the Baseus 140W has one for similar money",
+      "Not enough for a 16-inch laptop"
+    ],
+    "images": [],
+    "amazonAsin": "B0C4YTB56H",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-65w-3port",
+      "anker-prime-100w",
+      "baseus-picogo-140w",
+      "belkin-45w-dual"
+    ],
+    "useCases": [
+      "laptop",
+      "travel",
+      "multi-device"
+    ],
+    "shortTagline": "Holds 64.5W across three ports — the best-behaved mid-power charger."
+  },
+  {
+    "id": "uc-anker-prime-100w",
+    "categorySlug": "usb-chargers",
+    "brand": "Anker",
+    "series": "Prime",
+    "model": "Anker Prime Charger 100W 3-Port GaN (A2688)",
+    "slug": "anker-prime-100w",
+    "releaseYear": 2024,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "2x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "100W single-port, enough for a 14-inch MacBook Pro at full speed",
+      "Foldable prongs",
+      "25% smaller than the A2343 it replaces",
+      "170g"
+    ],
+    "specs": {
+      "maxOutputWatts": 100,
+      "singlePortMaxWatts": "100 from USB-C, 22.5 from USB-A",
+      "portCount": "2x USB-C, 1x USB-A",
+      "gan": true,
+      "pdVersion": "PD 3.0 with PPS",
+      "foldablePlug": true,
+      "dimensions": "43.5 x 29 x 67.8mm",
+      "weight": 170,
+      "laptopCapable": "Yes for a 14-inch MacBook Pro at full 96W; a 16-inch needs 140W",
+      "powerSharing": "Two USB-C gives 65W plus 35W for 100W total. USB-C plus USB-A gives 65W plus 22.5W. All three ports gives 89W total",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 8.5,
+      "portCount": 7.0,
+      "powerSharing": 7.5,
+      "portability": 7.5,
+      "buildQuality": 9.0,
+      "features": 6.5,
+      "compatibility": 8.5,
+      "value": 8.0
+    },
+    "pros": [
+      "100W single-port genuinely fast-charges a 14-inch MacBook Pro",
+      "Two ports split 65W plus 35W, which is one of the more usable divisions here",
+      "25% smaller than the A2343 it supersedes"
+    ],
+    "cons": [
+      "The older A2343 is still on Amazon under a different ASIN with a worse 46/30/22.5W split — check the model number before buying",
+      "Not enough for a 16-inch MacBook Pro",
+      "No display",
+      "Drops to 89W total with three ports loaded"
+    ],
+    "images": [],
+    "amazonAsin": "B0CZ6LXL8R",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-prime-67w",
+      "baseus-picogo-140w",
+      "ugreen-nexode-x-160w",
+      "ugreen-nexode-65w-3port"
+    ],
+    "useCases": [
+      "laptop",
+      "multi-device",
+      "travel"
+    ],
+    "shortTagline": "100W with a usable 65/35 split — fast-charges a 14-inch MacBook Pro."
+  },
+  {
+    "id": "uc-baseus-picogo-140w",
+    "categorySlug": "usb-chargers",
+    "brand": "Baseus",
+    "series": "PicoGo",
+    "model": "Baseus PicoGo AH11 140W 4-Port",
+    "slug": "baseus-picogo-140w",
+    "releaseYear": 2026,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Grey"
+    ],
+    "material": "Plastic with foldable prongs and colour display",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "3x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "Colour touch display showing per-port wattage, temperature and estimated time",
+      "PD 3.1 at 140W — enough for a 16-inch MacBook Pro",
+      "Four ports",
+      "Foldable prongs"
+    ],
+    "specs": {
+      "maxOutputWatts": 140,
+      "singlePortMaxWatts": "140 from C1 or C2, 100 from C3, 44 from USB-A",
+      "portCount": "3x USB-C, 1x USB-A",
+      "gan": true,
+      "pdVersion": "PD 3.1 with PPS, plus QC3.0, SCP, AFC and UFCS",
+      "foldablePlug": true,
+      "dimensions": "75.74 x 59.66 x 36.02mm",
+      "weight": 248,
+      "laptopCapable": "Yes — both 14-inch and 16-inch at full speed",
+      "powerSharing": "Two USB-C gives 70W plus 70W or 90W plus 45W. Three USB-C gives 65W plus 45W plus 30W. All four ports gives 65W plus 45W plus 12W plus 12W",
+      "displayType": "Colour smart display with touch control"
+    },
+    "scores": {
+      "outputPower": 9.5,
+      "portCount": 9.0,
+      "powerSharing": 8.5,
+      "portability": 6.0,
+      "buildQuality": 8.0,
+      "features": 9.5,
+      "compatibility": 9.0,
+      "value": 9.0
+    },
+    "pros": [
+      "A genuine 70W plus 70W split across two ports, which almost nothing else here achieves",
+      "The colour display showing real per-port wattage is the best implementation at this price",
+      "PD 3.1 at 140W handles a 16-inch MacBook Pro",
+      "The most thoroughly documented sharing table in this list"
+    ],
+    "cons": [
+      "248g and noticeably chunky",
+      "All four ports loaded drops two of them to 12W",
+      "Baseus uses two different SKU codes for the same product, which makes cross-checking confusing"
+    ],
+    "images": [],
+    "amazonAsin": "B0FXVQMTJB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ugreen-nexode-x-160w",
+      "anker-prime-100w",
+      "anker-prime-67w"
+    ],
+    "useCases": [
+      "laptop",
+      "multi-device",
+      "travel"
+    ],
+    "shortTagline": "140W with a real 70+70W split and a colour display — the power user's pick."
+  },
+  {
+    "id": "uc-ugreen-nexode-x-160w",
+    "categorySlug": "usb-chargers",
+    "brand": "UGREEN",
+    "series": "Nexode X",
+    "model": "UGREEN Nexode X 160W 4-Port",
+    "slug": "ugreen-nexode-x-160w",
+    "releaseYear": 2024,
+    "price": 119.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with foldable prongs",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "3x USB-C",
+      "1x USB-A"
+    ],
+    "features": [
+      "160W total with 140W from a single port",
+      "PD 3.1",
+      "GaNInfinity construction",
+      "Foldable prongs",
+      "70 x 70 x 33mm"
+    ],
+    "specs": {
+      "maxOutputWatts": 160,
+      "singlePortMaxWatts": "140 from USB-C1",
+      "portCount": "3x USB-C, 1x USB-A",
+      "gan": "Yes — GaNInfinity",
+      "pdVersion": "PD 3.1 with 45W PPS",
+      "foldablePlug": true,
+      "dimensions": "70 x 70 x 33mm",
+      "weight": "Not published by the manufacturer",
+      "laptopCapable": "Yes — both 14-inch and 16-inch at full speed",
+      "powerSharing": "UGREEN publishes the 140W single-port and 160W total figures but no full per-combination table. The sibling Nexode Pro 160W is documented as 140W, 100W, 30W and 22.5W across its four ports",
+      "displayType": "None"
+    },
+    "scores": {
+      "outputPower": 10.0,
+      "portCount": 9.0,
+      "powerSharing": 7.0,
+      "portability": 6.5,
+      "buildQuality": 8.0,
+      "features": 7.0,
+      "compatibility": 9.0,
+      "value": 7.5
+    },
+    "pros": [
+      "160W total and 140W from one port is the highest output here — it will run a 16-inch MacBook Pro at full speed with three other devices attached",
+      "Foldable prongs, which the bulkier Nexode Pro 160W lacks",
+      "Compact 70mm square footprint for the power"
+    ],
+    "cons": [
+      "UGREEN publishes no full power-sharing table, which is the single most important spec in this category",
+      "No weight published",
+      "No display at $119.99 when the Baseus has one for less",
+      "The similarly named Nexode Pro 160W is better documented but has fixed prongs — easy to confuse the two"
+    ],
+    "images": [],
+    "amazonAsin": "B0CMQL9D5Q",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "baseus-picogo-140w",
+      "anker-prime-100w",
+      "anker-prime-67w"
+    ],
+    "useCases": [
+      "laptop",
+      "multi-device"
+    ],
+    "shortTagline": "160W total and 140W single-port — the most powerful wall charger here."
+  }
+]
