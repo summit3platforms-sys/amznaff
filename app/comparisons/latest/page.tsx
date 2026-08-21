@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getLatestComparisons } from '@/lib/comparisons';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Latest Comparisons',
-  description: 'Comparisons involving the newest product releases.'
+  description: 'Comparisons involving the newest product releases.',
+  alternates: canonical('/comparisons/latest')
 };
 
 export default function LatestComparisonsPage() {

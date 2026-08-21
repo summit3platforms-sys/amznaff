@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { categories as allCategories, getCategory } from '@/data/categories';
 import { getAllComparisonPairs, getProductBySlug } from '@/lib/products';
+import { comparisonCanonical } from '@/lib/seo';
 import { determineOverallWinner, overallScore } from '@/lib/scoring';
 import { generateComparisonCopy } from '@/lib/content-generator';
 import { alternativeComparisons, cheaperAlternative, premiumAlternative } from '@/lib/related';
@@ -52,11 +53,22 @@ export function generateMetadata({
   const a = category && getProductBySlug(params.category, params.product);
   const b = category && getProductBySlug(params.category, params.competitor);
   if (!category || !a || !b) return {};
+
+  // Both /a/vs/b and /b/vs/a render this same comparison, and both are in the
+  // sitemap whenever the two products list each other. The canonical names one
+  // of them so the pair is scored as one page instead of competing with
+  // itself. An undeclared pair still renders for anyone who lands on it, but
+  // carries noindex — dynamicParams means the route would otherwise expose a
+  // combinatorial number of pages we never chose to publish.
+  const { path, declared } = comparisonCanonical(params.category, params.product, params.competitor);
+
   return {
     title: `${a.model} vs ${b.model}: Which Should You Buy?`,
     description: `${a.model} vs ${b.model} compared on ${category.scoreDimensions
       .map((d) => d.label.toLowerCase())
-      .join(', ')} — full spec breakdown and buying advice.`
+      .join(', ')} — full spec breakdown and buying advice.`,
+    alternates: { canonical: path },
+    ...(declared ? {} : { robots: { index: false, follow: true } })
   };
 }
 

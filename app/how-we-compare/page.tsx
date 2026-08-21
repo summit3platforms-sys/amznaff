@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'How We Compare Products',
-  description: 'The method behind every comparison page, score, and buying recommendation on the site.'
+  description: 'The method behind every comparison page, score, and buying recommendation on the site.',
+  alternates: canonical('/how-we-compare')
 };
 
 export default function HowWeComparePage() {

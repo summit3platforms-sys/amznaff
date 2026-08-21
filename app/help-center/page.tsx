@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import ActionPage from '@/components/ActionPage';
 
 export const metadata: Metadata = {
   title: 'Help Center',
-  description: 'Get help with anything on The Comparison Report.'
+  description: 'Get help with anything on The Comparison Report.',
+  alternates: canonical('/help-center')
 };
 
 export default function HelpCenterPage() {

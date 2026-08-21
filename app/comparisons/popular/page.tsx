@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getPopularComparisons } from '@/lib/comparisons';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'Popular Comparisons',
-  description: 'The comparisons involving the most-reviewed products on Amazon.'
+  description: 'The comparisons involving the most-reviewed products on Amazon.',
+  alternates: canonical('/comparisons/popular')
 };
 
 export default function PopularComparisonsPage() {

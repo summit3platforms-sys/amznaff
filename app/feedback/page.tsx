@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import MailForm from '@/components/MailForm';
 
 export const metadata: Metadata = {
   title: 'Feedback',
-  description: 'Tell us what is working and what is not.'
+  description: 'Tell us what is working and what is not.',
+  alternates: canonical('/feedback')
 };
 
 export default function FeedbackPage() {

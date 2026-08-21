@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Why The Comparison Report exists and how our comparisons are built.'
+  description: 'Why The Comparison Report exists and how our comparisons are built.',
+  alternates: canonical('/about')
 };
 
 const commonQuestions = [

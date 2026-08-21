@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import ActionPage from '@/components/ActionPage';
 
 export const metadata: Metadata = {
   title: 'Request a Comparison',
-  description: 'Tell us which two products you want compared next.'
+  description: 'Tell us which two products you want compared next.',
+  alternates: canonical('/request-a-comparison')
 };
 
 export default function RequestComparisonPage() {

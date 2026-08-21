@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { getCategory } from '@/data/categories';
 import { getAllProducts, getCompetitors, getProductBySlug, getProductsByCategory } from '@/lib/products';
+import { canonical } from '@/lib/seo';
 import { cheaperAlternative, premiumAlternative, sameBrand } from '@/lib/related';
 import { overallScore } from '@/lib/scoring';
 import AmazonButton from '@/components/AmazonButton';
@@ -23,7 +24,8 @@ export function generateMetadata({ params }: { params: { category: string; produ
     // comparison-first architecture rather than reading as a standalone
     // review article.
     title: `${product.model}: Specs, Features, Price & Comparisons`,
-    description: product.shortTagline
+    description: product.shortTagline,
+    alternates: canonical(`/${params.category}/${params.product}`)
   };
 }
 

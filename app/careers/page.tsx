@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Careers',
-  description: 'Open roles at The Comparison Report.'
+  description: 'Open roles at The Comparison Report.',
+  alternates: canonical('/careers')
 };
 
 const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'contact@yourdomain.com';

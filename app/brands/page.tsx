@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getAllBrands } from '@/lib/brands';
 
 export const metadata: Metadata = {
   title: 'Brands',
-  description: 'Browse every brand we cover, with real product comparisons for each.'
+  description: 'Browse every brand we cover, with real product comparisons for each.',
+  alternates: canonical('/brands')
 };
 
 export default function BrandsPage() {

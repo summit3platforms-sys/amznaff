@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { categories, getCategory } from '@/data/categories';
 import { categoryGroups } from '@/data/categoryGroups';
@@ -15,6 +16,14 @@ import GuideCard from '@/components/GuideCard';
 import NewReleasesGrid from '@/components/NewReleasesGrid';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import { getPublishedGuides } from '@/data/guides';
+import { canonical } from '@/lib/seo';
+
+// Title and description come from the root layout; this only pins the
+// canonical, so that a root-layout canonical does not leak onto every other
+// page that omits one.
+export const metadata: Metadata = {
+  alternates: canonical('/')
+};
 
 export default function HomePage() {
   // Hero picker + deals grid feature whichever live category currently has

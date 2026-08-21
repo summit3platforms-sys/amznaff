@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import ComingSoon from '@/components/ComingSoon';
 
 export const metadata: Metadata = {
   title: 'Product Finder',
-  description: 'Answer a few questions and get matched to the right product.'
+  description: 'Answer a few questions and get matched to the right product.',
+  alternates: canonical('/product-finder')
 };
 
 export default function ProductFinderPage() {

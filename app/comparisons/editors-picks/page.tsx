@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getEditorsPicks } from '@/lib/comparisons';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: "Editor's Picks",
-  description: 'Comparisons with the clearest, most decisive winner.'
+  description: 'Comparisons with the clearest, most decisive winner.',
+  alternates: canonical('/comparisons/editors-picks')
 };
 
 export default function EditorsPicksPage() {

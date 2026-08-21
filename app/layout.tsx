@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { SITE_URL } from '@/lib/seo';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'The Comparison Report — Product Comparisons That Answer One Question',
     template: '%s | The Comparison Report'

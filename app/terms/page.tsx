@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'Terms of service for using The Comparison Report.'
+  description: 'Terms of service for using The Comparison Report.',
+  alternates: canonical('/terms')
 };
 
 export default function TermsPage() {

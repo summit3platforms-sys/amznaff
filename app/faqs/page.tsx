@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import FaqAccordion from '@/components/FaqAccordion';
 
 export const metadata: Metadata = {
   title: 'FAQs',
-  description: 'Frequently asked questions about how The Comparison Report works.'
+  description: 'Frequently asked questions about how The Comparison Report works.',
+  alternates: canonical('/faqs')
 };
 
 const faqs = [

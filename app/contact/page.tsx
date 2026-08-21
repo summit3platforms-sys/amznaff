@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import MailForm from '@/components/MailForm';
 
 export const metadata: Metadata = {
   title: 'Contact',
-  description: 'Get in touch with The Comparison Report.'
+  description: 'Get in touch with The Comparison Report.',
+  alternates: canonical('/contact')
 };
 
 const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'contact@yourdomain.com';

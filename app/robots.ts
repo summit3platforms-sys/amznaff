@@ -1,10 +1,16 @@
 import type { MetadataRoute } from 'next';
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
+import { SITE_URL } from '@/lib/seo';
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: { userAgent: '*', allow: '/' },
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      // The admin dashboard and the API routes behind it are application
+      // surface, not content. They already carry noindex, but there is no
+      // reason to spend crawl budget on them at all.
+      disallow: ['/admin', '/api']
+    },
     sitemap: `${SITE_URL}/sitemap.xml`
   };
 }

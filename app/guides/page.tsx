@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getPublishedGuides } from '@/data/guides';
 import GuideCard, { GuideCardPlaceholder } from '@/components/GuideCard';
 
 export const metadata: Metadata = {
   title: 'Buying Guides',
-  description: 'Plain-language guides to the specs that actually matter when comparing products.'
+  description: 'Plain-language guides to the specs that actually matter when comparing products.',
+  alternates: canonical('/guides')
 };
 
 export default function GuidesPage() {

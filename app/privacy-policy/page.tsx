@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'How The Comparison Report collects, uses, and protects information from visitors.'
+  description: 'How The Comparison Report collects, uses, and protects information from visitors.',
+  alternates: canonical('/privacy-policy')
 };
 
 export default function PrivacyPolicyPage() {

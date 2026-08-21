@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { getGuideBySlug } from '@/data/guides';
+import { canonical } from '@/lib/seo';
 import GuideDetail from '@/components/GuideDetail';
 
 // This static route file could not be deleted from the sandbox (permissions
@@ -13,7 +14,8 @@ export function generateMetadata(): Metadata {
   if (!guide || guide.status !== 'published') return {};
   return {
     title: guide.title,
-    description: guide.excerpt
+    description: guide.excerpt,
+    alternates: canonical(`/guides/${SLUG}`)
   };
 }
 

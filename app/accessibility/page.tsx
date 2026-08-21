@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Accessibility',
-  description: 'Our commitment to an accessible experience on The Comparison Report.'
+  description: 'Our commitment to an accessible experience on The Comparison Report.',
+  alternates: canonical('/accessibility')
 };
 
 export default function AccessibilityPage() {

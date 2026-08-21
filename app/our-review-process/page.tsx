@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Our Review Process',
-  description: 'How products get added to The Comparison Report and how their data is verified.'
+  description: 'How products get added to The Comparison Report and how their data is verified.',
+  alternates: canonical('/our-review-process')
 };
 
 export default function ReviewProcessPage() {

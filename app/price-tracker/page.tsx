@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import ComingSoon from '@/components/ComingSoon';
 
 export const metadata: Metadata = {
   title: 'Price Tracker',
-  description: 'Price history for the products we cover.'
+  description: 'Price history for the products we cover.',
+  alternates: canonical('/price-tracker')
 };
 
 export default function PriceTrackerPage() {

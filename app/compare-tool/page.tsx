@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import ComingSoon from '@/components/ComingSoon';
 
 export const metadata: Metadata = {
   title: 'Compare Tool',
-  description: 'Pick any two products and jump straight to their comparison.'
+  description: 'Pick any two products and jump straight to their comparison.',
+  alternates: canonical('/compare-tool')
 };
 
 export default function CompareToolPage() {

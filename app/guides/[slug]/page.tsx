@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getGuideBySlug, getPublishedGuides } from '@/data/guides';
 import GuideDetail from '@/components/GuideDetail';
 
@@ -11,7 +12,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!guide || guide.status !== 'published') return {};
   return {
     title: guide.title,
-    description: guide.excerpt
+    description: guide.excerpt,
+    alternates: canonical(`/guides/${params.slug}`)
   };
 }
 

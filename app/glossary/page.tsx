@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Glossary',
-  description: 'Plain-language definitions for the spec terms used across our comparisons.'
+  description: 'Plain-language definitions for the spec terms used across our comparisons.',
+  alternates: canonical('/glossary')
 };
 
 const terms: { term: string; definition: string }[] = [

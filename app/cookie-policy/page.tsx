@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Cookie Policy',
-  description: 'How The Comparison Report uses cookies.'
+  description: 'How The Comparison Report uses cookies.',
+  alternates: canonical('/cookie-policy')
 };
 
 export default function CookiePolicyPage() {

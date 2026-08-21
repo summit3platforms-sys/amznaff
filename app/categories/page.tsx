@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { categoryGroups } from '@/data/categoryGroups';
 import CategoryGroupCard from '@/components/CategoryGroupCard';
 
 export const metadata: Metadata = {
   title: 'All Categories',
-  description: 'Every product category we cover, with full spec-driven comparisons.'
+  description: 'Every product category we cover, with full spec-driven comparisons.',
+  alternates: canonical('/categories')
 };
 
 export default function CategoriesPage() {

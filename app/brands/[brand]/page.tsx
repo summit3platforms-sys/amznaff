@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getAllBrands, getBrandBySlug, getProductsByBrandSlug } from '@/lib/brands';
 import { getCategory } from '@/data/categories';
 import ProductCard from '@/components/ProductCard';
@@ -14,7 +15,8 @@ export function generateMetadata({ params }: { params: { brand: string } }): Met
   if (!brand) return {};
   return {
     title: `${brand.name} Products Compared`,
-    description: `Every ${brand.name} product we cover, with full specs and head-to-head comparisons.`
+    description: `Every ${brand.name} product we cover, with full specs and head-to-head comparisons.`,
+    alternates: canonical(`/brands/${params.brand}`)
   };
 }
 

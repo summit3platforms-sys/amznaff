@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure',
-  description: 'The Comparison Report is a participant in the Amazon Services LLC Associates Program.'
+  description: 'The Comparison Report is a participant in the Amazon Services LLC Associates Program.',
+  alternates: canonical('/affiliate-disclosure')
 };
 
 export default function AffiliateDisclosurePage() {

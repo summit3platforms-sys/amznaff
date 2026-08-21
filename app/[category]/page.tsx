@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { categories, getCategory } from '@/data/categories';
 import { getAllComparisonPairs, getProductsByCategory, isCategoryLive } from '@/lib/products';
 import { productMatchesFilter } from '@/lib/filters';
+import { canonical } from '@/lib/seo';
 import ProductCard from '@/components/ProductCard';
 import FilterTags from '@/components/FilterTags';
 import VsCard from '@/components/VsCard';
@@ -30,9 +31,13 @@ export function generateMetadata({ params }: { params: { category: string } }): 
     };
   }
 
+  // Filters are query parameters (?filter=under-500), so every filtered view
+  // is a slice of this same page. The canonical points every one of them back
+  // at the unfiltered category.
   return {
     title: `${category.pluralName} Compared — Which One Should You Buy?`,
-    description: category.description
+    description: category.description,
+    alternates: canonical(`/${category.slug}`)
   };
 }
 

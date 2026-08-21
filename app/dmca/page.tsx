@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'contact@yourdomain.com';
 
 export const metadata: Metadata = {
   title: 'DMCA Policy',
-  description: 'How to submit a copyright infringement notice for The Comparison Report.'
+  description: 'How to submit a copyright infringement notice for The Comparison Report.',
+  alternates: canonical('/dmca')
 };
 
 export default function DmcaPage() {

@@ -1,8 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { categories } from '@/data/categories';
 import { getAllComparisonPairs, getProductsByCategory, isCategoryLive } from '@/lib/products';
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
+import { SITE_URL, comparisonCanonical } from '@/lib/seo';
 
 // Auto-generates a sitemap entry for every category, product, and
 // comparison page. As products.ts grows to thousands of entries, this
@@ -27,12 +26,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       });
     }
 
+    // Two products that list each other produce two URLs for one comparison.
+    // Only the canonical direction belongs here — a sitemap that advertises
+    // both is telling Google to crawl the same page twice and then asking it,
+    // via rel=canonical, to throw one away.
+    const seenComparisons = new Set<string>();
     for (const { product, competitor } of getAllComparisonPairs(category.slug)) {
-      entries.push({
-        url: `${SITE_URL}/${category.slug}/${product.slug}/vs/${competitor.slug}`,
-        changeFrequency: 'monthly',
-        priority: 0.7
-      });
+      const { path } = comparisonCanonical(category.slug, product.slug, competitor.slug);
+      if (seenComparisons.has(path)) continue;
+      seenComparisons.add(path);
+      entries.push({ url: `${SITE_URL}${path}`, changeFrequency: 'monthly', priority: 0.7 });
     }
   }
 

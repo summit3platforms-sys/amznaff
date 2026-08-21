@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { getAllComparisonsAcrossCategories } from '@/lib/comparisons';
 import RelatedLinks from '@/components/RelatedLinks';
 
 export const metadata: Metadata = {
   title: 'All Comparisons',
-  description: 'Every head-to-head product comparison on the site, browsable in one place.'
+  description: 'Every head-to-head product comparison on the site, browsable in one place.',
+  alternates: canonical('/comparisons')
 };
 
 export default function AllComparisonsPage() {

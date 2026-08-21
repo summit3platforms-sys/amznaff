@@ -1,9 +1,11 @@
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import MailForm from '@/components/MailForm';
 
 export const metadata: Metadata = {
   title: 'Report Incorrect Information',
-  description: 'Let us know about an outdated spec, price, or broken link.'
+  description: 'Let us know about an outdated spec, price, or broken link.',
+  alternates: canonical('/report-incorrect-info')
 };
 
 export default function ReportIncorrectInfoPage() {
