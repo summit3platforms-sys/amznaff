@@ -1,0 +1,1051 @@
+[
+  {
+    "id": "pj-xgimi-mogo-4",
+    "categorySlug": "projectors",
+    "brand": "XGIMI",
+    "series": "MoGo",
+    "model": "XGIMI MoGo 4",
+    "slug": "xgimi-mogo-4",
+    "releaseYear": 2025,
+    "price": 499.0,
+    "msrp": 499.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Grey"
+    ],
+    "material": "Plastic body with integrated 360-degree gimbal stand",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "USB-C",
+      "Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "Built-in 360-degree gimbal stand — point it anywhere including the ceiling",
+      "71.28Wh battery giving 2.5 hours of video or 6 hours of music",
+      "Google TV with a licensed Netflix app",
+      "Magnetic creative filters for projected effects",
+      "Uninterrupted auto keystone, autofocus and obstacle avoidance"
+    ],
+    "specs": {
+      "resolution": "1920x1080 native — accepts 4K input but outputs 1080p",
+      "brightnessLumens": "450 ISO lumens (XGIMI quotes ISO 21118, which is not comparable with ANSI figures)",
+      "lightSource": "LED",
+      "throwRatio": "1.2:1 — standard throw, fixed lens",
+      "contrastRatio": "Not published by the manufacturer",
+      "hdrFormats": "HDR10 only, and XGIMI notes HDR10 is not supported over HDMI",
+      "refreshRate": "1080p at 60Hz; game mode latency 20ms with auto-keystone off",
+      "smartPlatform": "Google TV with licensed Netflix",
+      "speakers": "2x 6W Harman Kardon with Dolby Audio",
+      "lensShift": "None",
+      "keystone": "Uninterrupted auto keystone, autofocus, obstacle avoidance and screen fit",
+      "lightSourceLifeHours": "Not published by the manufacturer"
+    },
+    "scores": {
+      "picture": 6.0,
+      "brightness": 4.0,
+      "color": 6.5,
+      "gaming": 6.0,
+      "smartPlatform": 8.5,
+      "sound": 7.5,
+      "setup": 9.5,
+      "value": 7.5
+    },
+    "pros": [
+      "The built-in gimbal is the best setup experience in the category — aim it anywhere and it corrects itself",
+      "Battery powered, so it genuinely works outdoors or in a garden",
+      "Google TV with a properly licensed Netflix app, which many rivals lack",
+      "Harman Kardon speakers punch above the size"
+    ],
+    "cons": [
+      "1080p only — it is not a 4K projector in any sense",
+      "450 ISO lumens needs a properly dark room",
+      "HDR10 does not work over HDMI, only from internal apps",
+      "XGIMI publishes neither a contrast ratio nor a light-source life figure"
+    ],
+    "images": [],
+    "amazonAsin": "B0F3CBV5HP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "anker-nebula-mars-3-air",
+      "samsung-freestyle-2",
+      "lg-cinebeam-q"
+    ],
+    "useCases": [
+      "portable",
+      "outdoor"
+    ],
+    "shortTagline": "A gimbal-mounted, battery-powered Google TV projector you can aim anywhere."
+  },
+  {
+    "id": "pj-anker-nebula-mars-3-air",
+    "categorySlug": "projectors",
+    "brand": "Anker",
+    "series": "Nebula Mars",
+    "model": "Anker Nebula Mars 3 Air",
+    "slug": "anker-nebula-mars-3-air",
+    "releaseYear": 2024,
+    "price": 599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic chassis with integrated carry strap",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "USB",
+      "Wi-Fi",
+      "Bluetooth",
+      "Chromecast built-in"
+    ],
+    "features": [
+      "Built-in battery giving 2.5 hours of video or 8 hours of music",
+      "Google TV with a licensed Netflix app",
+      "30,000-hour LED light source",
+      "Auto keystone, autofocus, auto screen fit and obstacle avoidance",
+      "30 to 150-inch image size"
+    ],
+    "specs": {
+      "resolution": "1920x1080 native — not 4K",
+      "brightnessLumens": "400 ANSI lumens (properly ANSI-rated)",
+      "lightSource": "RGB LED",
+      "throwRatio": "1.2:1 — standard throw",
+      "contrastRatio": "400:1 full on/off — genuinely low, and honestly published by Anker",
+      "hdrFormats": "HDR supported, but Anker does not confirm which formats",
+      "refreshRate": "1080p at 60Hz; no published low-latency figure",
+      "smartPlatform": "Google TV on an Android TV 11 base, with licensed Netflix and Chromecast",
+      "speakers": "2x 8W with Dolby Audio",
+      "lensShift": "None",
+      "keystone": "Auto keystone, autofocus, auto screen fit and auto obstacle avoidance",
+      "lightSourceLifeHours": 30000
+    },
+    "scores": {
+      "picture": 5.5,
+      "brightness": 3.5,
+      "color": 6.0,
+      "gaming": 5.5,
+      "smartPlatform": 8.5,
+      "sound": 7.5,
+      "setup": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Battery and carry-strap design make it the easiest projector here to actually move around",
+      "Google TV with licensed Netflix",
+      "30,000-hour LED life means it will effectively never need a new light source",
+      "Anker rates brightness in honest ANSI lumens rather than an inflated unit"
+    ],
+    "cons": [
+      "400:1 contrast is the lowest here — blacks look grey in anything but a fully dark room",
+      "400 ANSI lumens is dim",
+      "1080p only",
+      "Anker does not specify which HDR formats are supported"
+    ],
+    "images": [],
+    "amazonAsin": "B0CHW168LV",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xgimi-mogo-4",
+      "samsung-freestyle-2",
+      "lg-cinebeam-q"
+    ],
+    "useCases": [
+      "portable",
+      "outdoor"
+    ],
+    "shortTagline": "The most genuinely portable option — battery, carry strap and Google TV."
+  },
+  {
+    "id": "pj-samsung-freestyle-2",
+    "categorySlug": "projectors",
+    "brand": "Samsung",
+    "series": "The Freestyle",
+    "model": "Samsung The Freestyle (2nd Gen)",
+    "slug": "samsung-freestyle-2",
+    "releaseYear": 2023,
+    "price": 799.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Cylindrical body in a 180-degree swivel cradle",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "USB-C",
+      "Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "1.8lb with a 180-degree swivel cradle",
+      "Samsung Gaming Hub for cloud gaming without a console",
+      "Tizen smart platform with Bixby and Alexa",
+      "Auto keystone, autofocus and auto levelling",
+      "30,000-hour LED life"
+    ],
+    "specs": {
+      "resolution": "1920x1080 native DLP — not 4K",
+      "brightnessLumens": "230 ANSI lumens — the dimmest projector here",
+      "lightSource": "LED",
+      "throwRatio": "1.2:1 — standard throw",
+      "contrastRatio": "100,000:1 dynamic; Samsung publishes no native figure",
+      "hdrFormats": "HDR10+; no Dolby Vision, which Samsung does not license",
+      "refreshRate": "Samsung publishes no refresh rate or input lag figure despite the Gaming Hub branding",
+      "smartPlatform": "Tizen with Samsung Gaming Hub, Bixby and Alexa",
+      "speakers": "5W mono with a 360-degree sound design",
+      "lensShift": "None",
+      "keystone": "Auto keystone, autofocus and auto levelling",
+      "lightSourceLifeHours": 30000
+    },
+    "scores": {
+      "picture": 5.5,
+      "brightness": 3.0,
+      "color": 6.5,
+      "gaming": 6.5,
+      "smartPlatform": 8.0,
+      "sound": 5.5,
+      "setup": 9.0,
+      "value": 5.5
+    },
+    "pros": [
+      "Only 1.8lb, and the swivel cradle makes ceiling projection genuinely easy",
+      "Gaming Hub streams games with no console attached",
+      "Tizen is a mature, fast smart platform",
+      "Auto levelling on top of keystone and focus"
+    ],
+    "cons": [
+      "230 ANSI lumens is the dimmest here and needs a fully dark room",
+      "A successor, the Freestyle+, was announced at CES 2026 with roughly double the brightness — current discounting is inventory clearance",
+      "5W mono audio is weak",
+      "1080p only, and Samsung publishes no refresh or input-lag figure"
+    ],
+    "images": [],
+    "amazonAsin": "B0C87Q4R51",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xgimi-mogo-4",
+      "anker-nebula-mars-3-air",
+      "lg-cinebeam-q"
+    ],
+    "useCases": [
+      "portable",
+      "gaming"
+    ],
+    "shortTagline": "The lightest here, with console-free cloud gaming — but a successor is coming."
+  },
+  {
+    "id": "pj-lg-cinebeam-q",
+    "categorySlug": "projectors",
+    "brand": "LG",
+    "series": "CineBeam",
+    "model": "LG CineBeam Q (HU710PB)",
+    "slug": "lg-cinebeam-q",
+    "releaseYear": 2024,
+    "price": 999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver"
+    ],
+    "material": "Aluminium cube with an integrated rotating handle",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "USB-C",
+      "Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "3lb aluminium cube with a rotating handle that doubles as a stand",
+      "Three-channel RGB laser covering up to 154% DCI-P3",
+      "webOS with Google Assistant and Alexa",
+      "Auto Screen Adjustment combining auto keystone, autofocus and four-corner correction",
+      "20,000-hour laser life"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch DMD with four-phase pixel shift)",
+      "brightnessLumens": "500 ANSI lumens (independently measured at 517)",
+      "lightSource": "Three-channel RGB laser",
+      "throwRatio": "1.2:1 fixed — standard throw, 50 to 120 inches",
+      "contrastRatio": "450,000:1 dynamic",
+      "hdrFormats": "HDR10 and HLG with dynamic tone mapping; no Dolby Vision and no HDR10+",
+      "refreshRate": "60Hz; input lag 20 to 30ms at 1080p60 in Game Optimizer, with ALLM",
+      "smartPlatform": "LG webOS with Google Assistant and Alexa",
+      "speakers": "3W mono — the weakest audio here",
+      "lensShift": "None",
+      "keystone": "Auto Screen Adjustment: auto keystone, autofocus and four-corner correction",
+      "lightSourceLifeHours": 20000
+    },
+    "scores": {
+      "picture": 7.0,
+      "brightness": 4.5,
+      "color": 8.5,
+      "gaming": 6.5,
+      "smartPlatform": 7.5,
+      "sound": 3.5,
+      "setup": 8.5,
+      "value": 5.5
+    },
+    "pros": [
+      "RGB laser gives far better colour than any LED projector at this size — up to 154% DCI-P3",
+      "Genuinely beautiful 3lb aluminium design with a handle that works as a stand",
+      "20,000-hour laser life",
+      "webOS is a full smart TV platform, not a stripped-down launcher"
+    ],
+    "cons": [
+      "LG's own US product page now flags this model as discontinued with a newer model available, and does not name the successor",
+      "3W mono speaker is the weakest here — you will want external audio",
+      "500 lumens is thin for HDR content",
+      "No battery, unlike the cheaper portables",
+      "No Dolby Vision or HDR10+"
+    ],
+    "images": [],
+    "amazonAsin": "B0CWSKYGBF",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-m2-pro",
+      "xgimi-mogo-4",
+      "samsung-freestyle-2",
+      "xgimi-horizon-20"
+    ],
+    "useCases": [
+      "portable",
+      "home-theater"
+    ],
+    "shortTagline": "A 3lb RGB laser cube with superb colour — but LG has flagged it discontinued."
+  },
+  {
+    "id": "pj-hisense-m2-pro",
+    "categorySlug": "projectors",
+    "brand": "Hisense",
+    "series": "Laser Mini",
+    "model": "Hisense M2 Pro",
+    "slug": "hisense-m2-pro",
+    "releaseYear": 2025,
+    "price": 1299.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Grey"
+    ],
+    "material": "Metal and plastic body with carry case",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.1 with eARC",
+      "USB",
+      "Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "1.3x optical zoom, genuinely rare at this price",
+      "RGB triple laser covering 110% of BT.2020",
+      "Full HDR support including Dolby Vision and HDR10+",
+      "3D playback via active glasses",
+      "25,000-hour laser life"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch DMD with pixel shift)",
+      "brightnessLumens": "1,300 ANSI lumens (independently measured at 1,355)",
+      "lightSource": "RGB triple laser",
+      "throwRatio": "1.00:1 to 1.30:1 with 1.3x optical zoom — standard throw",
+      "contrastRatio": "1,000:1 native full on/off; Hisense markets a much higher dynamic figure that is unverified",
+      "hdrFormats": "HDR10, HDR10+, HLG and Dolby Vision — the full set",
+      "refreshRate": "No 4K/120 support; input lag 27ms at 1080p/120 and 38ms at 4K/60",
+      "smartPlatform": "VIDAA — Netflix, YouTube, Disney+, Prime Video and Apple TV",
+      "speakers": "2x 10W with DTS Virtual:X and Dolby Audio",
+      "lensShift": "None",
+      "keystone": "Autofocus, auto keystone and Intelligent Wall Colour Adaptation",
+      "lightSourceLifeHours": 25000
+    },
+    "scores": {
+      "picture": 7.5,
+      "brightness": 6.5,
+      "color": 8.5,
+      "gaming": 7.0,
+      "smartPlatform": 6.5,
+      "sound": 7.5,
+      "setup": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "Optical zoom at this price is unusual and makes placement far more forgiving than digital-only rivals",
+      "The complete HDR set including Dolby Vision and HDR10+, which most rivals lack",
+      "1,300 honest ANSI lumens is genuinely usable with some ambient light",
+      "HDMI 2.1 with eARC and 3D support"
+    ],
+    "cons": [
+      "1,000:1 native contrast means blacks are grey in a dark room",
+      "VIDAA's app catalogue is thinner than Google TV",
+      "No battery",
+      "No 4K/120 for gaming",
+      "Non-backlit remote"
+    ],
+    "images": [],
+    "amazonAsin": "B0F6ZV1367",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xgimi-horizon-20",
+      "benq-w2720i",
+      "lg-cinebeam-q",
+      "valerion-visionmaster-pro2"
+    ],
+    "useCases": [
+      "home-theater",
+      "portable",
+      "gaming"
+    ],
+    "shortTagline": "Optical zoom, full Dolby Vision and 1,300 real ANSI lumens for $1,299."
+  },
+  {
+    "id": "pj-xgimi-horizon-20",
+    "categorySlug": "projectors",
+    "brand": "XGIMI",
+    "series": "Horizon",
+    "model": "XGIMI Horizon 20",
+    "slug": "xgimi-horizon-20",
+    "releaseYear": 2025,
+    "price": 1699.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal and fabric body",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.1",
+      "USB",
+      "Wi-Fi 6",
+      "Bluetooth"
+    ],
+    "features": [
+      "Physical optical lens shift of ±120% vertical and ±45% horizontal — unusual at any price",
+      "Up to 240Hz refresh with VRR and ALLM",
+      "RGB triple laser covering 110% of BT.2020",
+      "Google TV with licensed Netflix",
+      "Dolby Vision, HDR10+ and IMAX Enhanced"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch DMD with pixel shift)",
+      "brightnessLumens": "3,200 ISO lumens (XGIMI quotes ISO, not ANSI — expect a materially lower ANSI figure)",
+      "lightSource": "RGB triple laser (X-Master engine)",
+      "throwRatio": "1.2:1 to 1.5:1 with optical zoom — standard throw, 40 to 300 inches",
+      "contrastRatio": "20,000:1; XGIMI does not state whether this is native or dynamic",
+      "hdrFormats": "Dolby Vision, HDR10+, IMAX Enhanced and Filmmaker Mode",
+      "refreshRate": "Up to 240Hz — 1ms at 1080p/240, 2.2ms at 1080p/120, 3ms at 4K/60, with VRR and ALLM",
+      "smartPlatform": "Google TV with licensed Netflix",
+      "speakers": "2x 12W Harman Kardon with DTS Virtual:X",
+      "lensShift": "Physical optical shift, vertical ±120% and horizontal ±45%, without digital scaling",
+      "keystone": "Uninterrupted auto keystone, autofocus, Intelligent Screen Alignment and obstacle avoidance",
+      "lightSourceLifeHours": "Not published by the manufacturer"
+    },
+    "scores": {
+      "picture": 8.0,
+      "brightness": 7.5,
+      "color": 8.5,
+      "gaming": 9.5,
+      "smartPlatform": 8.5,
+      "sound": 8.0,
+      "setup": 9.0,
+      "value": 8.0
+    },
+    "pros": [
+      "True physical lens shift at this price is rare and makes placement dramatically easier than keystone correction",
+      "240Hz with 1ms latency makes it the best gaming projector here",
+      "Google TV with licensed Netflix and Wi-Fi 6",
+      "Harman Kardon audio is genuinely good"
+    ],
+    "cons": [
+      "Brightness is quoted in ISO lumens, which reads roughly 15 to 20% optimistic against ANSI-rated rivals",
+      "XGIMI does not state whether the 20,000:1 contrast figure is native or dynamic",
+      "No published laser life figure",
+      "Not native 4K despite the marketing"
+    ],
+    "images": [],
+    "amazonAsin": "B0FNCTDD8Q",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-m2-pro",
+      "benq-w2720i",
+      "valerion-visionmaster-pro2",
+      "jmgo-n3-ultimate"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Real optical lens shift and 240Hz — the best gaming projector here."
+  },
+  {
+    "id": "pj-benq-w2720i",
+    "categorySlug": "projectors",
+    "brand": "BenQ",
+    "series": "W-Series",
+    "model": "BenQ W2720i",
+    "slug": "benq-w2720i",
+    "releaseYear": 2025,
+    "price": 1966.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic home-cinema chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.1 with eARC",
+      "USB",
+      "Wi-Fi via bundled QS02 dongle",
+      "Bluetooth"
+    ],
+    "features": [
+      "Four-channel LED light source with 95 to 100% DCI-P3 coverage",
+      "Up to 240Hz at 1080p with 6.5ms input lag",
+      "AI Cinema Mode",
+      "Bundled QS02 Android TV dongle with licensed Netflix",
+      "30,000-hour light source life in eco mode"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch TI DMD with four-phase pixel shift)",
+      "brightnessLumens": "2,500 ANSI lumens rated, measured 2,704 in Bright mode but only 1,595 in the accurate Filmmaker mode",
+      "lightSource": "4LED — BenQ's four-channel LED, not laser",
+      "throwRatio": "1.0:1 to 1.3:1 — standard throw",
+      "contrastRatio": "2,000,000:1 dynamic with light-source dimming; native contrast is not published",
+      "hdrFormats": "HDR10, HDR10+ and HLG; no Dolby Vision",
+      "refreshRate": "Up to 240Hz at 1080p; accepts 4K/120 but downsamples to 1080p/120. Input lag 6.5ms at 1080p/240",
+      "smartPlatform": "Android TV via the bundled QS02 dongle, with licensed Netflix, YouTube, Prime Video and Disney+",
+      "speakers": "2x 5W with four sound modes and Dolby Atmos passthrough over eARC",
+      "lensShift": "Vertical ±5% only — effectively negligible",
+      "keystone": "2D auto keystone ±30 degrees vertical and horizontal, with 8-point correction",
+      "lightSourceLifeHours": "20,000 hours in normal mode, 30,000 in eco"
+    },
+    "scores": {
+      "picture": 8.0,
+      "brightness": 7.0,
+      "color": 9.0,
+      "gaming": 9.0,
+      "smartPlatform": 7.0,
+      "sound": 6.0,
+      "setup": 6.0,
+      "value": 7.0
+    },
+    "pros": [
+      "4LED gives excellent colour volume — 95 to 100% DCI-P3 without a laser's speckle",
+      "240Hz at 1080p with 6.5ms lag is genuinely competitive for gaming",
+      "Real home-cinema optics and picture processing rather than a lifestyle design"
+    ],
+    "cons": [
+      "±5% lens shift is close to useless — placement is rigid and you will rely on keystone",
+      "Brightness drops from 2,704 to 1,595 lumens once you switch to an accurate picture mode",
+      "Reviewers found the bundled QS02 dongle stayed locked in HDR10 mode and did not switch dynamic range correctly",
+      "No Dolby Vision",
+      "BenQ runs several parallel Amazon listings for this model"
+    ],
+    "images": [],
+    "amazonAsin": "B0DPJDK31N",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xgimi-horizon-20",
+      "hisense-m2-pro",
+      "optoma-uhz66",
+      "valerion-visionmaster-pro2"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "Superb 4LED colour and 240Hz gaming — held back by near-zero lens shift."
+  },
+  {
+    "id": "pj-optoma-uhz66",
+    "categorySlug": "projectors",
+    "brand": "Optoma",
+    "series": "UHZ",
+    "model": "Optoma UHZ66",
+    "slug": "optoma-uhz66",
+    "releaseYear": 2023,
+    "price": 2999.0,
+    "msrp": 2999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic home-cinema chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.0",
+      "USB",
+      "RS-232"
+    ],
+    "features": [
+      "0.65-inch DMD with two-phase pixel shift — a sharper starting point than the 0.47-inch chips",
+      "4,000 ANSI lumens, the brightest standard-throw projector here",
+      "Laser phosphor light source rated 30,000 hours",
+      "4.4ms input lag at 1080p/240"
+    ],
+    "specs": {
+      "resolution": "Native 2716x1528 panel with two-phase pixel shift to 3840x2160 — a larger 0.65-inch DMD than most rivals, though still not native 4K",
+      "brightnessLumens": "4,000 ANSI lumens",
+      "lightSource": "Laser phosphor",
+      "throwRatio": "1.40:1 to 2.24:1 — standard to long throw",
+      "contrastRatio": "500,000:1 dynamic",
+      "hdrFormats": "HDR10 and HLG only; no Dolby Vision and no HDR10+",
+      "refreshRate": "Up to 240Hz at 1080p with 4.4ms input lag",
+      "smartPlatform": "None — this is a dedicated projector with no apps or tuner",
+      "speakers": "15W mono",
+      "lensShift": "None",
+      "keystone": "Digital keystone correction",
+      "lightSourceLifeHours": 30000
+    },
+    "scores": {
+      "picture": 8.0,
+      "brightness": 9.0,
+      "color": 7.5,
+      "gaming": 8.5,
+      "smartPlatform": 1.0,
+      "sound": 5.0,
+      "setup": 5.5,
+      "value": 7.0
+    },
+    "pros": [
+      "4,000 ANSI lumens means it works in a room with real ambient light, unlike most projectors here",
+      "The 0.65-inch DMD resolves visibly more detail than the 0.47-inch chips used by nearly everything else",
+      "30,000-hour laser life",
+      "Very low input lag for gaming"
+    ],
+    "cons": [
+      "No smart platform at all — you will need a streaming stick",
+      "No lens shift, so placement is constrained",
+      "HDR10 and HLG only, no Dolby Vision or HDR10+",
+      "15W mono audio is an afterthought",
+      "2023 hardware"
+    ],
+    "images": [],
+    "amazonAsin": "B0CKXWQQNP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "benq-w2720i",
+      "epson-qb1000",
+      "valerion-visionmaster-pro2",
+      "xgimi-horizon-20"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "4,000 ANSI lumens and a larger chip — the brightest standard-throw pick."
+  },
+  {
+    "id": "pj-valerion-visionmaster-pro2",
+    "categorySlug": "projectors",
+    "brand": "Valerion",
+    "series": "VisionMaster",
+    "model": "Valerion VisionMaster Pro2",
+    "slug": "valerion-visionmaster-pro2",
+    "releaseYear": 2025,
+    "price": 2999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal home-cinema chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "3x HDMI including two 48Gbps HDMI 2.1",
+      "USB",
+      "Wi-Fi 6E",
+      "Bluetooth",
+      "eARC"
+    ],
+    "features": [
+      "Two full 48Gbps HDMI 2.1 inputs — rare on any projector",
+      "Up to 240Hz with 5ms input lag and 10ms at 4K/120",
+      "RGB triple laser with exceptional BT.2020 tracking",
+      "Google TV with Chromecast and AirPlay",
+      "Google Home and Apple HomeKit support"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch TI DMD)",
+      "brightnessLumens": "3,000 ISO lumens rated but independently measured at 2,503 ANSI in Standard mode",
+      "lightSource": "RGB triple laser",
+      "throwRatio": "0.9 to 1.5x optical zoom with a fixed 105% vertical offset — short to standard throw, 40 to 300 inches",
+      "contrastRatio": "Around 1,733:1 native full on/off; with Enhanced Black Level engaged, rated 15,000:1 and measured 9,724:1 to 14,857:1",
+      "hdrFormats": "HDR10, HDR10+ and Dolby Vision with dynamic tone mapping",
+      "refreshRate": "Up to 240Hz — 5ms at 1080p/240 and 10ms at 4K/120 with DLP Turbo",
+      "smartPlatform": "Google TV on Android TV 12 with Chromecast, AirPlay and the Play Store",
+      "speakers": "2x 12W with Dolby Atmos and DTS:X over eARC",
+      "lensShift": "None on the Pro2 — optical zoom only; the step-up VisionMaster Max adds ±55% vertical",
+      "keystone": "Autofocus via remote plus digital keystone",
+      "lightSourceLifeHours": 25000
+    },
+    "scores": {
+      "picture": 8.5,
+      "brightness": 7.5,
+      "color": 9.0,
+      "gaming": 9.5,
+      "smartPlatform": 8.5,
+      "sound": 7.5,
+      "setup": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Two genuine 48Gbps HDMI 2.1 inputs — almost no projector at any price offers this",
+      "Exceptional BT.2020 colour tracking and full Dolby Vision support",
+      "5ms at 240Hz and 10ms at 4K/120 makes it a serious gaming projector",
+      "Wi-Fi 6E and a full Google TV implementation"
+    ],
+    "cons": [
+      "Reviewers report calibration drifts quickly and needs re-doing",
+      "Enhanced Black Level dims the laser and introduces a visible colour shift",
+      "No lens shift at all on this model — you need the Max for that",
+      "Visible rainbow effect in some modes and mild speckle on high-gain screens",
+      "The 3,000 ISO lumen rating measured 2,503 ANSI in practice"
+    ],
+    "images": [],
+    "amazonAsin": "B0DSBYCZJR",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xgimi-horizon-20",
+      "jmgo-n3-ultimate",
+      "benq-w2720i",
+      "optoma-uhz66",
+      "epson-qb1000"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater"
+    ],
+    "shortTagline": "Two full HDMI 2.1 inputs and 4K/120 at 10ms — a gamer's projector."
+  },
+  {
+    "id": "pj-jmgo-n3-ultimate",
+    "categorySlug": "projectors",
+    "brand": "JMGO",
+    "series": "N-Series",
+    "model": "JMGO N3 Ultimate",
+    "slug": "jmgo-n3-ultimate",
+    "releaseYear": 2026,
+    "price": 2999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal chassis on a motorised gimbal base",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "USB",
+      "Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "Motorised gimbal with position memory, combined with optical zoom and motorised lens shift",
+      "Motorised lens shift of ±53% horizontal and ±130% vertical — the widest here",
+      "1.9x manual optical zoom",
+      "RGB triple laser via a three-in-one optical system",
+      "5,800 ISO lumens, the brightest non-UST projector here"
+    ],
+    "specs": {
+      "resolution": "3840x2160 on screen from a 0.47-inch DMD — pixel-shifted, not a native 4K panel",
+      "brightnessLumens": "5,800 ISO lumens (ISO, not ANSI; no independent ANSI measurement has been published)",
+      "lightSource": "RGB triple laser",
+      "throwRatio": "0.88:1 to 1.70:1 with 1.9x manual optical zoom — standard throw",
+      "contrastRatio": "20,000:1 full on/off claimed and 3,000,000:1 dynamic; both are manufacturer claims with no independent measurement",
+      "hdrFormats": "Dolby Vision and HDR10; HDR10+ and HLG are not confirmed",
+      "refreshRate": "VRR and ALLM with a claimed 1ms latency; JMGO does not publish a maximum refresh rate in Hz",
+      "smartPlatform": "Google TV with Google Assistant",
+      "speakers": "2x 12.5W",
+      "lensShift": "Motorised, horizontal ±53% and vertical ±130% — the widest range here",
+      "keystone": "AI motorised gimbal with position memory and autofocus",
+      "lightSourceLifeHours": "Not published by the manufacturer"
+    },
+    "scores": {
+      "picture": 8.0,
+      "brightness": 9.5,
+      "color": 8.5,
+      "gaming": 8.0,
+      "smartPlatform": 8.0,
+      "sound": 7.5,
+      "setup": 9.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The combination of a motorised gimbal, optical zoom and wide motorised lens shift is unique — placement is almost unconstrained",
+      "5,800 ISO lumens is the brightest standard-throw figure here",
+      "Dolby Vision support and a full Google TV platform",
+      "Newest design in this tier"
+    ],
+    "cons": [
+      "Reviewers have criticised the software as the weak point of an otherwise strong product",
+      "Contrast claims are entirely unverified by independent measurement",
+      "JMGO publishes a latency figure but no maximum refresh rate",
+      "ISO lumens overstate brightness against ANSI-rated rivals",
+      "No published laser life figure"
+    ],
+    "images": [],
+    "amazonAsin": "B0GTVRJ7RP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "valerion-visionmaster-pro2",
+      "xgimi-horizon-20",
+      "epson-qb1000",
+      "optoma-uhz66"
+    ],
+    "useCases": [
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "A motorised gimbal plus optical zoom and lens shift — put it almost anywhere."
+  },
+  {
+    "id": "pj-formovie-theater-premium",
+    "categorySlug": "projectors",
+    "brand": "Formovie",
+    "series": "Theater",
+    "model": "Formovie Theater Premium",
+    "slug": "formovie-theater-premium",
+    "releaseYear": 2024,
+    "price": 3499.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped ultra-short-throw cabinet",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "USB",
+      "Wi-Fi 6",
+      "Bluetooth 5.0",
+      "eARC"
+    ],
+    "features": [
+      "Ultra-short throw — sits about 16 inches from the wall for a 150-inch image",
+      "2x 15W Bowers & Wilkins speakers with Dolby Atmos and DTS:X",
+      "ALPD 4.0 RGB+ triple laser",
+      "Google TV 12 with licensed Netflix",
+      "Measured contrast that actually beats its rating"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch TI DMD with four-way pixel shift)",
+      "brightnessLumens": "2,200 ISO lumens. Note: some marketplace listings claim 2,800 ANSI, which belongs to the older Formovie Theater and is not this model's rating",
+      "lightSource": "ALPD 4.0 RGB+ triple laser",
+      "throwRatio": "0.21:1 — ultra-short throw, about 16 inches from the wall for 150 inches",
+      "contrastRatio": "3,000:1 rated and 3,200:1 measured — unusually honest for an ultra-short-throw projector",
+      "hdrFormats": "Dolby Vision, HDR10+ and HDR10, plus DTS:X audio",
+      "refreshRate": "60Hz; input lag 35 to 36ms in Game Mode",
+      "smartPlatform": "Google TV 12 with licensed Netflix, Wi-Fi 6 and Bluetooth 5.0",
+      "speakers": "2x 15W Bowers & Wilkins with Dolby Atmos and DTS:X",
+      "lensShift": "None, which is normal for ultra-short throw",
+      "keystone": "4-point and 8-point geometric correction",
+      "lightSourceLifeHours": "Not published by the manufacturer"
+    },
+    "scores": {
+      "picture": 8.0,
+      "brightness": 6.5,
+      "color": 8.0,
+      "gaming": 5.0,
+      "smartPlatform": 8.5,
+      "sound": 9.0,
+      "setup": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Best built-in audio of any projector here — the Bowers & Wilkins system is genuinely good enough to use alone",
+      "Sits 16 inches from the wall, so it works as a TV replacement in a normal living room",
+      "Its contrast rating is honest — measured 3,200:1 against a 3,000:1 claim, which is rare",
+      "Strong Dolby Vision implementation"
+    ],
+    "cons": [
+      "Reviewers found significant colour accuracy issues at launch and a colour-space detection fault preventing correct content switching",
+      "35ms input lag is poor for gaming",
+      "A successor, the Theater Ultra, has been announced with no price or date",
+      "Two Amazon listings exist and it is unclear which is current"
+    ],
+    "images": [],
+    "amazonAsin": "B0DK62VL1F",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "awol-aetherion-max",
+      "valerion-visionmaster-pro2",
+      "jmgo-n3-ultimate"
+    ],
+    "useCases": [
+      "ultra-short-throw",
+      "home-theater"
+    ],
+    "shortTagline": "Ultra-short throw with Bowers & Wilkins audio — a genuine TV replacement."
+  },
+  {
+    "id": "pj-awol-aetherion-max",
+    "categorySlug": "projectors",
+    "brand": "AWOL Vision",
+    "series": "Aetherion",
+    "model": "AWOL Vision Aetherion Max",
+    "slug": "awol-aetherion-max",
+    "releaseYear": 2026,
+    "price": 4499.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal ultra-short-throw cabinet",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.1",
+      "USB",
+      "Wi-Fi",
+      "Bluetooth",
+      "eARC"
+    ],
+    "features": [
+      "90W of built-in audio across 2x 25W full-range drivers and 2x 20W tweeters",
+      "4K at 120Hz over HDMI 2.1 with VRR and 3 to 14ms input lag",
+      "RGB triple laser with no phosphor wheel",
+      "Dolby Vision gaming support",
+      "Dual-mode physical iris and motorised lens cover"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 panel with pixel shifting to place 3840x2160 on screen — not a native 4K panel (0.47-inch TI DMD)",
+      "brightnessLumens": "3,300 ISO lumens rated, independently measured at 3,031 ANSI — an unusually close match",
+      "lightSource": "RGB triple laser with no phosphor wheel",
+      "throwRatio": "Ultra-short throw, roughly 22 inches from the wall; the exact ratio is not published",
+      "contrastRatio": "6,000:1 native claimed, measured between 9,575:1 and 22,000:1 depending on iris and black-level settings",
+      "hdrFormats": "HDR10, HDR10+ and Dolby Vision with dynamic tone mapping",
+      "refreshRate": "4K at 120Hz over HDMI 2.1 with VRR; measured input lag 3 to 14ms",
+      "smartPlatform": "Google TV on Android 14",
+      "speakers": "2x 25W full-range plus 2x 20W tweeters — 90W total, the most substantial audio here",
+      "lensShift": "None; motorised focus, motorised lens cover and a physical iris",
+      "keystone": "Motorised keystone and auto setup",
+      "lightSourceLifeHours": "Not published by the manufacturer"
+    },
+    "scores": {
+      "picture": 8.5,
+      "brightness": 8.0,
+      "color": 8.5,
+      "gaming": 9.0,
+      "smartPlatform": 8.5,
+      "sound": 9.5,
+      "setup": 8.0,
+      "value": 7.0
+    },
+    "pros": [
+      "3 to 14ms input lag makes it the only ultra-short-throw projector here that is genuinely good for gaming",
+      "90W of built-in audio is the most powerful in this category by a wide margin",
+      "Its ISO brightness rating held up under independent ANSI measurement, which is rare",
+      "Full Dolby Vision including for gaming"
+    ],
+    "cons": [
+      "Enhanced Black Level causes highlight clipping in HDR content",
+      "Reviewers concluded brightness is insufficient for the 200-inch image the marketing implies — it is best at 120 to 150 inches",
+      "Minimal laser speckle and some residual rainbow effect",
+      "Expensive, and AWOL floods Amazon with screen-bundle listings at different prices"
+    ],
+    "images": [],
+    "amazonAsin": "B0GN3XX19L",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "formovie-theater-premium",
+      "epson-qb1000",
+      "jmgo-n3-ultimate",
+      "valerion-visionmaster-pro2"
+    ],
+    "useCases": [
+      "ultra-short-throw",
+      "home-theater",
+      "gaming"
+    ],
+    "shortTagline": "The only ultra-short-throw here that games well, with 90W of built-in audio."
+  },
+  {
+    "id": "pj-epson-qb1000",
+    "categorySlug": "projectors",
+    "brand": "Epson",
+    "series": "Q Series",
+    "model": "Epson QB1000",
+    "slug": "epson-qb1000",
+    "releaseYear": 2024,
+    "price": 7999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Home-cinema chassis with motorised lens cover",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI 2.1 (40Gbps) with eARC",
+      "RS-232",
+      "12V trigger",
+      "Crestron and Control4 integration"
+    ],
+    "features": [
+      "Fully motorised three-axis lens with ±96% vertical and ±47% horizontal shift and 10 lens memory presets",
+      "3-chip 3LCD, so colour brightness equals white brightness",
+      "32-bit QZX picture processor",
+      "4K at 120Hz with roughly 19ms input lag",
+      "20,000-hour laser life"
+    ],
+    "specs": {
+      "resolution": "Native 1920x1080 3LCD panels with dual-axis precision shift to 3840x2160 — pixel-shifted, not a native 4K panel",
+      "brightnessLumens": "3,300 ISO lumens for both white and colour — Epson uniquely rates colour brightness equal to white, measured 3,383",
+      "lightSource": "Multi-array laser diode",
+      "throwRatio": "1.35:1 to 2.84:1 with 2.1x zoom — standard to long throw, 50 to 300 inches",
+      "contrastRatio": "5,000,000:1 dynamic claimed, but independently measured at only 4,300:1 to 5,833:1 full on/off",
+      "hdrFormats": "HDR10, HDR10+ and HLG with dynamic tone mapping; no Dolby Vision",
+      "refreshRate": "Native 120Hz with 4K/120 support; input lag around 19 to 20ms at both 4K/60 and 4K/120, with ALLM",
+      "smartPlatform": "None — control is via Crestron, Control4, RS-232 or a 12V trigger",
+      "speakers": "None",
+      "lensShift": "Fully motorised three-axis: vertical ±96% and horizontal ±47%, with 10 lens memory presets",
+      "keystone": "±30 degrees digital horizontal and vertical",
+      "lightSourceLifeHours": 20000
+    },
+    "scores": {
+      "picture": 9.0,
+      "brightness": 8.5,
+      "color": 9.5,
+      "gaming": 7.5,
+      "smartPlatform": 1.0,
+      "sound": 1.0,
+      "setup": 9.5,
+      "value": 5.5
+    },
+    "pros": [
+      "The motorised lens with 10 memory presets makes it the only projector here properly suited to a 2.35:1 CinemaScope screen",
+      "3LCD means colour brightness equals white brightness — colours do not dim the way single-chip DLP colours do",
+      "Genuinely quiet at 37 to 38dB",
+      "Dual HDMI 2.1 with eARC and 4K/120"
+    ],
+    "cons": [
+      "The 5,000,000:1 dynamic contrast claim measures at roughly 5,000:1 in reality — an enormous gap worth knowing before you buy",
+      "No 3D support at all",
+      "No smart platform and no speakers whatsoever — budget for a streamer and an audio system",
+      "$7,999 puts it far above the tier most buyers assume from Epson's cheaper laser models",
+      "Possible moiré with woven screens, and no separate SDR and HDR picture memories"
+    ],
+    "images": [],
+    "amazonAsin": "B0DWZRRHHK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "optoma-uhz66",
+      "valerion-visionmaster-pro2",
+      "awol-aetherion-max",
+      "jmgo-n3-ultimate"
+    ],
+    "useCases": [
+      "home-theater"
+    ],
+    "shortTagline": "A real cinema projector — motorised lens memory, 3LCD colour, no compromises."
+  }
+]

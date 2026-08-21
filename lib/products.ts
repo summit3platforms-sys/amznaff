@@ -6,6 +6,9 @@ import { soundbarProducts } from '@/data/products/soundbars';
 import { wirelessEarbudProducts } from '@/data/products/wireless-earbuds';
 import { bluetoothSpeakerProducts } from '@/data/products/bluetooth-speakers';
 import { homeSpeakerProducts } from '@/data/products/home-speakers';
+import { projectorProducts } from '@/data/products/projectors';
+import { tvMountProducts } from '@/data/products/tv-mounts';
+import { bluRayPlayerProducts } from '@/data/products/blu-ray-players';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -20,7 +23,10 @@ const allProducts: Product[] = [
   ...soundbarProducts,
   ...wirelessEarbudProducts,
   ...bluetoothSpeakerProducts,
-  ...homeSpeakerProducts
+  ...homeSpeakerProducts,
+  ...projectorProducts,
+  ...tvMountProducts,
+  ...bluRayPlayerProducts
 ];
 
 export function getAllProducts(): Product[] {

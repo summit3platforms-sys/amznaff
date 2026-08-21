@@ -297,6 +297,129 @@ export const categories: Category[] = [
       { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
       { slug: 'home', label: 'Home Listening', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'projectors',
+    name: 'Projector',
+    pluralName: 'Projectors',
+    description:
+      'Home projectors compared spec-for-spec \u2014 real brightness, light source, throw ratio, contrast, HDR support and lens shift \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'resolution', label: 'Resolution', betterDirection: 'none' },
+      { key: 'brightnessLumens', label: 'Brightness', betterDirection: 'none' },
+      { key: 'lightSource', label: 'Light Source', betterDirection: 'none' },
+      { key: 'throwRatio', label: 'Throw Ratio', betterDirection: 'none' },
+      { key: 'contrastRatio', label: 'Contrast Ratio', betterDirection: 'none' },
+      { key: 'hdrFormats', label: 'HDR Formats', betterDirection: 'none' },
+      { key: 'refreshRate', label: 'Refresh Rate & Input Lag', betterDirection: 'none' },
+      { key: 'smartPlatform', label: 'Smart Platform', betterDirection: 'none' },
+      { key: 'speakers', label: 'Built-in Speakers', betterDirection: 'none' },
+      { key: 'lensShift', label: 'Lens Shift', betterDirection: 'none' },
+      { key: 'keystone', label: 'Auto Setup', betterDirection: 'none' },
+      { key: 'lightSourceLifeHours', label: 'Light Source Life', unit: 'hrs', betterDirection: 'higher' }
+    ],
+    scoreDimensions: [
+      { key: 'picture', label: 'Picture Quality', description: 'Detail, contrast and overall image once properly set up' },
+      { key: 'brightness', label: 'Brightness', description: 'Usable light output, and how much ambient light it tolerates' },
+      { key: 'color', label: 'Color', description: 'Colour gamut coverage and accuracy out of the box' },
+      { key: 'gaming', label: 'Gaming', description: 'Refresh rate, input lag, VRR and ALLM support' },
+      { key: 'smartPlatform', label: 'Smart Platform', description: 'Built-in apps, licensed streaming services and how responsive the interface is' },
+      { key: 'sound', label: 'Built-in Sound', description: 'Onboard speaker power and whether you can live without external audio' },
+      { key: 'setup', label: 'Setup & Placement', description: 'Lens shift, zoom, auto keystone and how forgiving placement is' },
+      { key: 'value', label: 'Value', description: 'Performance and features relative to price' }
+    ],
+    filters: [
+      { slug: 'under-600', label: 'Under $600', kind: 'price-max', value: 600 },
+      { slug: 'under-1600', label: 'Under $1,600', kind: 'price-max', value: 1600 },
+      { slug: 'under-3000', label: 'Under $3,000', kind: 'price-max', value: 3000 },
+      { slug: 'under-8000', label: 'Under $8,000', kind: 'price-max', value: 8000 },
+      { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
+      { slug: 'gaming', label: 'Gaming', kind: 'use-case' },
+      { slug: 'portable', label: 'Portable', kind: 'use-case' },
+      { slug: 'ultra-short-throw', label: 'Ultra Short Throw', kind: 'use-case' },
+      { slug: 'outdoor', label: 'Outdoor', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'tv-mounts',
+    name: 'TV Mount',
+    pluralName: 'TV Mounts',
+    description:
+      'TV wall mounts compared spec-for-spec \u2014 weight capacity, VESA pattern, tilt and swivel range, extension and stud spacing \u2014 so you know exactly which one fits your TV.',
+    specFields: [
+      { key: 'mountType', label: 'Mount Type', betterDirection: 'none' },
+      { key: 'screenSizeRange', label: 'Screen Size Range', betterDirection: 'none' },
+      { key: 'maxWeightCapacity', label: 'Max Weight Capacity', unit: 'lbs', betterDirection: 'higher' },
+      { key: 'vesaMax', label: 'Max VESA Pattern', betterDirection: 'none' },
+      { key: 'tiltRange', label: 'Tilt Range', betterDirection: 'none' },
+      { key: 'swivelRange', label: 'Swivel Range', betterDirection: 'none' },
+      { key: 'extensionRange', label: 'Extension from Wall', betterDirection: 'none' },
+      { key: 'profileDepth', label: 'Profile Depth', betterDirection: 'none' },
+      { key: 'studSpacing', label: 'Stud Spacing', betterDirection: 'none' },
+      { key: 'levelAdjustment', label: 'Post-Install Levelling', betterDirection: 'none' },
+      { key: 'cableManagement', label: 'Cable Management', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'stability', label: 'Stability & Capacity', description: 'Weight rating, certification and how solidly it holds a large TV' },
+      { key: 'adjustability', label: 'Adjustability', description: 'Tilt, swivel and extension range once the TV is on the wall' },
+      { key: 'installation', label: 'Installation', description: 'Templates, hardware organisation and how straightforward a single-person install is' },
+      { key: 'buildQuality', label: 'Build Quality', description: 'Materials, finish and certification' },
+      { key: 'cableManagement', label: 'Cable Management', description: 'Built-in routing and how easy it is to reach ports afterwards' },
+      { key: 'lowProfile', label: 'Low Profile', description: 'How close to the wall the TV sits when flush' },
+      { key: 'sizeRange', label: 'TV Compatibility', description: 'Breadth of screen sizes and VESA patterns supported' },
+      { key: 'value', label: 'Value', description: 'Capability and build relative to price' }
+    ],
+    filters: [
+      { slug: 'under-40', label: 'Under $40', kind: 'price-max', value: 40 },
+      { slug: 'under-70', label: 'Under $70', kind: 'price-max', value: 70 },
+      { slug: 'under-150', label: 'Under $150', kind: 'price-max', value: 150 },
+      { slug: 'under-450', label: 'Under $450', kind: 'price-max', value: 450 },
+      { slug: 'fixed', label: 'Fixed', kind: 'use-case' },
+      { slug: 'tilting', label: 'Tilting', kind: 'use-case' },
+      { slug: 'full-motion', label: 'Full Motion', kind: 'use-case' },
+      { slug: 'above-fireplace', label: 'Above a Fireplace', kind: 'use-case' },
+      { slug: 'large-tv', label: 'Large TVs', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'blu-ray-players',
+    name: 'Blu-ray Player',
+    pluralName: 'Blu-ray Players',
+    description:
+      '4K UHD and Blu-ray players compared spec-for-spec \u2014 disc format support, Dolby Vision and HDR10+, audio outputs and upscaling \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'discFormats', label: 'Disc Formats', betterDirection: 'none' },
+      { key: 'hdrFormats', label: 'HDR Formats', betterDirection: 'none' },
+      { key: 'dolbyVision', label: 'Dolby Vision', betterDirection: 'none' },
+      { key: 'sacd', label: 'SACD Playback', betterDirection: 'none' },
+      { key: 'audioFormats', label: 'Audio Formats', betterDirection: 'none' },
+      { key: 'hdmiOutputs', label: 'HDMI Outputs', betterDirection: 'none' },
+      { key: 'analogOutputs', label: 'Analog Outputs', betterDirection: 'none' },
+      { key: 'streamingApps', label: 'Streaming Apps', betterDirection: 'none' },
+      { key: 'upscaling', label: 'Upscaling & Processing', betterDirection: 'none' },
+      { key: 'ethernet', label: 'Network', betterDirection: 'none' },
+      { key: 'regionFree', label: 'Region Free', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'picture', label: 'Picture Quality', description: 'Disc playback quality and HDR handling' },
+      { key: 'audio', label: 'Audio Quality', description: 'DAC quality, analog output stage and bitstream support' },
+      { key: 'discSupport', label: 'Disc Format Support', description: 'How many disc formats it actually plays, including SACD and DVD-Audio' },
+      { key: 'buildQuality', label: 'Build Quality', description: 'Chassis rigidity, drive mechanism and finish' },
+      { key: 'connectivity', label: 'Connectivity', description: 'HDMI outputs, analog outputs and network options' },
+      { key: 'features', label: 'Features', description: 'Streaming apps, tone mapping controls and network playback' },
+      { key: 'upscaling', label: 'Upscaling', description: 'How well it improves DVD and Blu-ray on a 4K display' },
+      { key: 'value', label: 'Value', description: 'Performance and features relative to price' }
+    ],
+    filters: [
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'under-400', label: 'Under $400', kind: 'price-max', value: 400 },
+      { slug: 'under-1300', label: 'Under $1,300', kind: 'price-max', value: 1300 },
+      { slug: 'under-3500', label: 'Under $3,500', kind: 'price-max', value: 3500 },
+      { slug: 'budget', label: 'Budget', kind: 'use-case' },
+      { slug: '4k-uhd', label: '4K UHD', kind: 'use-case' },
+      { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
+      { slug: 'audiophile', label: 'Audiophile', kind: 'use-case' }
+    ]
   }
 ];
 

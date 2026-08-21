@@ -27,9 +27,9 @@ export const categoryGroups: CategoryGroup[] = [
       { name: 'Smart TVs', slug: 'tv' },
       { name: 'Streaming Devices', slug: 'streaming-devices' },
       { name: 'Soundbars', slug: 'soundbars' },
-      { name: 'Projectors' },
-      { name: 'TV Mounts' },
-      { name: 'Blu-ray Players' }
+      { name: 'Projectors', slug: 'projectors' },
+      { name: 'TV Mounts', slug: 'tv-mounts' },
+      { name: 'Blu-ray Players', slug: 'blu-ray-players' }
     ]
   },
   {
@@ -86,7 +86,7 @@ export const categoryGroups: CategoryGroup[] = [
       { name: 'Label Printers' },
       { name: 'Document Scanners' },
       { name: 'Laminators' },
-      { name: 'Projectors' }
+      { name: 'Projectors', slug: 'projectors' }
     ]
   },
   {

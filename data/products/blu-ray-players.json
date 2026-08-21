@@ -1,0 +1,651 @@
+[
+  {
+    "id": "br-sony-bdp-s1700u",
+    "categorySlug": "blu-ray-players",
+    "brand": "Sony",
+    "series": "BDP",
+    "model": "Sony BDP-S1700U",
+    "slug": "sony-bdp-s1700u",
+    "releaseYear": 2025,
+    "price": 114.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Compact plastic chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "Ethernet",
+      "USB (front)",
+      "Coaxial digital audio"
+    ],
+    "features": [
+      "The only genuinely current budget standard Blu-ray player from a major brand",
+      "Sub-second boot time",
+      "Ultra-compact at 9.1 x 1.6 x 7.8 inches and 1.8lb",
+      "Sony TRILUMINOS colour processing",
+      "Draws only 8.5W"
+    ],
+    "specs": {
+      "discFormats": "Blu-ray, DVD, VCD and CD, plus recordable variants. No 4K UHD Blu-ray and no SACD",
+      "hdrFormats": "None — this is a 1080p SDR player",
+      "dolbyVision": false,
+      "audioFormats": "Dolby TrueHD and DTS lossless support; Atmos and DTS:X passthrough is not confirmed",
+      "hdmiOutputs": 1,
+      "analogOutputs": "None — coaxial digital audio only",
+      "streamingApps": "Wired streaming apps are present, but Sony does not publish the app list",
+      "upscaling": "DVD upscaling to near-1080p",
+      "ethernet": "Ethernet only — no Wi-Fi",
+      "regionFree": "No — Blu-ray Region A and DVD Region 1 as sold",
+      "sacd": false
+    },
+    "scores": {
+      "picture": 5.5,
+      "audio": 5.0,
+      "discSupport": 4.0,
+      "buildQuality": 6.0,
+      "connectivity": 4.0,
+      "features": 4.5,
+      "upscaling": 6.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The cheapest way to play discs from a brand that still supports its hardware",
+      "Boots in under a second, which sounds trivial until you use a slow player",
+      "Genuinely tiny and draws almost no power",
+      "Replaced both the BDP-S3700 and the old UBP-X700 in Sony's line"
+    ],
+    "cons": [
+      "1080p only — no 4K UHD Blu-ray support at all",
+      "No Wi-Fi, so streaming needs a cable",
+      "Single HDMI output with no separate audio out",
+      "No SACD or DVD-Audio",
+      "Sony does not publish which streaming apps are included"
+    ],
+    "images": [],
+    "amazonAsin": "B0DWGS5977",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "panasonic-dp-ub150",
+      "sony-ubp-x700u",
+      "panasonic-dp-ub420"
+    ],
+    "useCases": [
+      "budget"
+    ],
+    "shortTagline": "The cheapest current disc player from a major brand — 1080p only."
+  },
+  {
+    "id": "br-panasonic-dp-ub150",
+    "categorySlug": "blu-ray-players",
+    "brand": "Panasonic",
+    "series": "DP-UB",
+    "model": "Panasonic DP-UB150-K",
+    "slug": "panasonic-dp-ub150",
+    "releaseYear": 2018,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Compact plastic chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI",
+      "Ethernet",
+      "USB"
+    ],
+    "features": [
+      "The cheapest true 4K UHD Blu-ray player from a major brand",
+      "HDR10+ support at an entry price",
+      "4K 60p and 50p output at 4:4:4",
+      "High-resolution audio file playback including FLAC, WAV, DSD and ALAC",
+      "Very compact"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, Blu-ray 3D, DVD and CD. No SACD and no DVD-Audio",
+      "hdrFormats": "HDR10 and HDR10+; HLG is not confirmed. No Dolby Vision",
+      "dolbyVision": false,
+      "audioFormats": "High-resolution file playback in FLAC, WAV, DSD, ALAC, AAC, MP3, WMA and AIFF; Atmos and DTS:X bitstream is not confirmed",
+      "hdmiOutputs": 1,
+      "analogOutputs": "None confirmed — HDMI only",
+      "streamingApps": "Not confirmed; the absence of Wi-Fi makes streaming marginal on this model",
+      "upscaling": "4K upscaling with high-precision chroma processing and 4K 60p/50p 4:4:4 output",
+      "ethernet": "Ethernet only — no Wi-Fi",
+      "regionFree": "No — Region A and Region 1",
+      "sacd": false
+    },
+    "scores": {
+      "picture": 7.0,
+      "audio": 5.5,
+      "discSupport": 6.0,
+      "buildQuality": 5.5,
+      "connectivity": 4.0,
+      "features": 5.0,
+      "upscaling": 7.0,
+      "value": 8.5
+    },
+    "pros": [
+      "Genuine 4K UHD Blu-ray playback at the lowest price any major brand offers",
+      "HDR10+ support, which Sony does not offer at any price",
+      "Plays Blu-ray 3D, which is increasingly rare",
+      "Handles hi-res audio files including DSD"
+    ],
+    "cons": [
+      "No Dolby Vision — the single biggest gap against the DP-UB820",
+      "No Wi-Fi at all",
+      "Single HDMI with no separate audio output",
+      "No analog outputs",
+      "Panasonic's own US store currently shows several of its players sold out, so availability is uncertain"
+    ],
+    "images": [],
+    "amazonAsin": "B08T252MCJ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "panasonic-dp-ub420",
+      "sony-ubp-x700u",
+      "sony-bdp-s1700u",
+      "panasonic-dp-ub820"
+    ],
+    "useCases": [
+      "budget",
+      "4k-uhd"
+    ],
+    "shortTagline": "The cheapest true 4K UHD player from a major brand — but no Dolby Vision."
+  },
+  {
+    "id": "br-panasonic-dp-ub420",
+    "categorySlug": "blu-ray-players",
+    "brand": "Panasonic",
+    "series": "DP-UB",
+    "model": "Panasonic DP-UB420-K",
+    "slug": "panasonic-dp-ub420",
+    "releaseYear": 2019,
+    "price": 297.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.0",
+      "Ethernet",
+      "Wi-Fi 5",
+      "USB",
+      "Optical digital audio"
+    ],
+    "features": [
+      "Panasonic's HCX picture processor at a mid-range price",
+      "HDR10+ support",
+      "Netflix, YouTube and Amazon Video built in",
+      "Alexa and Google Assistant voice control",
+      "Four-DAC audio section"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, Blu-ray 3D, DVD and CD. No SACD and no DVD-Audio",
+      "hdrFormats": "HDR10, HDR10+ and HLG. No Dolby Vision",
+      "dolbyVision": false,
+      "audioFormats": "Dolby Atmos and DTS:X bitstream over HDMI; the detailed bitstream matrix is not published",
+      "hdmiOutputs": 1,
+      "analogOutputs": "None — optical digital only",
+      "streamingApps": "Netflix, YouTube and Amazon Video",
+      "upscaling": "HCX processor with 4K upscaling",
+      "ethernet": "Both Wi-Fi 5 and Ethernet",
+      "regionFree": "No — Region A and Region 1",
+      "sacd": false
+    },
+    "scores": {
+      "picture": 7.5,
+      "audio": 6.0,
+      "discSupport": 6.0,
+      "buildQuality": 6.5,
+      "connectivity": 6.0,
+      "features": 7.0,
+      "upscaling": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The HCX processor is the same picture engine family as Panasonic's flagship, at a third of the price",
+      "HDR10+ plus HLG and Wi-Fi built in",
+      "Plays Blu-ray 3D",
+      "Voice control through Alexa and Google Assistant"
+    ],
+    "cons": [
+      "No Dolby Vision, which is the main reason to step up to the DP-UB820",
+      "Single HDMI output with no separate audio out",
+      "No analog audio outputs",
+      "Panasonic has announced no successor and has not refreshed this line since 2019"
+    ],
+    "images": [],
+    "amazonAsin": "B07YD3PXQP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "panasonic-dp-ub820",
+      "sony-ubp-x700u",
+      "panasonic-dp-ub150",
+      "sony-bdp-s1700u"
+    ],
+    "useCases": [
+      "4k-uhd",
+      "home-theater"
+    ],
+    "shortTagline": "Panasonic's HCX processing and HDR10+ at a mid-range price."
+  },
+  {
+    "id": "br-sony-ubp-x700u",
+    "categorySlug": "blu-ray-players",
+    "brand": "Sony",
+    "series": "UBP",
+    "model": "Sony UBP-X700U",
+    "slug": "sony-ubp-x700u",
+    "releaseYear": 2025,
+    "price": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Compact plastic chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI",
+      "Ethernet",
+      "Coaxial digital audio"
+    ],
+    "features": [
+      "Sony's first new UHD player in over five years",
+      "SACD playback at $300, which is unusual at this price",
+      "Dual HDMI outputs for audio and video separation",
+      "Dolby Vision support",
+      "Dolby TrueHD and DTS-HD Master Audio decoding to 7.1 channels"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, SACD, DVD and CD. No DVD-Audio. Blu-ray 3D support differs between Sony's US and European specification sheets and is unresolved",
+      "hdrFormats": "HDR10 and Dolby Vision. No HDR10+, which Sony has never supported. HLG is not listed on the US sheet",
+      "dolbyVision": true,
+      "audioFormats": "Dolby Atmos and DTS:X bitstream output, plus Dolby TrueHD and DTS-HD Master Audio decoding to 7.1 channels",
+      "hdmiOutputs": 2,
+      "analogOutputs": "None — one coaxial digital output only",
+      "streamingApps": "None — Sony deliberately removed them from this generation",
+      "upscaling": "4K upscaling up to 60p",
+      "ethernet": "Ethernet only — no Wi-Fi, and the LAN port is essentially for firmware updates",
+      "regionFree": "No — Region A and Region 1 as sold",
+      "sacd": true
+    },
+    "scores": {
+      "picture": 7.5,
+      "audio": 7.5,
+      "discSupport": 7.5,
+      "buildQuality": 6.5,
+      "connectivity": 6.0,
+      "features": 5.0,
+      "upscaling": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "SACD playback and dual HDMI outputs at $300 is a genuinely strong audiophile value",
+      "The newest mainstream disc player on the market, and actually in production",
+      "Dolby Vision support, which Panasonic reserves for its more expensive models",
+      "Decodes Dolby TrueHD and DTS-HD Master Audio internally to 7.1 channels"
+    ],
+    "cons": [
+      "No Wi-Fi, no streaming apps, no Spotify Connect and no screen mirroring — all removed from the previous generation",
+      "No HDR10+, so HDR10+ discs fall back to HDR10",
+      "No analog audio outputs",
+      "Sony's US and European specification sheets disagree on whether it plays Blu-ray 3D",
+      "In some markets it launched above the old X700's street price for fewer features"
+    ],
+    "images": [],
+    "amazonAsin": "B0DWH36G9J",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "panasonic-dp-ub820",
+      "panasonic-dp-ub420",
+      "sony-bdp-s1700u",
+      "panasonic-dp-ub150"
+    ],
+    "useCases": [
+      "4k-uhd",
+      "audiophile",
+      "home-theater"
+    ],
+    "shortTagline": "Sony's first new UHD player in five years — SACD and dual HDMI for $300."
+  },
+  {
+    "id": "br-panasonic-dp-ub820",
+    "categorySlug": "blu-ray-players",
+    "brand": "Panasonic",
+    "series": "DP-UB",
+    "model": "Panasonic DP-UB820-K",
+    "slug": "panasonic-dp-ub820",
+    "releaseYear": 2018,
+    "price": 549.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal and plastic chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI",
+      "Ethernet",
+      "Wi-Fi 5",
+      "USB",
+      "Optical digital audio",
+      "7.1 analog outputs"
+    ],
+    "features": [
+      "The only player at this price supporting both Dolby Vision and HDR10+",
+      "HDR Optimizer, a genuine differentiator for projector owners",
+      "Dedicated audio-only HDMI output",
+      "Full 7.1-channel analog outputs",
+      "Widely regarded as having the best video processing in the category"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, Blu-ray 3D, DVD and CD. No SACD and no DVD-Audio",
+      "hdrFormats": "HDR10, HDR10+, Dolby Vision and HLG — all four",
+      "dolbyVision": true,
+      "audioFormats": "Dolby Atmos and DTS:X bitstream out, Dolby Digital and TrueHD, DTS-HD Master Audio and DTS-HD High Resolution",
+      "hdmiOutputs": "2 — one for AV and one dedicated audio-only output",
+      "analogOutputs": "7.1-channel analog plus stereo analog and optical digital",
+      "streamingApps": "Netflix, YouTube and Prime Video, plus a web browser",
+      "upscaling": "HCX processor with 4K Direct Chroma Upscaling, 4K upscaling at 24p/25p/50p/60p, and HDR Optimizer",
+      "ethernet": "Both Wi-Fi 5 and Ethernet",
+      "regionFree": "No — Region A and Region 1 as sold",
+      "sacd": false
+    },
+    "scores": {
+      "picture": 9.0,
+      "audio": 8.5,
+      "discSupport": 7.0,
+      "buildQuality": 7.5,
+      "connectivity": 9.0,
+      "features": 8.5,
+      "upscaling": 9.5,
+      "value": 8.5
+    },
+    "pros": [
+      "The only player near this price that supports both Dolby Vision and HDR10+ — Sony never does HDR10+",
+      "HDR Optimizer lets you tune tone mapping to your display, which matters enormously for projectors",
+      "A dedicated audio-only HDMI output plus full 7.1 analog outputs",
+      "Best-regarded video processing in the category"
+    ],
+    "cons": [
+      "The user interface is dated and slow by current standards",
+      "No SACD or DVD-Audio playback",
+      "2018 hardware with no successor announced",
+      "Panasonic's own US store currently lists it as sold out, so this is late-life supply rather than fresh production"
+    ],
+    "images": [],
+    "amazonAsin": "B07N3PQM5N",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-ubp-x700u",
+      "panasonic-dp-ub9000",
+      "panasonic-dp-ub420",
+      "magnetar-udp800-mkii"
+    ],
+    "useCases": [
+      "4k-uhd",
+      "home-theater",
+      "audiophile"
+    ],
+    "shortTagline": "Both Dolby Vision and HDR10+, plus HDR Optimizer — the enthusiast default."
+  },
+  {
+    "id": "br-panasonic-dp-ub9000",
+    "categorySlug": "blu-ray-players",
+    "brand": "Panasonic",
+    "series": "DP-UB",
+    "model": "Panasonic DP-UB9000P1K",
+    "slug": "panasonic-dp-ub9000",
+    "releaseYear": 2019,
+    "price": 1199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Rigid aluminium and steel chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI",
+      "Ethernet",
+      "Wi-Fi",
+      "USB",
+      "Optical and coaxial digital",
+      "7.1 analog RCA",
+      "Balanced stereo XLR"
+    ],
+    "features": [
+      "THX Certified",
+      "Balanced XLR stereo outputs plus 7.1-channel RCA — the most complete analog set of any current player",
+      "ESS 32-bit/768kHz DAC",
+      "Rigid aluminium and steel chassis",
+      "Both Dolby Vision and HDR10+, with HDR Optimizer"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, DVD and CD. No SACD. DVD-Audio and Blu-ray 3D support are not explicitly confirmed by Panasonic for this model",
+      "hdrFormats": "HDR10, HDR10+, Dolby Vision and HLG",
+      "dolbyVision": true,
+      "audioFormats": "Dolby Atmos, DTS:X, and TrueHD and DTS-HD Master Audio bitstream",
+      "hdmiOutputs": "2 — one AV and one dedicated audio-only output",
+      "analogOutputs": "7.1-channel RCA, balanced stereo XLR and stereo RCA, plus optical and coaxial digital",
+      "streamingApps": "Yes, including Netflix with surround sound",
+      "upscaling": "HCX processor with 4K upscaling and HDR Optimizer",
+      "ethernet": "Both Wi-Fi and Ethernet",
+      "regionFree": "No — explicitly not region free",
+      "sacd": false
+    },
+    "scores": {
+      "picture": 9.0,
+      "audio": 9.5,
+      "discSupport": 6.5,
+      "buildQuality": 9.5,
+      "connectivity": 9.8,
+      "features": 8.5,
+      "upscaling": 9.5,
+      "value": 6.5
+    },
+    "pros": [
+      "Balanced XLR outputs and 7.1 analog make it the most connectable player you can buy on Amazon",
+      "THX Certified with a genuinely rigid aluminium and steel chassis",
+      "ESS 32-bit/768kHz DAC and a serious audio section",
+      "Same excellent HDR Optimizer and dual-format HDR as the UB820"
+    ],
+    "cons": [
+      "Its video performance is close to identical to the UB820 at more than double the price — you are paying for the audio section and chassis",
+      "Availability is the real risk: sold out on Panasonic's US store and out of stock at major retailers",
+      "No SACD",
+      "Two Amazon listings exist for this model and it is unclear which is canonical",
+      "Cannot cast from Android"
+    ],
+    "images": [],
+    "amazonAsin": "B07Q2GXYRG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "panasonic-dp-ub820",
+      "magnetar-udp800-mkii",
+      "magnetar-udp900-mkii",
+      "sony-ubp-x700u"
+    ],
+    "useCases": [
+      "audiophile",
+      "home-theater",
+      "4k-uhd"
+    ],
+    "shortTagline": "Balanced XLR and 7.1 analog, THX certified — the audiophile Panasonic."
+  },
+  {
+    "id": "br-magnetar-udp800-mkii",
+    "categorySlug": "blu-ray-players",
+    "brand": "Magnetar",
+    "series": "UDP",
+    "model": "Magnetar UDP800 MKII",
+    "slug": "magnetar-udp800-mkii",
+    "releaseYear": 2025,
+    "price": 1799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "Sound-dampened metal chassis with high-purity copper wiring",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI",
+      "Ethernet",
+      "USB 3.0",
+      "Balanced stereo XLR",
+      "Stereo RCA"
+    ],
+    "features": [
+      "Plays essentially every disc format including SACD, DVD-Audio and Blu-ray 3D",
+      "Roon Ready certification",
+      "Region-free for both Blu-ray and DVD on the original model",
+      "Seven OPA1602 op-amps in a 2.0 architecture",
+      "USB HDD support up to 16TB, plus DLNA and SMB playback"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, Blu-ray 3D, DVD-Video, DVD-Audio, AVCHD, SACD, CD and Kodak Picture CD, plus all recordable variants — the most complete disc support of any current player",
+      "hdrFormats": "HDR10, HDR10+ and Dolby Vision; HLG is not confirmed",
+      "dolbyVision": true,
+      "audioFormats": "Dolby Atmos, DTS:X, Dolby TrueHD, DTS-HD Master Audio, LPCM and DSD; HDMI carries up to 7.1-channel 192kHz PCM and 5.1-channel DSD",
+      "hdmiOutputs": "2 — separate HDMI video and HDMI audio outputs",
+      "analogOutputs": "Balanced stereo XLR at 4.2Vrms and stereo RCA at 2.1Vrms. No 7.1 analog — that is the UDP900's role",
+      "streamingApps": "None, but it is Roon Ready and supports DLNA and SMB network playback",
+      "upscaling": "Upscales Blu-ray, DVD and sub-1080p files to 4K at 50 or 60Hz; the MKII adds a revised engine with cleaner scaling and smoother gradation",
+      "ethernet": "Ethernet only — no Wi-Fi",
+      "regionFree": "The original UDP800 was region-free for both Blu-ray and DVD without modification; MKII status is not explicitly confirmed",
+      "sacd": true
+    },
+    "scores": {
+      "picture": 9.0,
+      "audio": 9.0,
+      "discSupport": 10.0,
+      "buildQuality": 9.5,
+      "connectivity": 8.0,
+      "features": 8.0,
+      "upscaling": 9.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Plays literally every disc format that matters, including SACD, DVD-Audio and Blu-ray 3D",
+      "Roon Ready with DLNA and SMB network playback and 16TB USB HDD support",
+      "The original model was region-free out of the box, which no mainstream player offers",
+      "Genuinely serious build — sound-dampened drive, isolated USB power, high-purity copper wiring"
+    ],
+    "cons": [
+      "Not sold on Amazon at all — Magnetar is authorised-dealer only, so there is no affiliate link available",
+      "No Wi-Fi and no streaming apps",
+      "Stereo analog only; you need the UDP900 for 7.1 analog",
+      "The remote is widely criticised as nearly unusable in a dark room",
+      "MKII region-free status is not explicitly confirmed by Magnetar"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "magnetar-udp900-mkii",
+      "panasonic-dp-ub9000",
+      "panasonic-dp-ub820"
+    ],
+    "useCases": [
+      "audiophile",
+      "home-theater",
+      "4k-uhd"
+    ],
+    "shortTagline": "Plays every disc format there is, Roon Ready — but dealer-only, not on Amazon.",
+    "usAvailable": false
+  },
+  {
+    "id": "br-magnetar-udp900-mkii",
+    "categorySlug": "blu-ray-players",
+    "brand": "Magnetar",
+    "series": "UDP",
+    "model": "Magnetar UDP900 MKII",
+    "slug": "magnetar-udp900-mkii",
+    "releaseYear": 2025,
+    "price": 3299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "34lb sound-dampened metal chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI",
+      "Ethernet",
+      "USB",
+      "7.1 analog RCA",
+      "Balanced stereo XLR",
+      "Optical and coaxial digital"
+    ],
+    "features": [
+      "Dual ESS 9038 PRO DACs with 130dB signal-to-noise over XLR",
+      "A dedicated HDMI audio output with TMDS retiming for jitter elimination",
+      "Full 7.1-channel analog plus balanced XLR outputs",
+      "EISA Award winner for Best Home Theater Disc Player 2025-2026",
+      "Roon Ready, with USB output to 768kHz PCM and DSD512"
+    ],
+    "specs": {
+      "discFormats": "4K UHD Blu-ray, Blu-ray, Blu-ray 3D, DVD-Video, DVD-Audio, AVCHD, SACD and CD, plus recordable variants",
+      "hdrFormats": "HDR10, HDR10+ and Dolby Vision; HLG is not confirmed",
+      "dolbyVision": true,
+      "audioFormats": "Dolby Atmos, DTS:X, LPCM, DVD-Audio, SACD and Blu-ray Audio; HDMI audio to 7.1-channel 192kHz PCM and 5.1-channel DSD; USB to 768kHz PCM and DSD512",
+      "hdmiOutputs": "2 — including a dedicated HDMI audio output with TMDS retiming, the most thorough implementation of this feature available",
+      "analogOutputs": "7.1-channel RCA, balanced stereo XLR and stereo RCA, plus optical and coaxial digital",
+      "streamingApps": "None, but Roon Ready with USB HDD support",
+      "upscaling": "Refreshed MKII video engine with colour, contrast and upscaling optimisation",
+      "ethernet": "Ethernet with expanded networking in the MKII; Wi-Fi is not confirmed",
+      "regionFree": "Not explicitly confirmed for the MKII",
+      "sacd": true
+    },
+    "scores": {
+      "picture": 9.5,
+      "audio": 10.0,
+      "discSupport": 10.0,
+      "buildQuality": 10.0,
+      "connectivity": 10.0,
+      "features": 8.0,
+      "upscaling": 9.5,
+      "value": 5.5
+    },
+    "pros": [
+      "Dual ESS 9038 PRO DACs and 130dB signal-to-noise over XLR — the best measured audio of any disc player",
+      "TMDS retiming on the dedicated audio HDMI output genuinely addresses jitter, not just marketing",
+      "Complete disc format support including SACD and DVD-Audio",
+      "EISA Award for Best Home Theater Disc Player 2025-2026, and a 34lb chassis that explains why"
+    ],
+    "cons": [
+      "Not sold on Amazon — Magnetar distributes through authorised dealers only, so there is no affiliate link",
+      "$3,299 is more than most people spend on the TV it feeds",
+      "No streaming apps and no confirmed Wi-Fi",
+      "34lb means it needs a serious shelf",
+      "Region-free status is not confirmed for the MKII"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "magnetar-udp800-mkii",
+      "panasonic-dp-ub9000",
+      "panasonic-dp-ub820"
+    ],
+    "useCases": [
+      "audiophile",
+      "home-theater"
+    ],
+    "shortTagline": "The flagship disc player — dual ESS DACs, every format, EISA award winner.",
+    "usAvailable": false
+  }
+]

@@ -1,0 +1,679 @@
+[
+  {
+    "id": "tm-echogear-egll2",
+    "categorySlug": "tv-mounts",
+    "brand": "ECHOGEAR",
+    "series": "Low Profile",
+    "model": "ECHOGEAR EGLL2 Low Profile Fixed Mount",
+    "slug": "echogear-egll2",
+    "releaseYear": 2019,
+    "price": 34.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "16-inch stud spacing",
+      "Concrete and block with appropriate fasteners"
+    ],
+    "features": [
+      "Holds up to 150lb — the highest capacity of any fixed mount here",
+      "Sits just 2.25 inches from the wall",
+      "UL certified and load-tested to four times its rated weight",
+      "Pull-string bracket release for reaching ports behind the TV",
+      "Drill template and pre-divided hardware included"
+    ],
+    "specs": {
+      "mountType": "Fixed",
+      "screenSizeRange": "42-90 inches",
+      "maxWeightCapacity": 150,
+      "vesaMax": "600x400",
+      "tiltRange": "None",
+      "swivelRange": "None — but the TV slides laterally on the wall plate to centre it",
+      "extensionRange": "Not applicable",
+      "profileDepth": "2.25 inches",
+      "studSpacing": "Minimum 16-inch wood or steel studs; concrete requires 16-inch minimum fastener spacing",
+      "levelAdjustment": "Post-install levelling is advertised but ECHOGEAR does not publish a figure in degrees",
+      "cableManagement": "No raceway; the pull-string release tilts the TV forward for port access"
+    },
+    "scores": {
+      "stability": 9.0,
+      "adjustability": 2.0,
+      "installation": 9.0,
+      "buildQuality": 8.5,
+      "cableManagement": 4.0,
+      "lowProfile": 9.0,
+      "sizeRange": 9.0,
+      "value": 9.5
+    },
+    "pros": [
+      "150lb capacity and VESA 600x400 handle essentially any consumer TV up to 90 inches",
+      "2.25 inches from the wall gives an almost flush, wall-art look",
+      "UL certified and load-tested to four times its rating, with public install documentation",
+      "Lateral slide means you can still centre the TV even if your studs are not"
+    ],
+    "cons": [
+      "No tilt at all — a poor choice above a fireplace or anywhere you sit below the screen",
+      "Requires two studs, so single-stud installations are out",
+      "No cable management raceway",
+      "ECHOGEAR does not publish a levelling figure"
+    ],
+    "images": [],
+    "amazonAsin": "B07SK56FV2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "perlesmith-psllk1",
+      "echogear-eglt1",
+      "sanus-vmpl50a"
+    ],
+    "useCases": [
+      "fixed",
+      "large-tv"
+    ],
+    "shortTagline": "150lb capacity, 2.25 inches from the wall, and properly documented."
+  },
+  {
+    "id": "tm-perlesmith-psllk1",
+    "categorySlug": "tv-mounts",
+    "brand": "PERLESMITH",
+    "series": "PSLLK",
+    "model": "PERLESMITH PSLLK1 Fixed Low-Profile Mount",
+    "slug": "perlesmith-psllk1",
+    "releaseYear": 2020,
+    "price": 27.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "16, 18 and 24-inch stud spacing",
+      "Concrete and block walls"
+    ],
+    "features": [
+      "132lb capacity and VESA 600x400 at under $30",
+      "Supports 16, 18 and 24-inch stud spacing, which is unusually flexible at this price",
+      "Works on concrete and block as well as wood studs"
+    ],
+    "specs": {
+      "mountType": "Fixed",
+      "screenSizeRange": "32-82 inches per the Amazon listing, though PERLESMITH's own site says 32-75 inches — the two disagree",
+      "maxWeightCapacity": 132,
+      "vesaMax": "600x400",
+      "tiltRange": "None",
+      "swivelRange": "None",
+      "extensionRange": "Not applicable",
+      "profileDepth": "Not published by the manufacturer",
+      "studSpacing": "16, 18 and 24-inch on-centre wood studs, plus concrete and block walls",
+      "levelAdjustment": "Not published by the manufacturer",
+      "cableManagement": "Not published by the manufacturer"
+    },
+    "scores": {
+      "stability": 8.0,
+      "adjustability": 2.0,
+      "installation": 8.0,
+      "buildQuality": 7.0,
+      "cableManagement": 3.0,
+      "lowProfile": 8.0,
+      "sizeRange": 8.0,
+      "value": 9.5
+    },
+    "pros": [
+      "132lb capacity and VESA 600x400 for under $30 is the aggressive end of the value tier",
+      "Supports three different stud spacings, which most budget mounts do not",
+      "Works on concrete and block walls without extra hardware"
+    ],
+    "cons": [
+      "The manufacturer's site and the Amazon listing disagree on the supported screen size range",
+      "No tilt",
+      "PERLESMITH does not publish a mounted profile depth, a levelling figure or any cable management detail",
+      "A near-identical duplicate listing exists under a second ASIN, so confirm which one you are buying"
+    ],
+    "images": [],
+    "amazonAsin": "B082HM1X8N",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echogear-egll2",
+      "mounting-dream-md2268lk",
+      "usx-mount-xml019"
+    ],
+    "useCases": [
+      "fixed",
+      "large-tv"
+    ],
+    "shortTagline": "132lb and VESA 600x400 for under $30 — the budget fixed pick."
+  },
+  {
+    "id": "tm-echogear-eglt1",
+    "categorySlug": "tv-mounts",
+    "brand": "ECHOGEAR",
+    "series": "Tilting",
+    "model": "ECHOGEAR EGLT1 Tilting Mount",
+    "slug": "echogear-eglt1",
+    "releaseYear": 2015,
+    "price": 36.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "16 or 24-inch wood studs"
+    ],
+    "features": [
+      "15 degrees of downward tilt for high or above-fireplace placement",
+      "125lb capacity",
+      "UL certified and load-tested to four times its rated weight",
+      "Tilts forward for cable and port access",
+      "Hardware pre-divided by TV type"
+    ],
+    "specs": {
+      "mountType": "Tilting",
+      "screenSizeRange": "32-75 inches",
+      "maxWeightCapacity": 125,
+      "vesaMax": "ECHOGEAR publishes only that it accommodates almost all VESA patterns, with no numeric maximum — do not assume 600x400",
+      "tiltRange": "15 degrees downward",
+      "swivelRange": "None",
+      "extensionRange": "Not applicable",
+      "profileDepth": "2.5 inches",
+      "studSpacing": "16 or 24-inch wood studs",
+      "levelAdjustment": "Not published by the manufacturer",
+      "cableManagement": "No dedicated system; the mount tilts up for cable and port access"
+    },
+    "scores": {
+      "stability": 8.5,
+      "adjustability": 5.5,
+      "installation": 8.5,
+      "buildQuality": 8.5,
+      "cableManagement": 4.5,
+      "lowProfile": 7.5,
+      "sizeRange": 7.5,
+      "value": 9.0
+    },
+    "pros": [
+      "15 degrees of tilt is enough for genuine above-fireplace use, unlike shallower rivals",
+      "UL certified with public documentation and load testing to four times its rating",
+      "Tilting forward for port access solves the main annoyance of a flush mount",
+      "Hardware arrives pre-divided by TV type, which speeds up installation"
+    ],
+    "cons": [
+      "ECHOGEAR publishes no numeric VESA maximum, which is a real gap when you are checking fit",
+      "Concrete installations need hardware bought separately",
+      "No post-install height adjustment",
+      "No cable management raceway"
+    ],
+    "images": [],
+    "amazonAsin": "B00VMH7PQM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "mounting-dream-md2268lk",
+      "sanus-vmpl50a",
+      "echogear-egll2",
+      "echogear-eglf2"
+    ],
+    "useCases": [
+      "tilting",
+      "above-fireplace"
+    ],
+    "shortTagline": "A full 15 degrees of tilt, UL certified — the above-fireplace budget pick."
+  },
+  {
+    "id": "tm-mounting-dream-md2268lk",
+    "categorySlug": "tv-mounts",
+    "brand": "Mounting Dream",
+    "series": "MD2268",
+    "model": "Mounting Dream MD2268-LK Tilting Mount",
+    "slug": "mounting-dream-md2268lk",
+    "releaseYear": 2014,
+    "price": 34.77,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "16, 18 and 24-inch studs"
+    ],
+    "features": [
+      "132lb capacity and VESA 600x400",
+      "Quick Lock and Release mechanism",
+      "Sits about 1.5 inches from the wall — the slimmest tilting mount here",
+      "One of the highest-volume tilting mounts on Amazon"
+    ],
+    "specs": {
+      "mountType": "Tilting",
+      "screenSizeRange": "37-90 inches on the current listing, though earlier revisions of the same listing read 37-70, 37-75 and 37-82 inches",
+      "maxWeightCapacity": 132,
+      "vesaMax": "600x400",
+      "tiltRange": "About 8 degrees, measured on a variant SKU by a reputable outlet — shallow, and better for glare reduction than for above-fireplace use",
+      "swivelRange": "None",
+      "extensionRange": "Not applicable",
+      "profileDepth": "About 1.5 inches",
+      "studSpacing": "16, 18 and 24-inch studs",
+      "levelAdjustment": "Not published by the manufacturer",
+      "cableManagement": "None — no cable management is provided"
+    },
+    "scores": {
+      "stability": 8.0,
+      "adjustability": 4.0,
+      "installation": 7.0,
+      "buildQuality": 7.0,
+      "cableManagement": 2.0,
+      "lowProfile": 9.0,
+      "sizeRange": 8.0,
+      "value": 9.0
+    },
+    "pros": [
+      "1.5 inches from the wall is the slimmest tilting profile here",
+      "132lb and VESA 600x400 at well under $40",
+      "Quick Lock and Release makes the TV easy to attach",
+      "Enormous install base, so real-world guidance is easy to find"
+    ],
+    "cons": [
+      "About 8 degrees of tilt is shallow — this is a glare-reduction tilt, not a true fireplace tilt",
+      "No cable management at all",
+      "Mounting Dream has no reachable manufacturer website — their domain serves an expired certificate and the alternate fails DNS entirely, so specs cannot be validated at source",
+      "Reviewers note it effectively takes three people to remove once installed",
+      "The advertised screen size range has been revised repeatedly on an unchanged listing"
+    ],
+    "images": [],
+    "amazonAsin": "B00NKYYMAW",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echogear-eglt1",
+      "sanus-vmpl50a",
+      "perlesmith-psllk1"
+    ],
+    "useCases": [
+      "tilting",
+      "large-tv"
+    ],
+    "shortTagline": "The slimmest tilting mount here at 1.5 inches — but only 8 degrees of tilt."
+  },
+  {
+    "id": "tm-sanus-vmpl50a",
+    "categorySlug": "tv-mounts",
+    "brand": "SANUS",
+    "series": "VisionMount",
+    "model": "SANUS VMPL50A Tilting Mount",
+    "slug": "sanus-vmpl50a",
+    "releaseYear": 2010,
+    "price": 189.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wood stud and concrete or masonry"
+    ],
+    "features": [
+      "Virtual Axis fingertip tilt — adjust the angle with one finger",
+      "ProSet post-install height and levelling adjustment",
+      "150lb capacity",
+      "Lateral shift to centre the TV on off-centre studs",
+      "Audible click lock and UL certification"
+    ],
+    "specs": {
+      "mountType": "Tilting",
+      "screenSizeRange": "32-85 inches",
+      "maxWeightCapacity": 150,
+      "vesaMax": "600x400, with 22 published patterns from 100x100 upward",
+      "tiltRange": "9 degrees up and 10 degrees down, 19 degrees total",
+      "swivelRange": "None",
+      "extensionRange": "Not applicable",
+      "profileDepth": "1.81 inches",
+      "studSpacing": "Wood stud and concrete or masonry; SANUS does not publish a spacing figure",
+      "levelAdjustment": "ProSet post-install height and levelling adjustment; SANUS does not publish a figure in degrees",
+      "cableManagement": "None published"
+    },
+    "scores": {
+      "stability": 9.5,
+      "adjustability": 6.5,
+      "installation": 9.0,
+      "buildQuality": 9.5,
+      "cableManagement": 3.0,
+      "lowProfile": 9.0,
+      "sizeRange": 8.5,
+      "value": 6.0
+    },
+    "pros": [
+      "Virtual Axis tilt genuinely works with one finger, even on a large TV",
+      "ProSet post-install adjustment means you can level it after the TV is hung, which is rare",
+      "150lb capacity at only 1.81 inches from the wall",
+      "SANUS is the largest US mount brand and the build quality shows"
+    ],
+    "cons": [
+      "SANUS's own professional site lists this product as discontinued while the consumer site still shows it as active — confirm availability before buying",
+      "The $189.99 list price is far above typical street price, so never take the MSRP at face value",
+      "No cable management",
+      "SANUS does not publish a stud spacing figure or a levelling range in degrees"
+    ],
+    "images": [],
+    "amazonAsin": "B003WUBL0S",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echogear-eglt1",
+      "mounting-dream-md2268lk",
+      "sanus-vlf728"
+    ],
+    "useCases": [
+      "tilting",
+      "above-fireplace",
+      "large-tv"
+    ],
+    "shortTagline": "Fingertip tilt and post-install levelling — the premium tilting mount."
+  },
+  {
+    "id": "tm-sanus-vlf728",
+    "categorySlug": "tv-mounts",
+    "brand": "SANUS",
+    "series": "Advanced Full-Motion",
+    "model": "SANUS VLF728 Advanced Full-Motion Premium Mount",
+    "slug": "sanus-vlf728",
+    "releaseYear": 2019,
+    "price": 429.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Brushed Steel"
+    ],
+    "material": "Solid steel frame with brushed metal finish",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wood stud or solid concrete and block"
+    ],
+    "features": [
+      "Extends up to 28 inches from the wall — the longest reach here",
+      "FluidMotion movement with SteadySet hold, so it stays where you put it",
+      "Integrated cable management routed through the arms",
+      "Up to 16 inches of lateral TV shift to centre on off-centre studs",
+      "Optional in-wall power kit and paintable cable tunnel"
+    ],
+    "specs": {
+      "mountType": "Full-motion",
+      "screenSizeRange": "42-90 inches",
+      "maxWeightCapacity": 125,
+      "vesaMax": "600x400, with 12 published patterns from 200x200 upward",
+      "tiltRange": "15 degrees per SANUS; retailer spec tables publish 20 degrees total, from -15 to +5",
+      "swivelRange": "57 degrees per side, 114 degrees total",
+      "extensionRange": "2.15 to 28 inches",
+      "profileDepth": "2.15 inches",
+      "studSpacing": "Wood stud or solid concrete and block, with up to 16 inches of lateral shift to centre the TV",
+      "levelAdjustment": "Minor levelling by loosening and retightening the TV bracket screws; SANUS does not publish a figure in degrees",
+      "cableManagement": "Yes — integrated, with cables routed through the arms"
+    },
+    "scores": {
+      "stability": 9.5,
+      "adjustability": 9.5,
+      "installation": 8.5,
+      "buildQuality": 9.5,
+      "cableManagement": 9.0,
+      "lowProfile": 8.0,
+      "sizeRange": 9.0,
+      "value": 6.5
+    },
+    "pros": [
+      "28 inches of extension is the longest reach here — it will genuinely pull a TV into the middle of a room",
+      "FluidMotion and SteadySet mean it moves easily but does not drift afterwards",
+      "Integrated cable management through the arms, which most full-motion mounts skip",
+      "The best-documented mount here — manufacturer page, sell sheet, manual and retailer spec tables all agree"
+    ],
+    "cons": [
+      "The $429.99 list price is dramatically above street price — do not treat the MSRP as what you will pay",
+      "125lb capacity is lower than several cheaper mounts here",
+      "SANUS publishes no levelling range in degrees",
+      "SANUS and retailer spec tables state the tilt range differently"
+    ],
+    "images": [],
+    "amazonAsin": "B07T9839ZL",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echogear-eglf2",
+      "usx-mount-xml019",
+      "sanus-vmpl50a",
+      "videosecu-ml531be"
+    ],
+    "useCases": [
+      "full-motion",
+      "large-tv"
+    ],
+    "shortTagline": "28 inches of reach with cable management — the premium full-motion mount."
+  },
+  {
+    "id": "tm-echogear-eglf2",
+    "categorySlug": "tv-mounts",
+    "brand": "ECHOGEAR",
+    "series": "MaxMotion",
+    "model": "ECHOGEAR EGLF2 MaxMotion Full Motion Mount",
+    "slug": "echogear-eglf2",
+    "releaseYear": 2017,
+    "price": 114.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "16 and 24-inch studs"
+    ],
+    "features": [
+      "130 degrees of swivel and 22 inches of extension",
+      "Plus or minus 3 degrees of post-install levelling — a published figure, which is rare",
+      "Tool-free tilt adjustment",
+      "5-year warranty",
+      "ECHOGEAR plants a tree for every MaxMotion mount sold"
+    ],
+    "specs": {
+      "mountType": "Full-motion",
+      "screenSizeRange": "42-90 inches",
+      "maxWeightCapacity": 125,
+      "vesaMax": "600x400, minimum 200x100",
+      "tiltRange": "15 degrees down and 5 degrees up",
+      "swivelRange": "130 degrees",
+      "extensionRange": "2.4 to 22 inches",
+      "profileDepth": "2.4 inches",
+      "studSpacing": "16 and 24-inch studs",
+      "levelAdjustment": "Plus or minus 3 degrees post-install",
+      "cableManagement": "Not published by the manufacturer"
+    },
+    "scores": {
+      "stability": 8.5,
+      "adjustability": 9.0,
+      "installation": 8.5,
+      "buildQuality": 8.5,
+      "cableManagement": 4.0,
+      "lowProfile": 7.5,
+      "sizeRange": 9.0,
+      "value": 8.5
+    },
+    "pros": [
+      "130 degrees of swivel and 22 inches of extension for around a quarter of the SANUS price",
+      "Publishes an actual post-install levelling figure of plus or minus 3 degrees, which most brands do not",
+      "Tool-free tilt adjustment",
+      "5-year warranty and real manufacturer documentation"
+    ],
+    "cons": [
+      "Requires dual studs at 16 or 24 inches — there is no single-stud option",
+      "Neither the product page nor the fact sheet mentions any cable management system",
+      "ECHOGEAR's own site and its own fact sheet disagree on both the price and the screen size range",
+      "A second Amazon listing also reports model EGLF2 but carries a different part number, so confirm which you are buying"
+    ],
+    "images": [],
+    "amazonAsin": "B073QX1ZMS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sanus-vlf728",
+      "usx-mount-xml019",
+      "videosecu-ml531be",
+      "echogear-eglt1"
+    ],
+    "useCases": [
+      "full-motion",
+      "large-tv"
+    ],
+    "shortTagline": "130 degrees of swivel and 22 inches of reach at a quarter of premium pricing."
+  },
+  {
+    "id": "tm-usx-mount-xml019",
+    "categorySlug": "tv-mounts",
+    "brand": "USX MOUNT",
+    "series": "XML",
+    "model": "USX MOUNT XML019 Full Motion Mount",
+    "slug": "usx-mount-xml019",
+    "releaseYear": 2020,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "8 and 16-inch wood studs"
+    ],
+    "features": [
+      "132lb capacity at under $60 — the best capacity per dollar here",
+      "Plus or minus 4 degrees of post-install levelling",
+      "Velcro cable straps along both arms",
+      "UL Listed, with a bubble level and mounting template included",
+      "Supports 8-inch as well as 16-inch stud spacing"
+    ],
+    "specs": {
+      "mountType": "Full-motion",
+      "screenSizeRange": "42-86 inches per USX MOUNT, though various Amazon listings state 37-86 and 47-84 inches",
+      "maxWeightCapacity": 132,
+      "vesaMax": "600x400, minimum 200x100",
+      "tiltRange": "15 degrees down and 5 degrees up",
+      "swivelRange": "Plus or minus 45 degrees, with the maximum angle varying by screen size",
+      "extensionRange": "2.52 to 16.61 inches",
+      "profileDepth": "2.52 inches",
+      "studSpacing": "8 and 16-inch wood studs",
+      "levelAdjustment": "Plus or minus 4 degrees post-install",
+      "cableManagement": "Yes — velcro cable straps along the arms"
+    },
+    "scores": {
+      "stability": 8.5,
+      "adjustability": 8.0,
+      "installation": 8.5,
+      "buildQuality": 8.0,
+      "cableManagement": 6.5,
+      "lowProfile": 7.0,
+      "sizeRange": 8.5,
+      "value": 9.5
+    },
+    "pros": [
+      "132lb capacity at $59.99 is the best weight-per-dollar of any mount here",
+      "8-inch stud spacing support is genuinely useful in older homes and narrow walls",
+      "UL Listed with a published levelling figure and cable straps included",
+      "Bubble level and mounting template in the box"
+    ],
+    "cons": [
+      "16.61 inches of extension is modest next to the SANUS and ECHOGEAR full-motion mounts",
+      "Swivel is conditional on TV width, so a large TV will not reach the full 45 degrees",
+      "The screen size range differs between USX MOUNT's own page and several Amazon listings",
+      "The manufacturer page states the levelling figure inconsistently in two places"
+    ],
+    "images": [],
+    "amazonAsin": "B08M92P11W",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echogear-eglf2",
+      "videosecu-ml531be",
+      "sanus-vlf728",
+      "perlesmith-psllk1"
+    ],
+    "useCases": [
+      "full-motion",
+      "large-tv"
+    ],
+    "shortTagline": "132lb capacity for $60 — the best weight-per-dollar mount here."
+  },
+  {
+    "id": "tm-videosecu-ml531be",
+    "categorySlug": "tv-mounts",
+    "brand": "VideoSecu",
+    "series": "ML",
+    "model": "VideoSecu ML531BE Full Motion Mount",
+    "slug": "videosecu-ml531be",
+    "releaseYear": 2008,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Powder-coated steel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wood stud"
+    ],
+    "features": [
+      "20-inch extension arm at under $40",
+      "Bubble level included in the box",
+      "One of the longest-running mounts on Amazon",
+      "Bundled with a magnetic stud finder and HDMI cable"
+    ],
+    "specs": {
+      "mountType": "Full-motion",
+      "screenSizeRange": "27-55 inches per VideoSecu, though Amazon listings variously claim up to 60 inches",
+      "maxWeightCapacity": 88,
+      "vesaMax": "400x400",
+      "tiltRange": "Not published by the manufacturer",
+      "swivelRange": "Not published by the manufacturer",
+      "extensionRange": "Extends to 20 inches; the retracted minimum is not published",
+      "profileDepth": "Not published by the manufacturer",
+      "studSpacing": "Not published by the manufacturer",
+      "levelAdjustment": "A bubble level is included, but post-install levelling capability is not published",
+      "cableManagement": "Not published by the manufacturer"
+    },
+    "scores": {
+      "stability": 6.5,
+      "adjustability": 7.0,
+      "installation": 6.5,
+      "buildQuality": 6.0,
+      "cableManagement": 2.0,
+      "lowProfile": 5.5,
+      "sizeRange": 5.0,
+      "value": 8.0
+    },
+    "pros": [
+      "A genuine 20-inch articulating arm for under $40 — the cheapest full-motion option here",
+      "Bubble level, magnetic stud finder and HDMI cable included",
+      "Very long track record, so real-world reliability is well established"
+    ],
+    "cons": [
+      "88lb capacity and VESA 400x400 rule out most TVs above 55 inches",
+      "The weakest spec documentation of any branded mount here — tilt, swivel, profile depth, stud spacing and cable management are all unpublished",
+      "It is frequently mis-catalogued as a tilting mount; it is full-motion",
+      "The main Amazon listing is a bundle SKU whose model number differs from the manufacturer's, so confirm before buying"
+    ],
+    "images": [],
+    "amazonAsin": "B000WYVBR0",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "usx-mount-xml019",
+      "echogear-eglf2",
+      "sanus-vlf728"
+    ],
+    "useCases": [
+      "full-motion"
+    ],
+    "shortTagline": "A 20-inch articulating arm for under $40 — but only for TVs up to 55 inches."
+  }
+]
