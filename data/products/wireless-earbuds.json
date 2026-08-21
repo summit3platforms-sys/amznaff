@@ -1,0 +1,989 @@
+[
+  {
+    "id": "eb-soundcore-liberty-4-nc",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Anker",
+    "series": "Soundcore Liberty",
+    "model": "Soundcore Liberty 4 NC",
+    "slug": "soundcore-liberty-4-nc",
+    "releaseYear": 2023,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Blue",
+      "Pink"
+    ],
+    "material": "Plastic with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "LDAC",
+      "USB-C",
+      "Qi wireless charging"
+    ],
+    "features": [
+      "LDAC hi-res streaming and wireless charging, both rare under $100",
+      "Adaptive ANC 2.0 with a claimed 98.5% noise reduction",
+      "50 hours total with ANC off",
+      "HearID 2.0 hearing personalisation and full custom EQ",
+      "10 minutes of charging gives 4 hours"
+    ],
+    "specs": {
+      "batteryBuds": 8,
+      "batteryTotal": 40,
+      "anc": "Adaptive ANC 2.0, hybrid, with a claimed 98.5% noise reduction",
+      "driverSize": 11,
+      "bluetooth": "5.3",
+      "multipoint": true,
+      "waterResistance": "IPX4",
+      "wirelessCharging": true,
+      "weightPerBud": 5.2,
+      "codecs": "SBC, AAC, LDAC",
+      "spatialAudio": "Not published by the manufacturer",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 7.5,
+      "anc": 7.5,
+      "battery": 9.0,
+      "comfort": 7.5,
+      "calls": 7.0,
+      "features": 8.5,
+      "durability": 6.5,
+      "value": 9.5
+    },
+    "pros": [
+      "LDAC and Qi wireless charging at under $100 is an unusual combination",
+      "8 hours in the buds with ANC on matches flagships costing three times as much",
+      "Full custom EQ plus hearing personalisation",
+      "Frequently discounted well below list"
+    ],
+    "cons": [
+      "Plastic build feels its price",
+      "ANC is strong for the money but short of Bose or Sony",
+      "Only IPX4, so no dust protection",
+      "Soundcore now sells the Liberty 5 above it, so this is the value tier rather than the newest"
+    ],
+    "images": [],
+    "amazonAsin": "B0BZV4QFP8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "galaxy-buds-3-fe",
+      "nothing-ear-3a",
+      "jbl-tune-beam-2",
+      "pixel-buds-2a"
+    ],
+    "useCases": [
+      "budget",
+      "commute",
+      "workout"
+    ],
+    "shortTagline": "LDAC and wireless charging under $100 — the budget benchmark."
+  },
+  {
+    "id": "eb-jbl-tune-beam-2",
+    "categorySlug": "wireless-earbuds",
+    "brand": "JBL",
+    "series": "Tune",
+    "model": "JBL Tune Beam 2",
+    "slug": "jbl-tune-beam-2",
+    "releaseYear": 2025,
+    "price": 109.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Blue",
+      "Purple"
+    ],
+    "material": "Plastic with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C"
+    ],
+    "features": [
+      "10 hours in the buds with ANC on — the longest single-charge figure here",
+      "48 hours total with the case",
+      "Adaptive Noise Cancelling with Ambient Aware and TalkThru",
+      "Personi-Fi 3.0 hearing personalisation",
+      "Six microphones"
+    ],
+    "specs": {
+      "batteryBuds": 10,
+      "batteryTotal": 48,
+      "anc": "Adaptive Noise Cancelling with Ambient Aware and TalkThru modes",
+      "driverSize": 10,
+      "bluetooth": "5.3",
+      "multipoint": true,
+      "waterResistance": "IP54",
+      "wirelessCharging": false,
+      "weightPerBud": 5.2,
+      "codecs": "JBL publishes Bluetooth profiles but not codec support for this model",
+      "spatialAudio": "JBL Spatial Sound upmixing; head tracking is not listed",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 7.0,
+      "anc": 7.0,
+      "battery": 9.5,
+      "comfort": 7.5,
+      "calls": 7.5,
+      "features": 7.5,
+      "durability": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "10 hours per charge with ANC on is the best here by a clear margin",
+      "48 hours total, and IP54 adds dust protection most rivals lack at this price",
+      "Six microphones and solid call performance",
+      "Personi-Fi hearing personalisation"
+    ],
+    "cons": [
+      "No confirmed US Amazon listing at time of research, so there is no affiliate link — check JBL.com or Walmart",
+      "No wireless charging",
+      "Spatial audio is upmixed, not true object-based audio",
+      "JBL does not publish codec support, so hi-res streaming is unconfirmed"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "soundcore-liberty-4-nc",
+      "galaxy-buds-3-fe",
+      "nothing-ear-3a"
+    ],
+    "useCases": [
+      "budget",
+      "commute",
+      "calls"
+    ],
+    "shortTagline": "10 hours per charge with ANC on — the longest-lasting buds here."
+  },
+  {
+    "id": "eb-galaxy-buds-3-fe",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Samsung",
+    "series": "Galaxy Buds",
+    "model": "Samsung Galaxy Buds3 FE",
+    "slug": "galaxy-buds-3-fe",
+    "releaseYear": 2025,
+    "price": 119.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic stem design with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "USB-C"
+    ],
+    "features": [
+      "Stem design borrowed from the Buds3 Pro",
+      "Gemini integration and real-time translation on Galaxy phones",
+      "360 Audio spatial sound",
+      "Automatic switching across Galaxy devices",
+      "11mm dynamic driver"
+    ],
+    "specs": {
+      "batteryBuds": 6,
+      "batteryTotal": 24,
+      "anc": "Active Noise Cancelling with an additional microphone for background-noise reduction",
+      "driverSize": 11,
+      "bluetooth": "5.4",
+      "multipoint": "Not listed on Samsung's US specification",
+      "waterResistance": "IP54",
+      "wirelessCharging": false,
+      "weightPerBud": "Not published by the manufacturer",
+      "codecs": "Not listed on Samsung's US specification",
+      "spatialAudio": "360 Audio, but without head tracking on this model",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 7.5,
+      "anc": 7.0,
+      "battery": 6.5,
+      "comfort": 7.5,
+      "calls": 7.5,
+      "features": 7.5,
+      "durability": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Stem design and Galaxy AI features at well under Pro pricing",
+      "Real-time translation and Gemini on Galaxy phones",
+      "IP54 dust and water resistance",
+      "11mm driver"
+    ],
+    "cons": [
+      "No head tracking, unlike the Pro models",
+      "6 hours with ANC on is mid-pack at best",
+      "No wireless charging",
+      "The Galaxy Wearable app is Android-only, so there is no iOS support at all",
+      "Most of the interesting features need a Galaxy phone"
+    ],
+    "images": [],
+    "amazonAsin": "B0FGYDF3DD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "soundcore-liberty-4-nc",
+      "pixel-buds-2a",
+      "nothing-ear-3a",
+      "galaxy-buds-4-pro"
+    ],
+    "useCases": [
+      "budget",
+      "commute",
+      "calls"
+    ],
+    "shortTagline": "Galaxy AI features at half Pro money — if you own a Galaxy phone."
+  },
+  {
+    "id": "eb-nothing-ear-3a",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Nothing",
+    "series": "Ear",
+    "model": "Nothing Ear (3a)",
+    "slug": "nothing-ear-3a",
+    "releaseYear": 2026,
+    "price": 99.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Transparent plastic with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 6.0",
+      "LDAC",
+      "USB-C"
+    ],
+    "features": [
+      "Bluetooth 6.0 at $99, the newest radio in this category",
+      "8-band parametric EQ, the deepest EQ at any price here",
+      "Hybrid ANC up to 45dB with three strength modes",
+      "Hi-res 24-bit/96kHz over LDAC",
+      "Only 4.5g per bud"
+    ],
+    "specs": {
+      "batteryBuds": 6,
+      "batteryTotal": "Nothing publishes per-bud and case capacities but no verified ANC-on total",
+      "anc": "Hybrid ANC up to 45dB with three strength modes",
+      "driverSize": 12,
+      "bluetooth": "6.0",
+      "multipoint": true,
+      "waterResistance": "IP54",
+      "wirelessCharging": "Not published by the manufacturer",
+      "weightPerBud": 4.5,
+      "codecs": "SBC, AAC, LDAC",
+      "spatialAudio": "Yes; head tracking is not confirmed",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 8.0,
+      "anc": 8.0,
+      "battery": 7.0,
+      "comfort": 8.5,
+      "calls": 7.0,
+      "features": 8.5,
+      "durability": 7.0,
+      "value": 9.5
+    },
+    "pros": [
+      "8-band parametric EQ at $99 — nothing else here comes close on tuning control",
+      "Bluetooth 6.0 and LDAC hi-res at a budget price",
+      "Lightest buds here at 4.5g",
+      "12mm drivers, the largest in this group"
+    ],
+    "cons": [
+      "Short nozzles may compromise the seal, which affects both bass and ANC",
+      "Call recording and transcription are a paid add-on",
+      "The ChatGPT voice shortcut requires a Nothing phone and a subscription",
+      "Nothing does not publish a total ANC-on battery figure"
+    ],
+    "images": [],
+    "amazonAsin": "B0GZW1BYJF",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "nothing-ear-3",
+      "soundcore-liberty-4-nc",
+      "pixel-buds-2a",
+      "galaxy-buds-3-fe"
+    ],
+    "useCases": [
+      "budget",
+      "commute",
+      "travel"
+    ],
+    "shortTagline": "An 8-band parametric EQ and Bluetooth 6.0 for $99 — remarkable value."
+  },
+  {
+    "id": "eb-pixel-buds-2a",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Google",
+    "series": "Pixel Buds",
+    "model": "Google Pixel Buds 2a",
+    "slug": "pixel-buds-2a",
+    "releaseYear": 2025,
+    "price": 129.0,
+    "msrp": 129.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Hazel",
+      "Fog",
+      "Berry"
+    ],
+    "material": "Plastic with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "USB-C"
+    ],
+    "features": [
+      "Tensor A1 chip driving ANC — the first A-series Pixel Buds with real noise cancelling",
+      "Deep Gemini integration",
+      "11mm drivers",
+      "Only 4.7g per bud",
+      "IP54 buds and IPX4 case"
+    ],
+    "specs": {
+      "batteryBuds": 7,
+      "batteryTotal": 20,
+      "anc": "Active Noise Cancellation with Transparency, driven by the Tensor A1 chip",
+      "driverSize": 11,
+      "bluetooth": "5.4",
+      "multipoint": "Not listed on Google's specification",
+      "waterResistance": "IP54 buds, IPX4 case",
+      "wirelessCharging": "Not listed on Google's specification",
+      "weightPerBud": 4.7,
+      "codecs": "Google does not publish codec support for this model",
+      "spatialAudio": "Not published by the manufacturer",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 7.5,
+      "anc": 7.5,
+      "battery": 6.0,
+      "comfort": 8.5,
+      "calls": 7.5,
+      "features": 7.5,
+      "durability": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "First A-series Pixel Buds with genuine ANC, on Google's own Tensor A1 silicon",
+      "Very light at 4.7g per bud",
+      "Deep Gemini integration for Android users",
+      "IP54 rating"
+    ],
+    "cons": [
+      "20 hours total is the shortest battery in this group",
+      "Google publishes no codec list, so hi-res support is unknown",
+      "Functionality is heavily reduced on iOS — Gemini, Fast Pair and full settings are Android-centric",
+      "Wireless charging and multipoint are both absent from the spec sheet"
+    ],
+    "images": [],
+    "amazonAsin": "B0FGKTDTRB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "nothing-ear-3a",
+      "galaxy-buds-3-fe",
+      "soundcore-liberty-4-nc",
+      "airpods-pro-3"
+    ],
+    "useCases": [
+      "budget",
+      "commute",
+      "calls"
+    ],
+    "shortTagline": "Real ANC on Google's own silicon — best if you live in Android."
+  },
+  {
+    "id": "eb-nothing-ear-3",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Nothing",
+    "series": "Ear",
+    "model": "Nothing Ear (3)",
+    "slug": "nothing-ear-3",
+    "releaseYear": 2025,
+    "price": 179.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Transparent plastic with an aluminium case",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "LDAC",
+      "USB-C",
+      "Qi wireless charging"
+    ],
+    "features": [
+      "Super Mic — the aluminium case doubles as an external walkie-talkie-style microphone",
+      "Hybrid ANC up to 45dB with three strength modes",
+      "Premium metal charging case",
+      "Full parametric EQ",
+      "38 hours total with ANC off"
+    ],
+    "specs": {
+      "batteryBuds": 5.5,
+      "batteryTotal": 22,
+      "anc": "Hybrid ANC up to 45dB with Low, Mid and High modes",
+      "driverSize": 12,
+      "bluetooth": "5.4",
+      "multipoint": true,
+      "waterResistance": "IP54 buds and case",
+      "wirelessCharging": true,
+      "weightPerBud": 5.2,
+      "codecs": "SBC, AAC, LDAC",
+      "spatialAudio": "Not published by the manufacturer",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 8.0,
+      "anc": 8.2,
+      "battery": 6.5,
+      "comfort": 8.0,
+      "calls": 8.5,
+      "features": 9.0,
+      "durability": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "The Super Mic case is genuinely novel and works well for calls in noisy places",
+      "Premium aluminium case rather than plastic",
+      "Strong ANC for the price",
+      "Full parametric EQ and LDAC"
+    ],
+    "cons": [
+      "Only 5.5 hours with ANC on, the shortest per-charge figure here",
+      "Bass-heavy tuning with somewhat harsh treble",
+      "The Super Mic is a meaningful premium over the Ear (3a) for a feature many will rarely use"
+    ],
+    "images": [],
+    "amazonAsin": "B0FHWM1D2Y",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "nothing-ear-3a",
+      "sennheiser-mtw4",
+      "bose-qc-ultra-earbuds-2",
+      "sony-wf-1000xm6"
+    ],
+    "useCases": [
+      "calls",
+      "commute",
+      "travel"
+    ],
+    "shortTagline": "Its metal case doubles as an external microphone — genuinely novel."
+  },
+  {
+    "id": "eb-powerbeats-fit",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Beats",
+    "series": "Powerbeats",
+    "model": "Beats Powerbeats Fit",
+    "slug": "powerbeats-fit",
+    "releaseYear": 2025,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Spark Orange",
+      "Black",
+      "Power Pink",
+      "Gravel Grey"
+    ],
+    "material": "Plastic with flexible silicone wingtips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth (Class 1)",
+      "USB-C"
+    ],
+    "features": [
+      "Apple H1 chip with native pairing on iOS and a real Beats app on Android",
+      "Secure-fit wingtips designed for workouts",
+      "Personalised Spatial Audio with dynamic head tracking",
+      "Case is 17% smaller than the Beats Fit Pro's",
+      "Six microphones"
+    ],
+    "specs": {
+      "batteryBuds": 6,
+      "batteryTotal": 24,
+      "anc": "Active Noise Cancelling with Transparency, using six microphones",
+      "driverSize": "Not published by the manufacturer",
+      "bluetooth": "Class 1 Bluetooth; Beats does not publish a version number",
+      "multipoint": "Not published by the manufacturer",
+      "waterResistance": "IPX4 buds and case",
+      "wirelessCharging": false,
+      "weightPerBud": 5.78,
+      "codecs": "Not published by Beats",
+      "spatialAudio": "Yes, with dynamic head tracking",
+      "appEq": "Not published by the manufacturer"
+    },
+    "scores": {
+      "sound": 7.5,
+      "anc": 7.0,
+      "battery": 7.0,
+      "comfort": 8.5,
+      "calls": 7.5,
+      "features": 7.5,
+      "durability": 7.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The wingtip fit is the most secure here for running and gym work",
+      "Works properly on both iOS and Android, with an official Beats app on each",
+      "Case is noticeably smaller than the Fit Pro it replaces",
+      "Spatial Audio with head tracking on Apple devices"
+    ],
+    "cons": [
+      "H1 chip rather than the H2 in AirPods Pro 3, so a generation behind",
+      "No wireless charging",
+      "Beats publishes neither codec support nor a Bluetooth version",
+      "Only IPX4, so no dust rating despite the workout positioning"
+    ],
+    "images": [],
+    "amazonAsin": "B0FPGQMMGN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "airpods-pro-3",
+      "galaxy-buds-4-pro",
+      "sony-wf-1000xm6",
+      "soundcore-liberty-4-nc"
+    ],
+    "useCases": [
+      "workout",
+      "commute",
+      "travel"
+    ],
+    "shortTagline": "The most secure workout fit here, and it works fully on Android too."
+  },
+  {
+    "id": "eb-airpods-pro-3",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Apple",
+    "series": "AirPods Pro",
+    "model": "Apple AirPods Pro 3",
+    "slug": "airpods-pro-3",
+    "releaseYear": 2025,
+    "price": 249.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C",
+      "MagSafe and Qi wireless charging"
+    ],
+    "features": [
+      "Heart-rate sensing built into the buds",
+      "FDA-authorised Hearing Aid feature and hearing test",
+      "Live Translation",
+      "IP57, the best dust and water rating here",
+      "ANC claimed at roughly twice the effectiveness of AirPods Pro 2"
+    ],
+    "specs": {
+      "batteryBuds": 8,
+      "batteryTotal": 24,
+      "anc": "Apple ANC on the H2 chip; Apple claims roughly twice the noise reduction of AirPods Pro 2",
+      "driverSize": "Not published by the manufacturer",
+      "bluetooth": "5.3",
+      "multipoint": "No — Apple offers iCloud automatic device switching, which hands the connection over rather than holding two at once",
+      "waterResistance": "IP57",
+      "wirelessCharging": true,
+      "weightPerBud": 5.55,
+      "codecs": "SBC and AAC only — no aptX or LDAC",
+      "spatialAudio": "Yes, Personalised Spatial Audio with dynamic head tracking",
+      "appEq": false
+    },
+    "scores": {
+      "sound": 8.5,
+      "anc": 9.5,
+      "battery": 8.0,
+      "comfort": 9.0,
+      "calls": 9.0,
+      "features": 9.0,
+      "durability": 8.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Among the best noise cancelling in any earbud, and a huge step over the Pro 2",
+      "The FDA-authorised hearing aid feature is a genuine health function, not a gimmick",
+      "IP57 is the toughest rating here",
+      "Heart-rate sensing and Live Translation"
+    ],
+    "cons": [
+      "No EQ of any kind — you cannot adjust the tuning at all",
+      "No true multipoint, only Apple device switching",
+      "AAC and SBC only, with no hi-res codec",
+      "On Android you get playback and almost nothing else — you cannot even update the firmware without an Apple device"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQFB8FMG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wf-1000xm6",
+      "bose-qc-ultra-earbuds-2",
+      "galaxy-buds-4-pro",
+      "powerbeats-fit",
+      "pixel-buds-2a"
+    ],
+    "useCases": [
+      "commute",
+      "travel",
+      "calls",
+      "workout"
+    ],
+    "shortTagline": "Outstanding ANC and a real hearing-aid mode — if you own an iPhone."
+  },
+  {
+    "id": "eb-galaxy-buds-4-pro",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Samsung",
+    "series": "Galaxy Buds",
+    "model": "Samsung Galaxy Buds4 Pro",
+    "slug": "galaxy-buds-4-pro",
+    "releaseYear": 2026,
+    "price": 249.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic stem design with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "USB-C",
+      "Qi wireless charging"
+    ],
+    "features": [
+      "Two-way drivers with dual amplifiers — a woofer and tweeter in each bud",
+      "ANC 2.0 with real-time EQ analysis and wind-resistant microphones",
+      "Bluetooth Auracast support",
+      "24-bit/96kHz hi-res on select Galaxy phones",
+      "IP57 rating"
+    ],
+    "specs": {
+      "batteryBuds": 6,
+      "batteryTotal": 21,
+      "anc": "ANC 2.0 — adaptive, with real-time EQ analysis and repositioned wind-resistant microphones",
+      "driverSize": "Samsung states a two-way design with a woofer roughly 20% larger than the Buds3 Pro, but publishes no millimetre figure",
+      "bluetooth": "Samsung's US specification says 5.4 while retail listings claim 6.1 — unresolved",
+      "multipoint": "Yes, but across Samsung devices only",
+      "waterResistance": "IP57",
+      "wirelessCharging": true,
+      "weightPerBud": "Not published by the manufacturer",
+      "codecs": "SBC, AAC, SSC and LC3 — no LDAC or aptX",
+      "spatialAudio": "Yes, with head tracking, but Samsung devices only",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 8.5,
+      "anc": 8.5,
+      "battery": 6.5,
+      "comfort": 8.0,
+      "calls": 8.5,
+      "features": 8.5,
+      "durability": 8.5,
+      "value": 7.0
+    },
+    "pros": [
+      "Two-way drivers with dual amplifiers is a genuinely more capable design than single-driver rivals",
+      "IP57 matches AirPods Pro 3 for ruggedness",
+      "Auracast support and 24-bit hi-res on Galaxy phones",
+      "Excellent call quality with wind-resistant mics"
+    ],
+    "cons": [
+      "6 hours with ANC on and 21 total is poor for a $249 product",
+      "Multipoint, head tracking, hi-res and translation all require Samsung hardware",
+      "No iOS app at all, so iPhone users get basic playback only",
+      "Samsung's own site and retail listings disagree on the Bluetooth version"
+    ],
+    "images": [],
+    "amazonAsin": "B0G1PJLWLZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "airpods-pro-3",
+      "sony-wf-1000xm6",
+      "bose-qc-ultra-earbuds-2",
+      "galaxy-buds-3-fe",
+      "powerbeats-fit"
+    ],
+    "useCases": [
+      "commute",
+      "calls",
+      "travel",
+      "workout"
+    ],
+    "shortTagline": "Two-way drivers and IP57 — the Galaxy flagship, locked to Galaxy phones."
+  },
+  {
+    "id": "eb-bose-qc-ultra-earbuds-2",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Bose",
+    "series": "QuietComfort Ultra",
+    "model": "Bose QuietComfort Ultra Earbuds (2nd Gen)",
+    "slug": "bose-qc-ultra-earbuds-2",
+    "releaseYear": 2025,
+    "price": 299.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White Smoke",
+      "Midnight Violet"
+    ],
+    "material": "Plastic with silicone tips and stability bands",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C",
+      "Qi wireless charging"
+    ],
+    "features": [
+      "The most effective noise cancelling of any earbud here",
+      "CustomTune calibrates to your ear canal on every wear",
+      "Wireless charging, new for this generation",
+      "Nine fit combinations from three tip and three band sizes",
+      "SpeechClarity AI call noise suppression"
+    ],
+    "specs": {
+      "batteryBuds": 6,
+      "batteryTotal": 24,
+      "anc": "Bose adjustable ANC with CustomTune ear-canal calibration; Quiet, Aware and Immersion modes",
+      "driverSize": "Not published by the manufacturer",
+      "bluetooth": "5.3",
+      "multipoint": true,
+      "waterResistance": "IPX4",
+      "wirelessCharging": true,
+      "weightPerBud": 7.26,
+      "codecs": "Bose lists Bluetooth profiles only; aptX Adaptive was on the first generation but is unconfirmed here",
+      "spatialAudio": "Yes — Bose Immersive Audio with Still and Motion head-tracked modes, plus a new Cinema Mode",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 8.5,
+      "anc": 9.8,
+      "battery": 6.0,
+      "comfort": 8.5,
+      "calls": 8.5,
+      "features": 8.0,
+      "durability": 6.5,
+      "value": 7.0
+    },
+    "pros": [
+      "Best noise cancelling available in an earbud, comfortably ahead of Apple and Sony",
+      "CustomTune ear-canal calibration meaningfully improves both ANC and sound",
+      "Nine fit combinations means almost anyone can get a seal",
+      "Wireless charging finally built into the case rather than a separate cover"
+    ],
+    "cons": [
+      "Worst battery in the premium tier — 6 hours, dropping to just 4 with Immersive Audio on",
+      "Only IPX4, with no dust protection at $299",
+      "Heaviest buds here at over 7g each",
+      "Bose publishes neither driver size nor codec support"
+    ],
+    "images": [],
+    "amazonAsin": "B0F7M3HPBD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wf-1000xm6",
+      "airpods-pro-3",
+      "sennheiser-mtw4",
+      "galaxy-buds-4-pro",
+      "nothing-ear-3"
+    ],
+    "useCases": [
+      "travel",
+      "commute",
+      "calls"
+    ],
+    "shortTagline": "The best noise cancelling in any earbud — at the cost of battery life."
+  },
+  {
+    "id": "eb-sennheiser-mtw4",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Sennheiser",
+    "series": "MOMENTUM True Wireless",
+    "model": "Sennheiser MOMENTUM True Wireless 4",
+    "slug": "sennheiser-mtw4",
+    "releaseYear": 2024,
+    "price": 299.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Graphite"
+    ],
+    "material": "Plastic with fabric-wrapped case",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "aptX Lossless",
+      "USB-C",
+      "Qi wireless charging"
+    ],
+    "features": [
+      "aptX Lossless — the widest codec support of any earbud here",
+      "30 hours total with 7 hours in the buds",
+      "Auracast support added by firmware",
+      "5-band EQ plus Sound Personalisation",
+      "5Hz to 21kHz frequency response"
+    ],
+    "specs": {
+      "batteryBuds": 7,
+      "batteryTotal": 30,
+      "anc": "Hybrid adaptive ANC with Transparency and six-microphone beamforming",
+      "driverSize": 7,
+      "bluetooth": "5.4",
+      "multipoint": true,
+      "waterResistance": "IP54",
+      "wirelessCharging": true,
+      "weightPerBud": 6.2,
+      "codecs": "SBC, AAC, aptX, aptX Adaptive, aptX Lossless and LC3",
+      "spatialAudio": "Not listed by Sennheiser for this model",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 9.0,
+      "anc": 8.0,
+      "battery": 8.5,
+      "comfort": 7.5,
+      "calls": 7.5,
+      "features": 8.5,
+      "durability": 7.5,
+      "value": 8.5
+    },
+    "pros": [
+      "aptX Lossless and the broadest codec support here — the audiophile pick",
+      "7 hours in the buds and 30 total, comfortably ahead of Bose or Samsung",
+      "Excellent, natural tuning with a 5Hz to 21kHz response",
+      "Street price has fallen far below list, making it the best value in the premium tier"
+    ],
+    "cons": [
+      "A successor, the MOMENTUM True Wireless 5, was announced for early September 2026 — if you can wait two weeks, do",
+      "7mm drivers are the smallest here",
+      "2024 hardware",
+      "ANC is good but a clear step behind Bose"
+    ],
+    "images": [],
+    "amazonAsin": "B0CTQ5YZYP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "bose-qc-ultra-earbuds-2",
+      "sony-wf-1000xm6",
+      "nothing-ear-3",
+      "airpods-pro-3"
+    ],
+    "useCases": [
+      "travel",
+      "commute",
+      "calls"
+    ],
+    "shortTagline": "aptX Lossless and the best value in the premium tier — but a successor is weeks away."
+  },
+  {
+    "id": "eb-sony-wf-1000xm6",
+    "categorySlug": "wireless-earbuds",
+    "brand": "Sony",
+    "series": "WF-1000X",
+    "model": "Sony WF-1000XM6",
+    "slug": "sony-wf-1000xm6",
+    "releaseYear": 2026,
+    "price": 329.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Platinum Silver"
+    ],
+    "material": "Plastic with silicone tips",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3 with Auracast",
+      "LDAC",
+      "LC3",
+      "USB-C",
+      "Qi wireless charging"
+    ],
+    "features": [
+      "QN3e HD Noise Cancelling Processor with four microphones per bud",
+      "10-band EQ in the Sony Sound Connect app, the deepest here",
+      "32-bit internal processing and DSEE Extreme upscaling",
+      "Bone-conduction sensor with AI beamforming for calls",
+      "11% slimmer than the WF-1000XM5"
+    ],
+    "specs": {
+      "batteryBuds": 8,
+      "batteryTotal": 24,
+      "anc": "QN3e HD Noise Cancelling Processor with an Integrated Processor V2 and four microphones per bud, around 25% more ambient noise reduction than the XM5",
+      "driverSize": 8.4,
+      "bluetooth": "5.3 with Auracast",
+      "multipoint": true,
+      "waterResistance": "IPX4",
+      "wirelessCharging": true,
+      "weightPerBud": 6.5,
+      "codecs": "SBC, AAC, LDAC and LC3",
+      "spatialAudio": "Yes — 360 Reality Audio with head tracking",
+      "appEq": true
+    },
+    "scores": {
+      "sound": 9.2,
+      "anc": 9.5,
+      "battery": 8.0,
+      "comfort": 8.0,
+      "calls": 9.0,
+      "features": 9.5,
+      "durability": 6.5,
+      "value": 7.5
+    },
+    "pros": [
+      "The most complete premium earbud here — top-tier ANC, sound and call quality together",
+      "10-band EQ gives more tuning control than any rival",
+      "LDAC hi-res plus Auracast",
+      "8 hours in the buds with ANC on"
+    ],
+    "cons": [
+      "The most expensive option here at $329.99, a $30 increase over the XM5",
+      "Only IPX4, behind the IP57 of AirPods Pro 3 and Galaxy Buds4 Pro",
+      "No aptX support",
+      "Matte plastic finish reads less premium than the Bose or Sennheiser"
+    ],
+    "images": [],
+    "amazonAsin": "B0G6HLWS6Q",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "bose-qc-ultra-earbuds-2",
+      "airpods-pro-3",
+      "sennheiser-mtw4",
+      "galaxy-buds-4-pro",
+      "nothing-ear-3"
+    ],
+    "useCases": [
+      "travel",
+      "commute",
+      "calls"
+    ],
+    "shortTagline": "The most complete premium earbud — top ANC, sound and a 10-band EQ."
+  }
+]

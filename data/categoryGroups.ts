@@ -26,7 +26,7 @@ export const categoryGroups: CategoryGroup[] = [
     items: [
       { name: 'Smart TVs', slug: 'tv' },
       { name: 'Streaming Devices', slug: 'streaming-devices' },
-      { name: 'Soundbars' },
+      { name: 'Soundbars', slug: 'soundbars' },
       { name: 'Projectors' },
       { name: 'TV Mounts' },
       { name: 'Blu-ray Players' }
@@ -36,11 +36,11 @@ export const categoryGroups: CategoryGroup[] = [
     name: 'Audio',
     iconKey: 'audio',
     items: [
-      { name: 'Bluetooth Speakers' },
-      { name: 'Wireless Earbuds' },
+      { name: 'Bluetooth Speakers', slug: 'bluetooth-speakers' },
+      { name: 'Wireless Earbuds', slug: 'wireless-earbuds' },
       { name: 'Headphones', slug: 'headphones' },
-      { name: 'Soundbars' },
-      { name: 'Home Speakers' }
+      { name: 'Soundbars', slug: 'soundbars' },
+      { name: 'Home Speakers', slug: 'home-speakers' }
     ]
   },
   {

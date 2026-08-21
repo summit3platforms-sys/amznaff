@@ -130,6 +130,173 @@ export const categories: Category[] = [
       { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
       { slug: 'smart-home', label: 'Smart Home', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'soundbars',
+    name: 'Soundbar',
+    pluralName: 'Soundbars',
+    description:
+      'Soundbars compared spec-for-spec \u2014 channel layout, Dolby Atmos and DTS:X support, HDMI passthrough, subwoofer and rear-speaker options \u2014 so you know exactly which one to buy for your TV.',
+    specFields: [
+      { key: 'channels', label: 'Channels', betterDirection: 'none' },
+      { key: 'totalPowerWatts', label: 'Total Power', unit: 'W', betterDirection: 'higher' },
+      { key: 'subwoofer', label: 'Subwoofer', betterDirection: 'none' },
+      { key: 'rearSpeakers', label: 'Rear Speakers', betterDirection: 'none' },
+      { key: 'dolbyAtmos', label: 'Dolby Atmos', betterDirection: 'none' },
+      { key: 'dtsX', label: 'DTS:X', betterDirection: 'none' },
+      { key: 'hdmiPorts', label: 'HDMI Ports', unit: 'ports', betterDirection: 'higher' },
+      { key: 'hdmiPassthrough', label: 'HDMI Passthrough', betterDirection: 'none' },
+      { key: 'eArc', label: 'eARC', betterDirection: 'none' },
+      { key: 'wifi', label: 'Wi-Fi & Streaming', betterDirection: 'none' },
+      { key: 'bluetooth', label: 'Bluetooth', betterDirection: 'none' },
+      { key: 'voiceAssistant', label: 'Voice Assistant', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'sound', label: 'Sound Quality', description: 'Overall tonal balance, clarity and detail' },
+      { key: 'bass', label: 'Bass', description: 'Low-end weight and extension, with or without a separate subwoofer' },
+      { key: 'dialogue', label: 'Dialogue Clarity', description: 'How well speech cuts through a busy soundtrack' },
+      { key: 'surround', label: 'Surround & Height', description: 'Dolby Atmos height effect and how convincingly it places surround audio' },
+      { key: 'connectivity', label: 'Connectivity', description: 'HDMI inputs and passthrough, eARC, Wi-Fi and streaming protocol support' },
+      { key: 'features', label: 'Features', description: 'Room calibration, TV-brand integration, app control and expandability' },
+      { key: 'design', label: 'Design & Build', description: 'Finish, size relative to a TV, and how well it fits a living room' },
+      { key: 'value', label: 'Value', description: 'Performance and features relative to price' }
+    ],
+    filters: [
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'under-500', label: 'Under $500', kind: 'price-max', value: 500 },
+      { slug: 'under-1000', label: 'Under $1,000', kind: 'price-max', value: 1000 },
+      { slug: 'under-2000', label: 'Under $2,000', kind: 'price-max', value: 2000 },
+      { slug: 'dolby-atmos', label: 'Dolby Atmos', kind: 'use-case' },
+      { slug: 'gaming', label: 'Gaming', kind: 'use-case' },
+      { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
+      { slug: 'tv-upgrade', label: 'TV Sound Upgrade', kind: 'use-case' },
+      { slug: 'compact', label: 'Small Rooms', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'wireless-earbuds',
+    name: 'Wireless Earbuds',
+    pluralName: 'Wireless Earbuds',
+    description:
+      'True wireless earbuds compared spec-for-spec \u2014 battery life, noise cancelling, codecs, water resistance and call quality \u2014 so you know exactly which pair to buy.',
+    specFields: [
+      { key: 'batteryBuds', label: 'Battery (ANC on)', unit: 'hrs', betterDirection: 'higher' },
+      { key: 'batteryTotal', label: 'Battery with Case', unit: 'hrs', betterDirection: 'higher' },
+      { key: 'anc', label: 'Active Noise Cancelling', betterDirection: 'none' },
+      { key: 'driverSize', label: 'Driver Size', unit: 'mm', betterDirection: 'none' },
+      { key: 'bluetooth', label: 'Bluetooth', betterDirection: 'none' },
+      { key: 'multipoint', label: 'Multipoint', betterDirection: 'none' },
+      { key: 'waterResistance', label: 'Water Resistance', betterDirection: 'none' },
+      { key: 'wirelessCharging', label: 'Wireless Charging', betterDirection: 'none' },
+      { key: 'weightPerBud', label: 'Weight per Bud', unit: 'g', betterDirection: 'lower' },
+      { key: 'codecs', label: 'Codecs', betterDirection: 'none' },
+      { key: 'spatialAudio', label: 'Spatial Audio', betterDirection: 'none' },
+      { key: 'appEq', label: 'App EQ', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'sound', label: 'Sound Quality', description: 'Tuning, detail and codec support' },
+      { key: 'anc', label: 'Noise Cancelling', description: 'How much ambient noise is actually removed' },
+      { key: 'battery', label: 'Battery', description: 'Playtime in the buds and total runtime with the case' },
+      { key: 'comfort', label: 'Comfort & Fit', description: 'Weight, fit options and how they feel over long sessions' },
+      { key: 'calls', label: 'Call Quality', description: 'Microphone performance and background noise rejection' },
+      { key: 'features', label: 'Features', description: 'App depth, spatial audio, multipoint and extras' },
+      { key: 'durability', label: 'Durability', description: 'IP rating, build materials and case robustness' },
+      { key: 'value', label: 'Value', description: 'Features and performance relative to price' }
+    ],
+    filters: [
+      { slug: 'under-80', label: 'Under $80', kind: 'price-max', value: 80 },
+      { slug: 'under-150', label: 'Under $150', kind: 'price-max', value: 150 },
+      { slug: 'under-250', label: 'Under $250', kind: 'price-max', value: 250 },
+      { slug: 'under-350', label: 'Under $350', kind: 'price-max', value: 350 },
+      { slug: 'budget', label: 'Budget', kind: 'use-case' },
+      { slug: 'workout', label: 'Workouts', kind: 'use-case' },
+      { slug: 'commute', label: 'Commute', kind: 'use-case' },
+      { slug: 'travel', label: 'Travel', kind: 'use-case' },
+      { slug: 'calls', label: 'Calls', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'bluetooth-speakers',
+    name: 'Bluetooth Speaker',
+    pluralName: 'Bluetooth Speakers',
+    description:
+      'Portable Bluetooth speakers compared spec-for-spec \u2014 battery life, waterproofing, power output, driver layout and pairing \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'batteryLife', label: 'Battery Life', unit: 'hrs', betterDirection: 'higher' },
+      { key: 'waterResistance', label: 'Water & Dust Rating', betterDirection: 'none' },
+      { key: 'floats', label: 'Floats', betterDirection: 'none' },
+      { key: 'powerOutput', label: 'Power Output', unit: 'W', betterDirection: 'higher' },
+      { key: 'weight', label: 'Weight', unit: 'g', betterDirection: 'lower' },
+      { key: 'bluetooth', label: 'Bluetooth', betterDirection: 'none' },
+      { key: 'driverConfig', label: 'Drivers', betterDirection: 'none' },
+      { key: 'stereoPairing', label: 'Stereo & Multi-Speaker Pairing', betterDirection: 'none' },
+      { key: 'speakerphone', label: 'Speakerphone', betterDirection: 'none' },
+      { key: 'appEq', label: 'App EQ', betterDirection: 'none' },
+      { key: 'powerBank', label: 'Charges Your Phone', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'sound', label: 'Sound Quality', description: 'Tonal balance, clarity and detail' },
+      { key: 'bass', label: 'Bass', description: 'Low-end weight and extension for the size' },
+      { key: 'battery', label: 'Battery', description: 'Rated playtime and how it holds up at real listening volume' },
+      { key: 'durability', label: 'Durability', description: 'IP rating, drop resistance and whether it floats' },
+      { key: 'portability', label: 'Portability', description: 'Weight, size and how easily it travels' },
+      { key: 'loudness', label: 'Loudness', description: 'Maximum usable volume before it strains' },
+      { key: 'features', label: 'Features', description: 'App EQ, multi-speaker pairing, charge-out and extras' },
+      { key: 'value', label: 'Value', description: 'Performance and features relative to price' }
+    ],
+    filters: [
+      { slug: 'under-70', label: 'Under $70', kind: 'price-max', value: 70 },
+      { slug: 'under-130', label: 'Under $130', kind: 'price-max', value: 130 },
+      { slug: 'under-250', label: 'Under $250', kind: 'price-max', value: 250 },
+      { slug: 'under-500', label: 'Under $500', kind: 'price-max', value: 500 },
+      { slug: 'portable', label: 'Portable', kind: 'use-case' },
+      { slug: 'outdoor', label: 'Outdoors', kind: 'use-case' },
+      { slug: 'poolside', label: 'Pool & Beach', kind: 'use-case' },
+      { slug: 'party', label: 'Parties', kind: 'use-case' },
+      { slug: 'home', label: 'Home Listening', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'home-speakers',
+    name: 'Home Speaker',
+    pluralName: 'Home Speakers',
+    description:
+      'Smart and Wi-Fi home speakers compared spec-for-spec \u2014 voice assistants, multiroom systems, streaming protocols, Matter and Thread support \u2014 so you know exactly which one to buy.',
+    specFields: [
+      { key: 'voiceAssistant', label: 'Voice Assistant', betterDirection: 'none' },
+      { key: 'drivers', label: 'Drivers', betterDirection: 'none' },
+      { key: 'powerOutput', label: 'Power Output', unit: 'W', betterDirection: 'higher' },
+      { key: 'wifi', label: 'Wi-Fi', betterDirection: 'none' },
+      { key: 'bluetooth', label: 'Bluetooth', betterDirection: 'none' },
+      { key: 'streamingProtocols', label: 'Streaming Protocols', betterDirection: 'none' },
+      { key: 'multiroom', label: 'Multiroom System', betterDirection: 'none' },
+      { key: 'stereoPairing', label: 'Stereo Pairing', betterDirection: 'none' },
+      { key: 'smartHomeHub', label: 'Smart Home Hub', betterDirection: 'none' },
+      { key: 'spatialAudio', label: 'Spatial Audio', betterDirection: 'none' },
+      { key: 'lineIn', label: 'Line In', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'sound', label: 'Sound Quality', description: 'Tonal balance, clarity and detail for the size' },
+      { key: 'bass', label: 'Bass', description: 'Low-end weight and extension' },
+      { key: 'smartFeatures', label: 'Smart Home', description: 'Matter, Thread, Zigbee and hub capability' },
+      { key: 'multiroom', label: 'Multiroom', description: 'How well it groups with other speakers around the house' },
+      { key: 'connectivity', label: 'Connectivity', description: 'Wi-Fi standard, Bluetooth, streaming protocols and physical inputs' },
+      { key: 'design', label: 'Design & Build', description: 'Materials, finish and how it looks in a room' },
+      { key: 'voiceAssistant', label: 'Voice Assistant', description: 'Which assistants are built in and how well they work' },
+      { key: 'value', label: 'Value', description: 'Performance and features relative to price' }
+    ],
+    filters: [
+      { slug: 'under-110', label: 'Under $110', kind: 'price-max', value: 110 },
+      { slug: 'under-250', label: 'Under $250', kind: 'price-max', value: 250 },
+      { slug: 'under-400', label: 'Under $400', kind: 'price-max', value: 400 },
+      { slug: 'under-700', label: 'Under $700', kind: 'price-max', value: 700 },
+      { slug: 'smart-home', label: 'Smart Home', kind: 'use-case' },
+      { slug: 'multiroom', label: 'Multiroom', kind: 'use-case' },
+      { slug: 'music', label: 'Music Listening', kind: 'use-case' },
+      { slug: 'voice-control', label: 'Voice Control', kind: 'use-case' },
+      { slug: 'home-theater', label: 'Home Theater', kind: 'use-case' },
+      { slug: 'home', label: 'Home Listening', kind: 'use-case' }
+    ]
   }
 ];
 

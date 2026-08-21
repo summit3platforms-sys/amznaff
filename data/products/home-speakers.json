@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "hs-echo-dot-5",
+    "categorySlug": "home-speakers",
+    "brand": "Amazon",
+    "series": "Echo Dot",
+    "model": "Amazon Echo Dot (5th Gen)",
+    "slug": "echo-dot-5",
+    "releaseYear": 2022,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Charcoal",
+      "Glacier White",
+      "Deep Sea Blue"
+    ],
+    "material": "Fabric-wrapped sphere",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi",
+      "Bluetooth",
+      "eero built-in Wi-Fi extender"
+    ],
+    "features": [
+      "Built-in temperature sensor",
+      "Ultrasound motion detection",
+      "Tap-gesture controls",
+      "eero Wi-Fi extender built in",
+      "Alexa+ compatible"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa",
+      "drivers": "1x 1.73-inch front-firing full-range driver (mono)",
+      "powerOutput": "Not published by the manufacturer",
+      "wifi": "Dual-band 2.4/5GHz (802.11a/b/g/n/ac); Amazon publishes band support rather than a numbered standard",
+      "bluetooth": "Amazon publishes no version; independent testing reports Bluetooth 4.2 with SBC only",
+      "streamingProtocols": "Alexa Cast and Spotify Connect; no AirPlay 2 and no Chromecast",
+      "multiroom": "Alexa Multi-Room Music",
+      "stereoPairing": true,
+      "smartHomeHub": "Partial — a Matter controller over Wi-Fi, but no Zigbee and NOT a Thread border router",
+      "spatialAudio": false,
+      "lineIn": false
+    },
+    "scores": {
+      "sound": 5.0,
+      "bass": 4.0,
+      "smartFeatures": 7.0,
+      "multiroom": 7.0,
+      "connectivity": 5.0,
+      "design": 7.0,
+      "voiceAssistant": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The cheapest way into a smart speaker at $49.99",
+      "Built-in temperature sensor and motion detection enable useful automations",
+      "eero extender genuinely helps Wi-Fi coverage",
+      "Can be stereo paired with a second Dot"
+    ],
+    "cons": [
+      "Distorts noticeably at volume — this is a voice assistant that plays music, not a music speaker",
+      "Not a Thread border router, unlike the Dot Max and Studio",
+      "The 3.5mm jack was removed at this generation",
+      "The oldest hardware in Amazon's speaker range and the only one not refreshed in the 2025 cycle"
+    ],
+    "images": [],
+    "amazonAsin": "B09B8V1LZ3",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-dot-max",
+      "google-home-speaker",
+      "homepod-mini"
+    ],
+    "useCases": [
+      "voice-control",
+      "smart-home",
+      "multiroom"
+    ],
+    "shortTagline": "The cheapest way into Alexa — a voice assistant that happens to play music."
+  },
+  {
+    "id": "hs-echo-dot-max",
+    "categorySlug": "home-speakers",
+    "brand": "Amazon",
+    "series": "Echo Dot",
+    "model": "Amazon Echo Dot Max",
+    "slug": "echo-dot-max",
+    "releaseYear": 2025,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Graphite",
+      "Glacier White",
+      "Amethyst"
+    ],
+    "material": "3D-knit fabric-wrapped body",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E",
+      "Bluetooth LE 5.3",
+      "Zigbee",
+      "Thread",
+      "Matter",
+      "eero built-in extender"
+    ],
+    "features": [
+      "A genuine two-way speaker with a dedicated tweeter, unusual at $99",
+      "Full smart-home hub — Zigbee, Matter and a Thread 1.3 border router",
+      "AZ3 chip with an AI accelerator",
+      "Automatic Room Adaptation",
+      "Temperature and light sensors plus presence detection"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa, shipping with Alexa+ Early Access",
+      "drivers": "Two-way — 1x 2.5-inch high-excursion woofer plus 1x 0.8-inch custom tweeter",
+      "powerOutput": "Not published by the manufacturer",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "LE 5.3",
+      "streamingProtocols": "Alexa Cast and Spotify Connect; no AirPlay 2 and no Chromecast",
+      "multiroom": "Alexa Multi-Room Music, plus Alexa Home Theater with up to 5 devices including Fire TV",
+      "stereoPairing": true,
+      "smartHomeHub": "Yes, full — Zigbee hub, Matter controller and Thread 1.3 border router, plus an eero Wi-Fi extender",
+      "spatialAudio": "Not marketed with Dolby Atmos; unconfirmed",
+      "lineIn": false
+    },
+    "scores": {
+      "sound": 7.0,
+      "bass": 6.5,
+      "smartFeatures": 9.5,
+      "multiroom": 7.5,
+      "connectivity": 8.0,
+      "design": 8.0,
+      "voiceAssistant": 8.5,
+      "value": 8.5
+    },
+    "pros": [
+      "A real tweeter and woofer at $99 — roughly three times the bass of the Echo Dot 5th Gen",
+      "The most complete smart-home hub here: Zigbee, Matter and Thread all in one",
+      "Wi-Fi 6E and an eero extender covering about 1,000 square feet",
+      "Can join an Alexa Home Theater setup with a Fire TV"
+    ],
+    "cons": [
+      "No aux jack, a regression from older Echo Dots",
+      "No AirPlay or Chromecast, so it is effectively unusable as a network speaker outside Alexa",
+      "Alexa+ is free only with Prime; otherwise it is a monthly subscription after the preview",
+      "Mono, and Amazon publishes no power rating"
+    ],
+    "images": [],
+    "amazonAsin": "B0D6SX8VLQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-dot-5",
+      "google-home-speaker",
+      "homepod-mini",
+      "sonos-era-100-sl",
+      "echo-studio-2"
+    ],
+    "useCases": [
+      "smart-home",
+      "voice-control",
+      "multiroom"
+    ],
+    "shortTagline": "A real two-way speaker and a full Zigbee, Matter and Thread hub for $99."
+  },
+  {
+    "id": "hs-google-home-speaker",
+    "categorySlug": "home-speakers",
+    "brand": "Google",
+    "series": "Google Home",
+    "model": "Google Home Speaker",
+    "slug": "google-home-speaker",
+    "releaseYear": 2026,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Hazel",
+      "Porcelain",
+      "Jade",
+      "Berry"
+    ],
+    "material": "3D-knit sustainable textile",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Bluetooth 5.4",
+      "Thread",
+      "Matter",
+      "Chromecast built-in"
+    ],
+    "features": [
+      "Gemini for Home replaces Google Assistant",
+      "Thread 1.3 border router and Matter hub",
+      "Omnidirectional 58mm driver",
+      "Three far-field microphones with a two-stage hardware mute",
+      "Pairs with a Google TV Streamer for surround sound"
+    ],
+    "specs": {
+      "voiceAssistant": "Gemini for Home",
+      "drivers": "1x 58mm full-range driver, omnidirectional",
+      "powerOutput": "Not published by the manufacturer",
+      "wifi": "Wi-Fi 6 (802.11ax, 2.4/5GHz)",
+      "bluetooth": "5.4",
+      "streamingProtocols": "Chromecast built-in and Google Cast, plus Spotify casting; no AirPlay 2",
+      "multiroom": "Google Home speaker groups with Nest speakers, displays and Cast devices",
+      "stereoPairing": true,
+      "smartHomeHub": "Yes — Matter hub and Thread 1.3 border router",
+      "spatialAudio": false,
+      "lineIn": false
+    },
+    "scores": {
+      "sound": 6.0,
+      "bass": 5.0,
+      "smartFeatures": 8.0,
+      "multiroom": 7.5,
+      "connectivity": 7.0,
+      "design": 8.5,
+      "voiceAssistant": 7.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Thread border router and Matter hub at $99",
+      "Wi-Fi 6 and Bluetooth 5.4",
+      "Attractive 3D-knit finish in four colours",
+      "Can act as surround speakers with a Google TV Streamer"
+    ],
+    "cons": [
+      "No confirmed Amazon.com listing at time of research — it sells through the Google Store, Best Buy and Walmart",
+      "Reviewers report it sounds worse than the discontinued Nest Audio it replaces",
+      "Gemini for Home has been described as slow and inconsistent",
+      "The best features sit behind a Google Home Premium subscription",
+      "No AirPlay 2, and audio caps below lossless"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-dot-max",
+      "homepod-mini",
+      "echo-dot-5",
+      "sonos-era-100-sl"
+    ],
+    "useCases": [
+      "smart-home",
+      "voice-control",
+      "multiroom"
+    ],
+    "shortTagline": "Thread and Matter for $99 — but it sounds worse than the Nest Audio it replaced."
+  },
+  {
+    "id": "hs-homepod-mini",
+    "categorySlug": "home-speakers",
+    "brand": "Apple",
+    "series": "HomePod mini",
+    "model": "Apple HomePod mini",
+    "slug": "homepod-mini",
+    "releaseYear": 2020,
+    "price": 129.0,
+    "msrp": 99.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight",
+      "White",
+      "Yellow",
+      "Orange",
+      "Blue"
+    ],
+    "material": "Seamless mesh fabric sphere",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 4 (802.11n)",
+      "Bluetooth 5.0",
+      "Thread",
+      "Matter",
+      "AirPlay 2",
+      "Ultra Wideband"
+    ],
+    "features": [
+      "Apple Home hub, Matter controller and Thread border router",
+      "Temperature and humidity sensors",
+      "Sound recognition for smoke and CO alarms",
+      "Intercom across Apple devices",
+      "Five colours"
+    ],
+    "specs": {
+      "voiceAssistant": "Siri",
+      "drivers": "1x full-range driver with dual passive radiators and an Apple-designed acoustic waveguide",
+      "powerOutput": "Not published by the manufacturer",
+      "wifi": "802.11n (Wi-Fi 4)",
+      "bluetooth": "5.0 — used for setup and proximity only, NOT as a Bluetooth audio input",
+      "streamingProtocols": "AirPlay 2, native Apple Music and direct Spotify playback",
+      "multiroom": "AirPlay 2 and Apple Home",
+      "stereoPairing": "Yes, with a second HomePod mini only",
+      "smartHomeHub": "Yes — Apple Home hub, Matter controller and Thread border router",
+      "spatialAudio": false,
+      "lineIn": false
+    },
+    "scores": {
+      "sound": 6.5,
+      "bass": 5.0,
+      "smartFeatures": 8.0,
+      "multiroom": 7.5,
+      "connectivity": 5.5,
+      "design": 8.5,
+      "voiceAssistant": 7.5,
+      "value": 5.0
+    },
+    "pros": [
+      "Thread border router and full Apple Home hub in the cheapest HomePod",
+      "Temperature and humidity sensing plus smoke and CO alarm recognition",
+      "Excellent sound for its size",
+      "Five colours and a genuinely lovely object"
+    ],
+    "cons": [
+      "Still running the S5 chip from 2019, on Wi-Fi 4",
+      "Cannot be used as a Bluetooth speaker at all — Bluetooth is for setup only",
+      "Price rose from $99 to $129 in June 2026",
+      "Requires an iPhone or iPad to set up, with no Android support",
+      "A successor has been widely reported for autumn 2026"
+    ],
+    "images": [],
+    "amazonAsin": "B0F9LPGG9Z",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-dot-max",
+      "google-home-speaker",
+      "homepod-2",
+      "sonos-era-100-sl"
+    ],
+    "useCases": [
+      "smart-home",
+      "voice-control",
+      "multiroom"
+    ],
+    "shortTagline": "A Thread border router in a lovely little sphere — on 2019 silicon."
+  },
+  {
+    "id": "hs-sonos-era-100-sl",
+    "categorySlug": "home-speakers",
+    "brand": "Sonos",
+    "series": "Era",
+    "model": "Sonos Era 100 SL",
+    "slug": "sonos-era-100-sl",
+    "releaseYear": 2026,
+    "price": 189.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Perforated polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "Ethernet via adapter"
+    ],
+    "features": [
+      "No microphones at all, by design — the privacy option",
+      "The cheapest way into a Sonos system",
+      "Trueplay room tuning",
+      "Two angled tweeters and a midwoofer",
+      "Can serve as rear surrounds for a Sonos soundbar"
+    ],
+    "specs": {
+      "voiceAssistant": "None — SL means no microphones are fitted",
+      "drivers": "2x angled tweeters plus 1x midwoofer",
+      "powerOutput": "Sonos publishes three class-D digital amplifiers but no wattage",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.3",
+      "streamingProtocols": "Sonos app with 100+ services, AirPlay 2 and Spotify Connect; no Chromecast",
+      "multiroom": "Sonos",
+      "stereoPairing": true,
+      "smartHomeHub": "No — not a Matter or Thread device",
+      "spatialAudio": false,
+      "lineIn": "Yes, but only via the optional Sonos Line-In Adapter, sold separately"
+    },
+    "scores": {
+      "sound": 8.0,
+      "bass": 7.0,
+      "smartFeatures": 6.0,
+      "multiroom": 9.5,
+      "connectivity": 7.0,
+      "design": 8.0,
+      "voiceAssistant": 1.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The cheapest entry to Sonos multiroom, which remains the best in the business",
+      "No microphones at all — the right answer if you do not want one in the house",
+      "Trueplay tunes it to your room",
+      "Doubles as a rear surround for a Sonos soundbar"
+    ],
+    "cons": [
+      "No voice control of any kind",
+      "Not a smart-home hub — no Matter, no Thread",
+      "Line-in requires a separately sold adapter",
+      "Requires the Sonos app for setup and multiroom"
+    ],
+    "images": [],
+    "amazonAsin": "B0GJ78ZKF6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-100",
+      "echo-dot-max",
+      "homepod-mini",
+      "sonos-era-300",
+      "marshall-acton-iv"
+    ],
+    "useCases": [
+      "multiroom",
+      "music",
+      "home-theater"
+    ],
+    "shortTagline": "The cheapest way into Sonos, with no microphone anywhere in it."
+  },
+  {
+    "id": "hs-sonos-era-100",
+    "categorySlug": "home-speakers",
+    "brand": "Sonos",
+    "series": "Era",
+    "model": "Sonos Era 100",
+    "slug": "sonos-era-100",
+    "releaseYear": 2023,
+    "price": 219.0,
+    "msrp": 249.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Perforated polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "Ethernet via adapter"
+    ],
+    "features": [
+      "Alexa and Sonos Voice Control built in",
+      "47% faster processor than the Sonos One it replaced",
+      "Trueplay room tuning, now automatic on Android as well as iOS",
+      "Adjustable EQ",
+      "Humidity resistant, so it suits a bathroom or kitchen"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa and Sonos Voice Control; Google Assistant is not supported on Era hardware",
+      "drivers": "2x angled tweeters plus 1x midwoofer",
+      "powerOutput": "Sonos publishes three class-D digital amplifiers but no wattage",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.3",
+      "streamingProtocols": "Sonos app, AirPlay 2 and Spotify Connect; no Chromecast",
+      "multiroom": "Sonos",
+      "stereoPairing": true,
+      "smartHomeHub": "No",
+      "spatialAudio": false,
+      "lineIn": "Yes, but only via the optional Sonos Line-In Adapter, sold separately"
+    },
+    "scores": {
+      "sound": 8.0,
+      "bass": 7.0,
+      "smartFeatures": 7.0,
+      "multiroom": 9.5,
+      "connectivity": 7.5,
+      "design": 8.0,
+      "voiceAssistant": 7.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Sonos multiroom with voice control, and genuinely good stereo separation for the size",
+      "List price has been cut from $249 to $219",
+      "Humidity resistant",
+      "Doubles as a rear surround for a Sonos soundbar"
+    ],
+    "cons": [
+      "No Google Assistant support at all on Era hardware",
+      "Not a smart-home hub",
+      "Line-in requires a separately sold adapter",
+      "The Sonos app has been a real sore point since its 2024 rewrite"
+    ],
+    "images": [],
+    "amazonAsin": "B0BW34LCB8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-100-sl",
+      "sonos-era-300",
+      "echo-studio-2",
+      "homepod-2",
+      "echo-dot-max"
+    ],
+    "useCases": [
+      "multiroom",
+      "music",
+      "voice-control"
+    ],
+    "shortTagline": "Sonos multiroom with voice control — the default mid-range smart speaker."
+  },
+  {
+    "id": "hs-echo-studio-2",
+    "categorySlug": "home-speakers",
+    "brand": "Amazon",
+    "series": "Echo Studio",
+    "model": "Amazon Echo Studio (2nd Gen)",
+    "slug": "echo-studio-2",
+    "releaseYear": 2025,
+    "price": 219.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Graphite",
+      "Glacier White"
+    ],
+    "material": "3D-knit fabric-wrapped sphere",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E",
+      "Bluetooth LE 5.3",
+      "Zigbee",
+      "Thread",
+      "Matter",
+      "eero built-in extender"
+    ],
+    "features": [
+      "Dolby Atmos and Sony 360 Reality Audio spatial audio",
+      "Full smart-home hub with Zigbee, Matter and a Thread 1.3 border router",
+      "AZ3 Pro chip",
+      "40% smaller than the original Echo Studio",
+      "Automatic Room Adaptation plus temperature, light and presence sensing"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa and Alexa+",
+      "drivers": "1x 3.75-inch high-excursion woofer plus three full-range drivers firing left, right and up; reputable outlets disagree on the full-range driver size and Amazon does not publish it",
+      "powerOutput": "Not published by the manufacturer",
+      "wifi": "Wi-Fi 6E",
+      "bluetooth": "LE 5.3",
+      "streamingProtocols": "Alexa Cast, Spotify Connect and Amazon Music Ultra HD; no AirPlay 2 and no Chromecast",
+      "multiroom": "Alexa Multi-Room Music, plus Alexa Home Theater with up to 5 devices",
+      "stereoPairing": true,
+      "smartHomeHub": "Yes, full — Zigbee, Matter and Thread 1.3 border router, plus an eero extender",
+      "spatialAudio": true,
+      "lineIn": false
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 7.0,
+      "smartFeatures": 9.5,
+      "multiroom": 7.5,
+      "connectivity": 8.0,
+      "design": 8.5,
+      "voiceAssistant": 8.5,
+      "value": 7.0
+    },
+    "pros": [
+      "Dolby Atmos and 360 Reality Audio at $219",
+      "Complete smart-home hub — Zigbee, Matter and Thread together",
+      "40% smaller than the original while keeping serious drivers",
+      "Can anchor an Alexa Home Theater with a Fire TV"
+    ],
+    "cons": [
+      "Bass is weaker than the 2019 Echo Studio it replaces, which reviewers consistently flag",
+      "The optical and aux input of the first generation was removed, a real loss for TV use",
+      "Downmixes stereo to mono and compresses harder at high volume",
+      "No AirPlay or Chromecast, so it is Alexa-only for network audio"
+    ],
+    "images": [],
+    "amazonAsin": "B0DMQ1QMVV",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-100",
+      "sonos-era-300",
+      "homepod-2",
+      "echo-dot-max",
+      "jbl-authentics-500"
+    ],
+    "useCases": [
+      "smart-home",
+      "music",
+      "home-theater",
+      "voice-control"
+    ],
+    "shortTagline": "Atmos plus a full Zigbee, Matter and Thread hub — but less bass than before."
+  },
+  {
+    "id": "hs-marshall-acton-iv",
+    "categorySlug": "home-speakers",
+    "brand": "Marshall",
+    "series": "Acton",
+    "model": "Marshall Acton IV",
+    "slug": "marshall-acton-iv",
+    "releaseYear": 2026,
+    "price": 329.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Cream"
+    ],
+    "material": "FSC-certified wood cabinet with Marshall fret cloth",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3 with Auracast",
+      "RCA analog input",
+      "3.5mm AUX",
+      "LDAC"
+    ],
+    "features": [
+      "RCA and 3.5mm inputs, marketed for turntables",
+      "110W of Class D amplification",
+      "LDAC hi-res over Bluetooth, plus Auracast and multipoint",
+      "Marshall app EQ with room calibration",
+      "FSC-certified wood cabinet"
+    ],
+    "specs": {
+      "voiceAssistant": "None",
+      "drivers": "1x 4-inch woofer plus 2x 0.75-inch tweeters",
+      "powerOutput": "110W total — 1x 60W Class D for the woofer plus 2x 25W Class D for the tweeters; maximum SPL 95dB at 1m",
+      "wifi": "None",
+      "bluetooth": "5.3 with Auracast and multipoint; codecs SBC, AAC, LDAC and LC3",
+      "streamingProtocols": "None — no AirPlay, Chromecast or Spotify Connect. Spotify Tap via the customisable M-button only",
+      "multiroom": "None natively — Auracast broadcast only; Marshall's Heddon hub is required for a proper multi-speaker setup",
+      "stereoPairing": "Marshall documents Auracast and Bluetooth multipoint but not a true two-unit stereo pair",
+      "smartHomeHub": "No",
+      "spatialAudio": false,
+      "lineIn": true
+    },
+    "scores": {
+      "sound": 8.5,
+      "bass": 8.0,
+      "smartFeatures": 3.0,
+      "multiroom": 3.0,
+      "connectivity": 5.0,
+      "design": 9.5,
+      "voiceAssistant": 1.0,
+      "value": 7.0
+    },
+    "pros": [
+      "110W published power and genuinely good sound for the size",
+      "RCA and 3.5mm inputs make it the easiest speaker here to connect a turntable to",
+      "LDAC hi-res over Bluetooth",
+      "Beautiful FSC-certified wood cabinet"
+    ],
+    "cons": [
+      "No Wi-Fi at all — if you want a network speaker, this is not one",
+      "No voice assistant and no network multiroom",
+      "Marshall does not document a true stereo pairing mode",
+      "Its sibling the Stanmore IV offers a bigger woofer for $100 more"
+    ],
+    "images": [],
+    "amazonAsin": "B0H4WGT624",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-100",
+      "homepod-2",
+      "jbl-authentics-500",
+      "sonos-era-300"
+    ],
+    "useCases": [
+      "music",
+      "home"
+    ],
+    "shortTagline": "110W, a turntable input and a real wood cabinet — but no Wi-Fi at all."
+  },
+  {
+    "id": "hs-homepod-2",
+    "categorySlug": "home-speakers",
+    "brand": "Apple",
+    "series": "HomePod",
+    "model": "Apple HomePod (2nd Gen)",
+    "slug": "homepod-2",
+    "releaseYear": 2023,
+    "price": 349.0,
+    "msrp": 299.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight",
+      "White"
+    ],
+    "material": "Seamless mesh fabric",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 4 (802.11n)",
+      "Bluetooth 5.0",
+      "Thread",
+      "Matter",
+      "AirPlay 2",
+      "Ultra Wideband"
+    ],
+    "features": [
+      "Spatial Audio with Dolby Atmos for music and video",
+      "Can act as the audio system for an Apple TV 4K",
+      "Apple Home hub, Matter controller and Thread border router",
+      "Room sensing adapts output to the space",
+      "Temperature and humidity sensors, plus smoke and CO alarm recognition"
+    ],
+    "specs": {
+      "voiceAssistant": "Siri",
+      "drivers": "1x 4-inch high-excursion woofer plus an array of 5 horn-loaded tweeters, each with its own neodymium magnet, and a 4-microphone array",
+      "powerOutput": "Not published by the manufacturer",
+      "wifi": "802.11n (Wi-Fi 4)",
+      "bluetooth": "5.0 — for setup and proximity only, NOT a Bluetooth audio input",
+      "streamingProtocols": "AirPlay 2, native Apple Music and direct Spotify playback",
+      "multiroom": "AirPlay 2 and Apple Home",
+      "stereoPairing": "Yes, with a second HomePod 2nd Gen only — it cannot pair with a 1st Gen or a mini",
+      "smartHomeHub": "Yes — Apple Home hub, Matter controller and Thread border router",
+      "spatialAudio": true,
+      "lineIn": false
+    },
+    "scores": {
+      "sound": 9.0,
+      "bass": 8.5,
+      "smartFeatures": 8.0,
+      "multiroom": 7.5,
+      "connectivity": 5.5,
+      "design": 9.0,
+      "voiceAssistant": 7.5,
+      "value": 6.0
+    },
+    "pros": [
+      "Outstanding sound for the size — the five horn-loaded tweeters do real work",
+      "Spatial Audio with Dolby Atmos, and it doubles as an Apple TV 4K sound system",
+      "Full Apple Home hub with Thread border router",
+      "Room sensing genuinely adapts to placement"
+    ],
+    "cons": [
+      "Wi-Fi 4 in a $349 product released in 2023",
+      "Cannot be used as a Bluetooth speaker — there is no Bluetooth audio input",
+      "Price rose from $299 to $349 in June 2026",
+      "No aux input",
+      "Requires an Apple device to set up, and Siri only fully controls Apple Music"
+    ],
+    "images": [],
+    "amazonAsin": "B0BZV6BBX1",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-300",
+      "echo-studio-2",
+      "homepod-mini",
+      "sonos-era-100",
+      "jbl-authentics-500"
+    ],
+    "useCases": [
+      "music",
+      "smart-home",
+      "home-theater"
+    ],
+    "shortTagline": "Superb sound and a Thread hub — held back by Wi-Fi 4 and no Bluetooth audio."
+  },
+  {
+    "id": "hs-sonos-era-300",
+    "categorySlug": "home-speakers",
+    "brand": "Sonos",
+    "series": "Era",
+    "model": "Sonos Era 300",
+    "slug": "sonos-era-300",
+    "releaseYear": 2023,
+    "price": 479.0,
+    "msrp": 449.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Perforated polycarbonate hourglass",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "Ethernet via adapter"
+    ],
+    "features": [
+      "Six drivers including an upward-firing tweeter for Dolby Atmos music",
+      "The go-to Atmos surround speaker for a Sonos Arc or Beam",
+      "Distinctive hourglass cabinet",
+      "Trueplay room tuning",
+      "Humidity resistant"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa and Sonos Voice Control; Google Assistant is not supported",
+      "drivers": "Six drivers — four tweeters (one forward-firing, two side-firing, one upward-firing) plus two angled woofers",
+      "powerOutput": "Sonos publishes six class-D digital amplifiers but no wattage",
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "5.3",
+      "streamingProtocols": "Sonos app, AirPlay 2 and Spotify Connect; no Chromecast",
+      "multiroom": "Sonos",
+      "stereoPairing": "Yes; also the preferred Atmos surround for the Arc, Arc Ultra and Beam Gen 2",
+      "smartHomeHub": "No",
+      "spatialAudio": true,
+      "lineIn": "Yes, but only via the optional Sonos Line-In Adapter, sold separately"
+    },
+    "scores": {
+      "sound": 8.5,
+      "bass": 8.0,
+      "smartFeatures": 7.0,
+      "multiroom": 9.5,
+      "connectivity": 7.5,
+      "design": 8.5,
+      "voiceAssistant": 7.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Genuine Dolby Atmos music support with an upward-firing driver",
+      "The best wireless surround speaker you can add to a Sonos soundbar",
+      "Six drivers give real width from a single box",
+      "Trueplay room tuning"
+    ],
+    "cons": [
+      "The Atmos music catalogue remains thin outside Apple Music and Amazon Music",
+      "A single unit gives only a modest height effect — two Era 100s often sound better for plain stereo music",
+      "Not a smart-home hub",
+      "List price rose from $449 to $479",
+      "Line-in needs a paid adapter"
+    ],
+    "images": [],
+    "amazonAsin": "B0BW2LV57K",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-100",
+      "homepod-2",
+      "echo-studio-2",
+      "sonos-five",
+      "jbl-authentics-500"
+    ],
+    "useCases": [
+      "music",
+      "home-theater",
+      "multiroom"
+    ],
+    "shortTagline": "Dolby Atmos music and the best Sonos soundbar surround you can buy."
+  },
+  {
+    "id": "hs-sonos-five",
+    "categorySlug": "home-speakers",
+    "brand": "Sonos",
+    "series": "Five",
+    "model": "Sonos Five",
+    "slug": "sonos-five",
+    "releaseYear": 2020,
+    "price": 599.0,
+    "msrp": 549.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Perforated polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 4",
+      "Ethernet",
+      "AirPlay 2",
+      "3.5mm line-in"
+    ],
+    "features": [
+      "The loudest single-box Sonos speaker",
+      "Built-in 3.5mm line-in with no adapter needed",
+      "Smart orientation sensing — horizontal for stereo, vertical for mono",
+      "Six drivers across three tweeters and three midwoofers",
+      "Adjustable EQ"
+    ],
+    "specs": {
+      "voiceAssistant": "None — the Five has no microphone",
+      "drivers": "Six drivers — three tweeters (one centre, two angled) plus three midwoofers",
+      "powerOutput": "Sonos publishes six class-D digital amplifiers but no wattage",
+      "wifi": "802.11a/b/g/n (Wi-Fi 4), plus Ethernet",
+      "bluetooth": "None — deliberately omitted",
+      "streamingProtocols": "Sonos app, AirPlay 2 and Spotify Connect",
+      "multiroom": "Sonos",
+      "stereoPairing": "Yes; two can also serve as home-theatre rears",
+      "smartHomeHub": "No",
+      "spatialAudio": false,
+      "lineIn": true
+    },
+    "scores": {
+      "sound": 9.0,
+      "bass": 9.0,
+      "smartFeatures": 5.0,
+      "multiroom": 9.5,
+      "connectivity": 5.5,
+      "design": 7.5,
+      "voiceAssistant": 1.0,
+      "value": 6.0
+    },
+    "pros": [
+      "The best pure sound and deepest bass of any single-box Sonos",
+      "The only Sonos here with a native 3.5mm line-in, no adapter required",
+      "Smart orientation sensing switches between stereo and mono automatically",
+      "No microphone, which some buyers actively want"
+    ],
+    "cons": [
+      "Six-year-old hardware at a price that has gone up rather than down",
+      "Wi-Fi 4 and no Bluetooth at all",
+      "No voice control and no Atmos",
+      "Trueplay tuning is still iOS-only on this model",
+      "Widely expected to be the next Sonos product replaced"
+    ],
+    "images": [],
+    "amazonAsin": "B087CC4QH4",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-era-300",
+      "jbl-authentics-500",
+      "homepod-2",
+      "marshall-acton-iv"
+    ],
+    "useCases": [
+      "music",
+      "multiroom",
+      "home"
+    ],
+    "shortTagline": "The best-sounding single-box Sonos — on six-year-old hardware."
+  },
+  {
+    "id": "hs-jbl-authentics-500",
+    "categorySlug": "home-speakers",
+    "brand": "JBL",
+    "series": "Authentics",
+    "model": "JBL Authentics 500",
+    "slug": "jbl-authentics-500",
+    "releaseYear": 2023,
+    "price": 749.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Retro fabric cabinet with Quadrex grille and leather-look trim",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Ethernet",
+      "Bluetooth 5.3 with Auracast",
+      "AirPlay 2",
+      "Chromecast built-in",
+      "Spotify Connect",
+      "Roon Ready",
+      "3.5mm AUX",
+      "USB-C"
+    ],
+    "features": [
+      "Alexa and Google Assistant both live at once, with both wake words active",
+      "270W across a 3.1 channel configuration with a 6.5-inch down-firing subwoofer",
+      "Dolby Atmos Music support, unique within the Authentics line",
+      "Roon Ready, AirPlay 2 and Chromecast all supported simultaneously",
+      "Automatic self-calibration"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa and Google Assistant simultaneously — both wake words are live at once",
+      "drivers": "3.1 channel — 3x 1-inch aluminium-dome tweeters, 3x 2.75-inch midrange woofers and a 6.5-inch down-firing subwoofer",
+      "powerOutput": 270,
+      "wifi": "Wi-Fi 6 (802.11a/b/g/n/ac/ax, 2.4/5GHz), plus Ethernet",
+      "bluetooth": "5.3 with Auracast (SBC and AAC)",
+      "streamingProtocols": "AirPlay 2, Chromecast built-in, Alexa Multi-Room Music, Spotify Connect, Roon Ready and Amazon HD Music",
+      "multiroom": "Alexa Multi-Room Music, Chromecast groups and AirPlay 2 — all three major ecosystems",
+      "stereoPairing": true,
+      "smartHomeHub": "No — it is an Alexa and Google endpoint, not a hub. No Matter, Thread or Zigbee",
+      "spatialAudio": true,
+      "lineIn": true
+    },
+    "scores": {
+      "sound": 9.0,
+      "bass": 9.0,
+      "smartFeatures": 8.0,
+      "multiroom": 9.0,
+      "connectivity": 9.8,
+      "design": 9.0,
+      "voiceAssistant": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "The least locked-in speaker here — AirPlay 2, Chromecast, Alexa, Google and Roon all at once",
+      "The only speaker here running two voice assistants simultaneously",
+      "270W with a real 6.5-inch subwoofer, and it goes properly loud",
+      "Dolby Atmos Music plus a 3.5mm aux and USB-C input"
+    ],
+    "cons": [
+      "Expensive at its $749.95 list, though street prices are often far lower",
+      "No Matter, Thread or Zigbee — it is an endpoint, not a hub",
+      "Google Assistant's long-term future is uncertain now that Google has moved its own hardware to Gemini",
+      "Large and heavy"
+    ],
+    "images": [],
+    "amazonAsin": "B0CCK36RSY",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-five",
+      "sonos-era-300",
+      "homepod-2",
+      "echo-studio-2",
+      "marshall-acton-iv"
+    ],
+    "useCases": [
+      "music",
+      "smart-home",
+      "multiroom",
+      "voice-control"
+    ],
+    "shortTagline": "Alexa and Google at once, plus AirPlay, Chromecast and Roon — no lock-in."
+  }
+]

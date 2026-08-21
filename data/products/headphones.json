@@ -1,1 +1,1042 @@
-[]
+[
+  {
+    "id": "hp-soundcore-space-one",
+    "categorySlug": "headphones",
+    "brand": "Anker",
+    "series": "Soundcore Space One",
+    "model": "Soundcore Space One",
+    "slug": "soundcore-space-one",
+    "releaseYear": 2023,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Blue"
+    ],
+    "material": "Plastic with protein leather earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "LDAC",
+      "3.5mm analog input",
+      "USB-C charging"
+    ],
+    "features": [
+      "LDAC hi-res streaming at under $100",
+      "Adaptive hybrid ANC with adjustable strength",
+      "8-band EQ plus HearID hearing personalisation in the Soundcore app",
+      "55 hours of playback with ANC off",
+      "5 minutes of charging gives about 4 hours of playback"
+    ],
+    "specs": {
+      "battery": 40,
+      "batteryAncOff": 55,
+      "quickCharge": 3.75,
+      "bluetooth": "5.3",
+      "weight": 260,
+      "driverSize": 40,
+      "anc": "Adaptive hybrid ANC with adjustable strength and an automatic mode",
+      "multipoint": true,
+      "micCount": 3,
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 9.2,
+      "anc": 7.5,
+      "comfort": 7.8,
+      "sound": 7.5,
+      "calls": 7.0,
+      "travel": 8.5,
+      "gaming": 6.5,
+      "value": 9.5,
+      "durability": 6.5,
+      "features": 8.0
+    },
+    "pros": [
+      "LDAC hi-res codec support at a sub-$100 price",
+      "40 hours with ANC on beats every flagship here",
+      "Full 8-band EQ and hearing personalisation",
+      "Folds properly and comes with a case"
+    ],
+    "cons": [
+      "Plastic build feels its price",
+      "ANC is good for the money but well short of Bose or Sony",
+      "No USB-C audio playback, charging only",
+      "No IP rating"
+    ],
+    "images": [],
+    "amazonAsin": "B0C6KJ3R71",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ath-m20xbt",
+      "marshall-major-v",
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2"
+    ],
+    "useCases": [
+      "students",
+      "commute",
+      "travel",
+      "office"
+    ],
+    "shortTagline": "LDAC and a 40-hour ANC battery for under $100 — the budget value pick."
+  },
+  {
+    "id": "hp-marshall-major-v",
+    "categorySlug": "headphones",
+    "brand": "Marshall",
+    "series": "Major",
+    "model": "Marshall Major V",
+    "slug": "marshall-major-v",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Brown",
+      "Cream"
+    ],
+    "material": "Vinyl-wrapped on-ear with brass detailing",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "3.5mm detachable cable",
+      "Qi wireless charging",
+      "USB-C charging"
+    ],
+    "features": [
+      "Over 100 hours of playback, the longest here by a wide margin",
+      "Qi wireless charging, rare on headphones at any price",
+      "Brass control knob for playback and volume",
+      "15 minutes of charging gives about 15 hours of playback",
+      "Detachable 3.5mm cable"
+    ],
+    "specs": {
+      "battery": "Not applicable — this model has no active noise cancelling",
+      "batteryAncOff": 100,
+      "quickCharge": 3,
+      "bluetooth": "5.3",
+      "weight": 187,
+      "driverSize": 40,
+      "anc": "None — passive on-ear isolation only",
+      "multipoint": true,
+      "micCount": "Not published by Marshall",
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 10.0,
+      "anc": 2.0,
+      "comfort": 6.5,
+      "sound": 7.0,
+      "calls": 6.0,
+      "travel": 6.5,
+      "gaming": 5.5,
+      "value": 8.0,
+      "durability": 7.5,
+      "features": 6.5
+    },
+    "pros": [
+      "Over 100 hours of battery — you will forget it needs charging",
+      "Qi wireless charging is genuinely unusual on headphones",
+      "Lightest here at 187g",
+      "Distinctive design with a real brass control knob"
+    ],
+    "cons": [
+      "No active noise cancelling at all",
+      "On-ear fit gets uncomfortable and loosens over long sessions",
+      "Treble-forward stock tuning",
+      "No carry case in the box"
+    ],
+    "images": [],
+    "amazonAsin": "B0D1VN2VB7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ath-m20xbt",
+      "soundcore-space-one",
+      "ath-m50xbt2"
+    ],
+    "useCases": [
+      "students",
+      "commute",
+      "office"
+    ],
+    "shortTagline": "100+ hours of battery and wireless charging — but no noise cancelling at all."
+  },
+  {
+    "id": "hp-ath-m20xbt",
+    "categorySlug": "headphones",
+    "brand": "Audio-Technica",
+    "series": "ATH-M",
+    "model": "Audio-Technica ATH-M20xBT",
+    "slug": "ath-m20xbt",
+    "releaseYear": 2022,
+    "price": 89.0,
+    "msrp": 99.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with synthetic leather earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.0",
+      "USB-C charging"
+    ],
+    "features": [
+      "Studio-monitor tuning derived from Audio-Technica's M-series",
+      "60 hours of playback",
+      "Multipoint pairing to two devices",
+      "10 minutes of charging gives 3 hours of playback"
+    ],
+    "specs": {
+      "battery": "Not applicable — this model has no active noise cancelling",
+      "batteryAncOff": 60,
+      "quickCharge": 10,
+      "bluetooth": "5.0",
+      "weight": 216,
+      "driverSize": 40,
+      "anc": "None",
+      "multipoint": true,
+      "micCount": "Not published by Audio-Technica",
+      "foldable": false,
+      "waterResistance": "None",
+      "appEq": false
+    },
+    "scores": {
+      "battery": 9.0,
+      "anc": 2.0,
+      "comfort": 7.0,
+      "sound": 7.8,
+      "calls": 5.5,
+      "travel": 5.0,
+      "gaming": 6.0,
+      "value": 8.2,
+      "durability": 7.0,
+      "features": 4.0
+    },
+    "pros": [
+      "Genuine studio-monitor tuning at $89",
+      "60 hours of battery",
+      "Multipoint at a budget price",
+      "Light at 216g"
+    ],
+    "cons": [
+      "No active noise cancelling",
+      "No companion app and no EQ — Audio-Technica's app does not support this model",
+      "Bluetooth 5.0 is dated",
+      "Earcups rotate but do not fold for packing",
+      "No carry case"
+    ],
+    "images": [],
+    "amazonAsin": "B09VJJLFX9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "soundcore-space-one",
+      "marshall-major-v",
+      "ath-m50xbt2"
+    ],
+    "useCases": [
+      "students",
+      "office",
+      "professionals"
+    ],
+    "shortTagline": "Studio tuning at $89 — no ANC, no app, just accurate sound and 60-hour battery."
+  },
+  {
+    "id": "hp-ath-m50xbt2",
+    "categorySlug": "headphones",
+    "brand": "Audio-Technica",
+    "series": "ATH-M",
+    "model": "Audio-Technica ATH-M50xBT2",
+    "slug": "ath-m50xbt2",
+    "releaseYear": 2021,
+    "price": 179.0,
+    "msrp": 219.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with memory-foam earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.0",
+      "LDAC",
+      "3.5mm input",
+      "USB-C charging"
+    ],
+    "features": [
+      "The reference M50x tuning in a wireless body",
+      "LDAC hi-res streaming",
+      "Low-latency mode for video",
+      "Alexa built in",
+      "50 hours rated playback"
+    ],
+    "specs": {
+      "battery": "Not applicable — this model has no active noise cancelling",
+      "batteryAncOff": 50,
+      "quickCharge": 10,
+      "bluetooth": "5.0",
+      "weight": 307,
+      "driverSize": 45,
+      "anc": "None",
+      "multipoint": true,
+      "micCount": "Audio-Technica states dual beamforming mics; independent testing counted one",
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 8.5,
+      "anc": 2.0,
+      "comfort": 6.8,
+      "sound": 8.5,
+      "calls": 6.0,
+      "travel": 6.0,
+      "gaming": 7.0,
+      "value": 7.0,
+      "durability": 7.5,
+      "features": 6.0
+    },
+    "pros": [
+      "The M50x sound signature, one of the most trusted references in audio",
+      "LDAC hi-res support",
+      "Largest drivers here at 45mm",
+      "Low-latency mode genuinely helps for video"
+    ],
+    "cons": [
+      "No active noise cancelling at $179",
+      "Bluetooth 5.0 on a headphone still sold in 2026",
+      "Heaviest non-Apple option at 307g",
+      "The platform is now five years old"
+    ],
+    "images": [],
+    "amazonAsin": "B09BYFHL25",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ath-m20xbt",
+      "beats-studio-pro",
+      "sonos-ace",
+      "soundcore-space-one"
+    ],
+    "useCases": [
+      "professionals",
+      "students",
+      "office"
+    ],
+    "shortTagline": "The reference M50x tuning, wireless — accurate sound, but no ANC."
+  },
+  {
+    "id": "hp-beats-studio-pro",
+    "categorySlug": "headphones",
+    "brand": "Beats",
+    "series": "Studio",
+    "model": "Beats Studio Pro",
+    "slug": "beats-studio-pro",
+    "releaseYear": 2023,
+    "price": 349.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Deep Brown",
+      "Navy",
+      "Sandstone"
+    ],
+    "material": "Plastic with leatherette earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C lossless audio",
+      "3.5mm input"
+    ],
+    "features": [
+      "USB-C lossless audio playback",
+      "Personalised Spatial Audio with head tracking on Apple devices",
+      "Native one-tap pairing on both iOS and Android",
+      "Fully adaptive ANC with real-time environment sampling",
+      "10 minutes of charging gives about 4 hours"
+    ],
+    "specs": {
+      "battery": 24,
+      "batteryAncOff": 40,
+      "quickCharge": 7.5,
+      "bluetooth": "5.3",
+      "weight": 260,
+      "driverSize": 40,
+      "anc": "Fully Adaptive Active Noise Cancelling with real-time environment sampling, plus Transparency mode",
+      "multipoint": "Yes, but on Android and ChromeOS only",
+      "micCount": "Not published by Beats",
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": "Three fixed profiles over USB-C; no free-form EQ"
+    },
+    "scores": {
+      "battery": 7.5,
+      "anc": 7.5,
+      "comfort": 7.0,
+      "sound": 7.8,
+      "calls": 7.5,
+      "travel": 7.5,
+      "gaming": 7.0,
+      "value": 7.5,
+      "durability": 7.0,
+      "features": 7.5
+    },
+    "pros": [
+      "One of very few headphones that pairs natively on both iOS and Android",
+      "USB-C lossless audio",
+      "Folds properly for travel",
+      "Street price is routinely far below the $349.99 list"
+    ],
+    "cons": [
+      "No wear detection, so it will not auto-pause when you take them off",
+      "Multipoint works on Android but not on Apple devices — you cannot have both multipoint and Spatial Audio",
+      "AAC and SBC only, no LDAC or aptX",
+      "Earpads are not user-replaceable",
+      "Runs warm over long sessions"
+    ],
+    "images": [],
+    "amazonAsin": "B0C8PR4W22",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2",
+      "airpods-max-2",
+      "sonos-ace",
+      "ath-m50xbt2"
+    ],
+    "useCases": [
+      "commute",
+      "travel",
+      "students",
+      "office"
+    ],
+    "shortTagline": "The rare headphone that pairs natively on both iPhone and Android."
+  },
+  {
+    "id": "hp-jbl-tour-one-m3",
+    "categorySlug": "headphones",
+    "brand": "JBL",
+    "series": "Tour One",
+    "model": "JBL Tour One M3",
+    "slug": "jbl-tour-one-m3",
+    "releaseYear": 2025,
+    "price": 349.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Blue",
+      "Mocha"
+    ],
+    "material": "Plastic with memory-foam earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3 with LE Audio and Auracast",
+      "LDAC",
+      "USB-C audio",
+      "3.5mm input"
+    ],
+    "features": [
+      "Bundled Smart Tx touchscreen transmitter turns any 3.5mm or USB-C source into an Auracast broadcaster",
+      "True Adaptive Noise Cancelling 2.0 driven by 8 dedicated ANC microphones",
+      "70 hours of playback with ANC off",
+      "Spatial 360 audio with head tracking",
+      "5 minutes of charging gives about 5 hours"
+    ],
+    "specs": {
+      "battery": 40,
+      "batteryAncOff": 70,
+      "quickCharge": 3,
+      "bluetooth": "5.3 with LE Audio and Auracast",
+      "weight": 278,
+      "driverSize": 40,
+      "anc": "True Adaptive Noise Cancelling 2.0 using 8 ANC microphones, four per earcup",
+      "multipoint": true,
+      "micCount": 10,
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 9.5,
+      "anc": 8.5,
+      "comfort": 7.8,
+      "sound": 8.2,
+      "calls": 8.5,
+      "travel": 9.5,
+      "gaming": 7.5,
+      "value": 8.5,
+      "durability": 7.5,
+      "features": 9.5
+    },
+    "pros": [
+      "The bundled Smart Tx transmitter solves airplane entertainment systems and gym equipment properly",
+      "40 hours with ANC on and 70 with it off",
+      "10 microphones, the most here, and excellent call quality",
+      "Folds flat and collapses, with LDAC support"
+    ],
+    "cons": [
+      "The transmitter is one more thing to carry and charge",
+      "No IP rating",
+      "LDAC and Auracast cannot be used at the same time",
+      "Bulkier than the Sony or Bose"
+    ],
+    "images": [],
+    "amazonAsin": "B0F4RT7HFT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2",
+      "sennheiser-momentum-5",
+      "beats-studio-pro"
+    ],
+    "useCases": [
+      "travel",
+      "commute",
+      "professionals",
+      "office"
+    ],
+    "shortTagline": "Comes with a transmitter that Auracasts any airplane or gym screen to your ears."
+  },
+  {
+    "id": "hp-sonos-ace",
+    "categorySlug": "headphones",
+    "brand": "Sonos",
+    "series": "Ace",
+    "model": "Sonos Ace",
+    "slug": "sonos-ace",
+    "releaseYear": 2024,
+    "price": 399.0,
+    "msrp": 449.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Soft White"
+    ],
+    "material": "Aluminium and stainless steel with memory-foam earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "aptX Lossless",
+      "USB-C lossless audio",
+      "3.5mm via adapter"
+    ],
+    "features": [
+      "TV Audio Swap moves your Sonos soundbar's audio to the headphones instantly",
+      "aptX Lossless and USB-C lossless playback",
+      "Spatial audio with dynamic head tracking",
+      "8-microphone adaptive ANC array",
+      "3 minutes of charging gives 3 hours"
+    ],
+    "specs": {
+      "battery": 30,
+      "batteryAncOff": "Sonos publishes only the 30-hour ANC-on figure",
+      "quickCharge": 3,
+      "bluetooth": "5.4",
+      "weight": 312,
+      "driverSize": 40,
+      "anc": "Adaptive ANC using an 8-microphone array; on/off only, with no user-adjustable intensity",
+      "multipoint": true,
+      "micCount": 8,
+      "foldable": false,
+      "waterResistance": "None",
+      "appEq": "Bass, treble, balance and loudness controls only — not a graphic or parametric EQ"
+    },
+    "scores": {
+      "battery": 8.0,
+      "anc": 8.0,
+      "comfort": 7.5,
+      "sound": 8.5,
+      "calls": 7.5,
+      "travel": 7.0,
+      "gaming": 7.5,
+      "value": 7.0,
+      "durability": 9.0,
+      "features": 7.5
+    },
+    "pros": [
+      "Best build quality here — aluminium and stainless steel, and it feels it",
+      "aptX Lossless plus USB-C lossless",
+      "TV Audio Swap with a Sonos soundbar is genuinely useful",
+      "List price has been cut from $449 to $399"
+    ],
+    "cons": [
+      "No Wi-Fi — despite the Sonos name it cannot join a Sonos system or stream from the Sonos app, which surprises most buyers",
+      "TV Audio Swap requires you to already own a Sonos Arc",
+      "Heaviest non-Apple option at 312g",
+      "Only a four-slider EQ",
+      "Does not fold in for packing"
+    ],
+    "images": [],
+    "amazonAsin": "B0CYHGTMNH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2",
+      "airpods-max-2",
+      "bw-px7-s3",
+      "beats-studio-pro"
+    ],
+    "useCases": [
+      "office",
+      "professionals",
+      "commute",
+      "travel"
+    ],
+    "shortTagline": "The best-built headphone here — but despite the name, it has no Wi-Fi."
+  },
+  {
+    "id": "hp-sony-wh-1000xm6",
+    "categorySlug": "headphones",
+    "brand": "Sony",
+    "series": "WH-1000X",
+    "model": "Sony WH-1000XM6",
+    "slug": "sony-wh-1000xm6",
+    "releaseYear": 2025,
+    "price": 449.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Platinum Silver",
+      "Midnight Blue",
+      "Sand Pink"
+    ],
+    "material": "Plastic with soft-fit synthetic leather earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3 with Auracast",
+      "LDAC",
+      "LC3",
+      "3.5mm input"
+    ],
+    "features": [
+      "HD Noise Cancelling Processor QN3 with seven times the processing of the XM5's QN1",
+      "12-microphone array with Adaptive NC Optimizer",
+      "The folding hinge is back after the XM5 removed it",
+      "10-band EQ in the Sony Sound Connect app",
+      "3 minutes of charging gives 3 hours"
+    ],
+    "specs": {
+      "battery": 30,
+      "batteryAncOff": 40,
+      "quickCharge": 3,
+      "bluetooth": "5.3 with Auracast",
+      "weight": 254,
+      "driverSize": 30,
+      "anc": "HD Noise Cancelling Processor QN3 driving a 12-microphone array with Adaptive NC Optimizer",
+      "multipoint": true,
+      "micCount": 12,
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 8.0,
+      "anc": 9.8,
+      "comfort": 9.0,
+      "sound": 9.0,
+      "calls": 8.5,
+      "travel": 9.5,
+      "gaming": 7.5,
+      "value": 8.0,
+      "durability": 7.5,
+      "features": 9.0
+    },
+    "pros": [
+      "Best-in-class noise cancelling, and the clearest reason to buy these",
+      "Sony restored the folding hinge, with a magnetic hard case",
+      "Only 254g and the most comfortable here over long sessions",
+      "10-band EQ, the deepest of any headphone here",
+      "LDAC plus Auracast"
+    ],
+    "cons": [
+      "No USB-C audio playback — the port charges only, a real omission at this price",
+      "30mm drivers are the smallest here",
+      "No aptX support",
+      "No IP rating"
+    ],
+    "images": [],
+    "amazonAsin": "B0F3PQHWTZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "bose-qc-ultra-2",
+      "sennheiser-momentum-5",
+      "airpods-max-2",
+      "sonos-ace",
+      "bw-px7-s3",
+      "jbl-tour-one-m3"
+    ],
+    "useCases": [
+      "travel",
+      "commute",
+      "office",
+      "professionals"
+    ],
+    "shortTagline": "The noise-cancelling benchmark — and the folding hinge is finally back."
+  },
+  {
+    "id": "hp-bose-qc-ultra-2",
+    "categorySlug": "headphones",
+    "brand": "Bose",
+    "series": "QuietComfort Ultra",
+    "model": "Bose QuietComfort Ultra Headphones (2nd Gen)",
+    "slug": "bose-qc-ultra-2",
+    "releaseYear": 2025,
+    "price": 449.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White Smoke",
+      "Midnight Violet"
+    ],
+    "material": "Plastic and metal with synthetic leather earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "aptX Adaptive with Snapdragon Sound",
+      "USB-C lossless audio",
+      "3.5mm input"
+    ],
+    "features": [
+      "CustomTune calibrates to your ear canal every time you put them on",
+      "aptX Adaptive and USB-C lossless, both new for this generation",
+      "Immersive Audio with Still and Motion modes, plus a new Cinema Mode",
+      "Battery up from 24 to 30 hours versus the first generation",
+      "Charge while listening"
+    ],
+    "specs": {
+      "battery": 30,
+      "batteryAncOff": 45,
+      "quickCharge": 15,
+      "bluetooth": "5.4",
+      "weight": 250,
+      "driverSize": "Not published by Bose",
+      "anc": "Adaptive ANC with updated ActiveSense and CustomTune ear-canal calibration, with manual ANC levels in the app",
+      "multipoint": true,
+      "micCount": "Not published by Bose for the Ultra",
+      "foldable": true,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 8.0,
+      "anc": 9.9,
+      "comfort": 9.2,
+      "sound": 8.5,
+      "calls": 8.5,
+      "travel": 9.5,
+      "gaming": 7.0,
+      "value": 7.5,
+      "durability": 7.5,
+      "features": 8.5
+    },
+    "pros": [
+      "The most effective noise cancelling available, narrowly ahead of Sony",
+      "CustomTune ear-canal calibration genuinely improves both ANC and sound",
+      "aptX Adaptive and USB-C lossless added this generation",
+      "Lightest flagship here at 250g and superbly comfortable"
+    ],
+    "cons": [
+      "Wired listening still requires battery power, unlike most rivals",
+      "Immersive Audio costs you seven hours of battery",
+      "No LDAC",
+      "Bose publishes neither driver size nor microphone count",
+      "Only an iterative update over the first generation"
+    ],
+    "images": [],
+    "amazonAsin": "B0FDKR293G",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wh-1000xm6",
+      "airpods-max-2",
+      "sennheiser-momentum-5",
+      "sonos-ace",
+      "jbl-tour-one-m3",
+      "beats-studio-pro"
+    ],
+    "useCases": [
+      "travel",
+      "commute",
+      "office",
+      "professionals"
+    ],
+    "shortTagline": "The most effective ANC you can buy, and the most comfortable flagship here."
+  },
+  {
+    "id": "hp-sennheiser-momentum-5",
+    "categorySlug": "headphones",
+    "brand": "Sennheiser",
+    "series": "MOMENTUM",
+    "model": "Sennheiser MOMENTUM 5 Wireless",
+    "slug": "sennheiser-momentum-5",
+    "releaseYear": 2026,
+    "price": 399.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Denim",
+      "White"
+    ],
+    "material": "Plastic and metal with fabric-covered earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "aptX Lossless with Snapdragon Sound",
+      "USB-C audio",
+      "3.5mm input"
+    ],
+    "features": [
+      "User-replaceable battery in a flagship headphone — genuinely rare",
+      "57 hours of playback, the longest of any ANC headphone here",
+      "aptX Lossless plus aptX Adaptive and aptX HD",
+      "8-band EQ with Sound Personalisation",
+      "10 minutes of charging gives about 7 hours"
+    ],
+    "specs": {
+      "battery": 57,
+      "batteryAncOff": "Sennheiser quotes only the 57-hour ANC-on figure",
+      "quickCharge": 4.3,
+      "bluetooth": "5.4 (Bluetooth 6.0 promised via future firmware)",
+      "weight": 290,
+      "driverSize": 42,
+      "anc": "Adaptive hybrid ANC with four microphones per side and beamforming; Sennheiser claims up to 3x better reduction of ambient voice chatter than the MOMENTUM 4",
+      "multipoint": true,
+      "micCount": 8,
+      "foldable": false,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 10.0,
+      "anc": 8.5,
+      "comfort": 8.0,
+      "sound": 9.2,
+      "calls": 8.0,
+      "travel": 8.0,
+      "gaming": 7.5,
+      "value": 8.5,
+      "durability": 8.5,
+      "features": 8.5
+    },
+    "pros": [
+      "User-replaceable battery — these should outlive every other flagship here",
+      "57 hours with ANC on is far ahead of Sony or Bose",
+      "aptX Lossless, with the widest codec support of any headphone here",
+      "42mm drivers and excellent, natural tuning"
+    ],
+    "cons": [
+      "Folds flat but does not fold in, so the case is large",
+      "ANC still trails Bose and Sony",
+      "Bluetooth 6.0 and Dolby Atmos are promised firmware features that have not shipped",
+      "No LDAC",
+      "No IP rating"
+    ],
+    "images": [],
+    "amazonAsin": "B0H1YDZJQP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2",
+      "bw-px7-s3",
+      "jbl-tour-one-m3",
+      "sonos-ace"
+    ],
+    "useCases": [
+      "travel",
+      "professionals",
+      "office",
+      "commute"
+    ],
+    "shortTagline": "57-hour battery and a user-replaceable cell — built to outlast its rivals."
+  },
+  {
+    "id": "hp-bw-px7-s3",
+    "categorySlug": "headphones",
+    "brand": "Bowers & Wilkins",
+    "series": "Px7",
+    "model": "Bowers & Wilkins Px7 S3",
+    "slug": "bw-px7-s3",
+    "releaseYear": 2025,
+    "price": 479.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Anthracite Black",
+      "Indigo Blue",
+      "Canvas White"
+    ],
+    "material": "Cast aluminium arms with fabric and leatherette earpads",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "aptX Lossless",
+      "USB-C audio",
+      "3.5mm input"
+    ],
+    "features": [
+      "A new discrete headphone amplifier design",
+      "aptX Lossless, aptX Adaptive and aptX HD",
+      "User-replaceable earpads and headband padding",
+      "40mm angled bio-cellulose drivers",
+      "15 minutes of charging gives about 7 hours"
+    ],
+    "specs": {
+      "battery": 30,
+      "batteryAncOff": "Bowers & Wilkins quotes only the 30-hour figure",
+      "quickCharge": 6.4,
+      "bluetooth": "5.3",
+      "weight": 300,
+      "driverSize": 40,
+      "anc": "Advanced adaptive ANC using 8 microphones, with a Pass-Through mode",
+      "multipoint": true,
+      "micCount": 8,
+      "foldable": false,
+      "waterResistance": "None",
+      "appEq": true
+    },
+    "scores": {
+      "battery": 8.0,
+      "anc": 8.0,
+      "comfort": 7.8,
+      "sound": 9.5,
+      "calls": 7.5,
+      "travel": 7.0,
+      "gaming": 7.0,
+      "value": 7.0,
+      "durability": 8.5,
+      "features": 7.5
+    },
+    "pros": [
+      "The best pure sound quality of any headphone here",
+      "aptX Lossless with a dedicated discrete amplifier",
+      "Earpads and headband padding are user-replaceable, which extends its life considerably",
+      "Both 3.5mm analog and USB-C digital wired listening"
+    ],
+    "cons": [
+      "Does not fold, so the case is bulky",
+      "300g and you notice it",
+      "ANC is good but clearly behind Bose and Sony",
+      "The most expensive non-Apple option here",
+      "No LDAC"
+    ],
+    "images": [],
+    "amazonAsin": "B0F45CTLMM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sennheiser-momentum-5",
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2",
+      "airpods-max-2",
+      "sonos-ace"
+    ],
+    "useCases": [
+      "professionals",
+      "office",
+      "travel"
+    ],
+    "shortTagline": "The best-sounding headphone here, with replaceable pads to make it last."
+  },
+  {
+    "id": "hp-airpods-max-2",
+    "categorySlug": "headphones",
+    "brand": "Apple",
+    "series": "AirPods Max",
+    "model": "Apple AirPods Max 2",
+    "slug": "airpods-max-2",
+    "releaseYear": 2026,
+    "price": 549.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight",
+      "Starlight",
+      "Blue",
+      "Purple",
+      "Orange"
+    ],
+    "material": "Stainless steel frame with anodised aluminium earcups and a mesh canopy",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C lossless audio",
+      "3.5mm via adapter"
+    ],
+    "features": [
+      "H2 chip with ANC claimed up to 1.5x more effective than the first generation",
+      "24-bit/48kHz lossless with ultra-low latency over USB-C",
+      "Live Translation",
+      "Personalised Spatial Audio with dynamic head tracking",
+      "Studio-quality recording and Voice Isolation"
+    ],
+    "specs": {
+      "battery": 20,
+      "batteryAncOff": "Apple rates only the 20-hour ANC-on figure",
+      "quickCharge": 10,
+      "bluetooth": "5.3",
+      "weight": 386,
+      "driverSize": "Not published by Apple",
+      "anc": "Apple Active Noise Cancellation on the H2 chip, using 8 of the 9 microphones, with Adaptive Audio, Transparency and Conversation Awareness",
+      "multipoint": "Yes, but only across compatible Apple devices",
+      "micCount": 9,
+      "foldable": false,
+      "waterResistance": "None",
+      "appEq": false
+    },
+    "scores": {
+      "battery": 6.0,
+      "anc": 9.0,
+      "comfort": 6.5,
+      "sound": 9.0,
+      "calls": 8.5,
+      "travel": 6.0,
+      "gaming": 7.0,
+      "value": 5.0,
+      "durability": 9.5,
+      "features": 8.0
+    },
+    "pros": [
+      "Exceptional build — stainless steel and machined aluminium, the most premium object here",
+      "24-bit lossless over USB-C with ultra-low latency",
+      "Best-in-class Spatial Audio with head tracking on Apple devices",
+      "Live Translation and studio-quality recording"
+    ],
+    "cons": [
+      "386g, a full 74g heavier than the next heaviest here, and it tells over long sessions",
+      "Still no EQ of any kind, at any price",
+      "AAC and SBC only, so Android users get the worst codec support here",
+      "Almost every headline feature requires an Apple device, including firmware updates",
+      "20 hours is the shortest battery here",
+      "No true power off — only the Smart Case"
+    ],
+    "images": [],
+    "amazonAsin": "B0GSS4SGZR",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-wh-1000xm6",
+      "bose-qc-ultra-2",
+      "sonos-ace",
+      "bw-px7-s3",
+      "beats-studio-pro"
+    ],
+    "useCases": [
+      "professionals",
+      "office",
+      "travel"
+    ],
+    "shortTagline": "The most beautifully built headphone here — and the heaviest, with no EQ."
+  }
+]

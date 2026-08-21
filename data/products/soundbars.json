@@ -1,0 +1,1004 @@
+[
+  {
+    "id": "sb-vizio-sv210m",
+    "categorySlug": "soundbars",
+    "brand": "VIZIO",
+    "series": "2.1 Soundbar",
+    "model": "VIZIO SV210M-08",
+    "slug": "vizio-sv210m",
+    "releaseYear": 2024,
+    "price": 170.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar with wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI eARC",
+      "Optical",
+      "Bluetooth 5.2",
+      "USB"
+    ],
+    "features": [
+      "Dolby Atmos and DTS:X decoding at an entry-level price",
+      "Wireless subwoofer included",
+      "30-inch bar sized for smaller TVs",
+      "VIZIO QuickFit design pairing with select VIZIO TVs"
+    ],
+    "specs": {
+      "channels": "2.1",
+      "totalPowerWatts": "Not published by the manufacturer",
+      "subwoofer": "Included (wireless)",
+      "rearSpeakers": "None",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None — eARC output only",
+      "eArc": true,
+      "wifi": "None — no AirPlay, Chromecast or Spotify Connect",
+      "bluetooth": "5.2",
+      "voiceAssistant": "None"
+    },
+    "scores": {
+      "sound": 6.5,
+      "bass": 6.5,
+      "dialogue": 6.5,
+      "surround": 5.0,
+      "connectivity": 4.5,
+      "features": 5.0,
+      "design": 6.5,
+      "value": 9.0
+    },
+    "pros": [
+      "Genuine Dolby Atmos and DTS:X decoding at well under $200",
+      "Wireless subwoofer included at this price",
+      "Compact 30-inch bar suits 43 to 55-inch TVs",
+      "Street price frequently drops below $100"
+    ],
+    "cons": [
+      "No Wi-Fi at all, so no AirPlay, Chromecast or Spotify Connect",
+      "No HDMI input, so it cannot sit between a console and the TV",
+      "Atmos is virtualised — there are no up-firing drivers",
+      "VIZIO publishes no power rating"
+    ],
+    "images": [],
+    "amazonAsin": "B0CVC4JNQH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hisense-hs2100",
+      "tcl-s55h",
+      "polk-signa-s4"
+    ],
+    "useCases": [
+      "tv-upgrade",
+      "compact"
+    ],
+    "shortTagline": "Atmos and DTS:X with a wireless sub for under $200 — the budget starting point."
+  },
+  {
+    "id": "sb-hisense-hs2100",
+    "categorySlug": "soundbars",
+    "brand": "Hisense",
+    "series": "HS Series",
+    "model": "Hisense HS2100",
+    "slug": "hisense-hs2100",
+    "releaseYear": 2023,
+    "price": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar with slim wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI ARC",
+      "Optical",
+      "Bluetooth 5.3",
+      "USB",
+      "3.5mm AUX"
+    ],
+    "features": [
+      "240W total system power, published by Hisense",
+      "Ultra-slim 11cm-deep wireless subwoofer that fits under furniture",
+      "Roku TV Ready for single-remote control on Roku TVs",
+      "DTS Virtual:X surround processing"
+    ],
+    "specs": {
+      "channels": "2.1",
+      "totalPowerWatts": 240,
+      "subwoofer": "Included (wireless), 120W, 11cm slim cabinet",
+      "rearSpeakers": "None",
+      "dolbyAtmos": false,
+      "dtsX": false,
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None",
+      "eArc": false,
+      "wifi": "None",
+      "bluetooth": "5.3",
+      "voiceAssistant": "None"
+    },
+    "scores": {
+      "sound": 6.0,
+      "bass": 7.0,
+      "dialogue": 6.5,
+      "surround": 4.0,
+      "connectivity": 4.0,
+      "features": 4.5,
+      "design": 6.5,
+      "value": 8.0
+    },
+    "pros": [
+      "240W published power is a lot for the money",
+      "The slim subwoofer actually fits under a sofa or cabinet",
+      "Roku TV Ready means one remote controls everything on a Roku TV",
+      "Bluetooth 5.3"
+    ],
+    "cons": [
+      "No Dolby Atmos — Dolby Digital only",
+      "DTS Virtual:X is a virtualiser, not true DTS:X",
+      "Plain ARC rather than eARC, which limits the audio formats a TV can send it",
+      "No Wi-Fi",
+      "It announces itself audibly at startup with no way to disable it"
+    ],
+    "images": [],
+    "amazonAsin": "B0C5476K3K",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "vizio-sv210m",
+      "tcl-s55h",
+      "polk-signa-s4"
+    ],
+    "useCases": [
+      "tv-upgrade",
+      "compact"
+    ],
+    "shortTagline": "240W and a genuinely slim sub for $130 — but no Atmos and only ARC."
+  },
+  {
+    "id": "sb-tcl-s55h",
+    "categorySlug": "soundbars",
+    "brand": "TCL",
+    "series": "S Class",
+    "model": "TCL S55H",
+    "slug": "tcl-s55h",
+    "releaseYear": 2024,
+    "price": 139.0,
+    "msrp": 219.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar with wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.0 eARC",
+      "Optical",
+      "Bluetooth",
+      "USB"
+    ],
+    "features": [
+      "AI Sonic-Adaptation room calibration via the TCL Home app, unusual at this price",
+      "220W total system power",
+      "Dolby Atmos with TCL's Tutti Choral upmixing",
+      "TCL TV Ready and Roku TV Ready for one-remote control"
+    ],
+    "specs": {
+      "channels": "2.1",
+      "totalPowerWatts": 220,
+      "subwoofer": "Included (wireless), 120W",
+      "rearSpeakers": "None",
+      "dolbyAtmos": true,
+      "dtsX": "TCL's own specification lists DTS Virtual:X; some retail listings claim full DTS:X, which is unconfirmed",
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None — eARC output only",
+      "eArc": true,
+      "wifi": "App control via TCL Home, but no Wi-Fi streaming protocols are listed",
+      "bluetooth": "Not published by the manufacturer",
+      "voiceAssistant": "None"
+    },
+    "scores": {
+      "sound": 6.5,
+      "bass": 7.0,
+      "dialogue": 6.5,
+      "surround": 5.5,
+      "connectivity": 4.5,
+      "features": 6.0,
+      "design": 6.5,
+      "value": 8.5
+    },
+    "pros": [
+      "Automatic room calibration is genuinely rare under $200",
+      "220W with a wireless subwoofer included",
+      "eARC rather than plain ARC",
+      "Works as one system with TCL and Roku TVs"
+    ],
+    "cons": [
+      "TCL's own spec sheet says DTS Virtual:X while retail listings claim DTS:X — treat full DTS:X as unconfirmed",
+      "No HDMI input",
+      "TCL does not publish the Bluetooth version",
+      "Atmos is virtualised, with no up-firing drivers"
+    ],
+    "images": [],
+    "amazonAsin": "B0D1JBBJ6S",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "vizio-sv210m",
+      "hisense-hs2100",
+      "polk-signa-s4",
+      "sony-ht-b500"
+    ],
+    "useCases": [
+      "tv-upgrade",
+      "compact",
+      "dolby-atmos"
+    ],
+    "shortTagline": "Room calibration and 220W for $139 — the most feature-dense budget bar."
+  },
+  {
+    "id": "sb-sony-ht-b500",
+    "categorySlug": "soundbars",
+    "brand": "Sony",
+    "series": "BRAVIA Theater",
+    "model": "Sony BRAVIA Theater Bar 5 (HT-B500)",
+    "slug": "sony-ht-b500",
+    "releaseYear": 2026,
+    "price": 349.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar with wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI eARC",
+      "Optical",
+      "Bluetooth 5.3"
+    ],
+    "features": [
+      "Brand-new 2026 model",
+      "Vertical Surround Engine for virtualised Dolby Atmos height",
+      "Wireless subwoofer included",
+      "Slim enough to sit between a BRAVIA TV's feet",
+      "BRAVIA Sync and BRAVIA Connect app"
+    ],
+    "specs": {
+      "channels": "3.1",
+      "totalPowerWatts": "Sony publishes power consumption only (bar 30W, subwoofer 20W), not system output",
+      "subwoofer": "Included (wireless), model SA-WB500",
+      "rearSpeakers": "None — Sony has published no compatible wireless rear kit for this model",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None — there is no HDMI input, only eARC out",
+      "eArc": true,
+      "wifi": "None — no AirPlay, Chromecast or Spotify Connect",
+      "bluetooth": "5.3",
+      "voiceAssistant": "None"
+    },
+    "scores": {
+      "sound": 7.0,
+      "bass": 6.5,
+      "dialogue": 7.5,
+      "surround": 5.5,
+      "connectivity": 4.5,
+      "features": 5.0,
+      "design": 7.5,
+      "value": 6.5
+    },
+    "pros": [
+      "A genuine 2026 model rather than old stock",
+      "Dedicated centre channel makes dialogue noticeably clearer than a 2.1 bar",
+      "Slim profile designed to fit under a BRAVIA without blocking the screen",
+      "Both Dolby Atmos and DTS:X"
+    ],
+    "cons": [
+      "Reviewers report almost no sense of overhead height despite the Atmos badge",
+      "No room calibration",
+      "No Wi-Fi streaming of any kind",
+      "No HDMI input",
+      "Only a power button on the unit itself, so you depend entirely on the remote"
+    ],
+    "images": [],
+    "amazonAsin": "B0GSBT4FV7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "polk-signa-s4",
+      "tcl-s55h",
+      "yamaha-sr-x50a",
+      "bose-smart-soundbar"
+    ],
+    "useCases": [
+      "tv-upgrade",
+      "dolby-atmos",
+      "compact"
+    ],
+    "shortTagline": "Sony's new 2026 entry bar — clear dialogue, but the Atmos is barely there."
+  },
+  {
+    "id": "sb-polk-signa-s4",
+    "categorySlug": "soundbars",
+    "brand": "Polk Audio",
+    "series": "Signa",
+    "model": "Polk Audio Signa S4",
+    "slug": "polk-signa-s4",
+    "releaseYear": 2022,
+    "price": 449.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar with wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI eARC",
+      "Optical",
+      "Bluetooth",
+      "3.5mm analog"
+    ],
+    "features": [
+      "Dolby Atmos Certified with true up-firing height drivers",
+      "Polk VoiceAdjust for dialogue level",
+      "Polk BassAdjust presets",
+      "Wireless subwoofer with a 5.9-inch driver included"
+    ],
+    "specs": {
+      "channels": "3.1.2",
+      "totalPowerWatts": "Not published by the manufacturer",
+      "subwoofer": "Included (wireless), 5.9-inch driver",
+      "rearSpeakers": "None — Polk's SR2 wireless surrounds pair with the MagniFi range, not the Signa S4",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None — eARC output only",
+      "eArc": true,
+      "wifi": "None",
+      "bluetooth": "Not published by the manufacturer",
+      "voiceAssistant": "None"
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 7.5,
+      "dialogue": 8.0,
+      "surround": 7.0,
+      "connectivity": 4.5,
+      "features": 5.5,
+      "design": 6.5,
+      "value": 7.5
+    },
+    "pros": [
+      "True up-firing height drivers rather than virtualised Atmos, which most bars at this price lack",
+      "VoiceAdjust genuinely helps with mumbled dialogue",
+      "Dolby Atmos Certified",
+      "Included wireless subwoofer"
+    ],
+    "cons": [
+      "No Wi-Fi or smart features of any kind",
+      "No DTS:X support",
+      "Cannot be expanded with rear speakers",
+      "2022 hardware still selling at a 2022 price",
+      "42 inches wide, so it needs a wide TV stand"
+    ],
+    "images": [],
+    "amazonAsin": "B09J753M18",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sony-ht-b500",
+      "yamaha-sr-x50a",
+      "bose-smart-soundbar",
+      "tcl-s55h"
+    ],
+    "useCases": [
+      "dolby-atmos",
+      "home-theater",
+      "tv-upgrade"
+    ],
+    "shortTagline": "Real up-firing Atmos drivers under $450 — no smarts, just height."
+  },
+  {
+    "id": "sb-yamaha-sr-x50a",
+    "categorySlug": "soundbars",
+    "brand": "Yamaha",
+    "series": "TRUE X",
+    "model": "Yamaha TRUE X BAR 50A (SR-X50A)",
+    "slug": "yamaha-sr-x50a",
+    "releaseYear": 2023,
+    "price": 499.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar with detachable wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI in",
+      "HDMI out with eARC",
+      "Optical",
+      "Wi-Fi 5",
+      "Bluetooth 5.0",
+      "AirPlay 2"
+    ],
+    "features": [
+      "The wireless subwoofer doubles as a portable Bluetooth speaker",
+      "280W total system power, published by Yamaha",
+      "Expandable with Yamaha TRUE X wireless surrounds",
+      "HDMI input as well as output",
+      "AirPlay 2 streaming"
+    ],
+    "specs": {
+      "channels": "2.1.2",
+      "totalPowerWatts": 280,
+      "subwoofer": "Both — dual built-in woofers plus an included 100W wireless True X Sub 100A",
+      "rearSpeakers": "Optional add-on — Yamaha TRUE X SPEAKER 1A wireless surrounds",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "hdmiPorts": 2,
+      "hdmiPassthrough": "4K pass-through; Yamaha does not specify a refresh rate, so assume 4K/60",
+      "eArc": true,
+      "wifi": "Wi-Fi 5 with AirPlay 2; Chromecast is not supported",
+      "bluetooth": "5.0",
+      "voiceAssistant": "Retailer listings claim built-in Alexa, but Yamaha's own specification does not list it for this model"
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 7.5,
+      "dialogue": 7.5,
+      "surround": 7.0,
+      "connectivity": 7.5,
+      "features": 8.0,
+      "design": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "The detachable subwoofer working as a portable Bluetooth speaker is genuinely useful and unique here",
+      "280W published power, plus a real HDMI input",
+      "A clear upgrade path to true wireless surrounds",
+      "AirPlay 2 built in"
+    ],
+    "cons": [
+      "No DTS support at all — not DTS:X, not even DTS Digital Surround",
+      "Bluetooth 5.0 is dated",
+      "Yamaha does not confirm whether Alexa is actually built in",
+      "Pass-through refresh rate is unspecified, so gamers should assume 4K/60"
+    ],
+    "images": [],
+    "amazonAsin": "B0CBQG1F6K",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "polk-signa-s4",
+      "bose-smart-soundbar",
+      "sony-ht-a7100",
+      "sonos-arc-ultra"
+    ],
+    "useCases": [
+      "dolby-atmos",
+      "home-theater",
+      "tv-upgrade"
+    ],
+    "shortTagline": "Its subwoofer detaches and works as a portable Bluetooth speaker."
+  },
+  {
+    "id": "sb-bose-smart-soundbar",
+    "categorySlug": "soundbars",
+    "brand": "Bose",
+    "series": "Smart Soundbar",
+    "model": "Bose Smart Soundbar",
+    "slug": "bose-smart-soundbar",
+    "releaseYear": 2024,
+    "price": 549.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal grille over a plastic chassis",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI eARC",
+      "Optical",
+      "Wi-Fi",
+      "Bluetooth 5.0",
+      "AirPlay 2",
+      "Chromecast built-in",
+      "Spotify Connect"
+    ],
+    "features": [
+      "Bose TrueSpace upmixing turns non-Atmos content into virtual surround",
+      "A.I. Dialogue Mode for clearer speech",
+      "Alexa built in with a microphone on the bar",
+      "Pairs with Bose Ultra Open Earbuds for Personal Surround Sound",
+      "The broadest streaming support in its price band"
+    ],
+    "specs": {
+      "channels": "3.0.2 as measured independently; Bose publishes only a transducer count, not a channel spec",
+      "totalPowerWatts": "Bose does not publish power ratings for any soundbar",
+      "subwoofer": "Optional add-on — Bose Bass Module 500 or 700; there is no built-in subwoofer",
+      "rearSpeakers": "Optional add-on — Bose Surround Speakers, or Bose Ultra Open Earbuds",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None — eARC output only",
+      "eArc": true,
+      "wifi": "Yes — AirPlay 2, Chromecast built-in and Spotify Connect all supported",
+      "bluetooth": "5.0",
+      "voiceAssistant": "Amazon Alexa built in; also works with Google Home"
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 5.5,
+      "dialogue": 8.5,
+      "surround": 7.0,
+      "connectivity": 9.0,
+      "features": 8.0,
+      "design": 8.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Best streaming and smart-home integration in this price band — AirPlay 2, Chromecast and Spotify Connect together",
+      "A.I. Dialogue Mode is one of the better dialogue enhancers on the market",
+      "Alexa built in with a mic on the bar itself",
+      "Compact and well finished"
+    ],
+    "cons": [
+      "Bass is weak without the separate Bass Module, which costs $500 to $800 more",
+      "A complete Bose system runs close to $1,400",
+      "No DTS:X",
+      "Reviewers describe the Atmos performance as inconsistent",
+      "Only power and mic-mute buttons on the bar itself"
+    ],
+    "images": [],
+    "amazonAsin": "B0D6W8XQ6J",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-arc-ultra",
+      "yamaha-sr-x50a",
+      "sony-ht-a7100",
+      "polk-signa-s4",
+      "samsung-hw-q800h"
+    ],
+    "useCases": [
+      "dolby-atmos",
+      "home-theater",
+      "compact"
+    ],
+    "shortTagline": "The best streaming integration under $600 — but budget for the bass module."
+  },
+  {
+    "id": "sb-sony-ht-a7100",
+    "categorySlug": "soundbars",
+    "brand": "Sony",
+    "series": "BRAVIA Theater",
+    "model": "Sony BRAVIA Theater Bar 7 (HT-A7100)",
+    "slug": "sony-ht-a7100",
+    "releaseYear": 2026,
+    "price": 869.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Fabric-wrapped bar",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI 2.1 in",
+      "HDMI 2.1 out with eARC",
+      "Optical",
+      "Wi-Fi 6",
+      "Bluetooth 6.0",
+      "AirPlay 2",
+      "Spotify Connect"
+    ],
+    "features": [
+      "8K and 4K/120Hz pass-through with VRR and ALLM — the strongest gaming pass-through in its class",
+      "360 Spatial Sound Mapping",
+      "Voice Zoom 3 when paired with a compatible Sony BRAVIA TV",
+      "Sound Field Optimization room calibration",
+      "IMAX Enhanced certification"
+    ],
+    "specs": {
+      "channels": "5.0.2 — Sony's own materials describe 9 speaker units with no built-in subwoofer",
+      "totalPowerWatts": "Sony publishes power consumption (52W) only, not system output",
+      "subwoofer": "Optional add-on — Theater Sub 7, Sub 8 or Sub 9; dual-subwoofer capable",
+      "rearSpeakers": "Optional add-on — Theater Rear 9 or Rear 8",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "hdmiPorts": 2,
+      "hdmiPassthrough": "8K HDR and 4K/120Hz with VRR and ALLM, plus Dolby Vision",
+      "eArc": true,
+      "wifi": "Wi-Fi 6 with AirPlay 2 and Spotify Connect; Chromecast is not supported",
+      "bluetooth": "6.0",
+      "voiceAssistant": "None built in"
+    },
+    "scores": {
+      "sound": 8.0,
+      "bass": 5.0,
+      "dialogue": 9.0,
+      "surround": 8.5,
+      "connectivity": 9.5,
+      "features": 8.5,
+      "design": 8.0,
+      "value": 6.5
+    },
+    "pros": [
+      "8K and 4K/120Hz VRR pass-through, which almost nothing else at this price offers",
+      "Voice Zoom 3 with a Sony BRAVIA TV is the best dialogue system in the category",
+      "Both Dolby Atmos and DTS:X, plus IMAX Enhanced",
+      "A clear modular upgrade path to subs and rears"
+    ],
+    "cons": [
+      "No subwoofer included, and reviewers describe the bass as poor without one — budget at least $330 more",
+      "No on-screen setup menus and no alphanumeric front display",
+      "No EQ, bass or treble controls at all",
+      "No USB, DLNA or local file playback"
+    ],
+    "images": [],
+    "amazonAsin": "B0GSBYNNX1",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-arc-ultra",
+      "samsung-hw-q800h",
+      "bose-smart-soundbar",
+      "lg-s95ar",
+      "yamaha-sr-x50a"
+    ],
+    "useCases": [
+      "gaming",
+      "home-theater",
+      "dolby-atmos"
+    ],
+    "shortTagline": "8K/120Hz pass-through and the best dialogue tech — but buy the sub too."
+  },
+  {
+    "id": "sb-sonos-arc-ultra",
+    "categorySlug": "soundbars",
+    "brand": "Sonos",
+    "series": "Arc",
+    "model": "Sonos Arc Ultra",
+    "slug": "sonos-arc-ultra",
+    "releaseYear": 2024,
+    "price": 1099.0,
+    "msrp": 999.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Perforated polycarbonate grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI eARC",
+      "Wi-Fi 6",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "Spotify Connect",
+      "Ethernet"
+    ],
+    "features": [
+      "14 drivers in a 9.1.4 configuration, the most of any single-box bar here",
+      "Sound Motion woofer delivers real bass from a slim chassis with no separate subwoofer",
+      "Trueplay room tuning",
+      "Sonos Voice Control and Alexa built in",
+      "First Sonos soundbar with Bluetooth audio"
+    ],
+    "specs": {
+      "channels": "9.1.4 (14 drivers: 9 tweeters, 6 mid-woofers, plus the Sound Motion woofer)",
+      "totalPowerWatts": "Sonos does not publish power ratings",
+      "subwoofer": "Built in (Sound Motion woofer); Sonos Sub 4 or Sub Mini optional",
+      "rearSpeakers": "Optional add-on — Sonos Era 300 or Era 100 pair as wireless surrounds",
+      "dolbyAtmos": true,
+      "dtsX": false,
+      "hdmiPorts": 1,
+      "hdmiPassthrough": "None — there is no HDMI input at all, only eARC out",
+      "eArc": true,
+      "wifi": "Wi-Fi 6 with AirPlay 2 and Spotify Connect; Chromecast is not supported",
+      "bluetooth": "5.3",
+      "voiceAssistant": "Sonos Voice Control and Amazon Alexa built in"
+    },
+    "scores": {
+      "sound": 9.2,
+      "bass": 8.5,
+      "dialogue": 8.5,
+      "surround": 9.0,
+      "connectivity": 7.5,
+      "features": 8.5,
+      "design": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Widely rated the best one-box Atmos bar you can buy",
+      "The Sound Motion driver produces genuine bass without a separate subwoofer",
+      "Trueplay room tuning adapts it to your room",
+      "Superb build and finish"
+    ],
+    "cons": [
+      "No HDMI input at all, which is a real problem if your TV has only one spare HDMI port",
+      "No DTS:X or DTS-HD decoding",
+      "Deliberately brand-agnostic, so no TV-brand features like Q-Symphony",
+      "Some controls sit on the rear, awkward when wall-mounted",
+      "List price rose from $999 to $1,099"
+    ],
+    "images": [],
+    "amazonAsin": "B0DFK28LBB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-hw-q800h",
+      "sony-ht-a7100",
+      "bose-smart-soundbar",
+      "lg-s95ar",
+      "samsung-hw-q990h"
+    ],
+    "useCases": [
+      "dolby-atmos",
+      "home-theater",
+      "tv-upgrade"
+    ],
+    "shortTagline": "The best one-box Atmos bar — real bass, no sub needed, but no HDMI input."
+  },
+  {
+    "id": "sb-samsung-hw-q800h",
+    "categorySlug": "soundbars",
+    "brand": "Samsung",
+    "series": "Q-Series",
+    "model": "Samsung HW-Q800H",
+    "slug": "samsung-hw-q800h",
+    "releaseYear": 2026,
+    "price": 1099.0,
+    "msrp": 1099.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal grille bar with wireless subwoofer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "HDMI in",
+      "HDMI out with eARC",
+      "Optical",
+      "Wi-Fi",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "Chromecast",
+      "Spotify Connect"
+    ],
+    "features": [
+      "Q-Symphony plays the TV's own speakers alongside the bar on 2022-2026 Samsung TVs",
+      "11 drivers in a 5.1.2 layout with true up-firing height channels",
+      "SpaceFit Sound Pro automatic room calibration",
+      "Both Dolby Atmos and DTS:X",
+      "Expandable with the SWA-9500S wireless rear kit"
+    ],
+    "specs": {
+      "channels": "5.1.2 (11 drivers)",
+      "totalPowerWatts": "Samsung no longer publishes wattage for Q-series bars",
+      "subwoofer": "Included (wireless)",
+      "rearSpeakers": "Optional add-on — Samsung SWA-9500S wireless rear kit",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "hdmiPorts": 2,
+      "hdmiPassthrough": "4K/60Hz only — Samsung's specification does not list 120Hz, VRR or ALLM",
+      "eArc": true,
+      "wifi": "Yes — AirPlay 2, Google Cast and Spotify Connect all supported",
+      "bluetooth": "5.3",
+      "voiceAssistant": "Alexa built in; also works with Google Home. Bixby is not supported"
+    },
+    "scores": {
+      "sound": 8.5,
+      "bass": 8.5,
+      "dialogue": 8.0,
+      "surround": 8.5,
+      "connectivity": 8.0,
+      "features": 8.5,
+      "design": 7.5,
+      "value": 8.0
+    },
+    "pros": [
+      "Q-Symphony is the strongest TV-attach feature in the category if you own a Samsung TV",
+      "Both Dolby Atmos and DTS:X, which the Sonos and Bose lack",
+      "True up-firing drivers plus a wireless subwoofer included",
+      "Automatic room calibration and a real HDMI input"
+    ],
+    "cons": [
+      "Pass-through is 4K/60Hz only — no 120Hz, VRR or ALLM, so console gamers should look at the Q990H or the Sony",
+      "Samsung no longer publishes power figures",
+      "Q-Symphony only benefits Samsung TV owners",
+      "Rear speakers cost extra"
+    ],
+    "images": [],
+    "amazonAsin": "B0GL1SGX2X",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "sonos-arc-ultra",
+      "sony-ht-a7100",
+      "samsung-hw-q990h",
+      "lg-s95ar",
+      "bose-smart-soundbar"
+    ],
+    "useCases": [
+      "dolby-atmos",
+      "home-theater",
+      "tv-upgrade"
+    ],
+    "shortTagline": "The affordable way into Samsung's Q-Symphony — but only 4K/60 pass-through."
+  },
+  {
+    "id": "sb-lg-s95ar",
+    "categorySlug": "soundbars",
+    "brand": "LG",
+    "series": "S9 Series",
+    "model": "LG S95AR",
+    "slug": "lg-s95ar",
+    "releaseYear": 2025,
+    "price": 1699.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal grille bar with wireless subwoofer and wireless rear speakers",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI 2.1",
+      "eARC",
+      "Optical",
+      "Wi-Fi",
+      "Bluetooth",
+      "AirPlay 2",
+      "Google Cast",
+      "Spotify Connect"
+    ],
+    "features": [
+      "9.1.5 channels across 17 drivers, including a centre up-firing channel no rival offers",
+      "810W total system power, published by LG",
+      "Wireless rear speakers included in the box",
+      "WOW Orchestra plays the LG TV's speakers together with the bar",
+      "WOWCAST sends audio from an LG TV wirelessly, with no HDMI cable"
+    ],
+    "specs": {
+      "channels": "9.1.5 (17 drivers, five up-firing including a centre height channel)",
+      "totalPowerWatts": 810,
+      "subwoofer": "Included (wireless), 8-inch driver in a 20-litre cabinet, extending to 27.1Hz",
+      "rearSpeakers": "Included — six-channel true wireless rears with up-firing drivers",
+      "dolbyAtmos": true,
+      "dtsX": true,
+      "hdmiPorts": 2,
+      "hdmiPassthrough": "4K/120Hz with VRR and ALLM, HDCP 2.3, HDR10 and Dolby Vision",
+      "eArc": true,
+      "wifi": "Yes — AirPlay 2, Google Cast and Spotify Connect all supported",
+      "bluetooth": "Not published by the manufacturer",
+      "voiceAssistant": "Works with Alexa and Google Home; whether either is built in is not confirmed by LG. The built-in microphone is documented for room calibration"
+    },
+    "scores": {
+      "sound": 9.0,
+      "bass": 9.0,
+      "dialogue": 8.5,
+      "surround": 9.5,
+      "connectivity": 9.0,
+      "features": 9.0,
+      "design": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Rear speakers and subwoofer both included, so it is a complete system out of the box",
+      "The only bar here with a centre up-firing height channel",
+      "810W published power and full 4K/120Hz VRR pass-through",
+      "WOW Orchestra and WOWCAST make it the natural match for an LG OLED"
+    ],
+    "cons": [
+      "LG does not publish the Bluetooth version",
+      "Whether Alexa or Google Assistant is genuinely built in is unclear from LG's own materials",
+      "Large footprint — the bar, sub and two rears need real space",
+      "2025 hardware, and LG has announced a modular Sound Suite successor with no price or date"
+    ],
+    "images": [],
+    "amazonAsin": "B0F3QSTWHF",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-hw-q990h",
+      "sonos-arc-ultra",
+      "sony-ht-a7100",
+      "samsung-hw-q800h"
+    ],
+    "useCases": [
+      "home-theater",
+      "dolby-atmos",
+      "gaming"
+    ],
+    "shortTagline": "A complete 9.1.5 system with rears and sub in the box — the LG OLED match."
+  },
+  {
+    "id": "sb-samsung-hw-q990h",
+    "categorySlug": "soundbars",
+    "brand": "Samsung",
+    "series": "Q-Series",
+    "model": "Samsung HW-Q990H",
+    "slug": "samsung-hw-q990h",
+    "releaseYear": 2026,
+    "price": 1999.99,
+    "msrp": 1699.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Metal grille bar with wireless subwoofer and wireless rear speakers",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2x HDMI 2.1 in",
+      "HDMI out with eARC",
+      "Wi-Fi",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "Google Cast",
+      "Spotify Connect",
+      "Roon Ready"
+    ],
+    "features": [
+      "11.1.4 channels across 23 drivers — the highest channel count here",
+      "Wireless Dolby Atmos from compatible Samsung TVs, with no HDMI cable",
+      "Q-Symphony plays the TV's speakers alongside the bar",
+      "Two HDMI 2.1 inputs with full 4K/120Hz VRR pass-through",
+      "New Sound Elevation steers audio up toward the screen",
+      "Eclipsa Audio and Roon Ready support"
+    ],
+    "specs": {
+      "channels": "11.1.4 (23 drivers: 7.0.2 main bar, 4.0.2 rears, dual 8-inch subwoofer)",
+      "totalPowerWatts": "Samsung does not publish wattage for this model",
+      "subwoofer": "Included (wireless) — a 25cm cube with two 8-inch woofers in push/pull",
+      "rearSpeakers": "Included (wireless, with up-firing drivers)",
+      "dolbyAtmos": true,
+      "dtsX": "Yes, plus Eclipsa Audio",
+      "hdmiPorts": 3,
+      "hdmiPassthrough": "4K/120Hz with VRR and ALLM, HDR10, HDR10+ and Dolby Vision on both inputs",
+      "eArc": true,
+      "wifi": "Yes — AirPlay 2, Google Cast, Spotify Connect, Tidal Connect and Roon Ready",
+      "bluetooth": "5.3",
+      "voiceAssistant": "Alexa built in; also works with Google Assistant"
+    },
+    "scores": {
+      "sound": 9.5,
+      "bass": 9.5,
+      "dialogue": 8.5,
+      "surround": 9.8,
+      "connectivity": 9.8,
+      "features": 9.5,
+      "design": 7.0,
+      "value": 6.5
+    },
+    "pros": [
+      "23 drivers in 11.1.4 — the most complete out-of-the-box surround system here",
+      "Two HDMI 2.1 inputs with full 4K/120Hz VRR, so consoles can run through it",
+      "Wireless Dolby Atmos from a Samsung TV removes the HDMI cable entirely",
+      "Roon Ready and Tidal Connect make it a serious music system too"
+    ],
+    "cons": [
+      "$1,999 — a $300 increase over the 2025 Q990F for what reviewers call a minor refinement",
+      "Dated design and a front display that is hard to read",
+      "Samsung does not publish power figures",
+      "The Samsung Sound app had limited compatibility at launch; SmartThings is the primary controller",
+      "The outgoing Q990F is still on sale at heavy discounts and is arguably better value"
+    ],
+    "images": [],
+    "amazonAsin": "B0GL1Q8P1P",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "lg-s95ar",
+      "sonos-arc-ultra",
+      "sony-ht-a7100",
+      "samsung-hw-q800h"
+    ],
+    "useCases": [
+      "home-theater",
+      "dolby-atmos",
+      "gaming"
+    ],
+    "shortTagline": "23 drivers, 11.1.4, rears and sub included — the most complete system here."
+  }
+]

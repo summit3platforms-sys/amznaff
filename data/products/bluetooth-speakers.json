@@ -1,0 +1,976 @@
+[
+  {
+    "id": "bs-tribit-xsound-go",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Tribit",
+    "series": "XSound",
+    "model": "Tribit XSound Go",
+    "slug": "tribit-xsound-go",
+    "releaseYear": 2024,
+    "price": 34.99,
+    "msrp": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Blue"
+    ],
+    "material": "Rubberised plastic with fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C",
+      "3.5mm AUX"
+    ],
+    "features": [
+      "24 hours of playback at under $40",
+      "XBass hardware button for instant bass boost",
+      "IPX7 water resistance",
+      "TWS pairing of two units for stereo"
+    ],
+    "specs": {
+      "batteryLife": 24,
+      "waterResistance": "IPX7 — water only, with no dust rating",
+      "floats": "Not confirmed",
+      "powerOutput": 16,
+      "weight": 385,
+      "bluetooth": "5.3",
+      "driverConfig": "2x 40mm full-range drivers plus one passive bass radiator",
+      "stereoPairing": "TWS pairing of two XSound Go units; no large-scale chaining",
+      "speakerphone": true,
+      "appEq": "Tribit advertises a companion app with custom EQ, though one 2026 review reports no app; the XBass hardware button is confirmed either way",
+      "powerBank": false
+    },
+    "scores": {
+      "sound": 6.5,
+      "bass": 6.0,
+      "battery": 9.0,
+      "durability": 7.0,
+      "portability": 9.0,
+      "loudness": 5.5,
+      "features": 5.0,
+      "value": 9.5
+    },
+    "pros": [
+      "24 hours of playback for under $40",
+      "IPX7 means it survives full submersion",
+      "XBass button gives an instant, genuine bass lift",
+      "Light enough to throw in any bag"
+    ],
+    "cons": [
+      "No dust rating, so sand and grit are a risk at the beach",
+      "Mono unless you buy two",
+      "Call quality through the built-in mic is poor",
+      "No USB charge-out",
+      "Sources disagree on whether the companion app actually exists"
+    ],
+    "images": [],
+    "amazonAsin": "B07594HZ6Y",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-go-5",
+      "ue-wonderboom-4",
+      "soundcore-boom-2"
+    ],
+    "useCases": [
+      "portable",
+      "poolside",
+      "outdoor"
+    ],
+    "shortTagline": "24 hours and IPX7 for under $40 — the value benchmark."
+  },
+  {
+    "id": "bs-jbl-go-5",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "JBL",
+    "series": "Go",
+    "model": "JBL Go 5",
+    "slug": "jbl-go-5",
+    "releaseYear": 2026,
+    "price": 49.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Red",
+      "Blue"
+    ],
+    "material": "Rubberised plastic with fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 6.0",
+      "USB-C lossless audio"
+    ],
+    "features": [
+      "Bluetooth 6.0, the newest radio in this group",
+      "USB-C lossless audio input",
+      "AirTouch instant stereo pairing — tap two units together",
+      "Ambient edge lighting",
+      "IP68 dust and water rating plus drop protection"
+    ],
+    "specs": {
+      "batteryLife": 8,
+      "waterResistance": "IP68 — dust and water, to 1.5m for 30 minutes, plus drop-proof",
+      "floats": "Not confirmed",
+      "powerOutput": 4.8,
+      "weight": 230,
+      "bluetooth": "6.0",
+      "driverConfig": "1x 45mm full-range driver; passive radiators are not listed by JBL",
+      "stereoPairing": "AirTouch instant stereo pairing by tapping two Go 5 units together, plus Auracast multi-speaker linking",
+      "speakerphone": false,
+      "appEq": true,
+      "powerBank": false
+    },
+    "scores": {
+      "sound": 6.0,
+      "bass": 4.5,
+      "battery": 5.0,
+      "durability": 8.5,
+      "portability": 9.5,
+      "loudness": 4.5,
+      "features": 7.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Bluetooth 6.0 and USB-C lossless audio in a pocket speaker",
+      "IP68 plus a drop rating makes it the toughest small speaker here",
+      "AirTouch stereo pairing is the simplest implementation of the idea",
+      "Only 230g"
+    ],
+    "cons": [
+      "8 rated hours is the shortest battery in this group by a wide margin",
+      "4.8W means limited volume and almost no bass",
+      "No microphone, so no speakerphone",
+      "The edge lighting colours cannot be chosen"
+    ],
+    "images": [],
+    "amazonAsin": "B0GHYJ7BS9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tribit-xsound-go",
+      "ue-wonderboom-4",
+      "jbl-flip-7"
+    ],
+    "useCases": [
+      "portable",
+      "outdoor",
+      "poolside"
+    ],
+    "shortTagline": "Bluetooth 6.0 and IP68 in a 230g pocket speaker — new for 2026."
+  },
+  {
+    "id": "bs-ue-wonderboom-4",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Ultimate Ears",
+    "series": "WONDERBOOM",
+    "model": "Ultimate Ears WONDERBOOM 4",
+    "slug": "ue-wonderboom-4",
+    "releaseYear": 2024,
+    "price": 79.99,
+    "msrp": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Blue",
+      "Pink",
+      "Grey"
+    ],
+    "material": "Rubberised fabric-wrapped cylinder",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.2"
+    ],
+    "features": [
+      "Genuinely floats, and IP67 rated",
+      "360-degree sound from a cylindrical design",
+      "Outdoor Boost mode for open-air listening",
+      "New Podcast Mode for spoken word",
+      "Rated to survive a 5-foot drop"
+    ],
+    "specs": {
+      "batteryLife": 14,
+      "waterResistance": "IP67 — dust and water, to 1m for 30 minutes",
+      "floats": true,
+      "powerOutput": "Ultimate Ears does not publish wattage; maximum SPL is quoted as 87dB",
+      "weight": 420,
+      "bluetooth": "5.2",
+      "driverConfig": "2x 40mm active drivers plus 2x 46.1 x 65.2mm passive radiators",
+      "stereoPairing": "Double Up pairs two WONDERBOOM 4 units; it is not cross-compatible with earlier WONDERBOOMs, BOOM, MEGABOOM or HYPERBOOM",
+      "speakerphone": false,
+      "appEq": false,
+      "powerBank": false
+    },
+    "scores": {
+      "sound": 7.0,
+      "bass": 6.0,
+      "battery": 6.5,
+      "durability": 9.5,
+      "portability": 8.5,
+      "loudness": 6.0,
+      "features": 4.5,
+      "value": 7.5
+    },
+    "pros": [
+      "It genuinely floats, which matters at a pool or on a boat",
+      "IP67 plus a 5-foot drop rating — the most rugged small speaker here",
+      "360-degree sound is more room-filling than a forward-firing design",
+      "Outdoor Boost is genuinely useful outside"
+    ],
+    "cons": [
+      "No companion app and no EQ at all",
+      "No microphone, so it cannot take calls",
+      "Ultimate Ears publishes no power figure",
+      "Distorts noticeably when pushed loud",
+      "Cannot pair with any other Ultimate Ears speaker, only another WONDERBOOM 4"
+    ],
+    "images": [],
+    "amazonAsin": "B0BRXJ9WTD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tribit-xsound-go",
+      "jbl-go-5",
+      "jbl-flip-7",
+      "bose-soundlink-flex-2"
+    ],
+    "useCases": [
+      "poolside",
+      "outdoor",
+      "portable"
+    ],
+    "shortTagline": "Floats, survives a 5-foot drop, 360-degree sound — the poolside pick."
+  },
+  {
+    "id": "bs-soundcore-boom-2",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Anker",
+    "series": "Soundcore Boom",
+    "model": "Soundcore Boom 2",
+    "slug": "soundcore-boom-2",
+    "releaseYear": 2024,
+    "price": 99.99,
+    "msrp": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Green"
+    ],
+    "material": "Rubberised plastic with fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C",
+      "USB-A power output"
+    ],
+    "features": [
+      "80W of output with a dedicated subwoofer — the most bass per dollar here",
+      "Floats, with IPX7 rating",
+      "RGB light effects across seven modes",
+      "PartyCast 2.0 chains up to 100 speakers",
+      "Charges your phone from its own battery"
+    ],
+    "specs": {
+      "batteryLife": 24,
+      "waterResistance": "IPX7 — water only, with no dust rating",
+      "floats": true,
+      "powerOutput": 80,
+      "weight": 1700,
+      "bluetooth": "5.3 (some current listings claim 6.0, suggesting a possible hardware revision)",
+      "driverConfig": "2.1-channel — one subwoofer, two tweeters and two LED-lit passive radiators",
+      "stereoPairing": "PartyCast 2.0 chains up to 100 speakers, plus TWS dual pairing for true stereo",
+      "speakerphone": true,
+      "appEq": true,
+      "powerBank": true
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 9.0,
+      "battery": 8.5,
+      "durability": 7.5,
+      "portability": 6.0,
+      "loudness": 8.5,
+      "features": 8.5,
+      "value": 9.0
+    },
+    "pros": [
+      "80W with a real subwoofer — by far the most bass for the money here",
+      "Floats despite its size, and 24 hours of playback",
+      "9-band custom EQ in the Soundcore app",
+      "Doubles as a power bank for your phone"
+    ],
+    "cons": [
+      "No dust rating, only IPX7",
+      "No 3.5mm aux input",
+      "SBC codec only",
+      "1.7kg makes it a carry-to-the-party speaker rather than a throw-in-a-bag one",
+      "Anker's own materials and current listings disagree on the Bluetooth version"
+    ],
+    "images": [],
+    "amazonAsin": "B0CQ53RVTW",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-charge-6",
+      "marshall-emberton-iii",
+      "sony-ult-field-3",
+      "tribit-xsound-go"
+    ],
+    "useCases": [
+      "party",
+      "outdoor",
+      "poolside"
+    ],
+    "shortTagline": "80W with a real subwoofer for $100 — the most bass per dollar here."
+  },
+  {
+    "id": "bs-marshall-emberton-iii",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Marshall",
+    "series": "Emberton",
+    "model": "Marshall Emberton III",
+    "slug": "marshall-emberton-iii",
+    "releaseYear": 2024,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black and Brass",
+      "Cream"
+    ],
+    "material": "Silicone-wrapped body with Marshall fret-cloth grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3 LE",
+      "USB-C"
+    ],
+    "features": [
+      "32+ hours of playback, best-in-class for its size",
+      "True Stereophonic 360-degree sound",
+      "Bluetooth 5.3 LE with multipoint and up to 100m range",
+      "Built-in microphones for hands-free calls, new for this generation",
+      "20 minutes of charging gives 6 hours"
+    ],
+    "specs": {
+      "batteryLife": 32,
+      "waterResistance": "IP67 — dust and water, to 1m for 30 minutes",
+      "floats": "Not confirmed",
+      "powerOutput": "76W of amplification (2x 38W Class D); note the drivers themselves are rated 2x 10W, and maximum SPL is 90dB at 1m",
+      "weight": 670,
+      "bluetooth": "5.3 LE with multipoint",
+      "driverConfig": "2x 2-inch 10W full-range drivers plus two passive radiators, in a True Stereophonic 360-degree arrangement",
+      "stereoPairing": "Bluetooth multipoint is confirmed; Auracast was promised via firmware because the unit is LE Audio-ready, and a dedicated two-unit stereo mode is not documented by Marshall",
+      "speakerphone": true,
+      "appEq": true,
+      "powerBank": false
+    },
+    "scores": {
+      "sound": 8.0,
+      "bass": 6.5,
+      "battery": 9.5,
+      "durability": 8.5,
+      "portability": 8.0,
+      "loudness": 6.5,
+      "features": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "32+ hours is exceptional for a speaker this size",
+      "True Stereophonic gives real 360-degree presentation",
+      "IP67 dust and water rating",
+      "The most distinctive design in the category, and built to match"
+    ],
+    "cons": [
+      "No USB charge-out",
+      "No aux input",
+      "Auracast support still depends on firmware that may not have shipped",
+      "Marshall does not document a true two-unit stereo pairing mode",
+      "The 76W figure is amplifier rating, not driver output — do not compare it directly to JBL's numbers"
+    ],
+    "images": [],
+    "amazonAsin": "B0DDCJMDJC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-flip-7",
+      "bose-soundlink-flex-2",
+      "soundcore-boom-2",
+      "jbl-charge-6"
+    ],
+    "useCases": [
+      "portable",
+      "outdoor",
+      "home"
+    ],
+    "shortTagline": "32+ hours, IP67 and 360-degree sound in the most distinctive body here."
+  },
+  {
+    "id": "bs-jbl-flip-7",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "JBL",
+    "series": "Flip",
+    "model": "JBL Flip 7",
+    "slug": "jbl-flip-7",
+    "releaseYear": 2025,
+    "price": 149.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Blue",
+      "Red",
+      "Squad"
+    ],
+    "material": "Rubberised end caps with fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "USB-C lossless audio"
+    ],
+    "features": [
+      "PushLock modular strap and carabiner system",
+      "AI Sound Boost processing",
+      "USB-C lossless audio input",
+      "IP68 dust and water rating plus drop protection",
+      "7-band custom EQ, up from 3-band on the Flip 6"
+    ],
+    "specs": {
+      "batteryLife": 14,
+      "waterResistance": "IP68 — dust and water, to 1.5m for 30 minutes, plus drop-proof",
+      "floats": "Not confirmed",
+      "powerOutput": 35,
+      "weight": 560,
+      "bluetooth": "5.4",
+      "driverConfig": "45 x 80mm racetrack woofer plus a 16mm tweeter, with passive radiators and reinforced bumpers",
+      "stereoPairing": "Auracast — stereo pair two Flip 7s or link many Auracast JBL speakers; it is NOT backward compatible with the Flip 6 or PartyBoost",
+      "speakerphone": false,
+      "appEq": true,
+      "powerBank": false
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 6.5,
+      "battery": 6.5,
+      "durability": 9.0,
+      "portability": 8.5,
+      "loudness": 7.0,
+      "features": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "IP68 plus a drop rating makes it genuinely go-anywhere",
+      "The PushLock strap system is the best carry solution in the category",
+      "7-band EQ, a real improvement over the Flip 6",
+      "USB-C lossless audio input"
+    ],
+    "cons": [
+      "Independent testing measures around 6 hours at realistic volume against the 14-hour claim",
+      "No microphone, so no speakerphone",
+      "Mono unless paired",
+      "Auracast breaks compatibility with PartyBoost speakers, so it will not pair with your older JBLs",
+      "Playtime Boost extends runtime by degrading sound"
+    ],
+    "images": [],
+    "amazonAsin": "B0DMV3BMGP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ue-wonderboom-4",
+      "marshall-emberton-iii",
+      "bose-soundlink-flex-2",
+      "jbl-charge-6",
+      "jbl-go-5"
+    ],
+    "useCases": [
+      "portable",
+      "outdoor",
+      "poolside"
+    ],
+    "shortTagline": "IP68, drop-proof and the best carry strap here — the go-anywhere pick."
+  },
+  {
+    "id": "bs-bose-soundlink-flex-2",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Bose",
+    "series": "SoundLink Flex",
+    "model": "Bose SoundLink Flex (2nd Gen)",
+    "slug": "bose-soundlink-flex-2",
+    "releaseYear": 2024,
+    "price": 159.0,
+    "msrp": 149.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Blue Dusk",
+      "Alpine Sage"
+    ],
+    "material": "Powder-coated steel grille with silicone body",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.3",
+      "USB-C"
+    ],
+    "features": [
+      "PositionIQ automatically retunes based on how the speaker is oriented",
+      "Adjustable EQ in the Bose app, the headline fix over the first generation",
+      "Floats, and IP67 rated",
+      "USB-C, replacing the first generation's micro-USB"
+    ],
+    "specs": {
+      "batteryLife": 12,
+      "waterResistance": "IP67 — dust and water",
+      "floats": true,
+      "powerOutput": "Bose does not publish power ratings for any SoundLink speaker",
+      "weight": 585,
+      "bluetooth": "5.3",
+      "driverConfig": "Single full-range transducer with passive radiators; Bose does not publish driver dimensions",
+      "stereoPairing": "Two compatible Bose speakers can run in Stereo Mode or Party Mode; there is no large-scale chaining",
+      "speakerphone": true,
+      "appEq": true,
+      "powerBank": false
+    },
+    "scores": {
+      "sound": 8.0,
+      "bass": 6.5,
+      "battery": 5.5,
+      "durability": 9.0,
+      "portability": 8.5,
+      "loudness": 6.5,
+      "features": 6.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The best tonal balance of any small speaker here — Bose's core strength",
+      "PositionIQ genuinely works, retuning whether it is upright, flat or hanging",
+      "Floats, with a full IP67 rating",
+      "App EQ finally added this generation"
+    ],
+    "cons": [
+      "12 hours is short next to the Marshall's 32 or the Tribit's 24",
+      "Bose publishes no wattage or driver specification at all",
+      "No USB charge-out",
+      "No aux input",
+      "List price has risen from $149 to $159"
+    ],
+    "images": [],
+    "amazonAsin": "B0D6WD2QSQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-flip-7",
+      "marshall-emberton-iii",
+      "ue-wonderboom-4",
+      "jbl-charge-6"
+    ],
+    "useCases": [
+      "portable",
+      "poolside",
+      "outdoor",
+      "home"
+    ],
+    "shortTagline": "The best-balanced small speaker here, and PositionIQ actually works."
+  },
+  {
+    "id": "bs-jbl-charge-6",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "JBL",
+    "series": "Charge",
+    "model": "JBL Charge 6",
+    "slug": "jbl-charge-6",
+    "releaseYear": 2025,
+    "price": 199.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Blue",
+      "Red",
+      "Teal"
+    ],
+    "material": "Rubberised end caps with fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "USB-C in and out"
+    ],
+    "features": [
+      "Built-in power bank — USB-C charges phones and tablets",
+      "Removable carry strap",
+      "AI Sound Boost processing",
+      "USB-C lossless audio input",
+      "IP68 dust and water rating plus drop protection"
+    ],
+    "specs": {
+      "batteryLife": 24,
+      "waterResistance": "IP68 — dust and water, to 1.5m for 30 minutes, plus drop-proof",
+      "floats": "Not confirmed",
+      "powerOutput": 45,
+      "weight": 980,
+      "bluetooth": "5.4",
+      "driverConfig": "Redesigned racetrack woofer plus a 20mm tweeter, with dual side-firing passive radiators",
+      "stereoPairing": "Auracast — stereo pair two Charge 6s or link up to 100 Auracast speakers; NOT backward compatible with the Charge 5 or PartyBoost",
+      "speakerphone": false,
+      "appEq": true,
+      "powerBank": true
+    },
+    "scores": {
+      "sound": 8.0,
+      "bass": 7.5,
+      "battery": 8.0,
+      "durability": 9.0,
+      "portability": 7.5,
+      "loudness": 7.5,
+      "features": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The power bank function genuinely earns its place on a day out",
+      "IP68 and drop-proof, with a removable carry strap",
+      "24 rated hours and strong measured runtime",
+      "7-band EQ and USB-C lossless input"
+    ],
+    "cons": [
+      "Measured runtime at realistic volume is around half the 24-hour claim",
+      "No microphone and no Bluetooth multipoint",
+      "No USB-C cable in the box",
+      "Auracast breaks pairing compatibility with older PartyBoost JBLs"
+    ],
+    "images": [],
+    "amazonAsin": "B0DN2ZCZX6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "soundcore-boom-2",
+      "jbl-flip-7",
+      "sony-ult-field-3",
+      "bose-soundlink-flex-2",
+      "jbl-xtreme-5"
+    ],
+    "useCases": [
+      "outdoor",
+      "portable",
+      "party"
+    ],
+    "shortTagline": "Charges your phone, survives anything, and plays for 24 hours."
+  },
+  {
+    "id": "bs-sony-ult-field-3",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Sony",
+    "series": "ULT FIELD",
+    "model": "Sony ULT FIELD 3",
+    "slug": "sony-ult-field-3",
+    "releaseYear": 2025,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Off White"
+    ],
+    "material": "Rustproof rubberised body with fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.2",
+      "USB-C in and out"
+    ],
+    "features": [
+      "ULT bass-boost button for an instant low-end lift",
+      "Sound Field Optimization tunes to the environment",
+      "Rustproof, for beach and poolside use",
+      "Shoulder strap included",
+      "Charges external devices over USB-C"
+    ],
+    "specs": {
+      "batteryLife": 24,
+      "waterResistance": "IP67 — dust and water, to 1m for 30 minutes, plus shockproof and rustproof",
+      "floats": "Not confirmed",
+      "powerOutput": "Sony does not publish an RMS figure for this model",
+      "weight": 1200,
+      "bluetooth": "5.2 (SBC and AAC; no LDAC)",
+      "driverConfig": "1x 86 x 46mm racetrack woofer plus a 20mm tweeter, with passive radiators",
+      "stereoPairing": "Stereo pair two ULT FIELD 3 units; Party Connect chains multiple Sony speakers, though Sony does not publish a maximum",
+      "speakerphone": true,
+      "appEq": true,
+      "powerBank": true
+    },
+    "scores": {
+      "sound": 7.5,
+      "bass": 8.0,
+      "battery": 8.0,
+      "durability": 9.5,
+      "portability": 7.0,
+      "loudness": 7.5,
+      "features": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Rustproof construction genuinely matters at the beach or a pool, and almost nothing else here claims it",
+      "The ULT button gives an immediate, satisfying bass lift",
+      "24 hours plus USB charge-out",
+      "Shoulder strap included in the box"
+    ],
+    "cons": [
+      "Bluetooth 5.2 with no LDAC, which is odd on a Sony product",
+      "Sony publishes no power rating",
+      "Audible compression when pushed loud",
+      "Mono unless paired",
+      "No lighting, unlike similarly priced party-oriented rivals"
+    ],
+    "images": [],
+    "amazonAsin": "B0DYB6KMJH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-charge-6",
+      "soundcore-boom-2",
+      "jbl-xtreme-5",
+      "marshall-emberton-iii"
+    ],
+    "useCases": [
+      "outdoor",
+      "poolside",
+      "party"
+    ],
+    "shortTagline": "Rustproof and shockproof with a real bass button — built for the beach."
+  },
+  {
+    "id": "bs-jbl-xtreme-5",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "JBL",
+    "series": "Xtreme",
+    "model": "JBL Xtreme 5",
+    "slug": "jbl-xtreme-5",
+    "releaseYear": 2026,
+    "price": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Squad"
+    ],
+    "material": "Rubberised end caps with heavy fabric grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 6.0",
+      "USB-C in and out"
+    ],
+    "features": [
+      "130W plugged in and 90W on battery, a large jump over the Xtreme 4",
+      "Ambient edge lighting, new for this generation",
+      "Shoulder strap with floating hooks",
+      "USB-C lossless audio input",
+      "Charges phones from its own battery"
+    ],
+    "specs": {
+      "batteryLife": 24,
+      "waterResistance": "IP68 — dust and water",
+      "floats": "The strap hooks float; whether the speaker itself floats is not confirmed",
+      "powerOutput": "130W plugged in, 90W on battery",
+      "weight": 2900,
+      "bluetooth": "6.0 (SBC, AAC, LC3)",
+      "driverConfig": "One large woofer plus two tweeters and passive radiators, redesigned from the Xtreme 4's dual-woofer layout",
+      "stereoPairing": "Auracast via the JBL Portable app — stereo pair two units or link many Auracast JBL speakers",
+      "speakerphone": false,
+      "appEq": true,
+      "powerBank": true
+    },
+    "scores": {
+      "sound": 8.5,
+      "bass": 8.5,
+      "battery": 8.5,
+      "durability": 9.0,
+      "portability": 5.5,
+      "loudness": 9.0,
+      "features": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "130W plugged in is a serious jump over the Xtreme 4 and it shows in the bass",
+      "Bluetooth 6.0 with LC3 support",
+      "Measured runtime actually exceeds the 24-hour claim",
+      "IP68 with a proper shoulder strap"
+    ],
+    "cons": [
+      "2.9kg and noticeably larger than the Xtreme 4 it replaces",
+      "No microphone",
+      "No confirmed aux input",
+      "Playtime Boost trades sound quality for runtime",
+      "Whether the speaker itself floats is unconfirmed"
+    ],
+    "images": [],
+    "amazonAsin": "B0GHYH9DN9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-boombox-4",
+      "jbl-charge-6",
+      "sony-ult-field-3",
+      "sonos-move-2"
+    ],
+    "useCases": [
+      "party",
+      "outdoor"
+    ],
+    "shortTagline": "130W and Bluetooth 6.0 — JBL's 2026 big-sound portable."
+  },
+  {
+    "id": "bs-sonos-move-2",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "Sonos",
+    "series": "Move",
+    "model": "Sonos Move 2",
+    "slug": "sonos-move-2",
+    "releaseYear": 2023,
+    "price": 499.0,
+    "msrp": 449.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Olive"
+    ],
+    "material": "Moulded polycarbonate with a perforated grille",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi",
+      "Bluetooth 5.3",
+      "AirPlay 2",
+      "USB-C"
+    ],
+    "features": [
+      "True stereo from a single portable body — two tweeters and a midwoofer",
+      "Wi-Fi plus Bluetooth, so it joins a full Sonos system at home and travels on Bluetooth",
+      "User-replaceable battery",
+      "Automatic Trueplay room tuning",
+      "Wireless charging base included"
+    ],
+    "specs": {
+      "batteryLife": 24,
+      "waterResistance": "IP56 — dust-protected and resistant to water jets, but NOT submersible",
+      "floats": false,
+      "powerOutput": "Sonos publishes three class-D amplifiers but no wattage figure",
+      "weight": 3000,
+      "bluetooth": "5.3",
+      "driverConfig": "Two angled tweeters plus one midwoofer in a sealed enclosure, driven by three class-D amplifiers",
+      "stereoPairing": "Stereo pair two Move 2 units over Wi-Fi, plus full multiroom grouping across a Sonos system; there is no Auracast-style Bluetooth chaining",
+      "speakerphone": "A far-field microphone array is present for Alexa and Trueplay; Sonos does not document call handling",
+      "appEq": true,
+      "powerBank": "Amazon's listing claims USB-C phone charging while a retailer datasheet says it is unavailable — unresolved"
+    },
+    "scores": {
+      "sound": 9.0,
+      "bass": 8.0,
+      "battery": 8.0,
+      "durability": 6.0,
+      "portability": 4.5,
+      "loudness": 7.5,
+      "features": 8.5,
+      "value": 6.5
+    },
+    "pros": [
+      "Genuine stereo from one box, which nothing else here manages",
+      "Works as a full Sonos speaker at home and a Bluetooth speaker away from it",
+      "The battery is user-replaceable, so it should outlast rivals",
+      "Automatic Trueplay tuning"
+    ],
+    "cons": [
+      "IP56 is the weakest water rating here — it is not submersible and does not float",
+      "3kg, so this is portable in the sense of moving rooms rather than going hiking",
+      "No aux input without a paid Line-In adapter",
+      "No Auracast",
+      "Sources disagree on whether it can charge a phone"
+    ],
+    "images": [],
+    "amazonAsin": "B0CGGYYK2D",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-xtreme-5",
+      "marshall-emberton-iii",
+      "bose-soundlink-flex-2",
+      "jbl-boombox-4"
+    ],
+    "useCases": [
+      "home",
+      "outdoor",
+      "portable"
+    ],
+    "shortTagline": "True stereo from one box, and a full Sonos speaker when it is home."
+  },
+  {
+    "id": "bs-jbl-boombox-4",
+    "categorySlug": "bluetooth-speakers",
+    "brand": "JBL",
+    "series": "Boombox",
+    "model": "JBL Boombox 4",
+    "slug": "jbl-boombox-4",
+    "releaseYear": 2025,
+    "price": 549.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Blue",
+      "Brown"
+    ],
+    "material": "Rubberised body with heavy fabric grille and metal handle",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4",
+      "USB-C in and out"
+    ],
+    "features": [
+      "210W on mains and 200W on battery — the loudest speaker here",
+      "Swappable, replaceable battery pack shared with the PartyBox 520",
+      "34 hours of measured runtime",
+      "Can run on mains while charging",
+      "IP68 rating"
+    ],
+    "specs": {
+      "batteryLife": 28,
+      "waterResistance": "IP68 — dust and water",
+      "floats": "Not confirmed",
+      "powerOutput": "210W on mains (2x 65W woofers plus 2x 40W tweeters), 200W on battery",
+      "weight": 5890,
+      "bluetooth": "5.4 (SBC, AAC, LC3)",
+      "driverConfig": "2x 5-inch woofers plus 2x 0.75-inch tweeters and three passive radiators",
+      "stereoPairing": "Auracast — stereo pair two Boombox 4s or link many Auracast JBL speakers",
+      "speakerphone": false,
+      "appEq": true,
+      "powerBank": true
+    },
+    "scores": {
+      "sound": 8.5,
+      "bass": 9.5,
+      "battery": 9.5,
+      "durability": 9.0,
+      "portability": 3.5,
+      "loudness": 9.8,
+      "features": 8.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Loudest and deepest-hitting speaker here by a clear margin",
+      "The battery pack is swappable, which is almost unheard of and hugely extends its useful life",
+      "Measured runtime exceeds 34 hours",
+      "IP68 and can run on mains while charging"
+    ],
+    "cons": [
+      "5.9kg — this is a two-hands, plan-ahead speaker",
+      "The 3.5mm aux input was removed compared with the Boombox 3",
+      "No microphone",
+      "Not intended for TV use",
+      "Expensive at list price"
+    ],
+    "images": [],
+    "amazonAsin": "B0F1H9CTPQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "jbl-xtreme-5",
+      "sonos-move-2",
+      "soundcore-boom-2",
+      "jbl-charge-6"
+    ],
+    "useCases": [
+      "party",
+      "outdoor"
+    ],
+    "shortTagline": "210W, 34 hours and a swappable battery — the loudest thing here."
+  }
+]
