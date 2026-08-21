@@ -62,7 +62,8 @@
     "cons": [
       "Premium pricing versus the C6 for a smaller real-world brightness gap on some content",
       "Not yet confirmed as sold directly on Amazon.com at launch — check LG.com or Best Buy",
-      "webOS still carries ads on the home screen"
+      "webOS still carries ads on the home screen",
+      "Not sold on Amazon in any size — LG routes the G-series flagship through LG.com, Best Buy and specialist AV dealers, so there is no Amazon listing to link to"
     ],
     "images": [
       {
@@ -154,7 +155,8 @@
       "Most expensive TV in LG's 2026 lineup",
       "Only available in 77\" and 83\"",
       "Wireless box adds setup complexity versus a standard TV",
-      "Not yet confirmed as sold directly on Amazon.com at launch"
+      "Not yet confirmed as sold directly on Amazon.com at launch",
+      "The 77-inch is not sold on Amazon; only the 83-inch has a listing, and it is a different price tier, so no link is offered here rather than sending you to the wrong size"
     ],
     "images": [
       {
@@ -413,7 +415,8 @@
     "cons": [
       "No Dolby Vision support (Samsung TVs remain HDR10+ only)",
       "Premium pricing near the top of the category",
-      "Not yet confirmed as sold directly on Amazon.com at launch — check Samsung.com, Best Buy, or Target"
+      "Not yet confirmed as sold directly on Amazon.com at launch — check Samsung.com, Best Buy, or Target",
+      "No verified standalone Amazon listing — the only 65-inch entry found was a bare reseller listing with a nonstandard SKU, so no link is offered"
     ],
     "images": [
       {
@@ -1274,7 +1277,7 @@
       "Peak brightness and HDMI 2.1 port count not independently confirmed for this exact 2026 configuration"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DXMW22SY",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -1353,7 +1356,7 @@
       "Extremely limited native 8K content library, same as any 8K TV today"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DXMYKW3G",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -1431,7 +1434,7 @@
       "No Dolby Vision (Samsung remains HDR10+ only)"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GP9XS93W",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -1442,7 +1445,7 @@
       "samsung-qn900f",
       "tcl-qm8l",
       "hisense-u9qg",
-      "lg-qned85"
+      "lg-qned84b-100"
     ],
     "useCases": [
       "gaming",
@@ -1514,13 +1517,13 @@
       "Fewer dimming zones than the QN80H above it"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GPY6ZTJG",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
       "samsung-qn80h",
       "samsung-m80h",
-      "lg-qned82"
+      "lg-qned84b-55"
     ],
     "useCases": [
       "gaming",
@@ -1589,7 +1592,8 @@
     "cons": [
       "New, unproven technology for its first full model year",
       "Priced well above the QN80H Neo QLED for a brightness/color upgrade most viewers won't max out",
-      "Peak brightness not independently confirmed"
+      "Peak brightness not independently confirmed",
+      "The 65-inch is not sold on Amazon US; only the 55-inch is listed. Micro RGB is largely a Samsung.com and Best Buy channel this year"
     ],
     "images": [],
     "amazonAsin": "",
@@ -1672,12 +1676,12 @@
       "HDMI 2.1 port count not independently confirmed"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GXC1141J",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
       "samsung-m80h",
-      "lg-qned90"
+      "lg-qned92b"
     ],
     "useCases": [
       "home-theater"
@@ -1748,7 +1752,7 @@
       "Peak brightness and HDMI 2.1 port count not independently confirmed"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GP93ZMTX",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -1827,7 +1831,7 @@
       "Processor generation and HDMI 2.1 port count not officially specified"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GP9QN5SN",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -1903,7 +1907,7 @@
       "Google TV platform has more ads/sponsored content than Tizen or webOS"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GPSYT2KN",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -1982,7 +1986,7 @@
       "Google TV platform has more ads/sponsored content than Tizen or webOS"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GPT7DGDR",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2062,7 +2066,7 @@
       "HDMI 2.1 port count not independently confirmed"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DSRSTJ54",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2070,7 +2074,7 @@
       "tcl-q6",
       "hisense-u7sg",
       "sony-bravia-5",
-      "lg-qned82",
+      "lg-qned84b-55",
       "amazon-omni-mini-led",
       "roku-pro-series"
     ],
@@ -2085,10 +2089,10 @@
     "categorySlug": "tv",
     "brand": "TCL",
     "series": "Q Class Q6",
-    "model": "TCL Q6",
+    "model": "TCL Q6 (65Q651G)",
     "slug": "tcl-q6",
-    "releaseYear": 2025,
-    "price": 599.99,
+    "releaseYear": 2024,
+    "price": 399.99,
     "currency": "USD",
     "colorOptions": [
       "Black"
@@ -2142,10 +2146,11 @@
     "cons": [
       "Edge-lit backlight, not Mini LED — noticeably less contrast and more blooming than the QM-series above it",
       "60Hz native refresh with no true VRR, weaker for gaming than the QM6K",
-      "Peak brightness and HDMI port count not independently confirmed"
+      "Peak brightness and HDMI port count not independently confirmed",
+      "This is the 2024 65Q651G — TCL has not released a 2025 or 2026 Q6 at 65 inches, so it is the current model by default rather than by refresh"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0CZMG5X67",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2225,7 +2230,8 @@
     "cons": [
       "65\" pricing not yet announced at review time — priced here using the confirmed 75\" price",
       "Carried into 2026 without a refresh, same generation as 2025",
-      "HDMI 2.1 port count not independently confirmed"
+      "HDMI 2.1 port count not independently confirmed",
+      "No US Amazon listing found for the television itself in any size — only third-party accessories that reference it. Distribution appears to be very limited in the US"
     ],
     "images": [],
     "amazonAsin": "",
@@ -2236,7 +2242,7 @@
       "tcl-qm8l",
       "samsung-qn80h",
       "sony-bravia-7-ii",
-      "lg-qned90"
+      "lg-qned92b"
     ],
     "useCases": [
       "home-theater",
@@ -2310,7 +2316,7 @@
       "Processor generation and HDMI 2.1 port count not independently confirmed"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0F1DV217B",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2390,7 +2396,7 @@
       "Sits below the U8QG/U9QG in dimming precision"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GR9BLPJ8",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2469,7 +2475,7 @@
       "Peak brightness and refresh rate not officially specified in available sources"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GT8GLWZH",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2490,7 +2496,7 @@
     "categorySlug": "tv",
     "brand": "Hisense",
     "series": "QD7",
-    "model": "Hisense QD7",
+    "model": "Hisense QD7 (65QD7QF)",
     "slug": "hisense-qd7",
     "releaseYear": 2025,
     "price": 599.99,
@@ -2521,7 +2527,7 @@
       "processor": "Not officially specified",
       "hdmi21Ports": "Not independently confirmed",
       "hdrFormats": "HDR10+, HDR10, HLG",
-      "smartPlatform": "Google TV",
+      "smartPlatform": "Fire TV",
       "variableRefreshRate": "Not independently confirmed",
       "audioSystem": "Not officially specified",
       "dolbyAtmos": false
@@ -2548,7 +2554,7 @@
       "Most detailed specs (brightness, refresh, HDMI, processor) not officially published"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DYVR565M",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2622,7 +2628,8 @@
     "cons": [
       "Only 2 HDMI 2.1 ports — fewer than most competing flagships",
       "Among the most expensive TVs in this entire comparison set ($31,000 at 115\")",
-      "Refresh rate not independently confirmed"
+      "Refresh rate not independently confirmed",
+      "Not sold on Amazon as a standalone listing — the only Amazon entry is a third-party bundle with an added warranty, which is not a like-for-like purchase"
     ],
     "images": [],
     "amazonAsin": "",
@@ -2705,7 +2712,7 @@
       "Still a significant price jump over the non-RGB BRAVIA 5"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0H395K9M6",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2784,7 +2791,7 @@
       "Lower measured brightness than the rest of this Sony lineup"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DYK8RLHH",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -2798,12 +2805,12 @@
     "shortTagline": "Sony's accessible Mini LED TV — no True RGB, but real local dimming at a value price."
   },
   {
-    "id": "tv-lg-qned90",
+    "id": "tv-lg-qned92b",
     "categorySlug": "tv",
     "brand": "LG",
-    "series": "QNED evo QNED90",
-    "model": "LG QNED90",
-    "slug": "lg-qned90",
+    "series": "QNED evo QNED92B",
+    "model": "LG QNED92B",
+    "slug": "lg-qned92b",
     "releaseYear": 2026,
     "price": 12999.99,
     "currency": "USD",
@@ -2860,14 +2867,15 @@
     "cons": [
       "Extremely expensive — among the priciest TVs in this entire comparison set",
       "Only confirmed in the 115\" size; smaller QNED90 configurations not verified",
-      "Peak brightness and HDMI 2.1 port count not independently confirmed"
+      "Peak brightness and HDMI 2.1 port count not independently confirmed",
+      "LG's 2026 US QNED range is QNED92B and QNED84B only; this model was published under a 2025-era name that does not exist in the current US lineup and has been corrected"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GTWZV1XB",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
-      "lg-qned85",
+      "lg-qned84b-100",
       "samsung-m90h",
       "hisense-u9qg"
     ],
@@ -2879,12 +2887,12 @@
     "shortTagline": "LG's flagship 2026 QNED — a 115\" Mini LED screen with 330Hz gaming and certified 100% color volume."
   },
   {
-    "id": "tv-lg-qned85",
+    "id": "tv-lg-qned84b-100",
     "categorySlug": "tv",
     "brand": "LG",
-    "series": "QNED evo QNED85",
-    "model": "LG QNED85",
-    "slug": "lg-qned85",
+    "series": "QNED evo QNED84B",
+    "model": "LG QNED84B (100-inch)",
+    "slug": "lg-qned84b-100",
     "releaseYear": 2026,
     "price": 3999.99,
     "currency": "USD",
@@ -2940,15 +2948,16 @@
     "cons": [
       "Lacks the QNED90's 165Hz VRR and 330Hz Motion Booster",
       "Peak brightness, refresh rate, and HDMI 2.1 port count not independently confirmed",
-      "US retail SKU naming may appear slightly differently by retailer (e.g. QNED84-series badging)"
+      "US retail SKU naming may appear slightly differently by retailer (e.g. QNED84-series badging)",
+      "LG's 2026 US QNED range is QNED92B and QNED84B only; this model was published under a 2025-era name that does not exist in the current US lineup and has been corrected"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GRKHJ6B1",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
-      "lg-qned90",
-      "lg-qned82",
+      "lg-qned92b",
+      "lg-qned84b-55",
       "samsung-qn80h"
     ],
     "useCases": [
@@ -2957,14 +2966,14 @@
     "shortTagline": "LG's 100\" mid-flagship QNED — the QNED90's processor at cinematic scale."
   },
   {
-    "id": "tv-lg-qned82",
+    "id": "tv-lg-qned84b-55",
     "categorySlug": "tv",
     "brand": "LG",
-    "series": "QNED evo QNED82",
-    "model": "LG QNED82",
-    "slug": "lg-qned82",
+    "series": "QNED evo QNED84B",
+    "model": "LG QNED84B (55-inch)",
+    "slug": "lg-qned84b-55",
     "releaseYear": 2026,
-    "price": 699.95,
+    "price": 729.99,
     "currency": "USD",
     "colorOptions": [
       "Black"
@@ -3018,14 +3027,15 @@
     "cons": [
       "No Dynamic QNED Color Pro or Precision Dimming Ultra — those stay on the QNED90/85 above it",
       "Peak brightness, refresh rate, and HDMI 2.1 port count not independently confirmed",
-      "Fewer local dimming zones than the QNED85/90"
+      "Fewer local dimming zones than the QNED85/90",
+      "LG's 2026 US QNED range is QNED92B and QNED84B only; this model was published under a 2025-era name that does not exist in the current US lineup and has been corrected"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0GRL5VCZ1",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
-      "lg-qned85",
+      "lg-qned84b-100",
       "samsung-qn70h",
       "tcl-qm6k"
     ],
@@ -3038,8 +3048,8 @@
     "id": "tv-amazon-omni-mini-led",
     "categorySlug": "tv",
     "brand": "Amazon",
-    "series": "Fire TV Omni Mini-LED",
-    "model": "Amazon Fire TV Omni Mini-LED",
+    "series": "Ember Mini-LED",
+    "model": "Amazon Ember Mini-LED Series",
     "slug": "amazon-omni-mini-led",
     "releaseYear": 2026,
     "price": 959.99,
@@ -3060,7 +3070,8 @@
       "512 local dimming zones",
       "New 2026 Fire TV interface",
       "Hands-free Alexa+ and Fire TV Ambient Experience",
-      "AMD FreeSync Premium Pro-certified 144Hz"
+      "AMD FreeSync Premium Pro-certified 144Hz",
+      "Rebranded from Fire TV Omni to Amazon Ember in April 2026 — same product and same Amazon listing, new name"
     ],
     "specs": {
       "screenSize": 65,
@@ -3098,7 +3109,7 @@
       "Processor and audio system not officially specified"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0C1TQYNWX",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3116,11 +3127,11 @@
     "id": "tv-amazon-omni-qled",
     "categorySlug": "tv",
     "brand": "Amazon",
-    "series": "Fire TV Omni QLED",
-    "model": "Amazon Fire TV Omni QLED",
+    "series": "Ember QLED",
+    "model": "Amazon Ember QLED Series",
     "slug": "amazon-omni-qled",
     "releaseYear": 2026,
-    "price": 279.99,
+    "price": 479.99,
     "currency": "USD",
     "colorOptions": [
       "Black"
@@ -3137,7 +3148,8 @@
       "4K Quantum Dot display with full-array local dimming (48 zones)",
       "Adaptive Brightness via built-in sensor",
       "Hands-free Alexa+ and Fire TV Ambient Experience",
-      "Dolby Vision IQ and HDR10+ Adaptive"
+      "Dolby Vision IQ and HDR10+ Adaptive",
+      "Rebranded from Fire TV Omni to Amazon Ember in April 2026 — same product and same Amazon listing, new name"
     ],
     "specs": {
       "screenSize": 50,
@@ -3175,7 +3187,7 @@
       "Refresh rate, processor, and HDMI port count not officially specified"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DD24KM9Y",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3251,7 +3263,7 @@
       "Peak brightness and HDMI port count not independently confirmed"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DZDYQ1B1",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3271,7 +3283,7 @@
     "model": "Toshiba M550",
     "slug": "toshiba-m550",
     "releaseYear": 2025,
-    "price": 579.99,
+    "price": 379.99,
     "currency": "USD",
     "colorOptions": [
       "Black"
@@ -3326,7 +3338,7 @@
       "Peak brightness, refresh rate, and HDMI port count not officially specified"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DZJ4FSYT",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3402,7 +3414,7 @@
       "Roku TV has less on-device AI/voice feature depth than Samsung, LG, or Google TV platforms"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DWH3R4MG",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3479,7 +3491,7 @@
       "Peak brightness, refresh rate, and HDMI port count not officially specified"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0DWHFWT5C",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3707,7 +3719,7 @@
       "Sharp has a smaller US service/support footprint than the major TV brands"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0CK57J5C6",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [
@@ -3725,9 +3737,9 @@
     "categorySlug": "tv",
     "brand": "Sharp",
     "series": "AQUOS QLED",
-    "model": "Sharp AQUOS QLED",
+    "model": "Sharp AQUOS QLED (4T-C55HP7050U)",
     "slug": "sharp-aquos-qled",
-    "releaseYear": 2026,
+    "releaseYear": 2025,
     "price": 419,
     "currency": "USD",
     "colorOptions": [
@@ -3783,7 +3795,7 @@
       "Most detailed specs (brightness, refresh, HDMI, processor) not officially published"
     ],
     "images": [],
-    "amazonAsin": "",
+    "amazonAsin": "B0G3SFHD6G",
     "rating": 0,
     "ratingCount": 0,
     "competitorSlugs": [

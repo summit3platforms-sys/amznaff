@@ -81,6 +81,43 @@ import { Product } from '../types';
 //   (`usAvailable: false`, pricing converted from EUR).
 // - Amazon, Toshiba, Roku, Sharp: all model names given were confirmed
 //   accurate as provided; published without correction.
+//
+// ASIN backfill (August 2026) — the catalogue shipped with only 7 of 47
+// products carrying an Amazon ASIN, which left 68% of its comparison pages
+// unable to earn anything. 28 ASINs were added, taking the total to 35 of 47.
+// Every ASIN was matched to the EXACT screen size recorded in that product's
+// specs, because Amazon lists each size as a separate ASIN and a size mismatch
+// sends a buyer to the wrong television. Renewed listings, third-party bundles
+// (TV plus mount, soundbar or warranty) and non-US Amazon domains were all
+// rejected — several of those outranked the real listing in search results.
+//
+// Twelve products still carry no ASIN, in two groups:
+// - 6 are usAvailable: false and correctly have none (the Philips models and
+//   the Panasonic Z90B, none of which are sold on US Amazon).
+// - 6 are US products with genuinely no Amazon listing: the LG G6 in any size
+//   and the Sony BRAVIA 9 II (both flagship halo products routed through
+//   LG.com/Sony dealers and Best Buy), the LG W6 at 77 inches (only the 83 is
+//   listed), the Samsung S95H (only an unverified reseller entry), the Samsung
+//   R85H at 65 inches (only the 55 is listed), and the Hisense U9QG (no US
+//   listing for the television in any size). Each records the reason in its
+//   cons. AmazonButton renders "Check Price at Retailers" for these.
+//
+// Corrections made during the backfill, because the ASIN search surfaced
+// facts that contradicted what had been published:
+// - LG QNED90, QNED85 and QNED82 do not exist in LG's 2026 US lineup, which
+//   is QNED92B and QNED84B only. Sizes and prices matched the real SKUs
+//   exactly, so these were misnamed rather than wrong products and were
+//   renamed in place. Their old URLs are 301-redirected in next.config.js.
+//   (QNED85B does exist — in Europe and the UK, not the US.)
+// - Amazon rebranded its television line from Fire TV Omni to Amazon Ember in
+//   April 2026. Same products, same ASINs, new names.
+// - Hisense QD7 runs Fire TV, not Google TV, and its model number is 65QD7QF.
+// - TCL Q6 at 65 inches is the 2024 65Q651G; TCL has released no 2025 or 2026
+//   65-inch Q6, so it is current by default rather than by refresh. Its price
+//   was corrected from $599.99 to the verified street range.
+// - Sharp AQUOS QLED is a 2025 model (4T-C55HP7050U), not 2026.
+// - Toshiba M550 and the Amazon Ember QLED both carried prices that did not
+//   match the product actually being linked, and were corrected.
 // ---------------------------------------------------------------------------
 
 export const tvProducts: Product[] = raw as Product[];
