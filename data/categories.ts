@@ -626,6 +626,300 @@ export const categories: Category[] = [
       { slug: 'laptop', label: 'Laptop Charging', kind: 'use-case' },
       { slug: 'multi-device', label: 'Multiple Devices', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'video-doorbells',
+    name: 'Video Doorbell',
+    pluralName: 'Video Doorbells',
+    description:
+      'Video doorbells compared on the things that decide it: real sensor pixels behind the "2K/4K" label, head-to-toe framing, transformer voltage, battery runtime, local storage and what still works with no subscription.',
+    specFields: [
+      { key: 'resolution', label: 'Resolution (actual pixels)', betterDirection: 'none' },
+      { key: 'aspectRatio', label: 'Aspect Ratio', betterDirection: 'none' },
+      { key: 'fieldOfView', label: 'Field of View', betterDirection: 'none' },
+      { key: 'powerSource', label: 'Power Source', betterDirection: 'none' },
+      { key: 'transformerRequirement', label: 'Wiring / Transformer Requirement', betterDirection: 'none' },
+      { key: 'batteryLife', label: 'Battery Life (claimed)', betterDirection: 'none' },
+      { key: 'wifiBands', label: 'Wi-Fi Bands', betterDirection: 'none' },
+      { key: 'localStorage', label: 'Local Storage', betterDirection: 'none' },
+      { key: 'subscriptionFree', label: 'Works Without a Subscription', betterDirection: 'none' },
+      { key: 'paywalledFeatures', label: 'Behind the Paywall', betterDirection: 'none' },
+      { key: 'smartHomeSupport', label: 'Smart Home / HomeKit / Matter', betterDirection: 'none' },
+      { key: 'chimeIncluded', label: 'Indoor Chime', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'videoQuality', label: 'Video Quality', description: 'Real sensor resolution, frame rate, HDR and low-light behaviour — measured against the marketing label, not the label itself' },
+      { key: 'coverage', label: 'Coverage & Framing', description: 'Field of view and aspect ratio: whether you actually see a visitor head-to-toe and a parcel on the mat' },
+      { key: 'detection', label: 'Smart Detection', description: 'Person, package, vehicle, animal and face detection — how accurate it is and whether it runs on the device' },
+      { key: 'subscriptionFreedom', label: 'Subscription Freedom', description: 'The trap dimension: what the doorbell still does after the free trial ends and you pay nothing. A 10 records, detects and plays back with no monthly fee; a 1 is a live-view intercom' },
+      { key: 'installFlexibility', label: 'Installation Flexibility', description: 'Battery vs wired, how demanding the transformer requirement is, and whether it can drive your existing chime' },
+      { key: 'batteryPower', label: 'Battery & Power', description: 'Runtime between charges for battery models, and how easy the power arrangement is to live with on wired ones' },
+      { key: 'smartHome', label: 'Smart Home Integration', description: 'Alexa, Google Home, Apple Home/HomeKit Secure Video, Home Assistant and honest Matter support' },
+      { key: 'value', label: 'Value', description: 'Hardware and capability per dollar, counting the subscription and the accessories you have to add' }
+    ],
+    filters: [
+      { slug: 'under-60', label: 'Under $60', kind: 'price-max', value: 60 },
+      { slug: 'under-120', label: 'Under $120', kind: 'price-max', value: 120 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'no-subscription', label: 'No Subscription Needed', kind: 'use-case' },
+      { slug: 'battery-powered', label: 'Battery Powered', kind: 'use-case' },
+      { slug: 'hardwired', label: 'Hardwired', kind: 'use-case' },
+      { slug: 'local-storage', label: 'Local Storage', kind: 'use-case' },
+      { slug: 'apple-home', label: 'Apple Home', kind: 'use-case' },
+      { slug: 'professional-monitoring', label: 'Pro Monitoring Available', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'security-cameras',
+    name: 'Security Camera',
+    pluralName: 'Security Cameras',
+    description:
+      'Indoor and outdoor security cameras compared spec-for-spec — real sensor resolution and frame rate, colour night vision, battery claims, local storage, RTSP support, and what each does with no subscription.',
+    specFields: [
+      { key: 'maxResolution', label: 'Max Resolution', betterDirection: 'none' },
+      { key: 'topResolutionFrameRate', label: 'Frame Rate at Top Resolution', betterDirection: 'none' },
+      { key: 'fieldOfView', label: 'Field of View', betterDirection: 'none' },
+      { key: 'powerSource', label: 'Power Source', betterDirection: 'none' },
+      { key: 'batteryLifeClaim', label: 'Battery Life Claim', betterDirection: 'none' },
+      { key: 'nightVision', label: 'Night Vision', betterDirection: 'none' },
+      { key: 'weatherRating', label: 'Weather Rating', betterDirection: 'none' },
+      { key: 'wifiBands', label: 'Wi-Fi / Network', betterDirection: 'none' },
+      { key: 'localStorage', label: 'Local Storage', betterDirection: 'none' },
+      { key: 'noSubscriptionBehaviour', label: 'With No Subscription', betterDirection: 'none' },
+      { key: 'cheapestPlanMonthly', label: 'Cheapest Plan', unit: '$/mo', betterDirection: 'lower' },
+      { key: 'rtspOnvif', label: 'RTSP / ONVIF / NVR', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'videoQuality', label: 'Video Quality', description: 'Real sensor resolution, frame rate and bitrate at the advertised top mode — not the marketing number' },
+      { key: 'nightVision', label: 'Night Vision', description: 'How usable the image is after dark, and whether colour needs the spotlight burning' },
+      { key: 'subscriptionFreedom', label: 'Subscription Freedom', description: 'What the camera still does when you pay nothing — this category\'s trap dimension, because several drop to live view with no recording at all' },
+      { key: 'localStorage', label: 'Local Storage', description: 'Recording that stays in your house: card slot, hub, NAS — and whether the card or hub is in the box' },
+      { key: 'powerAndBattery', label: 'Power & Battery', description: 'Freedom from a power cable: battery capacity, solar top-up, and how honest the runtime claim is' },
+      { key: 'installation', label: 'Installation', description: 'How much extra hardware, wiring, drilling or network work stands between the box and a working camera' },
+      { key: 'openness', label: 'Openness & Smart Home', description: 'RTSP, ONVIF, NVR and NAS support plus Alexa/Google/HomeKit/Matter — whether the camera works outside its own app' },
+      { key: 'value', label: 'Value', description: 'What you get for the money once the subscription, the card and the missing adapter are priced in' }
+    ],
+    filters: [
+      { slug: 'under-50', label: 'Under $50', kind: 'price-max', value: 50 },
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'indoor', label: 'Indoor Use', kind: 'use-case' },
+      { slug: 'battery-powered', label: 'Battery Powered', kind: 'use-case' },
+      { slug: 'solar-ready', label: 'Solar Ready', kind: 'use-case' },
+      { slug: 'wired-power', label: 'Wired / Plug-In', kind: 'use-case' },
+      { slug: 'poe-nvr', label: 'PoE & NVR Systems', kind: 'use-case' },
+      { slug: 'no-subscription', label: 'No Subscription Needed', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'smart-locks',
+    name: 'Smart Lock',
+    pluralName: 'Smart Locks',
+    description:
+      'Smart locks compared spec-for-spec — the real ANSI/BHMA grade, whether a hub or bridge is required, Apple Home Key and UWB support, battery type and what happens when it dies.',
+    specFields: [
+      { key: 'lockType', label: 'Lock Type', betterDirection: 'none' },
+      { key: 'ansiBhmaGrade', label: 'ANSI/BHMA Grade', betterDirection: 'none' },
+      { key: 'keepsExistingKeyway', label: 'Keeps Existing Keyway', betterDirection: 'none' },
+      { key: 'smartRadio', label: 'Smart Radio', betterDirection: 'none' },
+      { key: 'hubRequired', label: 'Hub or Bridge Required', betterDirection: 'none' },
+      { key: 'appleHomeKey', label: 'Apple Home Key', betterDirection: 'none' },
+      { key: 'uwbUnlock', label: 'UWB Hands-Free Unlock', betterDirection: 'none' },
+      { key: 'biometrics', label: 'Biometrics', betterDirection: 'none' },
+      { key: 'batteryType', label: 'Battery Type', betterDirection: 'none' },
+      { key: 'batteryClaimMonths', label: 'Claimed Battery Life', unit: 'months', betterDirection: 'higher' },
+      { key: 'backupAccess', label: 'Backup Power & Key Override', betterDirection: 'none' },
+      { key: 'doorFit', label: 'Door Thickness / Backset', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'security', label: 'Security', description: 'Published ANSI/BHMA grade, bolt and cylinder strength, and whether the lock upgrades or merely inherits the keyway already on your door' },
+      { key: 'failSafeAccess', label: 'Fail-Safe Access', description: 'What happens when the battery dies, the Wi-Fi drops or the app is down — physical key, emergency power contact and offline codes. The spec buyers most often discover too late' },
+      { key: 'connectivity', label: 'Connectivity', description: 'Which radios are actually inside the lock, and whether a hub or bridge is needed and included' },
+      { key: 'smartHomeSupport', label: 'Smart Home Support', description: 'Matter, Thread, Apple Home Key, Alexa, Google and SmartThings breadth — and how many features you lose in each' },
+      { key: 'entryMethods', label: 'Entry Methods', description: 'Keypad, fingerprint, face, NFC fobs, Apple Home Key and UWB approach unlock' },
+      { key: 'batteryLife', label: 'Battery Life', description: 'Real-world runtime, cell cost and how much recharging or replacing it demands' },
+      { key: 'installation', label: 'Installation & Fit', description: 'DIY difficulty, retrofit versus full replacement, and door thickness, backset and bore limits' },
+      { key: 'value', label: 'Value', description: 'Security, entry methods and connectivity relative to price, including accessories you must buy separately' }
+    ],
+    filters: [
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-175', label: 'Under $175', kind: 'price-max', value: 175 },
+      { slug: 'under-275', label: 'Under $275', kind: 'price-max', value: 275 },
+      { slug: 'under-400', label: 'Under $400', kind: 'price-max', value: 400 },
+      { slug: 'retrofit', label: 'Retrofit / Renters', kind: 'use-case' },
+      { slug: 'fingerprint', label: 'Fingerprint', kind: 'use-case' },
+      { slug: 'apple-home', label: 'Apple Home Key', kind: 'use-case' },
+      { slug: 'matter-thread', label: 'Matter / Thread', kind: 'use-case' },
+      { slug: 'rentals', label: 'Rentals & Guests', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'smart-thermostats',
+    name: 'Smart Thermostat',
+    pluralName: 'Smart Thermostats',
+    description:
+      'Smart thermostats compared on the specs that actually decide it — C-wire requirement, heating and cooling stages, heat-pump and accessory terminals, remote sensors, and Matter support.',
+    specFields: [
+      { key: 'voltageType', label: 'System Voltage', betterDirection: 'none' },
+      { key: 'cWireRequired', label: 'C-Wire Required', betterDirection: 'none' },
+      { key: 'cWireWorkaroundIncluded', label: 'Adapter / Power Kit Included', betterDirection: 'none' },
+      { key: 'heatCoolStages', label: 'Heating & Cooling Stages', betterDirection: 'none' },
+      { key: 'heatPumpSupport', label: 'Heat Pump & Aux Heat', betterDirection: 'none' },
+      { key: 'accessoryTerminals', label: 'Humidifier / Ventilator Terminals', betterDirection: 'none' },
+      { key: 'remoteSensors', label: 'Remote Sensors', betterDirection: 'none' },
+      { key: 'occupancyDetection', label: 'Occupancy Detection', betterDirection: 'none' },
+      { key: 'matterSupport', label: 'Matter Support', betterDirection: 'none' },
+      { key: 'platforms', label: 'Voice & Smart Home Platforms', betterDirection: 'none' },
+      { key: 'utilityPrograms', label: 'Utility Rebates & Demand Response', betterDirection: 'none' },
+      { key: 'subscriptionRequired', label: 'Account or Subscription Needed', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'cWireFreedom', label: 'C-Wire Freedom', description: 'How likely this thermostat is to run on the wiring you already have — whether it needs a common wire, and whether the workaround is in the box, sold separately, or an electrician\'s visit. The single biggest cause of returns in this category.' },
+      { key: 'hvacCoverage', label: 'HVAC Coverage', description: 'Stages of heating and cooling, heat pump and auxiliary heat handling, and humidifier / dehumidifier / ventilator terminals' },
+      { key: 'multiRoomSensing', label: 'Multi-Room Sensing', description: 'Remote sensors: included or extra, how many pair, and whether they read occupancy or only temperature' },
+      { key: 'smartHomeIntegration', label: 'Smart Home Integration', description: 'Matter, Apple Home, Alexa and Google support — and how much each one actually exposes' },
+      { key: 'automation', label: 'Scheduling & Learning', description: 'Learning, geofencing, away detection and how much of it works without babysitting the app' },
+      { key: 'displayAndControls', label: 'Display & On-Device Control', description: 'Screen quality and how much you can do at the wall instead of in the phone app' },
+      { key: 'installEase', label: 'Installation', description: 'Wiring complexity, guided setup, and how likely a DIY install is to end in a service call' },
+      { key: 'value', label: 'Value', description: 'What the money buys once accessories, adapters and sensors are added in' }
+    ],
+    filters: [
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-160', label: 'Under $160', kind: 'price-max', value: 160 },
+      { slug: 'under-220', label: 'Under $220', kind: 'price-max', value: 220 },
+      { slug: 'no-c-wire', label: 'Works Without a C Wire', kind: 'use-case' },
+      { slug: 'heat-pump', label: 'Heat Pump', kind: 'use-case' },
+      { slug: 'line-voltage', label: 'Electric Baseboard (Line Voltage)', kind: 'use-case' },
+      { slug: 'multi-room', label: 'Room-by-Room Comfort', kind: 'use-case' },
+      { slug: 'matter', label: 'Matter', kind: 'use-case' },
+      { slug: 'budget', label: 'Budget', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'smart-plugs',
+    name: 'Smart Plug',
+    pluralName: 'Smart Plugs',
+    description:
+      'Smart plugs compared on the specs that decide it: the real continuous amp rating, the motor/HP limit, whether energy monitoring is measured or absent, hub requirements and price per switched outlet.',
+    specFields: [
+      { key: 'maxLoad', label: 'Max Load', betterDirection: 'none' },
+      { key: 'motorLoadRating', label: 'Motor / Inductive Rating', betterDirection: 'none' },
+      { key: 'energyMonitoring', label: 'Energy Monitoring', betterDirection: 'none' },
+      { key: 'protocol', label: 'Radio & Protocol', betterDirection: 'none' },
+      { key: 'hubRequired', label: 'Hub Required', betterDirection: 'none' },
+      { key: 'localControl', label: 'Works Without Internet', betterDirection: 'none' },
+      { key: 'switchedOutlets', label: 'Switched Outlets', betterDirection: 'higher' },
+      { key: 'packSize', label: 'Pack Size', betterDirection: 'none' },
+      { key: 'pricePerOutlet', label: 'Price per Switched Outlet', unit: '$', betterDirection: 'lower' },
+      { key: 'dimensions', label: 'Dimensions', betterDirection: 'none' },
+      { key: 'outletBlocking', label: 'Blocks Second Outlet', betterDirection: 'none' },
+      { key: 'weatherRating', label: 'Weather Rating', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'loadHeadroom', label: 'Load Headroom', description: 'How much of the nameplate 15A you can actually use continuously, and what the plug is rated to do with motors, compressors and heaters — the spec buyers most often get caught by' },
+      { key: 'energyMonitoring', label: 'Energy Monitoring', description: 'Whether power is genuinely measured, what quantities are reported, and where you can see them' },
+      { key: 'ecosystem', label: 'Ecosystem Support', description: 'Matter, HomeKit, Alexa, Google, SmartThings and Home Assistant coverage' },
+      { key: 'localControl', label: 'Local Control', description: 'Whether switching and schedules survive an internet outage, or depend on a vendor cloud' },
+      { key: 'formFactor', label: 'Size & Fit', description: 'Whether it blocks the second outlet on a duplex receptacle, and how it mounts' },
+      { key: 'buildSafety', label: 'Build & Safety', description: 'Certification, flame-retardant housing, overload protection, recall history and warranty' },
+      { key: 'appAutomation', label: 'App & Automation', description: 'Scheduling, away modes, sunrise/sunset triggers and how good the controlling app is' },
+      { key: 'value', label: 'Value', description: 'What a switched, metered outlet actually costs once the pack size and any required hub are counted' }
+    ],
+    filters: [
+      { slug: 'under-15', label: 'Under $15', kind: 'price-max', value: 15 },
+      { slug: 'under-30', label: 'Under $30', kind: 'price-max', value: 30 },
+      { slug: 'under-45', label: 'Under $45', kind: 'price-max', value: 45 },
+      { slug: 'indoor-mini', label: 'Indoor Mini Plug', kind: 'use-case' },
+      { slug: 'outdoor', label: 'Outdoor', kind: 'use-case' },
+      { slug: 'energy-monitoring', label: 'Energy Monitoring', kind: 'use-case' },
+      { slug: 'heavy-appliance', label: 'Heavy Appliance', kind: 'use-case' },
+      { slug: 'power-strip', label: 'Power Strip', kind: 'use-case' },
+      { slug: 'matter', label: 'Matter', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'smart-lights',
+    name: 'Smart Light',
+    pluralName: 'Smart Lights',
+    description:
+      'Smart bulbs, light strips, bars, floor lamps and panel kits compared on the specs makers hide: colour brightness versus white, CRI, hub requirements, dimming floor and whether they survive an internet outage.',
+    specFields: [
+      { key: 'lumensWhite', label: 'Brightness (white)', betterDirection: 'none' },
+      { key: 'lumensColor', label: 'Brightness (saturated colour)', betterDirection: 'none' },
+      { key: 'colorTempRange', label: 'Colour Temperature Range', betterDirection: 'none' },
+      { key: 'cri', label: 'CRI (colour rendering)', betterDirection: 'none' },
+      { key: 'protocol', label: 'Radio & Protocol', betterDirection: 'none' },
+      { key: 'hubRequired', label: 'Hub / Bridge Required', betterDirection: 'none' },
+      { key: 'localControl', label: 'Works in an Internet Outage', betterDirection: 'none' },
+      { key: 'dimmingFloor', label: 'Lowest Dimming Level', betterDirection: 'none' },
+      { key: 'powerOnBehavior', label: 'Behaviour After a Power Cut', betterDirection: 'none' },
+      { key: 'ratedLife', label: 'Rated Life & Ingress', betterDirection: 'none' },
+      { key: 'packSize', label: 'Lights in the Box', unit: 'units', betterDirection: 'higher' },
+      { key: 'pricePerUnit', label: 'Price per Light', unit: '$', betterDirection: 'lower' }
+    ],
+    scoreDimensions: [
+      { key: 'brightness', label: 'Brightness', description: 'Usable light output for the room size the product is sold for' },
+      { key: 'colorOutput', label: 'Colour-Output Honesty', description: 'How much light survives at a saturated colour rather than at 2700K white, and whether the maker publishes that figure at all' },
+      { key: 'colorAccuracy', label: 'Colour Quality & CRI', description: 'Colour rendering, white-point accuracy and how convincing saturated colours look' },
+      { key: 'dimming', label: 'Dimming Range', description: 'How far down it dims before it cuts out, and how smooth the bottom end is' },
+      { key: 'ecosystem', label: 'Ecosystem & Matter', description: 'Alexa, Google, Apple Home, SmartThings and how much of the product actually crosses over via Matter' },
+      { key: 'localControl', label: 'Local Control', description: 'Whether control, schedules and automations keep running with the internet down' },
+      { key: 'setupHub', label: 'Setup & Hub Burden', description: 'What extra hardware you must buy and how painful commissioning is' },
+      { key: 'value', label: 'Value', description: 'What you pay per light for the light and features you actually get' }
+    ],
+    filters: [
+      { slug: 'under-30', label: 'Under $30', kind: 'price-max', value: 30 },
+      { slug: 'under-60', label: 'Under $60', kind: 'price-max', value: 60 },
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'whole-home-bulbs', label: 'Whole-Home Bulbs', kind: 'use-case' },
+      { slug: 'accent-lighting', label: 'Accent Lighting', kind: 'use-case' },
+      { slug: 'tv-and-gaming', label: 'TV & Gaming', kind: 'use-case' },
+      { slug: 'no-hub-needed', label: 'No Hub Needed', kind: 'use-case' },
+      { slug: 'works-offline', label: 'Works Offline', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'smart-displays',
+    name: 'Smart Display',
+    pluralName: 'Smart Displays',
+    description:
+      'Smart displays compared spec-for-spec — which assistant you are locked into, camera shutters, Zigbee/Thread/Matter hub radios, home-screen ads and the subscriptions the marketing hides.',
+    specFields: [
+      { key: 'voiceAssistant', label: 'Voice Assistant', betterDirection: 'none' },
+      { key: 'screenSize', label: 'Screen Size', unit: 'in', betterDirection: 'higher' },
+      { key: 'resolution', label: 'Resolution', betterDirection: 'none' },
+      { key: 'touchscreen', label: 'Touchscreen', betterDirection: 'none' },
+      { key: 'camera', label: 'Camera', betterDirection: 'none' },
+      { key: 'cameraShutter', label: 'Physical Camera Shutter', betterDirection: 'none' },
+      { key: 'speakers', label: 'Speakers', betterDirection: 'none' },
+      { key: 'smartHomeHub', label: 'Smart Home Hub Radios', betterDirection: 'none' },
+      { key: 'assistantSubscription', label: 'Subscriptions Required', betterDirection: 'none' },
+      { key: 'homeScreenAds', label: 'Home-Screen Ads', betterDirection: 'none' },
+      { key: 'videoCalling', label: 'Video Calling', betterDirection: 'none' },
+      { key: 'wallMountable', label: 'Wall Mountable', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'displayQuality', label: 'Display Quality', description: 'Size, resolution and pixel density for the money' },
+      { key: 'sound', label: 'Sound', description: 'Whether it is honestly a music speaker or just a voice speaker with a screen' },
+      { key: 'assistant', label: 'Assistant', description: 'How capable and responsive the built-in assistant actually is on this hardware' },
+      { key: 'smartHomeHub', label: 'Smart Home Hub', description: 'Zigbee, Matter and Thread border-router support — often the real reason to buy the bigger model' },
+      { key: 'ecosystemFreedom', label: 'Ecosystem Freedom', description: 'How much of a rival ecosystem\'s gear, apps and calling networks it will still talk to' },
+      { key: 'privacy', label: 'Privacy Hardware', description: 'Physical camera shutters, hardware mic cut-offs and how much sensing runs by default' },
+      { key: 'adFreedom', label: 'Ad Freedom', description: 'How much of the screen you paid for the vendor sells back to you, and whether you can turn it off' },
+      { key: 'value', label: 'Value', description: 'Hardware and features relative to price, including accessories that are not in the box' }
+    ],
+    filters: [
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'under-450', label: 'Under $450', kind: 'price-max', value: 450 },
+      { slug: 'kitchen', label: 'Kitchen', kind: 'use-case' },
+      { slug: 'bedside', label: 'Bedside', kind: 'use-case' },
+      { slug: 'smart-home-control', label: 'Smart Home Control', kind: 'use-case' },
+      { slug: 'video-calling', label: 'Video Calling', kind: 'use-case' },
+      { slug: 'family-organizer', label: 'Family Organiser', kind: 'use-case' }
+    ]
   }
 ];
 

@@ -1,0 +1,974 @@
+[
+  {
+    "id": "vd-ring-battery-doorbell-2k",
+    "categorySlug": "video-doorbells",
+    "brand": "Ring",
+    "series": "Battery Doorbell",
+    "model": "Ring Battery Doorbell 2K (2nd gen, 2026)",
+    "slug": "ring-battery-doorbell-2k",
+    "releaseYear": 2026,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Speckled Gray",
+      "Matte Mocha",
+      "Speckled White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "\"Retinal 2K\" is a 1920 x 1920 square frame — head-to-toe, not widescreen",
+      "140° x 140° field of view with up to 6x Enhanced Zoom",
+      "Charges three ways: USB-C, existing 8-24VAC doorbell wires, or Ring solar",
+      "Installs in about ten minutes with no wiring at all",
+      "Ring AI Pro trial in the box; nothing is recorded once it lapses"
+    ],
+    "specs": {
+      "resolution": "Ring \"Retinal 2K\" = 1920 x 1920 (3.7MP) per Ring's own spec sheet — a square frame, not the 2560-pixel-wide 2K of the display standard",
+      "aspectRatio": "1:1 square (head-to-toe)",
+      "fieldOfView": "140° horizontal x 140° vertical, 173° diagonal",
+      "powerSource": "Built-in rechargeable lithium-ion battery; optional trickle charge from doorbell wires, USB-C or Ring solar accessories",
+      "transformerRequirement": "None required. If you do trickle-charge from existing wiring, Ring specifies an 8-24VAC supply — the most forgiving lower limit in this group",
+      "batteryLife": "Not published by Ring for this model; the spec page lists only \"built-in rechargeable Lithium Ion battery\" with no runtime figure or event count",
+      "wifiBands": "2.4GHz only — Wi-Fi 4 (802.11n) single band. No 5GHz. Ring recommends 10 Mbps upload",
+      "localStorage": "None. No card slot, no hub option — recordings exist only in Ring's cloud",
+      "subscriptionFree": "Live View, two-way talk and motion notifications. No video is saved and no person/package alerts fire",
+      "paywalledFeatures": "All video history, Person/Package/Vehicle alerts and Extended Live View need Ring Solo ($4.99/mo, $49.99/yr, one device) or Multi ($9.99/mo); Familiar Faces, Video Descriptions and Video Search need Ring Pro ($19.99/mo)",
+      "smartHomeSupport": "Alexa only. No Google Home, no Apple Home, no Matter",
+      "chimeIncluded": "No. Alerts go to your phone and Alexa devices; a Ring Chime or an existing wired chime setup costs extra"
+    },
+    "scores": {
+      "videoQuality": 7.0,
+      "coverage": 8.5,
+      "detection": 8.0,
+      "subscriptionFreedom": 2.0,
+      "installFlexibility": 8.5,
+      "batteryPower": 7.0,
+      "smartHome": 4.5,
+      "value": 6.5
+    },
+    "pros": [
+      "The square 1:1 frame genuinely shows a visitor head-to-toe and a parcel on the mat, which the widescreen SimpliSafe and Wyze cannot",
+      "Three charging routes — USB-C, 8-24VAC doorbell wires, solar — and the 8V lower limit accepts older transformers that the Nest, Wyze and Lorex reject",
+      "Ring's motion processing and app remain the most polished here, and Alexa devices announce the doorbell without extra hardware",
+      "$99.99 buys the mainstream default a buyer is searching for, with the largest accessory and mount ecosystem"
+    ],
+    "cons": [
+      "Without a Ring plan it is an intercom: nothing is recorded, and person and package alerts are switched off entirely",
+      "\"Retinal 2K\" is 1920 x 1920 — the same pixel count as Blink's $39.99 doorbell, and fewer pixels than the 5MP Reolink or Tapo",
+      "2.4GHz Wi-Fi 4 only, while the $249.99 Pro in the same lineup gets dual-band Wi-Fi 6",
+      "Ring publishes no battery runtime figure at all, so there is no manufacturer number to hold them to",
+      "No local storage of any kind, so a lapsed subscription means the footage is simply gone"
+    ],
+    "images": [],
+    "amazonAsin": "B0FHJ7TKZM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-pro-4k",
+      "nest-doorbell-wired-3rd-gen",
+      "eufy-video-doorbell-e340",
+      "arlo-video-doorbell-2k-2nd-gen"
+    ],
+    "useCases": [
+      "battery-powered",
+      "professional-monitoring"
+    ],
+    "shortTagline": "The default pick — but \"2K\" is 1920x1920 and nothing records without a plan."
+  },
+  {
+    "id": "vd-ring-battery-doorbell-pro-4k",
+    "categorySlug": "video-doorbells",
+    "brand": "Ring",
+    "series": "Battery Doorbell Pro",
+    "model": "Ring Battery Doorbell Pro 4K (2nd gen, 2026)",
+    "slug": "ring-battery-doorbell-pro-4k",
+    "releaseYear": 2026,
+    "price": 249.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Deep Silver",
+      "Polished Night Navy",
+      "Polished Mocha",
+      "Polished Sandstone"
+    ],
+    "material": "Polycarbonate with a polished metal-effect faceplate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Wi-Fi 6 (802.11ax)"
+    ],
+    "features": [
+      "2880 x 2880 sensor — the highest pixel count of any battery doorbell here",
+      "Wi-Fi 6 dual-band radio; the only Ring doorbell in the range with 5GHz",
+      "Quick Release Ultra Battery Pack swaps out without unmounting the doorbell",
+      "10x Enhanced Zoom into the 8.3MP frame",
+      "140° x 140° head-to-toe view with Ring's Search Party and AI features"
+    ],
+    "specs": {
+      "resolution": "Ring \"Retinal 4K\" = 2880 x 2880 (8.3MP) per Ring's EU technical specifications. That is 2880 pixels across, not the 3840 of UHD — it is called 4K on total pixel count, not width",
+      "aspectRatio": "1:1 square (head-to-toe)",
+      "fieldOfView": "140° horizontal x 140° vertical",
+      "powerSource": "Quick Release Ultra Battery Pack (removable, rechargeable)",
+      "transformerRequirement": "None — battery only. The Ultra pack is a new format and is not interchangeable with older Ring battery packs",
+      "batteryLife": "Not published by Ring. Tom's Guide lost under 25% in two weeks of testing; SafeWise's tester on a high-traffic porch reported recharging \"about every 2 weeks\"",
+      "wifiBands": "Dual-band 2.4/5GHz, Wi-Fi 6 (802.11ax). Ring recommends a minimum 15 Mbps upload — the highest requirement in this group",
+      "localStorage": "None. Cloud only",
+      "subscriptionFree": "Live View and two-way talk. Nothing is recorded, and no smart alerts fire",
+      "paywalledFeatures": "Video history to 180 days and Person/Package/Vehicle alerts need Ring Solo ($4.99/mo) or Multi ($9.99/mo); Familiar Faces, Video Descriptions, Video Search and 24/7 professional monitoring need Ring Pro ($19.99/mo, $199.99/yr)",
+      "smartHomeSupport": "Alexa and Alexa+. No Google Home, no Apple Home, no Matter",
+      "chimeIncluded": "No — a Ring Chime or an Alexa device is needed for an in-home ring"
+    },
+    "scores": {
+      "videoQuality": 9.3,
+      "coverage": 8.5,
+      "detection": 9.0,
+      "subscriptionFreedom": 2.0,
+      "installFlexibility": 8.0,
+      "batteryPower": 6.5,
+      "smartHome": 5.0,
+      "value": 5.0
+    },
+    "pros": [
+      "8.3MP of real sensor, so the 10x zoom actually resolves a face or a plate rather than smearing",
+      "The only battery doorbell here with Wi-Fi 6 and a 5GHz radio, which matters on congested 2.4GHz streets",
+      "Quick Release battery pack means a swap in seconds instead of taking the doorbell off the wall to charge",
+      "Tom's Guide measured under 25% drain in a fortnight on a normal porch — genuinely long-lived when traffic is light"
+    ],
+    "cons": [
+      "$249.99 buys a camera that records nothing at all until you also pay Ring monthly — the single worst price-to-freedom ratio in this comparison",
+      "\"4K\" is 2880 x 2880, narrower than UHD's 3840 across; it is a square frame counted on total pixels",
+      "SafeWise's high-traffic test porch needed a recharge roughly every two weeks, which is nothing like the \"months\" buyers assume",
+      "Needs 15 Mbps upload to behave; Tom's Guide saw it stumble below that",
+      "The new Ultra battery pack does not fit any older Ring camera, so existing spares are useless"
+    ],
+    "images": [],
+    "amazonAsin": "B0FPPWKMGK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-2k",
+      "nest-doorbell-wired-3rd-gen",
+      "lorex-4k-wired-video-doorbell",
+      "eufy-video-doorbell-e340"
+    ],
+    "useCases": [
+      "battery-powered",
+      "professional-monitoring"
+    ],
+    "shortTagline": "Genuinely 8.3MP and Wi-Fi 6, but $250 of camera that saves nothing without a plan."
+  },
+  {
+    "id": "vd-nest-doorbell-wired-3rd-gen",
+    "categorySlug": "video-doorbells",
+    "brand": "Google",
+    "series": "Nest Doorbell",
+    "model": "Google Nest Doorbell (Wired, 3rd gen, 2025)",
+    "slug": "nest-doorbell-wired-3rd-gen",
+    "releaseYear": 2025,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Snow",
+      "Hazel",
+      "Linen"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi"
+    ],
+    "features": [
+      "Free tier includes person, package, vehicle and animal alerts — no subscription",
+      "6 hours of event video previews stored free",
+      "2K HDR with a 166° diagonal view and digital zoom-and-crop",
+      "Gemini for Home video descriptions and natural-language search on the Advanced plan",
+      "Dual-band 802.11ac Wi-Fi, unusual at this price"
+    ],
+    "specs": {
+      "resolution": "Google's store page states only \"2K HDR\" with no pixel count; Tom's Guide's review gives 2048 x 2048 at 30fps",
+      "aspectRatio": "Sources conflict: Google's tech-spec page lists 1:1, while Tom's Guide's review says 3:4 — though the 2048 x 2048 figure in that same review is 1:1",
+      "fieldOfView": "166° diagonal, with visible barrel distortion at the edges per Tom's Guide",
+      "powerSource": "Hardwired only — no battery in this generation, so a power cut takes the doorbell offline",
+      "transformerRequirement": "16-24VAC, 10-40VA, 50/60Hz doorbell transformer required. Google says the transformer and chime are sold separately and existing hardware may need replacing; an indoor plug-in adapter is a separate purchase",
+      "batteryLife": "Not applicable — wired only",
+      "wifiBands": "Dual-band 2.4/5GHz, 802.11ac",
+      "localStorage": "None. No card slot, no local NVR path",
+      "subscriptionFree": "6 hours of event video previews (clips up to 10 seconds) plus free on-device person, package, vehicle and animal alerts and activity zones — the most generous free tier in this comparison",
+      "paywalledFeatures": "30 days of event history and Familiar Faces need Google Home Premium Standard ($10/mo, $100/yr); 60 days of history, 10 days of 24/7 continuous recording and the Gemini descriptions and video search need Advanced ($20/mo, $200/yr)",
+      "smartHomeSupport": "Google Home and Gemini for Home. No Alexa, no Apple Home, no Matter — and Matter would not carry the video stream anyway",
+      "chimeIncluded": "No. Drives your existing wired chime, and Google Home speakers and displays can announce visitors"
+    },
+    "scores": {
+      "videoQuality": 8.7,
+      "coverage": 8.5,
+      "detection": 9.2,
+      "subscriptionFreedom": 6.0,
+      "installFlexibility": 3.5,
+      "batteryPower": 5.0,
+      "smartHome": 6.0,
+      "value": 7.0
+    },
+    "pros": [
+      "The only cloud doorbell here whose person, package, vehicle and animal alerts cost nothing — Ring, Arlo and Wyze all charge for the equivalent",
+      "Six hours of free event history means a missed delivery is still there when you get home",
+      "Dual-band 802.11ac where the $99.99 Ring is stuck on single-band Wi-Fi 4",
+      "Gemini descriptions and plain-English video search are the most useful AI layer of any doorbell in this set"
+    ],
+    "cons": [
+      "The 16-24VAC, 10-40VA transformer requirement is the strictest here — plenty of older US homes run 8-10VAC and need an electrician or Google's separate plug-in adapter",
+      "Wired only, with no battery backup, so it dies with the power",
+      "Google publishes no pixel count for its \"2K\", and its own aspect-ratio spec (1:1) contradicts Tom's Guide's review (3:4)",
+      "Zero local storage and no NVR path, so everything depends on Google keeping the service running",
+      "Google Home ecosystem only — no Alexa, no Apple Home"
+    ],
+    "images": [],
+    "amazonAsin": "B0FN7GC1TJ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-2k",
+      "ring-battery-doorbell-pro-4k",
+      "eufy-video-doorbell-e340",
+      "aqara-video-doorbell-g410"
+    ],
+    "useCases": [
+      "hardwired",
+      "no-subscription"
+    ],
+    "shortTagline": "Free person and package alerts beat Ring outright — if your transformer hits 16VAC."
+  },
+  {
+    "id": "vd-eufy-video-doorbell-e340",
+    "categorySlug": "video-doorbells",
+    "brand": "eufy",
+    "series": "E Series",
+    "model": "eufy Security Video Doorbell E340 (T8214)",
+    "slug": "eufy-video-doorbell-e340",
+    "releaseYear": 2023,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Polycarbonate, IP65-rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "433MHz (eufy chime link)"
+    ],
+    "features": [
+      "Two cameras: a forward lens plus a dedicated downward lens for the doormat",
+      "8GB of storage inside the doorbell — no hub, no card, no fee",
+      "Delivery Guard package detection and face recognition run on-device",
+      "Runs on a removable USB-C battery or on existing doorbell wiring",
+      "Dual-light colour night vision to about 16 ft"
+    ],
+    "specs": {
+      "resolution": "Sources conflict: eufy's own E340 specification article gives main camera 2048 x 1536 and second camera 1600 x 1200 (which eufy labels \"1080p\" although it is 4:3); B&H's listing for the same SKU claims 2560 x 1920 / 4MP. eufy markets both lenses simply as \"2K\"",
+      "aspectRatio": "4:3 on both cameras. There is no single head-to-toe frame — the second, downward-facing camera is what covers the doorstep",
+      "fieldOfView": "Not published by eufy in its E340 specification article, and absent from B&H's and eufy's own listings",
+      "powerSource": "Removable USB-C rechargeable battery, or hardwired. eufy requires the battery to stay installed even in wired mode",
+      "transformerRequirement": "Sources conflict: eufy's product page says \"8 to 24V and >10VA\", while eufy's own E340 specification support article says \"Existing Doorbell Wiring (16-24V, 10VA) or 19V-0.6A DC Power Adapter\"",
+      "batteryLife": "eufy publishes no month figure for the E340. Linkd Home's 30-day heavy-use test ended at 74% and projected roughly 78 days to shutdown",
+      "wifiBands": "2.4GHz only (802.11 b/g/n), plus a 433MHz radio for eufy chimes",
+      "localStorage": "8GB eMMC inside the doorbell with no card slot — around 90 days at 30 twenty-second clips a day. Expanding it means buying a HomeBase S280 or S380 separately",
+      "subscriptionFree": "Everything. Recording, playback, human detection, Delivery Guard package detection and face recognition all run locally with no plan",
+      "paywalledFeatures": "Nothing essential — eufy sells optional cloud backup only",
+      "smartHomeSupport": "Alexa and Google Assistant. No Apple HomeKit, no Matter",
+      "chimeIncluded": "Not on this SKU. It drives an existing mechanical chime, a eufy HomeBase, or a smart speaker; the chime bundle is a separate purchase"
+    },
+    "scores": {
+      "videoQuality": 7.0,
+      "coverage": 8.8,
+      "detection": 8.0,
+      "subscriptionFreedom": 9.3,
+      "installFlexibility": 8.5,
+      "batteryPower": 7.5,
+      "smartHome": 4.0,
+      "value": 8.5
+    },
+    "pros": [
+      "The second, downward camera is the only genuinely different answer to the parcel problem here — everyone else stretches one lens into a tall frame",
+      "8GB on the doorbell itself means no hub, no card and no monthly fee, unlike Blink and Arlo whose local storage needs a base station",
+      "Works battery or wired, and the battery pops out on USB-C instead of coming off the wall",
+      "Face recognition and package detection run on the device — the same features Ring charges $19.99/mo for"
+    ],
+    "cons": [
+      "eufy's own two sources disagree on the wiring requirement (8-24V vs 16-24V) and on the sensor resolution, which is careless for a $150 device",
+      "2.4GHz Wi-Fi only, and Linkd Home measured 13.6 seconds average notification latency with thumbnails",
+      "No field-of-view figure is published anywhere, so you cannot compare its coverage on paper",
+      "No Apple HomeKit and no Matter, so Apple households are locked out",
+      "eufy's history of cloud-privacy incidents is a real consideration for a camera pointed at your front door"
+    ],
+    "images": [],
+    "amazonAsin": "B0CD7NT4Y9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-2k",
+      "aqara-video-doorbell-g410",
+      "tapo-d230s1-video-doorbell",
+      "reolink-video-doorbell-wifi"
+    ],
+    "useCases": [
+      "battery-powered",
+      "no-subscription",
+      "local-storage",
+      "hardwired"
+    ],
+    "shortTagline": "Two cameras and 8GB on board — the cleanest no-subscription answer to package theft."
+  },
+  {
+    "id": "vd-aqara-video-doorbell-g410",
+    "categorySlug": "video-doorbells",
+    "brand": "Aqara",
+    "series": "G Series",
+    "model": "Aqara Video Doorbell G410 (Doorbell Camera Hub G410)",
+    "slug": "aqara-video-doorbell-g410",
+    "releaseYear": 2025,
+    "price": 144.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Gray"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Zigbee 3.0",
+      "Thread",
+      "Bluetooth"
+    ],
+    "features": [
+      "Native HomeKit Secure Video — the only doorbell here with it",
+      "mmWave radar for presence and lingering detection, not just PIR",
+      "On-device face recognition with no subscription and no cloud upload",
+      "Doubles as a Zigbee 3.0 hub, a Thread border router and a Matter controller",
+      "USB-C chime repeater and six AA cells are in the box"
+    ],
+    "specs": {
+      "resolution": "2K, 2304 x 1296 (about 3MP) from an f/1.8 lens. Streamed through Apple Home it is downgraded: Aqara states \"When using the HSV, the maximum resolution is 1200p\"",
+      "aspectRatio": "Sources conflict: Aqara's product page lists a 4:3 aspect ratio, but the 2304 x 1296 output it quotes on the same page is 16:9",
+      "fieldOfView": "175° wide angle",
+      "powerSource": "Six AA alkaline cells (supplied) or hardwired 12-24V AC 0.2A / 12-24V DC 0.5A",
+      "transformerRequirement": "Optional. If you hardwire it, Aqara specifies 12-24VAC — it will not run from an 8VAC transformer, but it is happier than the 16VAC-minimum Nest, Wyze and Lorex",
+      "batteryLife": "Aqara claims up to 5 months on the six supplied AA cells. Aqara does not publish the daily event count that figure assumes",
+      "wifiBands": "Dual-band 2.4/5GHz, 802.11 a/b/g/n/ac",
+      "localStorage": "microSD up to 512GB in the doorbell itself, plus NAS backup. No separate hub or base station needed",
+      "subscriptionFree": "Everything that matters: microSD recording, on-device face recognition, mmWave presence detection and HomeKit Secure Video (which uses your iCloud+ storage, not Aqara's)",
+      "paywalledFeatures": "Only Aqara's optional HomeGuardian cloud plan; HKSV needs an iCloud+ plan and an Apple home hub, which most Apple households already have",
+      "smartHomeSupport": "HomeKit Secure Video (requires an Apple home hub), Alexa, Google Home, SmartThings and Home Assistant. It is a Matter controller and Thread border router for other devices — but Matter carries no video, so the camera reaches Apple Home through HKSV, not through Matter",
+      "chimeIncluded": "Yes — a USB-C powered 95dB chime repeater ships in the box"
+    },
+    "scores": {
+      "videoQuality": 6.8,
+      "coverage": 8.5,
+      "detection": 8.5,
+      "subscriptionFreedom": 9.3,
+      "installFlexibility": 8.0,
+      "batteryPower": 8.0,
+      "smartHome": 9.0,
+      "value": 8.3
+    },
+    "pros": [
+      "The only genuine HomeKit Secure Video doorbell here, and it stores to iCloud+ rather than to another vendor's paid cloud",
+      "mmWave radar catches someone loitering that a PIR sensor sleeps through — no other doorbell in this set has it",
+      "Buys you a Zigbee hub, a Thread border router and a Matter controller in the same $145 as the doorbell",
+      "Cheap replaceable AA cells rather than a proprietary pack, and a real microSD slot up to 512GB",
+      "Chime is included, which Ring, Arlo, Blink and eufy all make you buy separately"
+    ],
+    "cons": [
+      "HomeKit Secure Video caps the stream at 1200p, so Apple users never see the 2K the box advertises",
+      "Aqara's own page gives a 4:3 aspect ratio next to a 16:9 sensor output — one of them is wrong",
+      "The \"Matter\" badge is about the hub, not the camera: no Matter controller will ever show you this doorbell's video",
+      "The five-month AA claim comes with no stated event count, so it is untestable as a promise",
+      "175° of wide angle at 3MP means noticeably less detail per degree than the 5MP Reolink or Tapo"
+    ],
+    "images": [],
+    "amazonAsin": "B0F6CJF9M9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eufy-video-doorbell-e340",
+      "nest-doorbell-wired-3rd-gen",
+      "tapo-d230s1-video-doorbell",
+      "reolink-video-doorbell-wifi"
+    ],
+    "useCases": [
+      "battery-powered",
+      "no-subscription",
+      "local-storage",
+      "apple-home"
+    ],
+    "shortTagline": "Real HomeKit Secure Video plus a Zigbee/Thread hub — but Apple Home caps it at 1200p."
+  },
+  {
+    "id": "vd-arlo-video-doorbell-2k-2nd-gen",
+    "categorySlug": "video-doorbells",
+    "brand": "Arlo",
+    "series": "Video Doorbell",
+    "model": "Arlo Video Doorbell 2K (2nd Gen, AVD4001)",
+    "slug": "arlo-video-doorbell-2k-2nd-gen",
+    "releaseYear": 2023,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate, IP65-rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "1944 x 1944 square sensor with HDR and a 180° diagonal view",
+      "Built-in 80dB siren — rare on a doorbell at any price",
+      "Runs on its internal battery or on existing doorbell wiring",
+      "Apple Home support arrived for 2nd-gen Arlo devices in March 2025",
+      "Direct-to-Wi-Fi: no Arlo SmartHub needed for basic operation"
+    ],
+    "specs": {
+      "resolution": "2K, 1944 x 1944 (3.8MP) with HDR, per Tom's Guide's spec table",
+      "aspectRatio": "1:1 square (head-to-toe)",
+      "fieldOfView": "180° diagonal — the widest in this comparison",
+      "powerSource": "Built-in non-removable rechargeable lithium-ion battery, or hardwired to existing doorbell wiring",
+      "transformerRequirement": "Optional. Arlo does not publish a voltage range on its US product page; the doorbell is designed to install on standard existing chime wiring",
+      "batteryLife": "Arlo claims up to 6 months, explicitly \"dependent on usage\", and publishes no event count. Tom's Guide frames that as light use only",
+      "wifiBands": "2.4GHz only, per Tom's Guide's specification table",
+      "localStorage": "None in the doorbell. Local backup exists only if you also buy an Arlo SmartHub or Base Station, sold separately",
+      "subscriptionFree": "Live view and basic motion notification. Tom's Guide: without a plan it is \"stripped to a grossly basic live view and motion detector functionality\"",
+      "paywalledFeatures": "30-day cloud history, custom activity zones, person/package/vehicle/animal recognition, lock-screen clip previews and emergency response all require Arlo Secure — raised twice, to $7.99/mo for one camera and $12.99/mo for unlimited",
+      "smartHomeSupport": "Alexa, Google Home and Apple Home. Arlo's community manager confirmed Apple Home integration for 2nd-generation devices in March 2025 after a long delay. No Matter video",
+      "chimeIncluded": "No on the 1-cam SKU. It can drive an existing wired chime, or Arlo sells Chime 2 separately"
+    },
+    "scores": {
+      "videoQuality": 7.5,
+      "coverage": 9.0,
+      "detection": 7.5,
+      "subscriptionFreedom": 1.5,
+      "installFlexibility": 8.5,
+      "batteryPower": 6.5,
+      "smartHome": 7.5,
+      "value": 6.8
+    },
+    "pros": [
+      "180° diagonal is the widest view here, and it is a square 1:1 frame rather than a letterbox",
+      "The only doorbell in this set with a built-in 80dB siren you can trigger from the app",
+      "Works with Alexa, Google Home and Apple Home — the broadest ecosystem coverage of any non-Aqara model here",
+      "$79.99 for a battery-or-wired 2K doorbell undercuts Ring's equivalent by $20"
+    ],
+    "cons": [
+      "The harshest subscription cliff in this comparison — no plan means no zones, no person alerts and no saved clips at all",
+      "Arlo Secure has been raised twice, from $2.99 to $4.99 to $7.99 a month for a single camera",
+      "The battery is not removable: recharging means taking the whole doorbell off the wall",
+      "Local storage requires an Arlo SmartHub or Base Station that is not in the box",
+      "2.4GHz only, and Arlo publishes no wired voltage range on its US page"
+    ],
+    "images": [],
+    "amazonAsin": "B0C683F516",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-2k",
+      "blink-wired-doorbell-2k-plus",
+      "wyze-video-doorbell-v2",
+      "eufy-video-doorbell-e340"
+    ],
+    "useCases": [
+      "battery-powered",
+      "hardwired",
+      "apple-home",
+      "professional-monitoring"
+    ],
+    "shortTagline": "Widest view and a siren for $80 — then Arlo Secure takes almost everything else."
+  },
+  {
+    "id": "vd-wyze-video-doorbell-v2",
+    "categorySlug": "video-doorbells",
+    "brand": "Wyze",
+    "series": "Video Doorbell",
+    "model": "Wyze Video Doorbell v2 (WVDWDV2)",
+    "slug": "wyze-video-doorbell-v2",
+    "releaseYear": 2023,
+    "price": 59.98,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Polycarbonate, IP65-rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "24/7 continuous recording to microSD at no monthly cost",
+      "Chime controller unit included — drives your existing mechanical chime",
+      "Starlight sensor for colour night vision",
+      "2048 x 1536 sensor, marketed as 2K",
+      "18-month warranty if bought direct from wyze.com instead of 12"
+    ],
+    "specs": {
+      "resolution": "\"2K\" = 2048 x 1536 (3.1MP) at 20fps by day and 15fps at night — a 4:3 frame, well short of a 2560-wide 2K",
+      "aspectRatio": "4:3 — landscape, not head-to-toe. A parcel placed against the door can sit below the frame",
+      "fieldOfView": "135° horizontal, 103° vertical, 166.8° diagonal — the narrowest horizontal view here",
+      "powerSource": "Hardwired only. There is no battery option and no battery backup",
+      "transformerRequirement": "16-24V AC, 10VA or more. An 8-10VAC transformer, common in older US homes, will not run it — Ring's 8-24VAC and SimpliSafe's 8-24VAC will",
+      "batteryLife": "Not applicable — wired only",
+      "wifiBands": "2.4GHz only (802.11 b/g/n)",
+      "localStorage": "microSD up to 256GB, including 24/7 continuous recording, at no charge. The card is not in the box unless you buy the bundle",
+      "subscriptionFree": "Live view, two-way talk, real-time motion alerts, 12-second event clips on a doorbell press, 3-6 seconds of pre-roll, and full 24/7 recording to your own microSD",
+      "paywalledFeatures": "Person and package detection, full-length event clips and motion-activated voice prompts require Cam Plus ($2.99/mo per camera) or Cam Unlimited ($9.99/mo, $99/yr)",
+      "smartHomeSupport": "Alexa and Google Assistant. No Apple Home, no Matter",
+      "chimeIncluded": "Yes — a chime controller unit ships in the box and lets the doorbell ring your existing mechanical chime"
+    },
+    "scores": {
+      "videoQuality": 6.8,
+      "coverage": 5.5,
+      "detection": 5.5,
+      "subscriptionFreedom": 7.5,
+      "installFlexibility": 4.0,
+      "batteryPower": 5.0,
+      "smartHome": 4.0,
+      "value": 9.2
+    },
+    "pros": [
+      "24/7 continuous local recording for $59.98 and no monthly fee — nothing else here does that under $100",
+      "The chime controller is in the box, so your existing indoor chime keeps working; Blink's cheaper doorbell disables yours",
+      "Colour night vision from a starlight sensor rather than flat infrared",
+      "Wyze extends the warranty to 18 months when you buy from wyze.com rather than a retailer"
+    ],
+    "cons": [
+      "16-24VAC minimum shuts out older 8-10VAC transformers — the same barrier as the Nest, on a $60 doorbell",
+      "135° horizontal and a 4:3 frame: the least head-to-toe coverage in this comparison, and no package framing to speak of",
+      "20fps by day, 15fps at night, so fast movement smears",
+      "Person and package detection are Cam Plus features — the free tier only gives you a 12-second clip when someone presses the button",
+      "Wired only, with no battery fallback, and Wyze's record on app outages and security incidents is uneven"
+    ],
+    "images": [],
+    "amazonAsin": "B0C896D28H",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "blink-wired-doorbell-2k-plus",
+      "reolink-video-doorbell-wifi",
+      "arlo-video-doorbell-2k-2nd-gen",
+      "tapo-d230s1-video-doorbell"
+    ],
+    "useCases": [
+      "hardwired",
+      "local-storage",
+      "professional-monitoring"
+    ],
+    "shortTagline": "$60 for 24/7 local recording — if your transformer makes 16VAC and you can live with 4:3."
+  },
+  {
+    "id": "vd-reolink-video-doorbell-wifi",
+    "categorySlug": "video-doorbells",
+    "brand": "Reolink",
+    "series": "Video Doorbell",
+    "model": "Reolink Video Doorbell WiFi (5MP, wired)",
+    "slug": "reolink-video-doorbell-wifi",
+    "releaseYear": 2022,
+    "price": 129.99,
+    "msrp": 139.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "ONVIF",
+      "RTSP"
+    ],
+    "features": [
+      "5MP 2560 x 1920 sensor — a real 2K-class pixel count, not a relabelled 1920 square",
+      "Open RTSP and ONVIF, so Home Assistant, Blue Iris and a NAS can record it",
+      "Indoor plug-in adapter in the box for homes with no doorbell wiring",
+      "Reolink Chime included",
+      "2-year warranty, double everyone else here except SimpliSafe with a plan"
+    ],
+    "specs": {
+      "resolution": "5MP, 2560 x 1920 at 20fps (H.264) — genuinely more pixels across than any of the \"2K\" square-frame doorbells here (Ring, Arlo and Blink are all under 2000 px wide)",
+      "aspectRatio": "Depends which one you buy: Reolink states the black unit shoots 4:3 landscape and the white unit shoots 3:4 vertical head-to-toe. Same model name, different framing",
+      "fieldOfView": "135° horizontal, 100° vertical, 180° diagonal",
+      "powerSource": "Hardwired. 12-24VAC 50/60Hz or 24V DC; an indoor power adapter is supplied for homes with no doorbell wiring at all",
+      "transformerRequirement": "12-24VAC, or none — the supplied plug-in adapter means this is one of the few wired doorbells here that does not need an existing transformer",
+      "batteryLife": "Not applicable — wired only",
+      "wifiBands": "Dual-band 2.4/5GHz, 802.11 a/b/g/n",
+      "localStorage": "microSD up to 256GB in the doorbell, plus Reolink NVR/Home Hub, FTP and NAS. ONVIF and RTSP are open, so third-party recorders work",
+      "subscriptionFree": "Everything: person, vehicle and animal detection, 24/7 recording and full playback are free. Reolink states no monthly fees are required",
+      "paywalledFeatures": "Nothing. Reolink's cloud plan is entirely optional",
+      "smartHomeSupport": "Alexa, Google Assistant, Home Assistant, ONVIF and RTSP. No Apple Home, no Matter",
+      "chimeIncluded": "Yes — the Reolink Chime is in the box, and Echo Show and Google displays also work"
+    },
+    "scores": {
+      "videoQuality": 8.0,
+      "coverage": 8.0,
+      "detection": 8.0,
+      "subscriptionFreedom": 9.8,
+      "installFlexibility": 6.5,
+      "batteryPower": 5.5,
+      "smartHome": 6.5,
+      "value": 8.0
+    },
+    "pros": [
+      "5MP with dual-band Wi-Fi, no subscription and a chime in the box — the best raw hardware-per-dollar here",
+      "RTSP and ONVIF are open, so Home Assistant, Blue Iris, Frigate or a NAS can record it and you never depend on Reolink's cloud",
+      "The 12-24VAC range plus a supplied indoor adapter means it installs where the 16VAC-minimum Nest, Wyze and Lorex cannot",
+      "Two-year warranty, twice the category norm"
+    ],
+    "cons": [
+      "The white and black units frame differently (3:4 vs 4:3) under one product name — buy the wrong colour and you lose head-to-toe coverage",
+      "Wired only, with no battery version at this SKU",
+      "No Apple Home and no Matter; the app and integrations are aimed at the Home Assistant crowd, not the Apple one",
+      "H.264 at 20fps only, so motion is less fluid than the 25-30fps Ring and Nest models",
+      "Street pricing swings widely — Reolink's own US store lists $139.99 while Newegg has listed it at $129.99"
+    ],
+    "images": [],
+    "amazonAsin": "B0B7S3JSG7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-video-doorbell-v2",
+      "lorex-4k-wired-video-doorbell",
+      "eufy-video-doorbell-e340",
+      "aqara-video-doorbell-g410"
+    ],
+    "useCases": [
+      "hardwired",
+      "no-subscription",
+      "local-storage"
+    ],
+    "shortTagline": "5MP, dual-band, RTSP open and zero fees — the self-hoster's doorbell."
+  },
+  {
+    "id": "vd-blink-wired-doorbell-2k-plus",
+    "categorySlug": "video-doorbells",
+    "brand": "Blink",
+    "series": "Wired Doorbell",
+    "model": "Blink Wired Doorbell 2K+ (BDM00500U, 2026)",
+    "slug": "blink-wired-doorbell-2k-plus",
+    "releaseYear": 2026,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "$39.99 for a 1:1 head-to-toe frame — the cheapest doorbell in this comparison",
+      "1920 x 1920 at up to 25fps with improved dynamic range",
+      "Works on your Wi-Fi with no Sync Module required",
+      "Local save to a Sync Module 2 USB drive or Sync Module XR microSD, no plan needed",
+      "AI Smart Video Descriptions on Blink's Basic AI plan"
+    ],
+    "specs": {
+      "resolution": "Blink markets \"2K+\"; its own technical specifications page says \"1920p\" — a 1920 x 1920 square frame, the same pixel count as Ring's $99.99 \"Retinal 2K\", at up to 25fps",
+      "aspectRatio": "1:1 (head-to-toe), per Blink's spec page",
+      "fieldOfView": "140° horizontal, 173° diagonal",
+      "powerSource": "Wired only — Blink states \"Wired only (no batteries)\"",
+      "transformerRequirement": "12-24V AC in the US (8-24V AC in EU/UK), or Blink's optional plug-in adapter. Critically, Blink's FAQ says the doorbell \"does not ring your existing in-home mechanical chime\" and that a bypass cable must be fitted at the chime, which disables it",
+      "batteryLife": "Not applicable — wired only",
+      "wifiBands": "2.4GHz only (802.11 b/g/n); Blink asks for 2-6 Mbps upload depending on quality",
+      "localStorage": "Only via a Sync Module 2 (USB drive) or Sync Module XR (microSD), both sold separately. Nothing is stored in the doorbell itself",
+      "subscriptionFree": "Live view, motion alerts and two-way audio, plus local saving if you own a Sync Module",
+      "paywalledFeatures": "Cloud clips, Person Detection, Vehicle Detection and the AI Smart Video Descriptions all need a Blink plan: Basic $3.99/mo, Basic AI $6.99/mo, Plus $11.99/mo, Plus AI $19.99/mo",
+      "smartHomeSupport": "Alexa only. No Google Home, no Apple Home, no Matter",
+      "chimeIncluded": "No — and it will not drive your existing mechanical chime. Blink's FAQ requires \"a Blink Mini, Blink Chime, or compatible Alexa device (each sold separately)\" for an in-home alert"
+    },
+    "scores": {
+      "videoQuality": 6.5,
+      "coverage": 8.3,
+      "detection": 5.5,
+      "subscriptionFreedom": 4.5,
+      "installFlexibility": 3.0,
+      "batteryPower": 5.0,
+      "smartHome": 3.5,
+      "value": 8.8
+    },
+    "pros": [
+      "$39.99 buys the same 1920 x 1920 square sensor Ring charges $99.99 for in the Battery Doorbell 2K",
+      "No Sync Module required to work — it joins your Wi-Fi directly, unlike older Blink doorbells",
+      "Local saving to a Sync Module needs no subscription, which Arlo cannot match at any price",
+      "25fps is the highest frame rate among the budget models here"
+    ],
+    "cons": [
+      "It cannot ring your existing mechanical chime — Blink's own FAQ says a bypass cable must be installed, which disables the chime permanently. You then have to buy a Blink Chime or an Echo",
+      "Local storage means buying a Sync Module 2 or XR separately, so the real entry price is well above $39.99",
+      "Person and Vehicle Detection are subscription features; with no plan it only tells you \"motion\"",
+      "Alexa-only, wired-only, 2.4GHz-only — the narrowest capability set in this comparison",
+      "\"2K+\" describes a 1920-pixel-wide frame, which is 1080p's width made square"
+    ],
+    "images": [],
+    "amazonAsin": "B0G62LKVGT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-video-doorbell-v2",
+      "ring-battery-doorbell-2k",
+      "arlo-video-doorbell-2k-2nd-gen",
+      "tapo-d230s1-video-doorbell"
+    ],
+    "useCases": [
+      "hardwired",
+      "local-storage"
+    ],
+    "shortTagline": "$40 and a real 1:1 frame — but it kills your indoor chime and needs a Sync Module to record."
+  },
+  {
+    "id": "vd-simplisafe-video-doorbell-pro",
+    "categorySlug": "video-doorbells",
+    "brand": "SimpliSafe",
+    "series": "Video Doorbell Pro",
+    "model": "SimpliSafe Video Doorbell Pro (VPD301)",
+    "slug": "simplisafe-video-doorbell-pro",
+    "releaseYear": 2019,
+    "price": 169.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate with a brushed faceplate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "Integrates directly with a SimpliSafe alarm and its professional monitoring",
+      "162° wide-angle HDR view",
+      "8-24VAC transformer range — accepts older, weaker doorbell power",
+      "Free plan gives live view and a 7-day activity timeline",
+      "Warranty extends to 3 years while a qualifying SimpliSafe plan is active"
+    ],
+    "specs": {
+      "resolution": "1080p — the only sub-2K doorbell in this comparison, at a $169 price",
+      "aspectRatio": "16:9 widescreen. There is no head-to-toe framing, so a parcel set against the door can fall below the frame",
+      "fieldOfView": "162° field of view",
+      "powerSource": "Hardwired only — no battery, no battery backup",
+      "transformerRequirement": "8-24 VAC, 30VA maximum. SimpliSafe supports mechanical chimes only and states that digital chimes are not supported",
+      "batteryLife": "Not applicable — wired only",
+      "wifiBands": "2.4GHz only",
+      "localStorage": "None. No card slot and no local recorder option",
+      "subscriptionFree": "Live view in the app, real-time motion alerts and a 7-day activity timeline. Nothing is recorded",
+      "paywalledFeatures": "Every saved recording. The cheapest qualifying plan is Self Monitoring with Camera Recordings at $9.99/mo for up to 10 cameras with 30 days of rolling footage; professional monitoring costs more",
+      "smartHomeSupport": "Alexa and Google Assistant, plus deep integration with the SimpliSafe alarm system. No Apple Home, no Matter",
+      "chimeIncluded": "No — it uses your existing mechanical chime, and digital chimes are explicitly unsupported"
+    },
+    "scores": {
+      "videoQuality": 4.5,
+      "coverage": 5.0,
+      "detection": 5.0,
+      "subscriptionFreedom": 2.5,
+      "installFlexibility": 5.0,
+      "batteryPower": 5.5,
+      "smartHome": 4.0,
+      "value": 3.5
+    },
+    "pros": [
+      "The only doorbell here that arms, disarms and triggers alongside a full professionally-monitored alarm system",
+      "8-24VAC is one of the most forgiving power ranges in the group, so it installs where the Nest and Wyze will not",
+      "Runs standalone without a SimpliSafe base station if you only want the doorbell",
+      "A qualifying subscription extends the hardware warranty from 1 year to as much as 3"
+    ],
+    "cons": [
+      "1080p and 16:9 in 2026, for $169 — a $39.99 Blink has more pixels and a better-shaped frame",
+      "The cheapest plan that records anything is $9.99/mo, more than double Ring's $4.99 entry tier",
+      "Digital chimes are unsupported, which quietly disqualifies a lot of newer homes",
+      "SafeWise's testing found audio lag that makes real conversation hard and night vision that fades past roughly six feet",
+      "No local storage, no Apple Home, no Matter, and a design that has not changed since 2019"
+    ],
+    "images": [],
+    "amazonAsin": "B089PNGL41",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-2k",
+      "nest-doorbell-wired-3rd-gen",
+      "arlo-video-doorbell-2k-2nd-gen",
+      "wyze-video-doorbell-v2"
+    ],
+    "useCases": [
+      "hardwired",
+      "professional-monitoring"
+    ],
+    "shortTagline": "Buy it for the alarm integration, not the camera — it is still 1080p widescreen at $169."
+  },
+  {
+    "id": "vd-tapo-d230s1-video-doorbell",
+    "categorySlug": "video-doorbells",
+    "brand": "TP-Link",
+    "series": "Tapo D200 Series",
+    "model": "TP-Link Tapo D230S1 Battery Video Doorbell Kit",
+    "slug": "tapo-d230s1-video-doorbell",
+    "releaseYear": 2023,
+    "price": 119.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate, IP64-rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "5MP 2560 x 1920 sensor — 2K done with real pixels",
+      "6700mAh removable battery rated up to 180 days at 10-20 events a day",
+      "H200 hub in the box doubles as the chime and holds the microSD card",
+      "Free on-device person, pet, vehicle and package detection",
+      "Colour night vision to roughly 25 ft"
+    ],
+    "specs": {
+      "resolution": "2K 5MP, 2560 x 1920, from a 1/2.7in sensor with an f/2.1 lens, at 15fps",
+      "aspectRatio": "4:3 — TP-Link markets it as head-to-toe, but it is a landscape-leaning frame, not the 1:1 of the Ring, Arlo and Blink",
+      "fieldOfView": "160° diagonal",
+      "powerSource": "Removable 6700mAh Tapo A100 lithium-ion battery, charged over USB-C",
+      "transformerRequirement": "None, and none supported on this kit: the doorbell is battery-only and the supplied H200 hub plugs into a mains socket (9V/0.85A adapter). There is no hardwired doorbell option",
+      "batteryLife": "Up to 180 days — and TP-Link publishes the assumption, which almost nobody else does: 10-20 events per day",
+      "wifiBands": "2.4GHz only (802.11 b/g/n). The doorbell talks to the H200 hub; the hub joins your network",
+      "localStorage": "microSD up to 512GB in the included H200 hub. The card itself is not supplied",
+      "subscriptionFree": "Local recording to the hub's microSD, plus free on-device person, pet, vehicle and package detection",
+      "paywalledFeatures": "Cloud video storage, rich notifications with snapshots and extended history need a Tapo Care plan",
+      "smartHomeSupport": "Alexa and Google Home. No Apple Home, no Matter",
+      "chimeIncluded": "Yes — the H200 hub is the chime and it is in the box"
+    },
+    "scores": {
+      "videoQuality": 7.8,
+      "coverage": 7.5,
+      "detection": 8.0,
+      "subscriptionFreedom": 9.0,
+      "installFlexibility": 6.0,
+      "batteryPower": 9.0,
+      "smartHome": 4.5,
+      "value": 8.5
+    },
+    "pros": [
+      "The only manufacturer here that states the event count behind its battery claim — 180 days at 10-20 events a day, which is a number you can actually test",
+      "5MP is a real 2K sensor, not a 1920-square frame relabelled",
+      "Hub, chime and microSD slot are all in the box; Blink, Arlo and Ring all charge extra for the equivalent",
+      "Person, pet, vehicle and package detection run on the device with no Tapo Care plan"
+    ],
+    "cons": [
+      "Battery-only: there is no hardwiring option on this kit, so it cannot trickle-charge from doorbell wires the way the Ring, Arlo and eufy can",
+      "4:3 framing means less doorstep coverage than the 1:1 Ring, Arlo and Blink despite the head-to-toe marketing",
+      "15fps and a 2.4GHz-only radio",
+      "The hub is a single point of failure — lose it and the doorbell has no chime and nowhere to record",
+      "No Apple Home and no Matter, and IP64 rather than the IP65 most rivals carry"
+    ],
+    "images": [],
+    "amazonAsin": "B0CB1Z5Q1L",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eufy-video-doorbell-e340",
+      "aqara-video-doorbell-g410",
+      "blink-wired-doorbell-2k-plus",
+      "wyze-video-doorbell-v2"
+    ],
+    "useCases": [
+      "battery-powered",
+      "no-subscription",
+      "local-storage"
+    ],
+    "shortTagline": "The only brand that publishes the event count behind its 180-day battery claim."
+  },
+  {
+    "id": "vd-lorex-4k-wired-video-doorbell",
+    "categorySlug": "video-doorbells",
+    "brand": "Lorex",
+    "series": "B862AJ Series",
+    "model": "Lorex 4K Wired Video Doorbell (B862AJD-E, 32GB)",
+    "slug": "lorex-4k-wired-video-doorbell",
+    "releaseYear": 2024,
+    "price": 186.99,
+    "msrp": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Polycarbonate, IP65-rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi"
+    ],
+    "features": [
+      "8MP 2160 x 3840 sensor — a genuinely 4K-class pixel count",
+      "32GB microSD pre-installed and swappable to 256GB, with no cloud fee ever",
+      "Person, vehicle, animal and package detection all free and on-device",
+      "Motion-activated nightlight and Quick Response messages",
+      "Chime kit, wedges and wiring are all in the box"
+    ],
+    "specs": {
+      "resolution": "8MP, 2160 x 3840 — a true 4K-class pixel count, but rotated: 2160 across and 3840 tall",
+      "aspectRatio": "9:16 vertical portrait — the tallest frame in this comparison. Best in the group for seeing a parcel on the mat, worst for seeing across a wide porch",
+      "fieldOfView": "150° diagonal — the narrowest here, against 180° on the Arlo and Reolink",
+      "powerSource": "Hardwired only — no battery and no battery backup",
+      "transformerRequirement": "16-24VAC required, so an older 8-10VAC transformer will not run it",
+      "batteryLife": "Not applicable — wired only",
+      "wifiBands": "Dual-band 2.4/5GHz, 802.11 b/g/n/ac",
+      "localStorage": "32GB microSD card pre-installed in the doorbell, upgradable to 256GB. No cloud subscription of any kind is offered or needed",
+      "subscriptionFree": "Everything: recording, playback and person, vehicle, animal and package detection are all local and free",
+      "paywalledFeatures": "Nothing — Lorex charges no monthly fee for this model",
+      "smartHomeSupport": "Alexa and Google Assistant, through the older Lorex Classic app. No Apple Home, no Matter",
+      "chimeIncluded": "Yes — a chime kit ships in the box along with mounting wedges and connecting wires"
+    },
+    "scores": {
+      "videoQuality": 9.0,
+      "coverage": 6.5,
+      "detection": 8.0,
+      "subscriptionFreedom": 9.8,
+      "installFlexibility": 3.5,
+      "batteryPower": 5.0,
+      "smartHome": 4.0,
+      "value": 7.5
+    },
+    "pros": [
+      "8MP is the highest pixel count in this comparison and it costs $63 less than Ring's 4K Pro — with no subscription at all",
+      "A 32GB card is already fitted, so it records out of the box with nothing else to buy",
+      "Package, person, vehicle and animal detection are free, where Ring and Arlo both charge monthly for the same list",
+      "Chime kit, wedges and wiring included, and dual-band Wi-Fi at a price where most rivals are 2.4GHz only"
+    ],
+    "cons": [
+      "150° diagonal is the narrowest view here — the tall 9:16 frame trades width for height",
+      "16-24VAC hardwired only, with no battery option and no battery backup",
+      "The Lorex Classic app is dated next to Ring's or Google's, and there is no Apple Home or Matter support",
+      "Lorex's own product page has listed the doorbell as available only through direct contact with its sales team, so retail stock can be patchy",
+      "32GB fills quickly at 4K, so most buyers will want to swap the card immediately"
+    ],
+    "images": [],
+    "amazonAsin": "B0CPQ3HXLT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-battery-doorbell-pro-4k",
+      "reolink-video-doorbell-wifi",
+      "wyze-video-doorbell-v2",
+      "nest-doorbell-wired-3rd-gen"
+    ],
+    "useCases": [
+      "hardwired",
+      "no-subscription",
+      "local-storage"
+    ],
+    "shortTagline": "8MP and a card in the box for $187, with no subscription — but only 150° wide."
+  }
+]

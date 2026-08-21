@@ -1,0 +1,951 @@
+[
+  {
+    "id": "sp-kasa-ep25-4-pack",
+    "categorySlug": "smart-plugs",
+    "brand": "TP-Link",
+    "series": "Kasa",
+    "model": "Kasa Smart Plug Mini EP25 (EP25P4 4-Pack)",
+    "slug": "kasa-ep25-4-pack",
+    "releaseYear": 2022,
+    "price": 32.99,
+    "msrp": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "UL94 V-0 flame-retardant polycarbonate",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Apple HomeKit (native)"
+    ],
+    "features": [
+      "Native Apple HomeKit without a Matter controller",
+      "Real-time and historical energy monitoring in the Kasa app",
+      "Slim body so two fit on one duplex receptacle",
+      "Works with Alexa, Google Assistant, SmartThings and Bixby",
+      "Cheapest per-plug price of anything here with energy data"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,800W at 120V (resistive)",
+      "motorLoadRating": "1/6 HP — the weakest motor rating in this table (TP-Link EP25P4 spec sheet)",
+      "energyMonitoring": "Yes, measured — real-time W and historical kWh, Kasa app only",
+      "protocol": "Wi-Fi 2.4GHz with native HomeKit; no Matter, no Thread",
+      "hubRequired": "No",
+      "localControl": "Yes — Kasa keeps LAN control if the internet drops; HomeKit automations still need a home hub",
+      "switchedOutlets": 1,
+      "packSize": 4,
+      "pricePerOutlet": 8.25,
+      "dimensions": "66.5 x 38 x 40 mm (2.62 x 1.50 x 1.57 in), plug pins excluded",
+      "outletBlocking": "No — slim enough to stack two on one duplex outlet",
+      "weatherRating": "Indoor only, 32-104°F"
+    },
+    "scores": {
+      "loadHeadroom": 4.5,
+      "energyMonitoring": 8.0,
+      "ecosystem": 7.0,
+      "localControl": 8.0,
+      "formFactor": 9.5,
+      "buildSafety": 8.5,
+      "appAutomation": 8.5,
+      "value": 9.5
+    },
+    "pros": [
+      "Roughly $8 a plug with real measured energy monitoring — nothing else here is close on price-per-watt-meter",
+      "Native HomeKit, so Apple users do not need a Matter controller or a Thread border router",
+      "LAN control means schedules keep running through an internet outage",
+      "2-year warranty, double the 1 year Wyze, Eve, Emporia and SwitchBot give"
+    ],
+    "cons": [
+      "1/6 HP motor rating — fine for lamps and fans, not for a compressor, pump or shop vac",
+      "1,800W resistive means a 1,500W space heater sits at 83% of rating continuously; TP-Link does not endorse heater use",
+      "No Matter, so it cannot be shared into SmartThings or Google as a Matter device",
+      "TP-Link's current 4-pack listing title dropped the 'with Energy Monitoring' wording the 2022 launch press release used, and Home Assistant users report the newer hardware revision reports 7-day/30-day totals instead of lifetime kWh"
+    ],
+    "images": [],
+    "amazonAsin": "B0B14C719T",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-kp125m-4-pack",
+      "meross-mss315-4-pack",
+      "switchbot-plug-mini-4-pack",
+      "amazon-smart-plug"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring"
+    ],
+    "shortTagline": "The cheapest way to get four metered plugs, if you can live without Matter."
+  },
+  {
+    "id": "sp-kasa-kp125m-4-pack",
+    "categorySlug": "smart-plugs",
+    "brand": "TP-Link",
+    "series": "Kasa",
+    "model": "Kasa Matter Smart Plug KP125M (KP125MP4 4-Pack)",
+    "slug": "kasa-kp125m-4-pack",
+    "releaseYear": 2023,
+    "price": 37.93,
+    "msrp": 69.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "UL94 V-0 flame-retardant polycarbonate",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Matter over Wi-Fi",
+      "Bluetooth (setup only)"
+    ],
+    "features": [
+      "One of the first Matter 1.0-certified smart plugs",
+      "Matter multi-admin: usable in Apple Home, Alexa, Google and SmartThings at once",
+      "Energy monitoring in the Kasa app",
+      "Compact body that leaves the second socket usable",
+      "Local Matter control, so on/off does not go through a cloud"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,800W at 120V",
+      "motorLoadRating": "Not published by TP-Link for the KP125M",
+      "energyMonitoring": "Yes, measured — but only visible in the Kasa app; the Matter integration does not expose it",
+      "protocol": "Matter over Wi-Fi (2.4GHz), Bluetooth for commissioning",
+      "hubRequired": "No for the Kasa app; a Matter controller (HomePod, Apple TV, Echo, Nest Hub, SmartThings) is required to use it in Apple/Google/SmartThings",
+      "localControl": "Yes — Matter commands are local, and Kasa keeps LAN control",
+      "switchedOutlets": 1,
+      "packSize": 4,
+      "pricePerOutlet": 9.48,
+      "dimensions": "Not published by TP-Link on the US KP125M product page",
+      "outletBlocking": "No — TP-Link markets it as mini-sized specifically to avoid blocking the adjacent socket",
+      "weatherRating": "Indoor only"
+    },
+    "scores": {
+      "loadHeadroom": 4.5,
+      "energyMonitoring": 8.0,
+      "ecosystem": 9.0,
+      "localControl": 8.5,
+      "formFactor": 9.0,
+      "buildSafety": 8.5,
+      "appAutomation": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "Matter multi-admin means the same plug can live in Apple Home and Alexa simultaneously — the Kasa EP25 cannot",
+      "Matter on/off is handled locally, so it survives an internet outage",
+      "Street price has fallen to roughly half the $69.99 launch MSRP for the 4-pack",
+      "2-year warranty and UL certification"
+    ],
+    "cons": [
+      "The headline energy monitoring is invisible over Matter — you must install the Kasa app alongside your chosen platform to see a single watt",
+      "TP-Link does not publish a motor/HP rating for this model, so inductive loads are a guess",
+      "Needs a Matter controller you may not own; the plug alone does nothing in Apple Home without a HomePod or Apple TV",
+      "Amazon 4-pack pricing swings between roughly $37 and $43, so per-unit comparisons against 2-packs are unstable"
+    ],
+    "images": [],
+    "amazonAsin": "B0BYGMR4DX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-ep25-4-pack",
+      "meross-mss315-4-pack",
+      "eve-energy-matter",
+      "amazon-smart-plug"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring",
+      "matter"
+    ],
+    "shortTagline": "Matter done properly — except the energy monitoring never leaves the Kasa app."
+  },
+  {
+    "id": "sp-kasa-ep40m-outdoor",
+    "categorySlug": "smart-plugs",
+    "brand": "TP-Link",
+    "series": "Kasa",
+    "model": "Kasa Matter Smart Outdoor Plug EP40M",
+    "slug": "kasa-ep40m-outdoor",
+    "releaseYear": 2024,
+    "price": 25.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "UL94 V-0 flame-retardant polycarbonate",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Matter over Wi-Fi",
+      "Bluetooth (setup only)"
+    ],
+    "features": [
+      "Two independently switched weatherproof outlets",
+      "Matter-certified with multi-admin support",
+      "IP64 enclosure rated from -4°F to 122°F",
+      "Dual-antenna 2.4GHz radio for range down the garden",
+      "Ships with clamp, screws and wall anchor for mounting"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,875W total, shared across both outlets",
+      "motorLoadRating": "1/2 HP",
+      "energyMonitoring": "No — TP-Link staff confirmed on its own forum that it cannot be added by firmware and closed the request as Declined",
+      "protocol": "Matter over Wi-Fi (2.4GHz), Bluetooth for commissioning",
+      "hubRequired": "No for the Kasa app; a Matter controller is required for Apple/Google/SmartThings",
+      "localControl": "Yes — Matter control is local and Kasa keeps LAN control",
+      "switchedOutlets": 2,
+      "packSize": 1,
+      "pricePerOutlet": 13.0,
+      "dimensions": "110 x 39 x 81 mm (4.33 x 1.54 x 3.19 in)",
+      "outletBlocking": "Not applicable — mounts on its own clamp rather than sitting on a duplex receptacle",
+      "weatherRating": "IP64, ETL certified, -4°F to 122°F. The IP64 figure covers the sealed body; TP-Link publishes no rating for a socket with a cord inserted and the sockets are meant to face down"
+    },
+    "scores": {
+      "loadHeadroom": 7.5,
+      "energyMonitoring": 0.0,
+      "ecosystem": 9.0,
+      "localControl": 8.5,
+      "formFactor": 6.0,
+      "buildSafety": 8.5,
+      "appAutomation": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "1/2 HP motor rating — three times the EP25's, which matters for pond pumps and inflatables",
+      "Two outlets you can schedule separately, so lights and a pump are not tied together",
+      "Matter multi-admin plus a wide -4°F to 122°F operating range for real winter use",
+      "2-year warranty, unusual for outdoor gear at this price"
+    ],
+    "cons": [
+      "No energy monitoring at all, and TP-Link has publicly refused to add it — the cheaper indoor Kasa plugs meter, this does not",
+      "IP64 is splash resistance, not immersion; a plug sitting in standing water or snowdrift is outside the rating",
+      "15A is the total for the pair, not per outlet — two 1,000W devices will trip it",
+      "Needs a Matter controller for Apple, Google or SmartThings; only the Kasa app works standalone"
+    ],
+    "images": [],
+    "amazonAsin": "B0CVMXZMDM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-plug-outdoor",
+      "kasa-kp125m-4-pack",
+      "tapo-p316m-power-strip",
+      "zooz-zen15-power-switch"
+    ],
+    "useCases": [
+      "outdoor",
+      "matter"
+    ],
+    "shortTagline": "The best-built outdoor Matter plug, and the one TP-Link refuses to give energy monitoring."
+  },
+  {
+    "id": "sp-tapo-p316m-power-strip",
+    "categorySlug": "smart-plugs",
+    "brand": "TP-Link",
+    "series": "Tapo",
+    "model": "Tapo Smart Wi-Fi Power Strip P316M",
+    "slug": "tapo-p316m-power-strip",
+    "releaseYear": 2025,
+    "price": 49.99,
+    "msrp": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "UL94 V-0 flame-retardant plastic",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "Six individually switched outlets plus three always-on USB-A ports",
+      "Per-outlet energy monitoring with cost estimation",
+      "Matter certified — the Kasa HS300 it replaces is not",
+      "Type 3 SPD surge protection with overcurrent cut-off",
+      "37-inch cord with a flush right-angle plug"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,875W total at 125V, shared across all six outlets",
+      "motorLoadRating": "Not published by TP-Link",
+      "energyMonitoring": "Yes, measured per outlet — watts, kWh and estimated cost in the Tapo app",
+      "protocol": "Matter over Wi-Fi (2.4GHz)",
+      "hubRequired": "No for the Tapo app; a Matter controller is required for Apple/Google/SmartThings",
+      "localControl": "Yes — Matter control is local once commissioned",
+      "switchedOutlets": 6,
+      "packSize": 1,
+      "pricePerOutlet": 8.33,
+      "dimensions": "360 x 63.3 x 37.5 mm (14.17 x 2.49 x 1.48 in), 1.55 lb",
+      "outletBlocking": "Not applicable — 37-inch cord, occupies one wall socket",
+      "weatherRating": "Indoor only"
+    },
+    "scores": {
+      "loadHeadroom": 6.0,
+      "energyMonitoring": 9.0,
+      "ecosystem": 9.0,
+      "localControl": 8.5,
+      "formFactor": 5.0,
+      "buildSafety": 8.5,
+      "appAutomation": 8.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Per-outlet metering is the cheapest honest way to find out what each device on a desk actually draws",
+      "Six switched outlets at $8.33 each undercuts buying six individual metered plugs",
+      "Matter certified, so it can be shared across Apple, Google, Alexa and SmartThings — TP-Link's own HS300 cannot",
+      "Surge protection and overcurrent cut-off built in"
+    ],
+    "cons": [
+      "1,875W is the budget for all six outlets combined, so one space heater consumes most of the strip",
+      "TP-Link publishes the Type 3 SPD voltage clamps but no joule rating, which is the number surge buyers actually compare",
+      "Retail pricing is inconsistent — $49.99 at B&H against $59.99 at Best Buy for the same SKU",
+      "14 inches long and 1.5 lb; it is a strip, not something to hide behind furniture"
+    ],
+    "images": [],
+    "amazonAsin": "B0F5LNYTR7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-kp125m-4-pack",
+      "kasa-ep40m-outdoor",
+      "emporia-smart-plug",
+      "eve-energy-matter"
+    ],
+    "useCases": [
+      "power-strip",
+      "energy-monitoring",
+      "matter"
+    ],
+    "shortTagline": "Six metered, individually switched outlets — and one shared 1,875W budget."
+  },
+  {
+    "id": "sp-amazon-smart-plug",
+    "categorySlug": "smart-plugs",
+    "brand": "Amazon",
+    "series": "Smart Plug",
+    "model": "Amazon Smart Plug (V2)",
+    "slug": "amazon-smart-plug",
+    "releaseYear": 2020,
+    "price": 24.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Alexa cloud"
+    ],
+    "features": [
+      "Simple Setup — an Echo in the house configures it with no app steps",
+      "Compact shape that keeps the second duplex socket free",
+      "Alexa routines, schedules and Hunches",
+      "Sold and supported by Amazon with a 1-year limited warranty"
+    ],
+    "specs": {
+      "maxLoad": "15A (Home Depot spec sheet). Amazon does not publish a maximum wattage figure",
+      "motorLoadRating": "Not published by Amazon",
+      "energyMonitoring": "No — no measurement and no estimate",
+      "protocol": "Wi-Fi 2.4GHz, Alexa only. No Matter, no HomeKit, no Google Assistant",
+      "hubRequired": "No, but it is useless without an Alexa account",
+      "localControl": "No — there is no local API and no third-party app; control depends on Amazon's cloud",
+      "switchedOutlets": 1,
+      "packSize": 1,
+      "pricePerOutlet": 24.99,
+      "dimensions": "2.2 in high x 1.5 in wide (Home Depot); 3.2 x 1.5 x 2.2 in overall per TechRadar",
+      "outletBlocking": "No — designed to leave the second outlet free",
+      "weatherRating": "Indoor only"
+    },
+    "scores": {
+      "loadHeadroom": 4.0,
+      "energyMonitoring": 0.0,
+      "ecosystem": 3.0,
+      "localControl": 2.0,
+      "formFactor": 8.0,
+      "buildSafety": 7.5,
+      "appAutomation": 5.0,
+      "value": 3.5
+    },
+    "pros": [
+      "Genuinely the fastest setup in the category — plug it in near an Echo and it appears",
+      "Amazon supports it directly, and it never drops off Alexa the way third-party clouds sometimes do",
+      "Small enough to leave the other half of the duplex usable"
+    ],
+    "cons": [
+      "$24.99 for one plug, when four Kasa EP25s with energy monitoring cost about $33",
+      "Alexa only — no HomeKit, no Google, no Matter, no SmartThings, and no way to add them later",
+      "No energy monitoring of any kind",
+      "Cloud-dependent: an internet outage takes the app, the schedules and the voice control with it",
+      "Amazon publishes no wattage or motor rating, so the real limit is only inferable from the 15A figure"
+    ],
+    "images": [],
+    "amazonAsin": "B089DR29T6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-ep25-4-pack",
+      "kasa-kp125m-4-pack",
+      "switchbot-plug-mini-4-pack",
+      "meross-mss315-4-pack"
+    ],
+    "useCases": [
+      "indoor-mini"
+    ],
+    "shortTagline": "The easiest plug to set up and the worst value on this page."
+  },
+  {
+    "id": "sp-meross-mss315-4-pack",
+    "categorySlug": "smart-plugs",
+    "brand": "Meross",
+    "series": "Matter Smart Plug",
+    "model": "Meross Matter Smart Plug with Energy Monitor MSS315 (4-Pack)",
+    "slug": "meross-mss315-4-pack",
+    "releaseYear": 2023,
+    "price": 52.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Flame-retardant polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "Matter multi-admin across Apple Home, Alexa, Google and SmartThings",
+      "Real-time and historical power metering in the Meross app",
+      "Narrow body that clears the adjacent socket",
+      "Works with Home Assistant via a community integration",
+      "Setup either through Matter directly or the Meross app"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,800W at 120V",
+      "motorLoadRating": "Not published by Meross",
+      "energyMonitoring": "Yes, measured — real-time watts plus history, in the Meross app",
+      "protocol": "Matter over Wi-Fi (2.4GHz); Meross states an IPv6-capable network is required",
+      "hubRequired": "Yes for Matter — Meross's own store page states 'A Matter-Compatible hub is required'",
+      "localControl": "Matter on/off is local after commissioning; Meross app features run through Meross's cloud",
+      "switchedOutlets": 1,
+      "packSize": 4,
+      "pricePerOutlet": 13.25,
+      "dimensions": "2.7 x 1.5 x 1.5 in excluding pins",
+      "outletBlocking": "No — independently confirmed to leave the neighbouring outlet clear",
+      "weatherRating": "Indoor only"
+    },
+    "scores": {
+      "loadHeadroom": 5.0,
+      "energyMonitoring": 8.0,
+      "ecosystem": 8.5,
+      "localControl": 7.5,
+      "formFactor": 8.5,
+      "buildSafety": 7.5,
+      "appAutomation": 7.5,
+      "value": 6.5
+    },
+    "pros": [
+      "One of the few Matter plugs that meters power and is sold in a four-pack",
+      "Physically the least intrusive of the metered Matter plugs — it genuinely does not block the second socket",
+      "Matter multi-admin, so it can sit in Apple Home and Alexa at the same time",
+      "Popular with Home Assistant users thanks to an active community integration"
+    ],
+    "cons": [
+      "$13.25 a plug at Meross's own store price — 60% more than a Kasa EP25 for the same job plus Matter",
+      "Meross explicitly requires a Matter-compatible hub and an IPv6-capable network; a bare phone will not do",
+      "No published motor or HP rating, so inductive loads are unspecified",
+      "1-year warranty against TP-Link's two",
+      "Amazon four-pack pricing moves independently of the Meross store price, so per-unit maths depends on where you buy"
+    ],
+    "images": [],
+    "amazonAsin": "B0CJFJG124",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-kp125m-4-pack",
+      "eve-energy-matter",
+      "switchbot-plug-mini-4-pack",
+      "emporia-smart-plug"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring",
+      "matter"
+    ],
+    "shortTagline": "Matter plus real metering in a four-pack — at a price the Kasa undercuts badly."
+  },
+  {
+    "id": "sp-emporia-smart-plug",
+    "categorySlug": "smart-plugs",
+    "brand": "Emporia",
+    "series": "Smart Plug",
+    "model": "Emporia Energy Monitoring Smart Plug (1-Pack)",
+    "slug": "emporia-smart-plug",
+    "releaseYear": 2022,
+    "price": 11.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Emporia cloud"
+    ],
+    "features": [
+      "Built around metering rather than switching — it feeds the Emporia Vue energy dashboard",
+      "Real-time watts plus historical kWh per device",
+      "Pairs with Emporia's whole-home Vue monitor for circuit-level reconciliation",
+      "4-pack sold direct at $34.99, the cheapest per-plug metering here"
+    ],
+    "specs": {
+      "maxLoad": "Sources conflict: Emporia's store lists 10A max continuous, 15A peak for up to one hour a day, and separately '1800W @ 120V'. 10A continuous is 1,200W",
+      "motorLoadRating": "Not published. Emporia explicitly advises against refrigerators, freezers, medical equipment, pet heat lamps and pumps, and networking gear",
+      "energyMonitoring": "Yes, measured — this is the product's entire purpose",
+      "protocol": "Wi-Fi 2.4GHz to the Emporia cloud. No Matter, no HomeKit, no Zigbee",
+      "hubRequired": "No",
+      "localControl": "No documented local API; the app and schedules depend on Emporia's cloud",
+      "switchedOutlets": 1,
+      "packSize": 1,
+      "pricePerOutlet": 11.99,
+      "dimensions": "Not published by Emporia",
+      "outletBlocking": "Not published by Emporia",
+      "weatherRating": "Indoor only"
+    },
+    "scores": {
+      "loadHeadroom": 2.0,
+      "energyMonitoring": 9.5,
+      "ecosystem": 4.0,
+      "localControl": 2.5,
+      "formFactor": 6.0,
+      "buildSafety": 4.0,
+      "appAutomation": 7.0,
+      "value": 8.5
+    },
+    "pros": [
+      "The metering is the product, and it slots straight into Emporia's whole-home energy dashboard",
+      "$11.99 single or $34.99 for four direct from Emporia — the cheapest per-plug metering in the category",
+      "Emporia is unusually honest about its limits, publishing a continuous rating and a do-not-use list"
+    ],
+    "cons": [
+      "10A continuous, not 15A — the 15A figure is a peak good for one hour a day, so the real ceiling is about 1,200W",
+      "Emporia's own store tells you not to plug in a fridge, freezer, pump, heat lamp or router",
+      "Roughly 80,000 North America Smart Plugs sold July 2022 to May 2023 were recalled by CPSC in September 2023 for inadequate grounding (electric shock hazard); check what you receive",
+      "Alexa and Google only — no HomeKit, no Matter, no local control, no Home Assistant path",
+      "Emporia publishes no dimensions, so you cannot tell in advance whether it blocks the second socket"
+    ],
+    "images": [],
+    "amazonAsin": "B0CLXJ9KJ6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "switchbot-plug-mini-4-pack",
+      "kasa-ep25-4-pack",
+      "kasa-kp125m-4-pack",
+      "zooz-zen15-power-switch"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring"
+    ],
+    "shortTagline": "A watt-meter first and a smart plug second — and it is only a 10A device."
+  },
+  {
+    "id": "sp-switchbot-plug-mini-4-pack",
+    "categorySlug": "smart-plugs",
+    "brand": "SwitchBot",
+    "series": "Plug Mini",
+    "model": "SwitchBot Plug Mini W1901400 (4-Pack)",
+    "slug": "switchbot-plug-mini-4-pack",
+    "releaseYear": 2022,
+    "price": 29.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth LE"
+    ],
+    "features": [
+      "Wi-Fi and Bluetooth LE in one plug — Bluetooth keeps working in range with the internet down",
+      "Energy monitoring with exportable data",
+      "Doubles as a Bluetooth relay for other SwitchBot devices",
+      "Widely flashed with ESPHome and Tasmota by the DIY crowd",
+      "$7.50 a plug in the 4-pack direct from SwitchBot"
+    ],
+    "specs": {
+      "maxLoad": "15A resistive / 1,875W at 100-125V",
+      "motorLoadRating": "Not published by SwitchBot",
+      "energyMonitoring": "Yes, measured — consumption tracking with CSV export in the SwitchBot app",
+      "protocol": "Wi-Fi 2.4GHz plus Bluetooth LE. No Matter and no HomeKit on this SKU",
+      "hubRequired": "No for the SwitchBot app. HomeKit needs the separate 'HomeKit Enabled' Plug Mini; Matter needs a SwitchBot Hub Mini (Matter)",
+      "localControl": "Partial — Bluetooth control works in range without internet; remote control and voice go through SwitchBot's cloud",
+      "switchedOutlets": 1,
+      "packSize": 4,
+      "pricePerOutlet": 7.5,
+      "dimensions": "70 x 39 x 59 mm (2.8 x 1.6 x 2.4 in), 70 g each",
+      "outletBlocking": "Borderline — at 2.4 in tall it is noticeably chunkier than a Kasa or Tapo mini",
+      "weatherRating": "Indoor only, 5°F to 104°F"
+    },
+    "scores": {
+      "loadHeadroom": 5.0,
+      "energyMonitoring": 7.5,
+      "ecosystem": 5.5,
+      "localControl": 5.0,
+      "formFactor": 6.5,
+      "buildSafety": 7.0,
+      "appAutomation": 7.5,
+      "value": 9.0
+    },
+    "pros": [
+      "$7.50 a plug with metering — the lowest per-plug price here",
+      "Bluetooth LE fallback means it still switches from your phone when the Wi-Fi or internet is down",
+      "Rated to 5°F, so it tolerates an unheated garage better than most indoor plugs",
+      "One of the friendliest plugs to ESPHome/Tasmota reflashing if you want it fully local"
+    ],
+    "cons": [
+      "This SKU has no HomeKit — SwitchBot sells a separate, dearer 'HomeKit Enabled' Plug Mini and buyers routinely order the wrong one",
+      "No Matter without buying a SwitchBot Hub Mini on top",
+      "2.4 in tall body crowds the second socket on a duplex receptacle",
+      "15A is a resistive rating only; SwitchBot publishes no motor or HP figure",
+      "Remote control and Alexa/Google both depend on SwitchBot's cloud"
+    ],
+    "images": [],
+    "amazonAsin": "B0B4XBXN17",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "emporia-smart-plug",
+      "kasa-ep25-4-pack",
+      "aqara-smart-plug",
+      "meross-mss315-4-pack"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring"
+    ],
+    "shortTagline": "The cheapest metered plug per unit — but the HomeKit version is a different product."
+  },
+  {
+    "id": "sp-aqara-smart-plug",
+    "categorySlug": "smart-plugs",
+    "brand": "Aqara",
+    "series": "Smart Plug",
+    "model": "Aqara Smart Plug (US, ZNCZ12LM)",
+    "slug": "aqara-smart-plug",
+    "releaseYear": 2018,
+    "price": 29.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "V0-grade flame-resistant plastic",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Zigbee 3.0"
+    ],
+    "features": [
+      "Zigbee 3.0 — no Wi-Fi congestion, and it repeats the mesh for other Aqara devices",
+      "Energy monitoring with daily and monthly consumption history",
+      "Overload and overheat cut-off built in",
+      "HomeKit, Alexa and Google exposure through the Aqara hub",
+      "Local execution: Zigbee automations run on the hub, not in a cloud"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,875W at 100-125V",
+      "motorLoadRating": "Not published by Aqara",
+      "energyMonitoring": "Yes, measured — daily and monthly kWh in the Aqara Home app",
+      "protocol": "Zigbee 3.0 only; no Wi-Fi radio, no Matter radio",
+      "hubRequired": "Yes — an Aqara Zigbee hub is mandatory and is not included. Amazon's own listing title reads 'REQUIRES AQARA HUB'",
+      "localControl": "Yes — Zigbee automations execute on the hub and survive an internet outage",
+      "switchedOutlets": 1,
+      "packSize": 1,
+      "pricePerOutlet": 29.99,
+      "dimensions": "67 x 47 x 35 mm (2.64 x 1.85 x 1.38 in), 86 g",
+      "outletBlocking": "Squat but wide at 47 mm — tighter than a Kasa mini on a horizontal duplex",
+      "weatherRating": "Indoor only, 14°F to 104°F"
+    },
+    "scores": {
+      "loadHeadroom": 6.0,
+      "energyMonitoring": 7.5,
+      "ecosystem": 6.5,
+      "localControl": 8.5,
+      "formFactor": 7.0,
+      "buildSafety": 8.0,
+      "appAutomation": 8.0,
+      "value": 5.5
+    },
+    "pros": [
+      "Zigbee keeps it off your Wi-Fi entirely, and it acts as a mesh repeater for Aqara sensors",
+      "Automations execute on the hub, so they keep running through an internet outage",
+      "Full 1,875W rating with hardware overload and overheat cut-off",
+      "Genuinely useful if you already run Aqara sensors — the plug becomes the range extender"
+    ],
+    "cons": [
+      "The hub is mandatory and not in the box; the real entry price is the plug plus an Aqara hub",
+      "$29.99 for one plug makes it the second-most expensive per-outlet option here",
+      "Aqara publishes no motor or HP rating",
+      "A 2018 design; Aqara's newer Matter-era hardware has moved on and this SKU has not",
+      "47 mm wide body is awkward on a horizontal duplex receptacle"
+    ],
+    "images": [],
+    "amazonAsin": "B07CJ2MM6Z",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eve-energy-matter",
+      "switchbot-plug-mini-4-pack",
+      "meross-mss315-4-pack",
+      "zooz-zen15-power-switch"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring"
+    ],
+    "shortTagline": "Great Zigbee citizen, but only if you already own — or will buy — an Aqara hub."
+  },
+  {
+    "id": "sp-eve-energy-matter",
+    "categorySlug": "smart-plugs",
+    "brand": "Eve",
+    "series": "Energy",
+    "model": "Eve Energy (Matter, US)",
+    "slug": "eve-energy-matter",
+    "releaseYear": 2023,
+    "price": 39.95,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Thread",
+      "Matter over Thread"
+    ],
+    "features": [
+      "Matter over Thread — no Wi-Fi radio and no cloud account of any kind",
+      "Full Thread Device: it routes for other Thread devices rather than just consuming the mesh",
+      "Energy measurement stored and processed locally",
+      "On-device button with green status LED",
+      "Works with Apple Home, SmartThings, Alexa, Google Home and Home Assistant"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,800W at 120V, 60Hz (NEMA 5-15)",
+      "motorLoadRating": "Not published by Eve",
+      "energyMonitoring": "Yes, measured and processed locally — no Eve account, no Eve cloud, no registration",
+      "protocol": "Matter over Thread. There is no Wi-Fi radio in this device",
+      "hubRequired": "Yes — a controller that is both a Matter controller and a Thread border router (HomePod mini, Apple TV 4K, Echo 4th gen, Nest Hub 2nd gen, SmartThings hub). None is included",
+      "localControl": "Yes — the most local device here; nothing leaves the house",
+      "switchedOutlets": 1,
+      "packSize": 1,
+      "pricePerOutlet": 39.95,
+      "dimensions": "70 x 39 x 60 mm (2.8 x 1.5 x 2.4 in)",
+      "outletBlocking": "Chunky — at 60 mm deep and 70 mm tall it is the largest indoor plug here and Eve makes no claim that it leaves the second socket free",
+      "weatherRating": "Indoor only"
+    },
+    "scores": {
+      "loadHeadroom": 5.0,
+      "energyMonitoring": 8.5,
+      "ecosystem": 8.5,
+      "localControl": 9.5,
+      "formFactor": 6.0,
+      "buildSafety": 8.0,
+      "appAutomation": 8.0,
+      "value": 5.0
+    },
+    "pros": [
+      "The only genuinely cloud-free plug here — no account, no registration, no telemetry, and the energy history lives on the device",
+      "Thread is far more responsive than Wi-Fi plugs and does not add another device to your router's DHCP table",
+      "Acts as a Thread router, so each one you add strengthens the mesh for locks and sensors",
+      "TÜV and UL certified"
+    ],
+    "cons": [
+      "$39.95 for one plug — five times the per-plug cost of a SwitchBot 4-pack",
+      "Useless without a Thread border router; a phone alone cannot commission or control it",
+      "Physically the biggest indoor plug in this comparison at 70 x 39 x 60 mm",
+      "No motor or HP rating published, so inductive loads are unspecified",
+      "1-year warranty at a flagship price"
+    ],
+    "images": [],
+    "amazonAsin": "B0BZBGD87V",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-kp125m-4-pack",
+      "meross-mss315-4-pack",
+      "aqara-smart-plug",
+      "kasa-ep25-4-pack"
+    ],
+    "useCases": [
+      "indoor-mini",
+      "energy-monitoring",
+      "matter"
+    ],
+    "shortTagline": "The most private, most local plug here — and by far the most expensive per outlet."
+  },
+  {
+    "id": "sp-wyze-plug-outdoor",
+    "categorySlug": "smart-plugs",
+    "brand": "Wyze",
+    "series": "Plug",
+    "model": "Wyze Plug Outdoor (WLPPO1-1)",
+    "slug": "wyze-plug-outdoor",
+    "releaseYear": 2021,
+    "price": 29.98,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth 4.2 (setup only)"
+    ],
+    "features": [
+      "Two independently switched outdoor outlets",
+      "Energy monitoring with usage history — rare on an outdoor plug",
+      "IP64 body rated -4°F to 120°F",
+      "Sunset/sunrise scheduling for holiday lighting",
+      "18-month extended warranty when bought direct from Wyze"
+    ],
+    "specs": {
+      "maxLoad": "15A max total with overload protection. Wyze does not publish a wattage figure",
+      "motorLoadRating": "1/2 HP max",
+      "energyMonitoring": "Yes, measured — usage history per outlet in the Wyze app",
+      "protocol": "Wi-Fi 2.4GHz with Bluetooth 4.2 for setup. No Matter, no HomeKit, no SmartThings",
+      "hubRequired": "No",
+      "localControl": "Limited — app control, schedules and voice all route through Wyze's cloud",
+      "switchedOutlets": 2,
+      "packSize": 1,
+      "pricePerOutlet": 14.99,
+      "dimensions": "4.0 x 2.8 x 1.4 in, 7.2 oz",
+      "outletBlocking": "Not applicable — outdoor unit",
+      "weatherRating": "IP64, ETL certified, -4°F to 120°F. IP64 describes the sealed body; Wyze publishes no rating for the socket once a cord is inserted"
+    },
+    "scores": {
+      "loadHeadroom": 7.0,
+      "energyMonitoring": 7.0,
+      "ecosystem": 4.5,
+      "localControl": 3.0,
+      "formFactor": 6.0,
+      "buildSafety": 7.0,
+      "appAutomation": 7.0,
+      "value": 6.5
+    },
+    "pros": [
+      "One of very few outdoor plugs that actually meters power — the Kasa EP40M does not",
+      "1/2 HP motor rating and a -4°F floor make it usable for pumps and winter lighting",
+      "Two separately scheduled outlets for $14.99 each",
+      "Amazon regularly discounts it well below Wyze's own $29.98 list"
+    ],
+    "cons": [
+      "Everything runs through Wyze's cloud; there is no local API and no Home Assistant support without reflashing",
+      "No Matter, no HomeKit, no SmartThings — Alexa, Google and the Wyze app only",
+      "15A is the combined budget for both outlets, not each",
+      "IP64 is splash protection; the sockets must face down and the rating says nothing about a cord in the socket",
+      "1-year warranty unless you buy direct from Wyze for 18 months"
+    ],
+    "images": [],
+    "amazonAsin": "B08NXY7WWX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-ep40m-outdoor",
+      "emporia-smart-plug",
+      "amazon-smart-plug",
+      "switchbot-plug-mini-4-pack"
+    ],
+    "useCases": [
+      "outdoor",
+      "energy-monitoring"
+    ],
+    "shortTagline": "The outdoor plug that meters power — at the cost of being fully cloud-dependent."
+  },
+  {
+    "id": "sp-zooz-zen15-power-switch",
+    "categorySlug": "smart-plugs",
+    "brand": "Zooz",
+    "series": "ZEN Series",
+    "model": "Zooz ZEN15 Power Switch (800LR revision)",
+    "slug": "zooz-zen15-power-switch",
+    "releaseYear": 2017,
+    "price": 37.95,
+    "msrp": 48.95,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate with a flat angled plug and flexible cord",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Z-Wave 800 series",
+      "Z-Wave Long Range"
+    ],
+    "features": [
+      "Built for inrush current from motors and compressors, not for lamps",
+      "Reports watts, amps, volts and kWh with configurable thresholds",
+      "Hardware overload cut-off at 16.5A sustained for 5 seconds",
+      "Z-Wave Long Range up to 1,300 ft with a supporting hub",
+      "Cord-mounted, so it never blocks a second receptacle"
+    ],
+    "specs": {
+      "maxLoad": "15A / 1,800W at 120V, single device only — the manual forbids plugging a power strip into it",
+      "motorLoadRating": "1 HP — six times the Kasa EP25's 1/6 HP and the highest here",
+      "energyMonitoring": "Yes, measured — W, A, V and kWh with per-parameter reporting intervals (defaults 30s power, 300s energy/voltage/current)",
+      "protocol": "Z-Wave 800 series with Z-Wave Long Range, S2 security and SmartStart",
+      "hubRequired": "Yes — a Z-Wave gateway (Hubitat, Home Assistant with a Z-Wave stick, SmartThings, Ring) is required and is not included",
+      "localControl": "Yes — Z-Wave is local by design; behaviour depends on your hub, not a vendor cloud",
+      "switchedOutlets": 1,
+      "packSize": 1,
+      "pricePerOutlet": 37.95,
+      "dimensions": "20 in including the cord x 2.6 x 1.1 in, 10 oz",
+      "outletBlocking": "No — it hangs off a cord rather than sitting in the receptacle",
+      "weatherRating": "Indoor only, 32-104°F"
+    },
+    "scores": {
+      "loadHeadroom": 9.5,
+      "energyMonitoring": 9.5,
+      "ecosystem": 5.0,
+      "localControl": 9.5,
+      "formFactor": 7.0,
+      "buildSafety": 9.0,
+      "appAutomation": 8.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The only plug here designed for inductive loads — 1 HP against 1/6 HP on a Kasa mini",
+      "Hardware overload protection cuts the relay at 16.5A sustained, independent of any hub",
+      "Four measured quantities (W, A, V, kWh) with tunable reporting thresholds — the richest metering in this table",
+      "Fully local Z-Wave with S2 security; no vendor cloud is in the path at all",
+      "Cord-mounted design frees both receptacles"
+    ],
+    "cons": [
+      "Sources conflict on what it is for: retailers market it for 110V AC units and sump pumps, while the 800LR manual's safety list prohibits electric heaters, 220V boilers, 220V pumps/compressors and electrical dryers",
+      "Needs a Z-Wave hub — the most expensive prerequisite in this comparison",
+      "Amazon's single long-running ZEN15 listing has carried both the 500-series and the 800LR revision; buy from a Zooz dealer if you specifically need Long Range",
+      "One device only — the manual explicitly forbids connecting a power strip",
+      "$37.95 for a single outlet, with a 1-year warranty"
+    ],
+    "images": [],
+    "amazonAsin": "B07578W7KY",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kasa-ep40m-outdoor",
+      "aqara-smart-plug",
+      "emporia-smart-plug",
+      "tapo-p316m-power-strip"
+    ],
+    "useCases": [
+      "heavy-appliance",
+      "energy-monitoring"
+    ],
+    "shortTagline": "The one to buy for a sump pump or dehumidifier — and it needs a Z-Wave hub."
+  }
+]

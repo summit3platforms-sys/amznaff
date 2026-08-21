@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "sc-ring-outdoor-cam-plus",
+    "categorySlug": "security-cameras",
+    "brand": "Ring",
+    "series": "Outdoor Cam",
+    "model": "Ring Outdoor Cam Plus, Battery (2025)",
+    "slug": "ring-outdoor-cam-plus",
+    "releaseYear": 2025,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Polycarbonate housing (Ring does not publish a material spec)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Wi-Fi 6 (802.11ax)",
+      "Alexa"
+    ],
+    "features": [
+      "Same camera body sells in Battery, Plug-In, Solar, hardwired and PoE versions",
+      "Quick Release Battery Pack swaps without unmounting the camera",
+      "Low-Light Sight full-colour night view instead of grey infrared",
+      "Dual-band Wi-Fi 6 — rare at $100 and rarer still inside Ring's own range",
+      "Slots straight into an existing Ring/Alexa household with no new app"
+    ],
+    "specs": {
+      "maxResolution": "2K, which Ring brands 'Retinal 2K'. Ring publishes the pixel count for the Indoor Cam Plus (2560x1440) but not on the Outdoor Cam Plus spec sheet",
+      "topResolutionFrameRate": "Not published by Ring",
+      "fieldOfView": "160 degrees diagonal, 140 horizontal, 80 vertical",
+      "powerSource": "Quick Release Battery Pack. Plug-In, Solar, hardwired and PoE versions of the same camera are sold at different prices; the PoE adapter alone is $29.99 and the solar panels $39.99-$59.99",
+      "batteryLifeClaim": "Not published by Ring. Ring states only that its batteries are 'designed to go months between charges under normal conditions'",
+      "nightVision": "Colour night vision (Ring 'Low-Light Sight') plus infrared",
+      "weatherRating": "Weather-resistant for outdoor use; Ring does not publish an IP rating for this model",
+      "wifiBands": "Dual-band 2.4GHz and 5GHz, Wi-Fi 6 (802.11ax)",
+      "localStorage": "None in the camera. Ring Edge local storage needs a Ring Alarm Pro base station and the top Ring Pro plan at $19.99/mo",
+      "noSubscriptionBehaviour": "Live view, two-way talk and motion notifications. Nothing is recorded or saved, ever",
+      "cheapestPlanMonthly": 4.99,
+      "rtspOnvif": "No RTSP, no ONVIF, no third-party NVR support"
+    },
+    "scores": {
+      "videoQuality": 7.5,
+      "nightVision": 7.0,
+      "subscriptionFreedom": 2.0,
+      "localStorage": 1.0,
+      "powerAndBattery": 7.0,
+      "installation": 9.0,
+      "openness": 3.5,
+      "value": 7.0
+    },
+    "pros": [
+      "$99.99 buys genuine dual-band Wi-Fi 6 — the eufy kit at four times the price is 2.4GHz only",
+      "One camera body, five power options, so you can start on battery and move to PoE without rebuying",
+      "Full-colour Low-Light Sight rather than the grey infrared Blink still ships at a similar price",
+      "Easiest install and the most polished app of anything here"
+    ],
+    "cons": [
+      "With no plan it records nothing at all — live view and a push notification is the entire free tier",
+      "Ring publishes no battery-life figure for this camera, only that batteries last 'months'",
+      "Local storage exists only as Ring Edge, which needs a Ring Alarm Pro base station AND the $19.99/mo Pro plan",
+      "No RTSP, no ONVIF, no NVR: the camera is worth nothing outside the Ring app",
+      "Ring renamed every plan on 14 January 2026 (Basic became Solo, Standard became Multi), so older price comparisons no longer line up"
+    ],
+    "images": [],
+    "amazonAsin": "B0D241GHP5",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "blink-outdoor-2k-plus",
+      "arlo-pro-6",
+      "nest-cam-indoor-3rd-gen",
+      "eufycam-s3-pro"
+    ],
+    "useCases": [
+      "indoor",
+      "battery-powered",
+      "solar-ready"
+    ],
+    "shortTagline": "The easiest $100 camera to live with — and it saves nothing without a plan."
+  },
+  {
+    "id": "sc-nest-cam-indoor-3rd-gen",
+    "categorySlug": "security-cameras",
+    "brand": "Google",
+    "series": "Nest Cam",
+    "model": "Google Nest Cam Indoor, Wired (3rd Gen, GA09973-US)",
+    "slug": "nest-cam-indoor-3rd-gen",
+    "releaseYear": 2025,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Snow",
+      "Hazel",
+      "Berry"
+    ],
+    "material": "Polycarbonate with a fabric-look base (Google does not publish a material spec)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (Google does not publish the supported bands on the US store listing)",
+      "Google Home",
+      "Gemini"
+    ],
+    "features": [
+      "2K HDR sensor Google says takes in 120% more light than the 2nd-gen Nest Cam",
+      "Gemini-powered natural-language search across your event history",
+      "Free tier doubled from 3 to 6 hours versus the older Nest cameras",
+      "Removable magnetic lens cover and a physical mic disable",
+      "Ranked #1 for image quality among 2026 indoor cameras by DXOMARK, per Google's listing"
+    ],
+    "specs": {
+      "maxResolution": "2K HDR (2560x1440)",
+      "topResolutionFrameRate": "Not published by Google",
+      "fieldOfView": "152 degrees diagonal",
+      "powerSource": "Wired only — USB-C indoor power adapter. Google notes a cable is needed for 24/7 recording",
+      "batteryLifeClaim": "Not applicable — mains powered only",
+      "nightVision": "Colour low-light imaging; Google claims 120% more light sensitivity than the 2nd gen",
+      "weatherRating": "Indoor only",
+      "wifiBands": "Not published on the US store listing",
+      "localStorage": "None. No Nest camera has ever had a microSD slot, a hub, or a NAS path",
+      "noSubscriptionBehaviour": "Live view, alerts, two-way talk, and up to 6 hours of Event Video Previews — 10-second clips, not full event recordings",
+      "cheapestPlanMonthly": 10.0,
+      "rtspOnvif": "No RTSP, no ONVIF, no NVR support"
+    },
+    "scores": {
+      "videoQuality": 8.5,
+      "nightVision": 8.0,
+      "subscriptionFreedom": 2.5,
+      "localStorage": 0.5,
+      "powerAndBattery": 4.5,
+      "installation": 8.5,
+      "openness": 4.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The best-looking daylight image of any $100 indoor camera here, and it holds colour far lower into dusk",
+      "Free tier is genuinely better than Ring's or Arlo's — 6 hours of event previews beats nothing at all",
+      "Gemini search across history is the only AI feature in this set that changes how you use the app",
+      "Google's 24/7 continuous recording (Advanced plan) is a real capability Ring only sells as a $3/mo add-on"
+    ],
+    "cons": [
+      "Those free 6 hours are 'Event Video Previews' — 10-second clips, not the event recordings Google's older 3-hour free tier gave",
+      "Zero local storage. No card, no hub, no NAS, no offline fallback of any kind",
+      "Nest Aware became Google Home Premium in 2025 and the useful tier (Advanced, 60-day history plus 24/7) is $20/mo",
+      "Google does not publish the Wi-Fi bands, the frame rate, or the bitrate anywhere on the US listing",
+      "Indoor only — the outdoor 2nd-gen wired version is a separate $149.99 purchase"
+    ],
+    "images": [],
+    "amazonAsin": "B0FN7DLWGF",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-outdoor-cam-plus",
+      "wyze-cam-v4",
+      "tapo-c120",
+      "aqara-camera-hub-g5-pro"
+    ],
+    "useCases": [
+      "indoor",
+      "wired-power"
+    ],
+    "shortTagline": "Best picture at $100 indoors, and the only camera here with no local storage at all."
+  },
+  {
+    "id": "sc-arlo-pro-6",
+    "categorySlug": "security-cameras",
+    "brand": "Arlo",
+    "series": "Arlo Pro",
+    "model": "Arlo Pro Security Camera 2K HDR, 6th Gen (VMC4070P)",
+    "slug": "arlo-pro-6",
+    "releaseYear": 2025,
+    "price": 124.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Polycarbonate (Arlo does not publish a material spec)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Alexa",
+      "Google Home",
+      "SmartThings",
+      "IFTTT"
+    ],
+    "features": [
+      "Connects straight to your router — no SmartHub required, unlike the Ultra line",
+      "USB-C charging replaces the Ultra 2 era magnetic puck",
+      "Swappable battery so the camera never comes off the wall to charge",
+      "Integrated spotlight drives full-colour night video",
+      "Arlo Intelligence AI detection and the Early Warning System alerting layer"
+    ],
+    "specs": {
+      "maxResolution": "2K HDR (2560x1440)",
+      "topResolutionFrameRate": "Not published by Arlo",
+      "fieldOfView": "160 degrees",
+      "powerSource": "Swappable rechargeable battery, USB-C charging. Arlo's solar panel charger is a separate $49.99 accessory",
+      "batteryLifeClaim": "Up to 8 months (Arlo). Arlo publishes no events-per-day assumption behind the figure, and states only that the 6th-gen cell lasts 15% longer than the Pro 5",
+      "nightVision": "Colour night vision driven by the built-in spotlight, with IR black-and-white as the fallback",
+      "weatherRating": "Weather-resistant, indoor or outdoor; Arlo does not publish an IP rating on the US product page",
+      "wifiBands": "Dual-band 2.4GHz and 5GHz straight to the router — no hub needed",
+      "localStorage": "Only through an Arlo SmartHub (sold separately) with a microSD card you also supply. Nothing records to the camera",
+      "noSubscriptionBehaviour": "Live view and motion notifications. No cloud clip is ever saved",
+      "cheapestPlanMonthly": 9.99,
+      "rtspOnvif": "No RTSP, no ONVIF, no third-party NVR support"
+    },
+    "scores": {
+      "videoQuality": 8.0,
+      "nightVision": 7.5,
+      "subscriptionFreedom": 1.5,
+      "localStorage": 3.0,
+      "powerAndBattery": 8.5,
+      "installation": 8.5,
+      "openness": 4.0,
+      "value": 7.5
+    },
+    "pros": [
+      "8-month battery claim is the longest rechargeable figure here outside eufy's solar cameras",
+      "No SmartHub required, which is exactly what separates it from the Ultra 3 sitting above it",
+      "Swappable battery plus USB-C means no ladder trip and no proprietary charging puck",
+      "160-degree view and 2K HDR make it the sharpest sub-$150 battery camera in this set"
+    ],
+    "cons": [
+      "Arlo's free tier is the harshest in the category: live view and a notification, and that is all — no recording whatsoever",
+      "Local storage needs a SmartHub you buy separately plus a microSD you also buy separately",
+      "Arlo Secure Plus for one camera is $9.99/mo, and unlimited cameras is $19.99/mo — the most expensive per-household plan here",
+      "No RTSP, no ONVIF: an Arlo is worthless the day Arlo turns the servers off",
+      "Arlo does not publish frame rate, bitrate, IP rating or the usage assumption behind the 8-month battery number"
+    ],
+    "images": [],
+    "amazonAsin": "B0FJTMJRTD",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-outdoor-cam-plus",
+      "arlo-ultra-3",
+      "eufycam-s3-pro",
+      "reolink-argus-4-pro"
+    ],
+    "useCases": [
+      "indoor",
+      "battery-powered",
+      "solar-ready"
+    ],
+    "shortTagline": "Excellent battery camera, brutal subscription: pay nothing and it records nothing."
+  },
+  {
+    "id": "sc-arlo-ultra-3",
+    "categorySlug": "security-cameras",
+    "brand": "Arlo",
+    "series": "Arlo Ultra",
+    "model": "Arlo Ultra Security Camera 4K HDR, 3rd Gen — 2-Cam Kit with SmartHub (VMS5250-100NAS)",
+    "slug": "arlo-ultra-3",
+    "releaseYear": 2025,
+    "price": 349.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Polycarbonate (Arlo does not publish a material spec)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "SmartHub (required)",
+      "Alexa",
+      "Google Home",
+      "SmartThings",
+      "IFTTT"
+    ],
+    "features": [
+      "180-degree diagonal view — the widest single-lens field in this set",
+      "Auto-Zoom and Tracking follows a subject across the frame in 4K",
+      "SmartHub in the box gives local microSD recording and longer range",
+      "12x digital zoom with dual mics, echo cancellation and wind-noise reduction",
+      "USB-C battery and charging, compatible with Arlo XL battery housings"
+    ],
+    "specs": {
+      "maxResolution": "4K (8 megapixel sensor); 2K, 1080p and 720p modes also offered",
+      "topResolutionFrameRate": "Not published by Arlo. Trusted Reviews' testing found the 4K Ultra 3 records at the same bitrate as the 2K Pro 6, so the extra pixels are paid for in compression rather than detail",
+      "fieldOfView": "180 degrees diagonal",
+      "powerSource": "Swappable rechargeable battery, USB-C. Only Arlo-certified USB-C or universal solar panels work; the magnetic-base panels do not",
+      "batteryLifeClaim": "Up to 6 months (Arlo). Trusted Reviews' tester called four months plus more realistic",
+      "nightVision": "Colour night vision driven by the built-in spotlight, with IR black-and-white fallback. Trusted Reviews measured about a second of colour stabilisation after the light fires",
+      "weatherRating": "Weather-resistant, indoor or outdoor; Arlo does not publish an IP rating",
+      "wifiBands": "2.4GHz and 5GHz, but the camera talks to the SmartHub, which Arlo's own FAQ says is required",
+      "localStorage": "SmartHub with a microSD card. The hub is in this 2-camera kit; the microSD card is not, and for a single or add-on camera the hub is not either",
+      "noSubscriptionBehaviour": "Live view and motion notifications only. Arlo's own FAQ confirms cloud storage, interactive notifications and object detection all stop with the trial",
+      "cheapestPlanMonthly": 9.99,
+      "rtspOnvif": "No RTSP, no ONVIF, no third-party NVR support"
+    },
+    "scores": {
+      "videoQuality": 8.5,
+      "nightVision": 7.5,
+      "subscriptionFreedom": 1.5,
+      "localStorage": 4.5,
+      "powerAndBattery": 8.0,
+      "installation": 6.5,
+      "openness": 4.0,
+      "value": 5.0
+    },
+    "pros": [
+      "180-degree field of view genuinely removes the blind spots a 140-degree camera leaves at a corner",
+      "SmartHub is in the box on this kit, so local microSD recording is a card away rather than a $100 accessory away",
+      "Auto-Zoom and Tracking in 4K is the one feature here that no cheaper camera imitates convincingly",
+      "USB-C battery and swappable cells mean the camera stays on the wall for its whole life"
+    ],
+    "cons": [
+      "4K recording and streaming require Arlo's higher Secure Plus tier — on the base plan you get a 4K camera producing 2K files",
+      "Trusted Reviews found the 4K stream runs at the same bitrate as the 2K Pro 6, so 4K here mostly buys compression artefacts",
+      "The SmartHub is mandatory. Buy a single Ultra 3 or an add-on camera and it is inert until you also buy a VMB5000",
+      "The microSD card is never included, on any Ultra 3 SKU",
+      "$349.99 for two cameras before you have paid a cent of subscription, and no plan means no recording"
+    ],
+    "images": [],
+    "amazonAsin": "B0FLLCF2Q6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "arlo-pro-6",
+      "eufycam-s3-pro",
+      "reolink-argus-4-pro",
+      "unifi-g6-instant"
+    ],
+    "useCases": [
+      "battery-powered",
+      "solar-ready"
+    ],
+    "shortTagline": "A 4K camera whose 4K is gated behind the pricier plan, and whose hub is not optional."
+  },
+  {
+    "id": "sc-eufycam-s3-pro",
+    "categorySlug": "security-cameras",
+    "brand": "eufy",
+    "series": "eufyCam",
+    "model": "eufy eufyCam S3 Pro 2-Cam Kit with HomeBase 3 (T8892)",
+    "slug": "eufycam-s3-pro",
+    "releaseYear": 2024,
+    "price": 429.99,
+    "msrp": 549.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate with an integrated solar panel on the camera top",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Apple Home",
+      "Alexa",
+      "Google Assistant",
+      "HomeBase 3 (S380)"
+    ],
+    "features": [
+      "MaxColor Vision gives full-colour night video with the spotlight off",
+      "1/1.8in stacked CMOS behind an f/1.0 lens — the fastest optic in this set",
+      "Solar panel built into the camera, not a $30 bolt-on",
+      "HomeBase 3 takes a 2.5in SATA drive or SSD up to 16TB with no cloud fee",
+      "On-device AI face recognition runs on the hub, not on someone's server"
+    ],
+    "specs": {
+      "maxResolution": "4K (3840x2160)",
+      "topResolutionFrameRate": "Up to 15 fps at 4K, on eufy's own spec sheet",
+      "fieldOfView": "Not published on eufy's US product page for this model",
+      "powerSource": "13,000mAh battery with a solar panel built into the camera. An external panel is a separately sold $29.99 backup for shaded sites",
+      "batteryLifeClaim": "Up to 365 days, and eufy claims one hour of daily direct sun keeps it charged indefinitely. eufy quantifies it: the built-in panel gathers 450-900mAh a day against 100-200mAh of average daily use",
+      "nightVision": "MaxColor Vision — full colour with no spotlight, from the 1/1.8in sensor and f/1.0 aperture. Identifies faces and plates to about 30ft in low light",
+      "weatherRating": "IP67",
+      "wifiBands": "2.4GHz only (802.11b/g/n). No 5GHz anywhere in this $430 kit",
+      "localStorage": "HomeBase 3 with 16GB eMMC built in, expandable to 16TB with a 2.5in SATA drive or SSD you supply. One hub handles up to 16 cameras",
+      "noSubscriptionBehaviour": "Everything. Recording, playback, face recognition and alerts are all local, with no plan at any point",
+      "cheapestPlanMonthly": 0,
+      "rtspOnvif": "No RTSP or ONVIF from the cameras. Apple Home works but caps video at 1080p rather than 4K"
+    },
+    "scores": {
+      "videoQuality": 8.0,
+      "nightVision": 9.5,
+      "subscriptionFreedom": 9.5,
+      "localStorage": 9.5,
+      "powerAndBattery": 9.5,
+      "installation": 6.5,
+      "openness": 6.0,
+      "value": 7.5
+    },
+    "pros": [
+      "The only camera here that produces genuinely usable full colour at night without turning a spotlight on, which is also why its battery lasts",
+      "No subscription, ever — recording, AI face recognition and 16TB of expandable local storage are all included in the hardware price",
+      "eufy publishes actual solar maths (450-900mAh harvested against 100-200mAh used) instead of the usual 'forever power' hand-waving",
+      "IP67 and a 13,000mAh cell: this is the least maintenance-hungry outdoor camera in the set"
+    ],
+    "cons": [
+      "4K runs at up to 15 fps — half the frame rate of the UniFi G6 Instant, and eufy prints it in its own specs rather than hiding it",
+      "2.4GHz-only Wi-Fi on a $430 kit, when a $99.99 Ring does dual-band Wi-Fi 6",
+      "Apple Home users get 1080p, not 4K — the HomeKit path throws away most of what you paid for",
+      "No RTSP and no ONVIF, so despite all the local storage the cameras still will not talk to Blue Iris, Frigate or a third-party NVR",
+      "The hub is a single point of failure: lose the HomeBase 3 and you lose the recordings on the drive inside it"
+    ],
+    "images": [],
+    "amazonAsin": "B0DDPW1YK2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "arlo-ultra-3",
+      "reolink-argus-4-pro",
+      "arlo-pro-6",
+      "ring-outdoor-cam-plus"
+    ],
+    "useCases": [
+      "battery-powered",
+      "solar-ready",
+      "no-subscription"
+    ],
+    "shortTagline": "Best night vision and zero subscription — at 15fps, on 2.4GHz, for $430."
+  },
+  {
+    "id": "sc-wyze-cam-v4",
+    "categorySlug": "security-cameras",
+    "brand": "Wyze",
+    "series": "Wyze Cam",
+    "model": "Wyze Cam v4",
+    "slug": "wyze-cam-v4",
+    "releaseYear": 2024,
+    "price": 35.98,
+    "msrp": 44.98,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Grey"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi (Wi-Fi 6)",
+      "Bluetooth 5.2",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "2.5K QHD sensor at a price where 1080p is still normal",
+      "Two 72-lumen spotlight LEDs plus four IR LEDs and a 99dB siren",
+      "IP65-rated, so it genuinely goes outside despite being a desk-sized cube",
+      "microSD recording works with no subscription at all",
+      "Free cloud tier still gives 12-second clips and 14 days of history"
+    ],
+    "specs": {
+      "maxResolution": "2.5K QHD (2560x1440)",
+      "topResolutionFrameRate": "20 fps by day and 15 fps at night, on Wyze's own tech-spec page",
+      "fieldOfView": "115.8 degrees diagonal, 98.5 horizontal, 53.1 vertical",
+      "powerSource": "Wired micro-USB, 5V/1A. The 6ft cable and adapter in the box are indoor-rated — outdoor mounting needs Wyze's $19.98 Outdoor Power Adapter",
+      "batteryLifeClaim": "Not applicable — mains powered only",
+      "nightVision": "Colour night vision from a starlight sensor, backed by two 5000K 72-lumen spotlight LEDs and four 850nm IR LEDs",
+      "weatherRating": "IP65, rated -4F to 122F",
+      "wifiBands": "2.4GHz only. Wi-Fi 6 on 802.11b/g/n, no 5GHz",
+      "localStorage": "microSD up to 256GB in exFAT, continuous or event-based. Card not included; Wyze sells a 32GB card for $18.98",
+      "noSubscriptionBehaviour": "Live view with no time limit, two-way audio, full microSD recording, plus 12-second cloud clips with 14-day history — but a 5-minute cooldown between cloud clips",
+      "cheapestPlanMonthly": 2.99,
+      "rtspOnvif": "Not published by Wyze — the Cam v4 tech-spec page lists no RTSP or ONVIF support"
+    },
+    "scores": {
+      "videoQuality": 7.0,
+      "nightVision": 7.0,
+      "subscriptionFreedom": 7.0,
+      "localStorage": 7.5,
+      "powerAndBattery": 4.0,
+      "installation": 8.0,
+      "openness": 4.5,
+      "value": 9.5
+    },
+    "pros": [
+      "Under $40 for 2.5K, IP65, a spotlight, a 99dB siren and a microSD slot — nothing else here comes close on price per feature",
+      "Free tier is the most generous in the category: unlimited live view plus real cloud clips, not just notifications",
+      "Local microSD recording is unrestricted and needs no plan, unlike Ring, Nest, Arlo or Blink",
+      "Wyze actually publishes its frame rates (20fps day, 15fps night), which Ring, Arlo, Nest and TP-Link do not"
+    ],
+    "cons": [
+      "The free cloud tier's 5-minute cooldown means a burglary that unfolds over ten minutes gets one 12-second clip",
+      "Cam Plus annual went from $19.99 to $29.99 per camera in March 2026, a 50% rise",
+      "The included adapter and cable are indoor-only — outdoor use quietly costs another $19.98",
+      "2.4GHz Wi-Fi only, microSD capped at 256GB, and no card in the box",
+      "No RTSP or ONVIF listed, and Wyze's record of app outages and security incidents is a real consideration for a camera in your house"
+    ],
+    "images": [],
+    "amazonAsin": "B0CJ9Z22L5",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tapo-c120",
+      "blink-outdoor-2k-plus",
+      "nest-cam-indoor-3rd-gen",
+      "ring-outdoor-cam-plus"
+    ],
+    "useCases": [
+      "indoor",
+      "wired-power",
+      "no-subscription"
+    ],
+    "shortTagline": "The most camera per dollar anywhere — as long as you never need the free cloud tier."
+  },
+  {
+    "id": "sc-reolink-argus-4-pro",
+    "categorySlug": "security-cameras",
+    "brand": "Reolink",
+    "series": "Argus",
+    "model": "Reolink Argus 4 Pro with Solar Panel 2",
+    "slug": "reolink-argus-4-pro",
+    "releaseYear": 2024,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Wi-Fi 6 (802.11ax)",
+      "Alexa",
+      "Google Home"
+    ],
+    "features": [
+      "Two 4mm lenses stitched into one seamless 180-degree image with no centre blind spot",
+      "ColorX night vision works at f/1.0 with the spotlight left off",
+      "Dual-band Wi-Fi 6 on a battery camera, which is genuinely unusual",
+      "6W solar panel bundled in the box rather than sold separately",
+      "microSD in the camera and no monthly fee for any core function"
+    ],
+    "specs": {
+      "maxResolution": "5120x1440 (8MP) — a stitched dual-lens panorama, not a 3840x2160 4K frame, despite the 4K marketing",
+      "topResolutionFrameRate": "15 fps at full resolution, on Reolink's own spec sheet",
+      "fieldOfView": "180 degrees horizontal, 50 degrees vertical",
+      "powerSource": "5000mAh built-in (non-removable) battery with a bundled 6W solar panel; USB-A to USB-C charging cable in the box",
+      "batteryLifeClaim": "Reolink publishes no runtime in days. It claims only '30% More Battery Life' than an IR camera and '+12 Days Standby', plus '10 minutes of charging can power the camera for 24 hours'",
+      "nightVision": "ColorX full colour at night from an f/1.0 aperture with the spotlight off. Five 2W 6500K spotlights are there if you want them, at a battery cost",
+      "weatherRating": "IP66",
+      "wifiBands": "Dual-band 2.4GHz and 5GHz, Wi-Fi 6 (802.11a/b/g/n/ac/ax)",
+      "localStorage": "microSD in the camera. Sources conflict on the ceiling: Reolink's product page says up to 512GB, The Ambient's review says 128GB. A 128GB card ships in some bundles",
+      "noSubscriptionBehaviour": "Everything. Recording, AI person/vehicle/animal detection and playback are all local and free",
+      "cheapestPlanMonthly": 0,
+      "rtspOnvif": "No standalone RTSP or ONVIF. Reolink's own support article states its battery cameras do 'not support RTSP, RTMP, ONVIF and related communication protocols'; you need the separately sold Reolink Home Hub to expose them"
+    },
+    "scores": {
+      "videoQuality": 7.0,
+      "nightVision": 9.0,
+      "subscriptionFreedom": 9.0,
+      "localStorage": 8.0,
+      "powerAndBattery": 9.0,
+      "installation": 7.5,
+      "openness": 5.5,
+      "value": 8.5
+    },
+    "pros": [
+      "180 degrees with no stitching seam covers a corner or a driveway that would otherwise need two cameras",
+      "ColorX gives usable colour at night without the spotlight, which is the difference between a night image and a battery drain",
+      "Dual-band Wi-Fi 6 plus a bundled solar panel plus a 2-year warranty — the best hardware-per-dollar in the battery class",
+      "No subscription for anything, and the microSD card lives in the camera rather than in a hub you must buy"
+    ],
+    "cons": [
+      "The '4K' is 5120x1440 from two stitched lenses at 15 fps — it is a panorama, not a 4K frame, and the vertical field is only 50 degrees",
+      "No standalone RTSP or ONVIF: Reolink's own docs confirm battery cameras need the extra-cost Home Hub before any NVR can see them",
+      "Reolink publishes no battery runtime figure at all, only relative claims against an unnamed IR camera",
+      "Sources conflict on the microSD ceiling — 512GB on Reolink's page, 128GB in The Ambient's review",
+      "No Apple HomeKit support, and reviewers consistently describe the Reolink app as cluttered"
+    ],
+    "images": [],
+    "amazonAsin": "B0F189FV7K",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eufycam-s3-pro",
+      "arlo-pro-6",
+      "tapo-c120",
+      "blink-outdoor-2k-plus"
+    ],
+    "useCases": [
+      "battery-powered",
+      "solar-ready",
+      "no-subscription"
+    ],
+    "shortTagline": "A 180-degree panorama sold as 4K — brilliant value, so long as you read the fine print."
+  },
+  {
+    "id": "sc-blink-outdoor-2k-plus",
+    "categorySlug": "security-cameras",
+    "brand": "Blink",
+    "series": "Blink Outdoor",
+    "model": "Blink Outdoor 2K+ — 1-Camera System with Sync Module Core",
+    "slug": "blink-outdoor-2k-plus",
+    "releaseYear": 2025,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi (802.11ax)",
+      "Sync Module (required)",
+      "Alexa"
+    ],
+    "features": [
+      "Two AA lithium cells included, no charging and no cable for two years",
+      "Three quality modes: Best 2K/24fps, Standard 1080p/24fps, Saver 720p/15fps",
+      "Sync Module Core included in the box",
+      "4x digital zoom and two-way audio with noise cancellation",
+      "IP65, rated to -4F, at 142 grams"
+    ],
+    "specs": {
+      "maxResolution": "2K (2560x1440) in Best mode only; Standard is 1080p and Saver is 720p",
+      "topResolutionFrameRate": "24 fps at 2K, 24 fps at 1080p, 15 fps at 720p",
+      "fieldOfView": "135 degrees diagonal, 115 horizontal, 62 vertical",
+      "powerSource": "Two Energizer Ultimate Lithium AA cells, included, non-rechargeable. An optional weather-resistant mains adapter is sold separately",
+      "batteryLifeClaim": "Up to two years — and Blink's own FAQ says that figure is 'based on battery efficiency settings with 1080p resolution', not the 2K the camera is named after",
+      "nightVision": "Infrared 850nm. Blink markets 'colour vision in low light', which produces colour at dusk and switches to black-and-white IR in real darkness",
+      "weatherRating": "IP65, rated -4F to 113F",
+      "wifiBands": "2.4GHz only (802.11ax). Blink specifies 6 Mbps upload for 2K, 3 Mbps for 1080p, 2 Mbps for 720p",
+      "localStorage": "Possible, but not with anything in this box. The bundled Sync Module Core has no USB port and no card slot. You need a Sync Module 2 ($49.99) plus a USB drive, or a Sync Module XR plus a microSD card — all sold separately, 256GB maximum",
+      "noSubscriptionBehaviour": "Live view and basic motion alerts once the system is armed. Person and vehicle detection require a Blink plan",
+      "cheapestPlanMonthly": 3.99,
+      "rtspOnvif": "No RTSP, no ONVIF, no third-party NVR support"
+    },
+    "scores": {
+      "videoQuality": 6.5,
+      "nightVision": 5.0,
+      "subscriptionFreedom": 3.5,
+      "localStorage": 3.0,
+      "powerAndBattery": 8.5,
+      "installation": 8.5,
+      "openness": 3.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Batteries are in the box and the camera is genuinely fit-and-forget for a year or more",
+      "Blink is unusually honest in its own FAQ about the resolution the two-year claim assumes",
+      "$3.99/mo is the cheapest single-camera plan of any big-brand camera here",
+      "A real jump on the Outdoor 4: reviewers report readable licence plates at 2K where 1080p could not"
+    ],
+    "cons": [
+      "The two-year battery claim is measured at 1080p. Run it in Best mode, which is the only way to get the 2K you paid for, and the figure does not apply",
+      "The Sync Module Core in the box cannot do local storage at all — no USB port, no card slot. Local recording means buying a second sync module",
+      "Night vision is plain 850nm infrared. 'Colour vision in low light' is dusk colour, not colour after dark",
+      "Reviewers report the 2K+ does not work in extended range mode with the XR sync module, so XR owners are stuck on the older Outdoor 4",
+      "2.4GHz only, no RTSP, no ONVIF, and person/vehicle detection is paywalled"
+    ],
+    "images": [],
+    "amazonAsin": "B0F968JH9R",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ring-outdoor-cam-plus",
+      "wyze-cam-v4",
+      "tapo-c120",
+      "arlo-pro-6"
+    ],
+    "useCases": [
+      "indoor",
+      "battery-powered"
+    ],
+    "shortTagline": "Two-year battery — measured at 1080p, not at the 2K it is named after."
+  },
+  {
+    "id": "sc-tapo-c120",
+    "categorySlug": "security-cameras",
+    "brand": "TP-Link",
+    "series": "Tapo",
+    "model": "TP-Link Tapo C120 (2K QHD Indoor/Outdoor)",
+    "slug": "tapo-c120",
+    "releaseYear": 2023,
+    "price": 29.99,
+    "msrp": 44.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "RTSP",
+      "ONVIF Profile S",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Under $30 for a 2K IP66 camera that works indoors or outdoors",
+      "Person, pet and vehicle detection free, with no Tapo Care subscription",
+      "RTSP and ONVIF Profile S for Synology, Blue Iris, Frigate or an NVR",
+      "Invisible 940nm IR mode alongside the standard 850nm LEDs",
+      "9.8ft cable and the power adapter both in the box"
+    ],
+    "specs": {
+      "maxResolution": "2K QHD 4MP (2560x1440)",
+      "topResolutionFrameRate": "Not published by TP-Link on the US product page",
+      "fieldOfView": "120 degrees diagonal, 103 horizontal, 55 vertical",
+      "powerSource": "Wired 5V/1A USB adapter with a 3-metre (9.8ft) cable, both included",
+      "batteryLifeClaim": "Not applicable — mains powered only",
+      "nightVision": "Colour night vision from a starlight sensor plus twin spotlights; 850nm IR to 30ft and an invisible 940nm IR mode",
+      "weatherRating": "IP66",
+      "wifiBands": "2.4GHz only (802.11b/g/n). No 5GHz",
+      "localStorage": "microSD up to 512GB. Card not included",
+      "noSubscriptionBehaviour": "Full local microSD recording plus free person, pet and vehicle detection. Tapo Care cloud storage is genuinely optional",
+      "cheapestPlanMonthly": 0,
+      "rtspOnvif": "RTSP and ONVIF Profile S. TP-Link states that 'most Tapo cameras, except for battery-powered models' support them, though the C120 is not named in its published model list. Profile S carries no two-way audio, a camera account must be enabled first, and only two of {Tapo Care, SD recording, NVR/NAS/ONVIF} can run at the same time"
+    },
+    "scores": {
+      "videoQuality": 7.0,
+      "nightVision": 7.0,
+      "subscriptionFreedom": 8.5,
+      "localStorage": 7.5,
+      "powerAndBattery": 4.0,
+      "installation": 8.0,
+      "openness": 8.5,
+      "value": 9.5
+    },
+    "pros": [
+      "$29.99 for a 2K IP66 camera with a 512GB card slot, free AI detection and RTSP is the best value in the category",
+      "One of only three cameras here that will stream to Blue Iris, Frigate, Synology or a generic NVR",
+      "Power adapter and a 3-metre cable are both in the box — Wyze charges $19.98 for the outdoor equivalent",
+      "The 940nm invisible IR mode means no glowing red ring giving the camera away at night"
+    ],
+    "cons": [
+      "TP-Link limits you to two of {Tapo Care, SD recording, NVR/ONVIF} at once — you cannot run cloud, card and NVR together",
+      "ONVIF is Profile S only, which excludes two-way audio, and RTSP needs a separate camera account enabled in the app",
+      "2.4GHz Wi-Fi only, and no frame rate is published anywhere on TP-Link's US page",
+      "microSD card is not included, and Tapo's US warranty is 1 year on cameras, not the 2 years buyers often assume",
+      "Wired only — there is no battery or PoE option in this model"
+    ],
+    "images": [],
+    "amazonAsin": "B0CH45HPZT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-cam-v4",
+      "blink-outdoor-2k-plus",
+      "reolink-argus-4-pro",
+      "aqara-camera-hub-g5-pro"
+    ],
+    "useCases": [
+      "indoor",
+      "wired-power",
+      "no-subscription"
+    ],
+    "shortTagline": "$30, 2K, IP66 and it speaks RTSP — the budget pick that outlives its own app."
+  },
+  {
+    "id": "sc-aqara-camera-hub-g5-pro",
+    "categorySlug": "security-cameras",
+    "brand": "Aqara",
+    "series": "Camera Hub",
+    "model": "Aqara Camera Hub G5 Pro, PoE (CH-C03E)",
+    "slug": "aqara-camera-hub-g5-pro",
+    "releaseYear": 2025,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Gray"
+    ],
+    "material": "Polycarbonate with a graphite-cooled sensor assembly",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "802.3af PoE",
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Zigbee 3.0",
+      "Thread border router",
+      "Matter controller",
+      "HomeKit Secure Video",
+      "ONVIF",
+      "RTSP"
+    ],
+    "features": [
+      "HomeKit Secure Video over PoE — a combination almost nothing else offers",
+      "Doubles as a Zigbee 3.0 hub, Thread border router and Matter controller",
+      "Seven visual and four audio AI detections run on the camera, not in a cloud",
+      "1/1.8in sensor behind an f/1.0 lens for colour night vision",
+      "RTSP plus SMB NAS backup, and ONVIF added by firmware 4.3.4"
+    ],
+    "specs": {
+      "maxResolution": "Quad HD 2688x1520 (4MP)",
+      "topResolutionFrameRate": "Not published by Aqara on the US product page",
+      "fieldOfView": "133 degrees diagonal",
+      "powerSource": "802.3af PoE (48V, 0.27A) or USB-C 5V/2A. The box holds a power cable and an RJ45 waterproof kit — no PoE injector and no PoE switch",
+      "batteryLifeClaim": "Not applicable — PoE or mains powered",
+      "nightVision": "Colour night vision from a 1/1.8in sensor at f/1.0, with a 3W 3000K spotlight available if you want it",
+      "weatherRating": "IP65, rated -30C to +50C",
+      "wifiBands": "Dual-band 2.4GHz and 5GHz with WPA3 on the Wi-Fi model; this PoE model can use Ethernet instead. Also carries Zigbee 3.0 and Thread radios",
+      "localStorage": "8GB encrypted eMMC on board plus SMB NAS backup, or HomeKit Secure Video. There is no microSD slot",
+      "noSubscriptionBehaviour": "Everything. All seven AI detections run on the camera and recording goes to eMMC, your NAS or HomeKit Secure Video with no plan",
+      "cheapestPlanMonthly": 0,
+      "rtspOnvif": "RTSP and SMB NAS from launch; ONVIF added in firmware 4.3.4, which Aqara confirmed publicly and which lets UniFi Protect adopt it as a third-party camera"
+    },
+    "scores": {
+      "videoQuality": 7.5,
+      "nightVision": 9.0,
+      "subscriptionFreedom": 9.5,
+      "localStorage": 6.5,
+      "powerAndBattery": 5.0,
+      "installation": 5.5,
+      "openness": 9.5,
+      "value": 8.0
+    },
+    "pros": [
+      "The most open camera here: RTSP, ONVIF, SMB NAS, HomeKit Secure Video, Alexa, Google, SmartThings and Matter all at once",
+      "Being a Zigbee hub and Thread border router as well means it replaces a $60-$100 hub you would otherwise buy",
+      "f/1.0 over a 1/1.8in sensor gives colour at night without leaving a spotlight on, at half eufy's price",
+      "PoE means one cable for power and data, and it runs from -30C, the widest temperature range in this set"
+    ],
+    "cons": [
+      "PoE injector and switch are not included — budget another $20-$40 unless you already own PoE infrastructure",
+      "8GB of eMMC and no microSD slot: without a NAS or HomeKit Secure Video your on-camera history is measured in hours",
+      "2688x1520 is 4MP, noticeably short of the 4K on the Lorex and UniFi cameras at similar money",
+      "Aqara publishes no frame rate or bitrate for the camera anywhere on its US page",
+      "ONVIF arrived by firmware update, so a unit on old firmware will not be adopted by a third-party NVR until you update it"
+    ],
+    "images": [],
+    "amazonAsin": "B0DPX69RWZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "unifi-g6-instant",
+      "lorex-e895ab",
+      "nest-cam-indoor-3rd-gen",
+      "reolink-argus-4-pro"
+    ],
+    "useCases": [
+      "wired-power",
+      "poe-nvr",
+      "no-subscription"
+    ],
+    "shortTagline": "HomeKit Secure Video over PoE with RTSP and ONVIF — the least locked-in camera here."
+  },
+  {
+    "id": "sc-lorex-e895ab",
+    "categorySlug": "security-cameras",
+    "brand": "Lorex",
+    "series": "Smart Deterrence",
+    "model": "Lorex 4K Smart Security Lighting Deterrence Bullet AI PoE Camera (E895AB)",
+    "slug": "lorex-e895ab",
+    "releaseYear": 2023,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Metal bullet housing, IP67 rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "802.3af PoE",
+      "12V DC",
+      "Ethernet (RJ45)",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "16.7-million-colour deterrence lighting plus an onboard siren",
+      "True 3840x2160 single-sensor 4K, not a stitched panorama",
+      "Smart Motion Detection Plus for person, vehicle, face, animal and package",
+      "IP67 metal body rated -30C to +60C",
+      "No monthly fees of any kind — Lorex states it outright"
+    ],
+    "specs": {
+      "maxResolution": "4K Ultra HD 8MP (3840x2160) from a 1/2.8in CMOS",
+      "topResolutionFrameRate": "15 fps at 4K. You only get 30 fps by dropping to 5MP, per Lorex's own E895AB datasheet",
+      "fieldOfView": "127 degrees diagonal, from a 2.8mm f/1.6 fixed lens",
+      "powerSource": "802.3af PoE or 12V DC, 9.5W maximum. An Ethernet extension cable is in the box; no PoE injector, no PoE switch and no 12V adapter",
+      "batteryLifeClaim": "Not applicable — PoE powered",
+      "nightVision": "Colour Night Vision with a customisable 16.7-million-colour deterrence light, falling back to infrared black-and-white to 98ft when ambient light runs out",
+      "weatherRating": "IP67, rated -22F to 140F",
+      "wifiBands": "None — Ethernet only",
+      "localStorage": "microSD slot on the camera, or a Lorex Fusion NVR sold separately. Lorex does not publish a card-size ceiling for this model, and card contents are reachable only through the camera's own web interface, not the NVR or the mobile app",
+      "noSubscriptionBehaviour": "Everything. Lorex's page says it plainly: 'No Monthly Fees. Own it. No subscriptions required'",
+      "cheapestPlanMonthly": 0,
+      "rtspOnvif": "Not published — ONVIF and RTSP appear nowhere in Lorex's E895AB datasheet or product page, although Lorex sells a separate ONVIF-branded professional range"
+    },
+    "scores": {
+      "videoQuality": 7.0,
+      "nightVision": 7.5,
+      "subscriptionFreedom": 9.5,
+      "localStorage": 6.0,
+      "powerAndBattery": 4.5,
+      "installation": 4.0,
+      "openness": 3.5,
+      "value": 6.5
+    },
+    "pros": [
+      "A real single-sensor 4K frame rather than the stitched 5120x1440 panorama Reolink markets as 4K",
+      "Metal IP67 body rated -30C to +60C — the toughest housing in this set",
+      "No subscription for anything, and Lorex says so on the product page instead of burying it",
+      "The colour deterrence light is a genuine deterrent rather than just a night-vision aid"
+    ],
+    "cons": [
+      "4K runs at 15 fps. 30 fps only exists if you drop to 5MP, and it is in Lorex's own datasheet",
+      "PoE injector, PoE switch and 12V adapter are all missing from the box — you need existing PoE gear or another purchase",
+      "ONVIF and RTSP are not published for this model, so 'PoE camera' does not automatically mean it will join your Blue Iris or Frigate setup",
+      "microSD recordings can only be pulled through the camera's own browser interface, not the NVR or the app",
+      "Lorex does not publish a microSD size ceiling, and Amazon stock for this SKU is intermittent — lorex.com is the reliable channel"
+    ],
+    "images": [],
+    "amazonAsin": "B0BSMLHBWW",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aqara-camera-hub-g5-pro",
+      "unifi-g6-instant",
+      "reolink-argus-4-pro",
+      "wyze-cam-v4"
+    ],
+    "useCases": [
+      "wired-power",
+      "poe-nvr",
+      "no-subscription"
+    ],
+    "shortTagline": "Genuine 4K on a tough PoE body — at 15fps, and the injector is not in the box."
+  },
+  {
+    "id": "sc-unifi-g6-instant",
+    "categorySlug": "security-cameras",
+    "brand": "Ubiquiti",
+    "series": "UniFi Protect",
+    "model": "Ubiquiti UniFi Camera G6 Instant (UVC-G6-INS-W)",
+    "slug": "unifi-g6-instant",
+    "releaseYear": 2025,
+    "price": 179.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Polycarbonate, IK04 impact rated",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 5 (802.11a/b/g/n/ac)",
+      "Bluetooth",
+      "USB-C power",
+      "PoE via optional adapter",
+      "UniFi Protect console (required)"
+    ],
+    "features": [
+      "True 4K at 30fps from a 1/1.8in 8MP sensor — the only camera here doing both",
+      "On-camera AI engine with face and licence-plate recognition, no cloud and no fee",
+      "Palm-sized body that mounts anywhere within reach of a USB-C outlet",
+      "Joins an existing UniFi Protect system in minutes over Wi-Fi",
+      "UniFi Protect now also adopts ONVIF third-party cameras, so the console is not single-vendor"
+    ],
+    "specs": {
+      "maxResolution": "4K UHD 3840x2160 (16:9) from a 1/1.8in 8MP sensor",
+      "topResolutionFrameRate": "30 fps at 4K, per Ubiquiti's own tech specs — the highest full-resolution frame rate in this set",
+      "fieldOfView": "134.1 degrees diagonal, 109.9 horizontal, 56.7 vertical",
+      "powerSource": "5V/2A USB-C adapter included with a 2-metre cable, 7W maximum. A PoE-to-USB-C adapter is a separate purchase",
+      "batteryLifeClaim": "Not applicable — mains powered only",
+      "nightVision": "Infrared only, and Ubiquiti rates it to just 6m (20ft) — the shortest published IR range here. No colour night mode",
+      "weatherRating": "IPX5 and IK04 — splash-resistant, with no dust rating at all. Rated -20C to +40C",
+      "wifiBands": "Wi-Fi 5 (802.11a/b/g/n/ac) plus Bluetooth. No Wi-Fi 6 on a 2025 camera",
+      "localStorage": "Ubiquiti's tech specs list a microSD card slot, but recording is designed to land on a UniFi Protect console. Sources conflict: iFeeltech's hands-on review states the G6 Instant has no microSD support",
+      "noSubscriptionBehaviour": "Everything, and there is no subscription to buy — but only once you own a UniFi Protect console. The cheapest is the UNVR Instant at $199, so the real entry cost is about $378",
+      "cheapestPlanMonthly": 0,
+      "rtspOnvif": "The camera is adopted only by a UniFi Protect console and does not speak ONVIF outward to a third-party NVR. Ubiquiti does not list RTSP or ONVIF in the G6 Instant tech specs"
+    },
+    "scores": {
+      "videoQuality": 9.0,
+      "nightVision": 4.0,
+      "subscriptionFreedom": 9.0,
+      "localStorage": 7.0,
+      "powerAndBattery": 4.5,
+      "installation": 4.5,
+      "openness": 5.0,
+      "value": 5.5
+    },
+    "pros": [
+      "The only camera here that delivers 4K at 30fps rather than 4K at 15 or 20fps",
+      "Face and licence-plate recognition run on the camera with no monthly fee, forever",
+      "Genuinely fast to deploy — installers report a dozen units in under four hours on an existing UniFi network",
+      "Once you own a console there is no recurring cost at all, which pays back a Ring or Arlo plan inside two years"
+    ],
+    "cons": [
+      "It does nothing on its own. Every UniFi Protect camera needs a console — the cheapest is a $199 UNVR Instant, taking the real price to about $378",
+      "IPX5 with no dust rating and a -20C to +40C range: this is a sheltered-porch camera, not an exposed-wall one",
+      "IR night vision to only 6m (20ft), with no colour night mode, against eufy and Reolink doing full colour at 30ft",
+      "Wi-Fi 5 in 2025, and 4K recording eats 50-60GB of console storage per camera per week",
+      "Sources conflict on whether the microSD slot Ubiquiti lists is actually usable, and Ubiquiti publishes no RTSP or ONVIF output"
+    ],
+    "images": [],
+    "amazonAsin": "B0F825BH4N",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aqara-camera-hub-g5-pro",
+      "lorex-e895ab",
+      "eufycam-s3-pro",
+      "nest-cam-indoor-3rd-gen"
+    ],
+    "useCases": [
+      "indoor",
+      "wired-power",
+      "poe-nvr",
+      "no-subscription"
+    ],
+    "shortTagline": "Real 4K30 with no subscription — after you have bought the $199 console it needs."
+  }
+]

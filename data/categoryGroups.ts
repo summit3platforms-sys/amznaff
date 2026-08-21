@@ -52,13 +52,13 @@ export const categoryGroups: CategoryGroup[] = [
     name: 'Smart Home',
     iconKey: 'smart-home',
     items: [
-      { name: 'Video Doorbells' },
-      { name: 'Security Cameras' },
-      { name: 'Smart Locks' },
-      { name: 'Smart Thermostats' },
-      { name: 'Smart Plugs' },
-      { name: 'Smart Lights' },
-      { name: 'Smart Displays' }
+      { name: 'Video Doorbells', slug: 'video-doorbells' },
+      { name: 'Security Cameras', slug: 'security-cameras' },
+      { name: 'Smart Locks', slug: 'smart-locks' },
+      { name: 'Smart Thermostats', slug: 'smart-thermostats' },
+      { name: 'Smart Plugs', slug: 'smart-plugs' },
+      { name: 'Smart Lights', slug: 'smart-lights' },
+      { name: 'Smart Displays', slug: 'smart-displays' }
     ]
   },
   {

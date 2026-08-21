@@ -14,6 +14,13 @@ import { portablePowerStationProducts } from '@/data/products/portable-power-sta
 import { usbChargerProducts } from '@/data/products/usb-chargers';
 import { wirelessChargerProducts } from '@/data/products/wireless-chargers';
 import { chargingStationProducts } from '@/data/products/charging-stations';
+import { videoDoorbellProducts } from '@/data/products/video-doorbells';
+import { securityCameraProducts } from '@/data/products/security-cameras';
+import { smartLockProducts } from '@/data/products/smart-locks';
+import { smartThermostatProducts } from '@/data/products/smart-thermostats';
+import { smartPlugProducts } from '@/data/products/smart-plugs';
+import { smartLightProducts } from '@/data/products/smart-lights';
+import { smartDisplayProducts } from '@/data/products/smart-displays';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -36,7 +43,14 @@ const allProducts: Product[] = [
   ...portablePowerStationProducts,
   ...usbChargerProducts,
   ...wirelessChargerProducts,
-  ...chargingStationProducts
+  ...chargingStationProducts,
+  ...videoDoorbellProducts,
+  ...securityCameraProducts,
+  ...smartLockProducts,
+  ...smartThermostatProducts,
+  ...smartPlugProducts,
+  ...smartLightProducts,
+  ...smartDisplayProducts
 ];
 
 export function getAllProducts(): Product[] {

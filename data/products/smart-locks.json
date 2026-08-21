@@ -1,0 +1,969 @@
+[
+  {
+    "id": "sl-wyze-lock-bolt-v2",
+    "categorySlug": "smart-locks",
+    "brand": "Wyze",
+    "series": "Lock Bolt",
+    "model": "Wyze Lock Bolt V2 (WLCKB2)",
+    "slug": "wyze-lock-bolt-v2",
+    "releaseYear": 2025,
+    "price": 79.98,
+    "currency": "USD",
+    "colorOptions": [
+      "Matte Black"
+    ],
+    "material": "Aluminium body with a tempered-glass touchscreen",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "Built-in Wi-Fi at $80 — the V1 was Bluetooth-only",
+      "AI self-learning fingerprint sensor, ~0.5s reads",
+      "Up to 50 access codes with anti-peep entry",
+      "USB-C emergency power contact plus a keyed cylinder",
+      "No subscription for remote unlock, codes or history"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement",
+      "ansiBhmaGrade": "Listed as BHMA Grade 2 on retail listings; Wyze does not publish a certification number or ANSI standard reference",
+      "keepsExistingKeyway": "No — the exterior cylinder and keys are replaced",
+      "smartRadio": "2.4GHz Wi-Fi and Bluetooth built into the lock. No Matter, no Thread, no Z-Wave",
+      "hubRequired": "No — the Wi-Fi radio is in the lock itself",
+      "appleHomeKey": "No",
+      "uwbUnlock": "No",
+      "biometrics": "Fingerprint, up to 50 prints stored on the lock",
+      "batteryType": "8 x AA alkaline (included)",
+      "batteryClaimMonths": 8,
+      "backupAccess": "Physical key cylinder plus a USB-C emergency power port on the exterior",
+      "doorFit": "Standard US single-cylinder deadbolt prep; Wyze does not publish a door-thickness or backset range"
+    },
+    "scores": {
+      "security": 5.5,
+      "failSafeAccess": 8.5,
+      "connectivity": 6.0,
+      "smartHomeSupport": 3.5,
+      "entryMethods": 7.0,
+      "batteryLife": 8.0,
+      "installation": 8.5,
+      "value": 9.5
+    },
+    "pros": [
+      "The cheapest lock here with genuine built-in Wi-Fi — no bridge, no hub, no subscription",
+      "Fingerprint reader is the standout: reviewers report sub-second, weather-tolerant reads",
+      "Keyed cylinder AND a USB-C emergency contact, which several $300 locks here do not both have",
+      "IP53-rated and runs 8 months on eight cheap AA cells"
+    ],
+    "cons": [
+      "No Matter, no Thread, no Apple Home — it lives inside the Wyze app and Alexa/Google, and that is the whole ecosystem",
+      "The BHMA Grade 2 claim appears only on retail listings; Wyze publishes no certification listing to check it against",
+      "Eight AA batteries is a lot of dead weight and a lot of cells to buy",
+      "Wyze's history of app outages and security incidents is a real consideration for a device that guards your front door"
+    ],
+    "images": [],
+    "amazonAsin": "B0FD3WMV2T",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eufy-smart-lock-e30",
+      "ultraloq-bolt-fingerprint-matter",
+      "kwikset-halo-select",
+      "switchbot-lock-pro"
+    ],
+    "useCases": [
+      "fingerprint",
+      "rentals"
+    ],
+    "shortTagline": "Real Wi-Fi and a fast fingerprint reader for $80 — the ecosystem is the compromise."
+  },
+  {
+    "id": "sl-switchbot-lock-pro",
+    "categorySlug": "smart-locks",
+    "brand": "SwitchBot",
+    "series": "Lock Pro",
+    "model": "SwitchBot Lock Pro + Hub Mini (Matter Enabled) bundle",
+    "slug": "switchbot-lock-pro",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "Aluminium alloy housing",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.0",
+      "Matter (via the bundled Hub Mini)",
+      "2.4GHz Wi-Fi (via the bundled Hub Mini)"
+    ],
+    "features": [
+      "Bolts over the inside thumbturn — nothing on the outside of the door changes",
+      "Bundled Hub Mini Matter Enabled is what actually provides Matter and remote access",
+      "4 x AA cells instead of the CR123A cells the older SwitchBot Lock used",
+      "Fits single deadbolts, jimmy-proof and (with an adapter) mortise locks",
+      "Optional rechargeable Dual Power Pack replaces the AAs"
+    ],
+    "specs": {
+      "lockType": "Retrofit over the existing deadbolt's interior thumbturn",
+      "ansiBhmaGrade": "Not applicable and not published — a retrofit motor carries no BHMA grade, and your door keeps whatever grade its existing deadbolt already had",
+      "keepsExistingKeyway": "Yes — the original exterior cylinder and keys are untouched",
+      "smartRadio": "Bluetooth only inside the lock. SwitchBot states plainly: 'Lock Pro is not directly Matter enabled'",
+      "hubRequired": "Yes — and it is included in this bundle. Without a SwitchBot Hub Mini Matter Enabled or Hub 2 there is no Matter, no remote access and no voice control",
+      "appleHomeKey": "No",
+      "uwbUnlock": "No",
+      "biometrics": "None in this bundle — fingerprint requires the separate Keypad Touch or Keypad Vision",
+      "batteryType": "4 x AA (included); optional rechargeable Dual Power Pack",
+      "batteryClaimMonths": 9,
+      "backupAccess": "Your existing exterior key always works; SwitchBot describes a triple-power design (main, backup and emergency)",
+      "doorFit": "Works with most US single deadbolts, jimmy-proof and mortise locks (adapter); no drilling and no new bore"
+    },
+    "scores": {
+      "security": 4.0,
+      "failSafeAccess": 8.5,
+      "connectivity": 5.5,
+      "smartHomeSupport": 7.0,
+      "entryMethods": 4.5,
+      "batteryLife": 8.0,
+      "installation": 9.5,
+      "value": 7.5
+    },
+    "pros": [
+      "The most landlord-proof install here: no drilling, no new hardware outside, fully reversible",
+      "Your existing key keeps working, which matters when the battery dies at 11pm",
+      "AA cells rather than CR123A — SwitchBot's own figure is roughly a third of the battery cost of the old Lock",
+      "The bundle includes the hub, so Matter works out of the box rather than after a second purchase"
+    ],
+    "cons": [
+      "The lock is Bluetooth-only. Every remote feature, every Matter integration and every voice command runs through the hub — lose the hub and you have a Bluetooth thumbturn",
+      "No keypad or fingerprint in this bundle; adding Keypad Touch or Keypad Vision is another $60-$180",
+      "Retrofit means your security is still whatever your existing deadbolt was — an ungraded builder-grade lock stays ungraded",
+      "Bolted to the inside of the door, it is visibly a gadget rather than a lock"
+    ],
+    "images": [],
+    "amazonAsin": "B0CR65G84M",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aqara-u200",
+      "august-wifi-smart-lock",
+      "yale-approach-wifi",
+      "wyze-lock-bolt-v2"
+    ],
+    "useCases": [
+      "retrofit",
+      "matter-thread",
+      "rentals"
+    ],
+    "shortTagline": "The renter's answer: keeps your keyway, but the lock itself is Bluetooth-only."
+  },
+  {
+    "id": "sl-aqara-u200",
+    "categorySlug": "smart-locks",
+    "brand": "Aqara",
+    "series": "Smart Lock U Series",
+    "model": "Aqara Smart Lock U200 (with Keypad)",
+    "slug": "aqara-u200",
+    "releaseYear": 2024,
+    "price": 169.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver",
+      "Black"
+    ],
+    "material": "Metal lock body with a separate polycarbonate keypad unit",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Matter over Thread",
+      "Bluetooth",
+      "NFC"
+    ],
+    "features": [
+      "Retrofit body plus a wireless exterior keypad, both in the box",
+      "Apple Home Key over NFC on a retrofit lock — still rare",
+      "USB-C rechargeable lithium pack in the lock body",
+      "Adapter kits for US deadbolts and several European profiles",
+      "Fingerprint and PIN entry live on the keypad, not the lock"
+    ],
+    "specs": {
+      "lockType": "Retrofit over the existing deadbolt, plus a separate wireless keypad",
+      "ansiBhmaGrade": "Not published by the manufacturer — Aqara says only 'BHMA-certified' on the U-series pages without naming a grade or standard",
+      "keepsExistingKeyway": "Yes — the exterior cylinder and your keys stay in place",
+      "smartRadio": "Matter over Thread plus Bluetooth. No Wi-Fi anywhere in the product",
+      "hubRequired": "Yes — a Thread border router per ecosystem (HomePod mini, HomePod 2, Apple TV 4K, or equivalent). Without one there is no remote access and no Home Key",
+      "appleHomeKey": "Yes, over NFC at the keypad",
+      "uwbUnlock": "No — that is the U400",
+      "biometrics": "Fingerprint, on the exterior keypad unit",
+      "batteryType": "Rechargeable lithium pack in the lock (USB-C); keypad takes 4 x AAA or 12-24V DC wiring",
+      "batteryClaimMonths": 6,
+      "backupAccess": "Your existing exterior key still works; USB-C on the lock body accepts a power bank",
+      "doorFit": "Standard US single-cylinder deadbolts via the included adapters; slim-profile US deadbolts may need replacing first, and the keypad must sit within about 6 ft (2 m) of the lock"
+    },
+    "scores": {
+      "security": 4.5,
+      "failSafeAccess": 8.0,
+      "connectivity": 6.5,
+      "smartHomeSupport": 8.5,
+      "entryMethods": 8.5,
+      "batteryLife": 7.0,
+      "installation": 8.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Apple Home Key, fingerprint and Matter over Thread on a retrofit that keeps your existing keyway — nothing else here does all four",
+      "Thread sips power, and the lock body recharges over USB-C rather than eating AA cells",
+      "Works across Apple Home, Google Home, Alexa, SmartThings and Home Assistant through Matter rather than a proprietary cloud",
+      "Keypad is wireless, so it can be mounted away from the door frame if your deadbolt prep is awkward"
+    ],
+    "cons": [
+      "No Thread border router means no remote control, no Home Key and no smart-home integration — the hub is not in the box and is not optional",
+      "Aqara says 'BHMA-certified' but publishes no grade, so you cannot compare its security to a Grade 1 Schlage or Level",
+      "Long-run reliability is the weak point: the Amazon listing sits at 2.7 stars across ~2,000 ratings, with owners reporting jamming and grinding after a year or so",
+      "Two batteries to manage — a rechargeable pack in the lock and AAAs in the keypad — with different lives"
+    ],
+    "images": [],
+    "amazonAsin": "B0D1BZPJP1",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "switchbot-lock-pro",
+      "august-wifi-smart-lock",
+      "yale-approach-wifi",
+      "level-lock-pro"
+    ],
+    "useCases": [
+      "retrofit",
+      "fingerprint",
+      "apple-home",
+      "matter-thread"
+    ],
+    "shortTagline": "Home Key and Thread on a retrofit — provided you already own a Thread border router."
+  },
+  {
+    "id": "sl-eufy-smart-lock-e30",
+    "categorySlug": "smart-locks",
+    "brand": "eufy",
+    "series": "Smart Lock",
+    "model": "eufy Smart Lock E30",
+    "slug": "eufy-smart-lock-e30",
+    "releaseYear": 2024,
+    "price": 169.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Zinc alloy body with a capacitive touch keypad",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Matter over Thread (advertised)"
+    ],
+    "features": [
+      "Built-in 2.4GHz Wi-Fi — no eufy HomeBase or bridge needed",
+      "Fingerprint, keypad, app, key and voice entry",
+      "USB-C emergency power contact on the exterior escutcheon",
+      "Fingerprint templates stored on the lock rather than in eufy's cloud",
+      "No subscription for remote unlock or history"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement",
+      "ansiBhmaGrade": "ANSI/BHMA Grade 3 — the lowest of the three residential grades (PCWorld's review states Level 3 on the three-point scale)",
+      "keepsExistingKeyway": "No — the exterior cylinder and keys are replaced",
+      "smartRadio": "2.4GHz Wi-Fi and Bluetooth built in; Matter over Thread is advertised",
+      "hubRequired": "No for the eufy app. Matter needs a Thread border router — and PCWorld could not get Matter pairing to complete on an Apple TV 4K or a SmartThings Station",
+      "appleHomeKey": "No",
+      "uwbUnlock": "No",
+      "biometrics": "Fingerprint reader; PCWorld's reviewer described it as finicky",
+      "batteryType": "8 x AA alkaline (included)",
+      "batteryClaimMonths": 8,
+      "backupAccess": "Physical key cylinder plus a USB-C emergency power port on the exterior",
+      "doorFit": "Standard US single-cylinder deadbolt prep; eufy does not publish a door-thickness range"
+    },
+    "scores": {
+      "security": 4.0,
+      "failSafeAccess": 8.5,
+      "connectivity": 6.5,
+      "smartHomeSupport": 4.5,
+      "entryMethods": 7.0,
+      "batteryLife": 8.0,
+      "installation": 8.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Wi-Fi is genuinely in the lock — you are not buying a bridge afterwards, unlike most of eufy's older C-series",
+      "Both fallbacks covered: a keyed cylinder and a USB-C emergency contact",
+      "Fingerprints are held on the device, not uploaded, and eufy charges no subscription for lock features",
+      "Eight months on AA cells with no proprietary battery pack to source later"
+    ],
+    "cons": [
+      "ANSI/BHMA Grade 3 — the weakest residential grade, and a real step down from the Grade 1 locks at $250-$350 here",
+      "The Matter support on the box did not work in PCWorld's testing across two different Thread hubs; treat it as unproven rather than a feature",
+      "No Apple Home Key, so iPhone users get app control but not tap-to-unlock",
+      "The fingerprint reader is the least reliable of the biometric locks in this set"
+    ],
+    "images": [],
+    "amazonAsin": "B0DB1QHWH3",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-lock-bolt-v2",
+      "ultraloq-bolt-fingerprint-matter",
+      "kwikset-halo-select",
+      "lockly-visage-zeno"
+    ],
+    "useCases": [
+      "fingerprint",
+      "matter-thread"
+    ],
+    "shortTagline": "Cheap built-in Wi-Fi and fingerprint, undermined by a Grade 3 body and shaky Matter."
+  },
+  {
+    "id": "sl-yale-approach-wifi",
+    "categorySlug": "smart-locks",
+    "brand": "Yale",
+    "series": "Approach",
+    "model": "Yale Approach Lock with Wi-Fi + Keypad",
+    "slug": "yale-approach-wifi",
+    "releaseYear": 2024,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black Suede",
+      "Satin Nickel"
+    ],
+    "material": "Polycarbonate lock body with a separate touchscreen keypad",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "2.4GHz Wi-Fi (via the included Connect Wi-Fi Bridge)"
+    ],
+    "features": [
+      "Replaces the inside thumbturn only — the outside of the door is unchanged",
+      "Connect Wi-Fi Bridge is in the box on this SKU, not an add-on",
+      "12-month claimed life on 4 x AA in the lock; 7 months on 4 x AAA in the keypad",
+      "Runs on the Yale Home / August app with shared guest access and history",
+      "Yale says Matter support will arrive by software update"
+    ],
+    "specs": {
+      "lockType": "Retrofit over the existing deadbolt's interior thumbturn, plus a separate keypad",
+      "ansiBhmaGrade": "Not published by the manufacturer — Yale states no ANSI/BHMA grade for the Approach, and the retrofit inherits the grade of your existing deadbolt",
+      "keepsExistingKeyway": "Yes — that is the point of the product; your existing cylinder and keys stay",
+      "smartRadio": "Bluetooth in the lock and keypad. Wi-Fi comes from the plug-in Connect Bridge, which is included on this bundle",
+      "hubRequired": "Yes, but included — the Connect Wi-Fi Bridge is what provides remote access. The cheaper Approach SKUs omit it and Tom's Guide flags that as their main caveat",
+      "appleHomeKey": "No",
+      "uwbUnlock": "No",
+      "biometrics": "Sources conflict: Yale's own bundle page lists the fingerprint-capable Keypad Touch, while the Amazon listing for this bundle describes a code-only Bluetooth touchscreen keypad. Confirm which keypad ships before ordering",
+      "batteryType": "Lock: 4 x AA alkaline (included). Keypad: 4 x AAA alkaline (included)",
+      "batteryClaimMonths": 12,
+      "backupAccess": "Your existing exterior key always works; Yale does not publish an emergency power contact on the Approach",
+      "doorFit": "Most single-cylinder deadbolts; the keypad mounts within about 30 ft of the lock over Bluetooth. Lock body is 2.6 x 5.6 x 1.6 in on the inside of the door"
+    },
+    "scores": {
+      "security": 4.5,
+      "failSafeAccess": 8.5,
+      "connectivity": 7.5,
+      "smartHomeSupport": 4.5,
+      "entryMethods": 6.0,
+      "batteryLife": 8.5,
+      "installation": 9.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The bridge is actually in the box at this price, which is not true of the cheaper Approach listings buyers usually land on",
+      "12 months of claimed lock battery life is the longest AA figure in this set",
+      "Keeps your keyway and your keys, so nothing about the outside of your door changes",
+      "Backed by Yale/August's mature app, which is markedly better maintained than most budget lock apps"
+    ],
+    "cons": [
+      "No Matter today — Yale describes it as coming by software update, which is a promise rather than a feature you can buy",
+      "No Apple Home Key and no HomeKit tap-to-unlock; iPhone owners are in the Yale app",
+      "Yale publishes no ANSI/BHMA grade, and a retrofit cannot improve the deadbolt you already have",
+      "Which keypad you get is genuinely unclear between Yale's own listing and the Amazon listing — fingerprint or code-only changes the value considerably"
+    ],
+    "images": [],
+    "amazonAsin": "B0CYCLBFMB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "august-wifi-smart-lock",
+      "switchbot-lock-pro",
+      "aqara-u200",
+      "kwikset-halo-select"
+    ],
+    "useCases": [
+      "retrofit",
+      "rentals"
+    ],
+    "shortTagline": "A retrofit with the Wi-Fi bridge actually included — and no Matter yet."
+  },
+  {
+    "id": "sl-august-wifi-smart-lock",
+    "categorySlug": "smart-locks",
+    "brand": "August",
+    "series": "Wi-Fi Smart Lock",
+    "model": "August Wi-Fi Smart Lock (4th Gen, AUG-SL05)",
+    "slug": "august-wifi-smart-lock",
+    "releaseYear": 2020,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver",
+      "Matte Black"
+    ],
+    "material": "Metal and polycarbonate housing",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Bluetooth",
+      "Apple HomeKit"
+    ],
+    "features": [
+      "Dual-band Wi-Fi built into the lock — no August Connect bridge required",
+      "45% smaller than the 3rd-gen August it replaced",
+      "DoorSense magnetic sensor tells you the door is actually shut, not just locked",
+      "Retrofit over your existing deadbolt; your keys keep working",
+      "Apple HomeKit, Alexa and Google Assistant support"
+    ],
+    "specs": {
+      "lockType": "Retrofit over the existing deadbolt's interior thumbturn",
+      "ansiBhmaGrade": "Not applicable and not published — the retrofit motor carries no BHMA grade and your existing deadbolt keeps its own",
+      "keepsExistingKeyway": "Yes — the exterior cylinder and your keys are untouched",
+      "smartRadio": "802.11 b/g/n Wi-Fi on both 2.4GHz and 5GHz, plus Bluetooth, all inside the lock",
+      "hubRequired": "No — this is the generation that moved Wi-Fi into the lock body. Older August locks needed the separate Connect bridge",
+      "appleHomeKey": "No — HomeKit control only, not tap-to-unlock",
+      "uwbUnlock": "No",
+      "biometrics": "None — there is no keypad and no fingerprint reader in the box",
+      "batteryType": "2 x CR123A lithium (included)",
+      "batteryClaimMonths": 3,
+      "backupAccess": "Your existing exterior key always works; August does not publish an emergency power contact on this generation",
+      "doorFit": "Most single-cylinder deadbolts — check August's compatibility list first. Body is 72mm across and 46mm deep on the inside of the door"
+    },
+    "scores": {
+      "security": 4.5,
+      "failSafeAccess": 7.0,
+      "connectivity": 7.5,
+      "smartHomeSupport": 6.0,
+      "entryMethods": 4.5,
+      "batteryLife": 3.0,
+      "installation": 9.0,
+      "value": 5.5
+    },
+    "pros": [
+      "The only retrofit here with dual-band Wi-Fi in the lock — it will join a 5GHz-only guest network that defeats most rivals",
+      "DoorSense is still the best-implemented door-ajar sensor in the category",
+      "Mature HomeKit support and an app that has had a decade of iteration",
+      "Retrofit install takes minutes and is fully reversible for renters"
+    ],
+    "cons": [
+      "August's own figure is up to 3 months of battery life, and owners routinely report changing the CR123A cells every 90 days — by far the worst battery economics here",
+      "CR123A cells cost several times what AAs do, so the running cost is real",
+      "No keypad, no fingerprint, no Home Key: without your phone you are back to the metal key",
+      "No Matter support has been published for this generation, and it is a 2020 design at a 2026 price"
+    ],
+    "images": [],
+    "amazonAsin": "B082VXK9CK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "yale-approach-wifi",
+      "switchbot-lock-pro",
+      "aqara-u200",
+      "level-lock-pro"
+    ],
+    "useCases": [
+      "retrofit",
+      "rentals"
+    ],
+    "shortTagline": "Best-in-class retrofit hardware, sabotaged by roughly 3 months per set of CR123A cells."
+  },
+  {
+    "id": "sl-ultraloq-bolt-fingerprint-matter",
+    "categorySlug": "smart-locks",
+    "brand": "ULTRALOQ",
+    "series": "Bolt",
+    "model": "ULTRALOQ Bolt Fingerprint Matter",
+    "slug": "ultraloq-bolt-fingerprint-matter",
+    "releaseYear": 2025,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Satin Nickel"
+    ],
+    "material": "Metal escutcheon with a capacitive keypad",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Matter over Thread",
+      "Bluetooth"
+    ],
+    "features": [
+      "One of the first Matter-over-Thread locks with a fingerprint reader",
+      "Up to 100 fingerprints (two per user) and 50 passcodes",
+      "Magnetic door sensor included for open/closed status",
+      "18-month electronics warranty, longer than most rivals here",
+      "Thread instead of Wi-Fi, for markedly longer battery life"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement",
+      "ansiBhmaGrade": "ANSI/BHMA Grade 1 per U-tec's marketing and review coverage; U-tec does not publish a certification listing number, and its Bolt-series pages elsewhere say only 'tested to BHMA and ANSI standards'",
+      "keepsExistingKeyway": "No — the exterior cylinder and keys are replaced",
+      "smartRadio": "Matter over Thread plus Bluetooth. There is no Wi-Fi radio in the lock",
+      "hubRequired": "Yes — a Thread border router for Matter, or U-tec's own Wi-Fi Bridge (sold separately) if you want the Xthings/U-Home app to work remotely",
+      "appleHomeKey": "No — U-tec confirms no NFC tap-to-unlock on the Bolt series",
+      "uwbUnlock": "No — that is the dearer Bolt Mission",
+      "biometrics": "Fingerprint, up to 100 prints (2 per user)",
+      "batteryType": "8 x AA alkaline (included)",
+      "batteryClaimMonths": 12,
+      "backupAccess": "Physical key cylinder included; U-tec does not publish an emergency power contact for this model",
+      "doorFit": "Standard US doors. Explicitly not for glass doors, sliding doors, mortise locks or multi-point locks"
+    },
+    "scores": {
+      "security": 7.5,
+      "failSafeAccess": 7.5,
+      "connectivity": 5.5,
+      "smartHomeSupport": 7.5,
+      "entryMethods": 7.5,
+      "batteryLife": 8.5,
+      "installation": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Thread rather than Wi-Fi: U-tec claims up to a year in Matter mode and two years on Bluetooth, and reviewers back the long-life claim",
+      "Fingerprint plus Matter at $200 is a combination the big brands still charge $300+ for",
+      "18-month electronics warranty is the longest in this group",
+      "Matter setup into Apple Home is a QR scan — no proprietary cloud account needed for the smart-home half"
+    ],
+    "cons": [
+      "No Apple Home Key at all, so iPhone owners lose the single best reason to buy a Matter lock",
+      "The 'ANSI Grade 1' claim comes from marketing and reviews, not from a published certification listing you can verify",
+      "Remote access in U-tec's own app needs the separately sold Wi-Fi Bridge; Matter alone needs a Thread border router. Either way there is a second box",
+      "Reviewers consistently flag a loud motor, fiddly fingerprint enrolment and a flaky auto-lock timer"
+    ],
+    "images": [],
+    "amazonAsin": "B0DQWYJNYC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eufy-smart-lock-e30",
+      "wyze-lock-bolt-v2",
+      "kwikset-halo-select",
+      "schlage-encode-plus"
+    ],
+    "useCases": [
+      "fingerprint",
+      "matter-thread"
+    ],
+    "shortTagline": "Fingerprint plus Matter-over-Thread at $200 — but no Home Key and no hub in the box."
+  },
+  {
+    "id": "sl-kwikset-halo-select",
+    "categorySlug": "smart-locks",
+    "brand": "Kwikset",
+    "series": "Halo",
+    "model": "Kwikset Halo Select Touchscreen (9800-WIFI-THRD-TSCR)",
+    "slug": "kwikset-halo-select",
+    "releaseYear": 2024,
+    "price": 259.0,
+    "msrp": 279.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Satin Nickel",
+      "Matte Black"
+    ],
+    "material": "Metal escutcheon with a capacitive touchscreen",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Matter over Thread",
+      "Bluetooth"
+    ],
+    "features": [
+      "Both Wi-Fi and Matter-over-Thread radios on board — you pick the mode",
+      "SmartKey Security cylinder you can re-key yourself in seconds",
+      "BHMA Grade AAA plus a UL 20-minute fire rating",
+      "Geofenced auto-unlock through the Kwikset app",
+      "Lifetime mechanical and finish warranty"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement",
+      "ansiBhmaGrade": "BHMA Grade AAA (Kwikset's published claim), plus a UL 20-minute fire rating. Kwikset publishes the three-letter AAA grade rather than the A156.36 numeric grade",
+      "keepsExistingKeyway": "No — but the SmartKey cylinder can be re-keyed by the owner to match an existing key",
+      "smartRadio": "2.4GHz Wi-Fi and Matter over Thread both built in, plus Bluetooth",
+      "hubRequired": "No hub for Wi-Fi mode. Matter mode needs a Thread border router",
+      "appleHomeKey": "No — Apple Home Key is only on the dearer Halo Select Plus",
+      "uwbUnlock": "No",
+      "biometrics": "None — touchscreen keypad only",
+      "batteryType": "4 x AA alkaline (included)",
+      "batteryClaimMonths": "Not published by the manufacturer",
+      "backupAccess": "SmartKey physical cylinder, owner re-keyable; Kwikset does not publish an emergency power contact",
+      "doorFit": "Doors 1-3/8 in to 1-3/4 in thick, adjustable 2-3/8 in or 2-3/4 in backset, 2-1/8 in cross bore"
+    },
+    "scores": {
+      "security": 7.5,
+      "failSafeAccess": 7.5,
+      "connectivity": 8.0,
+      "smartHomeSupport": 6.5,
+      "entryMethods": 5.5,
+      "batteryLife": 6.0,
+      "installation": 8.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Genuinely dual-radio: Wi-Fi for hub-free remote access, or Matter-over-Thread if you already run a Thread mesh",
+      "SmartKey lets you re-key the cylinder to your existing house key in under a minute — no locksmith, no new keyring",
+      "BHMA Grade AAA and a UL 20-minute fire rating, both published rather than implied",
+      "One of the few locks here that states its door thickness, backset and bore limits outright"
+    ],
+    "cons": [
+      "Matter mode is not a free upgrade: Kwikset's own comparison shows access-code add/remove, code scheduling, event history and door-sensor settings are Kwikset-app-over-Wi-Fi features, not Matter ones",
+      "No Apple Home Key — that is a separate, dearer Halo Select Plus SKU",
+      "No fingerprint reader at $259 when $200 locks here have one",
+      "Kwikset publishes no battery-life figure, and its own product reviews are peppered with Wi-Fi pairing and 'door jammed' complaints"
+    ],
+    "images": [],
+    "amazonAsin": "B0DJPTB7KG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "schlage-encode-plus",
+      "yale-approach-wifi",
+      "ultraloq-bolt-fingerprint-matter",
+      "eufy-smart-lock-e30"
+    ],
+    "useCases": [
+      "matter-thread",
+      "rentals"
+    ],
+    "shortTagline": "Wi-Fi and Thread in one lock — but choosing Matter costs you code management."
+  },
+  {
+    "id": "sl-schlage-encode-plus",
+    "categorySlug": "smart-locks",
+    "brand": "Schlage",
+    "series": "Encode",
+    "model": "Schlage Encode Plus Smart WiFi Deadbolt (BE499WB, Camelot)",
+    "slug": "schlage-encode-plus",
+    "releaseYear": 2022,
+    "price": 329.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Satin Nickel",
+      "Matte Black",
+      "Bright Chrome",
+      "Aged Bronze"
+    ],
+    "material": "Solid metal escutcheon with a capacitive touchscreen",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Matter over Thread",
+      "Apple Home Key (NFC)"
+    ],
+    "features": [
+      "Published ANSI/BHMA A156.36 Grade 1 and A156.40 Grade AAA",
+      "Apple Home Key tap-to-unlock with iPhone or Apple Watch",
+      "Built-in Wi-Fi plus Matter over Thread on the same lock",
+      "Built-in alarm and time-delayed locking",
+      "3-year electronics warranty, lifetime mechanical and finish"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement",
+      "ansiBhmaGrade": "ANSI/BHMA A156.36 Grade 1 and A156.40 Grade AAA, both named explicitly in Schlage's own security-ratings article — the clearest published grade of any lock in this set",
+      "keepsExistingKeyway": "No — new Schlage C-keyway cylinder and keys",
+      "smartRadio": "2.4GHz Wi-Fi and Bluetooth built in, plus Matter certification with Thread",
+      "hubRequired": "No for the Schlage Home app — Wi-Fi is in the lock. Home Key taps work locally, but remote Apple Home control and Matter need a home hub / Thread border router",
+      "appleHomeKey": "Yes — tap to unlock with iPhone or Apple Watch",
+      "uwbUnlock": "No — that is the Sense Pro",
+      "biometrics": "None — touchscreen keypad only",
+      "batteryType": "4 x AA alkaline (included)",
+      "batteryClaimMonths": "Not published by Schlage for the Encode Plus; owners commonly report 2-6 months, and the lock's Wi-Fi radio is the reason",
+      "backupAccess": "Keyed cylinder on the Camelot and Century trims; Schlage does not publish an emergency power contact on the Encode Plus",
+      "doorFit": "Single-bore doors with a 2-3/8 in or 2-3/4 in backset; Schlage does not publish a thickness range on the Encode Plus product page"
+    },
+    "scores": {
+      "security": 9.0,
+      "failSafeAccess": 7.0,
+      "connectivity": 8.5,
+      "smartHomeSupport": 8.5,
+      "entryMethods": 6.5,
+      "batteryLife": 4.5,
+      "installation": 7.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The only lock here whose maker names both the numeric ANSI grade (A156.36 Grade 1) and the letter grade (A156.40 AAA) in writing",
+      "Wi-Fi and Matter-over-Thread together: hub-free remote access from Schlage's app, or Thread if you prefer it",
+      "Apple Home Key works as advertised, including on Apple Watch, and the taps are local so they survive an internet outage",
+      "3-year electronics warranty against the 1-year most rivals give"
+    ],
+    "cons": [
+      "Battery life is the weak point — Schlage publishes no figure and owners frequently report 2-3 months on AA cells because the Wi-Fi radio never sleeps for long",
+      "No emergency power contact: when the cells die you are using the key, which several cheaper locks here avoid with a USB-C port",
+      "No fingerprint reader at $329, when $80 and $200 locks here have one",
+      "Physically bulky and unmistakably industrial next to a Level or an Aqara"
+    ],
+    "images": [],
+    "amazonAsin": "B09RS1Z1ZN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "kwikset-halo-select",
+      "schlage-sense-pro",
+      "level-lock-pro",
+      "ultraloq-bolt-fingerprint-matter"
+    ],
+    "useCases": [
+      "apple-home",
+      "matter-thread",
+      "rentals"
+    ],
+    "shortTagline": "The rare lock that publishes its Grade 1 rating — and eats AA batteries to do it."
+  },
+  {
+    "id": "sl-level-lock-pro",
+    "categorySlug": "smart-locks",
+    "brand": "Level",
+    "series": "Lock",
+    "model": "Level Lock Pro (Matter)",
+    "slug": "level-lock-pro",
+    "releaseYear": 2025,
+    "price": 349.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Matte Black",
+      "Satin Nickel"
+    ],
+    "material": "Machined metal; Level does not publish the alloy",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Matter over Thread",
+      "Bluetooth 4.0",
+      "Bluetooth 5.0",
+      "NFC"
+    ],
+    "features": [
+      "All electronics hidden inside the door — the outside looks like an ordinary deadbolt",
+      "ANSI Grade 1/A and BHMA AAA, tested to 250,000 cycles",
+      "Apple Home Key plus two NFC key fobs in the box",
+      "Integrated door open/closed sensing with no separate magnet",
+      "Runs a year on a single CR2 cell hidden inside the bolt"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement with the electronics concealed inside the door",
+      "ansiBhmaGrade": "ANSI Grade 1/A, tested to A156.40 (residential deadbolts) and A156.25 (electrified locking), BHMA AAA certified at 250,000 cycles — all stated on Level's own page",
+      "keepsExistingKeyway": "No — new Level cylinder and keys; your existing key will not work",
+      "smartRadio": "Matter over Thread plus Bluetooth 4.0/5.0 and NFC. There is no Wi-Fi radio in the lock",
+      "hubRequired": "Yes — either a Matter-over-Thread hub (HomePod mini, HomePod 2, Apple TV 4K 3rd gen or equivalent) or Level's own Connect Wi-Fi Bridge, sold separately",
+      "appleHomeKey": "Yes — tap with iPhone or Apple Watch",
+      "uwbUnlock": "No",
+      "biometrics": "None — and there is no keypad in the box either; the Level Keypad is a separate purchase",
+      "batteryType": "1 x CR2 lithium (included), concealed inside the bolt",
+      "batteryClaimMonths": 12,
+      "backupAccess": "Two physical keys and two NFC key fobs in the box; there is no emergency power contact, so a flat CR2 means using the key",
+      "doorFit": "Door thickness 1.75 in to 2.0 in only, backset 2.375 in or 2.75 in, ANSI 2.125 in bore — the narrowest thickness window of any lock here"
+    },
+    "scores": {
+      "security": 8.5,
+      "failSafeAccess": 6.0,
+      "connectivity": 5.0,
+      "smartHomeSupport": 8.0,
+      "entryMethods": 5.0,
+      "batteryLife": 7.0,
+      "installation": 5.5,
+      "value": 5.5
+    },
+    "pros": [
+      "Genuinely invisible: the only lock here that does not announce itself on the outside or bolt a slab of plastic to the inside",
+      "Publishes ANSI Grade 1/A, BHMA AAA and a 250,000-cycle test figure — the security claims are specific and checkable",
+      "A single CR2 cell runs it for roughly 9-12 months, so the battery burden is one small cell a year rather than eight AAs",
+      "Apple Home Key plus two NFC fobs in the box covers guests who do not have an iPhone"
+    ],
+    "cons": [
+      "The 1.75-2.0 in door thickness limit is the hard trap: plenty of American doors are 1-3/8 in and simply will not take this lock",
+      "No Wi-Fi in the lock — remote access needs either a Thread hub you already own or Level's Connect bridge as an extra purchase",
+      "No keypad and no fingerprint in the box; the Level Keypad is another accessory, so out of the box a guest without an iPhone needs a fob or a key",
+      "$349 with fewer entry methods than an $80 Wyze, and no emergency power contact when the CR2 dies"
+    ],
+    "images": [],
+    "amazonAsin": "B0FKLBYHD2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "schlage-encode-plus",
+      "schlage-sense-pro",
+      "aqara-u200",
+      "august-wifi-smart-lock"
+    ],
+    "useCases": [
+      "apple-home",
+      "matter-thread"
+    ],
+    "shortTagline": "Invisible, Grade 1 and beautiful — if your door is between 1.75 and 2 inches thick."
+  },
+  {
+    "id": "sl-lockly-visage-zeno",
+    "categorySlug": "smart-locks",
+    "brand": "Lockly",
+    "series": "Visage",
+    "model": "Lockly Visage Zeno Series (PGK728W)",
+    "slug": "lockly-visage-zeno",
+    "releaseYear": 2024,
+    "price": 349.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Satin Nickel",
+      "Matte Black"
+    ],
+    "material": "Zinc alloy escutcheon with a glass PIN Genie keypad",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Apple Home Key (NFC)"
+    ],
+    "features": [
+      "3D facial recognition with radar approach detection — no camera, no cloud video",
+      "0.2s AI fingerprint sensor alongside the face unlock",
+      "PIN Genie shuffling keypad defeats shoulder-surfing and finger-smudge attacks",
+      "Two 10,000mAh rechargeable packs in the box so one charges while the other runs",
+      "Built-in Wi-Fi with no subscription for remote access or history"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement",
+      "ansiBhmaGrade": "Not published by the manufacturer — Lockly advertises a 5-year mechanical warranty and lifetime support instead of an ANSI/BHMA grade",
+      "keepsExistingKeyway": "No — new Lockly cylinder and keys",
+      "smartRadio": "2.4GHz Wi-Fi and Bluetooth built into the lock. No Matter and no Thread",
+      "hubRequired": "No — the Wi-Fi radio is in the lock and Lockly charges no subscription for remote access",
+      "appleHomeKey": "Yes — tap with iPhone or Apple Watch",
+      "uwbUnlock": "No — approach detection is radar, not UWB, so it recognises a face rather than a phone",
+      "biometrics": "3D facial recognition (radar, not a camera) plus a 0.2s AI fingerprint sensor",
+      "batteryType": "2 x 10,000mAh rechargeable packs (both included) with a USB-C backup contact",
+      "batteryClaimMonths": "Sources conflict: Lockly claims up to 8 months per charge, while Tom's Guide found the default settings needed roughly monthly charging",
+      "backupAccess": "Physical key cylinder, a second charged battery pack you can hot-swap, and a USB-C emergency power contact",
+      "doorFit": "Standard US single-cylinder deadbolt prep; Lockly does not publish a door-thickness or backset range on the product page"
+    },
+    "scores": {
+      "security": 5.0,
+      "failSafeAccess": 8.5,
+      "connectivity": 8.0,
+      "smartHomeSupport": 6.0,
+      "entryMethods": 9.5,
+      "batteryLife": 5.5,
+      "installation": 7.0,
+      "value": 6.5
+    },
+    "pros": [
+      "More ways in than anything else here: face, fingerprint, PIN Genie keypad, Apple Home Key, app and a physical key",
+      "Face unlock uses radar rather than a camera, so there is no video feed to secure and no cloud storage bill",
+      "Two rechargeable packs in the box means you always have a charged spare — no lock in this set handles a flat battery better",
+      "Wi-Fi is built in and Lockly charges nothing monthly for remote unlock, codes or history"
+    ],
+    "cons": [
+      "No published ANSI/BHMA grade at all, at $349 — you cannot compare its physical security to the Grade 1 Schlage or Level",
+      "Battery claims do not survive contact with reviewers: Lockly says up to 8 months, Tom's Guide found monthly charging at default settings",
+      "No Matter and no Thread, so it is locked to Lockly's cloud for anything beyond Apple Home Key taps and voice assistants",
+      "There is no video feed despite the doorbell-like face sensor, which surprises buyers who expect a camera"
+    ],
+    "images": [],
+    "amazonAsin": "B0DRXJB8Y6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "schlage-sense-pro",
+      "schlage-encode-plus",
+      "eufy-smart-lock-e30",
+      "level-lock-pro"
+    ],
+    "useCases": [
+      "apple-home",
+      "fingerprint",
+      "rentals"
+    ],
+    "shortTagline": "Face, fingerprint, Home Key and two spare batteries — but no published security grade."
+  },
+  {
+    "id": "sl-schlage-sense-pro",
+    "categorySlug": "smart-locks",
+    "brand": "Schlage",
+    "series": "Sense",
+    "model": "Schlage Sense Pro Smart Deadbolt (BE889WB)",
+    "slug": "schlage-sense-pro",
+    "releaseYear": 2026,
+    "price": 399.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Satin Nickel",
+      "Matte Black"
+    ],
+    "material": "Solid metal escutcheon with a capacitive touchscreen",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "Ultra-Wideband (Schlage Converge)",
+      "Matter over Thread",
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Apple Home Key (NFC + UWB)"
+    ],
+    "features": [
+      "Schlage Converge UWB unlocks as you actually walk up, not when your phone is merely nearby",
+      "Matter over Thread, Wi-Fi and Bluetooth all on board",
+      "Up to 250 access codes and a built-in alarm",
+      "Aliro-ready for future Android and Samsung support",
+      "Emergency USB-C power contact under the exterior escutcheon"
+    ],
+    "specs": {
+      "lockType": "Full deadbolt replacement, key-free by design",
+      "ansiBhmaGrade": "Sources conflict: Schlage markets it as an 'AAA Certified Deadbolt', while Tom's Guide and AppleInsider both report ANSI Grade 2. Schlage's own security-ratings article covers only the Encode family and omits Sense Pro",
+      "keepsExistingKeyway": "No — and there is no exterior keyway at all on this lock",
+      "smartRadio": "Schlage Converge UWB, Matter over Thread, 2.4GHz Wi-Fi and Bluetooth",
+      "hubRequired": "Yes for remote access and smart-home control — Schlage's own product page states 'Home Hub Required'. The UWB approach-unlock itself is phone-to-lock and needs no hub",
+      "appleHomeKey": "Yes — tap-to-unlock and hands-free unlock with iPhone and Apple Watch",
+      "uwbUnlock": "Yes, but iPhone-only today. Schlage says a future Aliro update will bring UWB and NFC to Samsung and other Android devices; that has not shipped",
+      "biometrics": "None — touchscreen keypad only",
+      "batteryType": "Sources conflict: Schlage's product page lists AAA cells, while Tom's Guide and AppleInsider both counted four AA alkalines in the review units",
+      "batteryClaimMonths": "Schlage claims roughly 6 months on Wi-Fi or 9 months on Thread; Tom's Guide's review unit was down to 51% after two weeks on an unoptimised setup",
+      "backupAccess": "No physical key cylinder at all. The only fallback is the emergency USB-C port on the underside of the exterior escutcheon",
+      "doorFit": "Single-bore doors; Schlage does not publish a thickness range for the Sense Pro"
+    },
+    "scores": {
+      "security": 6.5,
+      "failSafeAccess": 4.0,
+      "connectivity": 9.0,
+      "smartHomeSupport": 8.5,
+      "entryMethods": 8.0,
+      "batteryLife": 5.0,
+      "installation": 7.0,
+      "value": 5.0
+    },
+    "pros": [
+      "UWB approach-unlock genuinely works differently from Bluetooth geofencing — it unlocks when you arrive at the door, not when you are somewhere in the neighbourhood",
+      "The most radios of any lock here: UWB, Thread, Wi-Fi and Bluetooth, so it fits any ecosystem you already run",
+      "Apple Home Key hands-free unlock plus a keypad for guests, with up to 250 codes",
+      "Schlage's 3-year electronics warranty and a real emergency USB-C power contact"
+    ],
+    "cons": [
+      "There is no physical key. If the battery dies and you have no USB-C power bank on you, you are locked out — reviewers call this the dealbreaker",
+      "UWB is iPhone-only. The Aliro support that would bring Android and Samsung in is announced, not shipped",
+      "Schlage's own page says AAA batteries while two independent reviewers counted four AAs — a basic spec Schlage has not got straight",
+      "$399 makes it the most expensive lock here, and the Aqara U400 offers UWB plus a fingerprint reader for around $100 less"
+    ],
+    "images": [],
+    "amazonAsin": "B0GZWNR5T2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "level-lock-pro",
+      "schlage-encode-plus",
+      "lockly-visage-zeno",
+      "kwikset-halo-select"
+    ],
+    "useCases": [
+      "apple-home",
+      "matter-thread"
+    ],
+    "shortTagline": "The best UWB unlock you can buy, on a lock with no keyhole and disposable AAs."
+  }
+]

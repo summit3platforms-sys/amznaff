@@ -1,0 +1,921 @@
+[
+  {
+    "id": "sd-echo-spot-2024",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Spot",
+    "model": "Amazon Echo Spot (2024 release)",
+    "slug": "echo-spot-2024",
+    "releaseYear": 2024,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Glacier White",
+      "Ocean Blue"
+    ],
+    "material": "Fabric-wrapped body with half-circle tinted cover glass",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi",
+      "Bluetooth (A2DP/AVRCP)",
+      "Bluetooth Low Energy Mesh",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "Half-screen clock face designed for a nightstand",
+      "No camera at all — nothing to cover",
+      "Tap-to-snooze across the whole top surface",
+      "Matter controller over Wi-Fi",
+      "Amazon Sidewalk radio on by default"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 2.83,
+      "resolution": "240 x 320",
+      "touchscreen": true,
+      "camera": "No camera",
+      "cameraShutter": "No camera fitted, so no shutter; a physical microphone-off button is the only hardware privacy control",
+      "speakers": "One 1.73-inch full-range front-firing driver (mono) — the same driver size as the $49.99 Echo Dot",
+      "smartHomeHub": "Matter over Wi-Fi only — no Zigbee radio and NOT a Thread border router",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; music beyond the ad-supported Amazon Music tier needs its own subscription",
+      "homeScreenAds": "Sponsored cards appear on the home screen; Amazon's own help page says these ads cannot be turned off, only swiped away",
+      "videoCalling": "None — audio-only Alexa calling, Drop In and announcements",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 3.0,
+      "sound": 5.0,
+      "assistant": 7.0,
+      "smartHomeHub": 3.0,
+      "ecosystemFreedom": 4.0,
+      "privacy": 8.5,
+      "adFreedom": 4.0,
+      "value": 7.0
+    },
+    "pros": [
+      "The only Alexa display with no camera in it at all — the honest answer for a bedroom",
+      "240 x 320 half-circle screen is dim enough at night not to light the room",
+      "Cheapest way into a screen-equipped Echo at $79.99",
+      "Physical mic-off button, and nothing to un-shutter"
+    ],
+    "cons": [
+      "Matter over Wi-Fi only — no Zigbee and no Thread border router, so it hubs almost nothing",
+      "One 1.73-inch driver: this is a voice speaker with a clock on it, not a music speaker",
+      "240 x 320 is too coarse for recipes, video or camera feeds",
+      "Sponsored content on the clock face cannot be disabled, per Amazon's own help documentation",
+      "Alexa+ — the whole reason the 2026 Echo line exists — costs Prime or $19.99/mo on this hardware"
+    ],
+    "images": [],
+    "amazonAsin": "B0BFC7WQ6R",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-5-3rd-gen",
+      "nest-hub-2nd-gen",
+      "echo-show-5-kids-3rd-gen",
+      "echo-show-8-2025"
+    ],
+    "useCases": [
+      "bedside",
+      "smart-home-control"
+    ],
+    "shortTagline": "A bedside Alexa clock with no camera — and almost no smart-home hub either."
+  },
+  {
+    "id": "sd-echo-show-5-3rd-gen",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Show",
+    "model": "Amazon Echo Show 5 (3rd Gen, 2023)",
+    "slug": "echo-show-5-3rd-gen",
+    "releaseYear": 2023,
+    "price": 89.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Charcoal",
+      "Glacier White",
+      "Cloud Blue"
+    ],
+    "material": "Fabric-wrapped enclosure with plastic screen bezel",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi (802.11a/b/g/n/ac)",
+      "Bluetooth",
+      "Bluetooth Low Energy Mesh",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "Physical sliding camera shutter",
+      "2 MP front camera for Alexa video calls and Drop In",
+      "1.75-inch driver with meaningfully more bass than the 2nd gen",
+      "Tap-to-snooze and sunrise alarm",
+      "Oldest Echo Show still in Amazon's active line-up"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 5.5,
+      "resolution": "960 x 480",
+      "touchscreen": true,
+      "camera": "2 MP fixed front camera",
+      "cameraShutter": "Yes — physical sliding shutter, plus a combined mic/camera off button",
+      "speakers": "One 1.75-inch full-range driver (mono)",
+      "smartHomeHub": "Matter over Wi-Fi and Bluetooth LE Mesh only — no Zigbee radio and NOT a Thread border router",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; Amazon Music Unlimited / Spotify etc. billed separately",
+      "homeScreenAds": "Sponsored cards appear on the home screen; Amazon's own help page says these ads cannot be turned off, only swiped away",
+      "videoCalling": "Alexa-to-Alexa calling and Drop In only; Skype support died with Skype itself in May 2025",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 4.5,
+      "sound": 5.0,
+      "assistant": 7.0,
+      "smartHomeHub": 3.0,
+      "ecosystemFreedom": 4.0,
+      "privacy": 8.0,
+      "adFreedom": 4.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Keeps the physical camera shutter that the 2025 Echo Show 8 and 11 dropped",
+      "$89.99 buys a real touchscreen, a camera and a clock radio",
+      "Small enough for a nightstand, unlike every Echo Show above it",
+      "Genuinely better bass than the 2nd-gen Show 5 it replaced"
+    ],
+    "cons": [
+      "No Zigbee and no Thread border router — the cheap Shows are not smart-home hubs",
+      "960 x 480 across 5.5 inches looks soft next to the 2025 models",
+      "Three-year-old hardware still sold at near-launch price outside sale events",
+      "2 MP fixed camera has no auto-framing; video calls are Alexa-ecosystem-only",
+      "Sponsored home-screen content cannot be switched off"
+    ],
+    "images": [],
+    "amazonAsin": "B09B2SBHQK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-spot-2024",
+      "nest-hub-2nd-gen",
+      "echo-show-8-2025",
+      "echo-show-5-kids-3rd-gen"
+    ],
+    "useCases": [
+      "bedside",
+      "kitchen",
+      "smart-home-control"
+    ],
+    "shortTagline": "The cheapest real Echo Show — and the cheapest one that still has a camera shutter."
+  },
+  {
+    "id": "sd-echo-show-5-kids-3rd-gen",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Show",
+    "model": "Amazon Echo Show 5 Kids (3rd Gen, 2023)",
+    "slug": "echo-show-5-kids-3rd-gen",
+    "releaseYear": 2023,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Galaxy"
+    ],
+    "material": "Printed fabric-wrapped enclosure",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Dual-band Wi-Fi (802.11a/b/g/n/ac)",
+      "Bluetooth",
+      "Bluetooth Low Energy Mesh",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "2-year worry-free guarantee — Amazon replaces a broken unit",
+      "Identical hardware to the standard Echo Show 5 (3rd Gen)",
+      "1 year of Amazon Kids+ included in the box price",
+      "Parent Dashboard time limits and content filters",
+      "Physical sliding camera shutter"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 5.5,
+      "resolution": "960 x 480",
+      "touchscreen": true,
+      "camera": "2 MP fixed front camera",
+      "cameraShutter": "Yes — physical sliding shutter, plus a mic/camera off button",
+      "speakers": "One 1.75-inch full-range driver (mono)",
+      "smartHomeHub": "Matter over Wi-Fi and Bluetooth LE Mesh only — no Zigbee radio and NOT a Thread border router",
+      "assistantSubscription": "Amazon Kids+ is free for 1 year then auto-renews monthly (Amazon and retailers quote $4.99/mo for Prime members and $7.99/mo otherwise); Alexa+ still needs Prime or $19.99/mo on top",
+      "homeScreenAds": "Ads are suppressed inside the Amazon Kids profile, but the adult profile behaves like any other Echo Show",
+      "videoCalling": "Alexa calling and Drop In, restricted to parent-approved contacts",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 4.5,
+      "sound": 5.0,
+      "assistant": 6.5,
+      "smartHomeHub": 3.0,
+      "ecosystemFreedom": 3.5,
+      "privacy": 8.0,
+      "adFreedom": 6.5,
+      "value": 6.5
+    },
+    "pros": [
+      "2-year worry-free guarantee is double the standard Echo Show warranty",
+      "Kids profile is genuinely ad-free, which the adult Echo Show experience is not",
+      "Same shutter, same screen, same speaker as the regular Show 5 for $10 more",
+      "Parent Dashboard controls are the most complete in the category"
+    ],
+    "cons": [
+      "The included Amazon Kids+ year auto-renews — cancel it or it becomes a recurring bill",
+      "Only $10 of the premium is hardware; the rest is a subscription you may not want",
+      "Same weak hub as the standard Show 5 — no Zigbee, no Thread",
+      "Sold in a single loud 'Galaxy' print that will not suit every room",
+      "Drops out of the Kids experience into normal ad-supported Alexa on the adult profile"
+    ],
+    "images": [],
+    "amazonAsin": "B09B2SB77Q",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-5-3rd-gen",
+      "echo-spot-2024",
+      "nest-hub-2nd-gen",
+      "echo-show-8-2025"
+    ],
+    "useCases": [
+      "bedside",
+      "family-organizer"
+    ],
+    "shortTagline": "Standard Show 5 hardware, a 2-year guarantee, and a subscription that quietly starts billing."
+  },
+  {
+    "id": "sd-nest-hub-2nd-gen",
+    "categorySlug": "smart-displays",
+    "brand": "Google",
+    "series": "Nest Hub",
+    "model": "Google Nest Hub (2nd gen)",
+    "slug": "nest-hub-2nd-gen",
+    "releaseYear": 2021,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Charcoal",
+      "Sand"
+    ],
+    "material": "Fabric-wrapped base with 54% recycled-plastic enclosure",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi (802.11b/g/n/ac)",
+      "Bluetooth",
+      "Thread border router",
+      "Matter"
+    ],
+    "features": [
+      "No camera anywhere on the device",
+      "Soli radar for Quick Gestures and Sleep Sensing",
+      "Thread border router and Matter hub built in",
+      "Sunrise Alarm and 'Your evening' wind-down screen",
+      "Now runs Gemini for Home in place of Google Assistant"
+    ],
+    "specs": {
+      "voiceAssistant": "Gemini for Home (has replaced Google Assistant on this device); basic voice control needs no subscription",
+      "screenSize": 7.0,
+      "resolution": "1024 x 600",
+      "touchscreen": true,
+      "camera": "No camera — Soli radar handles presence and gestures instead",
+      "cameraShutter": "No camera fitted; a hardware microphone switch on the back physically cuts the mics",
+      "speakers": "One full-range driver — Google publishes no driver size, only '50% more bass than the original Nest Hub, measured 40 Hz to 200 Hz at max volume'",
+      "smartHomeHub": "Matter controller AND Thread 1.x border router — Google names only Nest Hub (2nd gen), Nest Hub Max and Nest Wifi Pro as its border routers",
+      "assistantSubscription": "No subscription for voice control; Google Home Premium ($10/mo Standard, $20/mo Advanced) is required for camera history and the sound-detection alerts Google advertises on this product page",
+      "homeScreenAds": "No sponsored cards on the ambient screen — Google sells you a subscription instead of an ad slot",
+      "videoCalling": "None — no camera. Audio calls and Broadcast only",
+      "wallMountable": true
+    },
+    "scores": {
+      "displayQuality": 5.0,
+      "sound": 5.5,
+      "assistant": 6.5,
+      "smartHomeHub": 7.5,
+      "ecosystemFreedom": 5.5,
+      "privacy": 9.0,
+      "adFreedom": 9.0,
+      "value": 7.0
+    },
+    "pros": [
+      "A genuine Thread border router at $99.99 — no Echo Show under $180 can say that",
+      "No camera and a real hardware mic cut-off: the best privacy story in the category",
+      "No sponsored content on the ambient screen, unlike every Echo Show",
+      "Sleep Sensing via Soli radar is still free, and still unique"
+    ],
+    "cons": [
+      "Five-year-old hardware at its full 2021 launch price of $99.99",
+      "Google has stripped most of the on-device 'apps' since 2021 — Netflix, Podcasts, Meet, Reminders and more have gone",
+      "Google's 2026 replacement is a rumoured 'Google Home Display' that has not shipped, so buying now is buying into an unreplaced product line",
+      "Sleep Sensing is explicitly a free preview that Google says it may fold into Fitbit Premium later",
+      "No camera means no video calling at all, and it will not act as an indoor camera"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-5-3rd-gen",
+      "nest-hub-max",
+      "echo-show-8-2025",
+      "echo-spot-2024"
+    ],
+    "useCases": [
+      "bedside",
+      "kitchen",
+      "smart-home-control"
+    ],
+    "shortTagline": "Old hardware, no ads, no camera — and the cheapest Thread border router with a screen."
+  },
+  {
+    "id": "sd-echo-hub",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Hub",
+    "model": "Amazon Echo Hub (8-inch wall panel)",
+    "slug": "echo-hub",
+    "releaseYear": 2024,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Matte plastic panel with flush wall plate",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi",
+      "Bluetooth",
+      "Zigbee",
+      "Thread border router",
+      "Matter",
+      "Amazon Sidewalk",
+      "Ethernet / Power over Ethernet"
+    ],
+    "features": [
+      "Wall-mounted control panel, not a media device",
+      "Zigbee, Thread border router and Matter all in one box",
+      "Proximity sensor wakes the dashboard as you approach",
+      "Arms and disarms a Ring Alarm from the wall",
+      "Rebuilt, far more customisable dashboard rolled out free in June 2026"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 8.0,
+      "resolution": "1280 x 800",
+      "touchscreen": true,
+      "camera": "No camera",
+      "cameraShutter": "No camera fitted; microphone-off button only",
+      "speakers": "Mono speaker — Amazon does not publish the driver size; PCMag describes it as smaller than the Echo Show 8's and reviewers rate it as background-audio-only",
+      "smartHomeHub": "Zigbee hub + Matter controller + Thread border router + Amazon Sidewalk — the most complete radio set Amazon puts in a display",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; Ring Alarm arming works, but Ring video history needs a Ring subscription",
+      "homeScreenAds": "Dashboard is user-built, but Amazon's sponsored-content rules still apply to Alexa surfaces and cannot be fully disabled",
+      "videoCalling": "None — no camera. It can display other cameras' feeds but cannot originate a video call",
+      "wallMountable": true
+    },
+    "scores": {
+      "displayQuality": 5.5,
+      "sound": 3.0,
+      "assistant": 7.0,
+      "smartHomeHub": 9.5,
+      "ecosystemFreedom": 5.0,
+      "privacy": 8.0,
+      "adFreedom": 6.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Zigbee + Thread border router + Matter for $179.99 — the cheapest way to get all three from Amazon",
+      "The only Echo designed to sit flush on a wall with cable management in the box",
+      "No camera, so it can go in a hallway or bedroom without argument",
+      "Amazon actively rebuilt the interface in June 2026, so it is not a maintenance-mode product"
+    ],
+    "cons": [
+      "The speaker is genuinely poor — do not buy this to play music",
+      "No camera means no Drop In video, no video calls and no indoor-camera duty",
+      "Power over Ethernet is supported but the PoE splitter is not in the box",
+      "No Z-Wave, so it will not replace a SmartThings or Hubitat hub",
+      "Costs the same as an Echo Show 8 that has a better screen, a 13 MP camera and the same hub radios"
+    ],
+    "images": [],
+    "amazonAsin": "B0BCR7M9KX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-8-2025",
+      "echo-show-11-2025",
+      "echo-show-15-2nd-gen",
+      "nest-hub-2nd-gen"
+    ],
+    "useCases": [
+      "smart-home-control",
+      "family-organizer"
+    ],
+    "shortTagline": "A wall panel with every radio Amazon makes and a speaker you will never use twice."
+  },
+  {
+    "id": "sd-echo-show-8-2025",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Show",
+    "model": "Amazon Echo Show 8 (4th Gen, 2025)",
+    "slug": "echo-show-8-2025",
+    "releaseYear": 2025,
+    "price": 179.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Graphite",
+      "Glacier White"
+    ],
+    "material": "Fabric-wrapped spherical speaker base with floating glass display",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi",
+      "Bluetooth",
+      "Zigbee",
+      "Thread",
+      "Matter",
+      "Amazon Sidewalk"
+    ],
+    "features": [
+      "AZ3 Pro silicon with an on-device AI accelerator",
+      "Omnisense sensor fusion: camera, ultrasound, Wi-Fi radar, accelerometer and Wi-Fi CSI",
+      "13 MP auto-framing camera with 3.3x zoom",
+      "Front-firing stereo drivers plus a dedicated woofer",
+      "Zigbee, Matter and Thread hub built in"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 8.7,
+      "resolution": "Sources conflict: PCMag's spec sheet lists 1,340 x 800, while Amazon publishes only 'over a million pixels'",
+      "touchscreen": true,
+      "camera": "13 MP with auto-framing, 3.3x zoom and ambient noise reduction",
+      "cameraShutter": "NO physical shutter — the 2025 redesign removed it; only an on-device button that electronically disables camera and mics",
+      "speakers": "Two front-firing full-range drivers plus one custom woofer, tuned for spatial audio",
+      "smartHomeHub": "Zigbee hub + Matter controller + Thread — Amazon's press material confirms all three radios on this generation",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; Ring event summaries shown in Amazon's marketing require a Ring subscription; Oura integration requires an Oura account and its subscription",
+      "homeScreenAds": "Sponsored cards appear on the home screen; Amazon's own help page says these ads cannot be turned off, only swiped away",
+      "videoCalling": "Alexa calling and Drop In within the Alexa ecosystem; no Meet, no FaceTime, and Skype ended in May 2025",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 7.5,
+      "sound": 7.5,
+      "assistant": 8.0,
+      "smartHomeHub": 8.5,
+      "ecosystemFreedom": 4.5,
+      "privacy": 4.5,
+      "adFreedom": 3.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Best sound-per-dollar in the category — a real woofer, not a single full-range cone",
+      "Zigbee, Thread and Matter in a $179.99 tabletop display",
+      "13 MP auto-framing camera is a serious upgrade over the 2 MP Show 5",
+      "AZ3 Pro makes it the most responsive Echo Show yet, by a wide margin"
+    ],
+    "cons": [
+      "Amazon deleted the physical camera shutter in this generation — a software toggle is all you get now",
+      "Sponsored home-screen content cannot be turned off, per Amazon's own help pages",
+      "Alexa+, the entire pitch of the device, is gated behind Prime or $19.99/mo",
+      "Amazon publishes no resolution figure; the only numbers available come from third parties",
+      "Omnisense presence sensing means the device is always modelling who is in the room"
+    ],
+    "images": [],
+    "amazonAsin": "B0DC8ZMR1P",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-11-2025",
+      "nest-hub-2nd-gen",
+      "echo-hub",
+      "echo-show-5-3rd-gen"
+    ],
+    "useCases": [
+      "kitchen",
+      "smart-home-control",
+      "video-calling"
+    ],
+    "shortTagline": "The one to buy — if you can live without the camera shutter Amazon just deleted."
+  },
+  {
+    "id": "sd-echo-show-11-2025",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Show",
+    "model": "Amazon Echo Show 11 (2025)",
+    "slug": "echo-show-11-2025",
+    "releaseYear": 2025,
+    "price": 219.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Graphite",
+      "Glacier White"
+    ],
+    "material": "Fabric-wrapped spherical speaker base with floating glass display",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi",
+      "Bluetooth",
+      "Zigbee",
+      "Thread",
+      "Matter",
+      "Amazon Sidewalk"
+    ],
+    "features": [
+      "Largest fixed-screen tabletop Echo, replacing the motorised Echo Show 10",
+      "AZ3 Pro silicon and Omnisense sensor fusion",
+      "13 MP auto-framing camera with 3.3x zoom",
+      "2.8-inch woofer with two full-range drivers",
+      "Zigbee, Matter and Thread hub built in"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 11.95,
+      "resolution": "Sources conflict: Amazon markets it as 'Full HD' and owners report 1920 x 1200, while TechRadar's review spec box lists 1280 x 800",
+      "touchscreen": true,
+      "camera": "13 MP with auto-framing, 3.3x zoom and ambient noise reduction",
+      "cameraShutter": "NO physical shutter — TechRadar's review headline calls it out; only a software camera/mic disable button",
+      "speakers": "One 2.8-inch woofer plus two full-range drivers, front-firing, with spatial audio processing",
+      "smartHomeHub": "Zigbee hub + Matter controller + Thread — same radio set as the Echo Show 8 (2025)",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; Ring camera summaries need a Ring plan",
+      "homeScreenAds": "Sponsored cards appear on the home screen; Amazon's own help page says these ads cannot be turned off, only swiped away",
+      "videoCalling": "Alexa calling and Drop In only — nothing outside Amazon's own ecosystem",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 8.0,
+      "sound": 7.5,
+      "assistant": 8.0,
+      "smartHomeHub": 8.5,
+      "ecosystemFreedom": 4.5,
+      "privacy": 4.5,
+      "adFreedom": 3.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Biggest, brightest tabletop screen Amazon sells — genuinely readable across a kitchen",
+      "Same Zigbee + Thread + Matter hub as the Show 8, so nothing is held back",
+      "Fixed screen is more reliable than the motorised Echo Show 10 it replaces",
+      "13 MP camera panning and zoom make it a credible indoor camera when you are out"
+    ],
+    "cons": [
+      "$40 more than the Echo Show 8 for a bigger panel and effectively identical internals",
+      "No physical camera shutter, on a device with a camera that actively tracks people",
+      "Buyer reviews repeatedly single out full-screen sponsored content that cannot be disabled",
+      "Amazon does not publish a resolution figure and third-party sources disagree",
+      "Alexa+ still requires Prime or $19.99/mo despite the $219.99 hardware price"
+    ],
+    "images": [],
+    "amazonAsin": "B0DC91H3JK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-8-2025",
+      "nest-hub-max",
+      "echo-show-15-2nd-gen",
+      "echo-hub"
+    ],
+    "useCases": [
+      "kitchen",
+      "smart-home-control",
+      "video-calling",
+      "family-organizer"
+    ],
+    "shortTagline": "An Echo Show 8 with a bigger screen, a bigger price and the same missing shutter."
+  },
+  {
+    "id": "sd-nest-hub-max",
+    "categorySlug": "smart-displays",
+    "brand": "Google",
+    "series": "Nest Hub",
+    "model": "Google Nest Hub Max",
+    "slug": "nest-hub-max",
+    "releaseYear": 2019,
+    "price": 229.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Charcoal"
+    ],
+    "material": "Fabric-wrapped speaker base with plastic display housing",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Dual-band Wi-Fi (802.11b/g/n/ac)",
+      "Bluetooth",
+      "Thread border router",
+      "Matter"
+    ],
+    "features": [
+      "6.5 MP camera with a 127-degree field of view and Face Match",
+      "Doubles as a Nest indoor camera when you leave the house",
+      "Two 18 mm tweeters and a 75 mm woofer — the only true stereo display Google sells",
+      "Thread border router and Matter hub built in",
+      "Now runs Gemini for Home in place of Google Assistant"
+    ],
+    "specs": {
+      "voiceAssistant": "Gemini for Home (has replaced Google Assistant on this device); basic voice control needs no subscription",
+      "screenSize": 10.0,
+      "resolution": "1280 x 800",
+      "touchscreen": true,
+      "camera": "6.5 MP, 127-degree field of view, Face Match and auto-framing; also works as a Nest indoor camera",
+      "cameraShutter": "No sliding shutter — a hardware switch on the back electrically disconnects the camera and mics and turns the status LED green",
+      "speakers": "Two 18 mm 10 W tweeters plus one 75 mm 30 W woofer (stereo)",
+      "smartHomeHub": "Matter controller AND Thread border router — one of only three Google devices Google lists as a border router",
+      "assistantSubscription": "Voice control is free, but the camera-history and familiar-face features the product is sold on need Google Home Premium ($10/mo Standard or $20/mo Advanced)",
+      "homeScreenAds": "No sponsored cards — the ambient screen is Google Photos, weather and your own content",
+      "videoCalling": "Google Meet only; Duo was retired into Meet in October 2025 and Zoom support was dropped in 2023",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 6.0,
+      "sound": 8.0,
+      "assistant": 6.5,
+      "smartHomeHub": 7.5,
+      "ecosystemFreedom": 5.5,
+      "privacy": 6.5,
+      "adFreedom": 9.0,
+      "value": 4.5
+    },
+    "pros": [
+      "The best-sounding smart display here — a real 75 mm woofer and two tweeters",
+      "Hardware camera/mic switch cuts power rather than just toggling software",
+      "No advertising on the ambient screen at all",
+      "Face Match personalises the screen without you touching it, and it doubles as a Nest camera"
+    ],
+    "cons": [
+      "A 2019 product still priced at $229 in 2026, with several colourways already sold out",
+      "No physical lens cover — the privacy control is a switch, not a shutter",
+      "Camera history and familiar-face alerts need a Google Home Premium subscription",
+      "Video calling is Google Meet only; Zoom and Duo are both gone",
+      "Google has stripped most on-device apps from Nest displays and has not shipped a successor"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-11-2025",
+      "nest-hub-2nd-gen",
+      "pixel-tablet",
+      "echo-show-8-2025"
+    ],
+    "useCases": [
+      "kitchen",
+      "video-calling",
+      "smart-home-control"
+    ],
+    "shortTagline": "Seven-year-old hardware, the best speakers in the category, and no successor in sight."
+  },
+  {
+    "id": "sd-echo-show-15-2nd-gen",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Show",
+    "model": "Amazon Echo Show 15 (2nd Gen, 2024)",
+    "slug": "echo-show-15-2nd-gen",
+    "releaseYear": 2024,
+    "price": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Glass front in a slim black frame, 1.4 inches deep",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E (tri-band)",
+      "Bluetooth",
+      "Zigbee",
+      "Thread border router",
+      "Matter",
+      "Amazon Sidewalk"
+    ],
+    "features": [
+      "Full Fire TV built in, with an Alexa Voice Remote in the box",
+      "Landscape or portrait wall mounting, mount included",
+      "13 MP auto-framing camera with 3.3x zoom and a physical shutter",
+      "Zigbee hub, Matter controller and Thread border router",
+      "Two 2-inch woofers and two 0.6-inch tweeters"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 15.6,
+      "resolution": "1920 x 1080",
+      "touchscreen": true,
+      "camera": "13 MP centred camera with auto-framing and 3.3x zoom",
+      "cameraShutter": "Yes — physical shutter retained on this model, plus a mic/camera off button",
+      "speakers": "Two 2-inch woofers plus two 0.6-inch tweeters",
+      "smartHomeHub": "Zigbee hub + Matter controller + Thread border router",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; Fire TV streaming apps each need their own subscription; Prime Photos full-resolution storage requires Prime",
+      "homeScreenAds": "Sponsored cards appear on the home screen; Amazon's own help page says these ads cannot be turned off, only swiped away",
+      "videoCalling": "Alexa calling and Drop In only",
+      "wallMountable": true
+    },
+    "scores": {
+      "displayQuality": 7.5,
+      "sound": 6.5,
+      "assistant": 7.5,
+      "smartHomeHub": 9.0,
+      "ecosystemFreedom": 4.5,
+      "privacy": 6.5,
+      "adFreedom": 3.5,
+      "value": 6.5
+    },
+    "pros": [
+      "Keeps the physical camera shutter that the newer Show 8 and 11 lost",
+      "Full Fire TV plus a remote makes it a real kitchen television, not a widget board",
+      "Zigbee, Thread border router and Matter — a complete hub, mounted on the wall",
+      "Wi-Fi 6E and the 2024 processor make it far snappier than the 1st-gen Show 15"
+    ],
+    "cons": [
+      "The counter stand is a $99.99 accessory — out of the box this is a wall-mount-only device that needs a drill",
+      "Decorative frames are another $34.99 if you do not want the bare black bezel",
+      "Still 1080p across 15.6 inches, which owners and reviewers both flag",
+      "Sponsored home-screen content cannot be disabled",
+      "Runs the older AZ2-class silicon, not the AZ3 Pro in the 2025 Show 8 and 11"
+    ],
+    "images": [],
+    "amazonAsin": "B0C5DPSW5Y",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-21",
+      "echo-show-11-2025",
+      "echo-hub",
+      "pixel-tablet"
+    ],
+    "useCases": [
+      "kitchen",
+      "family-organizer",
+      "video-calling"
+    ],
+    "shortTagline": "A wall-mounted Fire TV that still has a camera shutter — but the stand costs $99.99 extra."
+  },
+  {
+    "id": "sd-echo-show-21",
+    "categorySlug": "smart-displays",
+    "brand": "Amazon",
+    "series": "Echo Show",
+    "model": "Amazon Echo Show 21 (2024)",
+    "slug": "echo-show-21",
+    "releaseYear": 2024,
+    "price": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Glass front in a slim black frame, 1.5 inches deep, 10.7 lb",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6E (tri-band)",
+      "Bluetooth",
+      "Zigbee",
+      "Thread border router",
+      "Matter",
+      "Amazon Sidewalk"
+    ],
+    "features": [
+      "Largest smart display sold in the US at 21 inches",
+      "Full Fire TV built in with an Alexa Voice Remote in the box",
+      "13 MP auto-framing camera with a physical shutter",
+      "Zigbee hub, Matter controller and Thread border router",
+      "Wall mount, anchors and template included"
+    ],
+    "specs": {
+      "voiceAssistant": "Alexa+ — Amazon's own FAQ states there is no free Alexa+ tier on Echo hardware: it needs Prime or a $19.99/mo Standard plan",
+      "screenSize": 21.0,
+      "resolution": "1920 x 1080",
+      "touchscreen": true,
+      "camera": "13 MP centred camera with auto-framing and 3.3x zoom",
+      "cameraShutter": "Yes — physical shutter, plus a mic/camera off button",
+      "speakers": "Two 2-inch woofers plus two 0.6-inch tweeters — identical to the 15.6-inch model",
+      "smartHomeHub": "Zigbee hub + Matter controller + Thread border router (Amazon's own tech specs; one third-party FAQ claims Matter over Wi-Fi only, which contradicts Amazon and the launch press release)",
+      "assistantSubscription": "Alexa+ requires Prime or $19.99/mo; every Fire TV streaming service is billed separately",
+      "homeScreenAds": "Sponsored cards appear on the home screen; Amazon's own help page says these ads cannot be turned off, only swiped away",
+      "videoCalling": "Alexa calling and Drop In only",
+      "wallMountable": true
+    },
+    "scores": {
+      "displayQuality": 7.0,
+      "sound": 6.5,
+      "assistant": 7.5,
+      "smartHomeHub": 9.0,
+      "ecosystemFreedom": 4.5,
+      "privacy": 6.5,
+      "adFreedom": 3.5,
+      "value": 5.5
+    },
+    "pros": [
+      "Nothing else in the category comes close to 21 inches on a kitchen wall",
+      "Keeps the physical camera shutter, unlike the newer Show 8 and 11",
+      "Complete hub: Zigbee, Thread border router and Matter",
+      "Wall mount and Fire TV remote are both in the box"
+    ],
+    "cons": [
+      "1920 x 1080 stretched across 21 inches is about 105 ppi — pixels are visible up close",
+      "Same two woofers and two tweeters as the 15.6-inch model, in a much larger cabinet",
+      "$399.99 buys a 1080p panel; a same-sized 1080p TV plus a Fire TV Stick costs far less",
+      "Counter stand $99.99 and frame kit $39.99 are both extra",
+      "Sponsored home-screen content cannot be disabled, on the biggest screen Amazon sells"
+    ],
+    "images": [],
+    "amazonAsin": "B0CDWWS127",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "echo-show-15-2nd-gen",
+      "echo-show-11-2025",
+      "echo-hub",
+      "nest-hub-max"
+    ],
+    "useCases": [
+      "kitchen",
+      "family-organizer",
+      "video-calling",
+      "smart-home-control"
+    ],
+    "shortTagline": "The biggest screen in the category, at a pixel density a 2015 TV would be embarrassed by."
+  },
+  {
+    "id": "sd-pixel-tablet",
+    "categorySlug": "smart-displays",
+    "brand": "Google",
+    "series": "Pixel Tablet",
+    "model": "Google Pixel Tablet (128 GB, dock sold separately)",
+    "slug": "pixel-tablet",
+    "releaseYear": 2023,
+    "price": 399.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Porcelain"
+    ],
+    "material": "Nano-ceramic coated aluminium",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi 6",
+      "Bluetooth",
+      "Matter over Wi-Fi",
+      "USB-C"
+    ],
+    "features": [
+      "Hub Mode turns it into a Google smart display when docked",
+      "Highest-resolution screen in the category at 2560 x 1600",
+      "Tensor G2 silicon, so it is a real Android tablet when undocked",
+      "Runs Gemini for Home alongside the full Android app catalogue",
+      "Google Home hub / Matter controller"
+    ],
+    "specs": {
+      "voiceAssistant": "Gemini for Home in Hub Mode, plus the full Gemini Android app; no subscription for basic voice control",
+      "screenSize": 10.95,
+      "resolution": "2560 x 1600",
+      "touchscreen": true,
+      "camera": "8 MP front camera (and an 8 MP rear camera)",
+      "cameraShutter": "No shutter and no hardware kill switch — Android's software privacy indicators and toggles only",
+      "speakers": "Four tablet speakers; the Charging Speaker Dock adds a larger driver but is NOT included at this price",
+      "smartHomeHub": "Google Home hub / Matter controller over Wi-Fi only — no Zigbee and NOT a Thread border router; Google names only Nest Hub (2nd gen), Nest Hub Max and Nest Wifi Pro as border routers",
+      "assistantSubscription": "No subscription for voice control; Google Home Premium ($10/mo or $20/mo) for camera history, and Google AI Pro for the higher Gemini tiers",
+      "homeScreenAds": "No sponsored cards in Hub Mode",
+      "videoCalling": "Google Meet, plus any Android video-calling app from the Play Store — the only device here that is not locked to one caller network",
+      "wallMountable": false
+    },
+    "scores": {
+      "displayQuality": 9.5,
+      "sound": 5.5,
+      "assistant": 7.0,
+      "smartHomeHub": 5.0,
+      "ecosystemFreedom": 8.5,
+      "privacy": 5.5,
+      "adFreedom": 9.0,
+      "value": 5.0
+    },
+    "pros": [
+      "2560 x 1600 makes every dedicated smart display in this list look coarse",
+      "Runs any Android app, so it is the only device here that can do Zoom, FaceTime-adjacent apps or Home Assistant",
+      "No ads in Hub Mode and no vendor lock on video calling",
+      "Undocks and becomes a genuinely good tablet — nothing else here leaves the counter"
+    ],
+    "cons": [
+      "The Charging Speaker Dock that makes it a smart display is now a $129 accessory — it used to be included",
+      "Not a Thread border router and no Zigbee, so it hubs less than a $99.99 Nest Hub",
+      "$399 before the dock; $528 to match what a $229 Nest Hub Max does out of the box",
+      "No hardware camera or mic kill switch of any kind",
+      "2023 Tensor G2 hardware, and Google has not announced a successor"
+    ],
+    "images": [],
+    "amazonAsin": "B0CZMFZMR8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "nest-hub-max",
+      "echo-show-11-2025",
+      "nest-hub-2nd-gen",
+      "echo-show-15-2nd-gen"
+    ],
+    "useCases": [
+      "kitchen",
+      "video-calling",
+      "family-organizer"
+    ],
+    "shortTagline": "The sharpest screen and the freest software — but the dock that makes it a display costs $129."
+  }
+]

@@ -1,0 +1,977 @@
+[
+  {
+    "id": "st-nest-learning-thermostat-4th-gen",
+    "categorySlug": "smart-thermostats",
+    "brand": "Google",
+    "series": "Nest Learning Thermostat",
+    "model": "Google Nest Learning Thermostat (4th gen)",
+    "slug": "nest-learning-thermostat-4th-gen",
+    "releaseYear": 2024,
+    "price": 239.99,
+    "msrp": 279.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Polished Silver",
+      "Polished Obsidian",
+      "Polished Gold"
+    ],
+    "material": "Polished metal ring around a 2.7in glass display face; Google does not publish the alloy",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Matter"
+    ],
+    "features": [
+      "Builds its own schedule by learning what you do — no programming",
+      "Soli radar wakes the 2.7in circular display as you walk up",
+      "Nest Temperature Sensor (2nd gen) in the box, up to 6 more supported",
+      "Power Sharing runs it with no C wire in most homes",
+      "Drives 3 stages plus humidifier, dehumidifier and ventilator"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24V only — gas, electric, oil, forced air, heat pump and radiant. Will not run 120/240V baseboard or radiant electric heat",
+      "cWireRequired": "Not in most homes. Google's patented Power Sharing borrows power from the other wires, and the store page claims roughly 85% system compatibility — but it also states heating-only, cooling-only, zone-controlled and heat pump systems need a Nest Power Connector or a C wire",
+      "cWireWorkaroundIncluded": "No — the Nest Power Connector is a separate $24.99 accessory, not in the box",
+      "heatCoolStages": "Up to 3 stages of heating and cooling, plus fan speed control",
+      "heatPumpSupport": "Yes, including auxiliary and emergency heat",
+      "accessoryTerminals": "Humidifier, dehumidifier and ventilation (HRV/ERV) systems all supported — the widest accessory coverage of the Nest line",
+      "remoteSensors": "One Nest Temperature Sensor (2nd gen) included; up to 6 more. Google states all generations of the sensor work with this model",
+      "occupancyDetection": "Soli radar senses presence and proximity at the thermostat itself, plus phone-location Home/Away. The Nest Temperature Sensor reads temperature only — it does not detect occupancy",
+      "matterSupport": "Matter-certified, so it appears in any Matter app including Apple Home. Google does not publish a Thread radio for this model",
+      "platforms": "Google Home app (required for setup and control — the standalone Nest app is retired), Amazon Alexa, Apple Home via Matter",
+      "utilityPrograms": "Rush Hour Rewards, run by Renew Home with your energy provider, plus Nest Renew Energy Shift. Google's own help page says Rush Hour Rewards makes adjustments 'typically up to 4°F' for 3-4 hours during demand events; enrolment is through the Google Home app",
+      "subscriptionRequired": "No subscription. Learning, Savings Finder and Eco when Away are free, but a Google account and the Google Home app are mandatory"
+    },
+    "scores": {
+      "cWireFreedom": 8.5,
+      "hvacCoverage": 9.5,
+      "multiRoomSensing": 7.5,
+      "smartHomeIntegration": 8.5,
+      "automation": 9.5,
+      "displayAndControls": 9.0,
+      "installEase": 8.0,
+      "value": 6.5
+    },
+    "pros": [
+      "The only thermostat here that genuinely writes its own schedule — install it and you can never open the app again",
+      "Runs without a C wire in most homes, which no ecobee, Sensi Touch 2, Amazon or Honeywell X-series model here can claim",
+      "Three stages plus humidifier, dehumidifier and ventilator terminals — the broadest HVAC coverage in this set alongside the ecobee Premium",
+      "Bundles a temperature sensor at a price where the $199.99 ecobee Enhanced bundles none"
+    ],
+    "cons": [
+      "'No C wire required' carries a long asterisk: Google's own page lists heating-only, cooling-only, zone-controlled and heat pump systems as needing the $24.99 Nest Power Connector, which covers a large share of US homes",
+      "The bundled Nest Temperature Sensor is temperature-only — it cannot tell whether a room is occupied, which every ecobee SmartSensor can",
+      "Setup and control are locked to a Google account and the Google Home app; the old Nest app and Works with Nest are gone",
+      "Rush Hour Rewards pays you to let the utility push your setpoint by up to about 4°F for three to four hours at a time",
+      "Highest list price here at $279.99, on a 2-year warranty that both ecobee and Mysa beat"
+    ],
+    "images": [],
+    "amazonAsin": "B0D5BBYRJM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "nest-thermostat",
+      "ecobee-smart-thermostat-premium",
+      "ecobee-smart-thermostat-enhanced",
+      "honeywell-home-x8s"
+    ],
+    "useCases": [
+      "heat-pump",
+      "multi-room",
+      "matter",
+      "no-c-wire"
+    ],
+    "shortTagline": "The only one that really learns your schedule, and it usually needs no C wire."
+  },
+  {
+    "id": "st-nest-thermostat",
+    "categorySlug": "smart-thermostats",
+    "brand": "Google",
+    "series": "Nest Thermostat",
+    "model": "Google Nest Thermostat (2020)",
+    "slug": "nest-thermostat",
+    "releaseYear": 2020,
+    "price": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Snow",
+      "Charcoal",
+      "Sand",
+      "Fog"
+    ],
+    "material": "Mirrored polycarbonate front with a side touch strip; Google says the plastic parts are 49% recycled",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Bluetooth LE",
+      "Matter"
+    ],
+    "features": [
+      "Matter-certified, so it lands in Apple Home as well as Google and Alexa",
+      "Guided schedule setup in the Google Home app instead of learning",
+      "Two AAA cells back the display up if HVAC power drops",
+      "Quick Schedule and Savings Finder suggest tweaks after install",
+      "Side touch strip instead of the Learning Thermostat's rotating ring"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24V only — furnaces, air conditioners, boilers and heat pumps. Not for 120/240V line-voltage heat",
+      "cWireRequired": "Not in most homes, but Google's own store page states heating-only, cooling-only, zone-controlled and heat pump systems need the Nest Power Connector or a C wire",
+      "cWireWorkaroundIncluded": "No — Nest Power Connector is a separate $24.99 accessory",
+      "heatCoolStages": "Google's tech-spec page lists conventional single-stage systems and heat pumps with auxiliary or emergency heat. Unlike the Learning Thermostat, it does not publish multi-stage conventional support",
+      "heatPumpSupport": "Yes, with auxiliary and emergency heat",
+      "accessoryTerminals": "Not published for this model. Google lists humidifier, dehumidifier and ventilator support only on the Learning Thermostat",
+      "remoteSensors": "None. Google states explicitly that the Nest Thermostat is not compatible with the Nest Temperature Sensor",
+      "occupancyDetection": "Built-in motion sensor at the thermostat plus phone-location Home/Away. No remote occupancy sensing of any kind",
+      "matterSupport": "Matter-certified — works with Google Home, Alexa and Apple Home",
+      "platforms": "Google Home app (required), Amazon Alexa, Apple Home via Matter",
+      "utilityPrograms": "Rush Hour Rewards and Nest Renew. Google's help page also notes Seasonal Savings currently supports the Nest Thermostat (2020) and Thermostat E, nudging setpoints up to 2°F over three weeks",
+      "subscriptionRequired": "No subscription, but a Google account and the Google Home app are required"
+    },
+    "scores": {
+      "cWireFreedom": 8.0,
+      "hvacCoverage": 5.5,
+      "multiRoomSensing": 1.5,
+      "smartHomeIntegration": 8.5,
+      "automation": 6.5,
+      "displayAndControls": 6.5,
+      "installEase": 8.5,
+      "value": 8.0
+    },
+    "pros": [
+      "Matter certification at $129.99 puts it in Apple Home, which no ecobee, Sensi or Amazon model here manages",
+      "Same Power Sharing wiring trick as the Learning Thermostat, so it usually installs without a C wire",
+      "Battery backup on two AAA cells — the Amazon, X2S and Sensi Touch 2 all go dark if 24V power drops",
+      "Cheapest way into the Google ecosystem with a real touch UI, at less than half the Learning Thermostat's list price"
+    ],
+    "cons": [
+      "No remote sensor support at all — Google says outright it is not compatible with the Nest Temperature Sensor, so this is a one-room thermostat",
+      "It does not learn. Google gives it guided schedule setup instead, which is the single feature people think they are buying when they buy 'a Nest'",
+      "Google's spec page only claims single-stage conventional support; two-stage furnace owners should check compatibility before buying",
+      "No published humidifier, dehumidifier or ventilator terminals",
+      "1-year warranty, against 2 on the Learning Thermostat and 3 on every ecobee here"
+    ],
+    "images": [],
+    "amazonAsin": "B08HRPDYTP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "nest-learning-thermostat-4th-gen",
+      "ecobee-smart-thermostat-essential",
+      "amazon-smart-thermostat",
+      "honeywell-home-x2s"
+    ],
+    "useCases": [
+      "heat-pump",
+      "matter",
+      "no-c-wire"
+    ],
+    "shortTagline": "Matter-certified and usually C-wire-free, but it does not learn and takes no sensors."
+  },
+  {
+    "id": "st-ecobee-smart-thermostat-premium",
+    "categorySlug": "smart-thermostats",
+    "brand": "ecobee",
+    "series": "Smart Thermostat",
+    "model": "ecobee Smart Thermostat Premium (EB-STATE6-01)",
+    "slug": "ecobee-smart-thermostat-premium",
+    "releaseYear": 2022,
+    "price": 259.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Black glass front in a die-cast zinc alloy frame",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Bluetooth 5.0",
+      "915MHz sensor radio"
+    ],
+    "features": [
+      "Power Extender Kit in the box — no C wire needed if you have R, W, Y and G",
+      "SmartSensor in the box; up to 32 pair, each sensing temperature and occupancy",
+      "Radar occupancy and proximity sensing built into the thermostat",
+      "Indoor air quality monitor with alerts and guidance",
+      "Alexa built in with speaker and mic, or Siri via Apple HomeKit"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24VAC — furnaces, air conditioners, heat pumps, boilers, PTAC and fan coil units. Not for 120/240V line-voltage heat",
+      "cWireRequired": "Not in practice. ecobee ships the Power Extender Kit in the box, which synthesises a common wire from R, W, Y and G at the furnace. Direct wiring uses C and Rc if you do have five wires",
+      "cWireWorkaroundIncluded": "Yes — Power Extender Kit included. The same kit is a $24.99 extra on the Essential",
+      "heatCoolStages": "2H/2C conventional; boilers, PTAC and fan coil units with up to 3 fan speeds",
+      "heatPumpSupport": "Yes — heat pump 2H/2C plus 2 stages of auxiliary heat, the deepest heat-pump staging in this set",
+      "accessoryTerminals": "One 1-wire or one 2-wire accessory on the ACC+/ACC− terminals: humidifier, dehumidifier or HRV/ERV ventilator",
+      "remoteSensors": "One SmartSensor in the box; up to 32 pair, over a 915MHz radio at up to 60 ft. Extra sensors are $99.99 for a 2-pack",
+      "occupancyDetection": "Radar occupancy and proximity in the thermostat, and every SmartSensor also detects occupancy over a 140° x 100° field to about 20 ft",
+      "matterSupport": "Not shipping on this model. ecobee's own spec page lists HomeKit, Alexa, Google Assistant, SmartThings and IFTTT and never mentions Matter; third-party write-ups describe a phased rollout, so treat Matter as unconfirmed here",
+      "platforms": "Apple HomeKit with Siri, Alexa built in (speaker and microphone), Google Assistant, Samsung SmartThings, IFTTT",
+      "utilityPrograms": "eco+ Community Energy Savings with 150+ North American utilities. ecobee states events move your temperature 1-4°F for no more than a few hours, a handful of times a year, and you can opt out of any event from the app; some programs pay an enrolment rebate up to $125",
+      "subscriptionRequired": "No subscription for eco+, energy reports, remote sensors or scheduling. ecobee Smart Security — the intrusion-monitoring layer on the same hardware — is the paid tier"
+    },
+    "scores": {
+      "cWireFreedom": 9.5,
+      "hvacCoverage": 9.5,
+      "multiRoomSensing": 9.5,
+      "smartHomeIntegration": 7.5,
+      "automation": 8.5,
+      "displayAndControls": 9.0,
+      "installEase": 8.5,
+      "value": 6.5
+    },
+    "pros": [
+      "The Power Extender Kit is in the box, so the C-wire problem is solved at purchase rather than at $25 extra or a $200 electrician call",
+      "Heat pump 2H/2C plus two auxiliary stages beats every other thermostat here on staging depth",
+      "SmartSensors detect occupancy as well as temperature — Google's, Honeywell's cheaper models' and Sensi's sensors mostly do not",
+      "Built-in speaker and mic make it a working Alexa device, and it doubles as an ecobee Smart Security hub",
+      "3-year warranty, a year longer than Google and Resideo"
+    ],
+    "cons": [
+      "No Matter. ecobee's own spec sheet lists HomeKit, Alexa, Google, SmartThings and IFTTT and nothing else, which is a strange gap on a $260 flagship in 2026",
+      "$259.99 is the second-highest price here and it went up — ecobee has quietly raised list prices across the range",
+      "The air-quality monitor produces a score and advice, not a calibrated PM2.5 or VOC reading you can act on",
+      "Alexa built in means an always-listening mic on your hallway wall, with no hardware mute switch of the kind Echo speakers have",
+      "Only one accessory circuit — a humidifier and an ERV cannot both be wired at once"
+    ],
+    "images": [],
+    "amazonAsin": "B09XXS48P8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecobee-smart-thermostat-enhanced",
+      "nest-learning-thermostat-4th-gen",
+      "honeywell-home-x8s",
+      "sensi-touch-2"
+    ],
+    "useCases": [
+      "heat-pump",
+      "multi-room",
+      "no-c-wire"
+    ],
+    "shortTagline": "Best sensors and deepest heat-pump staging here — and still no Matter in 2026."
+  },
+  {
+    "id": "st-ecobee-smart-thermostat-enhanced",
+    "categorySlug": "smart-thermostats",
+    "brand": "ecobee",
+    "series": "Smart Thermostat",
+    "model": "ecobee Smart Thermostat Enhanced (EB-STATE6L-01)",
+    "slug": "ecobee-smart-thermostat-enhanced",
+    "releaseYear": 2022,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Black glass front with a plastic frame",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Bluetooth 5.0",
+      "915MHz sensor radio"
+    ],
+    "features": [
+      "Power Extender Kit in the box, same as the Premium",
+      "Radar occupancy and proximity sensing built in — the Essential has none",
+      "Same 4in 540x540 touchscreen as the Premium",
+      "One-wire accessory terminal for a humidifier, dehumidifier or ventilator",
+      "Works with up to 32 SmartSensors, sold separately"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24VAC — furnaces, air conditioners, heat pumps, boilers, PTAC and fan coil units. Not for 120/240V line-voltage heat",
+      "cWireRequired": "Not in practice — the Power Extender Kit is included and creates a common wire from R, W, Y and G",
+      "cWireWorkaroundIncluded": "Yes — Power Extender Kit included in the box",
+      "heatCoolStages": "2H/2C conventional; boilers, PTAC and fan coil units",
+      "heatPumpSupport": "Yes — heat pump 2H/2C plus 1 stage of auxiliary heat (the Premium gets 2)",
+      "accessoryTerminals": "One 1-wire accessory: humidifier, dehumidifier or HRV/ERV ventilator. The Premium's 2-wire option is not available here",
+      "remoteSensors": "None in the box. Up to 32 SmartSensors pair, sold separately at $99.99 for a 2-pack",
+      "occupancyDetection": "Radar occupancy and proximity in the thermostat. Room-level occupancy needs SmartSensors you have to buy",
+      "matterSupport": "Not listed on ecobee's spec page for this model",
+      "platforms": "Apple HomeKit with Siri, Amazon Alexa, Samsung SmartThings and IFTTT are what ecobee's spec page lists; ecobee's retail listing also claims Google Assistant. No built-in microphone or speaker",
+      "utilityPrograms": "eco+ Community Energy Savings with 150+ utilities; enrolled events shift your temperature 1-4°F for a few hours a handful of times a year, opt-out per event",
+      "subscriptionRequired": "No subscription. A free ecobee account is required"
+    },
+    "scores": {
+      "cWireFreedom": 9.5,
+      "hvacCoverage": 8.5,
+      "multiRoomSensing": 7.0,
+      "smartHomeIntegration": 7.0,
+      "automation": 8.5,
+      "displayAndControls": 8.5,
+      "installEase": 8.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Same screen, same radar occupancy sensor and the same in-the-box Power Extender Kit as the $259.99 Premium, for $60 less",
+      "Handles heat pump 2H/2C with aux, which is more staging than the Nest Thermostat, X2S, Sensi Lite or Amazon can manage",
+      "Still takes 32 occupancy-sensing SmartSensors if you add them later",
+      "3-year warranty"
+    ],
+    "cons": [
+      "No SmartSensor in the box — buy one and the price gap to the Premium closes to almost nothing",
+      "No air quality monitor, no speaker and no built-in Alexa or Siri voice",
+      "One auxiliary heat stage instead of the Premium's two, which matters on cold-climate heat pumps",
+      "No Matter on ecobee's spec list, so Matter-only smart home setups are out",
+      "Only one 1-wire accessory circuit, so a humidifier and a ventilator cannot both be driven"
+    ],
+    "images": [],
+    "amazonAsin": "B09XXTQPXC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecobee-smart-thermostat-premium",
+      "ecobee-smart-thermostat-essential",
+      "nest-learning-thermostat-4th-gen",
+      "sensi-touch-2"
+    ],
+    "useCases": [
+      "heat-pump",
+      "multi-room",
+      "no-c-wire"
+    ],
+    "shortTagline": "The Premium's screen, radar and power kit for $60 less — you just supply your own sensor."
+  },
+  {
+    "id": "st-ecobee-smart-thermostat-essential",
+    "categorySlug": "smart-thermostats",
+    "brand": "ecobee",
+    "series": "Smart Thermostat",
+    "model": "ecobee Smart Thermostat Essential",
+    "slug": "ecobee-smart-thermostat-essential",
+    "releaseYear": 2025,
+    "price": 139.99,
+    "msrp": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black front with white sides and back"
+    ],
+    "material": "Plastic body with a 2.8in colour LCD touchscreen",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "Wi-Fi 6 (2.4GHz)",
+      "Bluetooth LE 5.4"
+    ],
+    "features": [
+      "Wi-Fi 6 radio — newer than the Premium's dual-band 802.11ac",
+      "2.8in full-colour touchscreen at an entry price",
+      "Works with up to 32 ecobee SmartSensors (2nd gen or newer)",
+      "Apple HomeKit, Alexa and Google Assistant with no hub",
+      "Same 3-year ecobee warranty as the Premium"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24VAC gas, oil and electric forced-air systems. Not for 120/240V line-voltage heat",
+      "cWireRequired": "Yes — powered through the C and R terminals. This is the ecobee that does not include the fix",
+      "cWireWorkaroundIncluded": "No. The Power Extender Kit that ships free with the Premium and Enhanced is a $24.99 accessory here, and the trim plate is another $14.99",
+      "heatCoolStages": "2H/1C or 1H/2C conventional. The single OB terminal doubles as W2 or Y2, so you get one extra stage in total, not two",
+      "heatPumpSupport": "Yes, heat pump 2H/1C. No second compressor stage",
+      "accessoryTerminals": "None. There is no ACC terminal, so no humidifier, dehumidifier or ventilator control",
+      "remoteSensors": "None in the box. Up to 32 SmartSensors (2nd gen or newer) pair, sold separately. ecobee states the original ecobee Room Sensor is not compatible",
+      "occupancyDetection": "None built in — the Essential drops the radar occupancy sensor that the Premium and Enhanced have. Occupancy-based eco+ features need a SmartSensor you buy separately",
+      "matterSupport": "Not listed on ecobee's spec page for this model",
+      "platforms": "Apple HomeKit, Amazon Alexa, Google Assistant. No built-in voice, no speaker",
+      "utilityPrograms": "eco+ Community Energy Savings with 150+ utilities; enrolled demand events move your setpoint 1-4°F for a few hours, with per-event opt-out",
+      "subscriptionRequired": "No subscription. A free ecobee account is required"
+    },
+    "scores": {
+      "cWireFreedom": 4.5,
+      "hvacCoverage": 5.5,
+      "multiRoomSensing": 6.0,
+      "smartHomeIntegration": 6.5,
+      "automation": 7.5,
+      "displayAndControls": 6.5,
+      "installEase": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Cheapest route into ecobee's SmartSensor ecosystem — 32 occupancy-sensing sensors will pair to a $140 thermostat",
+      "Wi-Fi 6 and Bluetooth LE 5.4 make it the most modern radio stack in this comparison",
+      "3-year warranty at $139.99, which beats Google's 1-year on the similarly priced Nest Thermostat",
+      "Full colour touchscreen rather than the monochrome or button-driven UI at this price from Resideo and Copeland"
+    ],
+    "cons": [
+      "The Power Extender Kit that comes free with both bigger ecobees costs $24.99 here, so a C-wire-less home pays $165 not $140",
+      "The radar occupancy sensor is gone — the Essential cannot tell whether you are in the room without a $50 SmartSensor",
+      "No accessory terminal at all: no humidifier, dehumidifier or ventilator control",
+      "Heat pump support stops at 2H/1C, so cold-climate multi-stage systems are out",
+      "Launched at $129.99 in March 2025 and now lists at $139.99 — an eight percent rise in the first year"
+    ],
+    "images": [],
+    "amazonAsin": "B0DT9MC2Z9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecobee-smart-thermostat-enhanced",
+      "nest-thermostat",
+      "honeywell-home-x2s",
+      "sensi-lite"
+    ],
+    "useCases": [
+      "heat-pump",
+      "multi-room"
+    ],
+    "shortTagline": "The cheapest way into ecobee's sensors — but it is the ecobee that omits the C-wire kit."
+  },
+  {
+    "id": "st-amazon-smart-thermostat",
+    "categorySlug": "smart-thermostats",
+    "brand": "Amazon",
+    "series": "Smart Thermostat",
+    "model": "Amazon Smart Thermostat",
+    "slug": "amazon-smart-thermostat",
+    "releaseYear": 2021,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "White plastic with a capacitive front panel; trim plate included",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi"
+    ],
+    "features": [
+      "Built with Honeywell Home thermostat technology under Amazon's badge",
+      "Alexa Hunches turn the setpoint down when Alexa decides you are out",
+      "Energy Dashboard inside the Alexa app",
+      "Trim plate included, unlike the Sensi Touch 2",
+      "Comfort zones can take temperature readings from select Echo devices"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24V — Amazon lists conventional forced air, heat pump and radiant boiler. It does not work with 110-240V systems",
+      "cWireRequired": "Yes, hard requirement. Every Amazon, Best Buy and utility-store listing is titled 'C-wire required'",
+      "cWireWorkaroundIncluded": "No — the C-Wire Power Adapter is a separate purchase, or you buy the bundle SKU instead of this one",
+      "heatCoolStages": "Not published by Amazon. The listings say only 'most 24V heating and cooling systems (conventional forced air, heat pump, radiant boiler)' with no stage count anywhere — run Amazon's compatibility checker before buying",
+      "heatPumpSupport": "Listed as compatible with heat pumps. Amazon does not publish how it handles auxiliary or emergency heat",
+      "accessoryTerminals": "None published, and no humidifier, dehumidifier or ventilator control is advertised anywhere in the listing",
+      "remoteSensors": "No dedicated remote sensor exists for this thermostat. Best Buy's listing states comfort zones can use select Echo devices or the Amazon Smart Air Quality Monitor as temperature inputs instead",
+      "occupancyDetection": "None at the thermostat. Away behaviour comes entirely from Alexa Hunches",
+      "matterSupport": "No",
+      "platforms": "Amazon Alexa only. No Google Home, no Apple Home, no HomeKit, no SmartThings. The Alexa app is mandatory and most settings are not reachable on the thermostat screen at all",
+      "utilityPrograms": "ENERGY STAR certified and one of the most heavily rebated thermostats in US utility marketplaces; several utilities bundle it into demand-response enrolment",
+      "subscriptionRequired": "No subscription, but an Amazon account and the Alexa app are required and there is no web dashboard"
+    },
+    "scores": {
+      "cWireFreedom": 1.5,
+      "hvacCoverage": 4.5,
+      "multiRoomSensing": 2.5,
+      "smartHomeIntegration": 3.0,
+      "automation": 6.0,
+      "displayAndControls": 3.5,
+      "installEase": 6.5,
+      "value": 8.5
+    },
+    "pros": [
+      "$79.99 list, frequently discounted to $50-60, and rebated by more US utilities than almost anything else here",
+      "Honeywell Home hardware underneath, so the relay and wiring side is Resideo-grade rather than a no-name design",
+      "Alexa Hunches away-control works without you configuring a schedule at all",
+      "Trim plate included in the box, which Copeland charges extra for on the Sensi Touch 2"
+    ],
+    "cons": [
+      "A C wire is a hard requirement and the adapter is not in the box — the real cost in a four-wire home is the thermostat plus an adapter",
+      "Alexa only. There is no Google Home, no Apple Home, no HomeKit and no Matter, so it is a dead end outside Amazon's ecosystem",
+      "Most settings are not on the thermostat itself; without a phone and the Alexa app you can barely configure it",
+      "No remote sensors of any kind — the Echo comfort-zone workaround is not the same as a real room sensor",
+      "Amazon publishes no stage count, no accessory terminals and no wiring detail, so multi-stage and heat-pump owners are buying blind"
+    ],
+    "images": [],
+    "amazonAsin": "B08J4C8871",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "honeywell-home-x2s",
+      "sensi-lite",
+      "nest-thermostat",
+      "ecobee-smart-thermostat-essential"
+    ],
+    "useCases": [
+      "budget",
+      "heat-pump"
+    ],
+    "shortTagline": "Cheap, Honeywell-built and heavily rebated — but Alexa-only, and a C wire is required."
+  },
+  {
+    "id": "st-honeywell-home-x8s",
+    "categorySlug": "smart-thermostats",
+    "brand": "Honeywell Home",
+    "series": "X Series",
+    "model": "Honeywell Home X8S (X8VMC8B/U)",
+    "slug": "honeywell-home-x8s",
+    "releaseYear": 2025,
+    "price": 219.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic housing with a 5in customisable colour touchscreen",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi (802.11ax/ac)",
+      "Matter"
+    ],
+    "features": [
+      "5in touchscreen, the largest display in this comparison",
+      "Up to 20 wireless room sensors per home with 200ft range",
+      "Onboard radar occupancy plus presence detection in the sensors",
+      "Shows Ring and First Alert VX1 doorbell feeds on the thermostat",
+      "Free C-Wire Adapter by mail-in voucher in the box"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24V. Home Depot's listing states plainly that it does not work with 120-240V electric baseboard heat",
+      "cWireRequired": "Yes — Resideo states the X8S needs a constant 24V supply through a common wire",
+      "cWireWorkaroundIncluded": "Not in the box, but Home Depot's listing says the package contains a voucher for a free mail-in Honeywell Home C-Wire Adapter",
+      "heatCoolStages": "Sources conflict: Resideo's own product page says up to 4 Heat/2 Cool on heat pumps or 3 Heat/4 Cool conventional, while Home Depot's listing for the same product says up to 3 Heat/2 Cool heat pump or 2 Heat/2 Cool conventional",
+      "heatPumpSupport": "Yes, heat pump with electric backup",
+      "accessoryTerminals": "Resideo advertises 'advanced indoor air quality control' but notes additional HVAC equipment may be required, and publishes no plain humidifier/dehumidifier/ventilator terminal list",
+      "remoteSensors": "One wireless room sensor is included with the X8VMC9W and X8VWF10B SKUs only — not with this one. Up to 20 sensors per home, 200ft range, $44.99 each",
+      "occupancyDetection": "Yes — onboard radar in the thermostat plus occupancy and presence detection in the room sensors",
+      "matterSupport": "Matter certified, but shallow. Matter Alpha's review found the air quality readings the thermostat measures are not exposed over Matter at all, and scheduling still has to happen on the thermostat or in the First Alert app",
+      "platforms": "First Alert app by Resideo (required — you cannot generate the Matter pairing code without it), Amazon Alexa, Google Assistant, Apple Home via Matter",
+      "utilityPrograms": "ENERGY STAR certified and rebate-eligible; Resideo pitches enrolment in utility energy-management programs",
+      "subscriptionRequired": "No subscription for thermostat features. A First Alert account is required, and Resideo ships several different apps which reviewers found confusing"
+    },
+    "scores": {
+      "cWireFreedom": 4.5,
+      "hvacCoverage": 8.0,
+      "multiRoomSensing": 9.0,
+      "smartHomeIntegration": 6.5,
+      "automation": 7.5,
+      "displayAndControls": 9.5,
+      "installEase": 6.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Up to 20 room sensors at 200ft range — more sensor coverage than any other thermostat in this comparison bar the ecobees",
+      "5in colour touchscreen with a customisable idle screen, and it can display a Ring or First Alert doorbell feed",
+      "Radar occupancy in the thermostat plus presence detection in each sensor, at $40 under the ecobee Premium",
+      "The C-Wire Adapter is free — by mail-in voucher — where Amazon, Copeland and ecobee's Essential all charge for theirs"
+    ],
+    "cons": [
+      "Matter support is thin: air quality data is not exposed over Matter at all and you still cannot schedule through it",
+      "You must install the First Alert app just to generate the Matter code, which defeats much of the point of Matter",
+      "Resideo's own page and Home Depot's listing give different stage counts for the same thermostat — verify against your system before buying",
+      "The free C-wire adapter is a mail-in voucher, not a part in the box, so a C-wire-less install stalls until it arrives",
+      "Reviewers hit setup failures at launch and found the doorbell integration buried and limited to Ring and First Alert VX1"
+    ],
+    "images": [],
+    "amazonAsin": "B0FJMS2JT3",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecobee-smart-thermostat-premium",
+      "nest-learning-thermostat-4th-gen",
+      "sensi-touch-2",
+      "honeywell-home-x2s"
+    ],
+    "useCases": [
+      "multi-room",
+      "matter",
+      "heat-pump"
+    ],
+    "shortTagline": "Biggest screen and 20 room sensors, over a deliberately minimal Matter layer."
+  },
+  {
+    "id": "st-honeywell-home-x2s",
+    "categorySlug": "smart-thermostats",
+    "brand": "Honeywell Home",
+    "series": "X Series",
+    "model": "Honeywell Home X2S (RTH2CWF)",
+    "slug": "honeywell-home-x2s",
+    "releaseYear": 2025,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Gray",
+      "White"
+    ],
+    "material": "Plastic housing with a 4.84 sq in monochrome display and a UWP wall plate",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "5GHz Wi-Fi",
+      "Matter"
+    ],
+    "features": [
+      "Matter certified at $79.99 — the cheapest Matter thermostat here",
+      "UWP wall plate mounting shared with Resideo's professional range",
+      "Flexible 7-day, 5-1-1, 5-2 or 1-week scheduling",
+      "Geofencing away control through the First Alert app",
+      "Replaces the long-running RTH6580WF"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24V. Resideo states it does not work with electric baseboard heat at 120-240V",
+      "cWireRequired": "Yes, hard requirement. Resideo states a constant 24V C-wire supply is needed and the X2S is not battery powered",
+      "cWireWorkaroundIncluded": "No adapter of any kind is included",
+      "heatCoolStages": "Up to 2 Heat/2 Cool conventional",
+      "heatPumpSupport": "Yes — up to 2 Heat/1 Cool heat pump with electric backup",
+      "accessoryTerminals": "None published. Humidity is monitored and displayed, not controlled",
+      "remoteSensors": "None. There is no room sensor option for this model",
+      "occupancyDetection": "None. Away behaviour comes from geofencing in the First Alert app",
+      "matterSupport": "Matter certified — but Matter Alpha's reviewer could see temperature, humidity and mode in SmartThings and could not get setpoint changes to take effect, which breaks the automations Matter is meant to enable",
+      "platforms": "First Alert app by Resideo (required for setup and to generate the Matter code), Amazon Alexa, Google Assistant, Apple Home via Matter",
+      "utilityPrograms": "ENERGY STAR certified. Resideo's launch materials specifically call out enabling enrolment in utility energy-management programs",
+      "subscriptionRequired": "No subscription. A First Alert account is required"
+    },
+    "scores": {
+      "cWireFreedom": 1.0,
+      "hvacCoverage": 6.0,
+      "multiRoomSensing": 1.0,
+      "smartHomeIntegration": 6.5,
+      "automation": 5.5,
+      "displayAndControls": 5.0,
+      "installEase": 7.0,
+      "value": 8.5
+    },
+    "pros": [
+      "Matter certified, ENERGY STAR certified and dual-band Wi-Fi for $79.99 — nothing else here does all three that cheaply",
+      "2H/2C conventional staging is more than the similarly priced Sensi Lite or the Nest Thermostat publish",
+      "Mounts on Resideo's UWP plate, the same system professional installers use, which makes wiring tidy",
+      "2-year warranty at $80, double what Amazon and Google give at this price"
+    ],
+    "cons": [
+      "A C wire is mandatory and no adapter is included — in a four-wire house this $80 thermostat becomes an electrician's callout",
+      "Matter works only for reading state in at least one reviewer's testing: setpoint changes sent over Matter did not stick",
+      "You have to install the First Alert app to get a Matter pairing code, so Matter does not free you from the vendor app",
+      "No room sensors and no occupancy sensing at all — this is strictly a one-room thermostat",
+      "No humidifier, dehumidifier or ventilator control"
+    ],
+    "images": [],
+    "amazonAsin": "B0DSGCDMPT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazon-smart-thermostat",
+      "sensi-lite",
+      "nest-thermostat",
+      "honeywell-home-x8s"
+    ],
+    "useCases": [
+      "budget",
+      "matter",
+      "heat-pump"
+    ],
+    "shortTagline": "The cheapest Matter thermostat here, if you have a C wire and forgive its thin Matter."
+  },
+  {
+    "id": "st-sensi-touch-2",
+    "categorySlug": "smart-thermostats",
+    "brand": "Copeland",
+    "series": "Sensi",
+    "model": "Sensi Touch 2 (ST76)",
+    "slug": "sensi-touch-2",
+    "releaseYear": 2022,
+    "price": 189.0,
+    "msrp": 209.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black (ST76)",
+      "White beveled edge (ST76W)"
+    ],
+    "material": "Plastic housing with a colour touchscreen and a beveled bezel",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "Wi-Fi"
+    ],
+    "features": [
+      "Heat pump staging up to 4 Heat / 2 Cool",
+      "ACC+/ACC- terminals for humidifier and dehumidifier control",
+      "Sensi Room Sensors for averaged multi-room temperature",
+      "Geofencing from your phone's location",
+      "Copeland states it does not sell your data to third parties"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24VAC — gas, oil, electric, heat pump, boilers. Not for 120/240V line-voltage heat",
+      "cWireRequired": "Yes. Copeland's spec sheet requires 20-30VAC between RH/RC and C, and every retail listing is labelled 'C-Wire Required'",
+      "cWireWorkaroundIncluded": "No — the Sensi C-Wire Kit is a separate purchase at roughly $28",
+      "heatCoolStages": "1H/1C, 2H/2C multi-stage, and up to 4H/2C on heat pumps",
+      "heatPumpSupport": "Yes — up to 4 heat and 2 cool including auxiliary stages, the widest heat-pump staging here alongside the ecobee Premium",
+      "accessoryTerminals": "ACC+/ACC- terminals drive a humidifier or dehumidifier, with a humidify range of 5-50% RH and dehumidify 40-95% RH",
+      "remoteSensors": "Sensi Room Sensors at about $40 each, sold separately. Copeland states only the Touch 2 (ST76 / 1F96U series) supports them and does not publish a maximum count",
+      "occupancyDetection": "None. TechHive's review notes the Sensi Room Sensor reads ambient temperature and humidity and has no motion detection, unlike competitors' sensors",
+      "matterSupport": "No. TechHive states the Touch 2 supports neither Matter nor Apple HomeKit",
+      "platforms": "Sensi app, Amazon Alexa, Google Assistant and Samsung SmartThings. No Apple Home",
+      "utilityPrograms": "ENERGY STAR certified; Copeland runs Sensi demand-response partnerships with utilities and the thermostat is widely rebated",
+      "subscriptionRequired": "No subscription, and Copeland markets an explicit 'we do not sell your data' privacy position"
+    },
+    "scores": {
+      "cWireFreedom": 2.0,
+      "hvacCoverage": 9.0,
+      "multiRoomSensing": 4.5,
+      "smartHomeIntegration": 4.0,
+      "automation": 6.5,
+      "displayAndControls": 7.5,
+      "installEase": 7.0,
+      "value": 7.5
+    },
+    "pros": [
+      "4H/2C heat pump staging plus humidifier and dehumidifier terminals — genuinely serious HVAC coverage for under $200",
+      "3-year warranty and a published privacy stance that no other brand here makes explicit",
+      "Street price has settled around $189 against a $209.99 list, and it periodically drops much further",
+      "Real multi-stage and dual-fuel handling that the similarly priced Nest Thermostat and ecobee Essential do not offer"
+    ],
+    "cons": [
+      "No Matter and no Apple HomeKit — the Touch 2 dropped the HomeKit support the original Sensi Touch had",
+      "C wire required and the C-Wire Kit is a ~$28 extra, where ecobee includes an equivalent kit free",
+      "Sensi Room Sensors are $40 each, sold separately, and detect temperature and humidity only — no occupancy",
+      "No decorative trim plate in the box, so old paint outlines and screw holes show",
+      "Copeland does not publish how many room sensors can pair, which makes planning a multi-room setup guesswork"
+    ],
+    "images": [],
+    "amazonAsin": "B0BKH83KF9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecobee-smart-thermostat-enhanced",
+      "honeywell-home-x8s",
+      "sensi-lite",
+      "ecobee-smart-thermostat-premium"
+    ],
+    "useCases": [
+      "heat-pump",
+      "multi-room"
+    ],
+    "shortTagline": "Deep multi-stage and heat-pump wiring for under $200, with no Matter and no Apple Home."
+  },
+  {
+    "id": "st-sensi-lite",
+    "categorySlug": "smart-thermostats",
+    "brand": "Copeland",
+    "series": "Sensi",
+    "model": "Sensi Lite (ST25)",
+    "slug": "sensi-lite",
+    "releaseYear": 2023,
+    "price": 79.0,
+    "msrp": 89.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black (ST25)",
+      "White (ST25W)"
+    ],
+    "material": "Plastic housing with a glass touchscreen face",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth LE"
+    ],
+    "features": [
+      "Runs without a C wire on most conventional systems",
+      "Ten terminals including AUX, L and dual-fuel support",
+      "2.4GHz Wi-Fi plus Bluetooth LE for setup",
+      "Geofencing and flexible scheduling in the Sensi app",
+      "3-year limited warranty per Home Depot's specification table"
+    ],
+    "specs": {
+      "voltageType": "Low voltage 24VAC (20-30VAC, 50/60Hz). Not for 120/240V line-voltage heat",
+      "cWireRequired": "Mostly no — and Copeland is unusually honest about the exception. Its own product title reads 'C-Wire Not Required, Except On Heat/Cool Only and Heat Pump Systems', and the manual confirms heat-only, cool-only and heat pump systems all need a common wire",
+      "cWireWorkaroundIncluded": "No adapter is included, and none is needed on the majority of conventional systems",
+      "heatCoolStages": "2H/1C or 1H/2C, single and multi-stage, gas, oil or electric. Ten terminals: R, C, W/E, G, Y, O/B, Y2, W2, L and AUX, rated 1.5A per terminal and 2.5A total",
+      "heatPumpSupport": "Yes — heat pump 2H/1C, and the manual lists dual fuel and zone valve configurations. A heat pump does need a C wire on this model",
+      "accessoryTerminals": "None — no humidifier, dehumidifier or ventilator output",
+      "remoteSensors": "None. Copeland states only the Sensi Touch 2 works with Sensi Room Sensors",
+      "occupancyDetection": "None. Away control is geofencing from your phone only",
+      "matterSupport": "No",
+      "platforms": "Sensi app, Amazon Alexa, Google Assistant, Samsung SmartThings. No Apple Home",
+      "utilityPrograms": "ENERGY STAR certified, rated for about 23% HVAC energy savings, and stocked across US utility rebate marketplaces",
+      "subscriptionRequired": "No subscription. A free Sensi account is required"
+    },
+    "scores": {
+      "cWireFreedom": 8.0,
+      "hvacCoverage": 6.5,
+      "multiRoomSensing": 1.0,
+      "smartHomeIntegration": 4.0,
+      "automation": 5.0,
+      "displayAndControls": 5.0,
+      "installEase": 8.5,
+      "value": 9.0
+    },
+    "pros": [
+      "One of only three thermostats here that runs without a C wire on ordinary conventional systems, and by far the cheapest",
+      "Ten terminals including AUX and L, with dual-fuel and zone-valve support that no other sub-$100 model here documents",
+      "Copeland spells out the C-wire exception in the product title itself instead of burying it in a compatibility checker",
+      "$79 street against $89.99 list, with heavy utility-marketplace rebate availability"
+    ],
+    "cons": [
+      "The C-wire exemption evaporates exactly where it matters: heat-only, cool-only and heat pump systems all need one",
+      "No Apple Home and no Matter, so it is Alexa, Google or the Sensi app and nothing else",
+      "No room sensor support at all — Copeland reserves Sensi Room Sensors for the Touch 2",
+      "No humidifier or ventilator terminals despite the generous terminal count",
+      "No trim plate and no battery backup — the manual states there is no battery option, so a blown 24V fuse leaves the screen dark"
+    ],
+    "images": [],
+    "amazonAsin": "B0BXZ6KXGG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "honeywell-home-x2s",
+      "amazon-smart-thermostat",
+      "sensi-touch-2",
+      "ecobee-smart-thermostat-essential"
+    ],
+    "useCases": [
+      "budget",
+      "no-c-wire",
+      "heat-pump"
+    ],
+    "shortTagline": "The cheapest truly C-wire-free thermostat — until you own a heat pump, and then it isn't."
+  },
+  {
+    "id": "st-mysa-baseboard-v2",
+    "categorySlug": "smart-thermostats",
+    "brand": "Mysa",
+    "series": "Baseboard",
+    "model": "Mysa Smart Thermostat for Electric Baseboard Heaters V2 (MYSA-V2-0 / BB2001NAUS)",
+    "slug": "mysa-baseboard-v2",
+    "releaseYear": 2021,
+    "price": 159.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Moulded plastic body with a glass faceplate and capacitive touch controls",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "Line voltage: 120V or 240V, 16A, 3,800W at 240V",
+      "Real-time energy monitoring and charting per heater",
+      "Humidity sensor plus light and proximity sensors",
+      "Works with Apple HomeKit, Alexa and Google Home",
+      "5-year warranty on Mysa's own product page"
+    ],
+    "specs": {
+      "voltageType": "Line voltage 120V or 240V AC, 16A maximum — 3,800W at 240V or 1,900W at 120V, on a 20A breaker. This is the opposite of every 24V thermostat here; a low-voltage model will not run baseboard heat and this will not run a furnace",
+      "cWireRequired": "Not applicable — line-voltage thermostats have no C wire. It does need both line conductors (L1 and L2/neutral) present in the box, so a two-wire switch loop will not work",
+      "cWireWorkaroundIncluded": "Not applicable",
+      "heatCoolStages": "Heating only, on/off line-voltage switching. No cooling and no staging",
+      "heatPumpSupport": "No. Mysa states it does not work with 24V furnaces or central air, millivolt systems, central hydronic boilers, or electric in-floor heating, which needs a different Mysa product",
+      "accessoryTerminals": "None",
+      "remoteSensors": "None. Mysa's model is one thermostat per heater circuit, so each room is its own zone rather than a sensor network",
+      "occupancyDetection": "Light and proximity sensors wake and dim the display on the V2. Away control is app geofencing. There is no room occupancy sensing",
+      "matterSupport": "Not listed for the baseboard models. Mysa's own Matter article covers the central-HVAC Smart Thermostat and says Matter is 'expected in early 2026 via firmware update'",
+      "platforms": "Mysa app, Apple HomeKit, Amazon Alexa, Google Home",
+      "utilityPrograms": "Mysa states both baseboard models support utility demand-response programs, and the V2 is stocked across US utility rebate marketplaces",
+      "subscriptionRequired": "No subscription — Mysa markets the app as 100% free"
+    },
+    "scores": {
+      "cWireFreedom": 7.5,
+      "hvacCoverage": 3.0,
+      "multiRoomSensing": 3.5,
+      "smartHomeIntegration": 6.5,
+      "automation": 7.0,
+      "displayAndControls": 7.5,
+      "installEase": 5.5,
+      "value": 7.0
+    },
+    "pros": [
+      "One of the very few smart thermostats that actually controls 120/240V electric baseboard heat, which no Nest, ecobee, Sensi or Honeywell model here can touch",
+      "Real energy monitoring in watts per heater, so you can see which room is eating the bill",
+      "Apple HomeKit, Alexa and Google support with no hub, on a 5-year warranty",
+      "One thermostat per heater means genuine per-room zoning without buying a sensor ecosystem"
+    ],
+    "cons": [
+      "16A / 3,800W ceiling at 240V, and it needs both L1 and L2 in the box — a two-wire switch loop or an oversized heater bank is a hard no",
+      "Heating only, on/off. No cooling, no staging, no humidifier, no ventilator",
+      "No Matter. Mysa's Matter rollout is documented for the central-HVAC thermostat, not the baseboard line",
+      "Warranty sources conflict: Mysa's own page claims 5 years while SupplyHouse's listing for MYSA-V2-0 says 2",
+      "You need one per heater circuit, so a four-room apartment is four thermostats and four installs"
+    ],
+    "images": [],
+    "amazonAsin": "B09FQ9L3Q6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "mysa-baseboard-lite",
+      "nest-thermostat",
+      "sensi-lite"
+    ],
+    "useCases": [
+      "line-voltage",
+      "multi-room"
+    ],
+    "shortTagline": "The default smart thermostat for electric baseboard heat — and it will not run a furnace."
+  },
+  {
+    "id": "st-mysa-baseboard-lite",
+    "categorySlug": "smart-thermostats",
+    "brand": "Mysa",
+    "series": "Baseboard",
+    "model": "Mysa Smart Thermostat LITE for Electric Baseboard Heaters",
+    "slug": "mysa-baseboard-lite",
+    "releaseYear": 2023,
+    "price": 99.0,
+    "msrp": 109.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Moulded plastic faceplate with physical clickable buttons",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "Same 120-240V, 16A, 3,800W switching as the V2",
+      "Smallest line-voltage smart thermostat here at 4.4 x 3 x 0.6in",
+      "Physical buttons instead of a touchscreen",
+      "Apple HomeKit, Alexa and Google Home with no hub",
+      "5-year warranty at under $100"
+    ],
+    "specs": {
+      "voltageType": "Line voltage 120V or 240V AC, 16A maximum — 3,800W at 240V or 1,900W at 120V, identical to the V2. Not compatible with any 24V system",
+      "cWireRequired": "Not applicable — line voltage. Both line conductors must be present in the gang box",
+      "cWireWorkaroundIncluded": "Not applicable",
+      "heatCoolStages": "Heating only, on/off line-voltage switching. No cooling and no staging",
+      "heatPumpSupport": "No. Same exclusions as the V2: no 24V furnaces or central air, no millivolt, no central hydronic boilers, no electric in-floor heating",
+      "accessoryTerminals": "None",
+      "remoteSensors": "None. One thermostat per heater circuit",
+      "occupancyDetection": "None. The LITE drops the V2's light and proximity sensors entirely, and there is no humidity sensor either. Away control is app geofencing",
+      "matterSupport": "Not listed for the baseboard models",
+      "platforms": "Mysa app, Apple HomeKit, Amazon Alexa, Google Home",
+      "utilityPrograms": "Mysa states the LITE supports utility demand-response programs and it is stocked in US utility rebate marketplaces",
+      "subscriptionRequired": "No subscription"
+    },
+    "scores": {
+      "cWireFreedom": 7.5,
+      "hvacCoverage": 3.0,
+      "multiRoomSensing": 3.0,
+      "smartHomeIntegration": 6.5,
+      "automation": 6.0,
+      "displayAndControls": 5.0,
+      "installEase": 6.5,
+      "value": 8.5
+    },
+    "pros": [
+      "Under $100 for a real line-voltage smart thermostat with HomeKit, Alexa and Google support and a 5-year warranty",
+      "Identical 16A / 3,800W switching capability to the $159 V2 — you lose features, not capacity",
+      "Physically the smallest thermostat here, which matters when you are fitting several in one apartment",
+      "Launched at $109 in 2023 and now sells for $99, one of the few products here whose price has gone down"
+    ],
+    "cons": [
+      "No energy monitoring, no humidity sensor and no light or proximity sensors — the V2's whole value-add is stripped out",
+      "Buttons rather than a touchscreen, and Mysa's app carries most of the configuration",
+      "Heating only. No cooling, no staging, no accessory control",
+      "No Matter on the baseboard line",
+      "Still one unit per heater circuit, so a whole-home baseboard retrofit is a multi-hundred-dollar project"
+    ],
+    "images": [],
+    "amazonAsin": "B0F5BVD9FM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "mysa-baseboard-v2",
+      "sensi-lite",
+      "honeywell-home-x2s"
+    ],
+    "useCases": [
+      "line-voltage",
+      "budget",
+      "multi-room"
+    ],
+    "shortTagline": "Baseboard control under $100: same switching as the V2, none of its sensors."
+  }
+]

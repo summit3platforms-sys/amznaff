@@ -1,0 +1,962 @@
+[
+  {
+    "id": "sli-hue-white-color-ambiance-a19-2-pack",
+    "categorySlug": "smart-lights",
+    "brand": "Philips Hue",
+    "series": "White and Color Ambiance",
+    "model": "Philips Hue White and Color Ambiance A19 810 lm 2-Pack (Chromasync, 046677590857)",
+    "slug": "hue-white-color-ambiance-a19-2-pack",
+    "releaseYear": 2025,
+    "price": 98.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 36,
+    "connectivity": [
+      "Bluetooth",
+      "Zigbee",
+      "Matter (via Hue Bridge)"
+    ],
+    "features": [
+      "Chromasync precision colour matching, Signify's redesigned colour engine",
+      "Ultra-low dimming to 0.2% — ten times lower than the Hue Essential's 2% floor",
+      "Full-spectrum white from 1000 K to 20000 K",
+      "Zigbee through the Bridge, so scenes and switches keep running with the internet down",
+      "Signify commits to a minimum 60-month firmware support period"
+    ],
+    "specs": {
+      "lumensWhite": "810 lm at 4000K — the only lumen figure Signify publishes for this bulb; there is no 2700K number on the spec sheet",
+      "lumensColor": "Not published by the manufacturer — the spec table lists only 'Lumen output at 4000K: 810'",
+      "colorTempRange": "1000-20000 K full-spectrum white, plus 16 million colours",
+      "cri": ">80 (Signify's own figure — the same >80 it prints on the far cheaper Hue Essential)",
+      "protocol": "Bluetooth + Zigbee. Matter only through a Hue Bridge or another Zigbee/Matter bridge; the bulb has no Wi-Fi and no Thread radio",
+      "hubRequired": "Not for basic Bluetooth control, but Signify's own spec sheet lists 'Voice assistants (Hue Bridge required)'. Bridge $69.99 (50 lights, 12 accessories) or Bridge Pro $139.99 (150+ lights, 50+ accessories), neither in the box",
+      "localControl": "Yes with a Bridge — the spec sheet states 'WiFi: Works without Wi-Fi'; Zigbee scenes, dimmer switches and Bridge automations survive an outage",
+      "dimmingFloor": "0.2% ('Deep dimmable: Yes') — the lowest published figure of any product in this category",
+      "powerOnBehavior": "Power-on behaviour is configurable per light in the Hue app; the spec sheet's stated default is 'Start up: Instant 100% light output'",
+      "ratedLife": "25,000 h nominal lifetime, 50,000 switch cycles, indoor only (-4 to +113 °F)",
+      "packSize": 2,
+      "pricePerUnit": 49.5
+    },
+    "scores": {
+      "brightness": 6.5,
+      "colorOutput": 5.0,
+      "colorAccuracy": 8.0,
+      "dimming": 10.0,
+      "ecosystem": 9.0,
+      "localControl": 8.5,
+      "setupHub": 5.0,
+      "value": 4.0
+    },
+    "pros": [
+      "0.2% dimming floor is the lowest published anywhere in this table — a real night-light level that the 2% Hue Essential and 1% Tapo/LIFX bulbs cannot reach",
+      "1000-20000 K is far and away the widest white range published by any bulb here; nothing else goes below 1500 K or above 9000 K",
+      "Zigbee plus a Bridge means schedules, dimmer switches and motion rules execute on the Bridge, not on a phone or in a cloud",
+      "Signify publishes a minimum 60-month firmware support period from an authorised reseller — no other maker in this table commits to one"
+    ],
+    "cons": [
+      "$49.50 a bulb before the $69.99 Bridge that Signify's own spec sheet says voice assistants require — roughly nine times the per-bulb cost of the Tapo 4-pack",
+      "Only one lumen figure is published (810 lm at 4000K). No 2700K figure and no coloured-light figure at all, so saturated-colour output cannot be compared against the Aqara or SwitchBot numbers",
+      "CRI is '>80' — identical to the budget Hue Essential and below the >=90 that Tapo, Wyze and Aqara publish for bulbs costing a fifth as much",
+      "Warranty conflicts on Signify's own page: the specification table says '3 year(s)', the buy-box badge on the same page says '2 Year Warranty'",
+      "We could not cross-check an Amazon ASIN for this Chromasync-generation 2-pack against a second independent source, so no buy link is attached"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hue-essential-a19-4-pack",
+      "lifx-supercolor-a19-1100-2-pack",
+      "aqara-led-bulb-t2-e26",
+      "tapo-l530e-4-pack"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "accent-lighting",
+      "works-offline"
+    ],
+    "shortTagline": "The widest whites and by far the lowest dimming floor, at nine times the budget price per bulb."
+  },
+  {
+    "id": "sli-hue-essential-a19-4-pack",
+    "categorySlug": "smart-lights",
+    "brand": "Philips Hue",
+    "series": "White and Color Ambiance Essential",
+    "model": "Philips Hue White and Color Ambiance Essential A19 800 lm 4-Pack (046677592592)",
+    "slug": "hue-essential-a19-4-pack",
+    "releaseYear": 2025,
+    "price": 47.95,
+    "msrp": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Zigbee",
+      "Matter (via Hue Bridge or a third-party Thread border router)"
+    ],
+    "features": [
+      "Hue colour, Hue app and Hue scenes at roughly $12 a bulb",
+      "800 lm published at both 2700K and 4000K, not just one white point",
+      "Joins an existing Hue Bridge system alongside the flagship bulbs",
+      "Signify lists Matter as available 'via Hue Bridge or 3rd party hubs (thread border routers)'",
+      "Same 25,000-hour life and 50,000 switch cycles as the flagship A19"
+    ],
+    "specs": {
+      "lumensWhite": "800 lm at 4000K and 800 lm at 2700K — Signify publishes both figures for this bulb, unlike its own flagship A19",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "2200-6500 K (against 1000-20000 K on the flagship Hue A19)",
+      "cri": ">=80",
+      "protocol": "Bluetooth + Zigbee. Spec sheet row 'Matter functionality: Via Hue Bridge or 3rd party hubs (thread border routers)'",
+      "hubRequired": "Not for Bluetooth, but the same 'Voice assistants (Hue Bridge required)' line appears on this spec sheet; a Bridge or third-party Zigbee/Matter hub is what unlocks voice, away-from-home control and automations",
+      "localControl": "Yes with a Bridge — 'WiFi: Works without Wi-Fi'",
+      "dimmingFloor": "2% ('Deep dimmable: No') — ten times higher than the flagship Hue A19's 0.2%",
+      "powerOnBehavior": "Configurable in the Hue app; spec sheet default 'Instant 100% light output'",
+      "ratedLife": "25,000 h nominal lifetime, 50,000 switch cycles, indoor only",
+      "packSize": 4,
+      "pricePerUnit": 11.99
+    },
+    "scores": {
+      "brightness": 6.5,
+      "colorOutput": 5.5,
+      "colorAccuracy": 7.0,
+      "dimming": 6.0,
+      "ecosystem": 8.5,
+      "localControl": 8.5,
+      "setupHub": 6.0,
+      "value": 7.5
+    },
+    "pros": [
+      "About $12 a bulb for real Hue — the same app, the same scene library and the same Bridge as the $49.50-a-bulb flagship",
+      "Publishes lumen output at both 2700K and 4000K, which the dearer Hue A19 does not",
+      "8.8 W for 800 lm with a 0.2 W standby draw, and it keeps working over Bluetooth if you never buy a Bridge",
+      "Cheapest route into a Zigbee lighting system that keeps running when the internet drops"
+    ],
+    "cons": [
+      "Dims only to 2%, and Signify explicitly marks it 'Deep dimmable: No' — the flagship Hue A19 reaches 0.2%",
+      "2200-6500 K white against 1000-20000 K on the flagship; there is no candlelight or deep-daylight end",
+      "Two-year warranty against three years in the flagship A19's spec table",
+      "No colour-mode lumen figure is published, so you cannot tell how much of the 800 lm survives a saturated red or blue",
+      "Still needs a $69.99 Bridge for voice assistants, away-from-home control and automations, which erases most of the per-bulb saving on a small setup"
+    ],
+    "images": [],
+    "amazonAsin": "B0FMGP1P6W",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hue-white-color-ambiance-a19-2-pack",
+      "lifx-supercolor-a19-1100-2-pack",
+      "tapo-l530e-4-pack",
+      "wyze-bulb-color-a19-4-pack"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "accent-lighting",
+      "works-offline"
+    ],
+    "shortTagline": "Real Hue at $12 a bulb — as long as you can live with a 2% dimming floor instead of 0.2%."
+  },
+  {
+    "id": "sli-hue-play-light-bar-2-pack",
+    "categorySlug": "smart-lights",
+    "brand": "Philips Hue",
+    "series": "Play",
+    "model": "Philips Hue Play Light Bar Base Kit, White, 2-Pack (7820230U7)",
+    "slug": "hue-play-light-bar-2-pack",
+    "releaseYear": 2018,
+    "price": 189.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Synthetic (Signify's own material specification)",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Zigbee",
+      "Matter (via Hue Bridge)"
+    ],
+    "features": [
+      "Mounts flat, stands upright or clips to the back of a TV with the included hardware",
+      "Class III safe extra-low-voltage design running off an external supply",
+      "One power supply drives up to three bars",
+      "Feeds the Hue Entertainment/Sync pipeline for screen-matched lighting",
+      "2000-6500 K tunable white as well as full colour"
+    ],
+    "specs": {
+      "lumensWhite": "Sources conflict: 500 lm at 4000K and 490 lm at 2700K per bar on Signify's own US spec table, versus the 530 lm quoted on Best Buy's listing and repeated by most reviews",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "2000-6500 K",
+      "cri": "Not published by the manufacturer for the Play bar",
+      "protocol": "Bluetooth + Zigbee; Matter reaches it only through a Hue Bridge",
+      "hubRequired": "Yes — Signify's own product page bullet reads 'Philips Hue Bridge required', and Best Buy's listing repeats 'Requires a Hue Bridge (sold separately)'. The $69.99 Bridge is not in the box",
+      "localControl": "Yes with the Bridge — 'WiFi: Works without Wi-Fi'",
+      "dimmingFloor": "Not published by the manufacturer for the Play bar",
+      "powerOnBehavior": "Configurable per light in the Hue app",
+      "ratedLife": "25,000 h nominal lifetime, IP20, indoor only",
+      "packSize": 2,
+      "pricePerUnit": 95.0
+    },
+    "scores": {
+      "brightness": 5.5,
+      "colorOutput": 5.0,
+      "colorAccuracy": 8.0,
+      "dimming": 7.0,
+      "ecosystem": 8.5,
+      "localControl": 8.5,
+      "setupHub": 3.5,
+      "value": 3.0
+    },
+    "pros": [
+      "The only accent light here that runs on Zigbee, so a Hue dimmer switch or motion sensor drives it without a phone or a cloud",
+      "Genuinely small and well finished, with wall, foot and TV-clip mounting all included in the base kit",
+      "Signify publishes lumen output at two separate white points (500 lm at 4000K, 490 lm at 2700K), which most accent-light makers do not",
+      "Sits in the same Hue scene and Entertainment system as Hue bulbs, so a room dims as one"
+    ],
+    "cons": [
+      "$95 per bar, the highest price per light unit in this table, and it is the only product here that flatly cannot be used without buying a hub",
+      "One power supply for two bars, with a hard limit of three bars per supply — a third bar needs an extension kit, a fourth needs a second supply",
+      "TV colour matching is not in this box: it needs the Philips Hue Play HDMI Sync Box 8K, listed at $384.99 on Signify's own store, or a subscription-based desktop app",
+      "Signify's spec table says 500 lm; Best Buy's listing and most published reviews say 530 lm. Nobody publishes a colour-mode figure at all",
+      "No CRI is published for the Play bar anywhere on Signify's US site"
+    ],
+    "images": [],
+    "amazonAsin": "B07GXVNBRZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "govee-floor-lamp-2",
+      "nanoleaf-shapes-hexagons-7-pack",
+      "govee-led-strip-light-m1-matter",
+      "hue-white-color-ambiance-a19-2-pack"
+    ],
+    "useCases": [
+      "accent-lighting",
+      "tv-and-gaming",
+      "works-offline"
+    ],
+    "shortTagline": "The best-built accent bar in smart lighting, and the only one that is useless without a hub."
+  },
+  {
+    "id": "sli-govee-led-strip-light-m1-matter",
+    "categorySlug": "smart-lights",
+    "brand": "Govee",
+    "series": "LED Strip Light M1",
+    "model": "Govee LED Strip Light M1 Matter, 6.56 ft / 2 m",
+    "slug": "govee-led-strip-light-m1-matter",
+    "releaseYear": 2023,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White strip"
+    ],
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "Addressable RGBWIC segments — ten independently controllable zones per metre",
+      "60 LEDs per metre, denser than the Nanoleaf and TP-Link strips reviewers compare it against",
+      "Dedicated warm and cool white LEDs alongside the RGB dies",
+      "Inline physical controller for power, colour and brightness without a phone",
+      "Extendable in 1 m increments with the M1 extension kit"
+    ],
+    "specs": {
+      "lumensWhite": "730 lm per metre — roughly 1,460 lm across the 2 m strip (Govee's figure as printed in The Verge's and The Ambient's spec boxes)",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "2700-4000 K — the narrowest white range of anything in this table; it cannot make a 5000K or 6500K daylight white at all",
+      "cri": "Not published by the manufacturer",
+      "protocol": "Matter over Wi-Fi (2.4GHz) plus Bluetooth. Govee's own Matter FAQ answers 'What technology is Govee's Matter based on, Thread or Wi-Fi?' with a one-word 'Wi-Fi'",
+      "hubRequired": "No hub for the Govee app, but Govee's Matter FAQ states 'a Matter hub - or a Matter controller is required' for Apple Home, Google Home, Alexa or SmartThings. An IPv6-capable network is also required",
+      "localControl": "Partly — Matter control runs over the LAN, but every scene, music mode and DreamView effect lives in the Govee app. Govee's FAQ also warns that changing Wi-Fi networks in the Govee app disables Matter until the strip is reset and re-commissioned",
+      "dimmingFloor": "Not published by the manufacturer",
+      "powerOnBehavior": "Not published by the manufacturer",
+      "ratedLife": "Not published for the M1; indoor use, no IP rating published for this model",
+      "packSize": 1,
+      "pricePerUnit": 59.99
+    },
+    "scores": {
+      "brightness": 8.5,
+      "colorOutput": 6.0,
+      "colorAccuracy": 6.0,
+      "dimming": 5.0,
+      "ecosystem": 7.5,
+      "localControl": 6.0,
+      "setupHub": 7.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Genuinely addressable: ten separately controllable segments per metre, so it can run a gradient rather than one flat colour like the SwitchBot strip",
+      "730 lm/m with dedicated white LEDs makes it the brightest short strip here and usable as real accent illumination, not just glow",
+      "Physical inline controller means power, colour and brightness work with no phone and no account",
+      "Two-year warranty, twice what Govee gives its own Floor Lamp 2 and twice SwitchBot's"
+    ],
+    "cons": [
+      "2700-4000 K white only. If you want a strip that can do 6500K daylight, this is not it — the SwitchBot Strip Light 3 and Govee's own Strip Light 2 Pro both reach 6500 K",
+      "Matter carries only on/off, brightness, colour temperature and single colour. Govee's own FAQ says 'More features TBD' — every scene, gradient and music mode stays locked in the Govee app",
+      "Only the 2 m version is Matter-native: Govee's Matter FAQ says the 5 m M1 'requires a Matter-enabled control box'",
+      "Govee's FAQ warns that switching Wi-Fi networks from inside the Govee app disables Matter and forces a full reset and re-pairing",
+      "The Verge's review carries an explicit photosensitive-epilepsy warning about the rapid flashing in some of the built-in scenes, and no maker in this category publishes PWM or flicker figures",
+      "No CRI, no rated life and no dimming floor are published for this product"
+    ],
+    "images": [],
+    "amazonAsin": "B0BWLHHV8M",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "switchbot-led-strip-light-3",
+      "hue-play-light-bar-2-pack",
+      "govee-floor-lamp-2",
+      "nanoleaf-shapes-hexagons-7-pack"
+    ],
+    "useCases": [
+      "accent-lighting",
+      "tv-and-gaming",
+      "no-hub-needed"
+    ],
+    "shortTagline": "The brightest truly addressable short strip, hobbled by a 2700-4000K white range and Matter that only carries four traits."
+  },
+  {
+    "id": "sli-govee-floor-lamp-2",
+    "categorySlug": "smart-lights",
+    "brand": "Govee",
+    "series": "Floor Lamp",
+    "model": "Govee Floor Lamp 2 (H607C)",
+    "slug": "govee-floor-lamp-2",
+    "releaseYear": 2024,
+    "price": 127.99,
+    "msrp": 159.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "60-inch corner lamp with a separately addressable lit base",
+      "1,725 lm, brighter than the 1,500 lm first-generation Govee floor lamp",
+      "82 preset scene modes and 11 music modes driven by a built-in microphone",
+      "Syncs with Govee TV backlights through DreamView",
+      "IR remote in the box for control without the app"
+    ],
+    "specs": {
+      "lumensWhite": "1,725 lm. Govee shows 2200K, 4000K and 6500K white presets but never states which one the 1,725 lm figure is measured at",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "2200-6500 K",
+      "cri": "Not published by the manufacturer",
+      "protocol": "2.4GHz Wi-Fi + Bluetooth, with Matter over Wi-Fi. 5GHz Wi-Fi is explicitly not supported",
+      "hubRequired": "No hub for the Govee app; a Matter controller is required to reach Apple Home, Google Home, Alexa or SmartThings",
+      "localControl": "Matter on/off and brightness are local; every Govee scene, DIY effect, music mode and DreamView group runs through the Govee app",
+      "dimmingFloor": "Not published by the manufacturer",
+      "powerOnBehavior": "Not published by the manufacturer",
+      "ratedLife": "Not published by the manufacturer; indoor use, no IP rating published",
+      "packSize": 1,
+      "pricePerUnit": 127.99
+    },
+    "scores": {
+      "brightness": 8.0,
+      "colorOutput": 5.5,
+      "colorAccuracy": 5.5,
+      "dimming": 5.0,
+      "ecosystem": 7.0,
+      "localControl": 5.5,
+      "setupHub": 8.0,
+      "value": 6.5
+    },
+    "pros": [
+      "1,725 lm is the highest single-fixture output in this table, and the lamp post and base can be coloured separately",
+      "Matter over Wi-Fi means it can be shared into Apple Home, Google Home, Alexa and SmartThings at once without a Govee hub",
+      "Remote in the box, so it works as a normal lamp for people who do not want the app",
+      "$127.99 buys a whole floor lamp — cheaper than a two-pack of Hue Play bars that light far less of a room"
+    ],
+    "cons": [
+      "Govee's own FAQ on this product page contradicts its own marketing: the bullets and the comparison table both call it RGBICWW, while the FAQ says the Floor Lamp 2 'lacks segmented lighting control, and uses simpler RGB and white LEDs (instead of RGBICWW)'",
+      "Govee's FAQ also says it is 'not recommended to use it as the only light source' for a small bedroom, which is a strange admission for a 1,725 lm floor lamp",
+      "Grouping it with other Govee lights is limited to 'basic on/off or color sync (no advanced effects like the Pro model)' — again Govee's own words",
+      "One-year warranty, half what Govee gives the M1 strip and a third of Wyze's bulb warranty",
+      "No CRI, no rated life, no dimming floor and no power-cut behaviour published anywhere",
+      "The most-helpful critical review on Govee's own page is a three-unit return over Matter that never worked"
+    ],
+    "images": [],
+    "amazonAsin": "B0CTH2QF23",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hue-play-light-bar-2-pack",
+      "govee-led-strip-light-m1-matter",
+      "nanoleaf-shapes-hexagons-7-pack",
+      "switchbot-led-strip-light-3"
+    ],
+    "useCases": [
+      "accent-lighting",
+      "tv-and-gaming",
+      "no-hub-needed"
+    ],
+    "shortTagline": "1,725 lumens of corner colour whose own FAQ quietly admits it is not the RGBICWW the box claims."
+  },
+  {
+    "id": "sli-nanoleaf-shapes-hexagons-7-pack",
+    "categorySlug": "smart-lights",
+    "brand": "Nanoleaf",
+    "series": "Shapes",
+    "model": "Nanoleaf Shapes Hexagons Starter Kit, White, 7 Panels (NL42-7003HX-7PK)",
+    "slug": "nanoleaf-shapes-hexagons-7-pack",
+    "releaseYear": 2020,
+    "price": 134.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth",
+      "Thread (built-in border router)",
+      "Matter"
+    ],
+    "features": [
+      "Modular hexagons that link with connectors and mix with Triangles and Mini Triangles",
+      "Touch a panel to change scene, dim or power the whole layout",
+      "Built-in Thread border router, which most Wi-Fi lights do not have",
+      "Screen Mirror and Music Sync, plus Razer Chroma, Corsair iCUE and Overwolf integrations",
+      "Open Nanoleaf local API for Home Assistant and homebrew control"
+    ],
+    "specs": {
+      "lumensWhite": "100 lm per white hexagon — about 700 lm across this 7-panel kit. The Black-finish hexagons are rated 10 lm per panel, a tenth of the light",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "1200-6500 K",
+      "cri": "80",
+      "protocol": "2.4GHz Wi-Fi (Nanoleaf states 5 GHz is not supported), Bluetooth required for setup, built-in Thread border router, Matter",
+      "hubRequired": "No hub for the Nanoleaf app, but Nanoleaf's own 'Works with' index marks Matter as 'Compatible Matter Hub Needed' and Thread as 'Required: Thread Border Router'",
+      "localControl": "Panel touch control and the physical controller always work; Nanoleaf publishes an open local API, but Screen Mirror and the PC integrations run from a computer or phone",
+      "dimmingFloor": "Not published by the manufacturer",
+      "powerOnBehavior": "Not published by the manufacturer",
+      "ratedLife": "25,000 h LED lifetime, IP20, indoor use only",
+      "packSize": 7,
+      "pricePerUnit": 19.28
+    },
+    "scores": {
+      "brightness": 4.0,
+      "colorOutput": 5.0,
+      "colorAccuracy": 6.0,
+      "dimming": 5.0,
+      "ecosystem": 8.0,
+      "localControl": 7.0,
+      "setupHub": 7.0,
+      "value": 5.5
+    },
+    "pros": [
+      "The only product here with a built-in Thread border router, which quietly improves every other Thread device in the house",
+      "Nanoleaf publishes a real spec sheet: CRI, per-panel lumens, PSU headroom, panel weight and maximum panels per supply",
+      "Touch control on the panels themselves means the wall works when the phone, the router or the cloud does not",
+      "Genuinely modular — the same controller and PSU carry Hexagons, Triangles and Mini Triangles up to 21 hexagons per 42 W supply"
+    ],
+    "cons": [
+      "100 lm a panel is decoration, not illumination: the whole 7-panel kit puts out less light than one $12 Hue Essential bulb",
+      "The Black-finish panels are rated 10 lm each against 100 lm for White — a tenth of the output, for a finish most buyers choose on looks alone",
+      "42 W power supply caps you at 21 hexagons; a bigger wall needs another supply, and the screw-mount kit is sold separately (only adhesive plates are in the box)",
+      "2.4GHz Wi-Fi only, with 5 GHz explicitly unsupported, and Bluetooth is mandatory for setup",
+      "$19.28 a panel before you have lit anything, and the layout is effectively permanent once the adhesive is on painted drywall"
+    ],
+    "images": [],
+    "amazonAsin": "B08N62R79Z",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hue-play-light-bar-2-pack",
+      "govee-led-strip-light-m1-matter",
+      "govee-floor-lamp-2"
+    ],
+    "useCases": [
+      "accent-lighting",
+      "tv-and-gaming",
+      "no-hub-needed"
+    ],
+    "shortTagline": "A Thread border router disguised as wall art — and at 100 lumens a panel, it is only wall art."
+  },
+  {
+    "id": "sli-lifx-supercolor-a19-1100-2-pack",
+    "categorySlug": "smart-lights",
+    "brand": "LIFX",
+    "series": "SuperColor",
+    "model": "LIFX SuperColor Smart Light Bulb A19 1100 lm, 2-Pack (Matter)",
+    "slug": "lifx-supercolor-a19-1100-2-pack",
+    "releaseYear": 2020,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "1,100 lm from a single A19 — a 75 W replacement, not the usual 60 W",
+      "1500-9000 K white range, second only to Hue's flagship",
+      "Matter-certified straight out of the box, no bridge and no Bluetooth pairing dance",
+      "220-degree beam angle, wider than the 200 degrees Aqara publishes",
+      "Power-on scene configurable in the LIFX app"
+    ],
+    "specs": {
+      "lumensWhite": "1,100 lm. LIFX does not state the colour temperature at which the figure is measured",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "1500-9000 K",
+      "cri": "82",
+      "protocol": "Matter over 2.4GHz Wi-Fi (WPA/WPA2). No Bluetooth, no Zigbee, no Thread, no bridge",
+      "hubRequired": "No — LIFX's own FAQ answer is 'No. It's Wi-Fi only.' A Matter controller is still needed if you want it inside Apple Home, Google Home or Alexa as a Matter device",
+      "localControl": "Yes for LAN and Matter control; away-from-home access still goes through the LIFX cloud",
+      "dimmingFloor": "1% — LIFX's own spec row calls it 'Software dimming 1%-100%', i.e. duty-cycle dimming rather than analogue",
+      "powerOnBehavior": "Configurable power-on scene in the LIFX app",
+      "ratedLife": "25,000 h; 0.2 W standby draw",
+      "packSize": 2,
+      "pricePerUnit": 25.0
+    },
+    "scores": {
+      "brightness": 9.0,
+      "colorOutput": 6.5,
+      "colorAccuracy": 7.0,
+      "dimming": 7.0,
+      "ecosystem": 7.5,
+      "localControl": 7.0,
+      "setupHub": 9.0,
+      "value": 7.5
+    },
+    "pros": [
+      "1,100 lm is the brightest A19 here and 37% more light than the 800 lm Hue, Tapo and Hue Essential bulbs at half the Hue price",
+      "1500-9000 K beats every other bulb in this table except the flagship Hue, and it is Matter-certified with no bridge at all",
+      "LIFX publishes a real spec sheet including CRI, beam angle, standby power and the dimming method — most Wi-Fi bulb makers publish none of that",
+      "Setup is genuinely two minutes: screw in, scan the Matter QR code, done"
+    ],
+    "cons": [
+      "CRI 82 is the second-lowest published figure here, below the >=90 that Tapo, Wyze and Aqara all claim for cheaper bulbs",
+      "'Software dimming' is LIFX's own term for PWM, and no maker in this category publishes a flicker frequency or a percentage-flicker figure",
+      "Wi-Fi only means every bulb is another 2.4GHz client on the router; twenty LIFX bulbs is twenty DHCP leases, where twenty Hue bulbs is one Bridge",
+      "No colour-mode lumen figure, so the 1,100 lm headline tells you nothing about how bright a deep blue will be",
+      "The 1,100 lm bulb is 11.5 W and gets hot — LIFX does not publish an enclosed-fixture rating either way"
+    ],
+    "images": [],
+    "amazonAsin": "B08FWH238Y",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hue-white-color-ambiance-a19-2-pack",
+      "wyze-bulb-color-a19-4-pack",
+      "aqara-led-bulb-t2-e26",
+      "tapo-l530e-4-pack"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "no-hub-needed"
+    ],
+    "shortTagline": "The brightest A19 in the category with no hub at all, let down by a CRI of 82."
+  },
+  {
+    "id": "sli-tapo-l530e-4-pack",
+    "categorySlug": "smart-lights",
+    "brand": "TP-Link",
+    "series": "Tapo",
+    "model": "TP-Link Tapo L530E Multicolor Smart Wi-Fi Bulb, A19, 4-Pack",
+    "slug": "tapo-l530e-4-pack",
+    "releaseYear": 2022,
+    "price": 21.95,
+    "msrp": 29.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi"
+    ],
+    "features": [
+      "CRI of 90 or better at roughly $5.49 a bulb",
+      "220-degree beam angle for a wide, even wash",
+      "1% to 100% dimming published by the manufacturer",
+      "Sunrise and sunset scheduling and away mode in the Tapo app",
+      "25,000-hour rated life with a 2-year TP-Link Smart Lighting warranty"
+    ],
+    "specs": {
+      "lumensWhite": "800 lm (8.8 W, 60 W equivalent)",
+      "lumensColor": "Not published as a number, but TP-Link's own US specification page carries the footnote 'Brightness may vary in color mode' — the clearest admission of the colour-versus-white gap any maker in this table makes",
+      "colorTempRange": "2500-6500 K",
+      "cri": ">= 90",
+      "protocol": "2.4GHz Wi-Fi only (802.11 b/g/n). No Matter, no Bluetooth, no Thread — the Matter Tapo bulb is a different model, the L535E",
+      "hubRequired": "No",
+      "localControl": "No — control, schedules and voice all route through TP-Link's cloud; there is no local API and no Matter fabric to fall back on",
+      "dimmingFloor": "1%",
+      "powerOnBehavior": "Not published by TP-Link",
+      "ratedLife": "25,000 h; operating range -15 to 40 °C, indoor",
+      "packSize": 4,
+      "pricePerUnit": 5.49
+    },
+    "scores": {
+      "brightness": 6.5,
+      "colorOutput": 6.0,
+      "colorAccuracy": 8.5,
+      "dimming": 7.0,
+      "ecosystem": 5.0,
+      "localControl": 2.0,
+      "setupHub": 9.0,
+      "value": 9.5
+    },
+    "pros": [
+      "$5.49 a bulb with a published CRI of 90 or better — the best colour rendering per dollar in the whole category",
+      "TP-Link is the only maker here that prints the honest caveat 'Brightness may vary in color mode' on its own specification page",
+      "1% dimming floor, better than the 2% Hue Essential and the effectively 2.7% Wyze bulbs",
+      "Two-year TP-Link Smart Lighting warranty on a bulb that costs less than a takeaway coffee"
+    ],
+    "cons": [
+      "Cloud-only. If TP-Link's service or your internet goes down, the app, the schedules and the voice control all stop; the wall switch is your only fallback",
+      "No Matter at all despite TP-Link selling Matter bulbs — that is the L535E, a different SKU, and buyers routinely confuse the two",
+      "2500-6500 K is a narrow white range: no candlelight bottom end, no 9000 K daylight top end",
+      "TP-Link publishes no power-cut behaviour setting, so the bulbs come back at whatever state the firmware decides",
+      "2.4GHz Wi-Fi only, and four bulbs is four more clients on a router that may already be crowded"
+    ],
+    "images": [],
+    "amazonAsin": "B0B2KWJLZT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-bulb-color-a19-4-pack",
+      "hue-essential-a19-4-pack",
+      "lifx-supercolor-a19-1100-2-pack",
+      "aqara-led-bulb-t2-e26"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "no-hub-needed"
+    ],
+    "shortTagline": "CRI 90 for $5.49 a bulb — and it all stops working the moment your internet does."
+  },
+  {
+    "id": "sli-wyze-bulb-color-a19-4-pack",
+    "categorySlug": "smart-lights",
+    "brand": "Wyze",
+    "series": "Bulb Color",
+    "model": "Wyze Bulb Color A19, 4-Pack",
+    "slug": "wyze-bulb-color-a19-4-pack",
+    "releaseYear": 2021,
+    "price": 44.44,
+    "msrp": 49.96,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 36,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "1,100 lm maximum, a 75 W replacement rather than the usual 60 W",
+      "1800 K warm end, the warmest of any Wi-Fi bulb in this table",
+      "90+ CRI published by Wyze",
+      "Sun Match automatically tracks colour temperature to the time of day",
+      "Three-year express warranty on Wyze Bulb products, written into Wyze's own terms"
+    ],
+    "specs": {
+      "lumensWhite": "30-1,100 lm (12 W). Wyze publishes the floor as an absolute lumen figure, which nobody else here does",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "1800-6500 K",
+      "cri": "90+",
+      "protocol": "2.4GHz Wi-Fi plus Bluetooth for setup. No Matter, no Thread, no Zigbee",
+      "hubRequired": "No",
+      "localControl": "No — Wyze control, schedules and automations all run through the Wyze cloud",
+      "dimmingFloor": "30 lm, roughly 2.7% of the 1,100 lm maximum — higher than Tapo's 1% and far above Hue's 0.2%",
+      "powerOnBehavior": "Configurable — Wyze publishes a dedicated 'Power Loss Recovery' setting for these bulbs, one of only three products here with a documented answer",
+      "ratedLife": "25,000 h; damp-location rated, but Wyze states it is 'Not for use in totally enclosed or recessed luminaires'",
+      "packSize": 4,
+      "pricePerUnit": 11.11
+    },
+    "scores": {
+      "brightness": 8.5,
+      "colorOutput": 6.0,
+      "colorAccuracy": 8.5,
+      "dimming": 6.0,
+      "ecosystem": 4.5,
+      "localControl": 2.0,
+      "setupHub": 9.0,
+      "value": 9.0
+    },
+    "pros": [
+      "1,100 lm and 90+ CRI for $11.11 a bulb — the same brightness as the $25-a-bulb LIFX with a higher published CRI",
+      "1800 K is the warmest bottom end of any Wi-Fi bulb here; Tapo stops at 2500 K and LIFX's warm end is 1500 K but at CRI 82",
+      "Three-year express warranty on Wyze Bulb products, the longest in this table apart from the flagship Hue's spec-sheet three years",
+      "Wyze documents power-loss recovery behaviour, which most makers here simply do not address"
+    ],
+    "cons": [
+      "Cloud-only: no Matter, no local API, and every schedule and automation dies with your internet connection",
+      "Wyze explicitly says it is not for totally enclosed or recessed fixtures, which rules out a lot of the ceiling cans people buy colour bulbs for",
+      "The 30 lm floor is about 2.7% — visibly brighter at minimum than Tapo's 1% and nowhere near Hue's 0.2%",
+      "No colour-mode lumen figure, so the 1,100 lm headline says nothing about saturated colour output",
+      "Wyze's account and app have had well-publicised reliability wobbles, and everything here depends on that account"
+    ],
+    "images": [],
+    "amazonAsin": "B097C3VLLL",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tapo-l530e-4-pack",
+      "lifx-supercolor-a19-1100-2-pack",
+      "wyze-bulb-color-br30-4-pack",
+      "hue-essential-a19-4-pack"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "no-hub-needed"
+    ],
+    "shortTagline": "1,100 lumens and 90+ CRI for $11 a bulb, with a three-year warranty and a hard cloud dependency."
+  },
+  {
+    "id": "sli-wyze-bulb-color-br30-4-pack",
+    "categorySlug": "smart-lights",
+    "brand": "Wyze",
+    "series": "Bulb Color",
+    "model": "Wyze Bulb Color BR30, 4-Pack",
+    "slug": "wyze-bulb-color-br30-4-pack",
+    "releaseYear": 2023,
+    "price": 49.98,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 36,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth"
+    ],
+    "features": [
+      "BR30 flood shape for recessed cans and track heads",
+      "950 lm maximum from 11.5 W",
+      "1800-6500 K, the same wide warm end as the Wyze A19",
+      "90+ CRI published by Wyze",
+      "Groups and music-syncs with Wyze A19 bulbs and Wyze light strips"
+    ],
+    "specs": {
+      "lumensWhite": "30-950 lm (11.5 W) — 150 lm less than the Wyze A19 for a bulb that costs more",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "1800-6500 K",
+      "cri": "90+",
+      "protocol": "2.4GHz Wi-Fi plus Bluetooth for setup. No Matter, no Thread, no Zigbee",
+      "hubRequired": "No",
+      "localControl": "No — Wyze control, schedules and automations all run through the Wyze cloud",
+      "dimmingFloor": "30 lm, roughly 3.2% of the 950 lm maximum",
+      "powerOnBehavior": "Configurable — Wyze publishes a 'Power Loss Recovery' setting for its colour bulbs",
+      "ratedLife": "25,000 h; damp-location rated, and Wyze states it is 'Not for use in totally enclosed luminaries'",
+      "packSize": 4,
+      "pricePerUnit": 12.5
+    },
+    "scores": {
+      "brightness": 7.5,
+      "colorOutput": 6.0,
+      "colorAccuracy": 8.5,
+      "dimming": 6.0,
+      "ecosystem": 4.5,
+      "localControl": 2.0,
+      "setupHub": 9.0,
+      "value": 8.5
+    },
+    "pros": [
+      "One of the very few colour BR30 floods at roughly $12.50 a bulb with a published 90+ CRI",
+      "Same 1800 K warm end and Sun Match circadian tracking as the Wyze A19, so a mixed A19/BR30 room matches",
+      "Three-year express warranty on Wyze Bulb products",
+      "Wyze publishes a full spec table including the dimming floor in lumens and the damp-location rating — rare at this price"
+    ],
+    "cons": [
+      "Wyze says it is 'Not for use in totally enclosed luminaries', which is exactly the sealed recessed can many buyers want a BR30 for",
+      "950 lm against 1,100 lm from the cheaper Wyze A19, so the flood shape costs you both money and light",
+      "Cloud-only, with no Matter and no local fallback",
+      "No colour-mode lumen figure published",
+      "We could not cross-check an Amazon ASIN for the BR30 4-pack against a second independent source, so no buy link is attached; the price cited is Wyze's own store price"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-bulb-color-a19-4-pack",
+      "tapo-l530e-4-pack",
+      "aqara-led-bulb-t2-e26"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "no-hub-needed"
+    ],
+    "shortTagline": "A rare cheap colour BR30 with real CRI — that Wyze itself says not to put in a sealed can."
+  },
+  {
+    "id": "sli-aqara-led-bulb-t2-e26",
+    "categorySlug": "smart-lights",
+    "brand": "Aqara",
+    "series": "LED Bulb T2",
+    "model": "Aqara LED Bulb T2 E26, RGB CCT (1-Pack)",
+    "slug": "aqara-led-bulb-t2-e26",
+    "releaseYear": 2024,
+    "price": 23.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Thread",
+      "Zigbee 3.0",
+      "Bluetooth (setup)",
+      "Matter"
+    ],
+    "features": [
+      "Dual-protocol: runs as Matter-over-Thread or as an Aqara Zigbee 3.0 device",
+      "Publishes two separate white lumen figures instead of one headline number",
+      "Ra greater than 90 with a 2000-9000 K colour range",
+      "Configurable power-off memory — decide what it does after an outage",
+      "Adjustable transition time and dimming curve in the Aqara app"
+    ],
+    "specs": {
+      "lumensWhite": "1,100 lm at 6500K and 950 lm at 2700K — the only bulb in this table that publishes two separate white figures, and the gap between them is 14%",
+      "lumensColor": "Not published by the manufacturer",
+      "colorTempRange": "2000-9000 K in colour mode; 2700-6500 K in white mode",
+      "cri": "> 90 (Ra > 90)",
+      "protocol": "Thread (Matter) or Zigbee 3.0 — one or the other, never both at once. Aqara's own description says switching modes needs a full firmware replacement through the Aqara app",
+      "hubRequired": "Depends on the mode you pick: Thread mode needs a Thread border router (an Apple TV, HomePod, Nest Hub or Echo), Zigbee mode needs an Aqara hub. Aqara's own product page leaves the 'Hub Required' field as an unrendered 'hub_required' placeholder",
+      "localControl": "Yes in both modes — Thread/Matter and Zigbee both execute locally, with no cloud in the control path",
+      "dimmingFloor": "Not published as a percentage; Aqara instead exposes a configurable dimming curve and transition time",
+      "powerOnBehavior": "Configurable 'Power Off Memory' — you set whether the bulb comes back on or stays off after an outage, and Aqara states it works in both Zigbee and Thread modes",
+      "ratedLife": "25,000 h; 0.4 W standby, 200-degree beam angle, indoor -10 to 40 °C",
+      "packSize": 1,
+      "pricePerUnit": 23.99
+    },
+    "scores": {
+      "brightness": 8.5,
+      "colorOutput": 7.5,
+      "colorAccuracy": 9.0,
+      "dimming": 6.5,
+      "ecosystem": 8.5,
+      "localControl": 9.5,
+      "setupHub": 6.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The only bulb here that publishes lumens at two white points (1,100 lm at 6500K, 950 lm at 2700K) instead of quoting one flattering number",
+      "Ra greater than 90 with a 2000-9000 K range — better colour rendering and a wider span than the $49.50-a-bulb Hue",
+      "Fully local in both modes: Thread/Matter and Zigbee each run without a cloud, which no Wi-Fi bulb in this table can claim",
+      "Configurable power-off memory, so a tripped breaker does not leave the room dark or blazing at 100%"
+    ],
+    "cons": [
+      "Thread and Zigbee are mutually exclusive and switching between them requires a full firmware overwrite through the Aqara app — pick wrong and it is a reflash, not a toggle",
+      "Apple HomeKit Adaptive Lighting is supported only in Zigbee mode. Aqara's own page says outright 'Currently, it is NOT supported in Thread Mode'",
+      "Either mode needs hardware you may not own: a Thread border router or an Aqara hub. Neither is in the box",
+      "Twelve-month warranty (Aqara's published Smart Lighting term), a third of Wyze's three years on a bulb that costs twice as much",
+      "No colour-mode lumen figure, and Aqara's product page ships with an unrendered 'hub_required' template placeholder where the hub requirement should be"
+    ],
+    "images": [],
+    "amazonAsin": "B0DN63SFWL",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "hue-white-color-ambiance-a19-2-pack",
+      "lifx-supercolor-a19-1100-2-pack",
+      "tapo-l530e-4-pack",
+      "wyze-bulb-color-br30-4-pack"
+    ],
+    "useCases": [
+      "whole-home-bulbs",
+      "works-offline"
+    ],
+    "shortTagline": "The most honest spec sheet in smart lighting, on a bulb that makes you choose Thread or Zigbee for good."
+  },
+  {
+    "id": "sli-switchbot-led-strip-light-3",
+    "categorySlug": "smart-lights",
+    "brand": "SwitchBot",
+    "series": "LED Strip Light",
+    "model": "SwitchBot LED Strip Light 3, 16.4 ft / 5 m",
+    "slug": "switchbot-led-strip-light-3",
+    "releaseYear": 2025,
+    "price": 44.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "ABS with PU glue coating (SwitchBot's own material spec)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Bluetooth 4.2",
+      "Matter over Wi-Fi"
+    ],
+    "features": [
+      "Three-in-one LEDs: 24 RGB, 24 warm-white and 24 cool-white dies per metre",
+      "16.4 ft in one run for $44.99 — the cheapest metre of smart strip here",
+      "Cuttable every 8 cm, finer than the 1 m and 10-segment intervals rivals use",
+      "IR remote in the box for control with no app and no account",
+      "IP44 rated, so splashes in a kitchen or bathroom are survivable"
+    ],
+    "specs": {
+      "lumensWhite": "1,200 lm maximum for cool white and 1,200 lm maximum for warm white, per SwitchBot's own spec table",
+      "lumensColor": "Not published as a number. The retail listing states 'up to 1200lm brightness (varies by color)' — an explicit admission that colour output is lower",
+      "colorTempRange": "2700-6500 K",
+      "cri": "Not published by the manufacturer",
+      "protocol": "2.4GHz Wi-Fi + Bluetooth 4.2, with Matter over Wi-Fi. Power supply is 100-240 V in, 12 V / 1.5 A out",
+      "hubRequired": "No hub for the SwitchBot app or the bundled remote, but SwitchBot's own page says 'Matter hub required' for Apple Home, Alexa, Google Home or SmartThings",
+      "localControl": "Bluetooth and Matter both work locally; SwitchBot remote access, scenes and cross-device automations run through the SwitchBot cloud",
+      "dimmingFloor": "1% to 100%",
+      "powerOnBehavior": "Not published by the manufacturer",
+      "ratedLife": "25,000 h, IP44 water-resistant, indoor 0-40 °C",
+      "packSize": 1,
+      "pricePerUnit": 44.99
+    },
+    "scores": {
+      "brightness": 8.0,
+      "colorOutput": 6.5,
+      "colorAccuracy": 6.0,
+      "dimming": 7.0,
+      "ecosystem": 7.0,
+      "localControl": 6.0,
+      "setupHub": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "16.4 ft for $44.99 with a real 12 V supply, an IR remote and 3M adhesive in the box — the cheapest complete strip installation here",
+      "72 LEDs per metre split into dedicated RGB, 2700-3000 K and 6500 K dies, so the whites are real white rather than mixed RGB",
+      "Cuttable every 8 cm, far finer than Govee's per-metre and per-10-segment cut marks",
+      "SwitchBot's own spec table separates cool-white and warm-white maximum brightness instead of quoting one number",
+      "IP44 and 1% dimming are both published, which is more than Govee publishes for either of its products here"
+    ],
+    "cons": [
+      "It is not addressable. SwitchBot's own comparison table on this product page marks it 'Equipped with IC Chip: no', 'Can only display solid colors' and 'Segmented Dynamic Scenes: no' — one colour at a time across the whole 5 m",
+      "The Amazon listing calls it 'RGB LED Strip Lights' while the SwitchBot store calls it '3-in-1 RGBCCT' — buyers routinely mistake it for the dearer RGBICWW Strip Light, which is the segmented one",
+      "1,200 lm is the white figure; the listing's own '(varies by color)' caveat means a saturated blue will be a fraction of that, and no number is published",
+      "No CRI published anywhere, on a strip sold partly on colour quality",
+      "One-year warranty against Govee's two years on the M1 strip"
+    ],
+    "images": [],
+    "amazonAsin": "B0DZNRH74G",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "govee-led-strip-light-m1-matter",
+      "govee-floor-lamp-2",
+      "hue-play-light-bar-2-pack"
+    ],
+    "useCases": [
+      "accent-lighting",
+      "no-hub-needed"
+    ],
+    "shortTagline": "Sixteen feet of Matter strip for $45 — as long as you accept one solid colour at a time."
+  }
+]
