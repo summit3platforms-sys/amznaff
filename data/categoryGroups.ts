@@ -117,10 +117,10 @@ export const categoryGroups: CategoryGroup[] = [
     iconKey: 'home-electronics',
     items: [
       { name: 'Air Purifiers' },
-      { name: 'Humidifiers' },
+      { name: 'Humidifiers', slug: 'humidifiers' },
       { name: 'Dehumidifiers' },
-      { name: 'Robot Vacuums' },
-      { name: 'Cordless Vacuums' }
+      { name: 'Robot Vacuums', slug: 'robot-vacuums' },
+      { name: 'Cordless Vacuums', slug: 'cordless-vacuums' }
     ]
   }
 ];

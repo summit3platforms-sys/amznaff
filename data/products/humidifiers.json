@@ -1,0 +1,966 @@
+[
+  {
+    "id": "hu-levoit-classic-300s",
+    "categorySlug": "humidifiers",
+    "brand": "Levoit",
+    "series": "Classic",
+    "model": "Levoit Classic 300S (Classic300S)",
+    "slug": "levoit-classic-300s",
+    "releaseYear": 2021,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Gray",
+      "Blue"
+    ],
+    "material": "Not published by the manufacturer — Levoit's spec sheet lists no housing or tank material",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "VeSync app",
+      "Amazon Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Top-fill 6L tank — you never invert a full tank over the base",
+      "Built-in humidity sensor drives a genuine Auto mode to a 40-50% target",
+      "VeSync scheduling plus Alexa and Google voice control",
+      "Essential-oil tray injects aroma into the mist stream",
+      "Display-off sleep mode; Levoit rates the unit at 30dB or below"
+    ],
+    "specs": {
+      "technology": "Ultrasonic cool mist — a piezoelectric disc shatters water into a visible aerosol that is blown out of a nozzle",
+      "whiteDust": "Yes, and there is no fix sold for it. the EPA's \"Use and Care of Home Humidifiers\" states that ultrasonic and impeller humidifiers \"are very efficient at dispersing minerals in tap water into the air\" and that they \"can disperse materials, such as microorganisms and minerals, from their water tanks into indoor air\". Levoit sells no demineralisation cartridge for the Classic 300S — the part in the box is an aroma pad and a water-filter sponge, neither of which removes dissolved minerals. TechGearLab's tester warns that on tap water the minerals \"eventually start to be noticeable on your furniture\". Distilled water is the only real remedy, at roughly $1-1.50 per gallon",
+      "tankCapacity": "1.58 gal / 6 L, top-fill",
+      "outputPerDay": "Not published by the manufacturer — Levoit publishes runtime and a 26W rated power but no mL/hr or gallons-per-day output figure anywhere on the spec sheet",
+      "runtimeQuoted": "\"Up to 60 hours\" — Levoit's own page attaches that figure to the LOW mist setting. 6 L over 60 h is only about 100 mL/hr; on high the same tank empties in a small fraction of that time",
+      "coverage": "215-505 ft² / 20-47 m² (Levoit)",
+      "humidistat": "Real closed-loop humidistat. An onboard humidity sensor feeds Auto mode, which holds 40-50% RH or a custom setpoint; TechGearLab called the auto mode \"decently accurate\"",
+      "noiseLevel": "Levoit claims 30dB or less. TechGearLab measured 38.5dB and describes an ultrasonic whine plus a steady dripping noise as the tank empties — a bedroom-relevant gap between claim and measurement",
+      "consumables": "No wick and no demineralisation cartridge exist for this model, so the strictly required consumable cost is $0/yr. In practice the running cost is distilled water — roughly $1-1.50 a gallon, or about $45-90 over a 60-day heating season at one tank every two days",
+      "cleaningBurden": "Above average. The top-fill opening takes an adult hand and the vapour tower has clearance around it; TechGearLab scored cleaning 8.5/10 but flagged small crevices in the base. Nothing is dishwasher-safe. The EPA advice is to \"clean portable humidifiers every third day\"",
+      "antimicrobial": "None claimed. No UV lamp, no silver-ion or antimicrobial coating, no bacteriostatic additive supported",
+      "mistTemperature": "Cool mist at room temperature — no burn risk, but equally no thermal kill step, so whatever is living in the tank is aerosolised with the water"
+    },
+    "scores": {
+      "whiteDustRisk": 2.5,
+      "humidificationPower": 7.0,
+      "runtimeAndCapacity": 8.5,
+      "cleaningEase": 7.5,
+      "runningCost": 5.5,
+      "quietness": 7.0,
+      "humidityControl": 8.5,
+      "childSafety": 8.0
+    },
+    "pros": [
+      "One of the few sub-$100 humidifiers with a genuine closed-loop humidistat rather than a timer wearing a humidity label",
+      "6L top-fill tank goes two nights between refills at bedroom output levels",
+      "Auto mode plus app scheduling actually works unattended — TechGearLab rated the humidity tracking accurate",
+      "Cleaning access is unusually good for an ultrasonic: wide top opening, clearance round the tower"
+    ],
+    "cons": [
+      "Ultrasonic, so it aerosolises every mineral in the water as white dust on furniture and into the air, and Levoit sells no demineralisation cartridge for it — distilled water is the only fix",
+      "Levoit publishes no output figure at all: no mL/hr, no gallons per day, so the \"215-505 ft²\" coverage claim cannot be checked against anything",
+      "The \"up to 60 hours\" runtime is the low setting only; run it on high in a genuinely dry room and you are refilling daily",
+      "Measured 38.5dB against a claimed 30dB, with an audible ultrasonic whine and dripping as the tank drains",
+      "No antimicrobial or UV stage of any kind, so the every-third-day cleaning the EPA recommends is the entire hygiene plan"
+    ],
+    "images": [],
+    "amazonAsin": "B09C24TYGQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dreo-hm713s",
+      "carepod-one",
+      "crane-drop-ee-5301",
+      "honeywell-hcm350-germ-free"
+    ],
+    "useCases": [
+      "nursery",
+      "easy-clean"
+    ],
+    "shortTagline": "The smart ultrasonic everyone buys — and the one that will powder your nightstand."
+  },
+  {
+    "id": "hu-levoit-superior-6000s",
+    "categorySlug": "humidifiers",
+    "brand": "Levoit",
+    "series": "Superior",
+    "model": "Levoit Superior 6000S Smart Evaporative Humidifier (LEH-S601S-WUS)",
+    "slug": "levoit-superior-6000s",
+    "releaseYear": 2023,
+    "price": 249.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "VeSync app",
+      "Amazon Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Evaporative, so it emits invisible vapour and never produces white dust",
+      "6-gallon reservoir with a fill hose you run straight from a tap",
+      "Dry Mode runs the fan alone to dry the four wicks and slow mould growth",
+      "Collapsible body with wheels and a storage bag for the off-season",
+      "36W DC motor — a fraction of the draw of an AC-motor console"
+    ],
+    "specs": {
+      "technology": "Evaporative — a fan pulls room air through four wick filters standing in the reservoir; moisture leaves as invisible vapour, minerals stay in the wick",
+      "whiteDust": "None. Evaporative humidifiers leave dissolved minerals behind in the wick — that is exactly why the wick goes stiff and crusty. Tap water is fine and no distilled water is needed",
+      "tankCapacity": "6 gal / 22.7 L reservoir, filled through a supplied hose and funnel",
+      "outputPerDay": "Not published by Levoit as a gallons-per-day figure. The only published throughput is 6 gallons over \"up to 72 hours\", which works out at roughly 2 gal/day at the setting that runtime is quoted for",
+      "runtimeQuoted": "\"Up to 72 hours\" — Levoit does not state the fan speed, but 6 gal / 72 h is about 2 gal/day, i.e. a low-to-mid setting. On high it is materially shorter",
+      "coverage": "Up to 3,000 ft² claimed with 360° circulation — the largest claim in this set, and one no portable unit can meet in a house with closed doors",
+      "humidistat": "Real closed-loop humidistat with a target-RH setpoint, plus app-side humidity history in VeSync",
+      "noiseLevel": "28-48 dB across the speed range per Levoit's material. The low end is genuinely bedroom-quiet; the top end is a fan you will hear",
+      "consumables": "Four wick filters, replaced together. Levoit's 4-pack is $39.99 and is listed as lasting up to 6 months, so about $40-80/yr depending on water hardness and hours. Dry Mode exists specifically to stretch that interval",
+      "cleaningBurden": "Low by console standards but not trivial: the reservoir is wide open and the parts nest for storage, but four wet wicks sit in standing water and Dry Mode has to be run to keep them from souring. Nothing is dishwasher-safe",
+      "antimicrobial": "No UV lamp and no antimicrobial claim on the water path. Levoit's hygiene answer is Dry Mode plus wick replacement, not a kill stage",
+      "mistTemperature": "Cool, invisible vapour at room temperature — no burn risk. The evaporative process itself does not carry minerals or tank water into the air"
+    },
+    "scores": {
+      "whiteDustRisk": 9.5,
+      "humidificationPower": 9.0,
+      "runtimeAndCapacity": 9.5,
+      "cleaningEase": 6.5,
+      "runningCost": 6.0,
+      "quietness": 7.0,
+      "humidityControl": 8.5,
+      "childSafety": 9.0
+    },
+    "pros": [
+      "Evaporative design means no white dust and no distilled-water habit — you fill it from the tap with a hose",
+      "Six gallons and up to 72 hours is the longest unattended run here without stepping up to a plumbed whole-house unit",
+      "Dry Mode is a real answer to the wet-wick problem most evaporative units ignore",
+      "36W and 28dB at the low end make it far quieter and cheaper to run than an AC-motor console of similar output",
+      "Collapses with wheels and a storage bag, which matters for something this big six months of the year"
+    ],
+    "cons": [
+      "$249.99 plus roughly $40-80 a year in wicks — the highest first-year cost of any evaporative unit here except the Venta",
+      "The 3,000 ft² claim is a still-air marketing number; a single portable unit will not humidify a 3,000 ft² house with interior doors shut",
+      "Levoit publishes no gallons-per-day output at all, so you have to back it out of the 6 gal / 72 h runtime",
+      "Four wicks standing in six gallons of water is a lot of wet surface — skip Dry Mode and skip the wick changes and it will smell",
+      "Physically large even collapsed, and there is nowhere on the unit to see humidity without the phone"
+    ],
+    "images": [],
+    "amazonAsin": "B0CGR1N9T6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aircare-ma1201",
+      "venta-lw25-original",
+      "honeywell-hcm350-germ-free",
+      "canopy-bedside-humidifier-2"
+    ],
+    "useCases": [
+      "no-white-dust",
+      "whole-house",
+      "nursery"
+    ],
+    "shortTagline": "Six gallons of invisible, dust-free humidity for a whole floor, at a filter-fed price."
+  },
+  {
+    "id": "hu-honeywell-hcm350-germ-free",
+    "categorySlug": "humidifiers",
+    "brand": "Honeywell",
+    "series": "Germ Free Cool Mist",
+    "model": "Honeywell HCM350 Germ Free Cool Mist Humidifier (HCM350W / HCM350B)",
+    "slug": "honeywell-hcm350-germ-free",
+    "releaseYear": 2009,
+    "price": 89.95,
+    "msrp": 119.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic housing; Honeywell's manual states the water tank and water tray are top-rack dishwasher safe below 158°F on a light or normal cycle",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "No wireless connectivity — three-position mechanical rotary control only"
+    ],
+    "features": [
+      "UV chamber treats the water before it reaches the wick",
+      "Protec HAC-504AW antimicrobial wicking filter traps minerals so nothing white leaves the unit",
+      "Water tank and tray are top-rack dishwasher safe — rare in this category",
+      "Rated 2 gallons of moisture output per day from a 1.1 gallon tank",
+      "Three-year Honeywell warranty, the longest of the mainstream evaporative units"
+    ],
+    "specs": {
+      "technology": "Evaporative wick with a UV chamber in the water tray — a fan pulls air through the wet HAC-504AW filter",
+      "whiteDust": "None. The mineral load stays in the wick, which is why Honeywell's manual explains that brown or rust-coloured \"mineral deposit\" staining on the filter is normal and does not affect performance. Tap water is fine",
+      "tankCapacity": "1.1 gal / 4.2 L",
+      "outputPerDay": "\"2 US gallons (7.6 liters) output per day\" per Honeywell's own manual — which is nearly twice the tank. Meeting the rated output means filling the 1.1 gal tank roughly twice a day, not once",
+      "runtimeQuoted": "\"Up to 24 hours\" — on the LOW of three settings. That is 1.1 gal in 24 h, which is barely half the rated 2 gal/day output; the two headline numbers describe two different settings",
+      "coverage": "Sources conflict: Honeywell's own product page says only \"medium room\" with no square footage, while FiltersFast's listing for the same model states 500-800 ft²",
+      "humidistat": "None. Three fixed output speeds on a mechanical dial, no humidity sensor, no auto mode and no auto shut-off when the tank runs dry — you are the humidistat",
+      "noiseLevel": "Not published as a decibel figure by Honeywell; the product page says only \"quiet operation\". It is a 60W fan drawing air through a wet wick, so the top speed is clearly audible",
+      "consumables": "Two separate consumables. The HAC-504 \"Filter A\" wick is $32.95 for a Honeywell 3-pack (a compatible FiltersFast 3-pack is $22.99) and Honeywell says replace it every 30-60 days. On top of that the Protec antimicrobial cartridge is a 30-day item. A full heating season is realistically $40-70",
+      "cleaningBurden": "Among the best here. The tank and tray go on the dishwasher's top rack, the tank opening takes a hand, and the manual's disinfection routine is one teaspoon of bleach per gallon. Honeywell says only that it \"requires regular cleaning\" without naming an interval; the EPA says every third day",
+      "antimicrobial": "Two claims, both qualified. The UV chamber is rated \"Up to 99.9% Germ Free*\", where the asterisk in Honeywell's own manual ties it to independent testing of microbial reduction after two hours of UV exposure — a water-tray claim, not an air claim. The wick itself is separately treated as a Protec antimicrobial filter",
+      "mistTemperature": "Cool, invisible vapour at room temperature — no burn risk at all, which is why this is the standard nursery recommendation"
+    },
+    "scores": {
+      "whiteDustRisk": 9.5,
+      "humidificationPower": 7.5,
+      "runtimeAndCapacity": 5.5,
+      "cleaningEase": 8.5,
+      "runningCost": 5.0,
+      "quietness": 6.0,
+      "humidityControl": 3.0,
+      "childSafety": 9.5
+    },
+    "pros": [
+      "Evaporative plus UV: no white dust, no distilled water, and a genuine (if narrowly worded) kill stage on the water",
+      "Tank and tray are top-rack dishwasher safe, which almost nothing else in this category can say",
+      "2 gal/day rated output is real humidification, not a desktop trickle",
+      "Three-year warranty and a filter supply chain that has existed for fifteen years — parts are trivially available"
+    ],
+    "cons": [
+      "No humidistat, no auto mode and no auto shut-off — it runs until you stop it, and the FiltersFast listing states the omission outright",
+      "The 2 gal/day output and the 24-hour runtime cannot both be true at once: the 1.1 gal tank means hitting rated output requires two fills a day",
+      "Two stacked consumables — a $23-33 three-pack of wicks every 30-60 days plus a 30-day Protec cartridge",
+      "Honeywell publishes no square footage and no decibel rating; retailers fill the gap with a 500-800 ft² figure Honeywell does not make",
+      "Honeywell's own store now marks the HCM350 discontinued and points buyers at the HEV320W, even though the model is still stocked and supported elsewhere"
+    ],
+    "images": [],
+    "amazonAsin": "B002QAYJPO",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "levoit-classic-300s",
+      "venta-lw25-original",
+      "canopy-bedside-humidifier-2",
+      "aircare-ma1201"
+    ],
+    "useCases": [
+      "no-white-dust",
+      "nursery"
+    ],
+    "shortTagline": "A fifteen-year-old evaporative workhorse with UV — and no humidistat at all."
+  },
+  {
+    "id": "hu-honeywell-hwm845b-warm-mist",
+    "categorySlug": "humidifiers",
+    "brand": "Honeywell",
+    "series": "Soothing Comfort Warm Mist",
+    "model": "Honeywell HWM845B Filter Free Warm Mist Humidifier",
+    "slug": "honeywell-hwm845b-warm-mist",
+    "releaseYear": 2018,
+    "price": 54.95,
+    "msrp": 69.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic housing with a metal heating element inside a sealed boiling chamber",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "No wireless connectivity — illuminated power switch and a two-position knob"
+    ],
+    "features": [
+      "Water is boiled in a dedicated chamber, so the vapour leaves genuinely sterilised",
+      "Filter-free — no wick, no cartridge required for it to run",
+      "Essential-oil cup built into the lid",
+      "Wide tank opening that takes a hand for cleaning and refilling",
+      "Auto shut-off and a refill indicator light"
+    ],
+    "specs": {
+      "technology": "Warm mist — Honeywell's manual: \"The tank feeds water into the boiling chamber where it is heated to a steam vapor\". A resistive element does the boiling; there is no fan and no wick",
+      "whiteDust": "None. Boiling leaves minerals behind as scale in the chamber rather than aerosolising them, which is the whole reason warm-mist and steam units are dust-free — and also why the chamber needs descaling",
+      "tankCapacity": "1 gal / 3.7 L",
+      "outputPerDay": "Not published by the manufacturer — neither Honeywell's manual nor its store page gives a gallons-per-day or mL/hr figure for the HWM845",
+      "runtimeQuoted": "\"Up to 24 hours\" — Honeywell's store page attaches this to the LOW of two comfort settings. On high, a 1-gallon tank boiled away goes very much faster",
+      "coverage": "Sources conflict: Walmart's listing for the HWM845B says 400 ft², office-supply listings for the identical SKU say 520 ft², and Honeywell's own store page says only \"medium\" room",
+      "humidistat": "None. Two fixed comfort settings on a knob, no humidity sensor, no auto mode. There is an auto shut-off for an empty tank, which is a safety cut-out and not humidity control",
+      "noiseLevel": "Not published as a decibel figure. There is no fan, so the only noise is the boil itself — genuinely among the quietest ways to humidify a bedroom, at the cost of the heat",
+      "consumables": "Nothing is required — it is filter-free. Honeywell offers the optional Protec PC2V1 antimicrobial cleaning cartridge on a 30-day cycle (roughly $20-30/yr if you use it), but the unit runs without it",
+      "cleaningBurden": "Honeywell's manual says \"Weekly cleaning is recommended\" and prescribes two cups of distilled white vinegar in the reservoir for 20 minutes to strip scale, plus a separate bleach disinfection. The tank opening is wide; nothing is dishwasher-safe. Skip the descaling and the element fouls and output collapses",
+      "antimicrobial": "Boiling is the kill stage — no UV lamp and no antimicrobial wick. The optional Protec cartridge is a tank-side cleaning aid, not a certified disinfection claim",
+      "mistTemperature": "Boiled. Honeywell's manual is explicit: \"DO NOT touch the steam vapor. Steam can cause burns\" and the unit \"produces hot steam\". The output is genuinely sterile; the trade-off is a reservoir of near-boiling water in the room"
+    },
+    "scores": {
+      "whiteDustRisk": 10.0,
+      "humidificationPower": 6.5,
+      "runtimeAndCapacity": 6.0,
+      "cleaningEase": 6.0,
+      "runningCost": 8.0,
+      "quietness": 9.0,
+      "humidityControl": 2.5,
+      "childSafety": 3.5
+    },
+    "pros": [
+      "The vapour is genuinely sterilised by boiling — no white dust and no aerosolised tank bacteria, unlike any ultrasonic here",
+      "No fan means no fan noise; for a light sleeper this is quieter than any wick or ultrasonic unit in this set",
+      "Truly filter-free — there is no consumable you are required to buy, which over three years undercuts the evaporative units badly",
+      "Three-year Honeywell warranty at $54.95, and a wide tank opening you can get a hand into"
+    ],
+    "cons": [
+      "It boils water in a child's bedroom; Honeywell's own manual warns the steam \"can cause burns\" and to keep it away from children",
+      "No humidistat whatsoever — two knob positions and nothing that senses the room",
+      "Weekly vinegar descaling is not optional: mineral scale on the heating element is what kills these units, and Honeywell's manual prescribes the routine",
+      "Retail listings disagree on coverage — 400 ft² at Walmart versus 520 ft² on office-supply listings for the same SKU — and Honeywell publishes no number at all",
+      "No published output figure, so the only throughput data point is a 1-gallon tank over 24 hours on low"
+    ],
+    "images": [],
+    "amazonAsin": "B07GQ2CF4T",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "vicks-warm-steam-vaporizer-v150",
+      "dreo-hm713s",
+      "honeywell-hcm350-germ-free",
+      "pure-enrichment-mistaire"
+    ],
+    "useCases": [
+      "warm-mist",
+      "no-white-dust"
+    ],
+    "shortTagline": "Genuinely sterile boiled steam for $55, and a scalding chamber to go with it."
+  },
+  {
+    "id": "hu-vicks-warm-steam-vaporizer-v150",
+    "categorySlug": "humidifiers",
+    "brand": "Vicks",
+    "series": "Warm Steam Vaporizer",
+    "model": "Vicks Warm Steam Vaporizer V150 (V150SGN / V150RY series)",
+    "slug": "vicks-warm-steam-vaporizer-v150",
+    "releaseYear": 2015,
+    "price": 19.79,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic housing; the steam unit carries a carbon element that sheds harmless black flakes as it wears",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "No wireless connectivity — single on/off switch, no output control"
+    ],
+    "features": [
+      "Boils the water outright, so the steam leaves sterile and dust-free",
+      "1.5 gallon tank — the largest tank of any sub-$25 humidifier here",
+      "Two scent-pad slots for Vicks VapoPads and a medicine cup for VapoSteam",
+      "Steam Guard shield over the steam outlet",
+      "Auto shut-off when the tank empties, plus a night light"
+    ],
+    "specs": {
+      "technology": "Warm steam vaporizer. Current is passed through the water itself to boil it, which is why Vicks' own FAQ states \"These units require water with minerals in it in order to function properly\" — pure water does not conduct, so the unit will simply not steam",
+      "whiteDust": "None. Boiling drops the minerals out as scale inside the steam unit rather than aerosolising them. The visible particulate this unit does emit is black, not white: Vicks' cleaning instructions tell you to flush it \"until black particles are no longer emitted\", and those are carbon from the element",
+      "tankCapacity": "1.5 gal / 5.7 L",
+      "outputPerDay": "Not published by the manufacturer as a gallons-per-day or mL/hr figure. The only throughput anchor is the tank divided by the quoted runtime",
+      "runtimeQuoted": "Sources conflict: Vicks' own product page says \"up to 24 hours\", Target's listing for the same V150SGN says 18 hours. There is no output setting to attribute either figure to — the unit has one speed",
+      "coverage": "Sources conflict: Vicks' page and Walmart's listing say 600 ft², Target's listing for the same model says 300-500 ft²",
+      "humidistat": "None, and no output control either. One switch. It boils at full rate until the tank is empty or you unplug it — the single most over-humidification-prone unit in this set",
+      "noiseLevel": "Not published. There is no fan, so the noise is the boil; users describe intermittent gurgling and, when scaled or over-salted, spitting",
+      "consumables": "None required — no filter, no wick, no cartridge. VapoPads and VapoSteam are optional add-ons Vicks would like to sell you; the unit runs on plain tap water",
+      "cleaningBurden": "Weekly, and the routine is specific: Vicks says soak the steam unit \"in 4 inches of white vinegar for 10 minutes\", flush until black particles stop, then disinfect the reservoir with \"1 teaspoon of bleach per gallon\" for 20 minutes. The tank opening is wide. Scale build-up is what causes the spitting complaints",
+      "antimicrobial": "Boiling is the entire hygiene mechanism, and Vicks makes no germ-free or sterilisation marketing claim for it anywhere in the FAQ",
+      "mistTemperature": "Boiling. Vicks' placement guidance is to keep the vaporizer \"at least four feet away from bedside\" on a heat-resistant, waterproof surface. A 638W element and 1.5 gallons of near-boiling water is a scald hazard a toddler can pull over"
+    },
+    "scores": {
+      "whiteDustRisk": 10.0,
+      "humidificationPower": 7.0,
+      "runtimeAndCapacity": 7.0,
+      "cleaningEase": 6.5,
+      "runningCost": 8.5,
+      "quietness": 8.0,
+      "humidityControl": 1.0,
+      "childSafety": 2.0
+    },
+    "pros": [
+      "Under $20 for 1.5 gallons of genuinely sterile, dust-free steam — nothing else here is close on price per gallon",
+      "Zero consumables: no wick, no cartridge, no distilled water, nothing to buy again",
+      "No fan, so there is no fan noise, and a three-year Vicks warranty at this price",
+      "Wide tank opening and a published, specific weekly vinegar-and-bleach cleaning routine"
+    ],
+    "cons": [
+      "It cannot run on distilled or heavily filtered water. Vicks' own FAQ tells you to add \"one or two pinches (1/8 tsp) of salt\" — up to half a teaspoon — and warns that \"too much salt can cause excessive boiling or blow a fuse\"",
+      "638W of boiling water with no output control and no humidistat: one switch, full rate, until the tank runs dry",
+      "Real scald risk — Vicks says keep it four feet from the bed on a heat-resistant surface, which makes it a poor choice for a toddler's room despite the branding",
+      "Vicks and its own retailers disagree on both runtime (24h vs 18h) and coverage (600 ft² vs 300-500 ft²) for the same SKU",
+      "Emits black carbon flakes as the element wears, and the weekly vinegar flush is mandatory rather than advisory"
+    ],
+    "images": [],
+    "amazonAsin": "B0000TN7ME",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "honeywell-hwm845b-warm-mist",
+      "crane-drop-ee-5301",
+      "pure-enrichment-mistaire",
+      "dreo-hm713s"
+    ],
+    "useCases": [
+      "warm-mist",
+      "no-white-dust"
+    ],
+    "shortTagline": "$20 of boiled steam that literally will not run on distilled water."
+  },
+  {
+    "id": "hu-canopy-bedside-humidifier-2",
+    "categorySlug": "humidifiers",
+    "brand": "Canopy",
+    "series": "Bedside Humidifier",
+    "model": "Canopy Bedside Humidifier 2.0",
+    "slug": "canopy-bedside-humidifier-2",
+    "releaseYear": 2024,
+    "price": 159.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Cream",
+      "Moonstruck",
+      "Lavender",
+      "Butter Yellow"
+    ],
+    "material": "ABS and polypropylene; the tank, cap and tray are dishwasher-safe",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "No wireless connectivity — backlit capacitive controls on the unit"
+    ],
+    "features": [
+      "Mist-free evaporative design — nothing visible leaves the unit, so no damp surfaces",
+      "Tank, cap and tray all go in the dishwasher",
+      "UV LED treats the water before it reaches the wick",
+      "Smart Persistent Airflow runs the fan to dry the internals when water is detected",
+      "Adjustable white noise and a red or warm-white reading light"
+    ],
+    "specs": {
+      "technology": "Evaporative and deliberately mist-free — a fan draws air through a paper wick past a UV LED. No aerosol is produced at all",
+      "whiteDust": "None, by design. Minerals are captured in the paper filter rather than thrown into the air, which is the single strongest argument for the whole Canopy concept and the reason it can honestly advertise tap-water operation",
+      "tankCapacity": "2.5 L / 0.66 gal — the smallest reservoir in this set",
+      "outputPerDay": "Not published by Canopy. AirQualityNest's review measured roughly 150 mL/hr, which is about 3.6 L (0.95 gal) a day if it ran flat out — more than the tank holds",
+      "runtimeQuoted": "\"Up to 36 hours\" — that requires the low setting. AirQualityNest reports refills every 16 to 36 hours depending on the setting, and that it took nine hours to lift a room to 45% RH against three and a half hours for an ultrasonic Levoit",
+      "coverage": "Up to 500 ft² claimed (Anthropologie and Canopy list the same figure); Target's listing for the 2.5L unit says 300-500 ft²",
+      "humidistat": "Not a closed loop. Canopy offers low, medium, high and an \"auto\" mode that Target's listing describes as light-sensitive — i.e. it responds to room light, not to humidity. No humidity readout on the unit",
+      "noiseLevel": "Not published as a decibel figure. It is a small fan, and Canopy sells the sound as a feature — there is a deliberate adjustable white-noise function layered on top",
+      "consumables": "The most expensive consumable habit here. Canopy's own filter is $17 one-off, $14 as a single purchase or $12 on a 45-day subscription, and Canopy says replace every 45 days (Target and the Amazon 3-pack both say every six weeks). That is roughly eight filters a year — about $96-136/yr, more than half the price of the machine",
+      "cleaningBurden": "The best in this set. The tank, cap and tray are genuinely dishwasher-safe, the filter is disposable so there is nothing to scrub, and Smart Persistent Airflow dries the internals between runs. This is the one unit where the every-few-days cleaning advice is realistic to actually follow",
+      "antimicrobial": "An embedded UV LED treats the water and Canopy's filter has an antimicrobial core. AirQualityNest reports the UV claim as 99.9% of bacteria in the water before evaporation — a water-side claim, not an air-purification claim",
+      "mistTemperature": "Cool, invisible vapour — no burn risk, no wet surfaces, and nothing to knock over that is hot"
+    },
+    "scores": {
+      "whiteDustRisk": 10.0,
+      "humidificationPower": 4.5,
+      "runtimeAndCapacity": 4.5,
+      "cleaningEase": 9.5,
+      "runningCost": 2.5,
+      "quietness": 7.0,
+      "humidityControl": 3.5,
+      "childSafety": 9.5
+    },
+    "pros": [
+      "Mist-free evaporative with a UV stage: no white dust, no wet nightstand, tap water fine",
+      "Tank, cap and tray are dishwasher-safe — the only unit here where following hygiene advice takes no effort",
+      "Smart Persistent Airflow dries the wet internals automatically, which is a real answer to the mould problem evaporative units have",
+      "Genuinely pleasant as a bedside object — adjustable white noise, red reading light, and no glowing plume"
+    ],
+    "cons": [
+      "The filters cost roughly $96-136 a year at Canopy's own 45-day interval — after 18 months you have spent more on paper than on the humidifier",
+      "2.5L is the smallest reservoir here, and the \"36 hours\" is the low setting; in practice it is a daily refill",
+      "Slow: AirQualityNest measured nine hours to bring a room to 45% RH versus three and a half for a comparable ultrasonic",
+      "No humidistat — the \"auto\" mode reacts to room light, not to humidity, so nothing closes the loop",
+      "$159 with a one-year warranty, against three years on humidifiers costing a third as much"
+    ],
+    "images": [],
+    "amazonAsin": "B0DLLK5FM3",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "carepod-one",
+      "levoit-classic-300s",
+      "honeywell-hcm350-germ-free",
+      "venta-lw25-original"
+    ],
+    "useCases": [
+      "no-white-dust",
+      "easy-clean",
+      "nursery"
+    ],
+    "shortTagline": "No mist, no white dust, dishwasher-safe — and about $120 a year in paper filters."
+  },
+  {
+    "id": "hu-carepod-one",
+    "categorySlug": "humidifiers",
+    "brand": "Carepod",
+    "series": "One",
+    "model": "Carepod One Stainless Steel Humidifier (MS031S2)",
+    "slug": "carepod-one",
+    "releaseYear": 2021,
+    "price": 279.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Stainless Steel"
+    ],
+    "material": "Stainless steel tank, base and lid — the only all-metal water path in this comparison",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "No wireless connectivity — three mist settings and a timer on the unit"
+    ],
+    "features": [
+      "Three stainless steel parts, all of which can be boiled to sterilise",
+      "No filter, no cartridge and no wick to buy, ever",
+      "4L tank with a completely open top — you can reach every internal surface",
+      "Three mist levels plus a built-in timer",
+      "Steel water path resists the biofilm that grows in plastic tanks"
+    ],
+    "specs": {
+      "technology": "Ultrasonic cool mist in a stainless steel tank — a piezo disc still produces the aerosol; the metal changes the hygiene, not the physics",
+      "whiteDust": "Yes. Stainless steel solves the biofilm problem, not the mineral problem. the EPA's \"Use and Care of Home Humidifiers\" states that ultrasonic and impeller humidifiers \"are very efficient at dispersing minerals in tap water into the air\" and that they \"can disperse materials, such as microorganisms and minerals, from their water tanks into indoor air\", and Carepod sells no demineralisation cartridge — the design is explicitly filter-free. Distilled water remains the only way to avoid dust from a Carepod",
+      "tankCapacity": "1 gal / 4 L",
+      "outputPerDay": "Not published by the manufacturer as a mL/hr or gallons-per-day figure. Third-party spec sheets give 30 hours on low and roughly 10 hours on high from 4 L, implying about 133 mL/hr low and 400 mL/hr high",
+      "runtimeQuoted": "\"Lasts 30 hrs\" — that is the LOW setting. Third-party spec sheets put the high setting at roughly 10 hours from the same 4 L, a three-to-one spread",
+      "coverage": "Sources conflict badly: Carepod's own page says up to 500 ft², while a third-party spec sheet for the MS031S2 lists 92 ft² and flags it as probably a data error. Carepod publishes no output figure to arbitrate between them",
+      "humidistat": "Sources conflict. Carepod's own material describes three mist settings and a timer with no humidity readout on the unit; one third-party spec sheet lists a humidistat. There is no humidity display, so treat it as open-loop until Carepod publishes otherwise",
+      "noiseLevel": "Not published as a decibel figure — Carepod says only \"whisper quiet\". It is a 29W ultrasonic with no fan, so the noise floor is the ultrasonic hum plus water movement",
+      "consumables": "None. No filter, no wick, no cartridge, no antimicrobial additive — over five years this is the cheapest unit here to keep running, provided you are willing to buy distilled water",
+      "cleaningBurden": "The best-engineered cleaning story in this set. Three stainless parts, an entirely open top you can put a whole hand into, and Carepod's claim of \"99.9% sterilizable against germs, bacteria, & mold\" by boiling or hand washing. Note that the manufacturer describes the parts as hand-washable and boilable; retail listings that call them dishwasher-safe go beyond what Carepod's own page says",
+      "antimicrobial": "No UV and no coating — the claim is material-based. Steel does not harbour the biofilm plastic tanks do, and the parts can be boiled, which is a stronger real-world hygiene story than a UV lamp in a plastic tray",
+      "mistTemperature": "Cool mist only, at room temperature. No warm mode, no heater, no burn risk — and no thermal kill on the water leaving the unit"
+    },
+    "scores": {
+      "whiteDustRisk": 3.0,
+      "humidificationPower": 6.5,
+      "runtimeAndCapacity": 6.5,
+      "cleaningEase": 9.5,
+      "runningCost": 6.5,
+      "quietness": 8.0,
+      "humidityControl": 3.0,
+      "childSafety": 8.5
+    },
+    "pros": [
+      "Three stainless parts you can literally boil — the only unit here that solves the humidifier-hygiene problem rather than papering over it with a cartridge",
+      "Zero consumables for the life of the machine: no wick, no cartridge, no antimicrobial additive",
+      "Completely open tank top; there is no crevice you cannot reach with a hand and a cloth",
+      "Steel water path avoids the plastic-tank biofilm that makes cheap ultrasonics smell after a season"
+    ],
+    "cons": [
+      "It is still ultrasonic, so it still throws every dissolved mineral into the room as white dust — and being filter-free by design, there is no cartridge you can add",
+      "$279 with a one-year warranty, against $40 units carrying five years",
+      "No humidity readout and no confirmed humidistat; Carepod's own material describes settings and a timer, and third-party spec sheets contradict each other",
+      "The 30-hour runtime is the low setting — third-party sheets put the high setting near 10 hours from the same 4L tank",
+      "Carepod publishes no output figure and no decibel rating, and its coverage claim is contradicted by third-party data (500 ft² vs 92 ft²)"
+    ],
+    "images": [],
+    "amazonAsin": "B0916J478T",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "canopy-bedside-humidifier-2",
+      "levoit-classic-300s",
+      "venta-lw25-original",
+      "dreo-hm713s"
+    ],
+    "useCases": [
+      "easy-clean",
+      "nursery"
+    ],
+    "shortTagline": "Three stainless parts you can boil — but it is ultrasonic, so distilled water only."
+  },
+  {
+    "id": "hu-venta-lw25-original",
+    "categorySlug": "humidifiers",
+    "brand": "Venta",
+    "series": "Airwasher LW",
+    "model": "Venta LW25 Original Airwasher",
+    "slug": "venta-lw25-original",
+    "releaseYear": 2016,
+    "price": 299.99,
+    "msrp": 379.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic housing over a stack of rotating discs presenting 22.5 ft² of wetted surface",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "No wireless connectivity — three-position mechanical fan-speed switch"
+    ],
+    "features": [
+      "Filter-free: a rotating disc stack does the evaporating, so there is no wick to replace",
+      "22.5 ft² of wetted disc surface — far more evaporative area than a wick unit",
+      "Draws 3 to 8 watts, an order of magnitude below every other unit here",
+      "Rated 24 dB(A) on its lowest speed",
+      "Cold-evaporation design that also traps some airborne dust in the water"
+    ],
+    "specs": {
+      "technology": "Evaporative \"airwasher\" — a stack of rotating plastic discs carries a continuously renewed water film through the airstream. No wick and no aerosol",
+      "whiteDust": "None. Minerals stay in the water and end up as scale on the discs, which is why Venta specifies a 10-14 day cleaning cycle. Tap water is explicitly supported",
+      "tankCapacity": "2 gal / 7.6 L",
+      "outputPerDay": "Not published by the manufacturer — Venta publishes coverage, disc surface area, noise and wattage but no evaporation rate in litres or gallons per day for the LW25 Original",
+      "runtimeQuoted": "Not published as a runtime figure. Venta quotes capacity and coverage rather than hours, which without an output figure leaves the refill interval genuinely unknown from published data",
+      "coverage": "Up to 430 ft² at 8 ft ceilings (Venta, Lowe's and Walmart all agree). Venta's own LW25 Comfort Plus is rated 485 ft² from a smaller 1.8 gal tank",
+      "humidistat": "None on the Original — three fixed fan speeds and nothing that senses the room. Venta's own Comfort Plus version of the same LW25 is the model that adds a \"digital hygrostat for measuring and controlling the relative humidity\" plus auto and sleep modes, for $399.99. Evaporative physics self-limits as the room approaches saturation, but that is not a control loop",
+      "noiseLevel": "24 / 34 / 44 dB(A) across the three speeds — the only unit here with a per-speed decibel figure published by the manufacturer, and the 24 dB low speed is the quietest genuinely measured figure in this set",
+      "consumables": "No filters ever — that is the pitch. But Venta prescribes its own chemistry: Water Treatment Additive at $17.99 used at each 10-14 day maintenance, and Venta Humidifier Cleaner at $16.99 roughly every six months. At Venta's own intervals that is a real recurring cost, not zero",
+      "cleaningBurden": "Every 10 to 14 days per Venta, which is more often than most owners expect from a \"maintenance-free\" machine. The upper housing lifts off the water basin and the disc stack pulls out; nothing is dishwasher-safe, and the disc stack is the fiddly part",
+      "antimicrobial": "No UV and no antimicrobial coating. The hygiene mechanism is the Water Treatment Additive plus the prescribed cleaning cycle — a consumable chemical, not a device feature",
+      "mistTemperature": "Cold evaporation at room temperature — no heat, no burn risk, no visible plume, and nothing carried out of the water"
+    },
+    "scores": {
+      "whiteDustRisk": 9.5,
+      "humidificationPower": 6.5,
+      "runtimeAndCapacity": 7.0,
+      "cleaningEase": 5.5,
+      "runningCost": 5.0,
+      "quietness": 9.5,
+      "humidityControl": 2.0,
+      "childSafety": 9.0
+    },
+    "pros": [
+      "Genuinely filter-free evaporation — no wick, no cartridge, no consumable that gates whether the machine works",
+      "3 to 8 watts. Over a heating season it costs a fraction of the AIRCARE console's 80W to run",
+      "24 dB(A) on low, published per speed by the manufacturer — the quietest verified figure in this comparison",
+      "No white dust and no distilled water; the disc stack means it also pulls some airborne dust into the water",
+      "Two-year warranty on a design that is mechanically simple enough to last a decade"
+    ],
+    "cons": [
+      "$299.99 for a machine with no humidistat at all — Venta sells the hygrostat as a separate $399.99 Comfort Plus model of the same LW25",
+      "\"Filter-free\" is not \"consumable-free\": Venta's own maintenance calls for $17.99 Water Treatment Additive at every 10-14 day service and $16.99 cleaner twice a year",
+      "Venta publishes no output rate and no runtime, so there is no way to compute the refill interval from the spec sheet",
+      "A 10-14 day cleaning cycle with a disc stack to pull and rinse is more hands-on than the marketing implies",
+      "430 ft² coverage for the price of two whole-house evaporative consoles"
+    ],
+    "images": [],
+    "amazonAsin": "B001PH9ESG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aircare-ma1201",
+      "levoit-superior-6000s",
+      "honeywell-hcm350-germ-free",
+      "carepod-one"
+    ],
+    "useCases": [
+      "no-white-dust",
+      "whole-house"
+    ],
+    "shortTagline": "Filter-free evaporation that runs on 8 watts — with no humidistat at $300."
+  },
+  {
+    "id": "hu-aircare-ma1201",
+    "categorySlug": "humidifiers",
+    "brand": "AIRCARE",
+    "series": "MA Console",
+    "model": "AIRCARE MA1201 Whole-House Console Evaporative Humidifier",
+    "slug": "aircare-ma1201",
+    "releaseYear": 2011,
+    "price": 173.99,
+    "msrp": 187.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic console cabinet on casters",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "No wireless connectivity — digital control panel with a control lock"
+    ],
+    "features": [
+      "12 gallons of moisture output per day — by far the highest here",
+      "Digital humidistat adjustable from 25% to 65% RH in 5% steps",
+      "Four fan speeds plus an auto mode that modulates speed to hold the setpoint",
+      "Casters, a refill indicator and a wick-change indicator",
+      "MAF1 SuperWick belt included in the box"
+    ],
+    "specs": {
+      "technology": "Evaporative console — a four-speed fan pulls air through a large MAF1 SuperWick belt standing in the reservoir",
+      "whiteDust": "None. All the mineral load ends up in the wick, which is precisely why AIRCARE tells you the wick life depends on water hardness. Tap water is the intended input",
+      "tankCapacity": "3.6 gal / 13.6 L in removable bottles",
+      "outputPerDay": "12 gallons per day — the highest rated output in this comparison, and more than three times what the tank holds. Hitting the rated figure means refilling 3.6 gallons roughly three times in 24 hours",
+      "runtimeQuoted": "\"Up to 36 hours\" — that is 3.6 gal over 36 h, i.e. 2.4 gal/day, which is one fifth of the 12 gal/day rated output. The two headline numbers describe opposite ends of the fan range",
+      "coverage": "Up to 3,600 ft² in tight construction, or about 2,500 ft² average per AIRCARE's own literature. Sylvane's listing for the same unit reproduces the figure with a typographical error (36,600 ft²)",
+      "humidistat": "Real closed-loop digital humidistat, adjustable 25-65% RH in 5% increments, with an auto mode that varies fan speed to hold the setpoint plus a dry-out mode and auto shut-off. The most capable humidity control in this set",
+      "noiseLevel": "Not published as a decibel figure by AIRCARE. It is an 80W fan moving enough air to evaporate twelve gallons a day — speed 4 is loud, and this is a living-room machine rather than a bedside one",
+      "consumables": "MAF1 SuperWick belts. AIRCARE's own guidance is one per season, but Home Depot's listing for the MAF1 states wicks \"can last anywhere from 30 to 90 days, depending on the quality of your water\", at $23.09 each. On hard water that is $70-90 a season, not one $23 wick",
+      "cleaningBurden": "Console-sized. The reservoir base is wide open and easy to wipe, the bottles unscrew for filling, and there is a dry-out mode — but nothing is dishwasher-safe and a 3.6 gallon standing reservoir is the largest body of stagnant water here if you let it sit",
+      "antimicrobial": "No UV and no built-in antimicrobial stage. AIRCARE sells a bacteriostatic treatment and demineralisation cartridges as separate accessories; neither ships in the box",
+      "mistTemperature": "Cool, invisible vapour at room temperature. No heat and no aerosol, but the sheer size and a 3.6 gallon water load make it a tipping hazard rather than a burn one"
+    },
+    "scores": {
+      "whiteDustRisk": 9.5,
+      "humidificationPower": 10.0,
+      "runtimeAndCapacity": 6.0,
+      "cleaningEase": 6.0,
+      "runningCost": 5.5,
+      "quietness": 4.0,
+      "humidityControl": 9.5,
+      "childSafety": 8.0
+    },
+    "pros": [
+      "12 gal/day is genuine whole-floor humidification — nothing else here is within a factor of five",
+      "A real digital humidistat with 5% setpoint granularity, an auto fan mode and a dry-out cycle",
+      "Evaporative, so no white dust, no distilled water and no aerosolised tank water anywhere in the house",
+      "Casters, a wick-change indicator and a $23 commodity wick that every hardware store stocks"
+    ],
+    "cons": [
+      "The 12 gal/day output and the 3.6 gal tank are irreconcilable: run it at rated output and you are carrying water to it three times a day",
+      "80W of fan noise at speed 4 — this is not a bedroom unit, and AIRCARE publishes no decibel figure at all",
+      "Wick life is quoted by AIRCARE as one per season but by Home Depot as 30-90 days depending on water hardness; on hard water that is $70-90 a season in $23.09 wicks",
+      "Prices for the identical unit range from $149.99 at Sylvane to $187.99 on AIRCARE's own store — shop it, do not accept the first number",
+      "No antimicrobial or demineralisation stage in the box; both are accessories AIRCARE sells separately"
+    ],
+    "images": [],
+    "amazonAsin": "B004S34ISA",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "levoit-superior-6000s",
+      "venta-lw25-original",
+      "honeywell-hcm350-germ-free"
+    ],
+    "useCases": [
+      "no-white-dust",
+      "whole-house"
+    ],
+    "shortTagline": "Twelve gallons a day for a whole house, from a tank you refill three times a day."
+  },
+  {
+    "id": "hu-dreo-hm713s",
+    "categorySlug": "humidifiers",
+    "brand": "Dreo",
+    "series": "Smart Humidifier",
+    "model": "Dreo HM713S 6L Smart Humidifier",
+    "slug": "dreo-hm713s",
+    "releaseYear": 2023,
+    "price": 89.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver",
+      "Blue"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Dreo app",
+      "Amazon Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "6L top-fill tank with both cool and pre-heated mist modes",
+      "Humidity sensor Dreo rates at ±5%, settable from 30% to 90% RH",
+      "500 mL/hr in warm mode, 300 mL/hr in cool mode — one of the few units that publishes output",
+      "Dual aroma-pad tray so you can switch scents without draining anything",
+      "App logs up to 30 days of room humidity history"
+    ],
+    "specs": {
+      "technology": "Ultrasonic, sold as \"cool and warm mist\". The warm mode pre-heats the water before the piezo disc atomises it — it does not boil it",
+      "whiteDust": "Yes, in both modes. Warming the water does not change the mechanism: a piezo disc still aerosolises everything dissolved in it. the EPA's \"Use and Care of Home Humidifiers\" states that ultrasonic and impeller humidifiers \"are very efficient at dispersing minerals in tap water into the air\" and that they \"can disperse materials, such as microorganisms and minerals, from their water tanks into indoor air\". Dreo fits a mineral-absorption pad and sells no first-party replacement, so the aftermarket pads on Amazon are third-party and unverified",
+      "tankCapacity": "6 L / 1.58 gal, top-fill",
+      "outputPerDay": "Published, unusually: 300 mL/hr in cool mist, 500 mL/hr in warm mist — 7.2 L/day and 12 L/day respectively if run continuously. Both exceed the 6 L tank, so the 60-hour runtime cannot be a high-output figure",
+      "runtimeQuoted": "\"Up to 60 hours\" — arithmetic settles this one. 6 L at the published 300 mL/hr cool-mist rate is 20 hours, and at 500 mL/hr warm it is 12. The 60-hour claim implies about 100 mL/hr, i.e. the lowest setting only",
+      "coverage": "Not published by Dreo on the product page — the only sizing language is the retail headline \"for Large Room\". Dreo publishes output instead, which is arguably the more useful number",
+      "humidistat": "Real closed-loop humidistat. Dreo rates the sensor at ±5% precision with a 30-90% RH adjustable target, plus manual, auto and sleep modes and 30 days of app-side history",
+      "noiseLevel": "28 dB claimed by Dreo — a manufacturer figure with no independent measurement published, and comparable ultrasonics measure several dB higher in third-party testing",
+      "consumables": "A mineral-absorption pad sits in the tank. Dreo does not sell a first-party replacement pack; the only replacements listed are third-party multi-packs, so budget is unclear and the pad does not eliminate white dust regardless",
+      "cleaningBurden": "Top-fill opening takes a hand and the aroma tray lifts out, but the warm-mist heater adds a scale surface an ordinary cool-mist ultrasonic does not have. Nothing is dishwasher-safe. Dreo ships a cleaning guide and brush in the box, which is more than most",
+      "antimicrobial": "None claimed. No UV lamp, no antimicrobial coating. The warm mode is not hot enough to sterilise anything",
+      "mistTemperature": "This is the trap. Dreo's own spec says warm mode \"reaches 86°F in 5 minutes\" — 30°C, barely above body temperature. That is comfort, not sterilisation: a genuine warm-mist unit boils at 212°F. It also means the 280W warm mode buys you no hygiene benefit at all, and the mist is not sterile"
+    },
+    "scores": {
+      "whiteDustRisk": 2.5,
+      "humidificationPower": 7.5,
+      "runtimeAndCapacity": 8.0,
+      "cleaningEase": 6.5,
+      "runningCost": 6.0,
+      "quietness": 7.5,
+      "humidityControl": 8.5,
+      "childSafety": 7.5
+    },
+    "pros": [
+      "One of the very few humidifiers at any price that publishes a real output figure — 300 mL/hr cool, 500 mL/hr warm",
+      "Genuine closed-loop humidistat rated ±5% with a 30-90% setpoint range and 30 days of app history",
+      "6L top-fill tank plus app, Alexa and Google control for $89.99",
+      "Because output is published, you can actually compute the refill interval instead of trusting a runtime claim"
+    ],
+    "cons": [
+      "\"Warm mist\" tops out at 86°F by Dreo's own spec — warm water, not steam. It does not sterilise, and it costs 280W against 26W in cool mode",
+      "Ultrasonic in both modes, so it aerosolises minerals as white dust; the mineral-absorption pad reduces scale, it does not stop dust",
+      "The 60-hour runtime and the published 300-500 mL/hr output contradict each other — 6L at 300 mL/hr is 20 hours, so 60 hours is the lowest setting",
+      "Dreo sells no first-party replacement mineral pad; the only options are unverified third-party multi-packs",
+      "Twelve-month warranty and no published coverage figure or independent noise measurement"
+    ],
+    "images": [],
+    "amazonAsin": "B0CB4CK3ZS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "levoit-classic-300s",
+      "honeywell-hwm845b-warm-mist",
+      "crane-drop-ee-5301",
+      "carepod-one"
+    ],
+    "useCases": [
+      "warm-mist",
+      "nursery"
+    ],
+    "shortTagline": "Warm mist that never boils: 86°F is comfort, not sterilisation."
+  },
+  {
+    "id": "hu-pure-enrichment-mistaire",
+    "categorySlug": "humidifiers",
+    "brand": "Pure Enrichment",
+    "series": "MistAire",
+    "model": "Pure Enrichment MistAire Ultrasonic Cool Mist Humidifier (PEHUMIDIF)",
+    "slug": "pure-enrichment-mistaire",
+    "releaseYear": 2015,
+    "price": 39.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Gray"
+    ],
+    "material": "Not published by the manufacturer; Pure Enrichment states the tank is BPA-free",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "No wireless connectivity — two mist settings on a dial"
+    ],
+    "features": [
+      "Five-year warranty — the longest in this comparison by a factor of two",
+      "Published output: 120 mL/hr high, 60 mL/hr low",
+      "360° rotating mist nozzle and an optional night light",
+      "Automatic shut-off when the tank empties or is removed",
+      "12W draw — cheap enough to leave running all winter"
+    ],
+    "specs": {
+      "technology": "Ultrasonic cool mist — a piezo disc atomises water into a visible plume",
+      "whiteDust": "Yes, and Pure Enrichment says so in its own catalogue: the MistAire Decalcification Cartridge Filter is described as reducing \"white dust from minerals in tap water\". It is a $12.99 accessory, not included, and Pure Enrichment recommends changing it every six months. the EPA's \"Use and Care of Home Humidifiers\" states that ultrasonic and impeller humidifiers \"are very efficient at dispersing minerals in tap water into the air\" and that they \"can disperse materials, such as microorganisms and minerals, from their water tanks into indoor air\"",
+      "tankCapacity": "1.7 L / 0.45 gal — the smallest tank here after the Canopy",
+      "outputPerDay": "Published: 120 mL/hr on high and 60 mL/hr on low, i.e. 2.9 L/day and 1.4 L/day. That is a desk-scale output and Pure Enrichment is honest about it",
+      "runtimeQuoted": "Up to 25 hours on LOW, up to 12 hours on HIGH — Pure Enrichment publishes both, which almost nobody else in this set does",
+      "coverage": "Up to 250 ft² (Pure Enrichment) — the smallest claim here, and the only one that is consistent with the published output",
+      "humidistat": "None. Two mist settings on a dial and an auto shut-off for a dry tank. No humidity sensor, no auto mode, no readout",
+      "noiseLevel": "Not published as a decibel figure — Pure Enrichment says \"whisper quiet\". At 12W with no fan the noise is the ultrasonic hum and the water",
+      "consumables": "Optional decalcification cartridge at $12.99, changed every six months — about $26/yr if you use it. Nothing is required for the unit to run, but running it on tap water without the cartridge is what generates the dust",
+      "cleaningBurden": "Small, so it is quick, but the 1.7L tank neck is narrow and the supplied disk brush exists precisely because you cannot get a hand round the transducer. Nothing is dishwasher-safe. At 1.7L you are handling it daily anyway",
+      "antimicrobial": "None claimed. No UV, no antimicrobial coating, no bacteriostatic additive supported",
+      "mistTemperature": "Cool mist at room temperature — no burn risk, and no thermal kill step on the water"
+    },
+    "scores": {
+      "whiteDustRisk": 4.0,
+      "humidificationPower": 3.0,
+      "runtimeAndCapacity": 3.5,
+      "cleaningEase": 6.0,
+      "runningCost": 8.0,
+      "quietness": 8.0,
+      "humidityControl": 2.0,
+      "childSafety": 8.5
+    },
+    "pros": [
+      "A five-year warranty at $39.99, which no other humidifier in this comparison comes close to",
+      "Publishes both output (120/60 mL/hr) and runtimes for both settings — rare honesty at this price",
+      "Pure Enrichment openly sells a cartridge described as reducing \"white dust from minerals in tap water\", so the problem is at least acknowledged",
+      "12W and auto shut-off; small enough to sit on a desk without dominating it"
+    ],
+    "cons": [
+      "1.7L and 120 mL/hr is a desk humidifier, not a bedroom one — a full tank on high lasts twelve hours and covers 250 ft² at best",
+      "Ultrasonic, so it makes white dust; the demineralisation cartridge that reduces it is a $12.99 accessory sold separately on a six-month cycle",
+      "No humidistat of any kind — two settings on a dial and nothing that senses the room",
+      "Narrow tank neck means you clean the transducer with the supplied brush rather than your hand",
+      "No antimicrobial or UV stage, and Pure Enrichment publishes no noise figure"
+    ],
+    "images": [],
+    "amazonAsin": "B013IJPTFK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "crane-drop-ee-5301",
+      "levoit-classic-300s",
+      "vicks-warm-steam-vaporizer-v150",
+      "dreo-hm713s"
+    ],
+    "useCases": [
+      "nursery"
+    ],
+    "shortTagline": "$40, five-year warranty, 1.7 litres — a desk humidifier honest about its size."
+  },
+  {
+    "id": "hu-crane-drop-ee-5301",
+    "categorySlug": "humidifiers",
+    "brand": "Crane",
+    "series": "Drop",
+    "model": "Crane Drop EE-5301 Ultrasonic Cool Mist Humidifier",
+    "slug": "crane-drop-ee-5301",
+    "releaseYear": 2010,
+    "price": 44.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Blue/White",
+      "Clear/White",
+      "Grey",
+      "Pink",
+      "Orange"
+    ],
+    "material": "Plastic; retail listings describe a \"Clean Control\" antimicrobial additive in the tank material, which Crane's own manual does not mention",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "No wireless connectivity — variable-output analogue knob"
+    ],
+    "features": [
+      "1 gallon tank rated at 2.3 gallons of output per day",
+      "Variable-output knob rather than fixed steps",
+      "360° adjustable mist nozzle and a green/red water-level indicator",
+      "Detachable bottom-fill tank with a removable level sensor and cap",
+      "Optional Crane demineralisation filter for hard water"
+    ],
+    "specs": {
+      "technology": "Ultrasonic cool mist — a piezo disc atomises water into a visible plume, no fan and no wick",
+      "whiteDust": "Yes, and Crane's own manual says so plainly: \"filtered or distilled water is recommended to avoid white dust if tap water is too hard\". Crane sells a demineralisation filter as an accessory, but retailers cannot agree on which one — Home Depot's listing cites HS-1932 and FiltersFast cites HS-3161. the EPA's \"Use and Care of Home Humidifiers\" states that ultrasonic and impeller humidifiers \"are very efficient at dispersing minerals in tap water into the air\" and that they \"can disperse materials, such as microorganisms and minerals, from their water tanks into indoor air\"",
+      "tankCapacity": "1 gal / 3.78 L",
+      "outputPerDay": "\"Approx. 2.3 Gallon / 8.7 Liter\" per Crane's manual — from a 1 gallon tank. Reaching rated output means filling it two and a bit times in 24 hours",
+      "runtimeQuoted": "Crane's manual gives both ends: \"Max. up to 24 hours / Min. 11 Hours\". Retail listings quote only the 24-hour figure, which is the lowest output setting",
+      "coverage": "Sources conflict outright: Crane's own manual says \"Up to 250 sq. ft. / 23 m2\", while Home Depot and Lowe's list the identical EE-5301 at up to 500 ft² — a 2x discrepancy between the manufacturer's manual and its own retail listings",
+      "humidistat": "None. A variable-output knob and an auto shut-off for a dry tank. There is no humidity sensor and no auto mode anywhere in the Drop line",
+      "noiseLevel": "Not published as a decibel figure — the manual and retail listings say only \"whisper quiet\". No fan, so the noise is the ultrasonic hum",
+      "consumables": "Nothing required — Crane's design is explicitly filter-optional. The demineralisation filter is an accessory whose part number varies by retailer; distilled water is the alternative, at roughly $1-1.50/gal",
+      "cleaningBurden": "Crane's manual asks for daily emptying and a weekly deep clean: half a gallon of warm water plus two tablespoons of white vinegar in the tank, shaken and left 20-30 minutes, then repeated for the basin. The tank has a detachable bottom cap and a removable level sensor, which genuinely helps. Nothing is dishwasher-safe",
+      "antimicrobial": "Claimed by retailers, absent from the manual. Home Depot's listing says the unit is \"made with clean control anti-microbial material which reduces mold and bacteria growth by up to 99.96%\"; FiltersFast's listing for the same model says no antimicrobial claims are made, and Crane's own manual contains no such claim. Treat the 99.96% figure as unsubstantiated",
+      "mistTemperature": "Cool mist at room temperature — no burn risk, no heater, no thermal kill step"
+    },
+    "scores": {
+      "whiteDustRisk": 3.5,
+      "humidificationPower": 6.0,
+      "runtimeAndCapacity": 5.5,
+      "cleaningEase": 7.0,
+      "runningCost": 7.0,
+      "quietness": 8.0,
+      "humidityControl": 2.0,
+      "childSafety": 8.5
+    },
+    "pros": [
+      "Crane's manual is unusually honest — it publishes 2.3 gal/day output, both ends of the runtime range, and tells you outright to use filtered or distilled water to avoid white dust",
+      "Detachable bottom cap and removable water-level sensor make the tank genuinely easier to clean than most ultrasonics",
+      "Variable-output knob rather than two or three fixed steps, so you can dial in a low continuous rate",
+      "A gallon of capacity and six colour options for $44.99"
+    ],
+    "cons": [
+      "Crane's own manual (250 ft²) and its own retail listings (500 ft²) disagree by a factor of two on coverage, and by nearly $21 on price",
+      "Ultrasonic white dust, and the demineralisation accessory has two different part numbers depending on which retailer you ask (HS-1932 vs HS-3161)",
+      "The \"reduces mold and bacteria growth by up to 99.96%\" antimicrobial claim appears on retail listings and nowhere in Crane's manual — another retailer says the model makes no antimicrobial claims at all",
+      "2.3 gal/day rated output from a 1 gallon tank means two-plus refills a day to hit the number",
+      "No humidistat, no humidity readout, and a one-year warranty against five on the cheaper Pure Enrichment"
+    ],
+    "images": [],
+    "amazonAsin": "B0046A6WJI",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "pure-enrichment-mistaire",
+      "levoit-classic-300s",
+      "dreo-hm713s",
+      "vicks-warm-steam-vaporizer-v150"
+    ],
+    "useCases": [
+      "nursery"
+    ],
+    "shortTagline": "A nursery classic whose own manual and its retail listings disagree on almost everything."
+  }
+]

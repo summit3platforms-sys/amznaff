@@ -1,0 +1,960 @@
+[
+  {
+    "id": "cv-dyson-v15-detect-plus",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Dyson",
+    "series": "V15 Detect",
+    "model": "Dyson V15 Detect Plus",
+    "slug": "dyson-v15-detect-plus",
+    "releaseYear": 2021,
+    "price": 599.99,
+    "msrp": 849.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Yellow/Nickel"
+    ],
+    "material": "ABS and polycarbonate body with aluminium wand",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "On-board LCD screen",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "240 air watts — a figure measured at the cleaner head, not sealed suction",
+      "Fluffy Optic head throws a green laser across hard floors to reveal fine dust",
+      "Piezo sensor counts and sizes particles and graphs them on the LCD",
+      "Hair screw tool with a conical bar that genuinely resists long-hair wrap",
+      "Tool-free click-in battery; genuine spare is $99.99 from Dyson"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum, converts to handheld",
+      "suctionRating": "240 air watts. Dyson publishes air watts, the only one of the three common numbers that describes work done at the cleaning head",
+      "runtimeEco": 60,
+      "runtimeMax": 9,
+      "runtimePoweredHead": "Dyson's 'up to 60 minutes' is Eco with a non-powered tool. TechGearLab measured 64 min on low and 9 min on Boost with the Digital Motorbar head fitted. Dyson publishes no per-mode table.",
+      "batteryRemovable": "Yes — tool-free click-in battery; one included",
+      "spareBattery": "$99.99 for the genuine Dyson click-in pack (shared with V11, Outsize and V15s Submarine)",
+      "dockOrMount": "Wall-mounted docking station included; it must be screwed into a wall. No free-standing dock and no auto-empty base exists for this model",
+      "filtration": "Whole-machine sealed filtration with a washable lifetime filter. Dyson's 99.99%-at-0.3-micron claim is stated for Boost mode",
+      "binCapacity": "0.77 L bin. Point-and-shoot ejection drives the shroud down through the bin, so your hand never goes near the dust",
+      "weight": 6.83,
+      "maintenance": "Filter is washable and has no replacement schedule — rinse monthly. Cleaner heads and brush bars are stocked as Dyson spares"
+    },
+    "scores": {
+      "suctionPower": 9.5,
+      "sustainedRuntime": 4.0,
+      "filtration": 9.5,
+      "handling": 6.0,
+      "maintenance": 8.5,
+      "batterySystem": 8.5,
+      "versatility": 8.0,
+      "value": 6.5
+    },
+    "pros": [
+      "240 air watts is a genuine cleaner-head figure, not a sealed-suction Pa number — only Samsung and Levoit publish anything comparable here",
+      "The laser head makes fine dust on hard floors visible, which changes how you clean rather than just how you feel about it",
+      "Whole-machine sealed filtration, so what the filter catches does not leak back out through the body",
+      "A genuine Dyson spare battery is $99.99 — less than half what Miele charges"
+    ],
+    "cons": [
+      "You hold the trigger down for the entire clean; there is no latch. This is the single most common long-term Dyson complaint",
+      "Boost mode with the powered head lasts about 9 minutes — the '60 minutes' is Eco with a non-powered tool",
+      "The dock is a wall bracket that needs drilling; there is no stand in the box and no auto-empty option at any price",
+      "$600 street and $850 list for a 0.77 L bin you still empty by hand"
+    ],
+    "images": [],
+    "amazonAsin": "B0CT97D9R2",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "shark-powerdetect-cordless",
+      "samsung-bespoke-ai-jet-ultra",
+      "miele-triflex-hx2-pro",
+      "dyson-v15s-detect-submarine"
+    ],
+    "useCases": [
+      "pet-hair",
+      "hard-floors",
+      "deep-carpet",
+      "allergies"
+    ],
+    "shortTagline": "Real 240 air watts and a real laser — but 9 minutes on Boost and a trigger you must hold."
+  },
+  {
+    "id": "cv-dyson-v15s-detect-submarine",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Dyson",
+    "series": "V15s Detect",
+    "model": "Dyson V15s Detect Submarine",
+    "slug": "dyson-v15s-detect-submarine",
+    "releaseYear": 2023,
+    "price": 879.0,
+    "msrp": 1049.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Yellow/Nickel"
+    ],
+    "material": "ABS and polycarbonate body with aluminium wand",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "On-board LCD screen",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "Submarine wet roller head with separate 0.3 L clean and 0.36 L dirty water tanks",
+      "Same 240 air watt dry vacuum as the V15 Detect, with the laser Fluffy Optic head",
+      "Three cleaner heads in the box: Submarine, Fluffy Optic and Digital Motorbar",
+      "Drip tray included so the wet head can be parked without marking the floor",
+      "Click-in battery shared with V11, V15 and Outsize"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum with a swappable wet roller head — not a dedicated floor washer",
+      "suctionRating": "240 air watts. Dyson publishes air watts rather than Pa or motor watts",
+      "runtimeEco": 60,
+      "runtimeMax": "Not published by the manufacturer — Dyson quotes only 'up to 60 minutes'",
+      "runtimePoweredHead": "The 60-minute figure is Eco with a non-powered tool. Dyson publishes no Boost figure and no wet-mode figure, and the Submarine head has its own motor that drains the pack faster than the dry heads",
+      "batteryRemovable": "Yes — tool-free click-in battery. A second battery is sold separately and is not in the box",
+      "spareBattery": "$99.99 for the genuine Dyson click-in pack",
+      "dockOrMount": "Wall-mounted docking station included (drilling required), plus a drip tray for the wet head. No auto-empty, no self-clean dock",
+      "filtration": "Whole-machine sealed filtration; 99.99% at 0.3 micron claimed in Boost mode",
+      "binCapacity": "0.77 L dust bin; the Submarine head carries 0.3 L clean water and 0.36 L dirty water",
+      "weight": 8.3,
+      "maintenance": "There is no self-clean cycle. The Submarine roller and both water tanks are rinsed by hand after every wet use. Replacement wet rollers are sold as Dyson spares"
+    },
+    "scores": {
+      "suctionPower": 9.5,
+      "sustainedRuntime": 3.5,
+      "filtration": 9.5,
+      "handling": 5.5,
+      "maintenance": 5.0,
+      "batterySystem": 8.5,
+      "versatility": 9.0,
+      "value": 5.5
+    },
+    "pros": [
+      "One machine covers deep dry vacuuming and wet mopping, so you are not storing two appliances",
+      "The wet roller is genuinely effective on dried-on stains, and the two-tank design keeps dirty water off the floor",
+      "Identical 240 air watts and sealed filtration to the standard V15 Detect — the dry half is not compromised",
+      "Cheapest spare battery of any flagship here at $99.99"
+    ],
+    "cons": [
+      "The Submarine head is a poor vacuum: it does not pick up dry debris or large spills well, so you must vacuum first and then mop",
+      "No self-clean cycle at all — the roller and both tanks get washed by hand every time, which is exactly what a Tineco or Roborock does for you",
+      "Trigger-hold operation, and 1.5 lb heavier than the standard V15 Detect",
+      "$1,049.99 list, and the Submarine head fits no other Dyson and cannot be bought as an add-on"
+    ],
+    "images": [],
+    "amazonAsin": "B0CDNR1ZB6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dyson-v15-detect-plus",
+      "tineco-floor-one-s7-stretch-ultra",
+      "roborock-f25-ultra",
+      "bissell-crosswave-omniforce-edge"
+    ],
+    "useCases": [
+      "hard-floors",
+      "pet-hair",
+      "wet-dry",
+      "allergies"
+    ],
+    "shortTagline": "A great dry vacuum with a mop head bolted on — and no self-clean cycle at all."
+  },
+  {
+    "id": "cv-shark-powerdetect-cordless",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Shark",
+    "series": "PowerDetect",
+    "model": "Shark PowerDetect Cordless Stick Vacuum (IP1251)",
+    "slug": "shark-powerdetect-cordless",
+    "releaseYear": 2024,
+    "price": 349.99,
+    "msrp": 449.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Dark Gray",
+      "Navy",
+      "Purple/Gray",
+      "Teal"
+    ],
+    "material": "ABS with a hinged MultiFLEX aluminium wand",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "On-board LED mode indicators",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "MultiFLEX wand bends so the machine free-stands and reaches flat under furniture",
+      "DuoClean Detect nozzle with two brushrolls — soft roller plus bristle",
+      "Dirt, edge, floor-type and direction detection that actually change suction",
+      "Push-button power instead of a held trigger",
+      "5-year limited warranty on the unit, 2 years on the battery"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum, converts to handheld",
+      "suctionRating": "Sources conflict, and none is a suction figure: SharkNinja publishes no air watts and no Pa, describing it only as 'Shark's most powerful cordless suction' under ASTM F558 in Boost. Abt's spec sheet lists 380 W at 21.6 V, which is input power drawn, not suction delivered",
+      "runtimeEco": 70,
+      "runtimeMax": "Not published by the manufacturer — Shark quotes only 'up to 70 minutes'",
+      "runtimePoweredHead": "SharkNinja states the 70 minutes is ECO mode at the handheld unit — no wand, no powered floor head. Shark publishes no figure at all for Boost with the DuoClean Detect nozzle fitted",
+      "batteryRemovable": "Yes — removable 21.6 V pack, but only one is included",
+      "spareBattery": "Not published by the manufacturer; Shark does not list a price on the product page. Third-party XBATR-series replacements are widely sold",
+      "dockOrMount": "Charging stand and charging cord included. The PowerDetect auto-empty base is a separate product (IP3251) and cannot be added to this one later",
+      "filtration": "Sources conflict: SharkNinja lists felt and washable-foam pre-motor filters plus a HEPA post-motor filter, while Abt's spec sheet for the same SKU says 'no HEPA filter'. Shark does not claim its Anti-Allergen Complete Seal on this cordless model, though it does on the corded PowerDetect",
+      "binCapacity": "0.7 qt (23.68 oz) dust cup with a bottom-release flap — debris drops out but your hand stays above the opening",
+      "weight": 7.96,
+      "maintenance": "Foam and felt pre-motor filters are washable and Shark specifies a monthly rinse. Replacement brushrolls and filters are stocked by SharkNinja"
+    },
+    "scores": {
+      "suctionPower": 8.5,
+      "sustainedRuntime": 5.5,
+      "filtration": 6.5,
+      "handling": 8.0,
+      "maintenance": 7.5,
+      "batterySystem": 6.5,
+      "versatility": 7.5,
+      "value": 8.5
+    },
+    "pros": [
+      "The MultiFLEX wand folds so it stands on its own and lies flat under a sofa — Dyson has no equivalent at any price",
+      "Push-button power rather than a held trigger, which is the ergonomic complaint people actually leave Dyson over",
+      "5-year limited warranty on the unit is by far the longest here",
+      "Detection genuinely modulates suction by floor type and dirt level rather than just lighting up an icon"
+    ],
+    "cons": [
+      "The 70-minute claim is ECO at the bare handheld with no wand or floor head — the honest working figure is much lower and Shark publishes none",
+      "Shark publishes neither air watts nor Pa, so this machine cannot be compared on paper against anything else in the category",
+      "Sources disagree on whether this SKU even has a HEPA filter, and Shark pointedly does not claim a sealed anti-allergen system on it",
+      "One battery in the box and no published spare-battery price"
+    ],
+    "images": [],
+    "amazonAsin": "B0DDZVKVNJ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dyson-v15-detect-plus",
+      "levoit-lvac-300",
+      "lg-cordzero-a937",
+      "hoover-onepwr-evolve-pet-elite"
+    ],
+    "useCases": [
+      "pet-hair",
+      "deep-carpet",
+      "hard-floors"
+    ],
+    "shortTagline": "Best-handling stick here, with the vaguest runtime claim and no published suction figure."
+  },
+  {
+    "id": "cv-samsung-bespoke-ai-jet-ultra",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Samsung",
+    "series": "Bespoke AI Jet",
+    "model": "Samsung Bespoke AI Jet Ultra (VS90F40DMK/AA)",
+    "slug": "samsung-bespoke-ai-jet-ultra",
+    "releaseYear": 2025,
+    "price": 847.0,
+    "msrp": 1099.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Satin Black"
+    ],
+    "material": "Plastic body with metal telescopic wand",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "SmartThings app",
+      "Wi-Fi"
+    ],
+    "features": [
+      "400 air watts — the highest genuinely comparable suction figure in this category",
+      "All-in-One Clean Station charges, stores and auto-empties into a bagged 2 L canister",
+      "AI Cleaning Mode 2.0 senses floor type and sets suction automatically",
+      "Full published runtime table: 100 min min-power, 49 mid, 16 max, 1 in Jet",
+      "10-year motor warranty"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum with a bagged auto-empty Clean Station",
+      "suctionRating": "400 air watts. Samsung publishes air watts, so this is directly comparable with Dyson's 240 AW rather than a Pa number",
+      "runtimeEco": 100,
+      "runtimeMax": 16,
+      "runtimePoweredHead": "Samsung publishes the whole table instead of a single best case: 100 minutes on minimum, 49 on mid, 16 on max and 1 minute in Jet mode. The 100-minute headline is the lowest setting",
+      "batteryRemovable": "Sources conflict: Samsung and RC Willey list the battery as removable, while Abt's spec sheet for the same SKU lists it as non-removable. One battery is included either way",
+      "spareBattery": "Not published by the manufacturer",
+      "dockOrMount": "All-in-One Clean Station included — free-standing, charges, stores tools and auto-empties. Needs roughly 14 inches of floor width",
+      "filtration": "Multi-cyclonic with HEPA; Samsung claims 99.999% of fine dust captured. The station is bagged, so emptying never exposes you to the dust",
+      "binCapacity": "0.5 L on-board bin; 2 L bagged Clean Station, which Samsung says holds up to two months of debris",
+      "weight": 7.0,
+      "maintenance": "The Clean Station uses disposable dust bags — three in the box, more must be bought, and that is the permanent running cost. On-board filters are washable"
+    },
+    "scores": {
+      "suctionPower": 10.0,
+      "sustainedRuntime": 6.5,
+      "filtration": 9.0,
+      "handling": 7.5,
+      "maintenance": 9.0,
+      "batterySystem": 7.0,
+      "versatility": 8.0,
+      "value": 6.0
+    },
+    "pros": [
+      "400 air watts, published in the same unit Dyson uses — the strongest honestly comparable number on this page",
+      "Samsung publishes a complete per-mode runtime table rather than one best case; almost nobody else in the category does",
+      "The bagged Clean Station empties the vacuum for you and keeps your hands out of the dust entirely",
+      "10-year motor warranty and full SmartThings integration"
+    ],
+    "cons": [
+      "Jet mode — the setting that produces the 400 AW headline — runs for one minute",
+      "The Clean Station needs about 14 inches of floor width and is loud enough to be a problem near a bedroom",
+      "Bags are a permanent consumable; LG's rival tower is bagless",
+      "Street price has swung between roughly $500 and $1,100 within a year, and stock has been patchy at Best Buy, Samsung and Abt"
+    ],
+    "images": [],
+    "amazonAsin": "B0DZRJCJYJ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dyson-v15-detect-plus",
+      "lg-cordzero-a937",
+      "miele-triflex-hx2-pro",
+      "shark-powerdetect-cordless"
+    ],
+    "useCases": [
+      "pet-hair",
+      "allergies",
+      "deep-carpet",
+      "hard-floors"
+    ],
+    "shortTagline": "400 air watts, honestly published — and a Jet mode that lasts exactly one minute."
+  },
+  {
+    "id": "cv-lg-cordzero-a937",
+    "categorySlug": "cordless-vacuums",
+    "brand": "LG",
+    "series": "CordZero",
+    "model": "LG CordZero All-in-One A937KGMS",
+    "slug": "lg-cordzero-a937",
+    "releaseYear": 2023,
+    "price": 775.99,
+    "msrp": 799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Iron Grey"
+    ],
+    "material": "Plastic body with telescopic metal wand",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "LG ThinQ app",
+      "Wi-Fi"
+    ],
+    "features": [
+      "Two quick-release batteries in the box, both charging in the tower at once",
+      "All-in-One Tower auto-empties the bin and is bagless — no dust bags to buy",
+      "Kompressor compacts the bin contents, which LG rates at 2.4x usable capacity",
+      "5-step filtration with HEPA, plus a separate 3-stage filter in the tower",
+      "5.95 lb — the lightest full-size stick vacuum here"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum with a bagless auto-empty charging tower",
+      "suctionRating": "210 air watts maximum, per the Home Depot spec sheet. LG's own product page states no suction figure at all",
+      "runtimeEco": 120,
+      "runtimeMax": "Not published by the manufacturer",
+      "runtimePoweredHead": "LG states the condition itself: 'up to 120 minutes' is two 60-minute batteries added together, in Normal mode, without a power nozzle attached. Fit the Dual Floor Max nozzle and the figure drops sharply; LG publishes no per-mode table",
+      "batteryRemovable": "Yes — two quick-release batteries included, and the tower charges both simultaneously",
+      "spareBattery": "Not published by the manufacturer",
+      "dockOrMount": "All-in-One Tower included: free-standing, charges both batteries, stores tools and auto-empties the bin",
+      "filtration": "5-step filtration with a HEPA element, LG claims 99.99% of dust; the tower adds a 3-stage filter claimed at 99.9%. LG publishes no whole-machine seal certification",
+      "binCapacity": "Kompressor compresses the contents — LG claims 2.4x the capacity of a non-Kompressor bin. The tower is bagless",
+      "weight": 5.95,
+      "maintenance": "Cyclone and filters are removable and washable, so there is no scheduled filter purchase. The bagless tower means no consumable bags either"
+    },
+    "scores": {
+      "suctionPower": 7.5,
+      "sustainedRuntime": 8.0,
+      "filtration": 8.0,
+      "handling": 9.0,
+      "maintenance": 9.0,
+      "batterySystem": 9.5,
+      "versatility": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "The only machine here that ships with two batteries, and the tower charges both at once — a genuine 2x working session",
+      "The auto-empty tower is bagless, so unlike Samsung's Clean Station there is nothing to keep buying",
+      "5.95 lb is the lightest full-size stick vacuum on this page",
+      "Kompressor physically compacts the bin contents, so you empty it far less often than a 0.5 L rival"
+    ],
+    "cons": [
+      "The 120-minute headline is two batteries combined, in Normal mode, with no power nozzle fitted — LG's own footnote says so",
+      "210 air watts sits well under Dyson's 240 and Samsung's 400, and LG only publishes it on retailer spec sheets, not its own page",
+      "Only 1 year of parts-and-labour cover; the 10-year figure covers the motor alone",
+      "LG's US stick line churns fast — the A927 and A929 siblings are already discontinued"
+    ],
+    "images": [],
+    "amazonAsin": "B0BZQT1235",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-bespoke-ai-jet-ultra",
+      "dyson-v15-detect-plus",
+      "shark-powerdetect-cordless",
+      "miele-triflex-hx2-pro"
+    ],
+    "useCases": [
+      "pet-hair",
+      "allergies",
+      "hard-floors",
+      "deep-carpet"
+    ],
+    "shortTagline": "Two batteries and a bagless auto-empty tower; 120 minutes means both, with no nozzle."
+  },
+  {
+    "id": "cv-miele-triflex-hx2-pro",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Miele",
+    "series": "Triflex",
+    "model": "Miele Triflex HX2 Pro (11827020)",
+    "slug": "miele-triflex-hx2-pro",
+    "releaseYear": 2022,
+    "price": 1199.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Infinity Grey PearlFinish / Rose Gold"
+    ],
+    "material": "Reinforced plastic with metal wand",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "On-board controls only",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "3-in-1 body: motor unit mounts at the top, at the floor, or comes off as a handheld",
+      "Two 25.2 V / 2500 mAh batteries included",
+      "HEPA Lifetime filter that Miele states never needs replacing",
+      "Multi Floor XXL electrobrush with an LED strip for hidden dust",
+      "Free-standing — it does not need a wall or a dock to stay upright"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum, 3-in-1 convertible (top-mount, floor-mount or handheld)",
+      "suctionRating": "Not published by the manufacturer — Miele publishes three electronic power levels but no air-watt, Pa or motor-watt suction figure",
+      "runtimeEco": 60,
+      "runtimeMax": 17,
+      "runtimePoweredHead": "Miele's own support page gives the real table: 60 minutes at MIN level with the PowerUnit alone (no powered head), falling to 14-17 minutes at maximum power with an electrobrush attached. The '120 minutes' on the box is two 60-minute batteries added together",
+      "batteryRemovable": "Yes — two 25.2 V / 2500 mAh Vortex batteries included, swappable without tools",
+      "spareBattery": "$229.00 from Miele USA",
+      "dockOrMount": "Wall mount and charging tray included; there is no floor dock and no auto-empty. The machine free-stands unaided",
+      "filtration": "Maintenance-free HEPA Lifetime filter, 99.999% dust retention claimed. Miele publishes no whole-machine seal certification",
+      "binCapacity": "0.5 L bin with a bottom release",
+      "weight": 8.0,
+      "maintenance": "The HEPA Lifetime filter is designed never to be replaced, so there is no filter consumable at all. Spare batteries at $229 are the only real running cost"
+    },
+    "scores": {
+      "suctionPower": 7.5,
+      "sustainedRuntime": 6.0,
+      "filtration": 9.5,
+      "handling": 8.5,
+      "maintenance": 9.5,
+      "batterySystem": 8.0,
+      "versatility": 8.5,
+      "value": 5.0
+    },
+    "pros": [
+      "Miele publishes the real runtime table — including 14-17 minutes at max with the electrobrush — where almost every rival publishes only a best case",
+      "Two batteries included plus a HEPA filter Miele says never needs replacing: the lowest consumable cost in the category",
+      "The 3-in-1 body lets you put the motor at the floor end for stairs or on top for balance, and it stands up on its own",
+      "Push-button power, not a held trigger"
+    ],
+    "cons": [
+      "$1,199 and Miele will not publish a suction figure of any kind, so you cannot compare it on paper with a Dyson or a Samsung",
+      "Spare batteries are $229 each — more than twice Dyson's $99.99",
+      "No auto-empty tower is offered at any price, unlike LG and Samsung at lower money",
+      "The '120 minutes' on the box is two batteries, at minimum power, with no powered head fitted"
+    ],
+    "images": [],
+    "amazonAsin": "B0BTFCWGG4",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dyson-v15-detect-plus",
+      "samsung-bespoke-ai-jet-ultra",
+      "lg-cordzero-a937",
+      "shark-powerdetect-cordless"
+    ],
+    "useCases": [
+      "allergies",
+      "deep-carpet",
+      "hard-floors",
+      "pet-hair"
+    ],
+    "shortTagline": "The most honest runtime figures in the category, on the least published suction."
+  },
+  {
+    "id": "cv-levoit-lvac-300",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Levoit",
+    "series": "LVAC",
+    "model": "Levoit LVAC-300",
+    "slug": "levoit-lvac-300",
+    "releaseYear": 2025,
+    "price": 229.99,
+    "msrp": 349.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White/Grey"
+    ],
+    "material": "ABS plastic with metal wand",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "On-board LED mode indicators",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "90 air watts — a genuinely comparable suction figure at a sub-$250 price",
+      "Publishes a per-mode runtime table naming the attachment used for each mode",
+      "Self-standing body, so the wall bracket is genuinely optional",
+      "TripleStrike anti-tangle roller with a mini motorised brush in the box",
+      "Detachable 3000 mAh battery that charges on or off the vacuum"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum, converts to handheld",
+      "suctionRating": "90 air watts. Levoit publishes air watts, so it is directly comparable with Dyson's 240 AW rather than a Pa figure",
+      "runtimeEco": 60,
+      "runtimeMax": 12,
+      "runtimePoweredHead": "Levoit states the attachment for each figure: 60 minutes in Eco with the crevice tool, 40 minutes in Standard with the vacuum head or motorised brush, and 12 minutes in Turbo. The 60-minute headline is the non-powered tool",
+      "batteryRemovable": "Yes — detachable 3000 mAh pack with three LED cells, charges attached or removed",
+      "spareBattery": "Not published by the manufacturer. Note the LVAC-200 and LVAC-300 packs are not interchangeable",
+      "dockOrMount": "Wall-mount bracket included and it needs screws, but the vacuum free-stands without it. No dock and no auto-empty",
+      "filtration": "5-stage with a HEPA element, Levoit claiming 99.99% of 0.3-micron particles retained. Levoit makes no sealed-whole-machine claim",
+      "binCapacity": "3.2 cups (about 0.76 L) with a bottom release",
+      "weight": 6.56,
+      "maintenance": "Washable metal pre-filters and a washable HEPA element. Levoit publishes neither a replacement schedule nor a filter price"
+    },
+    "scores": {
+      "suctionPower": 6.0,
+      "sustainedRuntime": 6.0,
+      "filtration": 7.0,
+      "handling": 8.5,
+      "maintenance": 7.5,
+      "batterySystem": 7.0,
+      "versatility": 7.0,
+      "value": 9.0
+    },
+    "pros": [
+      "Publishes air watts and a three-mode runtime table that names the attachment for each figure — unusually honest at this price",
+      "Self-standing, so unlike Dyson and Miele you are not obliged to drill a bracket into a wall",
+      "Detachable battery that charges off the machine, at a price where sealed packs are the norm",
+      "Around $230 street for 90 AW, a HEPA element and a 2-year warranty"
+    ],
+    "cons": [
+      "90 air watts is barely a third of the Dyson's 240 — this is a maintenance vacuum, not a deep-carpet one",
+      "12 minutes in Turbo, and 40 rather than 60 as soon as the powered head goes on",
+      "A HEPA element in a body Levoit never claims is sealed is not an allergy solution",
+      "No spare-battery price published, and the LVAC-200 pack will not fit"
+    ],
+    "images": [],
+    "amazonAsin": "B0DQKQ3F2C",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "wyze-cordless-vacuum-s",
+      "shark-powerdetect-cordless",
+      "hoover-onepwr-evolve-pet-elite",
+      "dyson-v15-detect-plus"
+    ],
+    "useCases": [
+      "hard-floors",
+      "pet-hair"
+    ],
+    "shortTagline": "Publishes air watts and a real per-mode runtime table — at a third of Dyson's suction."
+  },
+  {
+    "id": "cv-wyze-cordless-vacuum-s",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Wyze",
+    "model": "Wyze Cordless Vacuum S",
+    "slug": "wyze-cordless-vacuum-s",
+    "releaseYear": 2024,
+    "price": 129.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White/Grey"
+    ],
+    "material": "ABS plastic with metal wand",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "On-board controls only",
+      "No app despite the Wyze name"
+    ],
+    "features": [
+      "Per-mode suction and per-mode runtime both published — rare at $130",
+      "Removable 6-cell 21.6 V battery",
+      "Dual motors: 300 W in the body plus a second motor in the brush head",
+      "4.9 lb fully assembled",
+      "Three modes: Eco 6,000 Pa, Medium 9,000 Pa, Turbo 20,000 Pa"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum, converts to handheld",
+      "suctionRating": "Sources conflict on units: Wyze quotes 20,000 Pa in Turbo (9,000 Medium, 6,000 Eco) and separately claims '100 AW'. Pa is sealed suction measured at a blocked inlet, not work done at the head, and 100 AW alongside 20,000 Pa is not a figure Wyze substantiates",
+      "runtimeEco": 40,
+      "runtimeMax": 10,
+      "runtimePoweredHead": "Wyze publishes all three modes — 40 minutes Eco, 23 Medium, 10 Turbo — but does not state whether the powered floor head is fitted for any of them",
+      "batteryRemovable": "Yes — removable 6-cell pack (2,000 mAh x 6, 21.6 V DC), 4-6 hours to charge",
+      "spareBattery": "Not published by the manufacturer",
+      "dockOrMount": "Neither. An AC charger only — no wall mount, no dock, no stand in the box",
+      "filtration": "3-stage with a filter Wyze calls HEPA but rates at '95% of particles under 0.3 micron'. Genuine HEPA is 99.97% at 0.3 micron. No sealed-system claim",
+      "binCapacity": "Sources conflict: Wyze's own product page gives 0.55 L in one place and 0.7 L in another",
+      "weight": 4.9,
+      "maintenance": "Washable filter. Wyze publishes no replacement schedule, no filter price and no brush-roll availability"
+    },
+    "scores": {
+      "suctionPower": 4.5,
+      "sustainedRuntime": 4.5,
+      "filtration": 3.5,
+      "handling": 9.0,
+      "maintenance": 6.0,
+      "batterySystem": 6.0,
+      "versatility": 5.5,
+      "value": 8.5
+    },
+    "pros": [
+      "$129.99 for a removable battery, a motorised head and a published three-mode runtime table",
+      "4.9 lb assembled — light enough to carry upstairs one-handed, and the handheld half is 2.8 lb",
+      "Publishes suction per mode as well as runtime per mode, which most budget brands avoid",
+      "A second motor in the brush head rather than a passive roller"
+    ],
+    "cons": [
+      "The 'HEPA filter' is rated at 95% of sub-0.3-micron particles. Real HEPA means 99.97%. This is not an allergy vacuum whatever the listing says",
+      "No wall mount, no dock, no stand — it ships with a bare AC charger and nowhere to put it",
+      "10 minutes in Turbo, and Wyze will not say whether that is with the floor head running",
+      "Wyze's own page gives two different bin capacities, which does not inspire confidence in the rest of the sheet"
+    ],
+    "images": [],
+    "amazonAsin": "B0CV5J8W7R",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "levoit-lvac-300",
+      "hoover-onepwr-evolve-pet-elite",
+      "shark-powerdetect-cordless"
+    ],
+    "useCases": [
+      "hard-floors",
+      "pet-hair"
+    ],
+    "shortTagline": "$130 and honest about runtime — but its 'HEPA' filter is rated 95%, not 99.97%."
+  },
+  {
+    "id": "cv-hoover-onepwr-evolve-pet-elite",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Hoover",
+    "series": "ONEPWR",
+    "model": "Hoover ONEPWR Evolve Pet Elite (BH53801V)",
+    "slug": "hoover-onepwr-evolve-pet-elite",
+    "releaseYear": 2023,
+    "price": 279.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black/Silver"
+    ],
+    "material": "Impact plastic",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "On-board controls only",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "ONEPWR 20 V 4.0 Ah battery shared across Hoover's whole cordless range",
+      "1.0 litre dirt cup — roughly three times a typical stick vacuum's",
+      "Four power modes with a Tangle Guard brush roll",
+      "Upright body that free-stands and swivels",
+      "15-cyclone separation with LED headlights"
+    ],
+    "specs": {
+      "machineType": "Dry cordless stick vacuum in upright form — it does not convert to a handheld",
+      "suctionRating": "Not published by the manufacturer. Hoover quotes '50% more power' than the previous Evolve and a 20 V / 4.0 Ah battery, neither of which is a suction figure",
+      "runtimeEco": 35,
+      "runtimeMax": "Not published by the manufacturer",
+      "runtimePoweredHead": "Hoover's '35 minutes of continuous runtime' is the low suction mode. There are four power modes and Hoover publishes a runtime for none of the other three",
+      "batteryRemovable": "Yes — and the ONEPWR 20 V pack is shared across Hoover's whole cordless line, including its floor washers and blowers",
+      "spareBattery": "Not published on the product page; ONEPWR 4.0 Ah packs are stocked as a standard Hoover accessory",
+      "dockOrMount": "Charger only. The vacuum free-stands. No dock, no wall mount, no auto-empty",
+      "filtration": "15-cyclone separation that Hoover rates at 99.4% of dirt and dust, at an unspecified particle size. Hoover makes no HEPA claim and no sealed-system claim",
+      "binCapacity": "1.0 L (1 quart) dirt cup, the largest on-board bin here, with a bottom release",
+      "weight": 9.2,
+      "maintenance": "Washable filter with no published replacement interval. Third-party washable replacements are widely sold, which is what most owners end up buying"
+    },
+    "scores": {
+      "suctionPower": 6.5,
+      "sustainedRuntime": 5.0,
+      "filtration": 4.5,
+      "handling": 6.0,
+      "maintenance": 7.0,
+      "batterySystem": 8.5,
+      "versatility": 5.0,
+      "value": 7.5
+    },
+    "pros": [
+      "The ONEPWR battery fits Hoover's entire cordless range, so a spare pack is useful well beyond this vacuum",
+      "A 1-litre dirt cup means far fewer trips to the bin than the 0.5-0.77 L rivals",
+      "Upright, self-standing body is easier on the wrist over a long session than a handheld-balanced stick",
+      "$280 including a 4.0 Ah pack and a charger"
+    ],
+    "cons": [
+      "Hoover publishes no suction figure of any kind — not air watts, not Pa, not even motor watts",
+      "99.4% filtration at an unstated particle size, no HEPA claim and no sealed system: the wrong machine for allergies",
+      "The 35-minute figure is the low mode; three other modes exist and none has a published runtime",
+      "Does not convert to a handheld, so above-floor cleaning means hauling the whole upright with you"
+    ],
+    "images": [],
+    "amazonAsin": "B0BS71D8C9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "shark-powerdetect-cordless",
+      "levoit-lvac-300",
+      "wyze-cordless-vacuum-s",
+      "bissell-crosswave-omniforce-edge"
+    ],
+    "useCases": [
+      "pet-hair",
+      "deep-carpet"
+    ],
+    "shortTagline": "A litre of bin and a battery that fits everything Hoover makes; no suction figure at all."
+  },
+  {
+    "id": "cv-tineco-floor-one-s7-stretch-ultra",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Tineco",
+    "series": "FLOOR ONE",
+    "model": "Tineco FLOOR ONE S7 Stretch Ultra",
+    "slug": "tineco-floor-one-s7-stretch-ultra",
+    "releaseYear": 2025,
+    "price": 449.0,
+    "msrp": 649.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White/Grey"
+    ],
+    "material": "ABS plastic with translucent tanks",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Tineco app",
+      "Wi-Fi",
+      "LED display on the handle"
+    ],
+    "features": [
+      "Lays flat to 5.1 inches so it slides under sofas and beds",
+      "iLoop dirt sensor raises suction and water only where the floor is dirty",
+      "FlashDry self-clean with 185°F (85°C) hot-air drying for 5 minutes",
+      "DualBlock anti-tangle roller with dual-sided edge cleaning",
+      "Forward self-traction so the head pulls itself along"
+    ],
+    "specs": {
+      "machineType": "Cordless wet-dry hard-floor washer — it vacuums and washes sealed hard floors, and is not a carpet vacuum",
+      "suctionRating": "21 kPa sealed suction with a 230 W motor rating. Tineco publishes no air-watt figure, so this cannot be compared directly with the dry sticks here",
+      "runtimeEco": 50,
+      "runtimeMax": "Not published by the manufacturer — Tineco quotes 50 minutes and does not break it down by Auto, Max or Suction mode",
+      "runtimePoweredHead": "Unlike a dry stick there is no non-powered-tool inflation here: the roller motor always runs on a washer, so the 50 minutes is the machine as sold. Tineco still publishes no Max-mode figure",
+      "batteryRemovable": "No — the 7-cell 3,900 mAh pack is internal and not user-swappable",
+      "spareBattery": "Not applicable — the battery is not user-replaceable",
+      "dockOrMount": "Charging and self-clean dock included; the machine runs its self-clean cycle sitting in the dock",
+      "filtration": "A washable dry filter sits over the dirty-water tank. Tineco makes no HEPA claim and no sealed-system claim for this model",
+      "binCapacity": "1.0 L clean water tank and a 0.72 L dirty water tank",
+      "weight": "Not published by the manufacturer for the Stretch Ultra (the older S7 Pro is 11.46 lb)",
+      "maintenance": "The FlashDry self-clean washes the roller with unheated tank water and then dries it with 185°F (85°C) air for 5 minutes — the 185°F in the marketing is the drying air, not the wash water. Hot-water washing needs the S7 Stretch Steam instead. The dirty-water tank and its hair filter are still emptied and rinsed by hand every time. Tineco specifies one capful of its own solution per tank and advises against third-party detergents"
+    },
+    "scores": {
+      "suctionPower": 6.5,
+      "sustainedRuntime": 7.0,
+      "filtration": 5.0,
+      "handling": 8.0,
+      "maintenance": 7.5,
+      "batterySystem": 4.0,
+      "versatility": 6.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Lays flat to 5.1 inches and goes under furniture — the single reason to pick this over the older S7 Pro",
+      "Hot-air drying after every self-clean is what stops the roller going sour between uses",
+      "Dual-sided edge cleaning reaches within about a centimetre of a baseboard on both sides",
+      "The iLoop sensor throttles suction and water to the actual dirt, which is why 50 minutes is a realistic working figure"
+    ],
+    "cons": [
+      "The self-clean washes with unheated tank water; only the drying air is 185°F. Hot-water washing costs $150 more on the Stretch Steam",
+      "The battery is sealed inside — when the pack dies, the machine dies",
+      "Tineco advises against third-party solution, so detergent is a permanent tie to Tineco",
+      "You still empty and rinse the dirty-water tank and pick the hair out of its filter by hand after every use"
+    ],
+    "images": [],
+    "amazonAsin": "B0DPPLWYGX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roborock-f25-ultra",
+      "bissell-crosswave-omniforce-edge",
+      "dyson-v15s-detect-submarine"
+    ],
+    "useCases": [
+      "hard-floors",
+      "wet-dry",
+      "pet-hair"
+    ],
+    "shortTagline": "Lays flat under furniture and dries itself hot — but self-cleans with cold water."
+  },
+  {
+    "id": "cv-roborock-f25-ultra",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Roborock",
+    "series": "F25",
+    "model": "Roborock F25 Ultra",
+    "slug": "roborock-f25-ultra",
+    "releaseYear": 2025,
+    "price": 599.99,
+    "msrp": 799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic with stainless accents",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Roborock app",
+      "Wi-Fi",
+      "Display on the handle"
+    ],
+    "features": [
+      "356°F steam mode plus a 187°F hot-water wash mode",
+      "Self-clean uses 194°F water and 356°F steam, then 203°F hot-air drying",
+      "Detachable solid/liquid separation module in the dirty-water tank",
+      "22,000 Pa suction with 180° lay-flat and lit AI assistant wheels",
+      "Auto detergent dispenser that Roborock rates at about 30 days per fill"
+    ],
+    "specs": {
+      "machineType": "Cordless wet-dry hard-floor washer with steam",
+      "suctionRating": "22,000 Pa. Roborock publishes Pa only — there is no air-watt figure, so it is not comparable with the dry sticks",
+      "runtimeEco": 60,
+      "runtimeMax": "Not published by the manufacturer. VacuumWars measured roughly 15-25 minutes in the steam and hot-water modes against up to 60 in Auto",
+      "runtimePoweredHead": "Auto mode is up to 60 minutes. Heating water to 187°F or generating 356°F steam is what actually drains the pack, and Roborock publishes no figure for either — the heated modes are the ones people buy this for",
+      "batteryRemovable": "Not published by the manufacturer — Roborock does not describe the pack as user-removable",
+      "spareBattery": "Not published by the manufacturer",
+      "dockOrMount": "Self-cleaning charging dock included",
+      "filtration": "Washable filters on the dirty-water separation module. Roborock makes no HEPA claim and no sealed-system claim",
+      "binCapacity": "1.0 L clean water tank; dirty-water tank with a detachable solid/liquid separation module",
+      "weight": 12.1,
+      "maintenance": "The only washer here whose self-clean genuinely uses heat: 194°F water and 356°F steam on the roller, then about 5 minutes of 203°F hot-air drying, with anti-scale protection Roborock rates for three years. The dirty tank is still emptied by hand, but the separation module strains the hair out first so your hand stays clear of the slurry. Detergent auto-dispenses from Roborock's own solution; third-party compatibility is not published"
+    },
+    "scores": {
+      "suctionPower": 8.0,
+      "sustainedRuntime": 6.0,
+      "filtration": 5.5,
+      "handling": 6.5,
+      "maintenance": 9.5,
+      "batterySystem": 4.0,
+      "versatility": 7.5,
+      "value": 8.0
+    },
+    "pros": [
+      "The self-clean actually uses heat — 194°F water and 356°F steam on the roller, then 203°F drying — where Tineco's and Bissell's use cold tank water",
+      "356°F steam lifts dried-on grease that a plain wet roller simply smears around",
+      "The detachable separation module means emptying the dirty tank does not put your fingers into hair slurry",
+      "22,000 Pa, 180° lay-flat and an auto detergent dispenser you refill roughly monthly"
+    ],
+    "cons": [
+      "12.1 lb is the heaviest machine on this page and you feel it before the tank is empty",
+      "Roborock publishes no runtime for the steam or hot-water modes, which are the modes that justify the price",
+      "Only a 1-year warranty against Shark's 5 and Miele's 2",
+      "No air-watt figure, no HEPA claim, and on carpet it is no substitute for a dry stick vacuum"
+    ],
+    "images": [],
+    "amazonAsin": "B0FHHRXJ56",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tineco-floor-one-s7-stretch-ultra",
+      "bissell-crosswave-omniforce-edge",
+      "dyson-v15s-detect-submarine"
+    ],
+    "useCases": [
+      "hard-floors",
+      "wet-dry",
+      "pet-hair"
+    ],
+    "shortTagline": "The only washer here that self-cleans with genuinely hot water and steam."
+  },
+  {
+    "id": "cv-bissell-crosswave-omniforce-edge",
+    "categorySlug": "cordless-vacuums",
+    "brand": "Bissell",
+    "series": "CrossWave",
+    "model": "Bissell CrossWave OmniForce Edge (3930F)",
+    "slug": "bissell-crosswave-omniforce-edge",
+    "releaseYear": 2024,
+    "price": 329.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black/Titanium"
+    ],
+    "material": "ABS plastic with translucent tanks",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "On-board controls only",
+      "No app, no Wi-Fi"
+    ],
+    "features": [
+      "A dedicated dry-vacuum mode with its own Easy Empty dirt bin",
+      "ZeroGap edge cleaning right up against a baseboard",
+      "Two-tank system: 620 ml clean, 450 ml dirty",
+      "Power Vac mode Bissell rates at 75% more suction than the CrossWave X7",
+      "One-touch self-clean cycle with a charging dock and tray"
+    ],
+    "specs": {
+      "machineType": "Cordless wet-dry hard-floor washer with a separate dry-vacuum mode",
+      "suctionRating": "Not published by the manufacturer. Bissell quotes '75% more suction than CrossWave X7' and a 25 V battery — a relative claim and an input voltage, neither of which is a suction figure",
+      "runtimeEco": 30,
+      "runtimeMax": "Not published by the manufacturer",
+      "runtimePoweredHead": "Bissell publishes a single 30-minute figure and states only that it 'varies by mode and usage'. There is no separate figure for Power Vac or Power Mop",
+      "batteryRemovable": "Not published by the manufacturer — Bissell lists a 25 V rechargeable pack with a 4-hour charge but does not describe it as user-removable",
+      "spareBattery": "Not published by the manufacturer",
+      "dockOrMount": "Charging dock and storage tray included",
+      "filtration": "Bissell publishes no filtration rating for this model and makes no HEPA claim",
+      "binCapacity": "620 ml clean water tank and 450 ml dirty water tank, plus a separate Easy Empty dirt bin for dry mode",
+      "weight": 10.6,
+      "maintenance": "The one-touch self-clean flushes the brush roll with tank water — Bissell does not claim it is heated, and there is no hot-air drying, so the roller is stored damp. Two 8 oz Bissell formulas are in the box and the machine is built around Bissell's own formulas. Replacement brush rolls and filters are stocked by Bissell"
+    },
+    "scores": {
+      "suctionPower": 5.5,
+      "sustainedRuntime": 5.0,
+      "filtration": 4.0,
+      "handling": 7.5,
+      "maintenance": 5.5,
+      "batterySystem": 4.0,
+      "versatility": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "A genuine dry-vacuum mode with its own dirt bin — most washers make you wet-mop dry crumbs",
+      "ZeroGap edge cleaning takes the head right up to a baseboard, which the Tineco only manages to about a centimetre",
+      "Two-tank design keeps dirty water off the floor and both tanks pull straight out on a lever",
+      "The cheapest way into a cordless wet-dry washer from a major brand"
+    ],
+    "cons": [
+      "The self-clean flushes with cold tank water and there is no hot-air drying, so the roller sits damp — exactly the smell problem Tineco and Roborock spent money solving",
+      "30 minutes of runtime with no breakdown by mode, and heavy wet work will not reach it",
+      "Bissell publishes no suction figure and no filtration rating whatsoever for this machine",
+      "Built around Bissell's own formulas, and the two 8 oz sample bottles run out within a few tanks"
+    ],
+    "images": [],
+    "amazonAsin": "B0D19F4NMQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tineco-floor-one-s7-stretch-ultra",
+      "roborock-f25-ultra",
+      "dyson-v15s-detect-submarine",
+      "hoover-onepwr-evolve-pet-elite"
+    ],
+    "useCases": [
+      "hard-floors",
+      "wet-dry"
+    ],
+    "shortTagline": "The cheapest real cordless floor washer — and it self-cleans with cold water."
+  }
+]

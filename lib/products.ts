@@ -21,6 +21,9 @@ import { smartThermostatProducts } from '@/data/products/smart-thermostats';
 import { smartPlugProducts } from '@/data/products/smart-plugs';
 import { smartLightProducts } from '@/data/products/smart-lights';
 import { smartDisplayProducts } from '@/data/products/smart-displays';
+import { robotVacuumProducts } from '@/data/products/robot-vacuums';
+import { cordlessVacuumProducts } from '@/data/products/cordless-vacuums';
+import { humidifierProducts } from '@/data/products/humidifiers';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -50,7 +53,10 @@ const allProducts: Product[] = [
   ...smartThermostatProducts,
   ...smartPlugProducts,
   ...smartLightProducts,
-  ...smartDisplayProducts
+  ...smartDisplayProducts,
+  ...robotVacuumProducts,
+  ...cordlessVacuumProducts,
+  ...humidifierProducts
 ];
 
 export function getAllProducts(): Product[] {

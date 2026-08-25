@@ -920,6 +920,131 @@ export const categories: Category[] = [
       { slug: 'video-calling', label: 'Video Calling', kind: 'use-case' },
       { slug: 'family-organizer', label: 'Family Organiser', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'robot-vacuums',
+    name: 'Robot Vacuum',
+    pluralName: 'Robot Vacuums',
+    description:
+      'Robot vacuum comparisons that ignore the Pascal race: mop lift height in mm, what the self-empty dock costs to feed each year, whether the mop is a damp pad or a washed roller, and where the camera looks.',
+    specFields: [
+      { key: 'claimedSuction', label: 'Claimed Suction (Pa)', betterDirection: 'none' },
+      { key: 'independentCleaningResult', label: 'Independent Test Result', betterDirection: 'none' },
+      { key: 'navigationAndAvoidance', label: 'Navigation & Obstacle Avoidance', betterDirection: 'none' },
+      { key: 'petWastePolicy', label: 'What the Maker Promises About Pet Waste', betterDirection: 'none' },
+      { key: 'mopSystem', label: 'Mop System', betterDirection: 'none' },
+      { key: 'mopLift', label: 'Mop Lift Over Carpet', unit: 'mm', betterDirection: 'higher' },
+      { key: 'dockType', label: 'Dock Type & Plumbing', betterDirection: 'none' },
+      { key: 'dockMopWashing', label: 'Dock Mop Wash & Dry', betterDirection: 'none' },
+      { key: 'dockBagsAndRunningCost', label: 'Dock Bags & Running Cost', betterDirection: 'none' },
+      { key: 'binCapacity', label: 'Robot Bin Capacity', unit: 'ml', betterDirection: 'higher' },
+      { key: 'ratedRuntime', label: 'Rated Runtime (and at what setting)', unit: 'min', betterDirection: 'higher' },
+      { key: 'accountCloudAndCamera', label: 'Account, Cloud & Camera Privacy', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'carpetCleaning', label: 'Carpet Cleaning', description: 'Embedded-debris and pet-hair pickup from carpet in independent bench tests, plus anti-tangle brush design — not the manufacturer\'s Pascal claim.' },
+      { key: 'hardFloorCleaning', label: 'Hard Floor & Edges', description: 'Pickup on hard floor including crevices, edges and corners, and whether the side brush or mop actually extends to the skirting.' },
+      { key: 'mopping', label: 'Mopping', description: 'Whether the mop scrubs or just drags: pad versus spinning versus washed roller, down-pressure, dried-stain removal and how wet the floor is left. Vacuum-only robots score 0.' },
+      { key: 'obstacleAvoidance', label: 'Obstacle Avoidance', description: 'Real camera or structured-light recognition versus bump-and-turn, scored against published obstacle-course results rather than the number of object types claimed.' },
+      { key: 'dockAutomation', label: 'Dock Automation', description: 'How much the dock genuinely does unattended: self-empty, hot-water mop wash, hot-air dry, solution dosing, plumbed refill and drain — minus the jobs it still leaves you.' },
+      { key: 'runningCost', label: 'Running Cost', description: 'The trap dimension. What the machine costs to feed each year in proprietary bags, mop pads, filters and detergent, and whether a bagless dock lets you spend nothing at all. 10 means it costs nothing to keep running.' },
+      { key: 'privacyAndControl', label: 'Privacy & Control', description: 'Whether an account and cloud are required, where the maps live, whether there is a camera and where its frames are processed, and the brand\'s actual privacy and security record.' },
+      { key: 'value', label: 'Value', description: 'Tested cleaning performance and dock automation against the real street price and the year-one consumables bill.' }
+    ],
+    filters: [
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'under-700', label: 'Under $700', kind: 'price-max', value: 700 },
+      { slug: 'under-1100', label: 'Under $1,100', kind: 'price-max', value: 1100 },
+      { slug: 'self-empty-base', label: 'Self-Emptying Base', kind: 'use-case' },
+      { slug: 'auto-wash-dock', label: 'Dock Washes the Mop', kind: 'use-case' },
+      { slug: 'bagless-dock', label: 'Bagless Dock (No Bags to Buy)', kind: 'use-case' },
+      { slug: 'vacuum-only', label: 'Vacuum Only (No Mop)', kind: 'use-case' },
+      { slug: 'pet-hair', label: 'Pet Hair', kind: 'use-case' },
+      { slug: 'first-robot', label: 'First Robot Vacuum', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'cordless-vacuums',
+    name: 'Cordless Vacuum',
+    pluralName: 'Cordless Vacuums',
+    description:
+      'Cordless stick vacuums and wet-dry floor washers compared on the specs that actually decide it — air watts versus Pa, runtime at max power with the floor head running, sealed filtration and battery cost.',
+    specFields: [
+      { key: 'machineType', label: 'Machine Type', betterDirection: 'none' },
+      { key: 'suctionRating', label: 'Suction (as published)', betterDirection: 'none' },
+      { key: 'runtimeEco', label: 'Runtime, Eco / Headline', unit: 'min', betterDirection: 'higher' },
+      { key: 'runtimeMax', label: 'Runtime, Max Power', unit: 'min', betterDirection: 'higher' },
+      { key: 'runtimePoweredHead', label: 'What the Runtime Claim Actually Means', betterDirection: 'none' },
+      { key: 'batteryRemovable', label: 'Removable Battery', betterDirection: 'none' },
+      { key: 'spareBattery', label: 'Spare Battery', betterDirection: 'none' },
+      { key: 'dockOrMount', label: 'Dock / Wall Mount', betterDirection: 'none' },
+      { key: 'filtration', label: 'Filtration', betterDirection: 'none' },
+      { key: 'binCapacity', label: 'Bin / Tank Capacity', betterDirection: 'none' },
+      { key: 'weight', label: 'Weight', unit: 'lbs', betterDirection: 'lower' },
+      { key: 'maintenance', label: 'Filters, Consumables & Self-Clean', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'suctionPower', label: 'Suction Power', description: 'Actual cleaning force at the head, judged on air watts where a maker publishes them and discounted where only Pa or motor watts are quoted' },
+      { key: 'sustainedRuntime', label: 'Sustained Runtime', description: 'How long the machine really runs on max power with the motorised floor head attached — not the eco-mode, bare-tool figure on the box' },
+      { key: 'filtration', label: 'Filtration & Sealing', description: 'Whether the whole machine is sealed or a HEPA element simply sits inside a leaky body, and what the claimed rating is actually measured at' },
+      { key: 'handling', label: 'Handling & Ergonomics', description: 'Weight, balance, whether power is a push-button or a trigger you must hold, and how it stores' },
+      { key: 'maintenance', label: 'Maintenance & Emptying', description: 'Bin or tank emptying, whether your hand ends up near the dust, self-clean quality and the ongoing cost of filters, bags and detergent' },
+      { key: 'batterySystem', label: 'Battery System', description: 'Removable or sealed, how many packs are included, what a spare costs and whether the pack is shared across a range' },
+      { key: 'versatility', label: 'Versatility', description: 'Handheld conversion, above-floor tools, carpet capability and wet-mopping ability' },
+      { key: 'value', label: 'Value', description: 'What you actually get for the street price once consumables and missing accessories are counted' }
+    ],
+    filters: [
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'under-350', label: 'Under $350', kind: 'price-max', value: 350 },
+      { slug: 'under-600', label: 'Under $600', kind: 'price-max', value: 600 },
+      { slug: 'under-900', label: 'Under $900', kind: 'price-max', value: 900 },
+      { slug: 'pet-hair', label: 'Pet Hair', kind: 'use-case' },
+      { slug: 'hard-floors', label: 'Hard Floors', kind: 'use-case' },
+      { slug: 'deep-carpet', label: 'Deep Carpet', kind: 'use-case' },
+      { slug: 'allergies', label: 'Allergies', kind: 'use-case' },
+      { slug: 'wet-dry', label: 'Wet & Dry Mopping', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'humidifiers',
+    name: 'Humidifier',
+    pluralName: 'Humidifiers',
+    description:
+      'Humidifiers compared on what actually decides it: ultrasonic white dust, real output versus tank size, the runtime setting the claim is made at, filter and cartridge cost, and whether the humidistat is real.',
+    specFields: [
+      { key: 'technology', label: 'Humidification Technology', betterDirection: 'none' },
+      { key: 'whiteDust', label: 'White Dust & Mineral Aerosol', betterDirection: 'none' },
+      { key: 'tankCapacity', label: 'Tank Capacity', betterDirection: 'none' },
+      { key: 'outputPerDay', label: 'Rated Output per Day', betterDirection: 'none' },
+      { key: 'runtimeQuoted', label: 'Quoted Runtime (and at which setting)', betterDirection: 'none' },
+      { key: 'coverage', label: 'Rated Room Coverage', betterDirection: 'none' },
+      { key: 'humidistat', label: 'Humidistat', betterDirection: 'none' },
+      { key: 'noiseLevel', label: 'Noise', betterDirection: 'none' },
+      { key: 'consumables', label: 'Filters & Cartridges (Annual Cost)', betterDirection: 'none' },
+      { key: 'cleaningBurden', label: 'Cleaning Burden & Dishwasher-Safe Parts', betterDirection: 'none' },
+      { key: 'antimicrobial', label: 'UV / Antimicrobial Claim', betterDirection: 'none' },
+      { key: 'mistTemperature', label: 'Mist Temperature & Burn Risk', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'whiteDustRisk', label: 'Freedom From White Dust', description: 'The thing marketing never mentions. Ultrasonic humidifiers aerosolise whatever is dissolved in the water and deposit it as white dust on furniture — the EPA notes they are \'very efficient at dispersing minerals in tap water into the air\', along with microorganisms from the tank. Evaporative and boiled-steam units do not do this at all. A high score means the technology cannot produce dust; a low score means you are buying distilled water for the life of the machine.' },
+      { key: 'humidificationPower', label: 'Output', description: 'Actual moisture put into the room per day in gallons or mL/hr, judged against the coverage the manufacturer claims — not the square-footage number on the box' },
+      { key: 'runtimeAndCapacity', label: 'Runtime & Refill Interval', description: 'How long a full tank really lasts at a useful output setting, rather than at the lowest setting the runtime is quoted for, and how painful the refill is' },
+      { key: 'cleaningEase', label: 'Cleaning & Access', description: 'Whether the tank opening takes an adult hand, whether any part is dishwasher-safe or boilable, and how realistic the manufacturer\'s stated cleaning interval is to actually keep to' },
+      { key: 'runningCost', label: 'Running Cost', description: 'Wicks, demineralisation cartridges, antimicrobial additives, distilled water and electricity — everything you keep paying after the purchase' },
+      { key: 'quietness', label: 'Quietness', description: 'Noise at the setting people actually run it overnight, weighted toward independently measured figures over manufacturer claims' },
+      { key: 'humidityControl', label: 'Humidity Control', description: 'Whether there is a genuine closed-loop humidistat holding a setpoint, or just fixed output steps and a timer with a humidity label on it' },
+      { key: 'childSafety', label: 'Safety Around Children', description: 'Burn and scald risk from boiled or heated water, tipping hazard, and whether the hygiene story holds up in a nursery' }
+    ],
+    filters: [
+      { slug: 'under-50', label: 'Under $50', kind: 'price-max', value: 50 },
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'no-white-dust', label: 'No White Dust', kind: 'use-case' },
+      { slug: 'warm-mist', label: 'Warm Mist & Steam', kind: 'use-case' },
+      { slug: 'whole-house', label: 'Whole House / Large Area', kind: 'use-case' },
+      { slug: 'nursery', label: 'Nursery & Kids\' Rooms', kind: 'use-case' },
+      { slug: 'easy-clean', label: 'Easy to Clean', kind: 'use-case' }
+    ]
   }
 ];
 

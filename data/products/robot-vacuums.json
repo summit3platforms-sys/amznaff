@@ -1,0 +1,994 @@
+[
+  {
+    "id": "rv-eufy-robovac-11s-max",
+    "categorySlug": "robot-vacuums",
+    "brand": "eufy",
+    "series": "RoboVac",
+    "model": "eufy RoboVac 11S MAX (T2126)",
+    "slug": "eufy-robovac-11s-max",
+    "releaseYear": 2019,
+    "price": 139.99,
+    "msrp": 279.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic housing with a glass-look top panel; eufy publishes no material spec",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Infrared remote control only",
+      "No Wi-Fi",
+      "No app or account",
+      "No voice assistant"
+    ],
+    "features": [
+      "No Wi-Fi, no app, no account — an IR remote and three buttons are the entire interface",
+      "2.85 in (72 mm) tall, the lowest-profile robot in TechGearLab's 23-model test group",
+      "0.6 L onboard bin, the biggest here, because there is no dock to empty into",
+      "BoostIQ steps suction up automatically when the wheels sense carpet",
+      "Measured 51.3 dB by TechGearLab — the quietest robot they tested"
+    ],
+    "specs": {
+      "claimedSuction": "2,000 Pa claimed by eufy. Sources conflict: TechGearLab's spec table for this same model lists 1,300 Pa, which is the figure for the older non-MAX 11S. Either way the number is a marketing figure, not a measurement you can compare across brands",
+      "independentCleaningResult": "TechGearLab: 90% hard-floor debris pickup, 6.8/10 carpet, but 3.4/10 for navigation and obstacle avoidance. Overall 55/100, 18th of 23 robots tested",
+      "navigationAndAvoidance": "Bump-and-turn random navigation. Front bumper and infrared cliff sensors only — no LiDAR, no camera, no map, no no-go zones",
+      "petWastePolicy": "eufy makes no pet-waste claim for this model and it has no camera, so it cannot see waste at all",
+      "mopSystem": "None. Vacuum only",
+      "mopLift": "Not applicable — no mop",
+      "dockType": "Charging base only. No self-empty, no water, no plumbing",
+      "dockMopWashing": "Not applicable",
+      "dockBagsAndRunningCost": "No bags at all, so $0/yr in dock consumables. Recurring parts are a washable filter, a rolling brush and side brushes; eufy and third parties both sell refill kits for the 11S/15C/30 family",
+      "binCapacity": "600 ml, emptied by hand every 2-3 runs",
+      "ratedRuntime": "Up to 100 minutes — eufy's figure is Standard mode on hard floor. BoostIQ on carpet cuts it",
+      "accountCloudAndCamera": "No account, no cloud, no camera, nothing leaves the house. The price is no map, no zones and no scheduling beyond the remote's daily timer"
+    },
+    "scores": {
+      "carpetCleaning": 5.5,
+      "hardFloorCleaning": 6.5,
+      "mopping": 0.0,
+      "obstacleAvoidance": 2.5,
+      "dockAutomation": 1.0,
+      "runningCost": 9.5,
+      "privacyAndControl": 9.0,
+      "value": 8.0
+    },
+    "pros": [
+      "Under $150 street with no app, no account and no Wi-Fi — there is genuinely nothing to sign up for",
+      "90% hard-floor pickup in TechGearLab's test, better than the price suggests",
+      "72 mm tall, so it clears kick-boards and bed frames every dock-equipped robot here is too fat for",
+      "Zero proprietary consumables: no bags, no pads, no detergent — the cheapest robot here to keep running"
+    ],
+    "cons": [
+      "A 2019 design still on sale in 2026 — bump navigation means no map, no no-go zones and no memory of where it has been",
+      "TechGearLab scored navigation and obstacle avoidance 3.4/10; it eats cables and strands itself",
+      "eufy's 2,000 Pa claim is unverifiable and TechGearLab's own spec table records 1,300 Pa for the same robot",
+      "No mop and no self-empty base — you empty a 600 ml bin by hand every two or three runs",
+      "Street price swings between roughly $140 and the $279.99 list, so buying at list is a bad deal"
+    ],
+    "images": [],
+    "amazonAsin": "B07R295MLS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tapo-rv30-max-plus",
+      "roomba-105-combo-autoempty",
+      "shark-powerdetect-self-empty"
+    ],
+    "useCases": [
+      "vacuum-only",
+      "first-robot"
+    ],
+    "shortTagline": "A 2019 bump-and-turn robot with no app at all — cheap, quiet and genuinely dumb."
+  },
+  {
+    "id": "rv-tapo-rv30-max-plus",
+    "categorySlug": "robot-vacuums",
+    "brand": "TP-Link",
+    "series": "Tapo",
+    "model": "TP-Link Tapo RV30 Max Plus",
+    "slug": "tapo-rv30-max-plus",
+    "releaseYear": 2024,
+    "price": 219.99,
+    "msrp": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic; TP-Link publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (Tapo app)",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Around $220 buys a real LiDAR + IMU map with up to 4 saved floors, virtual walls and no-go zones",
+      "3 L auto-empty bag TP-Link rates at up to two months",
+      "The dock empties at 17,000 Pa — a bigger number than the robot's own 5,300 Pa suction claim",
+      "22 mm threshold climbing, unusually good at this price",
+      "Lives in the same Tapo app as TP-Link's cameras, plugs and switches"
+    ],
+    "specs": {
+      "claimedSuction": "5,300 Pa. TP-Link is one of the few brands not inflating the figure — the eufy Omni S2 on this page claims 30,000 Pa for a robot costing six times as much, and Vacuum Wars' bench numbers do not scale anything like 6:1",
+      "independentCleaningResult": "TP-Link claims 97%+ dust pickup. Tom's Guide found it handled larger debris well but 'struggles with large amounts of pet hair' and called the mopping basic. PCMag gave the line an Editors' Choice and Best of the Year 2025",
+      "navigationAndAvoidance": "LiDAR turret plus IMU dead-reckoning, with a camera for mapping. Obstacle handling is sensor-based, not AI object recognition — it will not identify what it is about to hit",
+      "petWastePolicy": "TP-Link makes no pet-waste avoidance claim for this model",
+      "mopSystem": "Clip-on damp microfibre pad fed from a 300 ml tank with 3-level electronic flow control. A wet cloth dragged behind the robot, not a scrubbing mop",
+      "mopLift": "None. The pad does not lift. TP-Link's answer is that the robot avoids carpet in mop mode; Tom's Guide confirms you must zone rugs off by hand or physically remove the pad",
+      "dockType": "Auto-empty dock only. No mop washing, no water refill, no plumbing option",
+      "dockMopWashing": "None. You rinse the pad in the sink — Tom's Guide says weekly",
+      "dockBagsAndRunningCost": "3 L disposable bag rated by TP-Link at up to two months, so about 6 bags a year. TP-Link does not publish a US price for its own replacement bags on the product page; third-party multi-packs are the usual route",
+      "binCapacity": "300 ml onboard, plus a 300 ml water tank",
+      "ratedRuntime": "TP-Link's own spec sheet says max runtime 3 hours (180 minutes) from a 2,600 mAh cell — that is the lowest suction level. Charging takes 4 hours",
+      "accountCloudAndCamera": "TP-Link/Tapo account required and maps live in the Tapo cloud. No user-facing camera stream on the robot, so no remote-video privacy question. TP-Link's US warranty page gives robot vacuums 1 year, with wear items covered for only 30 days"
+    },
+    "scores": {
+      "carpetCleaning": 5.5,
+      "hardFloorCleaning": 7.0,
+      "mopping": 3.0,
+      "obstacleAvoidance": 4.5,
+      "dockAutomation": 4.5,
+      "runningCost": 7.5,
+      "privacyAndControl": 5.5,
+      "value": 8.5
+    },
+    "pros": [
+      "The cheapest way here to get a proper LiDAR map, multi-floor storage and a self-empty dock",
+      "22 mm barrier climbing beats several robots costing three times more",
+      "TP-Link quotes an honest 5,300 Pa rather than joining the five-digit Pascal race",
+      "One app for the vacuum and the rest of a Tapo camera/plug household"
+    ],
+    "cons": [
+      "The mop pad cannot lift, so on a mopping run the robot simply refuses to go on carpet — you zone your rugs out by hand",
+      "Tom's Guide found it struggles with heavy pet hair, and there is no anti-tangle brush design",
+      "No AI obstacle recognition at all: cables and socks are hit, not avoided",
+      "TP-Link does not publish a replacement-bag price, and wear items carry only 30 days of warranty cover",
+      "Street price has ranged from about $162 to the $299.99 list, so the 'deal' depends entirely on timing"
+    ],
+    "images": [],
+    "amazonAsin": "B0DGRJKDKC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "eufy-robovac-11s-max",
+      "roomba-105-combo-autoempty",
+      "shark-powerdetect-self-empty"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "first-robot"
+    ],
+    "shortTagline": "Real LiDAR mapping and a self-empty dock for about $220 — the mop is just a damp rag."
+  },
+  {
+    "id": "rv-roomba-105-combo-autoempty",
+    "categorySlug": "robot-vacuums",
+    "brand": "iRobot",
+    "series": "Roomba",
+    "model": "iRobot Roomba 105 Combo Robot + AutoEmpty Dock",
+    "slug": "roomba-105-combo-autoempty",
+    "releaseYear": 2025,
+    "price": 269.99,
+    "msrp": 469.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic; iRobot publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (iRobot Home app)",
+      "Alexa",
+      "Google Assistant",
+      "Siri"
+    ],
+    "features": [
+      "iRobot's cheapest robot with a real LiDAR map and a self-emptying dock",
+      "ClearView LiDAR maps and cleans in the dark — and carries no camera at all",
+      "AutoEmpty dock rated by iRobot at 75 days per bag, with 0.7-micron allergen filtration",
+      "Four suction levels and three water levels, fed by a micro-pump rather than a gravity tank",
+      "Still sold new after iRobot's December 2025 Chapter 11 filing and sale to Picea"
+    ],
+    "specs": {
+      "claimedSuction": "iRobot publishes no Pascal figure for any Roomba. Its claim is '70x more' power-lifting suction than a Roomba 600 — a ratio against a 2013 robot, not a number you can line up against the 5,300-30,000 Pa claims elsewhere on this page",
+      "independentCleaningResult": "No independent bench result published. It is too new and too cheap to appear in Vacuum Wars' Top 20 or RTINGS' tested rankings; everything here is iRobot's own claim",
+      "navigationAndAvoidance": "ClearView LiDAR mapping with neat-row cleaning and automatic carpet detection. No camera and no AI object recognition — it maps the room but cannot identify what is lying on the floor",
+      "petWastePolicy": "None. iRobot's P.O.O.P. Promise — replace the robot free if it fails to avoid solid dog or cat waste, 1 year from purchase, replacement product only — is written on iRobot's US page against the camera-equipped Roomba j7+, not this LiDAR-only model",
+      "mopSystem": "Single microfibre pad fed by a micro-pump. A damp pad dragged behind the robot",
+      "mopLift": "None. The pad does not lift or retract; iRobot's stated behaviour is 'avoids mopping carpet', meaning it drives around your rugs instead of over them",
+      "dockType": "AutoEmpty dock — debris only. No water, no mop washing, no plumbing",
+      "dockMopWashing": "None. You rinse the mop pad yourself; one spare pad is in the box",
+      "dockBagsAndRunningCost": "Proprietary iRobot dirt-disposal bags rated at 75 days. iRobot's own 3-pack for AutoEmpty/AutoWash docks (part 4849916) is $19.99 — about $6.66 a bag, so roughly $32 a year in bags alone. The older Clean Base 3-pack (4640235) is $11.17 at Home Depot but is a different part that does not fit",
+      "binCapacity": "Not published by iRobot for the 105 Combo; the bin shares the chassis with the mopping solution tank",
+      "ratedRuntime": "Not published by iRobot for this model",
+      "accountCloudAndCamera": "iRobot account and the iRobot Home app are required, and maps are cloud-stored with deletion available on request. No camera on this model. iRobot filed Chapter 11 on 14 December 2025 and was bought by Picea, its Chinese manufacturing partner and secured lender; iRobot says apps, warranties and support continue and the 2026 line is in production"
+    },
+    "scores": {
+      "carpetCleaning": 6.0,
+      "hardFloorCleaning": 6.5,
+      "mopping": 3.0,
+      "obstacleAvoidance": 4.5,
+      "dockAutomation": 4.5,
+      "runningCost": 5.0,
+      "privacyAndControl": 5.0,
+      "value": 7.0
+    },
+    "pros": [
+      "The cheapest Roomba with genuine LiDAR mapping and a self-empty base, and iRobot's app is still the easiest here to live with",
+      "No camera at all, which is the simplest possible answer to the robot-vacuum privacy question",
+      "75-day bag rating is the longest of the budget docks here",
+      "US service network and a 60-day-trial retail culture that the direct-import brands cannot match"
+    ],
+    "cons": [
+      "The mop pad does not lift — iRobot's carpet strategy is to avoid carpet entirely on mop runs",
+      "iRobot has never published a Pascal figure or a runtime for this model, so it cannot be compared on paper with anything else here",
+      "The P.O.O.P. pet-waste guarantee does not cover it; with no camera the robot physically cannot see waste",
+      "Proprietary bags at roughly $6.66 each, about $32/yr, against $0 for the bagless Shark and Ecovacs docks",
+      "iRobot is trading through a Chapter 11 restructuring completed in 2026 under new Chinese ownership — long-term app and parts support is a live question, not a settled one"
+    ],
+    "images": [],
+    "amazonAsin": "B0DWFZ8Q7M",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "tapo-rv30-max-plus",
+      "shark-powerdetect-self-empty",
+      "eufy-robovac-11s-max",
+      "roomba-max-705-combo"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "first-robot"
+    ],
+    "shortTagline": "The cheapest LiDAR Roomba with a self-empty dock; the mop is a pad that never lifts."
+  },
+  {
+    "id": "rv-shark-powerdetect-self-empty",
+    "categorySlug": "robot-vacuums",
+    "brand": "Shark",
+    "series": "PowerDetect",
+    "model": "Shark PowerDetect Self-Empty Robot Vacuum (AV2820AE)",
+    "slug": "shark-powerdetect-self-empty",
+    "releaseYear": 2024,
+    "price": 329.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic; SharkNinja publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (SharkClean app)",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Bagless XL self-empty base — no proprietary bag to buy, ever",
+      "60-day debris capacity behind a HEPA filter with an odour neutraliser",
+      "DirtDetect, EdgeDetect and FloorDetect change suction and brush speed mid-run",
+      "NeverStuck chassis lifts the robot over thresholds and rug edges instead of beaching on them",
+      "Vacuum only — no water tank, no mop, nothing damp to grow mould in"
+    ],
+    "specs": {
+      "claimedSuction": "Shark publishes no Pascal figure for this robot at all. It markets DirtDetect and NeverStuck instead, which means nothing on this row is comparable to the five-digit Pa claims from the Chinese brands — and Shark still out-cleans several of them",
+      "independentCleaningResult": "Vacuum Wars placed it in the top 10 of 100+ robots tested for crevice pickup and well above average on carpet deep clean, but kept it out of the Top 20 purely because it does not mop",
+      "navigationAndAvoidance": "Spinning LiDAR turret, maps in roughly 10 minutes. Front obstacle detection is a 3D sensor plus dual lasers; Vacuum Wars rates it at roughly half the effectiveness of flagship camera systems",
+      "petWastePolicy": "Shark makes no pet-waste avoidance claim for this model",
+      "mopSystem": "None. Vacuum only",
+      "mopLift": "Not applicable — no mop",
+      "dockType": "Bagless XL self-empty base with HEPA filtration and odour neutralisation. No water, no plumbing",
+      "dockMopWashing": "Not applicable",
+      "dockBagsAndRunningCost": "$0 a year in bags — the base separates into a removable tray you tip into the bin. The only recurring parts are the base HEPA filter (rinse every 1-2 months, replace every 6-12) and side brushes, against roughly $26-32/yr in bags for the Roborock and iRobot docks",
+      "binCapacity": "227 ml (0.24 qt) onboard — among the smallest here, because the base is meant to do the work",
+      "ratedRuntime": "About 100-110 minutes from a 3,200 mAh cell. Vacuum Wars flags the small battery as the main limitation in large homes: it will need multiple charge-and-resume cycles",
+      "accountCloudAndCamera": "SharkClean account and app required and maps are cloud-stored. No camera on the robot. Vacuum Wars calls the app buggy and notes it still lacks room-specific scheduling"
+    },
+    "scores": {
+      "carpetCleaning": 8.0,
+      "hardFloorCleaning": 8.0,
+      "mopping": 0.0,
+      "obstacleAvoidance": 5.0,
+      "dockAutomation": 5.5,
+      "runningCost": 9.5,
+      "privacyAndControl": 5.5,
+      "value": 8.0
+    },
+    "pros": [
+      "The bagless base is the single biggest running-cost saving in this category — no bag ever, for the life of the robot",
+      "Top-10-of-100 crevice pickup and above-average carpet deep clean in Vacuum Wars' bench tests, at around $330",
+      "No camera and no water tank: nothing to spy with, nothing to go mouldy",
+      "NeverStuck chassis genuinely reduces the rescue-the-robot calls that plague cheap LiDAR machines"
+    ],
+    "cons": [
+      "No mopping at all — if you want wet cleaning this is the wrong robot",
+      "Obstacle avoidance is sensor-based and Vacuum Wars measured it at about half the standard of camera-based flagships",
+      "3,200 mAh battery and ~110 minutes is short for a big house",
+      "SharkNinja publishes no suction figure, no airflow figure and no dock noise figure, so paper comparison is impossible",
+      "Retail SKUs are confusing: AV2820S ships a 30-day base and AV2820AE a 60-day XL base at similar money — check which one you are buying"
+    ],
+    "images": [],
+    "amazonAsin": "B0D167B62M",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roomba-105-combo-autoempty",
+      "tapo-rv30-max-plus",
+      "ecovacs-deebot-x11-omnicyclone",
+      "eufy-robovac-11s-max"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "bagless-dock",
+      "vacuum-only",
+      "pet-hair"
+    ],
+    "shortTagline": "Bagless base, no mop, no camera and no Pascal claim — and it still out-vacuums most of them."
+  },
+  {
+    "id": "rv-narwal-flow",
+    "categorySlug": "robot-vacuums",
+    "brand": "Narwal",
+    "series": "Flow",
+    "model": "Narwal Flow Robot Vacuum and Mop",
+    "slug": "narwal-flow",
+    "releaseYear": 2025,
+    "price": 899.99,
+    "msrp": 1499.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic; Narwal publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (Narwal app)",
+      "Alexa",
+      "Google Assistant",
+      "Siri Shortcuts"
+    ],
+    "features": [
+      "FlowWash track mop — a rotating belt scrubbed and rinsed while it cleans, so dirty water never goes back down",
+      "Two RGB AI cameras with LED illumination, trained on 200+ object types",
+      "95 mm (3.7 in) tall despite carrying a full omni dock",
+      "Vacuum Wars measured 0% hair tangling against a 28% category average",
+      "2.5 L dock bag Narwal rates at 120 days — about three bags a year"
+    ],
+    "specs": {
+      "claimedSuction": "22,000 Pa claimed — the identical number Roborock prints on the Saros 10R, and 12,000 Pa above the SwitchBot S20 that costs the same. The figures are measured differently by every brand and should not be read as a ranking",
+      "independentCleaningResult": "Vacuum Wars ranked the Flow #2 overall: top-7 all-time for mopping, the best battery-efficiency score they have recorded, 0% hair tangling, strong pet-hair pickup. Consumer Reports ran a first-look review. Weak spot: fine hard-floor debris needs multiple passes",
+      "navigationAndAvoidance": "Semi-recessed 180-degree spinning LiDAR plus dual RGB AI cameras with LED lighting, 200+ object types. Vacuum Wars' complaint is that the avoidance behaviour is barely configurable",
+      "petWastePolicy": "Narwal lists pet waste among the objects the dual-camera system recognises but publishes no replacement guarantee if it fails",
+      "mopSystem": "FlowWash track mop — a belt washed in real time with 113°F water at 12 N of pressure and squeegeed dry as it runs, plus a separate hot dock wash between runs",
+      "mopLift": "12 mm on carpet detection (Narwal's own figure). Enough to clear a flat rug; not enough for high pile",
+      "dockType": "Self-empty plus mop wash and dry. A separate Auto Refill & Drainage version plumbs into a cold supply and a drain; the standard dock does not",
+      "dockMopWashing": "176°F (80°C) dock wash for full-chain sterilisation, 104-113°F warm water during the run, 104°F warm-air drying. The dirty-water tank is still emptied and rinsed by hand — no dock here self-cleans that",
+      "dockBagsAndRunningCost": "2.5 L proprietary bag rated at 120 days, about 3 bags a year — the lowest bag count on this page. Two bags ship in the box. Vacuum Wars notes there is no automatic detergent dispensing, so you top the solution up manually",
+      "binCapacity": "480 ml",
+      "ratedRuntime": "Up to 190 minutes, and Vacuum Wars confirms that figure is the lowest power setting",
+      "accountCloudAndCamera": "Narwal account required and maps sync to Narwal's cloud. Two cameras on board with in-app remote viewing, so this is a live camera in your home; Narwal states object recognition runs on the robot's own AI chip"
+    },
+    "scores": {
+      "carpetCleaning": 8.0,
+      "hardFloorCleaning": 7.5,
+      "mopping": 9.5,
+      "obstacleAvoidance": 8.0,
+      "dockAutomation": 8.5,
+      "runningCost": 8.0,
+      "privacyAndControl": 5.0,
+      "value": 8.0
+    },
+    "pros": [
+      "The best mopping mechanism here: a track mop rinsed in real time genuinely does not smear dirty water around",
+      "0% hair tangling and the best battery efficiency Vacuum Wars has measured",
+      "95 mm tall, so it fits under furniture that stops the Roomba Max 705 dead",
+      "120-day bag rating means roughly three bags a year, the cheapest bagged dock to feed"
+    ],
+    "cons": [
+      "12 mm mop lift is mid-table — a thick rug will still get damp edges",
+      "No automatic detergent dosing, so the 'hands-free' dock still wants manual top-ups",
+      "List price is $1,499.99 and street has swung from about $799 to $1,049 in 2026 — pay list and you have badly overpaid",
+      "Two always-on cameras with remote viewing, and Narwal's US privacy documentation is thinner than Roborock's or iRobot's",
+      "Vacuum Wars notes reported quality-control issues and needs several passes on fine hard-floor debris"
+    ],
+    "images": [],
+    "amazonAsin": "B0F6CWKBTN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecovacs-deebot-x11-omnicyclone",
+      "dreame-x50-ultra",
+      "roborock-qrevo-curv",
+      "eufy-omni-s2"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock",
+      "pet-hair"
+    ],
+    "shortTagline": "The best mop in the category on a track that rinses itself — buy it on discount, never at list."
+  },
+  {
+    "id": "rv-ecovacs-deebot-x11-omnicyclone",
+    "categorySlug": "robot-vacuums",
+    "brand": "ECOVACS",
+    "series": "DEEBOT",
+    "model": "ECOVACS DEEBOT X11 OmniCyclone",
+    "slug": "ecovacs-deebot-x11-omnicyclone",
+    "releaseYear": 2025,
+    "price": 699.0,
+    "msrp": 1099.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Plastic; ECOVACS publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (ECOVACS HOME app)",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "OmniCyclone station is bagless — cyclonic separation into a washable bin instead of a proprietary bag",
+      "OZMO Roller 2.0 sprays clean water onto a 200 rpm roller and squeegees the dirty water into a separate tank",
+      "PowerBoost GaN fast charging claws back about 6% of the battery in three minutes",
+      "AIVI 3D 3.0 pairs an RGB camera with 3D structured light and a vision-language model",
+      "Vacuum Wars measured 100% pet-hair pickup with 0% tangling"
+    ],
+    "specs": {
+      "claimedSuction": "19,500 Pa claimed ('BLAST'). ECOVACS also publishes 38 CFM of airflow, which is the more meaningful number; Vacuum Wars separately measured 23 CFM at the nozzle, among the highest they have recorded. Airflow is comparable between brands in a way Pascals are not",
+      "independentCleaningResult": "Vacuum Wars: 100% pet-hair pickup, 0% tangling, 85% carpet deep clean, a 271-point combined mopping score against a 184 average, 0.7 g residual water (the driest finish they record), and 20 of 24 obstacles avoided. Ranked #14 in their 2026 Top 20",
+      "navigationAndAvoidance": "AIVI 3D 3.0 — RGB camera plus 3D structured light driven by a vision-language model. Vacuum Wars' criticism is speed, not accuracy: the internal LiDAR maps slowly and needs several runs to settle",
+      "petWastePolicy": "ECOVACS markets AIVI as recognising pet waste among 100+ object types but publishes no replacement guarantee if the robot drives through it",
+      "mopSystem": "OZMO Roller 2.0 — a high-density nylon roller at 200 rpm, continuously rinsed with clean water and scraped into a 2.7 L dirty-water tank as it cleans",
+      "mopLift": "10 mm automatic lift on carpet detection (ECOVACS' own figure) — the lowest lift of the omni-dock robots here",
+      "dockType": "OmniCyclone bagless auto-empty station with 3.2 L clean and 2.7 L dirty water tanks and an auto-fill module. No plumbing connection",
+      "dockMopWashing": "167°F (75°C) hot-water roller washing with two solution tanks and a dirty-water sensor that triggers a re-wash and re-mop, then 2-4 hours of hot-air drying. You still empty and rinse the dirty-water tank yourself",
+      "dockBagsAndRunningCost": "$0 a year in bags — the headline feature. The catch Vacuum Wars records is that damp debris cakes onto the inside of the cyclone bin, so you periodically scrub the station out by hand instead of throwing a bag away",
+      "binCapacity": "220 ml — roughly half a flagship's, so it leans hard on the station's 60-day rating",
+      "ratedRuntime": "ECOVACS claims up to 369 minutes on hard floor in standard mode with PowerBoost charging enabled — that figure includes mid-run recharges. Vacuum Wars' independent battery figure is 254 minutes, still the most efficient they have tested",
+      "accountCloudAndCamera": "ECOVACS account required and maps are cloud-synced. The robot carries a camera with in-app remote viewing. At DEF CON in August 2024 researchers demonstrated taking over ECOVACS robots over Bluetooth and reaching the camera and microphone with no indicator light; ECOVACS patched it within weeks. One 2026 comparison also reports an optional ECOVACS premium plan at $2.99/mo for AI video monitoring — ECOVACS does not advertise this on its US product page and we could not confirm it"
+    },
+    "scores": {
+      "carpetCleaning": 8.5,
+      "hardFloorCleaning": 8.5,
+      "mopping": 9.0,
+      "obstacleAvoidance": 7.5,
+      "dockAutomation": 8.5,
+      "runningCost": 9.5,
+      "privacyAndControl": 3.5,
+      "value": 9.0
+    },
+    "pros": [
+      "Bagless cyclone station plus a full hot-water mop wash — the only dock here that does both",
+      "100% pet-hair pickup and 0% tangling in Vacuum Wars' bench test, with the driest mop finish they record",
+      "38 CFM published airflow, which is a genuinely comparable figure unlike the Pascal claims",
+      "$699 buys mopping that beats robots at twice the money"
+    ],
+    "cons": [
+      "10 mm mop lift is the lowest of the omni-dock robots here — a plush rug will still get wet edges",
+      "220 ml bin is tiny, so a hairy house fills it inside one run",
+      "Bagless means periodically scrubbing caked damp debris out of the cyclone bin by hand",
+      "ECOVACS is the brand whose robots were publicly taken over at DEF CON 2024 with camera and mic access and no indicator light; patched, but it is the reason to think about where the camera is",
+      "Vacuum Wars rates its mapping as the slowest of the flagships — several runs before it settles"
+    ],
+    "images": [],
+    "amazonAsin": "B0FJRZGDNY",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "narwal-flow",
+      "roborock-qrevo-curv",
+      "switchbot-s20",
+      "shark-powerdetect-self-empty"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock",
+      "bagless-dock",
+      "pet-hair"
+    ],
+    "shortTagline": "Bagless station, hot-water roller mop, flagship cleaning — and a DEF CON history."
+  },
+  {
+    "id": "rv-switchbot-s20",
+    "categorySlug": "robot-vacuums",
+    "brand": "SwitchBot",
+    "series": "S Series",
+    "model": "SwitchBot S20 Floor Cleaning Robot",
+    "slug": "switchbot-s20",
+    "releaseYear": 2025,
+    "price": 799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic; SwitchBot publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (SwitchBot app)",
+      "Matter",
+      "Apple Home",
+      "Alexa",
+      "Google Home"
+    ],
+    "features": [
+      "Matter support, so it appears natively in Apple Home — close to unique in this category",
+      "RevoRoll roller mop scrubs 300 times a minute at 1 kg of down-pressure and self-cleans as it runs",
+      "Optional S Series Water Station ($139.99) plumbs the dock into a cold supply and a drain",
+      "SwitchBot rates the dock at 90 days between bag changes",
+      "Roller auto-lifts and cuts the water when it detects carpet"
+    ],
+    "specs": {
+      "claimedSuction": "10,000 Pa — a third of the eufy Omni S2's claim and under half the Narwal Flow's, at a comparable price. TechRadar's professional tester's whole argument is that past roughly 10,000 Pa the Pascal number stops predicting cleaning at all",
+      "independentCleaningResult": "TechRadar: strong mopping that does not spread spills, 'excellent object detection', but noisy and erratic about docking, and it cannot vacuum straight after mopping because the damp roller smears debris. MacRumors reviewed it as the budget Matter option. It does not appear in Vacuum Wars' 2026 Top 20",
+      "navigationAndAvoidance": "LDS LiDAR SLAM plus an AI camera. TechRadar's tester saw it reliably avoid cables, shoes and other floor clutter",
+      "petWastePolicy": "SwitchBot publishes no pet-waste avoidance guarantee",
+      "mopSystem": "RevoRoll roller mop with a continuous clean-water feed and an in-run scraper, 300 scrubs a minute at 1 kg of pressure, in Moist or Wet modes",
+      "mopLift": "Auto-lifts the roller and cuts the water on carpet detection, but SwitchBot does not publish a lift height in millimetres anywhere on the US product page",
+      "dockType": "Self-empty plus mop wash, dry, water refill and dirty-water drain. The Auto-Fill & Drain version is the same $799.99 but needs the separate S Series Water Station at $139.99 to reach your plumbing — the only genuinely plumbed option here that is sold as an add-on box",
+      "dockMopWashing": "Washes the roller and dries it with 122°F (50°C) warm air. TechRadar warns the auto-empty cycle is loud",
+      "dockBagsAndRunningCost": "Proprietary bag; SwitchBot rates the dock at 90 days between changes, so about four bags a year. The roller mop and the filter are the other recurring parts. Add $139.99 once if you want the plumbed water station",
+      "binCapacity": "Not published by SwitchBot on the US product page",
+      "ratedRuntime": "Not published by SwitchBot as a minute figure. The battery is 4,000 mAh — the smallest of the omni-dock robots here, against 6,400 mAh for the Roborock, Dreame and ECOVACS flagships — and charges in under four hours",
+      "accountCloudAndCamera": "A SwitchBot account is required for the app, but because the robot is a Matter device Apple Home, Alexa and Google can start and stop it locally without one — the best cloud-independence story on this page. There is an AI camera on board and SwitchBot publishes no statement about where the frames are processed"
+    },
+    "scores": {
+      "carpetCleaning": 6.5,
+      "hardFloorCleaning": 7.0,
+      "mopping": 8.0,
+      "obstacleAvoidance": 7.5,
+      "dockAutomation": 8.5,
+      "runningCost": 6.5,
+      "privacyAndControl": 6.5,
+      "value": 6.0
+    },
+    "pros": [
+      "Native Matter and Apple Home support — nothing else here can be driven from Apple's Home app without a bridge",
+      "Roller mop that scrubs and rinses itself during the run, at $700 less than the eufy Omni S2",
+      "A genuine plumbed auto-fill and drain path via the $139.99 Water Station, rather than a whole different SKU",
+      "TechRadar rated obstacle detection as excellent in real-world use"
+    ],
+    "cons": [
+      "SwitchBot publishes neither a runtime figure nor a bin capacity — two of the specs that actually decide whether it finishes your floor",
+      "4,000 mAh is the smallest battery among the omni-dock robots here",
+      "TechRadar found it noisy, erratic about docking, and unable to vacuum straight after mopping",
+      "10,000 Pa is the lowest suction claim of the $700+ robots, and this one is chunky rather than slim",
+      "The plumbing kit is a $139.99 extra on top of an already $799.99 robot"
+    ],
+    "images": [],
+    "amazonAsin": "B0F6CJ6G2Z",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecovacs-deebot-x11-omnicyclone",
+      "roborock-qrevo-curv",
+      "narwal-flow"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock"
+    ],
+    "shortTagline": "The Matter and Apple Home robot with real plumbing — noisy, and short on specs."
+  },
+  {
+    "id": "rv-roborock-qrevo-curv",
+    "categorySlug": "robot-vacuums",
+    "brand": "Roborock",
+    "series": "Qrevo",
+    "model": "Roborock Qrevo Curv",
+    "slug": "roborock-qrevo-curv",
+    "releaseYear": 2024,
+    "price": 849.99,
+    "msrp": 1599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic; Roborock publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (Roborock app)",
+      "Alexa",
+      "Google Assistant",
+      "Siri Shortcuts",
+      "Matter (Roborock promises this by OTA update)"
+    ],
+    "features": [
+      "AdaptiLift chassis raises each wheel independently to clear a 4 cm threshold",
+      "FlexiArm side brush and an extending mop pad reach into corners",
+      "17 mm mop lift, one of the highest on any dual-spinning-pad robot",
+      "'Hello Rocky' wake word runs offline on the robot itself",
+      "Dock washes the mops at 167°F and then runs a self-clean cycle on its own washboard"
+    ],
+    "specs": {
+      "claimedSuction": "18,500 Pa on Roborock's own product page. For scale on how soft these numbers are: Roborock announced the Saros 10R at 19,000 Pa at CES 2025 and now sells the same robot as 22,000 Pa on Amazon and Best Buy",
+      "independentCleaningResult": "Vacuum Wars rates obstacle avoidance as the Qrevo line's weak spot next to ECOVACS and eufy; the Curv's successor, the CurvX, sits at #17 in their 2026 Top 20. Reactive AI here recognises 62 object types against 108 on the Saros 10R",
+      "navigationAndAvoidance": "PreciSense LiDAR plus Reactive AI camera-based obstacle recognition, 62 object types, with an in-app video-call and pet-view feature",
+      "petWastePolicy": "Roborock lists pet waste among the objects Reactive AI is trained on. There is no published replacement guarantee if it drives through it",
+      "mopSystem": "Dual spinning pads with adaptive down-pressure and an extending arm that pushes the pad out to skirting boards",
+      "mopLift": "17 mm on carpet detection — Roborock's own figure, and it is printed in the Amazon listing title. High enough to genuinely clear a low-pile rug",
+      "dockType": "Multifunctional Dock 3.0 — self-empty, mop wash, hot-air dry, refill from onboard tanks. No plumbed refill or drain on this model",
+      "dockMopWashing": "167°F (75°C) hot-water mop washing, then 113°F (45°C) warm-air drying, plus a dock self-clean cycle for the washboard. The dirty-water tank is still yours to empty and rinse",
+      "dockBagsAndRunningCost": "Proprietary Roborock bag rated at about 7 weeks. Roborock sells the 6-pack that fits this dock at $25.59 direct and Abt lists it at $31.99, so roughly $26-32 a year in bags. Add mop cloths for the Curv/Edge series at $20.99 for four, a main brush at $22.99 and side brushes at $11.19 a pair",
+      "binCapacity": "Not published on Roborock's US Qrevo Curv page",
+      "ratedRuntime": "Roborock does not publish a minute figure on the US Qrevo Curv page. The battery is 6,400 mAh, the same cell as in the Saros 10R which Roborock rates at 180 minutes on its lowest setting",
+      "accountCloudAndCamera": "Roborock account required and maps sync to Roborock's cloud as well as living on the robot. There is a camera with in-app remote viewing; independent privacy write-ups report Roborock processes obstacle images on-device and does not upload them by default. 'Hello Rocky' voice control works with the internet down"
+    },
+    "scores": {
+      "carpetCleaning": 8.0,
+      "hardFloorCleaning": 8.0,
+      "mopping": 8.0,
+      "obstacleAvoidance": 6.5,
+      "dockAutomation": 8.5,
+      "runningCost": 6.0,
+      "privacyAndControl": 6.0,
+      "value": 7.5
+    },
+    "pros": [
+      "17 mm mop lift genuinely clears a low-pile rug, where the ECOVACS X11's 10 mm does not",
+      "AdaptiLift raises each wheel independently for a 4 cm threshold — it goes places the flat-chassis robots cannot",
+      "Offline 'Hello Rocky' wake word means basic control survives an internet outage",
+      "Roborock publishes real accessory prices, so the running cost is knowable before you buy"
+    ],
+    "cons": [
+      "Reactive AI recognises 62 object types against 108 on Roborock's own Saros 10R — obstacle avoidance is the Qrevo line's known weakness",
+      "Roborock publishes neither a runtime nor a bin capacity on the US Qrevo Curv page",
+      "Roborock's own site quotes a 1-year limited warranty; a widely cited warranty comparison claims Roborock gives 2 years, so check your invoice",
+      "Roughly $26-32 a year in proprietary bags, against $0 for the bagless Shark and ECOVACS docks",
+      "$849.99 direct against a $1,599.99 list price that nobody has paid in a long time"
+    ],
+    "images": [],
+    "amazonAsin": "B0D81675BQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ecovacs-deebot-x11-omnicyclone",
+      "dreame-x50-ultra",
+      "roborock-saros-10r",
+      "narwal-flow"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock",
+      "pet-hair"
+    ],
+    "shortTagline": "The highest mop lift under $900, let down by the weakest obstacle AI Roborock ships."
+  },
+  {
+    "id": "rv-dreame-x50-ultra",
+    "categorySlug": "robot-vacuums",
+    "brand": "Dreame",
+    "series": "X Series",
+    "model": "Dreame X50 Ultra",
+    "slug": "dreame-x50-ultra",
+    "releaseYear": 2025,
+    "price": 999.99,
+    "msrp": 1599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic; Dreame publishes no housing material",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "Wi-Fi (Dreamehome app)",
+      "Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "ProLeap retractable legs physically lift the whole robot over a 6 cm obstacle",
+      "Detachable mop module, so it can vacuum carpet with the pads left behind in the dock",
+      "Dock heats wash water to 80°C with four selectable temperatures",
+      "3.2 L dust bag Dreame rates at 100 days",
+      "Three-year warranty on Dreame's own US product page — the longest here"
+    ],
+    "specs": {
+      "claimedSuction": "20,000 Pa. For scale: Dreame's own 2026 flagship X60 Max Ultra claims 35,000 Pa, and Vacuum Wars still ranks the 30,000 Pa eufy Omni S2 below ECOVACS' T90 Pro Omni for mopping. The Pascal ladder is a marketing ladder",
+      "independentCleaningResult": "RTINGS and Vacuum Wars both bench this robot. Vacuum Wars' 2026 Top 20 is now led by its successors; the L50 Ultra, which uses the same ProLeap legs, sits at #8 at $799.99",
+      "navigationAndAvoidance": "LiDAR plus an AI RGB camera and 3D structured light, detecting up to 200 object types",
+      "petWastePolicy": "Dreame lists pet waste among the recognised object types but publishes no replacement guarantee",
+      "mopSystem": "Dual spinning pads with a detachable mop module, so the mops can stay in the dock for a carpet-only run",
+      "mopLift": "10.5 mm pad lift on carpet detection — Dreame's own figure, and notably lower than the Roborock Qrevo Curv's 17 mm or the eufy Omni S2's 28 mm despite the higher price",
+      "dockType": "Self-empty, mop wash, hot-air dry and automatic solution refill. No plumbed connection on the standard kit",
+      "dockMopWashing": "Up to 80°C (176°F) hot water with four selectable temperatures, an AceClean DryBoard washboard with 20 spray nozzles that rinses itself, then automatic hot-air drying. The dirty-water tank is still emptied by hand",
+      "dockBagsAndRunningCost": "3.2 L proprietary bag rated by Dreame at 100 days, so roughly 3-4 bags a year. Two bags and 200 ml of cleaning solution are in the box, along with spare mop pads, main brush and side brush",
+      "binCapacity": "395 ml — among the largest onboard bins here",
+      "ratedRuntime": "Up to 220 minutes, and Dreame states the condition in the same sentence: quiet mode, vacuuming and mopping. Coverage up to 205 m² per charge",
+      "accountCloudAndCamera": "Dreamehome account required and maps are cloud-synced. Camera on board with in-app remote viewing; independent privacy write-ups report Dreame processes obstacle-avoidance images on-device by default"
+    },
+    "scores": {
+      "carpetCleaning": 8.5,
+      "hardFloorCleaning": 8.0,
+      "mopping": 8.0,
+      "obstacleAvoidance": 8.0,
+      "dockAutomation": 9.0,
+      "runningCost": 7.0,
+      "privacyAndControl": 5.5,
+      "value": 8.5
+    },
+    "pros": [
+      "ProLeap legs clear a 6 cm obstacle — no other robot on this page climbs anything close",
+      "A three-year warranty on Dreame's own US page against one year from Roborock, iRobot, ECOVACS, Shark and eufy",
+      "395 ml bin and a 100-day bag rating mean very little hands-on maintenance",
+      "Detachable mop module means carpet runs happen with no damp pad anywhere near the rug"
+    ],
+    "cons": [
+      "10.5 mm mop lift is low for a $1,000 robot — the $849 Roborock Qrevo Curv lifts 17 mm",
+      "The 20,000 Pa headline is already two rungs down Dreame's own ladder (the X60 Max Ultra claims 35,000 Pa) for no measured cleaning reason",
+      "Sources conflict on the warranty: Dreame's product page says 3 years, a published warranty comparison says 1 year extendable to 2 with registration inside 30 days",
+      "Big, tall dock; this is not the robot for a small flat",
+      "Camera with remote viewing and a China-based cloud account, with no published on-device-processing guarantee from Dreame itself"
+    ],
+    "images": [],
+    "amazonAsin": "B0DM5J52GC",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roborock-saros-10r",
+      "roborock-qrevo-curv",
+      "eufy-omni-s2",
+      "narwal-flow"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock",
+      "pet-hair"
+    ],
+    "shortTagline": "Retractable legs that clear a 6 cm step, a 3-year warranty — and a surprisingly low mop lift."
+  },
+  {
+    "id": "rv-roborock-saros-10r",
+    "categorySlug": "robot-vacuums",
+    "brand": "Roborock",
+    "series": "Saros",
+    "model": "Roborock Saros 10R",
+    "slug": "roborock-saros-10r",
+    "releaseYear": 2025,
+    "price": 1099.99,
+    "msrp": 1599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White"
+    ],
+    "material": "Plastic; Roborock publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (Roborock app)",
+      "Alexa",
+      "Google Assistant",
+      "Siri Shortcuts",
+      "Matter"
+    ],
+    "features": [
+      "79.8 mm (3.14 in) tall — slim enough for most sofa clearances despite a full omni dock",
+      "StarSight 2.0 dual-transmitter solid-state LiDAR with 21,600 sensor points and no spinning turret",
+      "VertiBeam adds sideways obstacle detection the LiDAR cannot see",
+      "Perfect 24/24 in Vacuum Wars' obstacle course, recognising 108 object types",
+      "Auto mop detaching leaves the pads in the dock for carpet-only runs"
+    ],
+    "specs": {
+      "claimedSuction": "Sources conflict on Roborock's own number. Announced at 19,000 Pa at CES 2025 and still listed as 19,000 Pa in Vacuum Wars' 2026 Roborock guide; marketed as 22,000 Pa on Amazon, Best Buy and in Gizmodo's coverage; and listed as 18,000 Pa by one third-party spec database. Same robot, three numbers, no hardware change",
+      "independentCleaningResult": "Vacuum Wars: a perfect 24/24 on obstacle avoidance, 92% flattened pet-hair pickup against an 80% average, 0% hair tangling against 39%, 80% carpet deep clean, and a 103-point dried-stain mopping score against a 98 average. RTINGS names it their top robot vacuum for 2026",
+      "navigationAndAvoidance": "StarSight 2.0 dual-transmitter solid-state LiDAR plus 3D time-of-flight and an RGB camera — 21,600 sensor points, 108 object types — with VertiBeam for lateral detection",
+      "petWastePolicy": "Pet waste is in Roborock's recognised-object list and the robot scored 24/24 on Vacuum Wars' obstacle course, but Roborock publishes no replacement guarantee of the kind iRobot offers on the j7+",
+      "mopSystem": "Dual spinning pads with auto mop detaching, plus a FlexiArm riser side brush that extends into corners",
+      "mopLift": "Sources conflict inside Roborock's own website: the product page says '17mm Mop Lift' and the Saros 10R feature page says '0.87 inches (22mm) Maximum Mop Lifting'. Vacuum Wars separately records 26 mm of AdaptiLift threshold clearance, which is a different measurement again",
+      "dockType": "Multifunctional Dock 4.0, marketed as 10-in-1: self-empty, mop wash, hot-air dry and refill. The sibling Saros 10 is sold in a plumbed Refill & Drainage version; this one is not",
+      "dockMopWashing": "176°F (80°C) hot-water mop washing with dirt detection that triggers a re-wash and re-mop, then 131°F (55°C) warm-air drying in 2, 3 or 4-hour cycles. The dirty-water tank is still emptied and rinsed by hand",
+      "dockBagsAndRunningCost": "One proprietary dust bag in the box; retail listings quote 60 days of self-emptying. Roborock's 6-pack that fits the Saros series is $25.59 direct and $31.99 at Abt, so roughly $26-32 a year in bags, plus mop modules and filters",
+      "binCapacity": "Not published on Roborock's US spec page. One third-party spec database lists 400 ml",
+      "ratedRuntime": "180 minutes, and Vacuum Wars confirms that figure is the lowest power setting. They measured 1.8 minutes per battery percent and about 1,389 sq ft per charge against a 1,020 sq ft average",
+      "accountCloudAndCamera": "Roborock account required and maps sync to Roborock's cloud as well as the robot. Camera on board with in-app remote viewing; independent privacy write-ups report obstacle images are processed on-device and not uploaded by default"
+    },
+    "scores": {
+      "carpetCleaning": 8.5,
+      "hardFloorCleaning": 9.0,
+      "mopping": 8.5,
+      "obstacleAvoidance": 9.5,
+      "dockAutomation": 9.0,
+      "runningCost": 6.0,
+      "privacyAndControl": 6.0,
+      "value": 7.5
+    },
+    "pros": [
+      "The only robot here with a perfect 24/24 obstacle score from Vacuum Wars alongside 92% pet-hair pickup — it is the best all-rounder tested",
+      "Solid-state LiDAR means no turret, so it is 79.8 mm tall and gets under furniture full-dock rivals cannot",
+      "0% hair tangling against a 39% category average — a real advantage in a long-hair household",
+      "RTINGS' number-one pick for 2026, and Roborock publishes its accessory prices so running cost is knowable"
+    ],
+    "cons": [
+      "Roborock cannot keep its own suction claim straight: 19,000 Pa at CES, 22,000 Pa at retail, 18,000 Pa in third-party databases",
+      "Roborock's own site publishes two different mop-lift figures for this robot, 17 mm and 22 mm",
+      "The 180-minute runtime is the lowest suction setting; expect far less on carpet at full power",
+      "No bin capacity published anywhere on Roborock's US spec page",
+      "Roughly $26-32 a year in proprietary bags, and the dirty-water tank is still a manual rinse"
+    ],
+    "images": [],
+    "amazonAsin": "B0DHCJ571Z",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dreame-x50-ultra",
+      "eufy-omni-s2",
+      "roomba-max-705-combo",
+      "roborock-qrevo-curv"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock",
+      "pet-hair"
+    ],
+    "shortTagline": "The best-tested all-rounder here — and the clearest proof that Pascal claims are fiction."
+  },
+  {
+    "id": "rv-roomba-max-705-combo",
+    "categorySlug": "robot-vacuums",
+    "brand": "iRobot",
+    "series": "Roomba Max",
+    "model": "iRobot Roomba Max 705 Combo Robot + AutoWash Dock",
+    "slug": "roomba-max-705-combo",
+    "releaseYear": 2025,
+    "price": 899.99,
+    "msrp": 1299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Plastic; iRobot publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (iRobot Home app)",
+      "Alexa",
+      "Google Assistant",
+      "Siri",
+      "Matter (listed by third-party spec databases; not stated on iRobot's US product page)"
+    ],
+    "features": [
+      "PowerSpin roller mop at 200 rpm behind a retractable cover that physically encloses the wet roller on carpet",
+      "ClearView Pro LiDAR for 3D maps and automatic room naming, plus PrecisionVision AI cameras",
+      "AutoWash dock heat-washes and heat-dries the roller and auto-doses StayClean concentrate",
+      "PerfectEdge extends the mop into corners and along skirting",
+      "60-day home trial direct from iRobot"
+    ],
+    "specs": {
+      "claimedSuction": "iRobot publishes no Pascal figure. Its claim is '175x more suction' than a Roomba 600 in spot-clean mode. One third-party spec database lists 13,000 Pa; iRobot has never confirmed it, so treat both numbers as unverified",
+      "independentCleaningResult": "Homes & Gardens tested it for a month in a pet household: 'one of the best mopping systems around' on hard floor, but it repeatedly left both short and long pet hair behind and scattered fine debris like sugar and lentils, needing a second pass",
+      "navigationAndAvoidance": "ClearView Pro LiDAR builds 3D maps and names rooms automatically; PrecisionVision AI cameras are trained on cords, socks and pet waste. Homes & Gardens rated obstacle avoidance and mapping as a genuine strength",
+      "petWastePolicy": "iRobot's P.O.O.P. Promise — replace the robot free if it fails to avoid solid dog or cat waste, valid 1 year from purchase, replacement product only, additional terms apply — is still written on iRobot's US page against the Roomba j7+, not against this model. Confirm coverage in writing before buying it for that reason",
+      "mopSystem": "PowerSpin roller mop at 200 rpm with heated mopping and a SmartScrub back-and-forth deep-scrub mode",
+      "mopLift": "It does not lift a pad at all — a retractable cover closes over the wet roller when the robot moves onto carpet. iRobot publishes no clearance height in millimetres, so there is no number to compare with the 10-28 mm lifts elsewhere here",
+      "dockType": "AutoWash dock — self-empty, heated mop wash and dry, automatic solution dosing and a dock self-clean cycle. No plumbed refill or drain option",
+      "dockMopWashing": "Heated wash and heated dry with automatic StayClean concentrate dosing and a self-clean cycle. iRobot does not publish the water temperature, unlike Roborock (80°C), Dreame (80°C), ECOVACS (75°C) and eufy (70°C)",
+      "dockBagsAndRunningCost": "Proprietary iRobot bags rated at 75 days. iRobot's own 3-pack for AutoEmpty/AutoWash docks is $19.99, roughly $32 a year, plus StayClean solution and roller mop replacements. iRobot's Select subscription, which bundled supplies and hardware from $29/month, has been closed to new customers since January 2024 — a 2026 subscription round-up still lists it as available at $29.99/mo",
+      "binCapacity": "Not published by iRobot",
+      "ratedRuntime": "Not published by iRobot, whose spec sheet says only 'lithium-ion battery'. One third-party spec database lists 150 minutes",
+      "accountCloudAndCamera": "iRobot account and iRobot Home app required; maps are cloud-stored with deletion on request. Two AI cameras on board. iRobot's 2022 MIT Technology Review episode — development-unit images, including a woman on a toilet, leaking out of a data-annotation contractor — is the reason buyers ask this question; iRobot says production robots do not send photos without permission. iRobot filed Chapter 11 on 14 December 2025 and now belongs to Picea, and says apps and warranties continue"
+    },
+    "scores": {
+      "carpetCleaning": 6.0,
+      "hardFloorCleaning": 8.5,
+      "mopping": 9.0,
+      "obstacleAvoidance": 8.5,
+      "dockAutomation": 8.5,
+      "runningCost": 4.5,
+      "privacyAndControl": 4.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Homes & Gardens rates the mopping as among the best they have used — the heated roller plus AutoWash dock is the closest thing here to a manual mop",
+      "The retractable roller cover is a smarter answer to carpet than a pad that lifts a few millimetres",
+      "The only camera robot here whose maker publishes a written pet-waste replacement promise at all, even if it names an older model",
+      "US support network, 60-day trial, and the most mature app in the category"
+    ],
+    "cons": [
+      "Homes & Gardens found it repeatedly left pet hair behind and scattered fine debris — poor value against $699 rivals for vacuuming",
+      "iRobot publishes no suction figure, no runtime, no bin capacity and no dock water temperature for this robot",
+      "The P.O.O.P. Promise on iRobot's US site names the discontinued j7+, not the Max 705",
+      "Roughly $32/yr in proprietary bags plus StayClean concentrate, the most expensive dock here to feed",
+      "Bulky robot and a very large dock, and iRobot is only just out of a Chapter 11 restructuring under new ownership"
+    ],
+    "images": [],
+    "amazonAsin": "B0DWG15XKQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roborock-saros-10r",
+      "eufy-omni-s2",
+      "dreame-x50-ultra",
+      "roomba-105-combo-autoempty"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock"
+    ],
+    "shortTagline": "Superb heated-roller mopping from a post-bankruptcy iRobot that still hides every real spec."
+  },
+  {
+    "id": "rv-eufy-omni-s2",
+    "categorySlug": "robot-vacuums",
+    "brand": "eufy",
+    "series": "Omni",
+    "model": "eufy Robot Vacuum Omni S2",
+    "slug": "eufy-omni-s2",
+    "releaseYear": 2026,
+    "price": 1399.99,
+    "msrp": 1599.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Plastic; eufy publishes no housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Wi-Fi (eufy Clean app)",
+      "Alexa"
+    ],
+    "features": [
+      "28 mm mop lift — by far the highest here, and the only one that clears a genuinely plush rug",
+      "HyperStream 2.0 roller mop at 240 rpm with 15 N of down-pressure",
+      "42 mm threshold clearance, double the eufy Omni S1's",
+      "Base electrolyses the water (eufy's Eco-Clean ozone system) and auto-doses detergent, with fragrance capsules",
+      "Perfect 24/24 obstacle-avoidance score from Vacuum Wars with 3D MatrixEye 2.0"
+    ],
+    "specs": {
+      "claimedSuction": "30,000 Pa — the biggest claim on this page, and up from 8,000 Pa on the eufy Omni S1 it replaces. Vacuum Wars still scores its mopping about 20% below average, which is the whole argument against reading Pascals as a ranking",
+      "independentCleaningResult": "Vacuum Wars ranked it #3 overall in their 2026 Top 20 with a perfect 24/24 obstacle score and 87% carpet sand removal against 61% for the S1 — but its dried-stain mopping score of 82 points is about 20% below average, and they measured slower navigation than the S1",
+      "navigationAndAvoidance": "3D MatrixEye 2.0 — computer vision plus structured light recognising 200+ household objects. Perfect 24/24 in Vacuum Wars' obstacle course, matching the Roborock Saros 10R",
+      "petWastePolicy": "eufy markets pet-waste recognition as part of MatrixEye's 200+ object library but publishes no replacement guarantee",
+      "mopSystem": "HyperStream 2.0 roller mop at 240 rpm with 15 N down-pressure, washed continuously during the run",
+      "mopLift": "28 mm (1.10 in) on carpet detection — nearly three times the ECOVACS X11's 10 mm and the only lift here that clears a thick pile rug",
+      "dockType": "Self-empty, hot-water mop wash, hot-air dry, water electrolysis and auto detergent dosing. A separate Auto Refill & Drainage version plumbs into a supply and drain; the standard dock does not",
+      "dockMopWashing": "140°F (60°C) heated wash — TechRadar reports 70°C — then 131°F (55°C) hot-air drying, with built-in water electrolysis (Eco-Clean ozone) and automatic detergent dosing. Sources conflict on the wash temperature; eufy quotes both. The dirty-water tank is still emptied by hand",
+      "dockBagsAndRunningCost": "2.5 L bag with a 68-day rating, so roughly 5-6 bags a year. TechRadar describes the base as taking generic 2.5 L dust bags rather than a locked proprietary part, which if it holds is a meaningful saving over Roborock and iRobot. Add detergent and fragrance capsules, which are eufy-branded consumables",
+      "binCapacity": "330 ml",
+      "ratedRuntime": "Up to 180 minutes across four modes (Quiet, Standard, Turbo, Max) — eufy's figure is the quiet mode. Vacuum Wars measured slower navigation efficiency than the cheaper S1 it replaces",
+      "accountCloudAndCamera": "eufy account required and maps are cloud-synced. Camera on board with remote viewing. eufy is the brand that marketed local-only storage on its security cameras and was then caught uploading footage to the cloud unencrypted, and privacy write-ups note eufy's policy allows sharing personal identifiers with advertising partners — hold its privacy marketing to a higher burden of proof than most"
+    },
+    "scores": {
+      "carpetCleaning": 9.0,
+      "hardFloorCleaning": 8.5,
+      "mopping": 6.5,
+      "obstacleAvoidance": 9.5,
+      "dockAutomation": 9.5,
+      "runningCost": 6.5,
+      "privacyAndControl": 3.5,
+      "value": 5.5
+    },
+    "pros": [
+      "28 mm mop lift is in a different league — this is the one robot here you can run on a plush rug without wetting it",
+      "Perfect 24/24 obstacle score and 87% carpet sand removal, both at the top of Vacuum Wars' 2026 rankings",
+      "42 mm threshold clearance handles doorway transitions that stop most of this field",
+      "Fully automated dock: electrolysed water, auto detergent dosing, hot wash and hot dry"
+    ],
+    "cons": [
+      "The 30,000 Pa headline is the largest claim here and Vacuum Wars scores its mopping about 20% below average — the clearest single proof that Pascals do not predict cleaning",
+      "$1,399.99 makes it the most expensive robot on this page, and the $699 ECOVACS X11 mops far better",
+      "eufy's own wash-temperature claim varies between 60°C and 70°C depending on where you look",
+      "eufy's privacy record is the weakest here: it was caught uploading security-camera footage after marketing local-only storage",
+      "Vacuum Wars found navigation efficiency slower than the cheaper S1 and threshold climbing inconsistent above 32 mm"
+    ],
+    "images": [],
+    "amazonAsin": "B0GVYTYNP7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "roborock-saros-10r",
+      "dreame-x50-ultra",
+      "narwal-flow",
+      "roomba-max-705-combo"
+    ],
+    "useCases": [
+      "self-empty-base",
+      "auto-wash-dock",
+      "pet-hair"
+    ],
+    "shortTagline": "A 28 mm mop lift and a perfect obstacle score, wrapped around the emptiest suction claim here."
+  }
+]
