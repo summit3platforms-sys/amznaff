@@ -1045,6 +1045,90 @@ export const categories: Category[] = [
       { slug: 'nursery', label: 'Nursery & Kids\' Rooms', kind: 'use-case' },
       { slug: 'easy-clean', label: 'Easy to Clean', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'air-purifiers',
+    name: 'Air Purifier',
+    pluralName: 'Air Purifiers',
+    description:
+      'Air purifiers compared on the numbers that decide it: AHAM Verifide CADR versus the marketing square footage, the air-change rate that figure is quoted at, yearly filter cost, ozone and ioniser status, and noise at both ends.',
+    specFields: [
+      { key: 'ahamCadr', label: 'AHAM Verifide CADR (Smoke / Dust / Pollen)', unit: 'CFM', betterDirection: 'none' },
+      { key: 'ahamRoomSize', label: 'AHAM Verifide Room Size (4.8 ACH)', unit: 'ft²', betterDirection: 'none' },
+      { key: 'coverageClaim', label: 'Coverage Claim & Its Air-Change Basis', betterDirection: 'none' },
+      { key: 'filterType', label: 'Filter Grade (True HEPA / HEPA-Type / H13)', betterDirection: 'none' },
+      { key: 'prefilter', label: 'Pre-Filter (Washable?)', betterDirection: 'none' },
+      { key: 'annualFilterCost', label: 'Filter Cost per Year', betterDirection: 'lower' },
+      { key: 'ionizerOzone', label: 'Ioniser / UV / PCO & CARB Classification', betterDirection: 'none' },
+      { key: 'noiseRange', label: 'Noise, Lowest to Highest Setting', unit: 'dB', betterDirection: 'lower' },
+      { key: 'sensor', label: 'Air Quality Sensor', betterDirection: 'none' },
+      { key: 'smartFeatures', label: 'Smart Features & Offline Operation', betterDirection: 'none' },
+      { key: 'powerDraw', label: 'Power Draw & Annual Energy', betterDirection: 'lower' },
+      { key: 'warrantyTerms', label: 'Warranty Terms & Conditions', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'coverageHonesty', label: 'Coverage-Claim Honesty', description: 'The trap dimension for this category. Almost every brand derives its headline square footage from ONE air change per hour, which does close to nothing for smoke, pollen or wildfire particulate — the useful standard is 4.8 air changes an hour, and it is typically a fifth of the number on the box. A high score means the manufacturer publishes the 4.8-ACH figure prominently and it survives comparison with the AHAM Verifide room size; a low score means a big number with no stated air-change basis, or no CADR at all to derive one from.' },
+      { key: 'verifiedPerformance', label: 'Verified Clean-Air Delivery', description: 'How much air the unit actually cleans per minute, weighted heavily toward AHAM Verifide smoke CADR over manufacturer-published figures. Self-reported CADR scores below Verifide CADR, and \'no CADR published at all\' scores below both' },
+      { key: 'filtrationQuality', label: 'Filtration Quality', description: 'What the media is really rated at — sealed H13, True HEPA, HEPA-Type, EPA 12 or charged fabric — whether the whole machine is sealed so air cannot bypass the filter, and how much genuine activated carbon there is for odours and VOCs' },
+      { key: 'runningCost', label: 'Running Cost', description: 'Filters, pre-filters, cartridges and subscriptions over three years, against the purchase price. Several units here cost more to feed than to buy; a high score means cheap, long-lived, non-proprietary consumables' },
+      { key: 'quietness', label: 'Quietness', description: 'Measured decibels at the lowest setting you would run overnight AND at the top speed you need in a smoke event — a purifier is only useful at a speed you can tolerate. Not publishing a figure at either end costs points' },
+      { key: 'airQualitySensing', label: 'Sensor Quality', description: 'Whether there is a real laser particle sensor resolving PM1/PM2.5/PM10 with numeric output, a vaguer \'air quality\' index, an inference from a cheap VOC element, or no sensor and therefore no auto mode at all' },
+      { key: 'byproductSafety', label: 'Freedom From Ozone & Air Chemistry', description: 'Whether the unit adds an ioniser, plasma, UV or photocatalytic stage to the airstream, whether that stage can be switched off, and how CARB classifies the device — \'Mechanical\' means filtration only, \'Electronic\' means capable of generating ozone and certified only as being at or below 0.050 ppm' },
+      { key: 'usability', label: 'Controls & Independence', description: 'Whether every mode works from the machine itself with no account or cloud, how good the auto mode is, filter-change access, and whether losing a remote or a login costs you function' }
+    ],
+    filters: [
+      { slug: 'under-100-ready', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-250-ready', label: 'Under $250', kind: 'price-max', value: 250 },
+      { slug: 'under-400-ready', label: 'Under $400', kind: 'price-max', value: 400 },
+      { slug: 'under-500-ready', label: 'Under $500', kind: 'price-max', value: 500 },
+      { slug: 'aham-verifide', label: 'AHAM Verifide CADR', kind: 'use-case' },
+      { slug: 'ioniser-free', label: 'No Ioniser or Ozone Stage', kind: 'use-case' },
+      { slug: 'bedroom-quiet', label: 'Quiet Enough for a Bedroom', kind: 'use-case' },
+      { slug: 'large-room', label: 'Whole-Room & Large Spaces', kind: 'use-case' },
+      { slug: 'wildfire-smoke', label: 'Wildfire Smoke', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'dehumidifiers',
+    name: 'Dehumidifier',
+    pluralName: 'Dehumidifiers',
+    description:
+      'Dehumidifiers compared on what actually decides it: which pint scale the rating uses, the DOE-verified capacity, whether it survives a cold basement, tank size against daily output, pump lift, and the annual electricity bill.',
+    specFields: [
+      { key: 'ratedCapacity', label: 'Rated Capacity (and Which Standard)', betterDirection: 'none' },
+      { key: 'verifiedDoeCapacity', label: 'ENERGY STAR / DOE Verified Capacity', unit: ' pints/day', betterDirection: 'higher' },
+      { key: 'technology', label: 'Technology & Refrigerant', betterDirection: 'none' },
+      { key: 'lowTempOperation', label: 'Low-Temperature Operation & Defrost', betterDirection: 'none' },
+      { key: 'coverageClaim', label: 'Claimed Coverage', betterDirection: 'none' },
+      { key: 'tankCapacity', label: 'Tank Capacity & Refill Interval', betterDirection: 'none' },
+      { key: 'drainage', label: 'Continuous Drainage (Hose, Gravity, Pump Lift)', betterDirection: 'none' },
+      { key: 'energyStar', label: 'ENERGY STAR Status', betterDirection: 'none' },
+      { key: 'runningCost', label: 'Annual Running Cost', betterDirection: 'lower' },
+      { key: 'noiseLevel', label: 'Noise', betterDirection: 'none' },
+      { key: 'warrantyTerms', label: 'Warranty (incl. Sealed System)', betterDirection: 'none' },
+      { key: 'recallHistory', label: 'Recall History', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'capacityHonesty', label: 'Capacity-Claim Honesty', description: 'This category\'s trap dimension. Since the DOE changed the test condition from 80°F/60% RH to 65°F/60% RH in 2019, the same machine that was a \'70 pint\' is now a \'50 pint\' — and manufacturers freely mix the two scales, plus a third \'saturation\' figure taken at 95°F/90% RH. A high score means the pint number on the box matches the DOE Appendix X1 figure the manufacturer filed with ENERGY STAR. A low score means the marketing number is measured somewhere the buyer\'s house never is.' },
+      { key: 'moistureRemoval', label: 'Moisture Removal', description: 'Actual water pulled out of the air per day at a condition a home experiences, judged against the DOE-verified figure rather than the coverage claim on the box' },
+      { key: 'coldRoomPerformance', label: 'Cold-Room Performance', description: 'What happens in a 50-55°F basement, garage or crawlspace. Compressor coils frost below roughly 65°F and auto-defrost buys back the coil at the cost of runtime; desiccant rotors and hot-gas-defrost units do not care. The single most common mis-buy in the category' },
+      { key: 'drainageAndTank', label: 'Drainage & Tank Practicality', description: 'Tank volume measured against daily output, whether a hose is in the box, whether gravity drainage needs the unit propped up, and whether there is a real pump and how high it lifts' },
+      { key: 'runningCost', label: 'Running Cost', description: 'The kWh/yr on the ENERGY STAR certification and what it costs at the meter. On a machine that runs most of the year this dominates total ownership cost — often a third of the purchase price annually' },
+      { key: 'quietness', label: 'Quietness', description: 'Measured dB where published, weighted by where the machine actually lives — a 58 dBA crawlspace unit under a floor is fine, a 54 dB cube next to a desk is not' },
+      { key: 'buildAndWarranty', label: 'Build & Warranty', description: 'Coil and cabinet construction, filter grade, and above all the warranty on the sealed system — the compressor is the part that fails and the part most portables cover for only twelve months' },
+      { key: 'valueForMoney', label: 'Value for Money', description: 'Purchase price plus multi-year electricity against verified pints removed and how long the warranty protects the compressor' }
+    ],
+    filters: [
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-250', label: 'Under $250', kind: 'price-max', value: 250 },
+      { slug: 'under-500', label: 'Under $500', kind: 'price-max', value: 500 },
+      { slug: 'under-1500', label: 'Under $1,500', kind: 'price-max', value: 1500 },
+      { slug: 'closet-bathroom', label: 'Closet & Bathroom', kind: 'use-case' },
+      { slug: 'large-room', label: 'Large Room', kind: 'use-case' },
+      { slug: 'basement', label: 'Basement', kind: 'use-case' },
+      { slug: 'cold-spaces', label: 'Cold Spaces (Under 60°F)', kind: 'use-case' },
+      { slug: 'crawl-space', label: 'Crawl Space', kind: 'use-case' }
+    ]
   }
 ];
 

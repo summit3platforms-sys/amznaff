@@ -1,0 +1,981 @@
+[
+  {
+    "id": "ap-ikea-uppatvind",
+    "categorySlug": "air-purifiers",
+    "brand": "IKEA",
+    "series": "UPPÅTVIND",
+    "model": "IKEA UPPÅTVIND Air Purifier (E2111)",
+    "slug": "ikea-uppatvind",
+    "releaseYear": 2022,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Beige",
+      "Pink",
+      "Blue"
+    ],
+    "material": "Not published by IKEA — the product page lists no housing material",
+    "warrantyMonths": 0,
+    "connectivity": [
+      "None — three-position mechanical dial, no Wi-Fi, no app, no remote"
+    ],
+    "features": [
+      "The only unit here whose headline room size is quoted at 5 air changes per hour, not 1",
+      "AHAM Verifide with a certified smoke CADR of 44 — small, but independently measured",
+      "8W at full speed; 2.4W on low, cheaper to run all night than a night light",
+      "Flat, wall-mountable body that can also sit under a desk or behind furniture",
+      "One captive-screw filter change with no tools and no proprietary cartridge lock-in"
+    ],
+    "specs": {
+      "ahamCadr": "AHAM Verifide: smoke 44 / dust 49 / pollen 50 CFM (ahamdir.com, model E2111). Genuinely Verifide — IKEA is one of only six consumer brands with current listings.",
+      "ahamRoomSize": "68 ft² (AHAM Verifide suggested room size for E2111)",
+      "coverageClaim": "IKEA states \"Optimized for rooms of 75 sq. ft., where air is filtered through the air purifier 5 times per hour\" — the only product in this file whose headline figure is a 5-ACH figure. Compare AHAM's own 68 ft² at 4.8 ACH: the two agree to within 10%. No 1-ACH number is quoted anywhere.",
+      "filterType": "EPA 12 per EN 1822-1 / ISO 29463-3 — one grade BELOW True HEPA (H13). IKEA states 99.5% efficiency for PM2.5, dust and pollen. It is not HEPA and IKEA does not call it HEPA.",
+      "prefilter": "No separate pre-filter. The EPA 12 particle filter is the only stage.",
+      "annualFilterCost": "$36.00/yr — UPPÅTVIND particle filter (art. 905.514.98) $18.00, replaced at IKEA's stated maximum of 6 months. There is no gas/carbon filter offered for UPPÅTVIND at all, so odour and VOC removal is zero.",
+      "ionizerOzone": "None. No ioniser, no UV, no PCO. CARB-certified and classified Mechanical (IKEA UPPÅTVIND E2111, EO G-22-366, notified 2022-09-16) — mechanical filtration only, structurally incapable of generating ozone.",
+      "noiseRange": "31 dB lowest fan speed to 55 dB highest (IKEA published)",
+      "sensor": "None. No particle sensor, no VOC sensor, no auto mode — you set the speed by hand.",
+      "smartFeatures": "None, and that is the point: no account, no app, no cloud, no firmware. Works identically forever with no internet connection.",
+      "powerDraw": "8.0W maximum, 2.4W on lowest speed (IKEA published)",
+      "warrantyTerms": "IKEA publishes no manufacturer warranty term for UPPÅTVIND on the US product page; it offers a 365-day full-refund return window instead. warrantyMonths is recorded as 0 for that reason, not because coverage was found to be absent."
+    },
+    "scores": {
+      "verifiedPerformance": 5.0,
+      "coverageHonesty": 9.5,
+      "filtrationQuality": 5.5,
+      "runningCost": 6.5,
+      "quietness": 6.0,
+      "airQualitySensing": 0.5,
+      "byproductSafety": 10.0,
+      "usability": 6.0
+    },
+    "pros": [
+      "The most honest coverage claim in the category — 75 ft² at 5 ACH, and AHAM independently lands on 68 ft² at 4.8 ACH",
+      "AHAM Verifide despite the $50 price, which most $250 purifiers here are not",
+      "Purely mechanical and CARB-listed as Mechanical: no ioniser, no UV, no ozone pathway of any kind",
+      "8W flat out; running it 24/7 costs roughly a dollar a month",
+      "$18 filter with no app, no subscription and no cartridge authentication"
+    ],
+    "cons": [
+      "44 CFM smoke CADR is genuinely small — this is a desk or nursery unit, not a living-room unit",
+      "EPA 12 media is one class below True HEPA; IKEA claims 99.5% on PM2.5, not 99.97% on 0.3 µm",
+      "No carbon or gas filter is sold for it, so it does nothing about cooking smells, VOCs or smoke odour",
+      "31 dB on low is louder than the Levoit Core Mini-P's 25 dB, and it has no sleep mode to fall back on",
+      "No sensor and no auto mode; IKEA publishes no warranty term, only a 365-day return window"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "levoit-core-mini-p",
+      "levoit-core-300s-p",
+      "coway-airmega-ap-1512hh"
+    ],
+    "useCases": [
+      "bedroom-quiet",
+      "ioniser-free",
+      "aham-verifide"
+    ],
+    "shortTagline": "The cheapest AHAM Verifide purifier here, and the only one that quotes coverage at 5 ACH."
+  },
+  {
+    "id": "ap-levoit-core-mini-p",
+    "categorySlug": "air-purifiers",
+    "brand": "Levoit",
+    "series": "Core",
+    "model": "Levoit Core Mini-P (LAP-C161-WUS)",
+    "slug": "levoit-core-mini-p",
+    "releaseYear": 2021,
+    "price": 49.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Green",
+      "Black"
+    ],
+    "material": "Not published by Levoit — the spec table lists no housing material",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "None — no Wi-Fi, no app, no remote; a single touch button"
+    ],
+    "features": [
+      "Levoit publishes both numbers itself: 254 ft² at 1 ACH and 53 ft² at 4.8 ACH",
+      "7W rated power — the lowest-draw purifier in this file",
+      "25 dB on the lowest setting, quieter than the IKEA UPPÅTVIND's 31 dB",
+      "Aroma pad in the base for essential oils (a fragrance feature, not a filtration one)",
+      "2-year Levoit warranty on a $50 device"
+    ],
+    "specs": {
+      "ahamCadr": "AHAM Verifide: smoke 34 / dust 39 / pollen 61 CFM (ahamdir.com, Core Mini platform, model codes LAP-C171-xxxx). Note that AHAM records the filter type for this model as \"HEPA-Type\", not HEPA. The Core Mini-P sold at retail carries the sister code LAP-C161-WUS; Levoit's own published 34 CFM CADR matches the AHAM smoke figure exactly.",
+      "ahamRoomSize": "53 ft² (AHAM Verifide suggested room size for the Core Mini platform) — and Levoit's own page independently states 53 ft² at 4.8 ACH",
+      "coverageClaim": "Levoit's page states \"254 ft² (1 ACH) / 53 ft² (4.8 ACH)\" and the marketing bullet says it \"changes the air in a 254 ft² room once per hour\". Retail listings and lists quote the 254 ft² number alone. One air change an hour does essentially nothing for smoke or pollen; the usable figure is 53 ft².",
+      "filterType": "Levoit markets 3-stage filtration with a \"HEPA-grade\" media. The AHAM Verifide directory records this model's filter type as HEPA-Type — which is a weaker claim than True HEPA and is the honest description.",
+      "prefilter": "Integrated nylon pre-filter layer bonded into the single replaceable cartridge — not separately washable.",
+      "annualFilterCost": "$37.50–$50.00/yr — Core Mini-P replacement filter $24.99 ($22.49 on sale; 2-pack $45.99). Levoit's product page publishes no interval; the Core 300/Core Mini user manuals advise replacement every 6–8 months, which gives 1.5–2 filters a year.",
+      "ionizerOzone": "None. No ioniser, UV or PCO; Levoit labels the unit \"Ozone Free\". CARB-certified and classified Mechanical (LAP-C161-GUSR, EO G-24-345; LAP-C171 variants under G-26-118 and G-26-030).",
+      "noiseRange": "25 dB lowest to 44 dB highest (Levoit published)",
+      "sensor": "None. No particle sensor, no auto mode — three manual speeds plus a display-off sleep setting.",
+      "smartFeatures": "None. Despite the VeSync branding across the Levoit range, the Core Mini-P has no Wi-Fi and needs no account. Fully offline forever.",
+      "powerDraw": "7W rated (12V 1A external adapter)",
+      "warrantyTerms": "2-year limited warranty, 30-day money-back, no registration or subscription condition"
+    },
+    "scores": {
+      "verifiedPerformance": 4.0,
+      "coverageHonesty": 8.0,
+      "filtrationQuality": 5.5,
+      "runningCost": 6.0,
+      "quietness": 8.0,
+      "airQualitySensing": 0.5,
+      "byproductSafety": 10.0,
+      "usability": 6.5
+    },
+    "pros": [
+      "Levoit publishes the 4.8-ACH figure (53 ft²) right next to the 1-ACH one, and AHAM confirms it exactly",
+      "25 dB on low is the quietest minimum setting in this file",
+      "7W — you can leave it running permanently for pennies",
+      "Purely mechanical, CARB Mechanical, no ioniser or UV stage to switch off",
+      "2-year warranty and a widely stocked $24.99 filter"
+    ],
+    "cons": [
+      "AHAM records the filter as HEPA-Type, not True HEPA — Levoit's own copy says \"HEPA-grade\", which is not the same claim as H13",
+      "34 CFM smoke CADR only genuinely serves about 53 ft²; the 254 ft² figure retailers repeat is a 1-ACH number",
+      "No sensor, no auto mode and no app — every speed change is manual",
+      "Filter interval is not on the product page at all; you have to go to the manual to find 6–8 months",
+      "The aroma pad adds fragrance to the air, which is the opposite of what an air cleaner is for"
+    ],
+    "images": [],
+    "amazonAsin": "B09GTRVJQM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ikea-uppatvind",
+      "levoit-core-300s-p",
+      "winix-5510"
+    ],
+    "useCases": [
+      "bedroom-quiet",
+      "ioniser-free",
+      "aham-verifide"
+    ],
+    "shortTagline": "A genuinely quiet 53 ft² desk purifier that everyone insists on calling a 254 ft² one."
+  },
+  {
+    "id": "ap-levoit-core-300s-p",
+    "categorySlug": "air-purifiers",
+    "brand": "Levoit",
+    "series": "Core",
+    "model": "Levoit Core 300S-P Smart Air Purifier",
+    "slug": "levoit-core-300s-p",
+    "releaseYear": 2021,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by Levoit — the spec table lists no housing material",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "VeSync app",
+      "Amazon Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Levoit publishes 1051 ft² at 1 ACH and 219 ft² at 4.8 ACH side by side on its own page",
+      "22 dB on the lowest setting with the display off — a genuine bedroom figure",
+      "23W rated power, less than half the 56W of the non-smart Core 300-P",
+      "AirSight Plus air-quality readout drives an auto mode",
+      "Four filter variants share the housing: Original, Toxin Absorber, Pet Allergy and Smoke Remover"
+    ],
+    "specs": {
+      "ahamCadr": "Levoit publishes a single combined figure of 141 CFM / 240 m³/h and does not break it into smoke, dust and pollen. NOT independently confirmable: a query of the AHAM Verifide directory in August 2026 returns Levoit models LAP-C171, LAP-C201S, LAP-C311S, LAP-C341S and LAP-P501S, and no entry whose model designation is Core 300S. Levoit's Amazon listing nevertheless carries an \"AHAM VERIFIDE\" badge. Treat 141 CFM as a manufacturer figure, not a Verifide one.",
+      "ahamRoomSize": "Not listed in the AHAM Verifide directory under this model designation (August 2026). Levoit's own 4.8-ACH figure is 219 ft².",
+      "coverageClaim": "Levoit's page states \"1051 ft² (1 ACH) / 219 ft² (4.8 ACH)\". Levoit deserves credit for printing both; retail listings and round-ups quote the 1051 ft² number on its own. 219 ft² is the number that matters for smoke or pollen.",
+      "filterType": "3-Stage Original Filter: nylon pre-filter, \"HEPA-grade\" main media and activated carbon. Levoit's page says HEPA-grade rather than True HEPA or H13; AHAM records HEPA-Type for the neighbouring Core Mini and Core 200S models.",
+      "prefilter": "Nylon pre-filter bonded into the replaceable cartridge — not separately washable",
+      "annualFilterCost": "$45.00–$60.00/yr with the $29.99 Original filter at the manual's 6–8 month interval; $54.00–$72.00/yr with the $35.99 Pet Allergy or Toxin Absorber filter, $60.00–$80.00/yr with the $39.99 4-Stage Smoke Remover. The product page publishes the prices but not the interval.",
+      "ionizerOzone": "None. No ioniser, UV or PCO stage. CARB-certified and classified Mechanical (Levoit \"Smart True HEPA Air Purifier\" Core 300S, EO G-21-183, notified 2021-05-13).",
+      "noiseRange": "22 dB lowest to 50 dB highest (Levoit published)",
+      "sensor": "\"AirSight Plus\" air-quality scanning. Levoit does not publish the sensing element — it is not described as a laser particle counter anywhere on the product page, unlike Coway's MegaScan or Smartmi's stated laser sensors. Record it as a manufacturer air-quality index rather than a verified PM2.5 measurement.",
+      "smartFeatures": "Wi-Fi and voice control require a VeSync account. The purifier's physical buttons keep working with no internet, but scheduling, air-quality history, remote control and Alexa/Google all stop without the account and the cloud.",
+      "powerDraw": "23W rated. Notably, Levoit rates the non-smart Core 300-P at 56W for an almost identical 143 CFM — a published gap the company does not explain.",
+      "warrantyTerms": "2-year limited warranty, 30-day money-back, no registration or subscription condition"
+    },
+    "scores": {
+      "verifiedPerformance": 5.5,
+      "coverageHonesty": 7.5,
+      "filtrationQuality": 6.5,
+      "runningCost": 6.5,
+      "quietness": 8.0,
+      "airQualitySensing": 5.5,
+      "byproductSafety": 10.0,
+      "usability": 7.5
+    },
+    "pros": [
+      "Levoit prints the 4.8-ACH figure on its own spec table, which most of this field does not",
+      "22 dB minimum is the equal-quietest here and the display switches fully off",
+      "23W for 141 CFM is excellent efficiency — and less than half the non-smart Core 300-P's 56W",
+      "No ioniser, no UV, CARB Mechanical: nothing to remember to switch off",
+      "Four filter chemistries fit the same body, so you can retune it for smoke or pet odour"
+    ],
+    "cons": [
+      "The \"AHAM VERIFIDE\" badge on the retail listing does not correspond to any Core 300S entry in the AHAM directory as of August 2026 — the 141 CFM is a manufacturer figure",
+      "Levoit publishes one combined CADR and never splits smoke, dust and pollen, so you cannot compare it like-for-like against Winix or Blueair",
+      "\"HEPA-grade\" is a deliberately softer claim than True HEPA or H13, and AHAM logs sibling Levoit models as HEPA-Type",
+      "Smart features are account-gated: no VeSync login means no scheduling, no history, no voice control",
+      "$149.99 at Levoit is roughly what a 253-CADR Winix or a 246-CADR Coway costs on offer"
+    ],
+    "images": [],
+    "amazonAsin": "B0G19ZCNP9",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "levoit-core-mini-p",
+      "coway-airmega-ap-1512hh",
+      "winix-5510",
+      "ikea-uppatvind"
+    ],
+    "useCases": [
+      "bedroom-quiet",
+      "ioniser-free"
+    ],
+    "shortTagline": "A quiet, efficient 219 ft² bedroom unit sold on a 1051 ft² number and a badge that does not check out."
+  },
+  {
+    "id": "ap-coway-airmega-ap-1512hh",
+    "categorySlug": "air-purifiers",
+    "brand": "Coway",
+    "series": "Airmega",
+    "model": "Coway Airmega AP-1512HH Mighty",
+    "slug": "coway-airmega-ap-1512hh",
+    "releaseYear": 2013,
+    "price": 239.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Not published by Coway — the spec table lists no housing material",
+    "warrantyMonths": 36,
+    "connectivity": [
+      "None on the AP-1512HH — no Wi-Fi, no app; the AP-1512HHS and the newer Mighty2 AP-1512N add it"
+    ],
+    "features": [
+      "Coway prints the full coverage ladder itself: 1,748 ft² at 1 ACH, 874 at 2 ACH, 361 at 4.8 ACH",
+      "Genuinely washable plastic-mesh pre-filter — vacuum or rinse it instead of buying it",
+      "Eco mode shuts the fan off entirely after 30 minutes of clean air and restarts on pollution",
+      "3-year warranty, the longest here apart from Honeywell's five and Alen's conditional guarantee",
+      "$54.99 filter set covers a full year: one HEPA plus two six-month deodorisation filters"
+    ],
+    "specs": {
+      "ahamCadr": "Coway publishes smoke 233 / dust 246 / pollen 240 CFM itself. NOT AHAM Verifide as of August 2026: Coway does not appear in the AHAM Verifide directory's brand index at all, so no Coway model — including this one — currently carries a Verifide CADR. These are manufacturer figures.",
+      "ahamRoomSize": "Not listed in the AHAM Verifide directory (August 2026). Coway's own 4.8-ACH figure is 361 ft².",
+      "coverageClaim": "Coway's own spec table gives \"1 air change/hr 1,748 ft² / 2 air changes/hr 874 ft² / 4.8 air changes/hr 361 ft²\" — the most complete ladder any brand here publishes. The retail listing headline is the 1,748 ft² number.",
+      "filterType": "Four stages: washable pre-filter, deodorisation (activated carbon) filter, True HEPA filter rated 99.97% at 0.3 µm, and a bipolar ionising device. Coway calls the HEPA stage True HEPA; the newer Mighty2 is marketed as \"IEST certified HEPA\" instead.",
+      "prefilter": "Yes — permanent washable mesh pre-filter. Coway's instructions: pull it out, rinse or vacuum, dry fully, reset. No recurring cost.",
+      "annualFilterCost": "$54.99/yr — Airmega Mighty AP-1512HH & 200M filter set (SKU 3304899 / 3109905 / 3118096) contains one HEPA filter (1-year life) and two deodorisation filters (6-month life), i.e. exactly one year of consumables. Specialty sets run $54.99–$56.99 (Intense Smoke, Allergen, Pet).",
+      "ionizerOzone": "Yes — the fourth stage is a bipolar ionising device, and it is listed in Coway's own filter composition. CARB records the AP-1512HH as an ELECTRONIC device (Coway/Woongjin Coway, EO G-13-027 and G-16-011), meaning it is capable of generating ozone and was certified only because it tested at or below 0.050 ppm. The revised AP-1512HHC (EO G-25-347) and the Mighty2 AP-1512N (G-26-042) are certified as Mechanical. The ioniser has its own button and can be switched off.",
+      "noiseRange": "24 dB(A) lowest to 53 dB(A) highest (Coway published)",
+      "sensor": "Coway calls it a \"dust sensor\" on this model and does not describe it as a laser particle counter. The successor Mighty2 upgrades to a \"MegaScan laser sensor (PM1, 2.5, 10)\" — which tells you what the AP-1512HH's sensor is not.",
+      "smartFeatures": "None on this SKU. No account, no app, no cloud, no firmware; every function is on the top panel. That makes it the most future-proof mid-range unit here.",
+      "powerDraw": "77W maximum (Coway published)",
+      "warrantyTerms": "3-year limited warranty per Coway's retail listing; Coway's own product page does not state a term"
+    },
+    "scores": {
+      "verifiedPerformance": 6.5,
+      "coverageHonesty": 7.0,
+      "filtrationQuality": 8.0,
+      "runningCost": 8.0,
+      "quietness": 7.5,
+      "airQualitySensing": 5.0,
+      "byproductSafety": 5.0,
+      "usability": 8.0
+    },
+    "pros": [
+      "Coway publishes a three-rung coverage ladder — 1,748 / 874 / 361 ft² — instead of hiding the 4.8-ACH figure",
+      "$54.99 buys a complete year of filters, the cheapest running cost of any 200-plus-CADR unit here",
+      "Washable permanent pre-filter genuinely removes a consumable rather than renaming one",
+      "Completely offline: no account, no app, no firmware, nothing to be discontinued",
+      "3-year warranty and a decade of continuous production behind the design"
+    ],
+    "cons": [
+      "Coway is not in the AHAM Verifide directory at all in August 2026, so the 233/246/240 CADR is self-reported",
+      "The fourth stage is a bipolar ioniser and CARB classifies this model as an Electronic device — ozone-capable, certified only as under 0.050 ppm. Switch it off",
+      "The air-quality sensor is a dust sensor, not the laser PM sensor Coway put in the Mighty2 successor",
+      "77W is the second-highest draw here for a mid-size unit",
+      "No Wi-Fi, no scheduling, no filter-life telemetry — you watch an indicator light"
+    ],
+    "images": [],
+    "amazonAsin": "B01728NLRG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "winix-5510",
+      "levoit-core-300s-p",
+      "honeywell-insight-hpa180b",
+      "medify-ma-40"
+    ],
+    "useCases": [
+      "large-room",
+      "wildfire-smoke"
+    ],
+    "shortTagline": "Cheapest filters in the class and an honest coverage table — but check the ioniser button is off."
+  },
+  {
+    "id": "ap-medify-ma-40",
+    "categorySlug": "air-purifiers",
+    "brand": "Medify Air",
+    "series": "MA",
+    "model": "Medify Air MA-40 (V4.0)",
+    "slug": "medify-ma-40",
+    "releaseYear": 2019,
+    "price": 249.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Tempered glass touchscreen top on a plastic body (Medify published)",
+    "warrantyMonths": 0,
+    "connectivity": [
+      "None — no Wi-Fi, no app, no remote"
+    ],
+    "features": [
+      "239 CFM smoke CADR from a 22-inch tower with a tempered-glass touch panel",
+      "Publishes a full four-rung coverage table from 1 ACH down to 5 ACH",
+      "Carbon stage uses loose pellets rather than a carbon-coated mesh",
+      "Limited lifetime warranty with no filter-subscription condition attached",
+      "Optional-ionizer variant exists; the standard HEPA SKU is CARB-listed as Mechanical"
+    ],
+    "specs": {
+      "ahamCadr": "Medify publishes smoke 239 / dust 231 / pollen 240 / PM2.5 235 CFM itself, footnoted \"Smoke CADR when operating at highest fan speed\". Medify's own listings display an \"AHAM Verified\" badge on every product — but a query of the AHAM Verifide directory in August 2026 returns the brand \"Medify Air\" in the brand index with ZERO currently certified models. Treat these as manufacturer figures until a directory entry appears.",
+      "ahamRoomSize": "No current AHAM Verifide listing (August 2026), despite the \"AHAM Verified\" badge on medifyair.com. Medify's own 5-ACH figure is 358.5 ft² and its 4-ACH figure is 448 ft².",
+      "coverageClaim": "Medify's own table: 1,793 ft² at 1 ACH, 896 ft² at 2 ACH, 448 ft² at 4 ACH, 358.5 ft² at 5 ACH. The headline everywhere — site, packaging, Amazon title — is the 2-ACH number, \"896 sq ft in 30 minutes\". Two air changes an hour is roughly half what smoke or allergen control needs.",
+      "filterType": "Medify markets \"True HEPA H13\" (and H14 on some SKUs). The footnote on every page reads \"Tested by Intertek Lab for HEPA filter material\" — the H13 grade is a claim about the media, not a whole-unit sealed-system rating. Three stages: pre-filter, H13 media, pelletised activated carbon.",
+      "prefilter": "Integrated into the single replaceable cylinder — not separately washable",
+      "annualFilterCost": "$119.98–$179.97/yr, and Medify's own site cannot agree with itself: the MA-40 filter page sets the subscription cadence at 120 days, the purifier page sets it at 180 days, and the body copy says the filter lasts \"up to 3,000 hours or 4-5 months\". At $59.99 a filter that is two to three filters a year. The subscription discounts the first filter 40% ($35.99) and later ones 10% ($53.99).",
+      "ionizerOzone": "The standard MA-40 has an optional ioniser (Medify's own controls list reads \"Ionizer (Optional)\") and Medify describes the unit as ozone-free. CARB history is instructive: the original MA-40 (EO G-21-461, 2021) and the MA-40UV are certified as ELECTRONIC devices, while MA-40-V3.0 (G-23-267) and the current MA-40-V4.0 (G-25-237, 2025-09-10) are certified as MECHANICAL. Buy the current V4.0 HEPA SKU, not a UV or ioniser variant.",
+      "noiseRange": "Medify publishes only the sleep-mode figure, \"as low as 40.5 dBA\". No figure is published for the top speed. 40.5 dBA is by far the loudest quiet-setting in this file — the Levoit Core 300S-P is 22 dB and the Blueair 23 dB.",
+      "sensor": "None. The MA-40's own controls list is \"Preset Timers, 3 Fan Speeds, Sleep Mode, Filter Indicator, Touch Controls, Child Lock, Ionizer (Optional)\" — there is no particle sensor and therefore no auto mode at any price.",
+      "smartFeatures": "None. No Wi-Fi, no app, no account. Fully offline.",
+      "powerDraw": "68W (Medify published); Integrated Energy Factor 3.6",
+      "warrantyTerms": "Limited Lifetime Warranty with no filter-subscription requirement — unusually generous, and the reason warrantyMonths is recorded as 0 rather than a month count. Plus a 30-day home trial."
+    },
+    "scores": {
+      "verifiedPerformance": 6.0,
+      "coverageHonesty": 3.5,
+      "filtrationQuality": 7.5,
+      "runningCost": 3.5,
+      "quietness": 4.0,
+      "airQualitySensing": 1.0,
+      "byproductSafety": 7.0,
+      "usability": 6.0
+    },
+    "pros": [
+      "239 CFM smoke CADR is real firepower for $250 and beats every unit here below $340",
+      "Limited lifetime warranty with no registration-plus-subscription strings, unlike Alen's Forever Guarantee",
+      "Pelletised carbon rather than carbon-coated mesh gives it more genuine odour capacity than most",
+      "Publishes its coverage at four different ACH values, so the honest number is at least findable",
+      "The current V4.0 is CARB-certified Mechanical — no ozone pathway on the standard HEPA SKU"
+    ],
+    "cons": [
+      "Every Medify listing carries an \"AHAM Verified\" badge, yet the AHAM Verifide directory shows zero certified Medify Air models in August 2026",
+      "The famous \"896 sq ft\" is a 2-ACH figure; at the 4–5 ACH that actually controls smoke it is 358–448 ft²",
+      "H13 is footnoted as \"tested by Intertek for HEPA filter material\" — media grade, not a sealed-unit rating",
+      "Sleep mode is 40.5 dBA. That is audible-conversation territory and the top speed is not published at all",
+      "$59.99 filters on a 120–180 day cadence — Medify's own pages disagree — means $120–180 a year, near the price of a whole Levoit",
+      "No sensor of any kind, so no auto mode: you are the air-quality sensor"
+    ],
+    "images": [],
+    "amazonAsin": "B07LGDYV3C",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "coway-airmega-ap-1512hh",
+      "winix-5510",
+      "blueair-blue-pure-211i-max",
+      "alen-breathesmart-75i"
+    ],
+    "useCases": [
+      "large-room",
+      "wildfire-smoke"
+    ],
+    "shortTagline": "Real 239-CADR muscle for $250, sold on a 2-ACH number and an AHAM badge the directory does not back."
+  },
+  {
+    "id": "ap-winix-5510",
+    "categorySlug": "air-purifiers",
+    "brand": "Winix",
+    "series": "5000 Series",
+    "model": "Winix 5510 (successor to the 5500-2)",
+    "slug": "winix-5510",
+    "releaseYear": 2024,
+    "price": 259.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Charcoal Gray"
+    ],
+    "material": "Not published by Winix — the spec table lists no housing material",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Winix Smart app",
+      "Amazon Alexa"
+    ],
+    "features": [
+      "AHAM Verifide 253/252/247 CADR — the second-highest verified figure in this file",
+      "Winix leads with the 392 ft² AHAM number and footnotes the 1,882 ft² one",
+      "Publishes an actual measured ozone figure: 0.22 ppbv 8-hour TWA in a 30 m³ chamber",
+      "Washable fine-mesh pre-filter plus pelletised AOC carbon, both 12-month cycle on the HEPA",
+      "Light-sensing auto sleep mode drops it to 23.5 dB when the room goes dark"
+    ],
+    "specs": {
+      "ahamCadr": "AHAM Verifide: smoke 253 / dust 252 / pollen 247 CFM (ahamdir.com, model 5510; the 5520 and 5530 share the identical certification). Genuinely Verifide — Winix is one of the six consumer brands with current directory entries.",
+      "ahamRoomSize": "392 ft² (AHAM Verifide suggested room size at 4.8 air changes per hour)",
+      "coverageClaim": "Winix leads with \"AHAM Verifide 392 ft²\" and states the 4.8-ACH basis in a visible footnote, then adds \"cleans up to 1,882 ft² in 1 hour\" as the secondary figure. That ordering is the right way round and almost nobody else here does it.",
+      "filterType": "4-stage: washable fine-mesh pre-filter, AOC pelletised activated-carbon filter, True HEPA rated 99.99% (Winix cites KCL report CT24-072905E under a modified SPS-KACA 002-132:2022 method — note that is a Korean test standard, not EN 1822), and PlasmaWave.",
+      "prefilter": "Yes — washable fine-mesh pre-filter, no recurring cost",
+      "annualFilterCost": "$55.99–$79.99/yr — Filter Q, part 1712-0123-00, list $79.99 and currently $55.99 direct from Winix, replaced every 12 months. The HEPA and AOC carbon are combined in one part, so that is the whole consumable bill.",
+      "ionizerOzone": "Yes — PlasmaWave is a plasma/ion stage. Winix states it \"breaks down pollutants at the molecular level without producing harmful ozone\" and, to its credit, publishes the measurement: \"The 8-hr TWA Ozone for this product is 0.22 ppbv when tested in a 30 m3 chamber.\" CARB certifies the 5510 as an ELECTRONIC device (EO G-24-234, 2024-10-03) — ozone-capable, tested at or below 0.050 ppm. PlasmaWave has a dedicated on/off control and the unit filters perfectly well with it off.",
+      "noiseRange": "23.5 dB on the slowest of five speeds (Winix published). Winix does not publish a top-speed figure.",
+      "sensor": "\"Dual Smart Sensors\" — a particle/air-quality sensor driving a 3-colour LED and auto mode, plus a light sensor that triggers sleep mode when the room darkens. Winix does not state whether the particle sensor is laser-based.",
+      "smartFeatures": "Wi-Fi, the Winix Smart app and Alexa need an account. All five fan speeds, auto mode, sleep mode and the timer work from the top panel with no internet at all — the app is additive, not load-bearing.",
+      "powerDraw": "AHAM-measured 65.0W at the smoke-CADR speed; 323 kWh annual energy consumption per the AHAM listing",
+      "warrantyTerms": "2-year warranty; certifications listed as AHAM / UL / CARB / Prop 65. Manufactured in Korea."
+    },
+    "scores": {
+      "verifiedPerformance": 9.0,
+      "coverageHonesty": 8.5,
+      "filtrationQuality": 8.5,
+      "runningCost": 7.0,
+      "quietness": 8.0,
+      "airQualitySensing": 7.0,
+      "byproductSafety": 6.0,
+      "usability": 8.0
+    },
+    "pros": [
+      "AHAM Verifide 253 smoke CADR — verified performance, not a manufacturer number",
+      "Leads with the 392 ft² 4.8-ACH figure and relegates the 1,882 ft² claim to a footnote",
+      "Publishes an actual ozone measurement (0.22 ppbv 8-h TWA) rather than just asserting \"ozone-free\"",
+      "One $55.99–79.99 part a year covers HEPA and carbon together; the pre-filter is washable",
+      "Works completely offline — every mode is on the panel, the app only adds remote control"
+    ],
+    "cons": [
+      "PlasmaWave means CARB certifies it as an Electronic (ozone-capable) device; switch it off unless you want it",
+      "Winix publishes only the 23.5 dB minimum and never the top-speed noise, which at 65W is not quiet",
+      "323 kWh/yr on the AHAM listing is the second-highest energy use in this file",
+      "The 99.99% HEPA claim rests on a Korean KCL test to a modified SPS-KACA method, not EN 1822 or IEST",
+      "$259.99 direct is well above the street price the outgoing 5500-2 trained buyers to expect"
+    ],
+    "images": [],
+    "amazonAsin": "B0DJG1731C",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "coway-airmega-ap-1512hh",
+      "honeywell-insight-hpa180b",
+      "blueair-blue-pure-211i-max",
+      "medify-ma-40"
+    ],
+    "useCases": [
+      "large-room",
+      "wildfire-smoke",
+      "aham-verifide"
+    ],
+    "shortTagline": "The best verified CADR per dollar here, if you are comfortable turning PlasmaWave off."
+  },
+  {
+    "id": "ap-honeywell-insight-hpa180b",
+    "categorySlug": "air-purifiers",
+    "brand": "Honeywell",
+    "series": "InSight",
+    "model": "Honeywell InSight HEPA Tower HPA180B",
+    "slug": "honeywell-insight-hpa180b",
+    "releaseYear": 2022,
+    "price": 263.48,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Not published by Honeywell — the spec sheet lists no housing material",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "None — no Wi-Fi, no app, no remote"
+    ],
+    "features": [
+      "5-year limited warranty, the longest unconditional coverage in this file",
+      "AHAM Verifide and Honeywell states the 4.8-ACH basis on its own product page",
+      "Intelligent air-quality sensor with a colour-coded display and automatic mode",
+      "Four cleaning levels including Turbo, with a dimmer for the display",
+      "Purely mechanical — CARB classifies it Mechanical, with no ioniser or UV to disable"
+    ],
+    "specs": {
+      "ahamCadr": "AHAM Verifide: smoke 133 / dust 143 / pollen 168 CFM (ahamdir.com, model HPA180B). Genuinely Verifide.",
+      "ahamRoomSize": "206 ft² per the AHAM Verifide listing; Honeywell rounds it to \"Large (200 sq. ft.)\" on its own page",
+      "coverageClaim": "Honeywell's headline is \"990 ft² in 1 hour\" — which is the 206 ft² AHAM room size multiplied by 4.8. To Honeywell's credit its own product page states the AHAM room size and the \"4.8 times per hour\" basis in the same block. A 990 ft² room is not what this cleans; a 200 ft² room is.",
+      "filterType": "True HEPA rated at up to 99.97% of particles 0.3 µm and larger, plus a replaceable pre-filter and an optional Enhanced Odor \"T\" carbon filter.",
+      "prefilter": "Replaceable, not washable — Pre-Filter A/A+ on a 3-month cycle. This is a recurring cost, not a rinse-and-refit part.",
+      "annualFilterCost": "Honeywell publishes intervals but not a single-part price for this model: HEPA \"G\" filter every 12 months plus Pre-Filter A/A+ every 3 months (four a year), with an optional Enhanced Odor \"T\" filter also on a 3-month cycle. For scale, the same store prices the equivalent HPA300-series parts at $36.95 for a single HEPA R and $15.95 for a pre-filter — which puts a comparable Honeywell in the $90–$110/yr bracket. Recorded as: interval published, price for the G/A parts not published on the manufacturer page.",
+      "ionizerOzone": "None. No ioniser, no UV, no PCO. CARB-certified and classified MECHANICAL (Honeywell INSIGHT SERIES HPA180BV2, EO G-25-339, notified 2025-12-12).",
+      "noiseRange": "Not published by Honeywell — the product page describes the lowest speed as \"quiet\" and gives no decibel figures at either end. This is the only mid-range unit here with no published noise data at all.",
+      "sensor": "\"Intelligent Air Quality Sensor\" driving a colour-coded display and an automatic cleaning mode. Honeywell does not state the sensing technology.",
+      "smartFeatures": "None. No Wi-Fi, no app, no account, no firmware. Fully offline.",
+      "powerDraw": "AHAM-measured 55.2W at the smoke-CADR speed, and 322 kWh annual energy consumption per the AHAM listing — the highest energy figure in this file for only 133 CFM of smoke CADR",
+      "warrantyTerms": "5-year limited warranty with no registration or subscription condition — the longest fixed term here"
+    },
+    "scores": {
+      "verifiedPerformance": 7.0,
+      "coverageHonesty": 8.0,
+      "filtrationQuality": 8.0,
+      "runningCost": 5.5,
+      "quietness": 5.5,
+      "airQualitySensing": 5.0,
+      "byproductSafety": 10.0,
+      "usability": 7.0
+    },
+    "pros": [
+      "5-year warranty with no strings — nothing else here matches it without a subscription",
+      "AHAM Verifide, and Honeywell publishes the 200 ft²/4.8-ACH basis alongside the 990 ft² headline",
+      "Genuinely mechanical: CARB classifies it Mechanical, so there is no ioniser or UV stage at all",
+      "Real air-quality sensor with a colour display and a working auto mode",
+      "No account, no app, no cloud — it will behave the same in ten years"
+    ],
+    "cons": [
+      "322 kWh/yr on the AHAM listing for 133 CFM of smoke CADR: by far the worst clean-air-per-watt here",
+      "Honeywell publishes no decibel figure at any speed for this model",
+      "The pre-filter is a consumable on a 3-month cycle, so four parts a year on top of the annual HEPA",
+      "133 CFM smoke CADR is the lowest of the mid-range units — the $240 Coway does 233 and the $260 Winix 253",
+      "Honeywell has discontinued the HPA200 and HPA300 that this range replaces, so parts continuity is worth checking"
+    ],
+    "images": [],
+    "amazonAsin": "B0B984NVKP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "winix-5510",
+      "coway-airmega-ap-1512hh",
+      "shark-neverchange-air-purifier-max-hp302",
+      "levoit-core-300s-p"
+    ],
+    "useCases": [
+      "bedroom-quiet",
+      "ioniser-free",
+      "aham-verifide"
+    ],
+    "shortTagline": "Five-year warranty and a real AHAM number, paid for in electricity and quarterly pre-filters."
+  },
+  {
+    "id": "ap-blueair-blue-pure-211i-max",
+    "categorySlug": "air-purifiers",
+    "brand": "Blueair",
+    "series": "Blue Pure Max",
+    "model": "Blueair Blue Pure 211i Max (3613111100)",
+    "slug": "blueair-blue-pure-211i-max",
+    "releaseYear": 2023,
+    "price": 349.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Sand",
+      "Stockholm Fog",
+      "Moss",
+      "Limestone"
+    ],
+    "material": "Polypropylene body with a washable textile pre-filter sleeve (colour is the pre-filter)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Blueair app"
+    ],
+    "features": [
+      "AHAM Verifide 435 smoke CADR — the highest verified figure in this file",
+      "Blueair's own page states 674 ft² at 4.8 ACH, the honest number, as the headline",
+      "23 dB at the lowest of its speeds despite 435 CFM of top-end capacity",
+      "Washable fabric pre-filter sleeve doubles as the colour panel",
+      "PM1, PM2.5 and PM10 sensing, and only 46W for that airflow"
+    ],
+    "specs": {
+      "ahamCadr": "AHAM Verifide: smoke 435 / dust 453 / pollen 450 CFM (ahamdir.com, model 3613111100, listed as \"Pure Blue 211i Max\"). The highest Verifide CADR in this file. Note that AHAM records this model's filter type as \"Fabric\", not HEPA.",
+      "ahamRoomSize": "674 ft² (AHAM Verifide suggested room size at 4.8 air changes per hour) — and Blueair publishes exactly 674 ft² at 4.8 ACH on its own page",
+      "coverageClaim": "Blueair's own product page leads with \"674 sq ft\" and \"4.8 air changes per hour\", which is the correct figure correctly labelled. The retail listing title, by contrast, says \"Large Rooms up to 3,235 Sq Ft\" — that is 674 × 4.8, i.e. the 1-ACH number. Same product, two claims a factor of 4.8 apart.",
+      "filterType": "HEPASilent: a two-part system that electrostatically charges particles before a loosely woven fabric media collects them, plus activated carbon. Blueair claims 99.97% of airborne particles. It is not a mechanical H13 filter and AHAM logs the filter type as \"Fabric\" — the efficiency comes from the charging stage as much as the media.",
+      "prefilter": "Yes — washable textile pre-filter sleeve, which is also the unit's colour panel. Machine-washable, no recurring cost.",
+      "annualFilterCost": "$79.99–$93.32/yr — Particle & Carbon Filter $69.99 ($59.50 on subscription) with Blueair's RealTrack algorithm calling replacement at up to 9 months, i.e. about 1.33 filters a year. The AllergenBlock variant is $89.99 ($76.50) and SmokeBlock $84.99 ($72.25), pushing it to $100–120/yr.",
+      "ionizerOzone": "HEPASilent's ion-charging stage is integral to how the unit filters and CANNOT be switched off — unlike the Coway ioniser or Winix PlasmaWave, there is no button. CARB certifies the Blue Pure 211i Max as an ELECTRONIC device (Blueair AB, EO G-23-076, notified 2023-04-19), meaning ozone-capable and tested at or below 0.050 ppm. Blueair's product page makes no ozone statement at all. Every Blueair model in the CARB list is classified Electronic.",
+      "noiseRange": "23 dB lowest to 53 dB highest (Blueair published)",
+      "sensor": "Genuine multi-channel particulate sensing: PM1, PM2.5 and PM10, feeding auto mode and the app's history. One of only three units here that resolve PM1.",
+      "smartFeatures": "Wi-Fi and the Blueair app require an account. Fan speed, auto mode and night mode all work from the physical dial with no internet; filter tracking, air-quality history and scheduling do not.",
+      "powerDraw": "46W (Blueair published); AHAM-measured 44.0W at the smoke-CADR speed and 256 kWh annual energy consumption. That is 435 CFM of smoke CADR for 44W — comfortably the best clean-air-per-watt here.",
+      "warrantyTerms": "1-year standard, extended to 3 years only if you register the product"
+    },
+    "scores": {
+      "verifiedPerformance": 9.5,
+      "coverageHonesty": 8.0,
+      "filtrationQuality": 7.5,
+      "runningCost": 5.5,
+      "quietness": 8.0,
+      "airQualitySensing": 8.5,
+      "byproductSafety": 6.5,
+      "usability": 8.0
+    },
+    "pros": [
+      "435 CFM AHAM Verifide smoke CADR — the most verified clean air of anything here at any price",
+      "44W for that output is the best efficiency in this file by a wide margin",
+      "Blueair's own page leads with the honest 674 ft² at 4.8 ACH, not the 3,235 ft² retail headline",
+      "23 dB minimum with real PM1/PM2.5/PM10 sensing driving auto mode",
+      "Washable fabric pre-filter doubles as the colour panel, so it costs nothing to maintain"
+    ],
+    "cons": [
+      "The HEPASilent ion-charging stage cannot be turned off — CARB classifies the unit as an Electronic (ozone-capable) device and Blueair makes no ozone statement on the page",
+      "AHAM records the filter type as \"Fabric\": this is charged-media filtration, not a mechanical H13 element",
+      "The retail listing's \"up to 3,235 Sq Ft\" is Blueair's own 674 ft² multiplied by 4.8 — a 1-ACH number",
+      "1-year warranty unless you register, and even then 3 years is short next to Honeywell's 5",
+      "$69.99–$89.99 filters at up to 9 months is $80–120/yr, twice the Coway's $54.99"
+    ],
+    "images": [],
+    "amazonAsin": "B0BN2MGV5H",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "winix-5510",
+      "alen-breathesmart-75i",
+      "shark-neverchange-air-purifier-max-hp302",
+      "dyson-purifier-cool-tp10"
+    ],
+    "useCases": [
+      "large-room",
+      "wildfire-smoke",
+      "aham-verifide"
+    ],
+    "shortTagline": "The highest verified CADR here, from a charged-media system you cannot switch to mechanical-only."
+  },
+  {
+    "id": "ap-shark-neverchange-air-purifier-max-hp302",
+    "categorySlug": "air-purifiers",
+    "brand": "Shark",
+    "series": "NeverChange",
+    "model": "Shark NeverChange Air Purifier MAX (HP302)",
+    "slug": "shark-neverchange-air-purifier-max-hp302",
+    "releaseYear": 2023,
+    "price": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Dove"
+    ],
+    "material": "Not published by Shark — the spec sheet lists no housing material",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "None — infrared remote in the box, no Wi-Fi and no app"
+    ],
+    "features": [
+      "Filter rated for up to 5 years, against the 6–12 months everything else here needs",
+      "CleanSense IQ air-quality sensing with an automatic mode",
+      "Odour control is a separate $19.99 cartridge you can simply leave out",
+      "54W nominal, 86.2W peak, in a 13.45 lb tower",
+      "Purely mechanical — CARB classifies the HP302 as Mechanical"
+    ],
+    "specs": {
+      "ahamCadr": "Not published, and not AHAM Verifide. Shark does not appear in the AHAM Verifide directory at all in August 2026, and publishes no CADR for smoke, dust or pollen. The only performance number on the page is \"trapping 99.98% of large, small, and micro-sized particles\", which is a capture-efficiency claim and says nothing about airflow.",
+      "ahamRoomSize": "Not listed in the AHAM Verifide directory (August 2026)",
+      "coverageClaim": "\"Up to 1,400 sq. ft.\" with no air-change basis stated anywhere on Shark's own page — no ACH figure, no room-volume assumption, no CADR to derive one from. Retail listings variously quote 1,300 and 1,200–1,500 sq ft for the same model. This is the least checkable coverage claim in the file.",
+      "filterType": "\"True HEPA Multi-Filter\" — a single tall cartridge combining pre-filtration and HEPA media, sold on longevity rather than grade. Shark quotes 99.98% capture but no H-class rating and no EN 1822 or IEST reference.",
+      "prefilter": "Integrated into the 5-year multi-filter — nothing separate to wash, and nothing separate to buy",
+      "annualFilterCost": "About $80/yr in practice, all of it optional: the Odor Neutralizer Cartridge is $19.99 on a roughly 3-month cycle, and it is a fragrance cartridge you can leave out entirely. The main filter is claimed at up to 5 years, so amortised it is small. The caveat: independent analysis of Shark's own test conditions (cleanairadviser.com, 2026) reports the 5-year figure is measured in a 300 ft² room, 12 hours a day at maximum fan speed, to an endpoint that allows clean-air delivery to fall by 50% — so the filter is \"still working\" at half the airflow it started with.",
+      "ionizerOzone": "None. No ioniser, no UV, no PCO. CARB-certified and classified MECHANICAL (Shark HP302, EO G-23-167, notified 2023-06-26). The Odor Neutralizer cartridge is a fragrance emitter, not an oxidiser — but it is still adding VOCs to the air you are cleaning.",
+      "noiseRange": "Not published by Shark at either end. No decibel figure appears on the product page.",
+      "sensor": "\"CleanSense IQ\" air-quality monitoring driving an auto mode. Shark does not state the sensing technology or which pollutants it resolves.",
+      "smartFeatures": "None. No Wi-Fi, no app, no account. Note that the infrared remote is listed as a $16.99 replacement part — losing it costs real money because there is no phone fallback.",
+      "powerDraw": "54W nominal, 86.2W peak (Shark published)",
+      "warrantyTerms": "2-year limited warranty"
+    },
+    "scores": {
+      "verifiedPerformance": 5.0,
+      "coverageHonesty": 3.0,
+      "filtrationQuality": 8.0,
+      "runningCost": 6.5,
+      "quietness": 5.5,
+      "airQualitySensing": 6.0,
+      "byproductSafety": 9.0,
+      "usability": 7.0
+    },
+    "pros": [
+      "A 5-year filter genuinely removes the annual $60–100 tax that defines this category",
+      "Purely mechanical and CARB Mechanical — no ioniser, no UV, nothing to remember to switch off",
+      "The odour cartridge is optional and removable, so you are not forced to perfume your air",
+      "CleanSense IQ auto mode with no account, no app and no cloud dependency",
+      "13.45 lb and 54W nominal for a 1,400 ft²-class tower"
+    ],
+    "cons": [
+      "No CADR at all, and Shark is absent from the AHAM Verifide directory — the \"1,400 sq. ft.\" has no published air-change basis",
+      "The 5-year filter claim is measured to an endpoint that permits a 50% fall in clean-air delivery, per independent analysis of Shark's own conditions",
+      "No decibel figures published at any speed",
+      "$399.99 list buys 435 verified CFM from Blueair or 253 from Winix; here it buys an unquantified airflow",
+      "The remote is the only controller and Shark sells it as a $16.99 replacement part — there is no app fallback"
+    ],
+    "images": [],
+    "amazonAsin": "B0CBQRTQ6D",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "blueair-blue-pure-211i-max",
+      "dyson-purifier-cool-tp10",
+      "honeywell-insight-hpa180b",
+      "medify-ma-40"
+    ],
+    "useCases": [
+      "large-room",
+      "ioniser-free"
+    ],
+    "shortTagline": "Buys you out of filter costs for five years, at the price of never knowing its CADR."
+  },
+  {
+    "id": "ap-dyson-purifier-cool-tp10",
+    "categorySlug": "air-purifiers",
+    "brand": "Dyson",
+    "series": "Purifier Cool",
+    "model": "Dyson Purifier Cool Gen1 TP10",
+    "slug": "dyson-purifier-cool-tp10",
+    "releaseYear": 2023,
+    "price": 479.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White/Silver",
+      "Black/Nickel"
+    ],
+    "material": "Polycarbonate ABS tower on a moulded base",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "None — infrared remote only; the Gen1 has no Wi-Fi and no MyDyson app"
+    ],
+    "features": [
+      "Doubles as a 350°-oscillating bladeless cooling fan, which nothing else here does",
+      "LCD reports live PM2.5 and PM10 rather than a traffic-light colour",
+      "Fully sealed to HEPA H13 standard so unfiltered air cannot bypass the filter",
+      "One combined glass-HEPA and activated-carbon cartridge, one part number, one annual swap",
+      "Purely mechanical — CARB classifies the TP10 as Mechanical"
+    ],
+    "specs": {
+      "ahamCadr": "Not published, and not AHAM Verifide. Dyson does not appear in the AHAM Verifide directory in August 2026 and publishes no CADR for any model. Dyson's own performance claim is a filtration-efficiency claim (99.97% of particles as small as 0.3 microns, tested to EN1822 with DEHS oil in an ASTM F3150 chamber) — that is about what the media catches, not how much air it cleans per minute.",
+      "ahamRoomSize": "Not listed in the AHAM Verifide directory (August 2026)",
+      "coverageClaim": "Dyson publishes no square-footage figure for the TP10 at all — the claim is \"whole-room purification\" in auto mode. Dyson's larger models are quoted using its own POLAR test rather than AHAM's. Refusing to state a room size is at least not a dishonest room size, but it makes cross-shopping impossible.",
+      "filterType": "Sealed HEPA H13 whole-machine construction: 360° borosilicate glass HEPA media plus activated carbon in a single cartridge, with the machine itself sealed to H13 so air cannot bypass the filter. The sealing claim is the meaningful part and few rivals make it.",
+      "prefilter": "None separate — the glass HEPA and carbon are one sealed cartridge with no washable stage",
+      "annualFilterCost": "$79.99/yr — 360° Glass HEPA and Activated Carbon filter, part 965432-01, $79.99, replaced every 12 months per Dyson. One part, one price, no variants and no subscription.",
+      "ionizerOzone": "None. No ioniser, no UV, no PCO, no plasma. CARB-certified and classified MECHANICAL (dyson Air Purifier TP10, EO G-23-122, notified 2023-05-31).",
+      "noiseRange": "Not published by Dyson for this model. Dyson quotes sound power in some markets but the US TP10 page gives no dB figure at either end; there is a Night mode described only as quiet.",
+      "sensor": "Real particulate sensing with numeric output: the LCD displays live PM2.5 and PM10 readings, not just a colour. No VOC or NO2 channel on the Gen1 (the higher TP07/TP09 tiers add those).",
+      "smartFeatures": "None on the Gen1. No Wi-Fi, no MyDyson app, no account, no firmware, no air-quality history. Everything is on the remote — which is also the only controller, since the machine itself has one button.",
+      "powerDraw": "Not published by Dyson on the US TP10 page. Max airflow is quoted as 76 gallons per minute (about 10.2 CFM of fan output at the aperture, which is not a CADR).",
+      "warrantyTerms": "2-year limited warranty covering parts and labour, plus a 30-day money-back guarantee"
+    },
+    "scores": {
+      "verifiedPerformance": 4.0,
+      "coverageHonesty": 2.5,
+      "filtrationQuality": 8.5,
+      "runningCost": 6.5,
+      "quietness": 5.5,
+      "airQualitySensing": 7.5,
+      "byproductSafety": 9.5,
+      "usability": 6.5
+    },
+    "pros": [
+      "Whole-machine sealing to HEPA H13 is a stronger claim than a media-grade H13 sticker, and almost no rival makes it",
+      "Live numeric PM2.5 and PM10 on the LCD rather than a green/amber/red light",
+      "One filter, one part number, $79.99 a year, no subscription and no filter-chemistry upsell",
+      "Purely mechanical and CARB Mechanical — nothing to switch off, nothing that could make ozone",
+      "It is also a genuinely good 350°-oscillating fan, which changes the maths in a hot bedroom"
+    ],
+    "cons": [
+      "No CADR, no room size, no AHAM listing — you cannot compare its cleaning rate with anything here",
+      "No noise figure and no wattage published for the US model",
+      "The Gen1 deliberately omits Wi-Fi and the MyDyson app, so there is no scheduling and no air-quality history",
+      "The remote is the only real control surface; the machine body has a single button",
+      "$479.99 buys 435 verified CFM from Blueair or 253 from Winix; here the airflow is simply not stated"
+    ],
+    "images": [],
+    "amazonAsin": "B0CDQTJLJ7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "molekule-air-pro",
+      "blueair-blue-pure-211i-max",
+      "shark-neverchange-air-purifier-max-hp302",
+      "alen-breathesmart-75i"
+    ],
+    "useCases": [
+      "bedroom-quiet",
+      "ioniser-free"
+    ],
+    "shortTagline": "Sealed H13 and a real PM readout, from the one brand that will not tell you its CADR."
+  },
+  {
+    "id": "ap-alen-breathesmart-75i",
+    "categorySlug": "air-purifiers",
+    "brand": "Alen",
+    "series": "BreatheSmart",
+    "model": "Alen BreatheSmart 75i (V2)",
+    "slug": "alen-breathesmart-75i",
+    "releaseYear": 2024,
+    "price": 799.0,
+    "msrp": 868.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Oak",
+      "Weathered Gray",
+      "Brushed Stainless",
+      "Graphite"
+    ],
+    "material": "ABS housing with interchangeable front panels including wood-effect and brushed-stainless finishes",
+    "warrantyMonths": 0,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Alen Air app"
+    ],
+    "features": [
+      "The broadest sensor suite here: PM2.5, TVOC, eCO2, temperature and humidity",
+      "Ioniser is genuinely switchable and Alen publishes ozone at both settings",
+      "Four filter chemistries fit the same body — Pure, Fresh, Odor and Heavy Odor",
+      "25 dBA on the lowest of its speeds, 51 dBA flat out",
+      "Interchangeable panels in five finishes, including real wood-effect and stainless"
+    ],
+    "specs": {
+      "ahamCadr": "Alen publishes a CADR of 375 on the 75i spec block and 350 in its own product description on the same page — Sources conflict: 375 (Alen spec table) vs 350 (Alen product description). Not AHAM Verifide: Alen does not appear in the AHAM Verifide directory in August 2026, so neither figure is independently confirmed, and neither is broken out by smoke, dust and pollen.",
+      "ahamRoomSize": "Not listed in the AHAM Verifide directory (August 2026). At Alen's own 375 CADR, the equivalent 4.8-ACH room would be about 580 ft², not the 2,800 ft² on the box.",
+      "coverageClaim": "\"Covers up to 2,800 sq ft every hour or 1,400 sq ft every 30 minutes\" — that is 1 air change per hour and 2 air changes per hour respectively. Alen never quotes a 4.8-ACH figure. The gap between the 2,800 ft² headline and the roughly 580 ft² its own CADR implies at 4.8 ACH is the largest in this file.",
+      "filterType": "True HEPA H13 rated at 99.9% down to 0.1 microns (Alen's wording). Four interchangeable filters: Essential/Pure, Fresh, Odor and Heavy Odor, the latter three adding progressively more carbon.",
+      "prefilter": "Integrated into each filter cartridge — not separately washable",
+      "annualFilterCost": "$79.20–$99.00/yr with the Essential (Pure) filter at $99 on Alen's stated 12–15 month interval; $166.80–$238.29/yr with the Ultimate (Odor) filter at $139 on its 7–10 month interval. And note the warranty coupling below: the filter subscription is not optional if you want the lifetime guarantee.",
+      "ionizerOzone": "Yes, and it is switchable — Alen publishes the numbers at both settings: \"0 PPM when disengaged, less than 0.001 PPM with ionizer engaged\". CARB certifies the BreatheSmart 75i_V2 as an ELECTRONIC device (EO G-24-038, notified 2024-02-26), and the 45i V2 likewise (G-25-209). Ozone-capable by construction, tested at or below 0.050 ppm, and defeatable in software.",
+      "noiseRange": "25 dBA lowest to 51 dBA highest (Alen published)",
+      "sensor": "The most complete sensing package here: PM2.5, TVOC, eCO2, temperature and relative humidity, driving five colour rings and an auto mode. Note eCO2 on this class of device is normally inferred from the VOC sensor rather than measured with an NDIR CO2 cell, and Alen does not state which it is.",
+      "smartFeatures": "Wi-Fi and the Alen Air app need an account. Fan speed and auto mode work from the panel offline — but the \"Forever Guarantee\" requires an active filter subscription, which is a commercial dependency rather than a technical one.",
+      "powerDraw": "1.36W to 55W across the speed range (Alen published)",
+      "warrantyTerms": "\"Forever Guarantee | with Product Registration & Active Air Filter Subscription\" — Alen's lifetime warranty is conditional on you continuing to buy filters on subscription. Cancel the subscription and the guarantee lapses. warrantyMonths is recorded as 0 because the term is conditional and not expressible in months."
+    },
+    "scores": {
+      "verifiedPerformance": 6.5,
+      "coverageHonesty": 3.0,
+      "filtrationQuality": 8.5,
+      "runningCost": 5.0,
+      "quietness": 8.0,
+      "airQualitySensing": 8.5,
+      "byproductSafety": 7.5,
+      "usability": 8.0
+    },
+    "pros": [
+      "Publishes actual ozone figures at both ioniser settings — 0 ppm off, under 0.001 ppm on — which almost nobody does",
+      "PM2.5, TVOC, eCO2, temperature and humidity sensing is the broadest package here",
+      "25–51 dBA across the whole range from a genuinely large-room machine",
+      "Four filter chemistries in one body, so you can retune it for odour or wildfire smoke",
+      "Interchangeable panels make it the only unit here designed to be seen"
+    ],
+    "cons": [
+      "The \"Forever Guarantee\" is conditional on registration AND an active filter subscription — stop buying filters and the lifetime warranty stops",
+      "\"Up to 2,800 sq ft\" is a 1-ACH figure; Alen's own CADR implies roughly 580 ft² at the 4.8 ACH that matters",
+      "Alen's own page states two different CADRs, 375 and 350, in two places",
+      "Not in the AHAM Verifide directory, so nothing about the CADR is independently confirmed",
+      "CARB lists the 75i_V2 as an Electronic (ozone-capable) device, and the Odor filter pushes running costs past $165/yr"
+    ],
+    "images": [],
+    "amazonAsin": "B0F99DHRV7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "molekule-air-pro",
+      "blueair-blue-pure-211i-max",
+      "dyson-purifier-cool-tp10",
+      "medify-ma-40"
+    ],
+    "useCases": [
+      "large-room",
+      "wildfire-smoke",
+      "bedroom-quiet"
+    ],
+    "shortTagline": "Best sensors and a lifetime warranty — as long as you never cancel the filter subscription."
+  },
+  {
+    "id": "ap-molekule-air-pro",
+    "categorySlug": "air-purifiers",
+    "brand": "Molekule",
+    "series": "Air Pro",
+    "model": "Molekule Air Pro with PECO-HEPA Tri-Power filter (SQ2PH-US)",
+    "slug": "molekule-air-pro",
+    "releaseYear": 2024,
+    "price": 1014.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver"
+    ],
+    "material": "Aluminium shell with a carry handle (Molekule does not specify the handle material on the US page)",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Molekule app",
+      "Amazon Alexa"
+    ],
+    "features": [
+      "PECO photo-electrochemical oxidation stage layered on top of a True HEPA element",
+      "Six-channel sensing: PM1, PM2.5, PM10, VOCs, CO2 and relative humidity",
+      "FDA 510(k) Class II clearance as a medical device",
+      "Aluminium body with a carry handle rather than a plastic tower",
+      "In-app indoor air-quality reporting and history"
+    ],
+    "specs": {
+      "ahamCadr": "Not published, and not AHAM Verifide. Molekule does not appear in the AHAM Verifide directory in August 2026 and publishes no CADR for smoke, dust or pollen anywhere on the Air Pro page. For a $1,015 machine this is the single largest information gap in the file.",
+      "ahamRoomSize": "Not listed in the AHAM Verifide directory (August 2026)",
+      "coverageClaim": "\"Up to 1000 sq ft (92.9 m²) with avg. 8-ft. ceilings\" — no air-change basis is given at all. With no CADR published there is no way to derive one, so the 1,000 ft² figure cannot be checked against any standard.",
+      "filterType": "PECO-HEPA Tri-Power: a True HEPA layer claimed at 99.97% of small particles, a light-activated PECO (photo-electrochemical oxidation) layer said to destroy organic pollutants, and a carbon layer for gases. The PECO layer is the marketing centrepiece and the part with no CADR-equivalent metric behind it.",
+      "prefilter": "None separate and none washable — the pre-filtration is part of the single Tri-Power cartridge",
+      "annualFilterCost": "$349.98/yr — PECO-HEPA Tri-Power filter $174.99, replaced every 6 months per Molekule. That is by far the highest running cost here: over three years the filters cost more than the Blueair, the Winix and the Coway combined, and roughly a third of the machine's own price every single year.",
+      "ionizerOzone": "PECO is a photocatalytic oxidation process, not an ioniser, but it is still an active air-chemistry stage rather than pure filtration and it cannot be switched off independently of the machine. Molekule's own FDA criteria table states the unit \"Does not product [sic] ozone\". CARB nonetheless certifies the Air Pro SQ2PH-US as an ELECTRONIC device (EO G-24-246, notified 2024-11-05) — the category CARB uses for devices capable of generating ozone that tested at or below 0.050 ppm. Every Molekule model in the CARB list, back to the 2017 Home One, is classified Electronic.",
+      "noiseRange": "33 dBA lowest speed to 64 dBA highest (Molekule published). Both ends are the loudest in this file — the 33 dBA floor is above the Medify's sleep mode and 10 dB above the Blueair and Levoit.",
+      "sensor": "The most comprehensive here: particulate matter PM1, PM2.5 and PM10 down to 0.3 µm, plus VOCs, CO2 and relative humidity. Molekule notes that the Air Pro \"senses but does not destroy CO2 or RH\".",
+      "smartFeatures": "Wi-Fi, the Molekule app and Alexa require an account. Air-quality reporting, history and filter notifications are app-side. Basic fan control works on the device.",
+      "powerDraw": "Not published by Molekule on the US Air Pro page",
+      "warrantyTerms": "2-year limited warranty. Worth weighing against the company's history: Molekule Inc. filed for Chapter 11 in 2023 and the brand now trades under new ownership, and as of August 2026 both the Air Pro and the Air Mini+ show as sold out on molekule.com."
+    },
+    "scores": {
+      "verifiedPerformance": 3.5,
+      "coverageHonesty": 2.0,
+      "filtrationQuality": 7.0,
+      "runningCost": 1.5,
+      "quietness": 3.5,
+      "airQualitySensing": 9.0,
+      "byproductSafety": 5.5,
+      "usability": 6.0
+    },
+    "pros": [
+      "Six-channel sensing — PM1/2.5/10, VOC, CO2 and humidity — is the deepest air-quality picture here",
+      "Holds an FDA 510(k) Class II clearance, which no other consumer unit in this file does",
+      "Aluminium body with a carry handle rather than the usual moulded plastic tower",
+      "The HEPA layer underneath the PECO stage is real True HEPA, so it works as a filter regardless of the PECO claims",
+      "App-side air-quality reporting and history are genuinely detailed"
+    ],
+    "cons": [
+      "No CADR published and no AHAM listing, so on a $1,015 machine there is no measure of how much air it actually cleans",
+      "$174.99 filters every 6 months is $349.98 a year — a third of the purchase price, annually, and the worst running cost here by a factor of three",
+      "CARB classifies the Air Pro as an Electronic (ozone-capable) device even though Molekule's own FDA table says it produces no ozone",
+      "33 dBA on the lowest setting is louder than most of this field's mid speeds; 64 dBA at the top is conversation-drowning",
+      "Molekule filed Chapter 11 in 2023 and both current purifiers show as sold out on molekule.com in August 2026 — filter supply is a real risk on a 2-year warranty",
+      "The \"1,000 sq ft\" claim has no air-change basis and no CADR to derive one from"
+    ],
+    "images": [],
+    "amazonAsin": "B0BV8PDZ2K",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "dyson-purifier-cool-tp10",
+      "alen-breathesmart-75i",
+      "blueair-blue-pure-211i-max"
+    ],
+    "useCases": [
+      "large-room",
+      "wildfire-smoke"
+    ],
+    "shortTagline": "The most sensors, the fewest published numbers, and $350 of filters every single year."
+  }
+]

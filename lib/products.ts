@@ -24,6 +24,8 @@ import { smartDisplayProducts } from '@/data/products/smart-displays';
 import { robotVacuumProducts } from '@/data/products/robot-vacuums';
 import { cordlessVacuumProducts } from '@/data/products/cordless-vacuums';
 import { humidifierProducts } from '@/data/products/humidifiers';
+import { airPurifierProducts } from '@/data/products/air-purifiers';
+import { dehumidifierProducts } from '@/data/products/dehumidifiers';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -56,7 +58,9 @@ const allProducts: Product[] = [
   ...smartDisplayProducts,
   ...robotVacuumProducts,
   ...cordlessVacuumProducts,
-  ...humidifierProducts
+  ...humidifierProducts,
+  ...airPurifierProducts,
+  ...dehumidifierProducts
 ];
 
 export function getAllProducts(): Product[] {

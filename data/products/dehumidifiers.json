@@ -1,0 +1,949 @@
+[
+  {
+    "id": "dh-pro-breeze-mini-dehumidifier",
+    "categorySlug": "dehumidifiers",
+    "brand": "Pro Breeze",
+    "model": "Pro Breeze Electric Mini Dehumidifier (PB-02-US)",
+    "slug": "pro-breeze-mini-dehumidifier",
+    "releaseYear": 2016,
+    "price": 46.42,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer — neither the Pro Breeze listing nor the Walmart spec table names a housing material",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "None — mechanical switch and an indicator light only"
+    ],
+    "features": [
+      "Peltier thermoelectric module, so there is no compressor and no defrost cycle to lose",
+      "23W draw — about a fortieth of what a 50-pint compressor unit pulls",
+      "Auto shut-off when the tank fills, with a full-tank light",
+      "Near-silent: no compressor start-stop, only a small fan",
+      "Small enough to sit on a closet shelf or a bathroom counter"
+    ],
+    "specs": {
+      "ratedCapacity": "Walmart's spec table for this unit says it \"Collects up to 9oz of water per day\" — that is 0.56 pints per day, not a pint rating at all. No DOE or AHAM pint figure exists for this product because thermoelectric units are outside the DOE portable-dehumidifier test scope. For scale, a 50-pint compressor unit removes roughly 90x more water per day",
+      "verifiedDoeCapacity": "None — Pro Breeze does not appear anywhere in the ENERGY STAR Certified Dehumidifiers database, so no independently verified DOE Appendix X1 capacity exists",
+      "technology": "Thermoelectric (Peltier). A solid-state junction chills a small plate and moisture condenses onto it. There is no refrigeration circuit, no compressor and no refrigerant",
+      "lowTempOperation": "No frost failure mode — there is no coil to ice up — but Peltier output falls off sharply as the room cools because the plate can only sit a fixed number of degrees below ambient. Pro Breeze publishes no minimum operating temperature and no output-vs-temperature curve",
+      "coverageClaim": "Sources conflict badly for the same machine: 150 sq ft (Walmart's 1200-cubic-foot listing), 205 sq ft (Pro Breeze's own intl.probreeze.com page), 215 sq ft (the Amazon listing and Walmart's Peltier listing). All three describe the same 1,200 cubic feet",
+      "tankCapacity": "Sources conflict: 17 oz (Amazon and Walmart), 16 oz (eBay and third-party listings), 18 oz (an eBay listing for the same PB-02-US). At the stated 9 oz/day extraction a 17 oz tank needs emptying roughly every two days, which is the one thing this unit does not ask much of you",
+      "drainage": "None. There is no continuous-drain port, no hose and no pump — you empty the tank by hand. That is the practical ceiling on this product",
+      "energyStar": "Not ENERGY STAR certified and not eligible — ENERGY STAR's dehumidifier scope covers portable and whole-home refrigerant units, and Pro Breeze appears nowhere in the certified list",
+      "runningCost": "About $34/yr if run continuously (23W x 8,760h x $0.17/kWh). That buys 0.56 pints a day. Per pint removed it is by a wide margin the most expensive machine here",
+      "noiseLevel": "No dB figure published. Marketing says \"ultra quiet\"/\"no noise\"; there is a small fan and no compressor, so it is genuinely the quietest unit in this set, but the claim is unquantified",
+      "warrantyTerms": "Not stated on the Amazon or Walmart listings used for this entry. Pro Breeze's standard consumer warranty is 12 months; confirm at purchase. There is no sealed system to warrant",
+      "recallHistory": "No CPSC recall found for Pro Breeze dehumidifiers. Note that thermoelectric units were not part of any of the three large compressor-dehumidifier recalls (Gree 2013/2016/2023, New Widetech 2021)"
+    },
+    "scores": {
+      "capacityHonesty": 6.0,
+      "moistureRemoval": 1.0,
+      "coldRoomPerformance": 3.0,
+      "drainageAndTank": 2.5,
+      "runningCost": 2.0,
+      "quietness": 9.5,
+      "buildAndWarranty": 4.5,
+      "valueForMoney": 5.0
+    },
+    "pros": [
+      "Genuinely silent — no compressor cycling, which is why it works on a bedroom shelf where a 50-pint unit does not",
+      "23W means you can leave it on permanently without a meaningful bill, unlike every compressor unit here",
+      "No coil, so nothing frosts: it degrades gracefully in a cold room rather than shutting down like a compressor unit",
+      "Cheapest way to keep a wardrobe, gun safe or small bathroom from smelling damp"
+    ],
+    "cons": [
+      "9 oz/day is 0.56 pints — roughly 1/90th of a 50-pint unit. It cannot dry a basement, a garage or a bedroom, whatever the 215 sq ft claim implies",
+      "Three different coverage figures (150/205/215 sq ft) and three different tank figures (16/17/18 oz) circulate for the identical PB-02-US",
+      "No drain port at all, so there is no unattended operation beyond a couple of days",
+      "Cost per pint removed is the worst in this comparison by a factor of ten or more",
+      "No published dB, no published minimum operating temperature, no published warranty on the listings"
+    ],
+    "images": [],
+    "amazonAsin": "B01DC5PPWM",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ivation-19-pint-desiccant",
+      "waykar-pd160b",
+      "frigidaire-fhdd2234w1-22-pint"
+    ],
+    "useCases": [
+      "closet-bathroom",
+      "cold-spaces"
+    ],
+    "shortTagline": "0.56 pints a day: a closet deodoriser sold with a room-sized coverage claim."
+  },
+  {
+    "id": "dh-ivation-19-pint-desiccant",
+    "categorySlug": "dehumidifiers",
+    "brand": "Ivation",
+    "model": "Ivation 19 Pint Small-Area Desiccant Dehumidifier (IVADDH09)",
+    "slug": "ivation-19-pint-desiccant",
+    "releaseYear": 2019,
+    "price": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "None on the base model — Ivation sells a separate Wi-Fi 'Smart' desiccant variant"
+    ],
+    "features": [
+      "Desiccant rotor, not a compressor — it keeps working at temperatures where compressor units frost and stall",
+      "Rated to run from 33°F, the lowest minimum operating temperature in this comparison",
+      "Continuous drain hose included in the box",
+      "Dimmable backlit LCD with six touch controls and a sleep mode",
+      "Light enough (and quiet enough) to move between a crawlspace, an attic and a bathroom"
+    ],
+    "specs": {
+      "ratedCapacity": "Sources conflict, and the conflict is the whole story: Ivation's own product page states \"13 pints per day at 60% RH, 68°F\" while the product is sold everywhere — Best Buy, Walmart, Lowe's, Amazon — as a \"19 Pint\" dehumidifier. Neither figure is a DOE Appendix X1 (65°F/60% RH) rating",
+      "verifiedDoeCapacity": "None. Ivation does not appear in the ENERGY STAR Certified Dehumidifiers database. Desiccant units are not covered by the DOE portable-dehumidifier test procedure, so no third-party-verified capacity exists for any desiccant unit sold in the US",
+      "technology": "Desiccant rotor. Air passes through a moisture-adsorbing wheel which is then regenerated by a heater; the driven-off water is condensed into the tank. No refrigerant, no compressor, no coil",
+      "lowTempOperation": "The reason to buy this. Best Buy's spec sheet gives an operating range of 33°F to 104°F (1°C to 40°C). A compressor unit in a 55°F basement spends much of its runtime in defrost; a desiccant rotor does not care. Desiccants also warm the room slightly, which is a feature in a cold crawlspace and a nuisance in July",
+      "coverageClaim": "410 sq ft (Ivation, and every retailer agrees on this one)",
+      "tankCapacity": "Sources conflict: Ivation's own page says \"0.75 gal (2.8L) tank\"; Best Buy's spec sheet says \"½-gallon tank\". At the manufacturer's own 13 pints/day that is between two and three emptyings a day without a hose",
+      "drainage": "Continuous gravity drain with the hose included in the box. No pump — the outlet has to sit above the drain, which in a crawlspace usually means a condensate pump bought separately",
+      "energyStar": "Not ENERGY STAR certified and not eligible — the programme's dehumidifier scope does not cover desiccant units",
+      "runningCost": "Not published. Ivation publishes no wattage for this model and there is no ENERGY STAR annual-energy figure. Desiccant units carry a regeneration heater and typically draw several hundred watts continuously, so expect running cost well above a compressor unit of similar output — this is the price you pay for cold-room capability",
+      "noiseLevel": "No dB figure published. Ivation claims \"whisper quiet\"/\"nearly silent\"; there is no compressor to cycle, but there is a continuous fan",
+      "warrantyTerms": "Not published on Ivation's product page, Best Buy's listing or Walmart's. Ivation's standard consumer warranty is 12 months; confirm at purchase",
+      "recallHistory": "Ivation appears on the CPSC's 4 August 2021 New Widetech recall of approximately 2 million dehumidifiers (25- to 74-pint compressor models sold February 2009 to August 2017, 107 overheating/fire incidents, ~$17M property damage). That recall covers Ivation's older compressor units, not this desiccant model — but it is the brand's history and worth knowing"
+    },
+    "scores": {
+      "capacityHonesty": 3.0,
+      "moistureRemoval": 4.0,
+      "coldRoomPerformance": 9.5,
+      "drainageAndTank": 5.5,
+      "runningCost": 3.5,
+      "quietness": 8.0,
+      "buildAndWarranty": 5.0,
+      "valueForMoney": 4.5
+    },
+    "pros": [
+      "Works down to 33°F, so it is the correct answer for a 50-55°F basement, garage or crawlspace where a compressor unit frosts",
+      "No compressor means no start-stop thump through a floor and no defrost dead time",
+      "Drain hose is actually in the box, which is not true of most compressor units at this price",
+      "Light and genuinely portable, unlike the 40+ lb compressor units it competes with"
+    ],
+    "cons": [
+      "Sold as \"19 Pint\" while Ivation's own page rates it at 13 pints/day at 68°F — a 46% gap in the manufacturer's own published figures",
+      "$299.99 buys roughly a quarter of the daily water removal of a $242 hOmeLabs 50-pint",
+      "Regeneration heater makes it the second-most expensive unit here to run per pint, and Ivation publishes no wattage at all",
+      "Tank capacity is published two ways (0.75 gal by Ivation, 0.5 gal by Best Buy) and neither lasts a day without the hose",
+      "Ivation-branded compressor dehumidifiers were part of the 2021 New Widetech CPSC recall"
+    ],
+    "images": [],
+    "amazonAsin": "B07X43RGML",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "pro-breeze-mini-dehumidifier",
+      "waykar-pd160b",
+      "frigidaire-fhdd2234w1-22-pint",
+      "alorair-sentinel-hdi90"
+    ],
+    "useCases": [
+      "cold-spaces",
+      "closet-bathroom",
+      "crawl-space"
+    ],
+    "shortTagline": "The right machine for a cold basement, under a pint number its own page contradicts."
+  },
+  {
+    "id": "dh-waykar-pd160b",
+    "categorySlug": "dehumidifiers",
+    "brand": "Waykar",
+    "series": "PD",
+    "model": "Waykar PD160B 34-Pint Dehumidifier (2,000 sq ft)",
+    "slug": "waykar-pd160b",
+    "releaseYear": 2025,
+    "price": 169.99,
+    "msrp": 259.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Black"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "None — local controls only"
+    ],
+    "features": [
+      "ENERGY STAR certified, with a genuine DOE Appendix X1 test result on file",
+      "R290 (propane) refrigerant — very low GWP, and a flammable charge",
+      "24-hour programmable timer with two fan speeds and 30-80% humidity setpoints",
+      "6.56 ft gravity drain hose included",
+      "Only 32 lbs, so it moves between rooms without a fight"
+    ],
+    "specs": {
+      "ratedCapacity": "Waykar's own page rates it at \"34 pints / day\" under 95°F, 90% RH — a saturation condition, not a DOE condition. A Ubuy mirror of the same Amazon ASIN calls it a \"40-Pint\". Neither number is comparable to a DOE pint figure",
+      "verifiedDoeCapacity": "9.81 pints/day. That is the DOE Appendix X1 (65°F/60% RH) water-removal capacity Waykar itself filed with ENERGY STAR for the PD160B, published in the ENERGY STAR Certified Dehumidifiers database. The unit is sold as 34-pint. The verified figure is 29% of the marketing figure. The PD160B-PRO variant tests at 10.16 pints/day and does carry ENERGY STAR Most Efficient",
+      "technology": "Compressor (refrigerant), R290 propane, 122 kWh/yr, Integrated Energy Factor 1.73 L/kWh per ENERGY STAR",
+      "lowTempOperation": "Automatic defrost is advertised. Waykar publishes no minimum operating temperature on its own product page. Like every compressor unit here it will spend an increasing share of its runtime in defrost below roughly 65°F, and this one has very little capacity to spare",
+      "coverageClaim": "2,000 sq ft (Waykar and Home Depot). A unit that removes 9.81 pints/day at 65°F cannot meaningfully dry 2,000 sq ft; the number is derived from the 95°F/90% RH figure",
+      "tankCapacity": "0.66 gallons / 2.5 L. At the marketed 34 pints/day that is emptying it roughly six times a day; at the verified 9.81 pints/day it is closer to twice a day",
+      "drainage": "Gravity only — a 6.56 ft hose is included but there is no pump, so the outlet must sit above the drain. No pump variant of the PD160B exists",
+      "energyStar": "Yes — genuinely certified, and the certification is what exposes the pint claim. 122 kWh/yr, IEF 1.73 L/kWh, available on market 26 September 2025",
+      "runningCost": "About $21/yr (122 kWh x $0.17/kWh). Genuinely cheap to run, because it is a genuinely small machine",
+      "noiseLevel": "Waykar advertises the PD160B-PRO variant at 33 dB. No dB figure is published for the plain PD160B on Waykar's own page",
+      "warrantyTerms": "1 year, plus a 30-day money-back guarantee and an optional paid 2-year extension. No separate sealed-system term is offered",
+      "recallHistory": "No CPSC recall found for Waykar. Note that ENERGY STAR lists the identical PD160B platform under the combined partner brand string \"waykar, KESNOS, YAUFEY, Fehom\" for sibling models — several Amazon dehumidifier brands are the same OEM"
+    },
+    "scores": {
+      "capacityHonesty": 1.0,
+      "moistureRemoval": 3.0,
+      "coldRoomPerformance": 3.0,
+      "drainageAndTank": 4.0,
+      "runningCost": 8.5,
+      "quietness": 7.5,
+      "buildAndWarranty": 4.5,
+      "valueForMoney": 3.0
+    },
+    "pros": [
+      "ENERGY STAR certified, which is rare at this price and is the only reason its real capacity is knowable",
+      "$21/yr to run is the lowest true energy cost of any compressor unit here",
+      "R290 propane charge has a GWP of about 3, against 675 for the R32 in most rivals",
+      "Light, quiet and includes a drain hose — a reasonable bedroom or small-bathroom machine on its actual merits"
+    ],
+    "cons": [
+      "Sold as a 34-pint (and mirrored as a 40-pint) dehumidifier while Waykar's own ENERGY STAR filing records 9.81 pints/day at the DOE test condition",
+      "The 2,000 sq ft coverage claim follows from the 95°F/90% RH number and does not survive contact with the DOE figure",
+      "0.66 gallon tank is the smallest here, and there is no pump option at all",
+      "No published minimum operating temperature and no dB figure for this exact model",
+      "R290 is flammable; the charge is small and sealed, but it constrains servicing and shipping"
+    ],
+    "images": [],
+    "amazonAsin": "B081RG8JYR",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "frigidaire-fhdd2234w1-22-pint",
+      "ivation-19-pint-desiccant",
+      "pro-breeze-mini-dehumidifier",
+      "homelabs-hme020031n-50-pint"
+    ],
+    "useCases": [
+      "closet-bathroom",
+      "large-room"
+    ],
+    "shortTagline": "Sold as 34 pints; Waykar's own ENERGY STAR filing says 9.81."
+  },
+  {
+    "id": "dh-frigidaire-fhdd2234w1-22-pint",
+    "categorySlug": "dehumidifiers",
+    "brand": "Frigidaire",
+    "model": "Frigidaire FHDD2234W1 22-Pint Dehumidifier with Wi-Fi",
+    "slug": "frigidaire-fhdd2234w1-22-pint",
+    "releaseYear": 2024,
+    "price": 219.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Frigidaire app",
+      "Amazon Alexa",
+      "Google Home"
+    ],
+    "features": [
+      "ENERGY STAR certified with a verified 22.57 pints/day DOE result",
+      "R-32 refrigerant, replacing the R-410A of the previous FFAD generation",
+      "Custom humidity setpoint from 35% to 85% with three fan speeds",
+      "Wi-Fi with app humidity monitoring and Alexa/Google voice control",
+      "Washable filter, with an optional PureAir carbon filter"
+    ],
+    "specs": {
+      "ratedCapacity": "22 pints/day, on the 2019 DOE scale (65°F/60% RH). Under the pre-2019 test this same machine would have been marketed as roughly a 30-pint",
+      "verifiedDoeCapacity": "22.57 pints/day per Appendix X1, Integrated Energy Factor 1.70 L/kWh, 283 kWh/yr — Frigidaire's own filing in the ENERGY STAR Certified Dehumidifiers database, model FHDD2234W1, on market 6 November 2024",
+      "technology": "Compressor (refrigerant), R-32, 260 watts, 3.5 amps at 110-120V",
+      "lowTempOperation": "41°F to 89°F per Frigidaire's spec sheet, with automatic defrost. The 41°F floor is a design limit, not a promise of useful output at 41°F — below about 65°F a compressor unit gives up an increasing share of its runtime to defrost",
+      "coverageClaim": "Frigidaire's own materials position this as a small/medium room, bedroom and bathroom unit. Retail listings quote 350 sq ft (Home Depot, for the equivalent FFAD2234W1) and 1,500 sq ft (a Walmart listing for the same 22-pint) — a more than four-fold spread for one machine",
+      "tankCapacity": "1.7 gallons / 13.6 pints. At the rated 22.57 pints/day that is emptying it about twice a day if you are not using the drain port",
+      "drainage": "Continuous gravity drain port. Frigidaire's published spec sheet does not list a hose in the box, and there is no pump on this model — the port has to sit above the drain",
+      "energyStar": "Yes. 283 kWh/yr, IEF 1.70 L/kWh. Not on the ENERGY STAR Most Efficient list",
+      "runningCost": "About $48/yr (283 kWh x $0.17/kWh) on ENERGY STAR's standard usage assumption",
+      "noiseLevel": "Not published by Frigidaire for the 22-pint. The 50-pint sibling is listed at 51.5 dB",
+      "warrantyTerms": "1 year parts and labour. No extended sealed-system term is published — compare Honeywell's 4 additional sealed-system years and Aprilaire's 5",
+      "recallHistory": "No recall covers the FHDD generation. Frigidaire-branded dehumidifiers were named in the earlier Gree recalls (2013 and the 2016 expansion) covering 2005-2013 production — a different manufacturer and a different decade, but the brand history a buyer should search before buying used"
+    },
+    "scores": {
+      "capacityHonesty": 9.0,
+      "moistureRemoval": 3.5,
+      "coldRoomPerformance": 3.5,
+      "drainageAndTank": 5.0,
+      "runningCost": 7.0,
+      "quietness": 6.5,
+      "buildAndWarranty": 6.0,
+      "valueForMoney": 6.0
+    },
+    "pros": [
+      "The pint number on the box is the DOE number and it matches Frigidaire's own ENERGY STAR filing to within half a pint — the honest end of this category",
+      "R-32 refrigerant with a GWP of 675 against R-410A's 2,088, and it runs on 260W",
+      "Real Wi-Fi humidity monitoring, so you find out the basement is at 70% without going down there",
+      "$48/yr running cost is half what the 50-pint units cost to run"
+    ],
+    "cons": [
+      "22 pints/day on the current scale is a small machine — it is not a basement unit whatever a 1,500 sq ft listing claims",
+      "Coverage is quoted between 350 and 1,500 sq ft across retailers for the same 22-pint platform",
+      "No drain hose listed in the box and no pump option, so continuous drainage needs elevation plus a hose you buy",
+      "1 year parts and labour with no separate sealed-system cover, on a machine whose compressor is the expensive part",
+      "Frigidaire publishes no dB figure for this model at all"
+    ],
+    "images": [],
+    "amazonAsin": "B0DFZHBSZX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "waykar-pd160b",
+      "frigidaire-fhdd5033w1-50-pint",
+      "midea-cube-50-pint-pump",
+      "ivation-19-pint-desiccant"
+    ],
+    "useCases": [
+      "closet-bathroom",
+      "large-room"
+    ],
+    "shortTagline": "A small unit whose pint claim actually matches its DOE test — rarer than it should be."
+  },
+  {
+    "id": "dh-frigidaire-fhdd5033w1-50-pint",
+    "categorySlug": "dehumidifiers",
+    "brand": "Frigidaire",
+    "model": "Frigidaire FHDD5033W1 50-Pint Dehumidifier with Wi-Fi",
+    "slug": "frigidaire-fhdd5033w1-50-pint",
+    "releaseYear": 2024,
+    "price": 309.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Frigidaire app",
+      "Amazon Alexa",
+      "Google Home"
+    ],
+    "features": [
+      "ENERGY STAR certified at 49.95 pints/day on the DOE Appendix X1 test",
+      "R-32 refrigerant and a 41°F low-temperature floor",
+      "Wi-Fi with remote humidity setpoint, alerts and voice control",
+      "1.9 gallon bucket — the largest tank of the conventional-format units here",
+      "Effortless Clean washable filter with a clean-filter alert"
+    ],
+    "specs": {
+      "ratedCapacity": "50 pints/day on the 2019 DOE scale. Retailers say the quiet part out loud: Appliance Guys lists the Frigidaire 50-pint as \"50 Pint Dehumidifier (Old 70 Pint)\". Any review or listing calling a current Frigidaire a 70-pint is using the pre-2019 scale",
+      "verifiedDoeCapacity": "49.95 pints/day per Appendix X1 (FHDD5033Y1 sibling SKU), IEF 2.01 L/kWh, 520 kWh/yr — Frigidaire's own ENERGY STAR filing. The R-32 FHDD5034 variant tests at 49.71 pints/day and 521 kWh/yr",
+      "technology": "Compressor (refrigerant), R-32, 545 watts, 8.5 amps at 115V",
+      "lowTempOperation": "Down to 41°F with automatic defrost (Frigidaire lists 41-89°F on the FHDD generation). Below roughly 65°F output falls and defrost time rises; in a 50-55°F basement a desiccant unit will out-dry it despite the smaller pint number",
+      "coverageClaim": "Frigidaire positions the FHDD5033W1 for medium/large rooms and basements without a square-footage number; the discontinued FFAD5033W1 it replaces was sold as a 1,200-1,500 sq ft unit while rivals with identical DOE ratings claim 4,500-7,000 sq ft. Coverage claims in this category are not comparable between brands",
+      "tankCapacity": "1.9 gallons (15.2 pints). At the rated 49.95 pints/day that is three or more emptyings a day without a hose — the single most common complaint about every 50-pint unit here",
+      "drainage": "Continuous gravity drain port; no pump on this model. Frigidaire's spec sheet does not list a hose in the box. Frigidaire does sell a pump variant (FHDP5033Y1, 49.95 pints/day, 520 kWh/yr) if you need lift",
+      "energyStar": "Yes. 520 kWh/yr, IEF 2.01 L/kWh. Not on the ENERGY STAR Most Efficient list",
+      "runningCost": "About $88/yr (520 kWh x $0.17/kWh). On a unit that runs most of the year this is the dominant ownership cost — roughly a third of the purchase price every year",
+      "noiseLevel": "51.5 dB (retailer spec table). Frigidaire does not publish a dB figure on its own product page",
+      "warrantyTerms": "1 year limited, parts and labour. No separate sealed-system term",
+      "recallHistory": "No recall covers the FHDD generation. Frigidaire-branded dehumidifiers appeared in the Gree recalls of 2013 and 2016 (2005-2013 production, different manufacturer)"
+    },
+    "scores": {
+      "capacityHonesty": 8.5,
+      "moistureRemoval": 7.5,
+      "coldRoomPerformance": 4.0,
+      "drainageAndTank": 5.5,
+      "runningCost": 5.0,
+      "quietness": 5.5,
+      "buildAndWarranty": 5.5,
+      "valueForMoney": 6.0
+    },
+    "pros": [
+      "Verified 49.95 pints/day against a 50-pint claim — the number on the box is the number on the test",
+      "1.9 gallon bucket is the biggest of the conventional-shape units here, so it needs emptying less often than the GE's 10-pint tray",
+      "R-32 at 545W is efficient for the class, and Wi-Fi genuinely helps on a basement machine you never look at",
+      "A pump version of the same platform (FHDP5033Y1) exists with the identical DOE rating if you need lift"
+    ],
+    "cons": [
+      "$88/yr to run — over three years the electricity costs most of what the machine did",
+      "No pump and no hose in the box; gravity drainage needs the unit raised above the drain",
+      "Even 1.9 gallons is under half a day at rated output if you cannot use a hose",
+      "Frigidaire publishes no coverage figure and no dB figure on its own page for this model",
+      "1 year parts and labour with no sealed-system extension, against 5 years from Aprilaire and 6 from AlorAir"
+    ],
+    "images": [],
+    "amazonAsin": "B0DG19KP9V",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "midea-cube-50-pint-pump",
+      "ge-adse50xwt-50-pint-pump",
+      "homelabs-hme020031n-50-pint",
+      "honeywell-tpfit50pwk"
+    ],
+    "useCases": [
+      "basement",
+      "large-room"
+    ],
+    "shortTagline": "The default 50-pint: honest rating, real Wi-Fi, no pump, and $88 a year on the meter."
+  },
+  {
+    "id": "dh-midea-cube-50-pint-pump",
+    "categorySlug": "dehumidifiers",
+    "brand": "Midea",
+    "series": "Cube",
+    "model": "Midea Cube 50-Pint Smart Dehumidifier with Built-in Pump (MAD50PS1QWT-A)",
+    "slug": "midea-cube-50-pint-pump",
+    "releaseYear": 2025,
+    "price": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "White",
+      "Grey"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "Midea Air / SmartHome app",
+      "Amazon Alexa",
+      "Google Home"
+    ],
+    "features": [
+      "Lift-and-twist body: the base is the water tank, extended for capacity or nested to save floor space",
+      "Built-in pump plus an included drain hose, so it can push water up to a sink",
+      "ENERGY STAR certified at 49.67 pints/day DOE with a 515 kWh/yr figure",
+      "Wi-Fi with app scheduling and Alexa/Google voice control",
+      "Cube footprint is roughly 14.5 inches square — much less floor than an upright"
+    ],
+    "specs": {
+      "ratedCapacity": "50 pints/day on the 2019 DOE scale. Watch the legacy listings: the older Cube Amazon listing still carries \"ENERGY STAR Most Efficient 2022\" and \"2023\" in its title, and the current MAD50PS1QWT-A/MAD50S1QWT-A are recorded as NOT meeting Most Efficient criteria in ENERGY STAR's 2026 database",
+      "verifiedDoeCapacity": "49.67 pints/day per Appendix X1, IEF 2.01 L/kWh, 515 kWh/yr, HFC-32 refrigerant, 6.4 oz charge — Midea's own ENERGY STAR filing for MAD50PS1QWT-A, on market 15 October 2025",
+      "technology": "Compressor (refrigerant), HFC-32 (R-32), with an integral condensate pump",
+      "lowTempOperation": "Midea publishes no minimum operating temperature for the Cube on its own product page. Auto-defrost is present. Treat it as a 41°F-floor compressor unit like its peers, and expect defrost losses below 65°F",
+      "coverageClaim": "4,500 sq ft (Midea, Home Depot, Lowe's, Walmart — consistent across sources for once). Note this is the same DOE capacity Frigidaire sells without any square-footage claim at all",
+      "tankCapacity": "Sources conflict. Walmart's spec table for MAD50PS1QWT-A says \"7.5 gallons\"; Midea's own product pages publish no gallon figure at all, only the marketing phrase \"up to 3 times more water tank capacity than traditional dehumidifiers\". Whatever the true figure, the extended-mode tank is the largest here and is the main reason to buy the Cube",
+      "drainage": "Built-in pump with the hose included — the only sub-$300 unit here with a pump. The tank also detaches to sit over a sink or drain. Midea does not publish a pump lift height",
+      "energyStar": "Yes, currently certified. NOT ENERGY STAR Most Efficient for 2026 despite listing titles that still cite Most Efficient 2022/2023",
+      "runningCost": "About $88/yr (515 kWh x $0.17/kWh)",
+      "noiseLevel": "\"Approximately 54 dB\" per Walmart's spec table. Midea publishes no dB figure on its own store page",
+      "warrantyTerms": "Sources conflict: Midea's own store page says 1 year; Walmart's listing for the same model number says \"2-year parts and labor warranty\". No sealed-system term is published either way",
+      "recallHistory": "No CPSC recall found for Midea-branded dehumidifiers. Midea is the OEM behind a number of other US dehumidifier brands — the discontinued Toshiba TDDP5013ES2, for instance, is serviced through Midea's parts catalogue"
+    },
+    "scores": {
+      "capacityHonesty": 7.5,
+      "moistureRemoval": 7.5,
+      "coldRoomPerformance": 4.0,
+      "drainageAndTank": 9.0,
+      "runningCost": 5.0,
+      "quietness": 5.0,
+      "buildAndWarranty": 5.5,
+      "valueForMoney": 7.5
+    },
+    "pros": [
+      "Built-in pump and hose at $299.99 — the Honeywell equivalent lists at $419.95",
+      "Far and away the biggest tank in this comparison, which is the difference between emptying it three times a day and barely at all",
+      "Nested mode makes it the smallest floor footprint of any 50-pint here (about 14.5 in square)",
+      "Verified 49.67 pints/day DOE, with a 515 kWh/yr figure you can budget against"
+    ],
+    "cons": [
+      "Amazon listing titles still advertise \"ENERGY STAR Most Efficient 2022/2023\" while the current SKU is recorded as not meeting Most Efficient criteria",
+      "Warranty is published as 1 year by Midea and 2 years by Walmart for the same model number",
+      "Midea publishes no tank gallonage, no dB figure, no pump lift height and no minimum operating temperature on its own pages",
+      "54 dB is the loudest of the mainstream 50-pints here, and the cube shape puts the outlet at ear height on a desk",
+      "$88/yr running cost is no better than the cheaper Frigidaire"
+    ],
+    "images": [],
+    "amazonAsin": "B091BYVD2W",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "frigidaire-fhdd5033w1-50-pint",
+      "ge-adse50xwt-50-pint-pump",
+      "honeywell-tpfit50pwk",
+      "homelabs-hme020031n-50-pint"
+    ],
+    "useCases": [
+      "basement",
+      "large-room"
+    ],
+    "shortTagline": "A real pump and a huge tank for $300, with stale Most Efficient claims in its listing."
+  },
+  {
+    "id": "dh-ge-adse50xwt-50-pint-pump",
+    "categorySlug": "dehumidifiers",
+    "brand": "GE",
+    "model": "GE ADSE50XWT 50-Pint Smart Dehumidifier with Built-in Pump",
+    "slug": "ge-adse50xwt-50-pint-pump",
+    "releaseYear": 2025,
+    "price": 299.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "SmartHQ app",
+      "Amazon Alexa",
+      "Google Assistant"
+    ],
+    "features": [
+      "Built-in pump that drains up to 16 feet away, hose included",
+      "Triple-sided air intake with a 360° outlet, which GE claims adds 10-20% airflow",
+      "Expandable bucket that GE says roughly doubles runtime versus a standard tray",
+      "Wi-Fi via SmartHQ with no hub required",
+      "ENERGY STAR certified at 49.64 pints/day DOE"
+    ],
+    "specs": {
+      "ratedCapacity": "50 pints/day on the 2019 DOE scale",
+      "verifiedDoeCapacity": "49.64 pints/day per Appendix X1, IEF 2.01 L/kWh, 519 kWh/yr, HFC-32 — GE's ENERGY STAR filing for the ADSE50X family, on market 11 November 2025",
+      "technology": "Compressor (refrigerant), HFC-32, with an integral condensate pump",
+      "lowTempOperation": "Minimum 41°F per Home Depot's spec sheet, with automatic defrost control. Same caveat as every compressor unit: 41°F is where it stops, not where it works well",
+      "coverageClaim": "5,000 sq ft (GE/Home Depot). This is the highest coverage claim of any 50-pint here for essentially the same 49.6-pint DOE capacity as the Frigidaire, which claims none — an illustration that coverage numbers are marketing, not measurement",
+      "tankCapacity": "10 pints, the smallest tank of the 50-pint units here. At rated output that is five emptyings a day if the pump is not plumbed in. GE's \"expandable bucket\" language refers to the tray design, not to a larger stated volume",
+      "drainage": "Built-in pump, drains up to 16 ft away, hose included. Home Depot's listing warns the connections are hand-tighten only, and a recurring theme in owner feedback there is drain-connection leaks that GE attributes to over-tightening",
+      "energyStar": "Yes. 519 kWh/yr, IEF 2.01 L/kWh. Not ENERGY STAR Most Efficient",
+      "runningCost": "About $88/yr (519 kWh x $0.17/kWh)",
+      "noiseLevel": "51 dB (Home Depot spec sheet)",
+      "warrantyTerms": "1 year limited, parts. No sealed-system extension published",
+      "recallHistory": "GE-branded dehumidifiers were part of the CPSC's 16 August 2023 Gree recall of approximately 1.56 million units — 25 to 70-pint models sold 2011-2014, at least 23 fires, 688 overheating incidents. Those were Gree-built units from a decade before this model, but GE-badged dehumidifiers on the used market need checking against that recall list"
+    },
+    "scores": {
+      "capacityHonesty": 7.5,
+      "moistureRemoval": 7.5,
+      "coldRoomPerformance": 4.0,
+      "drainageAndTank": 6.5,
+      "runningCost": 5.0,
+      "quietness": 6.0,
+      "buildAndWarranty": 5.0,
+      "valueForMoney": 6.5
+    },
+    "pros": [
+      "Pump plus a 16 ft hose in the box at $299 — the same deal as the Midea and $120 under the Honeywell",
+      "Verified 49.64 pints/day against a 50-pint claim",
+      "51 dB is quieter than the Midea Cube, and the 360° outlet keeps the discharge off your ankles",
+      "SmartHQ Wi-Fi with no hub, and GE's app ecosystem is more mature than most appliance apps"
+    ],
+    "cons": [
+      "10-pint tank is the smallest of any 50-pint here — without the pump plumbed in this needs emptying about five times a day",
+      "5,000 sq ft coverage claim on the same DOE capacity that Frigidaire sells with no coverage claim at all",
+      "Drain-connection leaks are a recurring owner complaint on Home Depot's own listing for this model",
+      "1 year parts, no sealed-system cover, and GE's portable dehumidifier line-up churns model numbers almost annually — the previous APER50LZ and ADHE50PWF are already marked no longer manufactured",
+      "GE-badged dehumidifiers carry the 2023 Gree recall in the brand's history"
+    ],
+    "images": [],
+    "amazonAsin": "B0FNQJ2LJS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "midea-cube-50-pint-pump",
+      "honeywell-tpfit50pwk",
+      "frigidaire-fhdd5033w1-50-pint",
+      "homelabs-hme020031n-50-pint"
+    ],
+    "useCases": [
+      "basement",
+      "large-room"
+    ],
+    "shortTagline": "Good pump, quiet, verified rating — undone by a 10-pint tank and a 5,000 sq ft fantasy."
+  },
+  {
+    "id": "dh-honeywell-tpfit50pwk",
+    "categorySlug": "dehumidifiers",
+    "brand": "Honeywell",
+    "series": "TP-Fit",
+    "model": "Honeywell TPFIT50PWK 50-Pint Dehumidifier with Drain Pump",
+    "slug": "honeywell-tpfit50pwk",
+    "releaseYear": 2026,
+    "price": 419.95,
+    "msrp": 499.95,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "None on this SKU — the TPFIT50AWK/TPFIT50APWK siblings add Wi-Fi and Alexa"
+    ],
+    "features": [
+      "Auto-drain pump rated to 15 ft vertically or horizontally, with the tube included",
+      "14-pint tank, larger than the GE's and the Frigidaire 22's",
+      "Laundry mode and Auto-Comfort mode with a digital humidistat",
+      "Thermal overload protection — Honeywell advertises 11 stages of safety checks",
+      "185 CFM across a claimed 4,000 sq ft"
+    ],
+    "specs": {
+      "ratedCapacity": "This is the clearest example in the category of how confused the two scales are, and the manufacturer is the one confused. Honeywell's own store lists the product as \"50 pints/day (70 pints per 2019 DOE standard)\" — which is backwards; the 2019 DOE test produces a LOWER number, not a higher one. myhomeclimate.com sells the sibling TP70PWKN as \"70 Pint (50 Pint 2019 DOE Standard)\", i.e. the same two numbers the right way round. Honeywell's own ENERGY STAR filing settles it: 49.66 pints/day at the DOE condition",
+      "verifiedDoeCapacity": "49.66 pints/day per Appendix X1, IEF 2.01 L/kWh, 516 kWh/yr, HFC-32 — Honeywell's (JMA North America) ENERGY STAR filing for TPFIT50PWK, certified 6 March 2026. There is no sense in which this is a 70-pint machine under the 2019 standard",
+      "technology": "Compressor (refrigerant), with an integral drain pump. Sources conflict on refrigerant: Honeywell's store spec table says R-410A, while Honeywell's own ENERGY STAR filing for TPFIT50PWK records HFC-32",
+      "lowTempOperation": "41°F to 90°F with auto-defrost (Honeywell store spec table, quoted for the TP70 platform this replaces)",
+      "coverageClaim": "4,000 sq ft (Honeywell). Same DOE capacity as the GE that claims 5,000 and the hOmeLabs that claims 7,000",
+      "tankCapacity": "14 pints. At rated output, roughly three and a half emptyings a day without the pump plumbed in",
+      "drainage": "Built-in auto-drain pump rated to 15 ft vertical or horizontal, drain tube included. This is the longest published lift of the portable units here",
+      "energyStar": "Certified — but Honeywell's own product pages claim \"Most efficient energy star certified\" and \"ENERGY STAR Most Efficient\", and the ENERGY STAR database records meets_most_efficient_criteria = No for TPFIT50PWK, which does not appear on the Most Efficient list at all",
+      "runningCost": "About $88/yr (516 kWh x $0.17/kWh) — identical to the $299 GE and Midea despite costing $120 more",
+      "noiseLevel": "51 dB (Honeywell store spec table for the TP70 platform)",
+      "warrantyTerms": "Sources conflict. honeywellstore.com's TPFIT50PWK page says \"1 year limited\"; honeywellstore.com's TP70PWKN page says \"5-year coverage on parts and sealed system\"; honeywellaircomfort.com states 1 year parts/labour plus 4 years on sealed-system components. The most likely reading is 1 year full + 4 further years sealed system = 5 years total, but Honeywell publishes all three formulations",
+      "recallHistory": "Honeywell-branded dehumidifiers appear on the CPSC's 4 August 2021 New Widetech recall of approximately 2 million units (25-74 pint, sold February 2009 - August 2017, 107 incidents, ~$17M damage). Different manufacturer and generation from this model, but Honeywell is on that list"
+    },
+    "scores": {
+      "capacityHonesty": 2.5,
+      "moistureRemoval": 7.5,
+      "coldRoomPerformance": 4.5,
+      "drainageAndTank": 8.0,
+      "runningCost": 4.0,
+      "quietness": 6.0,
+      "buildAndWarranty": 7.0,
+      "valueForMoney": 4.0
+    },
+    "pros": [
+      "15 ft pump lift is the longest published here — the one portable that will genuinely push water up out of a basement",
+      "14-pint tank is a real improvement on the GE's 10, and the pump makes it moot anyway",
+      "If the 1+4 year sealed-system reading is right, it is the only portable here with compressor cover beyond year one",
+      "Thermal overload protection is a meaningful feature in a category with three fire recalls behind it"
+    ],
+    "cons": [
+      "Honeywell's own listing says \"70 pints per 2019 DOE standard\" — the DOE number is 49.66. The claim is inverted, and a buyer cross-shopping on it will over-buy",
+      "Honeywell's own product page claims ENERGY STAR Most Efficient; the ENERGY STAR database records this model as not meeting Most Efficient criteria",
+      "$419.95 for the same 49.66 pints/day, same 51 dB and same $88/yr as the $299 GE and Midea",
+      "Refrigerant is published as R-410A by Honeywell's store and HFC-32 by Honeywell's own ENERGY STAR filing",
+      "Warranty is stated three different ways across two Honeywell-operated sites, and the store listed it out of stock at time of research"
+    ],
+    "images": [],
+    "amazonAsin": "B0DCNTTY8S",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "midea-cube-50-pint-pump",
+      "ge-adse50xwt-50-pint-pump",
+      "frigidaire-fhdd5033w1-50-pint",
+      "alorair-sentinel-hdi90"
+    ],
+    "useCases": [
+      "basement",
+      "large-room"
+    ],
+    "shortTagline": "Best pump lift here, sold with an inverted DOE claim and an unheld Most Efficient badge."
+  },
+  {
+    "id": "dh-homelabs-hme020031n-50-pint",
+    "categorySlug": "dehumidifiers",
+    "brand": "hOmeLabs",
+    "model": "hOmeLabs 50-Pint Wi-Fi Dehumidifier (HME020031N)",
+    "slug": "homelabs-hme020031n-50-pint",
+    "releaseYear": 2017,
+    "price": 242.1,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Not published by the manufacturer",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "2.4GHz Wi-Fi",
+      "hOmeLabs app"
+    ],
+    "features": [
+      "The volume seller of the category — the platform most US basements actually have",
+      "1.6 gallon tank with a full-tank alert and auto shut-off",
+      "24-hour timer, auto-restart after a power cut, auto-defrost",
+      "Continuous gravity drain port with a hose option",
+      "Wi-Fi humidity monitoring on the current listing generation"
+    ],
+    "specs": {
+      "ratedCapacity": "50 pints/day on the 2019 DOE scale — and the listings say so explicitly. Walmart's title for this machine reads \"50 Pint (Previously 70 Pint)\". The Amazon listing adds a second, larger number: \"50 Pint (MAX 120 Pint at 95°F, 90% RH)\". Three scales for one machine: 70 (pre-2019 DOE), 50 (2019 DOE), 120 (saturation)",
+      "verifiedDoeCapacity": "Not currently verifiable. hOmeLabs' only entries in the ENERGY STAR Certified Dehumidifiers database as of August 2026 are the HME0088 (24.48 pints/day) and HME0089 (32.46 pints/day). The 50-pint model is not in the certified list, despite listings that describe it as \"Energy Star Dehumidifier\"",
+      "technology": "Compressor (refrigerant), 7.8 amps rated current, 165-188 CFM across three fan speeds",
+      "lowTempOperation": "Auto-defrost present; hOmeLabs publishes no minimum operating temperature. The listing does warn the unit \"emits heat during use\" and is \"not suitable for use with evaporative coolers\"",
+      "coverageClaim": "The same ASIN has been sold as 4,500 sq ft (Walmart's listing, and a cached third-party mirror of the Amazon title) and as 7,000 sq ft (hOmeLabs' own current page and Home Depot's HME031004N pump variant). The hardware did not change by 2,500 sq ft",
+      "tankCapacity": "1.6 gallons (12.8 pints). At the rated 50 pints/day that is four emptyings a day. This machine is the standard illustration of why tank capacity and pints-per-day are the two numbers you must read together",
+      "drainage": "Continuous gravity drain port. No pump on this SKU; hOmeLabs sells a pump variant (HME031004N, Best Buy calls it HME1004). Gravity drainage needs the unit raised above the drain",
+      "energyStar": "Claimed in the product titles, but the 50-pint hOmeLabs does not appear in the current ENERGY STAR Certified Dehumidifiers database — only the 24- and 32-pint models do. Treat the badge on this listing as unverified",
+      "runningCost": "Not published, and no ENERGY STAR annual-energy figure exists for this model. At the rated 7.8 amps and the duty cycle typical of the class, budget for the same $85-95/yr as its certified 50-pint rivals",
+      "noiseLevel": "No dB figure published by hOmeLabs. The listing claims \"a quiet fan for minimal noise disruption\"",
+      "warrantyTerms": "Not published on the hOmeLabs product page used for this entry. hOmeLabs' standard consumer warranty is 12 months with a 2-year extension available on some SKUs; confirm at purchase. No sealed-system term is published",
+      "recallHistory": "No CPSC recall found for hOmeLabs dehumidifiers"
+    },
+    "scores": {
+      "capacityHonesty": 5.0,
+      "moistureRemoval": 7.5,
+      "coldRoomPerformance": 4.0,
+      "drainageAndTank": 4.5,
+      "runningCost": 4.5,
+      "quietness": 5.5,
+      "buildAndWarranty": 4.0,
+      "valueForMoney": 6.5
+    },
+    "pros": [
+      "Cheapest genuine 50-pint here at $242.10, and the most widely owned platform in US basements",
+      "Its listing is one of the few that spells the scale change out loud — \"50 Pint (Previously 70 Pint)\"",
+      "Auto-restart and a 24-hour timer make it a set-and-forget basement machine",
+      "Parts, filters and support are easy to find precisely because so many were sold"
+    ],
+    "cons": [
+      "Listings advertise ENERGY STAR, but the 50-pint hOmeLabs is not in the current ENERGY STAR certified database — only the 24- and 32-pint models are",
+      "The \"MAX 120 Pint at 95°F, 90% RH\" figure in the title is a saturation number no home will ever see",
+      "Coverage claim for the same ASIN has drifted from 4,500 to 7,000 sq ft with no hardware change",
+      "1.6 gallon tank against 50 pints/day: four emptyings a day unless you can gravity-drain it",
+      "No published dB, no published minimum operating temperature, no published warranty and no published energy consumption"
+    ],
+    "images": [],
+    "amazonAsin": "B073VBWKJZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "frigidaire-fhdd5033w1-50-pint",
+      "midea-cube-50-pint-pump",
+      "waykar-pd160b",
+      "ge-adse50xwt-50-pint-pump"
+    ],
+    "useCases": [
+      "basement",
+      "large-room"
+    ],
+    "shortTagline": "The default basement 50-pint, cheap and everywhere — and not in the ENERGY STAR list."
+  },
+  {
+    "id": "dh-alorair-sentinel-hdi90",
+    "categorySlug": "dehumidifiers",
+    "brand": "AlorAir",
+    "series": "Sentinel",
+    "model": "AlorAir Sentinel HDi90 Crawl Space Dehumidifier (built-in pump)",
+    "slug": "alorair-sentinel-hdi90",
+    "releaseYear": 2019,
+    "price": 1147.11,
+    "currency": "USD",
+    "colorOptions": [
+      "Blue"
+    ],
+    "material": "Rotational-moulded polymer housing with a rare-earth-alloy tube evaporator (AlorAir)",
+    "warrantyMonths": 72,
+    "connectivity": [
+      "Optional remote humidistat control (sold separately)",
+      "Wi-Fi on the separate HDi90 WIFI variant"
+    ],
+    "features": [
+      "Runs from 33.8°F — a crawlspace unit that actually works in a 40°F crawlspace",
+      "Built-in condensate pump, so it lifts water out rather than needing a floor drain",
+      "Hangable or floor-standing, and ductable at inlet and outlet",
+      "Automatic hot-gas defrost rather than simple fan-only defrost",
+      "6-year limited warranty with the first 2 years full coverage"
+    ],
+    "specs": {
+      "ratedCapacity": "AlorAir publishes both numbers, which is more than most: \"198 PPD at Saturation, 90 Pints (AHAM)\". The AHAM figure is at 80°F/60% RH — the pre-2019 portable condition — so a \"90 pint\" AlorAir is NOT twice a \"50 pint\" Frigidaire; the two are measured 15°F apart",
+      "verifiedDoeCapacity": "None. The Sentinel HDi90 does not appear in the ENERGY STAR Certified Dehumidifiers database — AlorAir's only certified models there are the Helios D35, Sentinel HD55S and Sentinel Pro35X. This matters because amgair.com's listing for the HDi90 states \"Energy Star listed\", which the database does not support",
+      "technology": "Compressor (refrigerant), R32, 5.56 A at 115V, 210 CFM / 350 CMH, COP quoted by AlorAir as 2.69 L/kWh",
+      "lowTempOperation": "33.8°F to 104°F with automatic hot-gas defrost — the widest usable range of any compressor unit here and the entire reason it costs four times a portable. In a 45-55°F crawlspace this is the compressor unit that keeps working",
+      "coverageClaim": "2,600 sq ft (AlorAir and Amazon); amgair.com expresses the same machine as \"up to 15,000 cubic feet\"",
+      "tankCapacity": "None — there is no bucket. It is pump-drained only, by design. That removes the emptying problem entirely and creates a hard dependency on the pump",
+      "drainage": "Heavy-duty built-in condensate pump with drain hose. AlorAir publishes no lift height for the HDi90's pump. Pump-only means a pump failure stops the machine, unlike a bucket unit",
+      "energyStar": "NOT certified — the HDi90 is absent from the ENERGY STAR database despite a retailer listing describing it as Energy Star listed",
+      "runningCost": "Not published as an annual figure. At 5.56 A / 115V (about 639W) running the long hours a crawlspace unit runs, this is a several-hundred-kWh-per-year machine; AlorAir's 2.69 L/kWh COP is respectable but there is no ENERGY STAR kWh/yr number to check it against",
+      "noiseLevel": "<58 dBA (AlorAir). Loudest here, which is acceptable under a floor and not in a bedroom",
+      "warrantyTerms": "Sources conflict on length: AlorAir's own page and the Amazon listing say \"6-Year Limited Warranty - First 2 Years Full Coverage\"; a reseller listing for the same ASIN says 5 years. Either way it is the longest cover in this comparison and it does include the sealed system",
+      "recallHistory": "No CPSC recall found for AlorAir"
+    },
+    "scores": {
+      "capacityHonesty": 7.0,
+      "moistureRemoval": 9.0,
+      "coldRoomPerformance": 9.0,
+      "drainageAndTank": 8.5,
+      "runningCost": 4.0,
+      "quietness": 3.5,
+      "buildAndWarranty": 9.0,
+      "valueForMoney": 6.5
+    },
+    "pros": [
+      "33.8°F minimum with hot-gas defrost — the only compressor unit here that genuinely earns a cold crawlspace",
+      "Publishes both saturation and AHAM capacity side by side instead of quoting only the flattering one",
+      "6-year limited warranty (first 2 years full) against 1 year from every portable here",
+      "No bucket to empty, ever, and it can be hung off the joists out of the mud"
+    ],
+    "cons": [
+      "amgair.com's listing calls it \"Energy Star listed\"; it is not in the ENERGY STAR certified database — only three other AlorAir models are",
+      "\"90 pints\" is an AHAM 80°F figure and is not comparable to the 50-pint DOE figures of the portables it will be cross-shopped against",
+      "Pump-only drainage means no fallback if the pump fails",
+      "<58 dBA and no published annual energy figure, on a machine that runs nearly continuously",
+      "Warranty is published as both 5 and 6 years for the same ASIN, and the stock filter is only MERV-1"
+    ],
+    "images": [],
+    "amazonAsin": "B01LW8WRUP",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aprilaire-e070",
+      "aprilaire-e080",
+      "honeywell-tpfit50pwk",
+      "ivation-19-pint-desiccant"
+    ],
+    "useCases": [
+      "crawl-space",
+      "cold-spaces",
+      "basement"
+    ],
+    "shortTagline": "The cold-crawlspace answer: 33.8°F, hot-gas defrost, 6-year cover, no ENERGY STAR listing."
+  },
+  {
+    "id": "dh-aprilaire-e070",
+    "categorySlug": "dehumidifiers",
+    "brand": "AprilAire",
+    "series": "E-Series",
+    "model": "AprilAire E070 70-Pint Crawl Space / Whole-House Dehumidifier",
+    "slug": "aprilaire-e070",
+    "releaseYear": 2019,
+    "price": 1441.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Steel cabinet with corrosion-resistant aluminium coils; made in the USA (AprilAire)",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "None on the E070 — the E070W variant adds Wi-Fi"
+    ],
+    "features": [
+      "5-year warranty covering parts and the sealed system — the longest sealed-system cover here",
+      "Washable MERV 8 filter (8 x 12 in), so it filters as well as dries",
+      "No bucket at all: gravity drain with a barbed fitting and 10 ft of tubing in the box",
+      "Ductable, hangable, and rated for continuous crawlspace duty",
+      "Corrosion-resistant aluminium coils for a wet, dirty environment"
+    ],
+    "specs": {
+      "ratedCapacity": "70 pints/day at 80°F/60% RH, and 53 pints/day at 73°F/60% RH — AprilAire publishes both. The headline 70 is on the AHAM/pre-2019 condition, so this is NOT comparable to a modern 50-pint portable's DOE rating, and it is not 40% more machine than one either",
+      "verifiedDoeCapacity": "None — the E070 does not appear in the ENERGY STAR Certified Dehumidifiers database. Only the E080, E100 and E130 are certified. For reference, ENERGY STAR rates the E080 at 65.00 pints/day under Appendix X1 against AprilAire's own 80-pint headline, and whole-home units are tested at 73°F/60% RH rather than the 65°F/60% RH used for portables — a third rating point in the same category",
+      "technology": "Compressor (refrigerant), R32, 5.4 amps at 120V, 200 CFM at 0.0 in external static pressure, energy factor 2.1 L/kWh at 80°F/60% RH and 1.8 L/kWh at 73°F/60% RH",
+      "lowTempOperation": "50°F to 104°F for dehumidification (40°F to 140°F in ventilation-only mode). That 50°F floor is better than a 41°F-rated portable in practice but worse than the AlorAir's 33.8°F — for a genuinely cold crawlspace the AlorAir or a desiccant is the safer choice",
+      "coverageClaim": "Sources conflict by a factor of two: AprilAire's own shop page says \"whole houses up to 2,200 sq. ft.\", the Amazon listing says \"up to 2,800 sq. ft\", and amgair.com's spec table for the same model says 4,400 sq. ft",
+      "tankCapacity": "None — there is no water tray. This is a plumbed appliance",
+      "drainage": "Gravity drain only, with a barbed fitting and 10 ft of tubing included. There is no pump, so the unit must be sited above a drain or paired with a separate condensate pump. That is the practical difference between this and the pump-equipped AlorAir",
+      "energyStar": "NOT certified. amgair.com markets this model as \"Most Efficient | Energy Star Rated\"; the E070 is absent from both the ENERGY STAR Certified Dehumidifiers list and the ENERGY STAR Most Efficient list. The E080, E100 and E130 above it are certified and are Most Efficient",
+      "runningCost": "Not published as an annual figure, because there is no ENERGY STAR entry. At 5.4 A / 120V (about 648W) and crawlspace duty cycles, budget for something in the region of the E080's certified 632 kWh/yr — roughly $107/yr at $0.17/kWh",
+      "noiseLevel": "53 dBA ducted (AprilAire)",
+      "warrantyTerms": "5 years on parts and the sealed system, per AprilAire and its dealers. This is the single strongest warranty position in the comparison alongside the AlorAir, and it is the reason the price is what it is",
+      "recallHistory": "No CPSC recall found for AprilAire dehumidifiers"
+    },
+    "scores": {
+      "capacityHonesty": 6.0,
+      "moistureRemoval": 8.5,
+      "coldRoomPerformance": 6.5,
+      "drainageAndTank": 7.0,
+      "runningCost": 4.5,
+      "quietness": 6.5,
+      "buildAndWarranty": 9.5,
+      "valueForMoney": 5.0
+    },
+    "pros": [
+      "5-year parts and sealed-system warranty on a US-built unit, against 1 year from every portable here",
+      "Publishes capacity at two conditions (70 ppd at 80°F, 53 ppd at 73°F) instead of only the flattering one",
+      "MERV 8 washable filter means it is doing air cleaning as well as drying, unlike the mesh screens on the portables",
+      "No tray to empty and corrosion-resistant coils designed for years of crawlspace duty"
+    ],
+    "cons": [
+      "amgair.com sells it as \"Most Efficient | Energy Star Rated\" — the E070 is in neither ENERGY STAR list; the E080 above it is",
+      "\"70 pint\" is an 80°F/60% RH figure. Cross-shopped against a 50-pint portable it looks like 40% more machine; measured at the same conditions it is not",
+      "Coverage is published as 2,200 (AprilAire), 2,800 (Amazon) and 4,400 (dealer) sq ft for the same unit",
+      "Gravity drain only — no pump, so a crawlspace without a low drain needs a condensate pump on top of the $1,441",
+      "50°F dehumidification floor is not low enough for the coldest crawlspaces, where the AlorAir's 33.8°F or a desiccant wins"
+    ],
+    "images": [],
+    "amazonAsin": "B09SGLCGJN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aprilaire-e080",
+      "alorair-sentinel-hdi90",
+      "honeywell-tpfit50pwk"
+    ],
+    "useCases": [
+      "crawl-space",
+      "basement"
+    ],
+    "shortTagline": "Best warranty in the category, an 80°F pint rating, and an unheld ENERGY STAR badge."
+  },
+  {
+    "id": "dh-aprilaire-e080",
+    "categorySlug": "dehumidifiers",
+    "brand": "AprilAire",
+    "series": "E-Series",
+    "model": "AprilAire E080 80-Pint Whole-House Dehumidifier",
+    "slug": "aprilaire-e080",
+    "releaseYear": 2021,
+    "price": 1507.0,
+    "currency": "USD",
+    "colorOptions": [
+      "White"
+    ],
+    "material": "Steel cabinet with corrosion-resistant aluminium coils; made in the USA (AprilAire)",
+    "warrantyMonths": 60,
+    "connectivity": [
+      "None on the E080 — field-configurable for hardwire; separate controllers sold as accessories"
+    ],
+    "features": [
+      "ENERGY STAR certified AND on the ENERGY STAR Most Efficient list — the only product here that is",
+      "65.00 pints/day verified under DOE Appendix X1 with a 632 kWh/yr consumption figure",
+      "5-year warranty on parts and the sealed system",
+      "Washable MERV 8 filter, ductable, hangable, field-configurable for hardwire",
+      "R32 refrigerant with a 9.7 oz charge"
+    ],
+    "specs": {
+      "ratedCapacity": "80 pints/day at 80°F/60% RH, 65 pints/day at 73°F/60% RH (AprilAire publishes both). The 73°F figure is the DOE Appendix X1 condition for whole-home units and matches AprilAire's ENERGY STAR filing exactly",
+      "verifiedDoeCapacity": "65.00 pints/day per Appendix X1, Integrated Energy Factor 2.35 L/kWh, 632 kWh/yr, R32 with a 9.7 oz charge, case volume 3.3 ft³ — AprilAire's own ENERGY STAR filing, certified 23 September 2025 and flagged as meeting Most Efficient criteria. Note that whole-home units are tested at 73°F/60% RH while portables are tested at 65°F/60% RH, so a 65-pint whole-home figure is still not directly comparable to a 50-pint portable figure",
+      "technology": "Compressor (refrigerant), R32, 4.8 amps at 120V, 185 CFM at 0.0 in external static pressure, energy factor quoted by AprilAire as 2.8 L/kWh at 80°F/60% RH",
+      "lowTempOperation": "50°F to 104°F for dehumidification. Same floor as the E070 — good for a conditioned basement, not for a 40°F crawlspace",
+      "coverageClaim": "4,400 sq ft (AprilAire dealer spec sheet). Note the E070 below it is variously published at 2,200, 2,800 and 4,400 sq ft, so the coverage figures for the two models overlap in the sources",
+      "tankCapacity": "None — plumbed appliance, no water tray",
+      "drainage": "Gravity drain, no built-in pump. Duct kits, a remote controller and a hang kit are all separate accessories, not in the box",
+      "energyStar": "Yes, certified, IEF 2.35 L/kWh, 632 kWh/yr, and it is on the ENERGY STAR Most Efficient list — the only product in this comparison for which that claim is verifiable",
+      "runningCost": "About $107/yr (632 kWh x $0.17/kWh) on the DOE usage assumption. Higher in absolute terms than a portable because it is a bigger machine — but per pint removed it is the most efficient unit here at IEF 2.35 against 2.01 for the mainstream portables",
+      "noiseLevel": "Not published by AprilAire for the E080. The E070 on the same chassis family is quoted at 53 dBA ducted",
+      "warrantyTerms": "5 years on parts and the sealed system",
+      "recallHistory": "No CPSC recall found for AprilAire dehumidifiers"
+    },
+    "scores": {
+      "capacityHonesty": 9.5,
+      "moistureRemoval": 9.0,
+      "coldRoomPerformance": 6.5,
+      "drainageAndTank": 7.0,
+      "runningCost": 6.5,
+      "quietness": 6.0,
+      "buildAndWarranty": 9.5,
+      "valueForMoney": 6.0
+    },
+    "pros": [
+      "The only product in this comparison whose ENERGY STAR Most Efficient claim is actually in the ENERGY STAR database",
+      "IEF 2.35 L/kWh against 2.01 for the mainstream 50-pint portables — meaningfully cheaper per pint removed",
+      "AprilAire's published 65 ppd at 73°F matches its DOE Appendix X1 filing to two decimal places; nothing is being hidden",
+      "5-year parts and sealed-system warranty, MERV 8 filtration, US-built"
+    ],
+    "cons": [
+      "$1,507 before the duct kit, hang kit and remote controller, none of which are in the box",
+      "Gravity drain only — no pump, same as the E070",
+      "50°F dehumidification floor: for a genuinely cold crawlspace the AlorAir HDi90 or a desiccant is the right machine",
+      "AprilAire publishes no dB figure for the E080 at all",
+      "Sold through multiple concurrent Amazon listings (bundle, pro, DIY kit) at different prices for the same appliance"
+    ],
+    "images": [],
+    "amazonAsin": "B0CQRYS6N1",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "aprilaire-e070",
+      "alorair-sentinel-hdi90",
+      "midea-cube-50-pint-pump"
+    ],
+    "useCases": [
+      "crawl-space",
+      "basement"
+    ],
+    "shortTagline": "The one machine here whose ENERGY STAR Most Efficient badge survives the database."
+  }
+]
