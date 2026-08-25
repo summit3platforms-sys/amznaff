@@ -1,0 +1,966 @@
+[
+  {
+    "id": "gw-garmin-forerunner-170",
+    "categorySlug": "gps-running-watches",
+    "brand": "Garmin",
+    "series": "Forerunner",
+    "model": "Garmin Forerunner 170 (43mm)",
+    "slug": "garmin-forerunner-170",
+    "releaseYear": 2026,
+    "price": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black / Amp Yellow"
+    ],
+    "material": "43 mm fiber-reinforced polymer case, Corning Gorilla Glass 3 lens, 41 g with silicone band",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "ANT+",
+      "Wi-Fi (Music edition only)",
+      "NFC (Garmin Pay)"
+    ],
+    "features": [
+      "Cheapest Garmin Forerunner with a barometric altimeter and gyroscope",
+      "Wrist-based running power and running dynamics, no chest strap needed",
+      "Training Readiness, HRV Status and Garmin Coach with no subscription",
+      "Open-water swim tracking, new to this price tier",
+      "Garmin Pay on both the base and Music variants"
+    ],
+    "specs": {
+      "displayType": "1.2-in 390x390 AMOLED touchscreen, optional always-on",
+      "batterySmartwatchDays": 10,
+      "batteryAlwaysOn": "4 days with always-on display — the headline 10-day figure assumes the screen is off between glances",
+      "batteryGpsSingleBandHours": 20,
+      "batteryGpsMultibandHours": "No multiband mode exists on this watch; all-systems (L1 only) runs 14 h",
+      "gnssBands": "Single-band L1 multi-GNSS (GPS, GLONASS, Galileo, BeiDou, QZSS). No L5/dual-frequency — DC Rainmaker's hands-on and the garminrumors spec wiki both confirm this; the5krunner's spec page loosely calls it 'multi-frequency', which is wrong. Multiband starts at the Forerunner 570.",
+      "maps": "None. Breadcrumb course-following only — no TopoActive maps, no turn-by-turn, no ClimbPro.",
+      "musicStorage": "Only on the $349.99 Forerunner 170 Music: 4 GB with offline Spotify, Amazon Music and Deezer. The $299.99 base model reviewed here has no music storage and no Wi-Fi.",
+      "trainingPlatform": "Garmin Connect is free and every core training metric — Training Readiness, Training Load, Training Status, HRV Status, Body Battery, recovery time — is Firstbeat-derived and free on the watch (Garmin bought Firstbeat in 2020). Connect+ is $6.99/mo or $69.99/yr and adds only AI wellness prompts, 3D maps, Trails+ routing, extra badges and nutrition logging — nothing a training plan depends on.",
+      "externalSensors": "Pairs with both ANT+ and Bluetooth chest straps, footpods and Stryd — the cheap fix for wrist-HR interval errors",
+      "dataExport": "Full .FIT file access over USB/MTP plus free automatic sync to Strava, TrainingPeaks, Runalyze, intervals.icu and others through Garmin Connect."
+    },
+    "scores": {
+      "gpsAccuracy": 6.2,
+      "batteryHonesty": 7.0,
+      "trainingFeatures": 7.4,
+      "navigation": 2.5,
+      "heartRate": 6.8,
+      "display": 8.4,
+      "buildComfort": 8.2,
+      "value": 7.8
+    },
+    "pros": [
+      "Adds a barometer, gyroscope, wrist running power, Training Readiness and open-water swimming over the Forerunner 165 it replaces",
+      "Every training and recovery metric is free — Connect+ at $6.99/mo adds nothing a runner's plan depends on",
+      "Pairs with ANT+ and Bluetooth chest straps, so $60 of strap fixes the wrist sensor for intervals",
+      "20 h of GPS-only battery covers a road marathon several times over"
+    ],
+    "cons": [
+      "Single-band L1 GNSS only — in city streets or under canopy the trace drifts, and multiband costs $250 more (Forerunner 570)",
+      "No multisport/triathlon mode at all, so it cannot record a triathlon; DC Rainmaker flags this as the headline omission",
+      "No maps of any kind, and no turn-by-turn — breadcrumbs only",
+      "Music is a $50 upcharge: the base model has zero song storage and no Wi-Fi",
+      "The 10-day smartwatch claim drops to 4 days the moment you enable the always-on display"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "coros-pace-4",
+      "garmin-forerunner-570",
+      "suunto-race-2",
+      "amazfit-t-rex-3-pro"
+    ],
+    "useCases": [
+      "road-running",
+      "triathlon"
+    ],
+    "shortTagline": "Garmin's best cheap road-running AMOLED — but single-band GPS and no triathlon mode."
+  },
+  {
+    "id": "gw-coros-pace-4",
+    "categorySlug": "gps-running-watches",
+    "brand": "COROS",
+    "series": "PACE",
+    "model": "COROS PACE 4 (silicone band)",
+    "slug": "coros-pace-4",
+    "releaseYear": 2025,
+    "price": 249.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black Crystal",
+      "Cloud White"
+    ],
+    "material": "Fiber-reinforced polymer bezel, mineral glass lens; 40 g with silicone band, 32 g with nylon",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi"
+    ],
+    "features": [
+      "Dual-frequency L1+L5 GNSS for $249 — the cheapest multiband watch here",
+      "41 h all-systems GPS, 31 h in dual-frequency mode",
+      "32 g on the nylon band, among the lightest watches in the category",
+      "Built-in microphone for on-run voice notes",
+      "EvoLab training analytics with no subscription tier of any kind"
+    ],
+    "specs": {
+      "displayType": "1.2-in 390x390 AMOLED touchscreen with digital crown, optional always-on",
+      "batterySmartwatchDays": 19,
+      "batteryAlwaysOn": "6 days with always-on display — always-on costs 13 of the 19 headline days, and cuts all-systems GPS from 41 h to 30 h and dual-frequency from 31 h to 24 h",
+      "batteryGpsSingleBandHours": 41,
+      "batteryGpsMultibandHours": 31,
+      "gnssBands": "Dual-frequency L1+L5 across GPS, GLONASS, Galileo, BeiDou and QZSS. Rare at this price — the similarly-priced Forerunner 170 is single-band.",
+      "maps": "None. Breadcrumb navigation only, from GPX or routes synced from Strava, Komoot, RideWithGPS or Wikiloc. No offline base map.",
+      "musicStorage": "4 GB for sideloaded MP3s played to Bluetooth headphones. No Spotify and no other streaming service.",
+      "trainingPlatform": "COROS app and EvoLab (Training Load, Base Fitness, Fatigue, Running Fitness) are free with no paid tier at all. Metrics are COROS' own, not Firstbeat-licensed.",
+      "externalSensors": "Bluetooth only — no ANT+. BLE chest straps, Stryd pods and power meters pair normally.",
+      "dataExport": "Free .FIT and GPX export from the COROS app, plus automatic sync to Strava, TrainingPeaks, Nike Run Club, Apple Health and Health Connect."
+    },
+    "scores": {
+      "gpsAccuracy": 8.2,
+      "batteryHonesty": 8.4,
+      "trainingFeatures": 7.6,
+      "navigation": 3.5,
+      "heartRate": 7.8,
+      "display": 8.3,
+      "buildComfort": 9.0,
+      "value": 9.4
+    },
+    "pros": [
+      "Dual-frequency L1+L5 GNSS at $249 — the single biggest accuracy upgrade you can buy at this price",
+      "31 h in the most accurate GPS mode still beats what most $500 AMOLED watches manage",
+      "32 g on the nylon band; you forget it is there on a long run",
+      "No subscription anywhere in the COROS ecosystem, and .FIT files sync free to Strava and TrainingPeaks",
+      "DC Rainmaker found the optical HR 'spot-on' through intervals — unusual for a $249 watch"
+    ],
+    "cons": [
+      "No offline maps at all — breadcrumb trails only, which is a real limitation off-road",
+      "No ANT+, so ANT+-only power meters and older chest straps will not pair",
+      "Music is sideloaded MP3 only; there is no Spotify, no streaming, no phone-music control",
+      "Always-on display costs 13 of the 19 claimed smartwatch days and 10 h of GPS time",
+      "Training Load resets every Monday rather than rolling, which DC Rainmaker notes does not match recovery physiology"
+    ],
+    "images": [],
+    "amazonAsin": "B0FYGTCX83",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-forerunner-170",
+      "garmin-forerunner-570",
+      "coros-apex-4",
+      "suunto-race-2"
+    ],
+    "useCases": [
+      "road-running",
+      "triathlon"
+    ],
+    "shortTagline": "Multiband GPS and 31 hours of it for $249 — the value benchmark of the category."
+  },
+  {
+    "id": "gw-garmin-forerunner-570",
+    "categorySlug": "gps-running-watches",
+    "brand": "Garmin",
+    "series": "Forerunner",
+    "model": "Garmin Forerunner 570 (47mm)",
+    "slug": "garmin-forerunner-570",
+    "releaseYear": 2025,
+    "price": 549.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Slate Gray / Amp Yellow",
+      "Raspberry / Translucent"
+    ],
+    "material": "47 mm fiber-reinforced polymer case with anodised aluminium bezel, Corning Gorilla Glass 3, 50 g",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "ANT+",
+      "Wi-Fi",
+      "NFC (Garmin Pay)"
+    ],
+    "features": [
+      "Multi-band L1+L5 GNSS with SatIQ auto mode selection",
+      "Elevate Gen 5 optical HR with skin temperature sensing",
+      "Full triathlon and multisport profiles",
+      "8 GB with offline Spotify, Amazon Music, Deezer and YouTube Music",
+      "Two case sizes (42 mm and 47 mm) with the same feature set"
+    ],
+    "specs": {
+      "displayType": "1.4-in 454x454 AMOLED touchscreen (47 mm; the 42 mm is 1.2-in 390x390), optional always-on",
+      "batterySmartwatchDays": 11,
+      "batteryAlwaysOn": "Garmin does not publish a separate always-on smartwatch figure for the 570 in any source reviewed here — treat the 11-day number as screen-off only",
+      "batteryGpsSingleBandHours": 18,
+      "batteryGpsMultibandHours": 14,
+      "gnssBands": "Multi-band L1+L5 (GPS, GLONASS, Galileo, BeiDou, QZSS) with SatIQ, which auto-selects the mode and is rated 16 h — between the 18 h single-band and 14 h multiband figures.",
+      "maps": "None. This is the trap in the 570: at $549.99 it still has no onboard maps, only breadcrumb courses with turn prompts. Maps begin at the Forerunner 970.",
+      "musicStorage": "8 GB, roughly 500 songs, with offline Spotify Premium, Amazon Music, Deezer and YouTube Music over Wi-Fi",
+      "trainingPlatform": "Garmin Connect is free and every core training metric — Training Readiness, Training Load, Training Status, HRV Status, Body Battery, recovery time — is Firstbeat-derived and free on the watch (Garmin bought Firstbeat in 2020). Connect+ is $6.99/mo or $69.99/yr and adds only AI wellness prompts, 3D maps, Trails+ routing, extra badges and nutrition logging — nothing a training plan depends on.",
+      "externalSensors": "ANT+ and Bluetooth chest straps, running pods, power meters and the Garmin HRM series",
+      "dataExport": "Full .FIT file access over USB/MTP plus free automatic sync to Strava, TrainingPeaks, Runalyze, intervals.icu and others through Garmin Connect."
+    },
+    "scores": {
+      "gpsAccuracy": 8.4,
+      "batteryHonesty": 5.6,
+      "trainingFeatures": 8.6,
+      "navigation": 3.8,
+      "heartRate": 8.0,
+      "display": 9.0,
+      "buildComfort": 8.4,
+      "value": 6.2
+    },
+    "pros": [
+      "Proper multi-band L1+L5 GNSS with SatIQ — a step change over the Forerunner 170's single-band trace",
+      "Full triathlon and multisport profiles, which the 170 lacks entirely",
+      "Elevate Gen 5 sensor plus ANT+ and Bluetooth strap support covers both casual and serious HR needs",
+      "Offline Spotify, Amazon Music, Deezer and YouTube Music included at no extra cost"
+    ],
+    "cons": [
+      "No onboard maps at $549.99 — a $249 Coros Apex 4 sibling and a $399 Amazfit both have them",
+      "Multiband battery is only 14 h; a 15-hour ultra will not finish on the accurate mode",
+      "No ECG — the Forerunner 970 is the first Forerunner to get it, despite the 570 sharing the Gen 5 sensor",
+      "The 11-day smartwatch claim has no published always-on counterpart, so real-world figures for AMOLED buyers are unknown",
+      "Costs $300 more than a Coros Pace 4 that matches it on dual-frequency GNSS and beats it on battery"
+    ],
+    "images": [],
+    "amazonAsin": "B0F8QZF3GS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-forerunner-970",
+      "coros-pace-4",
+      "suunto-race-2",
+      "garmin-forerunner-170"
+    ],
+    "useCases": [
+      "road-running",
+      "triathlon"
+    ],
+    "shortTagline": "Multiband and triathlon modes arrive here — but $549.99 still buys you no maps."
+  },
+  {
+    "id": "gw-garmin-forerunner-970",
+    "categorySlug": "gps-running-watches",
+    "brand": "Garmin",
+    "series": "Forerunner",
+    "model": "Garmin Forerunner 970 (47mm, titanium bezel)",
+    "slug": "garmin-forerunner-970",
+    "releaseYear": 2025,
+    "price": 749.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Carbon Gray DLC Titanium / Black",
+      "Titanium / Whitestone"
+    ],
+    "material": "47 mm fiber-reinforced polymer case, titanium bezel, sapphire crystal lens, 56 g without band",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "ANT+",
+      "Wi-Fi",
+      "NFC (Garmin Pay)"
+    ],
+    "features": [
+      "Preloaded multi-continent TopoActive maps with turn-by-turn routing",
+      "ECG app — the first Forerunner with one (Elevate Gen 5)",
+      "Built-in LED flashlight with white and red modes",
+      "Running Tolerance and Running Economy metrics",
+      "32 GB with offline Spotify, Amazon Music and Deezer"
+    ],
+    "specs": {
+      "displayType": "1.4-in 454x454 AMOLED touchscreen with sapphire lens, optional always-on",
+      "batterySmartwatchDays": 15,
+      "batteryAlwaysOn": "7 days with always-on display, and GPS drops from 26 h to 20 h / multiband from 21 h to 15 h. DC Rainmaker found default brightness burns battery 'at an astonishing speed' and recommends about one-third brightness.",
+      "batteryGpsSingleBandHours": 26,
+      "batteryGpsMultibandHours": "21 (the5krunner spec sheet) / 19 (garminrumors spec wiki) — sources conflict",
+      "gnssBands": "Multi-band L1+L5 (GPS, GLONASS, Galileo, BeiDou, QZSS) with SatIQ auto-selection",
+      "maps": "Full TopoActive topographic maps preloaded, free, with on-device routing and turn-by-turn, plus 2,000+ ski resorts and 43,000 golf courses in 32 GB",
+      "musicStorage": "32 GB, roughly 2,000 songs, offline Spotify / Amazon Music / Deezer plus sideloaded MP3",
+      "trainingPlatform": "Garmin Connect is free and every core training metric — Training Readiness, Training Load, Training Status, HRV Status, Body Battery, recovery time — is Firstbeat-derived and free on the watch (Garmin bought Firstbeat in 2020). Connect+ is $6.99/mo or $69.99/yr and adds only AI wellness prompts, 3D maps, Trails+ routing, extra badges and nutrition logging — nothing a training plan depends on. But Running Economy and Step Speed Loss — two of the 970's headline new metrics — do not work from the wrist at all: they require the separate HRM-600 chest strap, which DC Rainmaker calls an upsell.",
+      "externalSensors": "ANT+ and Bluetooth; HRM-200/HRM-600 straps, Stryd, power meters, Varia radar",
+      "dataExport": "Full .FIT file access over USB/MTP plus free automatic sync to Strava, TrainingPeaks, Runalyze, intervals.icu and others through Garmin Connect."
+    },
+    "scores": {
+      "gpsAccuracy": 9.0,
+      "batteryHonesty": 5.8,
+      "trainingFeatures": 9.4,
+      "navigation": 9.2,
+      "heartRate": 8.4,
+      "display": 9.4,
+      "buildComfort": 8.6,
+      "value": 6.8
+    },
+    "pros": [
+      "Real preloaded TopoActive maps with routing, not a breadcrumb — the reason to step up from the 570",
+      "Multi-band GNSS plus SatIQ gives one of the most reliable traces in the category",
+      "ECG, skin temperature, flashlight and a sapphire/titanium build in a 56 g case",
+      "Deepest free training stack of any watch here — Training Readiness, Load, HRV Status and Garmin Coach cost nothing"
+    ],
+    "cons": [
+      "Multiband battery is 21 h at most, and 15 h with always-on: the display, not the GNSS chip, is what kills it",
+      "Running Economy and Step Speed Loss require the extra HRM-600 chest strap — the watch alone cannot produce them",
+      "Sources disagree on the multiband figure (21 h vs 19 h), which is exactly the spec most buyers compare on",
+      "$749.99 buys less GPS runtime than a $429 Coros Apex 4 gives in its most accurate mode",
+      "DC Rainmaker recorded open-water swim HR errors not typical of previous Garmins"
+    ],
+    "images": [],
+    "amazonAsin": "B0F8QWPVNK",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-fenix-8-pro",
+      "coros-apex-4",
+      "suunto-race-2",
+      "garmin-forerunner-570"
+    ],
+    "useCases": [
+      "road-running",
+      "triathlon",
+      "trail-ultra",
+      "hiking-navigation"
+    ],
+    "shortTagline": "The complete running watch — maps, multiband, ECG — with an AMOLED battery tax."
+  },
+  {
+    "id": "gw-garmin-fenix-8-pro",
+    "categorySlug": "gps-running-watches",
+    "brand": "Garmin",
+    "series": "fenix",
+    "model": "Garmin fenix 8 Pro AMOLED Sapphire (47mm)",
+    "slug": "garmin-fenix-8-pro",
+    "releaseYear": 2025,
+    "price": 1199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Titanium / Black",
+      "Titanium / Pebble Gray"
+    ],
+    "material": "47 mm fiber-reinforced polymer case with titanium bezel and back, sapphire crystal lens, 56 g without band",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "ANT+",
+      "Wi-Fi",
+      "NFC (Garmin Pay)",
+      "LTE-M",
+      "Skylo satellite (inReach)"
+    ],
+    "features": [
+      "inReach satellite messaging and SOS built into the watch via Skylo",
+      "LTE-M for phone-free messaging, calls, LiveTrack and weather",
+      "Preloaded TopoActive maps, ski resorts and golf courses in 32 GB",
+      "Dive-rated to 40 m with a depth sensor, plus a built-in speaker and mic",
+      "ECG and Elevate Gen 5 optical HR"
+    ],
+    "specs": {
+      "displayType": "1.4-in 454x454 AMOLED, ~2,000 nits, sapphire lens, optional always-on",
+      "batterySmartwatchDays": 15,
+      "batteryAlwaysOn": "8 days with always-on display; GPS-only falls from 44 h to 33 h and all-systems+multiband from 30 h to 23 h. The 51 mm version is the one with the famous 27-day/78 h numbers — the 47 mm reviewed here is roughly half that.",
+      "batteryGpsSingleBandHours": 44,
+      "batteryGpsMultibandHours": 30,
+      "gnssBands": "Multi-band L1+L5 (GPS, GLONASS, Galileo, BeiDou, QZSS) with SatIQ",
+      "maps": "Preloaded TopoActive topographic maps with routing and turn-by-turn, free, 32 GB. Garmin Connect+ adds optional 3D topo rendering and Trails+ routing.",
+      "musicStorage": "32 GB with offline Spotify, Amazon Music, Deezer and local MP3/M4A",
+      "trainingPlatform": "Garmin Connect is free and every core training metric — Training Readiness, Training Load, Training Status, HRV Status, Body Battery, recovery time — is Firstbeat-derived and free on the watch (Garmin bought Firstbeat in 2020). Connect+ is $6.99/mo or $69.99/yr and adds only AI wellness prompts, 3D maps, Trails+ routing, extra badges and nutrition logging — nothing a training plan depends on. Separately, the satellite and LTE features are useless without a Garmin subscription: US plans run $7.99/mo (10 satellite messages) to $29.99/mo (unlimited) — a recurring cost on a $1,199.99 watch.",
+      "externalSensors": "ANT+ and Bluetooth; full sensor ecosystem including HRM-600, Varia, power meters",
+      "dataExport": "Full .FIT file access over USB/MTP plus free automatic sync to Strava, TrainingPeaks, Runalyze, intervals.icu and others through Garmin Connect."
+    },
+    "scores": {
+      "gpsAccuracy": 9.2,
+      "batteryHonesty": 6.4,
+      "trainingFeatures": 9.6,
+      "navigation": 9.6,
+      "heartRate": 8.4,
+      "display": 9.3,
+      "buildComfort": 8.0,
+      "value": 5.4
+    },
+    "pros": [
+      "Satellite SOS and messaging built in — no separate inReach device to carry on a remote run",
+      "The most complete navigation stack in the category: preloaded routable TopoActive maps, ClimbPro, 32 GB",
+      "44 h GPS-only and 30 h multiband on the 47 mm, with sapphire and titanium throughout",
+      "Dive-rated to 40 m with a real depth sensor, plus speaker and microphone for calls"
+    ],
+    "cons": [
+      "The satellite and LTE features that justify the 'Pro' name need a $7.99-$29.99/mo Garmin plan on top of $1,199.99",
+      "Buyers routinely quote the 51 mm's 27-day / 78 h figures for this watch: the 47 mm is 15 days and 44 h",
+      "Always-on display cuts multiband GPS from 30 h to 23 h and smartwatch mode from 15 to 8 days",
+      "Garmin announced the fenix 9 series on 25 August 2026, so this generation is about to be superseded",
+      "Roughly five times the price of a Coros Pace 4 that matches it on dual-frequency GNSS accuracy"
+    ],
+    "images": [],
+    "amazonAsin": "B0FPMHZYMN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-forerunner-970",
+      "coros-vertix-2s",
+      "suunto-vertical-2",
+      "polar-grit-x2"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "hiking-navigation",
+      "long-battery",
+      "triathlon"
+    ],
+    "shortTagline": "Satellite SOS on your wrist — if you keep paying the monthly plan that switches it on."
+  },
+  {
+    "id": "gw-garmin-instinct-3-solar",
+    "categorySlug": "gps-running-watches",
+    "brand": "Garmin",
+    "series": "Instinct",
+    "model": "Garmin Instinct 3 Solar (45mm)",
+    "slug": "garmin-instinct-3-solar",
+    "releaseYear": 2025,
+    "price": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "45 mm fiber-reinforced polymer case with metal-reinforced bezel, chemically strengthened lens, 52 g",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "ANT+",
+      "NFC (Garmin Pay)"
+    ],
+    "features": [
+      "Power Glass solar lens that can make smartwatch mode effectively unlimited",
+      "Multi-band L1+L5 GNSS with SatIQ, new to the Instinct line",
+      "Built-in LED flashlight with white and red modes",
+      "10 ATM water rating and MIL-STD-810 durability testing",
+      "Always-on transflective MIP display that needs no backlight in daylight"
+    ],
+    "specs": {
+      "displayType": "Monochrome 176x176 transflective MIP, always-on by design, no touchscreen — readable in direct sun and costs almost nothing to leave on",
+      "batterySmartwatchDays": 28,
+      "batteryAlwaysOn": "There is no always-on penalty: MIP is always on. With 3 h/day at 50,000 lux the solar lens makes smartwatch mode effectively unlimited and stretches multiband GPS from 24 h to about 60 h.",
+      "batteryGpsSingleBandHours": "Sources conflict: 40 h (the5krunner spec sheet, 45 mm, no solar) vs 50 h (garminrumors spec wiki, lower bound of its 45/50 mm range)",
+      "batteryGpsMultibandHours": 24,
+      "gnssBands": "Multi-band dual-frequency L1+L5 (GPS, GLONASS, Galileo, BeiDou, QZSS) with SatIQ — DC Rainmaker confirms every Instinct 3 got multiband",
+      "maps": "None. No offline maps and no route storage to speak of — DC Rainmaker called shipping a $400-plus outdoor watch without maps 'pretty hard to swallow'.",
+      "musicStorage": "None. No music storage, no streaming, no Wi-Fi — phone music control only.",
+      "trainingPlatform": "Garmin Connect is free and every core training metric — Training Readiness, Training Load, Training Status, HRV Status, Body Battery, recovery time — is Firstbeat-derived and free on the watch (Garmin bought Firstbeat in 2020). Connect+ is $6.99/mo or $69.99/yr and adds only AI wellness prompts, 3D maps, Trails+ routing, extra badges and nutrition logging — nothing a training plan depends on.",
+      "externalSensors": "ANT+ and Bluetooth chest straps, pods and power meters",
+      "dataExport": "Full .FIT file access over USB/MTP plus free automatic sync to Strava, TrainingPeaks, Runalyze, intervals.icu and others through Garmin Connect."
+    },
+    "scores": {
+      "gpsAccuracy": 8.6,
+      "batteryHonesty": 9.2,
+      "trainingFeatures": 7.8,
+      "navigation": 2.8,
+      "heartRate": 7.2,
+      "display": 6.4,
+      "buildComfort": 8.2,
+      "value": 7.0
+    },
+    "pros": [
+      "MIP plus solar is the one combination here where the headline battery figure is close to what you actually get",
+      "Multi-band L1+L5 GNSS at $399.99, in a 10 ATM, MIL-STD-810 tested case",
+      "Solar can push smartwatch mode to effectively unlimited and multiband GPS from 24 h to about 60 h",
+      "No always-on display penalty at all — the screen is transflective and permanently visible"
+    ],
+    "cons": [
+      "No offline maps and no music storage, on a watch that costs as much as an Amazfit T-Rex 3 Pro that has both",
+      "Storage is the reason: sources conflict badly — the garminrumors wiki says 32 GB while DC Rainmaker and Tom's Guide report roughly 120-128 MB on Solar models, too small even to hold a firmware update alongside courses",
+      "Multiband drops runtime to 24 h without sun — a quarter of the 100 h Max Battery GPS headline",
+      "Older Elevate Gen 4 optical HR sensor, not the Gen 5 in cheaper Garmins",
+      "Monochrome 176x176 MIP screen looks a decade old next to every AMOLED rival, and there is no touchscreen"
+    ],
+    "images": [],
+    "amazonAsin": "B0DSG9VCRH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazfit-t-rex-3-pro",
+      "coros-apex-4",
+      "suunto-vertical-2",
+      "garmin-forerunner-170"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "long-battery",
+      "hiking-navigation"
+    ],
+    "shortTagline": "The honest battery watch: MIP plus solar, but no maps and no music at $400."
+  },
+  {
+    "id": "gw-coros-apex-4",
+    "categorySlug": "gps-running-watches",
+    "brand": "COROS",
+    "series": "APEX",
+    "model": "COROS APEX 4 (42mm)",
+    "slug": "coros-apex-4",
+    "releaseYear": 2025,
+    "price": 429.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Grade 5 titanium bezel, sapphire glass, composite backplate; 44 g with nylon band (42 mm)",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi"
+    ],
+    "features": [
+      "Free global offline topographic maps with street and trail names",
+      "Titanium bezel and sapphire glass at $429",
+      "Dual-frequency GNSS chipset with a dual-range barometer",
+      "Microphone and speaker for voice notes and call audio",
+      "3rd-generation always-on MIP display"
+    ],
+    "specs": {
+      "displayType": "1.2-in 240x240 3rd-gen transflective MIP, always-on, no AMOLED battery penalty — but DC Rainmaker and Tom's Guide both call it dim indoors and in low light",
+      "batterySmartwatchDays": 15,
+      "batteryAlwaysOn": "No always-on penalty — the MIP screen is permanently on. (The 46 mm version is rated 24 days smartwatch and 65 h all-systems GPS if you want the bigger numbers.)",
+      "batteryGpsSingleBandHours": 41,
+      "batteryGpsMultibandHours": "Not published by COROS for the 42 mm in any source reviewed here. For reference the 46 mm is rated 65 h all-systems vs 41 h dual-frequency — expect a similar ~35-40% drop.",
+      "gnssBands": "Dual-frequency L1+L5 chipset covering GPS, GLONASS, Galileo, BeiDou and QZSS. DC Rainmaker warns GPS accuracy degrades noticeably when route navigation is running.",
+      "maps": "Free global offline topographic and landscape maps with street/trail names and POIs, downloaded through the COROS app, plus turn-by-turn on preloaded routes. No ClimbPro equivalent and no automatic rerouting.",
+      "musicStorage": "MP3 files only, sideloaded. No streaming services and no phone-music control.",
+      "trainingPlatform": "COROS app and EvoLab analytics are entirely free, no subscription tier. COROS' own metrics, not Firstbeat.",
+      "externalSensors": "Bluetooth only — no ANT+ at all, which rules out ANT+-only power meters",
+      "dataExport": "Free .FIT/GPX export plus auto-sync to Strava, TrainingPeaks, Apple Health and Health Connect"
+    },
+    "scores": {
+      "gpsAccuracy": 8.0,
+      "batteryHonesty": 8.8,
+      "trainingFeatures": 7.8,
+      "navigation": 7.8,
+      "heartRate": 7.4,
+      "display": 6.2,
+      "buildComfort": 8.6,
+      "value": 8.6
+    },
+    "pros": [
+      "Free global offline topo maps with street and trail names at $429 — Garmin charges $749.99 before you get maps",
+      "Titanium bezel and sapphire glass at a price where rivals use aluminium and Gorilla Glass",
+      "MIP means the 41 h all-systems figure is what you get, with no always-on display tax",
+      "Two years of warranty and zero subscriptions anywhere in the platform"
+    ],
+    "cons": [
+      "COROS does not publish a dual-frequency battery figure for the 42 mm, and dual-frequency is where accuracy actually lives",
+      "DC Rainmaker measured a real GPS accuracy drop when a route is loaded and navigation is active",
+      "MIP display is dim indoors and at night compared with every AMOLED rival here",
+      "No ANT+, no NFC payments and no LED flashlight",
+      "The depth gauge has no certification and cannot record dives to the app, and there are no dive sport profiles"
+    ],
+    "images": [],
+    "amazonAsin": "B0FR92Z7C6",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-instinct-3-solar",
+      "suunto-race-2",
+      "garmin-forerunner-970",
+      "coros-vertix-2s"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "hiking-navigation",
+      "long-battery"
+    ],
+    "shortTagline": "Free offline topo maps and a titanium bezel for $429 — with a screen you fight in low light."
+  },
+  {
+    "id": "gw-coros-vertix-2s",
+    "categorySlug": "gps-running-watches",
+    "brand": "COROS",
+    "series": "VERTIX",
+    "model": "COROS VERTIX 2S (50mm)",
+    "slug": "coros-vertix-2s",
+    "releaseYear": 2024,
+    "price": 699.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Noon Silver"
+    ],
+    "material": "Fiber-reinforced polymer case with PVD-coated Grade 5 titanium bezel and sapphire lens; 85 g with silicone band, 68 g with nylon",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi"
+    ],
+    "features": [
+      "118 h of GPS on a single charge in standard mode",
+      "Global offline topographic maps with turn-by-turn, free, in 32 GB",
+      "Dual-frequency all-satellite tracking",
+      "10 ATM water rating for open-water swimming",
+      "Always-on 1.4-in sapphire MIP touchscreen"
+    ],
+    "specs": {
+      "displayType": "1.4-in 280x280 transflective MIP touchscreen, always-on, sapphire lens",
+      "batterySmartwatchDays": "Sources conflict: 40 days (COROS spec sheet and the Amazon listing title) vs 36 days (COROS' current vertix2s product page)",
+      "batteryAlwaysOn": "No always-on penalty — MIP is permanently on. This is why the VERTIX 2S posts numbers no AMOLED watch here can approach.",
+      "batteryGpsSingleBandHours": 118,
+      "batteryGpsMultibandHours": 43,
+      "gnssBands": "All-satellite dual-frequency L1+L5 (GPS, GLONASS, Galileo, BeiDou, QZSS). The three published tiers are 118 h standard GPS, 73 h all-systems and 43 h dual-frequency.",
+      "maps": "Global offline landscape and topographic maps with turn-by-turn directions, free, stored in 32 GB",
+      "musicStorage": "MP3 playback to Bluetooth headphones from the 32 GB store. No streaming services.",
+      "trainingPlatform": "COROS app and EvoLab are free with no paid tier. COROS' own analytics, not Firstbeat-licensed.",
+      "externalSensors": "Bluetooth only — no ANT+",
+      "dataExport": "Free .FIT/GPX export and auto-sync to Strava, TrainingPeaks, Nike Run Club, Apple Health"
+    },
+    "scores": {
+      "gpsAccuracy": 8.4,
+      "batteryHonesty": 7.4,
+      "trainingFeatures": 8.0,
+      "navigation": 8.4,
+      "heartRate": 7.4,
+      "display": 6.6,
+      "buildComfort": 6.8,
+      "value": 8.0
+    },
+    "pros": [
+      "118 h of GPS is the longest single-charge figure in this comparison by a wide margin",
+      "Free global offline topo maps with turn-by-turn in 32 GB, plus MP3 music storage",
+      "MIP and sapphire mean the battery claims survive the way you actually use the watch",
+      "Titanium bezel, 10 ATM rating and a two-year warranty with no subscription anywhere"
+    ],
+    "cons": [
+      "The famous 118 h is standard single-band GPS. Switch to the dual-frequency mode you bought it for and it is 43 h — a 63% cut",
+      "COROS' own figures disagree on smartwatch life: the spec sheet says 40 days, the current product page says 36",
+      "85 g and 50.3 mm wide with a 16.3 mm case — genuinely large on a smaller wrist",
+      "No ANT+, no NFC payments, no streaming music",
+      "MIP screen is dim in low light next to the AMOLED watches at this price"
+    ],
+    "images": [],
+    "amazonAsin": "B0D12865TW",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-fenix-8-pro",
+      "suunto-vertical-2",
+      "coros-apex-4",
+      "polar-grit-x2"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "long-battery",
+      "hiking-navigation"
+    ],
+    "shortTagline": "118 hours of GPS — as long as you never turn the dual-frequency mode on."
+  },
+  {
+    "id": "gw-polar-grit-x2",
+    "categorySlug": "gps-running-watches",
+    "brand": "Polar",
+    "series": "Grit X",
+    "model": "Polar Grit X2 (45mm)",
+    "slug": "polar-grit-x2",
+    "releaseYear": 2025,
+    "price": 799.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Reinforced polymer case with stainless steel bezel and sapphire crystal lens; 62 g with strap, 39 g without",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth LE",
+      "Wi-Fi"
+    ],
+    "features": [
+      "Preloaded offline TOPO maps for North America and Europe",
+      "ECG, SpO2 and skin-temperature sensing alongside Elixir Gen 4 optical HR",
+      "MIL-STD-810H tested with sapphire crystal",
+      "Polar Flow training platform with no subscription of any kind",
+      "Dual-frequency GNSS"
+    ],
+    "specs": {
+      "displayType": "1.28-in 416x416 AMOLED with sapphire lens, optional always-on",
+      "batterySmartwatchDays": 7,
+      "batteryAlwaysOn": "Polar does not publish a separate always-on smartwatch figure in the sources reviewed; the headline 7 days is already the shortest smartwatch runtime in this comparison",
+      "batteryGpsSingleBandHours": 90,
+      "batteryGpsMultibandHours": 30,
+      "gnssBands": "Dual-frequency GNSS (GPS, GLONASS, Galileo, BeiDou, QZSS). The 90 h figure is Eco training mode with reduced fixes; 30 h is the full Performance mode with GPS and wrist HR running.",
+      "maps": "Offline TOPO maps for North America and Europe preloaded, with contour and POI layers; other regions download free. No on-device rerouting, and the compass must be calibrated before navigation.",
+      "musicStorage": "None. The watch controls phone music only — there is no on-device storage and no streaming.",
+      "trainingPlatform": "Polar Flow app and web are genuinely free with no paid tier. Training Load Pro, Nightly Recharge, Sleep Plus Stages and FitSpark are Polar's own science, not Firstbeat-licensed.",
+      "externalSensors": "Bluetooth LE only — no ANT+, so ANT+-only power meters and older straps will not pair. A Polar H10 chest strap is the recommended fix for the wrist sensor.",
+      "dataExport": "Free .FIT/TCX/GPX export from Polar Flow plus automatic sync to Strava, TrainingPeaks and Komoot"
+    },
+    "scores": {
+      "gpsAccuracy": 8.0,
+      "batteryHonesty": 6.0,
+      "trainingFeatures": 8.2,
+      "navigation": 7.0,
+      "heartRate": 5.0,
+      "display": 8.8,
+      "buildComfort": 8.8,
+      "value": 4.8
+    },
+    "pros": [
+      "Preloaded free offline TOPO maps for North America and Europe, with sapphire and a steel bezel",
+      "Polar Flow is completely free — no subscription tier exists, unlike Garmin Connect+",
+      "62 g with strap and MIL-STD-810H tested, one of the most comfortable big outdoor watches here",
+      "ECG, SpO2 and skin temperature on top of Polar's well-regarded Nightly Recharge recovery model"
+    ],
+    "cons": [
+      "DC Rainmaker's optical HR testing was damning: it 'missed every single interval' on 400 m repeats and recorded 3,100 m for a ~1,900 m open-water swim. Budget for an H10 chest strap.",
+      "7 days of smartwatch battery is the shortest in this comparison, and 30 h in full Performance mode is beaten by a $249 Coros",
+      "No music storage at all on a $799.99 watch",
+      "Bluetooth only — no ANT+ support",
+      "Navigation demands a compass calibration first, and turn-by-turn has to be switched on manually after picking a route"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "suunto-vertical-2",
+      "garmin-fenix-8-pro",
+      "coros-vertix-2s",
+      "suunto-race-2"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "hiking-navigation",
+      "road-running"
+    ],
+    "shortTagline": "Beautiful, subscription-free and comfortable — undone by wrist HR that misses intervals."
+  },
+  {
+    "id": "gw-suunto-race-2",
+    "categorySlug": "gps-running-watches",
+    "brand": "Suunto",
+    "series": "Race",
+    "model": "Suunto Race 2 (stainless steel)",
+    "slug": "suunto-race-2",
+    "releaseYear": 2025,
+    "price": 499.0,
+    "currency": "USD",
+    "colorOptions": [
+      "All Black",
+      "Coral Orange"
+    ],
+    "material": "Glass-fibre reinforced polyamide case with stainless steel bezel and sapphire crystal; 76 g, 49 mm",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi"
+    ],
+    "features": [
+      "Free worldwide offline maps in 32 GB, downloaded over Wi-Fi without a cable",
+      "Dual-band L1+L5 GNSS with 55 h of runtime in that mode",
+      "1.5-in 466x466 AMOLED with sapphire crystal",
+      "115+ sport modes and 300+ partner integrations",
+      "100 m water resistance"
+    ],
+    "specs": {
+      "displayType": "1.5-in 466x466 AMOLED touchscreen with sapphire lens, optional always-on",
+      "batterySmartwatchDays": "18 days with wrist HR on, 30 days in standby (Suunto). DC Rainmaker's review quotes up to 16 days — sources conflict.",
+      "batteryAlwaysOn": "Dual-band training time falls from 55 h to 50 h with the always-on display, per Wareable's testing notes — a smaller penalty than most AMOLED rivals",
+      "batteryGpsSingleBandHours": 65,
+      "batteryGpsMultibandHours": 55,
+      "gnssBands": "Dual-band L1+L5. Suunto publishes 55 h in the dual-band Performance mode, 65 h single-band and 200 h in the power-saving Tour mode.",
+      "maps": "Free offline topographic maps for most of the world in 32 GB, downloaded over Wi-Fi with no cable and no charge. Maps are split into small regions (France alone is 27 sections) and there is no automatic rerouting — off-course you get compass guidance only.",
+      "musicStorage": "None. No on-device music storage and no streaming; DC Rainmaker notes Suunto appears to be building toward it but it does not exist today.",
+      "trainingPlatform": "Suunto app is free with no subscription tier. Training analytics are Suunto's own; the watch also carries the Suunto Coach guidance layer at no cost.",
+      "externalSensors": "Bluetooth sensors with multiple saved pairings — no ANT+",
+      "dataExport": "Free .FIT export and automatic sync to Strava, TrainingPeaks, Komoot and 300+ partner services"
+    },
+    "scores": {
+      "gpsAccuracy": 8.2,
+      "batteryHonesty": 8.6,
+      "trainingFeatures": 7.4,
+      "navigation": 8.0,
+      "heartRate": 7.6,
+      "display": 9.2,
+      "buildComfort": 8.0,
+      "value": 8.4
+    },
+    "pros": [
+      "55 h in the accurate dual-band mode — more than double what a Forerunner 570 manages at $50 more",
+      "Free worldwide offline maps in 32 GB, downloadable over Wi-Fi with no cable and no fee",
+      "1.5-in 466x466 AMOLED behind sapphire crystal at $499",
+      "DC Rainmaker rates the new optical HR sensor a 'massive improvement' and within the acceptable range for training"
+    ],
+    "cons": [
+      "No music storage whatsoever — no MP3, no Spotify, nothing",
+      "Suunto's 18-day smartwatch figure and DC Rainmaker's 16-day figure do not agree",
+      "No automatic rerouting when you leave a course, and trails vanish from the map above roughly the 0.2-mile zoom level",
+      "Bluetooth only — no ANT+ sensors",
+      "DC Rainmaker measured a small GPS accuracy regression versus the original Race and Vertical"
+    ],
+    "images": [],
+    "amazonAsin": "B0FJYB53ZB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-forerunner-570",
+      "coros-pace-4",
+      "polar-grit-x2",
+      "garmin-forerunner-970"
+    ],
+    "useCases": [
+      "road-running",
+      "trail-ultra",
+      "triathlon"
+    ],
+    "shortTagline": "55 hours of multiband GPS and free world maps for $499 — but not one song on board."
+  },
+  {
+    "id": "gw-suunto-vertical-2",
+    "categorySlug": "gps-running-watches",
+    "brand": "Suunto",
+    "series": "Vertical",
+    "model": "Suunto Vertical 2 (stainless steel)",
+    "slug": "suunto-vertical-2",
+    "releaseYear": 2025,
+    "price": 599.0,
+    "currency": "USD",
+    "colorOptions": [
+      "All Black"
+    ],
+    "material": "Glass-fibre reinforced polyamide case with stainless steel bezel and sapphire crystal; 87 g steel (74 g titanium at $699)",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi"
+    ],
+    "features": [
+      "65 h of dual-band GPS, 250 h in Tour mode",
+      "Free worldwide offline maps in 32 GB, no pre-loading required",
+      "1.5-in LTPO AMOLED at ~2,000 nits behind sapphire",
+      "Bezel-integrated LED flashlight with two white LEDs and one red",
+      "Automatic climb tracking with elevation profiles"
+    ],
+    "specs": {
+      "displayType": "1.5-in 466x466 LTPO AMOLED, ~2,000 nits, sapphire lens, optional always-on",
+      "batterySmartwatchDays": 20,
+      "batteryAlwaysOn": "Suunto does not publish a separate always-on smartwatch number; DC Rainmaker measured about 50 h of real use with dual-frequency, always-on display and navigation all running against a 65 h claim",
+      "batteryGpsSingleBandHours": 75,
+      "batteryGpsMultibandHours": 65,
+      "gnssBands": "Dual-band L1+L5 Sony chipset. Four published tiers: 65 h Performance (dual-band), 75 h Endurance (single-band all systems), 110 h Ultra (single-band, wrist HR off) and 250 h Tour (GPS only, 2-minute logging).",
+      "maps": "Free worldwide offline maps in 32 GB, downloadable over Wi-Fi without pre-loading, with turn-by-turn (which must be enabled manually for third-party routes) and automatic climb guidance. Practically limited to roughly 10-12 stored routes despite the 32 GB.",
+      "musicStorage": "None. No on-device storage and no streaming; Bluetooth headphones are supported for turn prompts only.",
+      "trainingPlatform": "Suunto app is free with no subscription tier; analytics are Suunto's own",
+      "externalSensors": "Bluetooth with multiple simultaneous saved sensor pairings — no ANT+",
+      "dataExport": "Free .FIT export and automatic sync to Strava, TrainingPeaks, Komoot and 300+ partner apps"
+    },
+    "scores": {
+      "gpsAccuracy": 8.8,
+      "batteryHonesty": 8.2,
+      "trainingFeatures": 7.4,
+      "navigation": 8.6,
+      "heartRate": 7.6,
+      "display": 9.4,
+      "buildComfort": 7.0,
+      "value": 8.6
+    },
+    "pros": [
+      "65 h of dual-band GPS on an AMOLED watch — no other AMOLED here comes close in the accurate mode",
+      "Free worldwide offline maps in 32 GB, downloaded straight over Wi-Fi with no cable and no charge",
+      "A bright LTPO AMOLED behind sapphire, plus a bezel-integrated flashlight, for $599",
+      "DC Rainmaker rates GPS accuracy excellent across difficult terrain"
+    ],
+    "cons": [
+      "87 g in the steel version reviewed here — the titanium at $699 saves 13 g",
+      "No music storage of any kind on a $599 watch",
+      "Only about 10-12 routes can be stored in practice despite 32 GB, and turn-by-turn needs manual enabling for imported routes",
+      "Real-world dual-frequency runtime with always-on and navigation running measured about 50 h, not 65 h",
+      "Bluetooth only — no ANT+ sensor support"
+    ],
+    "images": [],
+    "amazonAsin": "B0FNMNMBHN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "coros-vertix-2s",
+      "polar-grit-x2",
+      "garmin-fenix-8-pro",
+      "amazfit-t-rex-3-pro"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "hiking-navigation",
+      "long-battery"
+    ],
+    "shortTagline": "The AMOLED that finally posts MIP-class multiband battery — 65 hours, free world maps."
+  },
+  {
+    "id": "gw-amazfit-t-rex-3-pro",
+    "categorySlug": "gps-running-watches",
+    "brand": "Amazfit",
+    "series": "T-Rex",
+    "model": "Amazfit T-Rex 3 Pro (48mm)",
+    "slug": "amazfit-t-rex-3-pro",
+    "releaseYear": 2025,
+    "price": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Titanium-alloy bezel with sapphire crystal lens; approximately 49 g without strap (48 mm)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.2",
+      "Wi-Fi"
+    ],
+    "features": [
+      "3,000-nit 1.5-in AMOLED behind sapphire crystal",
+      "Free offline contour maps with turn-by-turn, POI search and auto-rerouting",
+      "10 ATM plus EN13319 freediving certification to 45 m",
+      "Dual-band GNSS with 38 h of precision GPS",
+      "Zepp OS apps for TrainingPeaks, Stryd and Wild.AI"
+    ],
+    "specs": {
+      "displayType": "1.5-in AMOLED, up to 3,000 nits, sapphire crystal lens, optional always-on",
+      "batterySmartwatchDays": 25,
+      "batteryAlwaysOn": "Amazfit's 25-day figure is typical use; heavy use is rated 10 days and one reviewer measured about 18 days alongside 14 h of accurate GPS. Amazfit does not publish a separate always-on display figure.",
+      "batteryGpsSingleBandHours": 85,
+      "batteryGpsMultibandHours": 38,
+      "gnssBands": "Dual-band (L1+L5) circularly-polarised GNSS. The 85 h headline is the power-saving GPS mode; the accurate dual-band mode is 37-38 h on the 48 mm and about 29 h on the 44 mm.",
+      "maps": "Free offline contour maps with turn-by-turn, POI search, round-trip routing and auto-rerouting — but you must select and download each map region inside the Zepp phone app and transfer it across. Android Police called the process 'messy and time-consuming' with vague instructions.",
+      "musicStorage": "Onboard storage for sideloaded MP3 files played to Bluetooth headphones. No Spotify and no streaming services.",
+      "trainingPlatform": "The Zepp app and core training/recovery metrics are free. Zepp Aura, the AI sleep and coaching layer, is a paid subscription; the training data itself is not gated behind it.",
+      "externalSensors": "Bluetooth only — no ANT+. BLE chest straps and Stryd pods pair through Zepp OS.",
+      "dataExport": "Free sync to Strava, adidas Running, Apple Health and Google Health Connect, plus a TrainingPeaks Zepp OS app; .FIT export via the Zepp app"
+    },
+    "scores": {
+      "gpsAccuracy": 7.8,
+      "batteryHonesty": 7.6,
+      "trainingFeatures": 6.8,
+      "navigation": 7.2,
+      "heartRate": 6.8,
+      "display": 9.5,
+      "buildComfort": 6.4,
+      "value": 9.0
+    },
+    "pros": [
+      "38 h of dual-band GPS and 25 days of typical use for $399.99 — Garmin charges $1,199.99 for 30 h of multiband",
+      "A 3,000-nit AMOLED behind sapphire with a titanium-alloy bezel at half the price of rivals with those materials",
+      "Free offline contour maps with genuine auto-rerouting, which even the $749.99 Forerunner 970 does not beat on price",
+      "10 ATM plus EN13319 freediving certification to 45 m, unusual at any price"
+    ],
+    "cons": [
+      "Maps must be picked and downloaded region-by-region in the Zepp phone app then transferred — reviewers describe the process as messy and poorly documented",
+      "The 85 h battery headline is the power-saving GPS mode; the dual-band mode you would actually race on is 38 h",
+      "No ANT+ and no Spotify or any streaming service — sideloaded MP3 only",
+      "Zepp's software ecosystem and analytics are a clear step behind Garmin and COROS, and the app is cluttered",
+      "48 mm and chunky; reviewers found it too bulky for 24-hour wear"
+    ],
+    "images": [],
+    "amazonAsin": "B0FM2DDQ21",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-instinct-3-solar",
+      "suunto-vertical-2",
+      "coros-apex-4",
+      "garmin-forerunner-170"
+    ],
+    "useCases": [
+      "trail-ultra",
+      "hiking-navigation",
+      "long-battery"
+    ],
+    "shortTagline": "Flagship materials, maps and 38 h of dual-band GPS for $399 — with clumsy map downloads."
+  }
+]

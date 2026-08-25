@@ -1129,6 +1129,173 @@ export const categories: Category[] = [
       { slug: 'cold-spaces', label: 'Cold Spaces (Under 60°F)', kind: 'use-case' },
       { slug: 'crawl-space', label: 'Crawl Space', kind: 'use-case' }
     ]
+  },
+  {
+    slug: 'smartwatches',
+    name: 'Smartwatch',
+    pluralName: 'Smartwatches',
+    description:
+      'General-purpose smartwatches compared on the things that actually decide it — which phones they really work with, what the battery claim assumes, which health features are switched on in the US, and what sits behind a subscription.',
+    specFields: [
+      { key: 'phoneCompatibility', label: 'Phone Compatibility', betterDirection: 'none' },
+      { key: 'batteryHours', label: 'Claimed Battery Life', unit: 'hrs', betterDirection: 'higher' },
+      { key: 'batteryAssumption', label: 'What the Battery Claim Assumes', betterDirection: 'none' },
+      { key: 'caseSize', label: 'Case Size', unit: 'mm', betterDirection: 'none' },
+      { key: 'displayType', label: 'Display', betterDirection: 'none' },
+      { key: 'os', label: 'Operating System', betterDirection: 'none' },
+      { key: 'appEcosystem', label: 'Third-Party Apps', betterDirection: 'none' },
+      { key: 'healthSensorsUS', label: 'Health Features Enabled in the US', betterDirection: 'none' },
+      { key: 'subscription', label: 'Subscription Wall', betterDirection: 'none' },
+      { key: 'lteOption', label: 'LTE Option', betterDirection: 'none' },
+      { key: 'waterRating', label: 'Water & Dust Rating', betterDirection: 'none' },
+      { key: 'batteryService', label: 'Battery Replacement', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'battery', label: 'Battery Life', description: 'Real endurance between charges, judged against what the claim actually assumes rather than the headline number' },
+      { key: 'health', label: 'Health Tracking', description: 'Depth of heart, sleep and body metrics that are genuinely enabled and cleared for use in the US' },
+      { key: 'fitness', label: 'Fitness & GPS', description: 'Workout tracking, GPS accuracy, sport modes and training analysis' },
+      { key: 'ecosystemFreedom', label: 'Ecosystem Freedom', description: 'The category\'s trap dimension: how much of the watch still works on a phone other than the maker\'s own. 10 means full parity on iOS and Android; 1 means one phone brand or nothing' },
+      { key: 'apps', label: 'App Ecosystem', description: 'Whether there is a real third-party app store on the wrist or a handful of proprietary mini-apps' },
+      { key: 'display', label: 'Display', description: 'Panel type, brightness, always-on behaviour and legibility in sunlight' },
+      { key: 'build', label: 'Build & Durability', description: 'Case and glass materials, water and dust ratings, and how well it survives daily wear' },
+      { key: 'value', label: 'Value', description: 'What you get for the money once LTE upcharges and subscriptions are counted in' }
+    ],
+    filters: [
+      { slug: 'under-100', label: 'Under $100', kind: 'price-max', value: 100 },
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'under-450', label: 'Under $450', kind: 'price-max', value: 450 },
+      { slug: 'under-600', label: 'Under $600', kind: 'price-max', value: 600 },
+      { slug: 'iphone', label: 'Works with iPhone', kind: 'use-case' },
+      { slug: 'android', label: 'Works with Android', kind: 'use-case' },
+      { slug: 'long-battery', label: 'Long Battery Life', kind: 'use-case' },
+      { slug: 'heart-health', label: 'Heart Health & ECG', kind: 'use-case' },
+      { slug: 'outdoors', label: 'Outdoors & Rugged', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'fitness-trackers',
+    name: 'Fitness Tracker',
+    pluralName: 'Fitness Trackers',
+    description:
+      'Fitness bands compared on what actually decides the purchase: built-in GPS versus borrowing your phone\'s, what each metric costs behind a subscription, honest battery assumptions and data export.',
+    specFields: [
+      { key: 'gpsType', label: 'GPS', betterDirection: 'none' },
+      { key: 'displayType', label: 'Display', betterDirection: 'none' },
+      { key: 'batteryLifeDays', label: 'Rated Battery Life', unit: ' days', betterDirection: 'higher' },
+      { key: 'batteryAssumptions', label: 'What the Battery Claim Assumes', betterDirection: 'none' },
+      { key: 'subscriptionModel', label: 'Subscription Model', betterDirection: 'none' },
+      { key: 'annualSubscriptionUsd', label: 'Annual Subscription Cost', unit: '$', betterDirection: 'lower' },
+      { key: 'waterRating', label: 'Water Resistance', betterDirection: 'none' },
+      { key: 'ecgAfibStatus', label: 'ECG / AFib & FDA Status', betterDirection: 'none' },
+      { key: 'spo2Sensor', label: 'SpO2 Sensor', betterDirection: 'none' },
+      { key: 'phoneCompatibility', label: 'Phone Compatibility', betterDirection: 'none' },
+      { key: 'chargerType', label: 'Charger', betterDirection: 'none' },
+      { key: 'dataExport', label: 'Data Export', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'trackingAccuracy', label: 'Tracking Accuracy', description: 'How closely steps, heart rate and sleep match reference devices — and how badly the optical sensor falls apart at high intensity.' },
+      { key: 'subscriptionFreedom', label: 'Subscription Freedom', description: 'The category\'s trap dimension: how much of what you paid for keeps working without a membership. A 10 means nothing is paywalled; a 1 means the hardware is unusable the moment you stop paying.' },
+      { key: 'gpsIndependence', label: 'Phone Independence', description: 'How much the device can do with the phone left at home — a real GPS chip and on-wrist readouts score high, connected-GPS screenless bands score low.' },
+      { key: 'batteryLife', label: 'Battery Life', description: 'Real endurance once continuous heart rate, SpO2 and the always-on display are enabled, not just the headline figure.' },
+      { key: 'displayUsability', label: 'Display & Usability', description: 'Screen size, brightness and how much you can actually read on the wrist mid-workout.' },
+      { key: 'healthFeatures', label: 'Health Features', description: 'Depth of the health sensor suite and how much of it is FDA-cleared and enabled in the US.' },
+      { key: 'appAndData', label: 'App & Data Portability', description: 'Quality of the companion app and whether you can get your own data out in a documented format.' },
+      { key: 'value', label: 'Value', description: 'What the first year genuinely costs — purchase price plus any subscription needed for the advertised features.' }
+    ],
+    filters: [
+      { slug: 'under-75', label: 'Under $75', kind: 'price-max', value: 75 },
+      { slug: 'under-125', label: 'Under $125', kind: 'price-max', value: 125 },
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'no-subscription', label: 'No Subscription', kind: 'use-case' },
+      { slug: 'built-in-gps', label: 'Built-in GPS', kind: 'use-case' },
+      { slug: 'screenless', label: 'Screenless', kind: 'use-case' },
+      { slug: 'sleep-recovery', label: 'Sleep & Recovery', kind: 'use-case' },
+      { slug: 'everyday-steps', label: 'Everyday Step Tracking', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'gps-running-watches',
+    name: 'GPS Running Watch',
+    pluralName: 'GPS Running Watches',
+    description:
+      'Multisport GPS watches compared on the specs that actually decide it: multiband L1+L5 accuracy, battery life in each GNSS mode, real offline maps, AMOLED vs MIP, chest-strap support and what costs a subscription.',
+    specFields: [
+      { key: 'displayType', label: 'Display', betterDirection: 'none' },
+      { key: 'batterySmartwatchDays', label: 'Smartwatch Battery', unit: ' days', betterDirection: 'higher' },
+      { key: 'batteryAlwaysOn', label: 'Always-On Display Cost', betterDirection: 'none' },
+      { key: 'batteryGpsSingleBandHours', label: 'Battery, Single-Band GPS', unit: ' h', betterDirection: 'higher' },
+      { key: 'batteryGpsMultibandHours', label: 'Battery, Multiband GPS', unit: ' h', betterDirection: 'higher' },
+      { key: 'gnssBands', label: 'GNSS Bands', betterDirection: 'none' },
+      { key: 'maps', label: 'Onboard Maps', betterDirection: 'none' },
+      { key: 'musicStorage', label: 'Music Storage', betterDirection: 'none' },
+      { key: 'trainingPlatform', label: 'Training Platform & Subscription', betterDirection: 'none' },
+      { key: 'externalSensors', label: 'External Sensor Support', betterDirection: 'none' },
+      { key: 'dataExport', label: 'Data Export', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'gpsAccuracy', label: 'GPS Accuracy', description: 'Trace quality in cities and under tree cover — multiband L1+L5 hardware plus what independent testers measured in the real world.' },
+      { key: 'batteryHonesty', label: 'Battery Honesty', description: 'How much of the headline battery claim survives the mode you would actually train in: all-systems plus multiband, always-on display, music playing. The number on the box is almost always the slowest, least accurate mode.' },
+      { key: 'trainingFeatures', label: 'Training & Recovery', description: 'Depth of load, readiness and recovery analysis, and how much of it is free rather than gated behind a subscription or an extra chest strap.' },
+      { key: 'navigation', label: 'Navigation & Maps', description: 'Real routable offline topographic maps versus a breadcrumb line, plus how painful it is to get maps onto the watch.' },
+      { key: 'heartRate', label: 'Heart Rate', description: 'Optical wrist accuracy during intervals and burst efforts, and whether the watch pairs with ANT+ and/or Bluetooth chest straps as a fix.' },
+      { key: 'display', label: 'Display', description: 'Brightness, resolution and daylight readability, weighing AMOLED sharpness against MIP\'s always-on-for-free behaviour.' },
+      { key: 'buildComfort', label: 'Build & Comfort', description: 'Case materials, lens (sapphire vs glass), weight on the wrist and durability ratings.' },
+      { key: 'value', label: 'Value', description: 'What the watch delivers per dollar against everything else in the comparison at the moment of purchase.' }
+    ],
+    filters: [
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'under-500', label: 'Under $500', kind: 'price-max', value: 500 },
+      { slug: 'under-750', label: 'Under $750', kind: 'price-max', value: 750 },
+      { slug: 'under-1200', label: 'Under $1,200', kind: 'price-max', value: 1200 },
+      { slug: 'road-running', label: 'Road Running', kind: 'use-case' },
+      { slug: 'trail-ultra', label: 'Trail & Ultra', kind: 'use-case' },
+      { slug: 'triathlon', label: 'Triathlon', kind: 'use-case' },
+      { slug: 'hiking-navigation', label: 'Hiking & Navigation', kind: 'use-case' },
+      { slug: 'long-battery', label: 'Long Battery', kind: 'use-case' }
+    ]
+  },
+  {
+    slug: 'smart-rings',
+    name: 'Smart Ring',
+    pluralName: 'Smart Rings',
+    description:
+      'Smart rings compared on the things that decide the purchase: the subscription, the true three-year cost, how many sizes exist, battery life under real sensing, and what is measured versus merely inferred.',
+    specFields: [
+      { key: 'batteryLifeDays', label: 'Battery Life (claimed)', unit: 'days', betterDirection: 'higher' },
+      { key: 'batteryAssumptions', label: 'Battery, In Practice', betterDirection: 'none' },
+      { key: 'subscriptionModel', label: 'Subscription', betterDirection: 'none' },
+      { key: 'threeYearCostUsd', label: '3-Year Cost of Ownership', unit: '$', betterDirection: 'lower' },
+      { key: 'sizeRange', label: 'Sizes Offered', betterDirection: 'none' },
+      { key: 'sizingKit', label: 'Sizing Kit', betterDirection: 'none' },
+      { key: 'returnExchange', label: 'Returns & Size Exchange', betterDirection: 'none' },
+      { key: 'sensorReality', label: 'Measured vs Inferred', betterDirection: 'none' },
+      { key: 'fdaClearance', label: 'FDA Clearance', betterDirection: 'none' },
+      { key: 'waterRating', label: 'Water Rating', betterDirection: 'none' },
+      { key: 'phonePlatforms', label: 'Phone Support', betterDirection: 'none' },
+      { key: 'chargerAndExport', label: 'Charger & Data Export', betterDirection: 'none' }
+    ],
+    scoreDimensions: [
+      { key: 'subscriptionFreedom', label: 'Subscription Freedom', description: 'How much of the ring keeps working with no recurring payment — the category\'s defining trap' },
+      { key: 'sleepTracking', label: 'Sleep Tracking', description: 'Sleep staging depth, overnight accuracy and how usable the morning report is' },
+      { key: 'healthSensing', label: 'Health Sensing', description: 'What the sensors genuinely measure — heart rate, SpO2, temperature, ECG — rather than infer' },
+      { key: 'batteryLife', label: 'Battery Life', description: 'Real days between charges with continuous sensing on, plus what the charging case adds' },
+      { key: 'sizingAndFit', label: 'Sizing & Fit', description: 'How many sizes exist, how good the sizing kit is, and how forgiving the exchange policy is' },
+      { key: 'appAndData', label: 'App & Data', description: 'App stability, insight depth, platform parity and whether you can get your history out' },
+      { key: 'durability', label: 'Durability', description: 'Finish scratch resistance, water rating in practice, and whether the finish is warrantied' },
+      { key: 'value', label: 'Value', description: 'What the ring delivers against its total cost of ownership, not just its sticker price' }
+    ],
+    filters: [
+      { slug: 'under-200', label: 'Under $200', kind: 'price-max', value: 200 },
+      { slug: 'under-300', label: 'Under $300', kind: 'price-max', value: 300 },
+      { slug: 'under-400', label: 'Under $400', kind: 'price-max', value: 400 },
+      { slug: 'under-500', label: 'Under $500', kind: 'price-max', value: 500 },
+      { slug: 'no-subscription', label: 'No Subscription', kind: 'use-case' },
+      { slug: 'sleep-tracking', label: 'Sleep Tracking', kind: 'use-case' },
+      { slug: 'iphone-compatible', label: 'Works With iPhone', kind: 'use-case' },
+      { slug: 'heart-health', label: 'Heart & AFib', kind: 'use-case' },
+      { slug: 'womens-health', label: 'Women\'s Health', kind: 'use-case' }
+    ]
   }
 ];
 

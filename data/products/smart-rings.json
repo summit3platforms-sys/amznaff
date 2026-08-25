@@ -1,0 +1,909 @@
+[
+  {
+    "id": "sr-oura-ring-5",
+    "categorySlug": "smart-rings",
+    "brand": "Oura",
+    "series": "Oura Ring",
+    "model": "Oura Ring 5 (2026)",
+    "slug": "oura-ring-5",
+    "releaseYear": 2026,
+    "price": 399.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver",
+      "Black",
+      "Brushed Silver ($499)",
+      "Stealth ($499)",
+      "Gold ($499)",
+      "Deep Rose ($499)"
+    ],
+    "material": "Titanium exterior with a seamless titanium interior and a new PVD coating; Oura says it is 40% smaller than Ring 4",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Oura)"
+    ],
+    "features": [
+      "Oura's smallest ring — 40% smaller than Ring 4, and it shows on the hand",
+      "6-9 day battery depending on ring size, ~80 minutes to a full charge",
+      "Waterproof to 100m/328ft plus an IP68 dust rating",
+      "Health Radar — continuous baseline monitoring built on Symptom Radar",
+      "Ships since 4 June 2026; only sizes 6-13 exist"
+    ],
+    "specs": {
+      "batteryLifeDays": 9,
+      "batteryAssumptions": "Oura's own claim is a range, 'up to 6-9 days depending on ring size and usage' — the small sizes sit at the bottom of it because the battery is physically smaller. TechCrunch's reviewer was at roughly 25% after five days of continuous wear. Charging takes about 80 minutes.",
+      "subscriptionModel": "Required in practice. $5.99/month or $69.99/year after one free month. Oura's own FAQ: without a membership 'your Oura Ring and Oura App will still function, but the insights, personal health data, and benefits you receive will be much more limited' — you keep the three headline scores and lose the 50+ metrics behind them.",
+      "threeYearCostUsd": 608.97,
+      "sizeRange": "US 6-13, no half sizes. Ring 4 covered 4-15; Oura told TechCrunch the smaller form factor is harder to manufacture at the extremes, so small and large fingers lose the option entirely.",
+      "sizingKit": "Free plastic sizing kit ships before the ring. Oura instructs you to wear the sizer for at least 24 hours including overnight, so the kit round trip adds roughly a week before the ring is even ordered.",
+      "returnExchange": "Oura does not publish a return window on its warranty page. The 1-year limited warranty explicitly excludes 'normal wear and tear, such as scratches and dents caused by everyday handling' and lists batteries as a non-covered consumable part.",
+      "sensorReality": "Green and infrared LEDs for continuous heart rate and HRV; red and infrared LEDs for blood oxygen, which Oura reports as an overnight figure rather than an all-day continuous trace; NTC skin-temperature sensor; accelerometer. Readiness, Stress, Resilience and Health Radar are derived scores computed from those four signals, not separate measurements.",
+      "fdaClearance": "None published for the Ring 5 or its app features — Oura markets the whole product as general wellness. The Blood Pressure Signals feature announced alongside the Ring 5 is not a cuff-equivalent blood-pressure measurement.",
+      "waterRating": "IP68 and water resistant to 100m/328ft; Oura says it is not for scuba diving",
+      "phonePlatforms": "iOS and Android, full feature parity",
+      "chargerAndExport": "Proprietary size-specific dock in the box plus a USB-C cable — a charger made for one ring size does not fit another, so a replacement has to match your ring. Export: not published as a one-click history download; Oura documents a personal-access-token Cloud API that third-party tools use to pull history."
+    },
+    "scores": {
+      "subscriptionFreedom": 2.0,
+      "sleepTracking": 9.5,
+      "healthSensing": 8.5,
+      "batteryLife": 7.5,
+      "sizingAndFit": 6.5,
+      "appAndData": 9.0,
+      "durability": 8.0,
+      "value": 6.0
+    },
+    "pros": [
+      "Genuinely the smallest ring here — 40% smaller than Ring 4 and the first Oura that does not read as a gadget on the hand",
+      "Sleep staging remains the reference the rest of the category is measured against",
+      "iOS and Android get identical features, which Samsung cannot say",
+      "100m water rating and a new PVD coating Oura claims is more scratch resistant than Ring 4's"
+    ],
+    "cons": [
+      "$5.99/month forever: the real three-year price of the base finish is $608.97, more than triple a RingConn Gen 2 Air",
+      "Sizes 6-13 only — Ring 4 went 4 to 15, so this generation silently dropped the smallest and largest fingers",
+      "The premium finishes are a $100 tax for the same electronics: Stealth, Brushed Silver, Gold and Deep Rose are all $499",
+      "Warranty explicitly excludes scratches and dents, and the battery is listed as a non-covered consumable",
+      "The charger is keyed to your ring size, so it is not a part you can borrow or generically replace"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oura-ring-4",
+      "samsung-galaxy-ring",
+      "ultrahuman-ring-pro",
+      "ringconn-gen-3"
+    ],
+    "useCases": [
+      "sleep-tracking",
+      "iphone-compatible",
+      "womens-health"
+    ],
+    "shortTagline": "The best sleep tracking on a finger, rented to you at $5.99 a month forever."
+  },
+  {
+    "id": "sr-oura-ring-4",
+    "categorySlug": "smart-rings",
+    "brand": "Oura",
+    "series": "Oura Ring",
+    "model": "Oura Ring 4 (2024)",
+    "slug": "oura-ring-4",
+    "releaseYear": 2024,
+    "price": 249.0,
+    "msrp": 349.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Silver",
+      "Black",
+      "Brushed Silver",
+      "Stealth",
+      "Gold",
+      "Rose Gold"
+    ],
+    "material": "Titanium inside and out, with a seamless non-allergenic titanium interior",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Oura)"
+    ],
+    "features": [
+      "Sizes 4 to 15 — the widest size range of any ring in this comparison",
+      "Recessed Smart Sensing sensors, so nothing protrudes into the finger",
+      "5-8 day battery, 20-80 minutes to charge",
+      "100m water resistance and 3.3-5.2g depending on size",
+      "Discounted hard since the Ring 5 launched in June 2026"
+    ],
+    "specs": {
+      "batteryLifeDays": 8,
+      "batteryAssumptions": "Oura publishes 5-8 days and states outright that it varies with ring size, app settings and activity level. Smaller sizes are nearer 5. Charging takes 20-80 minutes depending on how flat it is.",
+      "subscriptionModel": "Required in practice. $5.99/month or $69.99/year after one free month, on exactly the same terms as the Ring 5 — the membership is per account, not per ring, so upgrading later does not cost a second subscription.",
+      "threeYearCostUsd": 458.97,
+      "sizeRange": "US 4-15, no half sizes — the broadest range here, and the reason to buy the older generation if your finger is very small or very large",
+      "sizingKit": "Free plastic sizing kit ships before the ring; wear the sizer at least 24 hours including overnight. Budget about a week before the real ring is ordered.",
+      "returnExchange": "Oura does not publish a return window on its warranty page. The 1-year limited warranty excludes scratches, dents and batteries, and secondhand purchases from unauthorised resellers are not covered at all.",
+      "sensorReality": "Green plus infrared LEDs for continuous heart rate and HRV, red plus infrared for blood oxygen reported overnight rather than continuously, an NTC skin-temperature sensor and an accelerometer. Readiness, Stress and Resilience are derived scores on top of those signals.",
+      "fdaClearance": "None published. Oura markets the ring and app as general wellness, not as a medical device.",
+      "waterRating": "Water resistant to 100m/328ft",
+      "phonePlatforms": "iOS and Android, full feature parity",
+      "chargerAndExport": "Proprietary size-specific dock plus USB-C cable in the box; the Ring 5 charger is a different part. Export: not published as a one-click history download; Oura documents a personal-access-token Cloud API."
+    },
+    "scores": {
+      "subscriptionFreedom": 2.0,
+      "sleepTracking": 9.3,
+      "healthSensing": 8.2,
+      "batteryLife": 7.0,
+      "sizingAndFit": 8.5,
+      "appAndData": 9.0,
+      "durability": 7.5,
+      "value": 7.5
+    },
+    "pros": [
+      "Sizes 4 to 15 — if the Ring 5's 6-13 window excludes you, this is the Oura that fits",
+      "Now routinely $249 in silver or black, $100 under its own list price, for sensing that is a generation behind at most",
+      "Recessed sensors mean no protruding domes pressing into the finger, unlike the Circular Ring 2",
+      "Same app, same membership, same iOS/Android parity as the Ring 5"
+    ],
+    "cons": [
+      "The $5.99/month membership still applies, so three years costs $458.97 even at the discounted hardware price",
+      "Noticeably chunkier than the Ring 5 — that is the whole reason the Ring 5 exists",
+      "Discounted stock is concentrated in Silver and Black; Gold and Rose Gold still list at $499",
+      "Warranty covers manufacturing defects only, not the scratches titanium picks up in normal wear",
+      "Amazon listings are per size and per colour, so the ASIN you click must match the size you actually need"
+    ],
+    "images": [],
+    "amazonAsin": "B0D9WT1S2T",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oura-ring-5",
+      "oura-ring-4-ceramic",
+      "ringconn-gen-3",
+      "samsung-galaxy-ring"
+    ],
+    "useCases": [
+      "sleep-tracking",
+      "iphone-compatible",
+      "womens-health"
+    ],
+    "shortTagline": "The widest size range Oura sells, now heavily discounted — same subscription, though."
+  },
+  {
+    "id": "sr-oura-ring-4-ceramic",
+    "categorySlug": "smart-rings",
+    "brand": "Oura",
+    "series": "Oura Ring",
+    "model": "Oura Ring 4 Ceramic (2025)",
+    "slug": "oura-ring-4-ceramic",
+    "releaseYear": 2025,
+    "price": 399.0,
+    "msrp": 499.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight",
+      "Cloud",
+      "Tide",
+      "Petal"
+    ],
+    "material": "High-performance zirconia ceramic exterior over a seamless titanium interior",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Oura)"
+    ],
+    "features": [
+      "Zirconia ceramic shell in four colours no metal ring can do",
+      "Identical sensor stack and app to the metal Ring 4",
+      "Ceramic polishing pad included in the box",
+      "5-8 day battery, 100m water resistance",
+      "Currently $399, down from a $499 list price"
+    ],
+    "specs": {
+      "batteryLifeDays": 8,
+      "batteryAssumptions": "Same 5-8 day claim as the metal Ring 4, with the same caveat that ring size, app settings and activity level move it. 20-80 minutes to charge.",
+      "subscriptionModel": "Required in practice — $5.99/month or $69.99/year, identical to every other Oura. Paying $100 more for ceramic buys you no membership credit.",
+      "threeYearCostUsd": 608.97,
+      "sizeRange": "US 4-15, no half sizes, matching the metal Ring 4",
+      "sizingKit": "Free plastic sizing kit ships before the ring; 24-hour minimum wear including overnight, adding roughly a week before the ring ships.",
+      "returnExchange": "Oura does not publish a return window on its warranty page. The 1-year warranty excludes normal wear and tear; Oura's own product page states that minor scratches from everyday use are expected on the ceramic.",
+      "sensorReality": "Identical to the metal Ring 4 — red/IR LEDs for blood oxygen, green/IR for heart rate and HRV, a temperature sensor and an accelerometer. Nothing about the ceramic shell adds a measurement.",
+      "fdaClearance": "None published. General wellness product.",
+      "waterRating": "Water resistant to 100m/328ft",
+      "phonePlatforms": "iOS and Android, full feature parity; Oura lists integrations with 40+ apps",
+      "chargerAndExport": "Proprietary size-specific dock plus USB-C cable, and a ceramic polishing pad. Export: not published as a one-click history download; personal-access-token Cloud API only."
+    },
+    "scores": {
+      "subscriptionFreedom": 2.0,
+      "sleepTracking": 9.3,
+      "healthSensing": 8.2,
+      "batteryLife": 7.0,
+      "sizingAndFit": 8.5,
+      "appAndData": 9.0,
+      "durability": 6.5,
+      "value": 5.5
+    },
+    "pros": [
+      "The only ring here that is not metal-coloured — four ceramic finishes including a genuine pastel",
+      "Ceramic is harder than titanium and does not pick up the same dull scuffing",
+      "Same sensors, same app and same 4-15 size range as the metal Ring 4",
+      "$100 below its $499 list at the time of writing"
+    ],
+    "cons": [
+      "$100 more than the metal Ring 4 for identical sensing — you are paying for the shell",
+      "Oura's own page warns that minor scratches from everyday use are expected, and the warranty does not cover them",
+      "Ceramic chips rather than scuffs: a hard knock on tile is a different failure mode from a scratched titanium ring",
+      "Three-year cost lands at $608.97, the same as a brand-new Ring 5",
+      "Still tied to the $5.99/month membership like every other Oura"
+    ],
+    "images": [],
+    "amazonAsin": "B0FKQBMVYZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oura-ring-4",
+      "oura-ring-5",
+      "circular-ring-2",
+      "ultrahuman-ring-pro"
+    ],
+    "useCases": [
+      "sleep-tracking",
+      "iphone-compatible",
+      "womens-health"
+    ],
+    "shortTagline": "A $100 ceramic shell over Ring 4 electronics, and the scratches it will get are not warrantied."
+  },
+  {
+    "id": "sr-samsung-galaxy-ring",
+    "categorySlug": "smart-rings",
+    "brand": "Samsung",
+    "series": "Galaxy",
+    "model": "Samsung Galaxy Ring (2024)",
+    "slug": "samsung-galaxy-ring",
+    "releaseYear": 2024,
+    "price": 299.99,
+    "msrp": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Titanium Black",
+      "Titanium Silver",
+      "Titanium Gold"
+    ],
+    "material": "Titanium frame with a scratch-resistant finish and a concave outer profile",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Samsung)"
+    ],
+    "features": [
+      "No subscription — every metric is included with the hardware",
+      "Charging case doubles as a display stand and adds a second week of runtime",
+      "Nine sizes, 5 through 13, with a free sizing kit",
+      "10ATM plus IP68 — one of the tougher water ratings here",
+      "Gesture control of a paired Galaxy phone camera and alarms"
+    ],
+    "specs": {
+      "batteryLifeDays": 7,
+      "batteryAssumptions": "Samsung claims a seven-day charge but notes in the same breath that the smallest sizes reach only about six days. The 'up to 14 days' headline is the ring plus a full charge held in the cradle, not fourteen days of wear.",
+      "subscriptionModel": "None. Samsung Health is free and every Galaxy Ring metric is included with the hardware — this is the whole argument against Oura.",
+      "threeYearCostUsd": 299.99,
+      "sizeRange": "US 5-13, nine sizes, no half sizes",
+      "sizingKit": "Free sizing kit; Samsung tells you to wear the sample ring for 24 hours or more before confirming the size, which front-loads several days onto the order.",
+      "returnExchange": "Not published on Samsung's Galaxy Ring product page; Samsung.com's standard consumer return terms apply and should be checked at checkout.",
+      "sensorReality": "Accelerometer, PPG optical sensor and a skin-temperature sensor. Heart rate and blood oxygen are PPG-derived; Energy Score, Sleep Score and stress are Samsung Health composites calculated from those three inputs, not separate measurements.",
+      "fdaClearance": "None for the ring. Samsung's FDA-cleared ECG and blood-pressure features live on the Galaxy Watch, which has electrodes; the ring has none and cannot do either.",
+      "waterRating": "10ATM (100m for up to 10 minutes) plus IP68 (6ft for 30 minutes)",
+      "phonePlatforms": "Android only. There is no iOS app at all — an iPhone owner cannot use this ring, and full functionality assumes a compatible Samsung Galaxy phone with a Samsung account.",
+      "chargerAndExport": "Proprietary transparent charging cradle with USB-C, included. Export: Samsung Health writes to Android Health Connect and offers a personal-data download through the Samsung account, so history is not locked to the ring."
+    },
+    "scores": {
+      "subscriptionFreedom": 9.0,
+      "sleepTracking": 7.5,
+      "healthSensing": 6.5,
+      "batteryLife": 7.0,
+      "sizingAndFit": 7.5,
+      "appAndData": 6.5,
+      "durability": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Zero subscription — three years costs $299.99 against $608.97 for a base Oura Ring 5",
+      "Now routinely $299.99 against a $399.99 list price",
+      "The charging cradle is the best-designed in the category and adds a genuine second week away from mains power",
+      "10ATM plus IP68, and a concave outer profile that keeps knocks off the widest point of the ring"
+    ],
+    "cons": [
+      "Android only — no iOS app exists, so an iPhone is an outright disqualification, not a degraded experience",
+      "Several features (gesture control, auto workout hand-off) assume a Samsung Galaxy phone specifically, not just any Android",
+      "No ECG and no blood pressure: Samsung's FDA-cleared versions of both are Galaxy Watch features and cannot be added here",
+      "Health insight depth is behind Oura's — the scores are simpler and there is less to interrogate",
+      "Two years on from launch with the successor reportedly pushed to early 2027, so this is late-cycle hardware"
+    ],
+    "images": [],
+    "amazonAsin": "B0D3JBZ4ZL",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oura-ring-4",
+      "oura-ring-5",
+      "ringconn-gen-3",
+      "ultrahuman-ring-pro"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "womens-health"
+    ],
+    "shortTagline": "No subscription and a great charging case — but there is no iPhone app, at all."
+  },
+  {
+    "id": "sr-ringconn-gen-3",
+    "categorySlug": "smart-rings",
+    "brand": "RingConn",
+    "series": "Gen 3",
+    "model": "RingConn Gen 3 (2026)",
+    "slug": "ringconn-gen-3",
+    "releaseYear": 2026,
+    "price": 349.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Future Silver",
+      "Royal Gold",
+      "Matte Black",
+      "Brushed Silver ($369)",
+      "Brushed Rose Gold ($369)"
+    ],
+    "material": "Medical-grade titanium with epoxy resin and a PVD coating; 2.3mm thick, 2.5-3.5g",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.0"
+    ],
+    "features": [
+      "No subscription — every feature ships with the hardware",
+      "Vibration motor for silent alarms and alerts, rare on a ring",
+      "Universal wireless charging case that fits any ring size",
+      "Three-night automatic sleep-apnea risk assessment",
+      "Vascular Trends, RingConn's blood-pressure-trend feature"
+    ],
+    "specs": {
+      "batteryLifeDays": 14,
+      "batteryAssumptions": "RingConn's 'up to 14 days' assumes vibration alerts switched off; with alerts on the company itself quotes 10-12. The Gadgeteer measured 34% left after seven days of full use with alerts active, which extrapolates to about 10 days, not 14. Ring charges in ~90 minutes, case in ~120.",
+      "subscriptionModel": "None. RingConn states 'no subscription required' and every health feature, including the sleep-apnea assessment and Vascular Trends, is included with the ring.",
+      "threeYearCostUsd": 349.0,
+      "sizeRange": "US 6-15, no half sizes. RingConn warns its sizing differs slightly from standard US ring sizes and from other smart-ring brands, so an Oura size does not transfer.",
+      "sizingKit": "Free sizing kit selectable at checkout; it arrives in 3-8 days and the ring only ships after you confirm a size, so the kit adds one to two weeks to delivery.",
+      "returnExchange": "14 days for returns and exchanges — the shortest window of any brand here, and it starts before most people have finished testing the fit.",
+      "sensorReality": "Optical heart-rate sensor, temperature sensor, 3-axis accelerometer and a vibration motor. Heart rate, SpO2, HRV, respiratory rate, skin temperature and stress are tracked continuously against a personal baseline. Vascular Trends is the trap: it needs an external cuff reading first to calibrate and then reports trends, so it is not a standalone blood-pressure measurement.",
+      "fdaClearance": "None published. The sleep-apnea assessment is a risk indicator, not a diagnosis, and Vascular Trends is explicitly a trend against a cuff baseline you supply.",
+      "waterRating": "IP68 / 10ATM / 100m / 328ft",
+      "phonePlatforms": "iOS 17.0+ and Android 10.0+; The Gadgeteer found no platform-specific feature gaps",
+      "chargerAndExport": "Universal wireless charging case — unlike Oura's, one case fits every ring size, and RingConn quotes 150+ days of untethered use from it. Export: not published by the manufacturer."
+    },
+    "scores": {
+      "subscriptionFreedom": 9.5,
+      "sleepTracking": 8.5,
+      "healthSensing": 8.0,
+      "batteryLife": 9.0,
+      "sizingAndFit": 8.5,
+      "appAndData": 7.5,
+      "durability": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "No subscription at all: $349 once, against $608.97 over three years for a base Oura Ring 5",
+      "A vibration motor means silent alarms and alerts — no other ring in this comparison at this price has one",
+      "The charging case is size-universal and good for 150+ days, so travel needs no cable",
+      "RingConn settled with Oura and holds a multi-year patent licence, so US supply is not at risk the way Ultrahuman's was"
+    ],
+    "cons": [
+      "Vascular Trends is not blood-pressure measurement — you must supply a cuff reading to calibrate it, a requirement reviewers found buried in the fine print",
+      "The 14-day battery figure only holds with vibration alerts off; ten days is the realistic number with them on",
+      "14-day return and exchange window is the tightest here, which is punishing in a category where sizing is the main complaint",
+      "RingConn sizing deliberately differs from standard US ring sizes, so you cannot skip the sizing kit",
+      "Premium brushed finishes cost $369, and the app leaves several of its own metrics undefined"
+    ],
+    "images": [],
+    "amazonAsin": "B0GVSJ4B1F",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oura-ring-4",
+      "ringconn-gen-2",
+      "ultrahuman-ring-pro",
+      "circular-ring-2"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "iphone-compatible",
+      "heart-health"
+    ],
+    "shortTagline": "The strongest no-subscription flagship — as long as you read what Vascular Trends actually is."
+  },
+  {
+    "id": "sr-ringconn-gen-2",
+    "categorySlug": "smart-rings",
+    "brand": "RingConn",
+    "series": "Gen 2",
+    "model": "RingConn Gen 2 (2024)",
+    "slug": "ringconn-gen-2",
+    "releaseYear": 2024,
+    "price": 269.0,
+    "msrp": 299.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Royal Gold",
+      "Future Silver",
+      "Matte Black",
+      "Rose Gold ($359)"
+    ],
+    "material": "Aerospace-grade titanium alloy with medical-grade epoxy resin; 2mm thick, 2-3g",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 4.0+"
+    ],
+    "features": [
+      "Sleep-apnea monitoring RingConn quotes at 90.7% accuracy",
+      "No subscription on any feature",
+      "Charging case rated for about 150 days between wall charges",
+      "2mm thick and 2-3g — among the thinnest and lightest here",
+      "IP68 / 100m water rating"
+    ],
+    "specs": {
+      "batteryLifeDays": 12,
+      "batteryAssumptions": "RingConn publishes 10-12 days for the ring and 150 days including the case. There is no vibration motor to switch off, so the figure is less conditional than the Gen 3's. Ring charges in about 90 minutes.",
+      "subscriptionModel": "None. Sleep-apnea monitoring, continuous SpO2, cycle tracking and every other metric are included with the hardware.",
+      "threeYearCostUsd": 269.0,
+      "sizeRange": "US 6-14, no half sizes; RingConn sizing differs from standard US ring sizes",
+      "sizingKit": "Free sizing kit selectable at checkout, shipped ahead of the ring; the kit round trip adds one to two weeks before the ring is dispatched.",
+      "returnExchange": "14 days for returns and exchanges, in line with RingConn's other rings.",
+      "sensorReality": "Optical heart-rate sensor, skin-temperature sensor and accelerometer. Heart rate, SpO2 and temperature are tracked continuously rather than spot-sampled. The sleep-apnea figure RingConn quotes (90.7% accuracy) is a risk indicator derived from those signals, not a clinical sleep study.",
+      "fdaClearance": "None published. Sleep-apnea monitoring is marketed as a wellness risk indicator; it is not an FDA-cleared apnea diagnostic.",
+      "waterRating": "IP68 (100m/328ft)",
+      "phonePlatforms": "iOS 17.0+ and Android 10.0+",
+      "chargerAndExport": "Magnetic charging case included, good for about 150 days of ring charges. Export: not published by the manufacturer."
+    },
+    "scores": {
+      "subscriptionFreedom": 9.5,
+      "sleepTracking": 8.3,
+      "healthSensing": 7.8,
+      "batteryLife": 8.7,
+      "sizingAndFit": 8.5,
+      "appAndData": 7.3,
+      "durability": 8.0,
+      "value": 8.7
+    },
+    "pros": [
+      "Sleep-apnea monitoring included with no subscription — the Gen 2 Air drops this feature entirely",
+      "$269 on sale from $299, and three-year cost is that same $269",
+      "2mm thick and 2-3g, thinner and lighter than any Oura",
+      "150-day charging case means one wall charge a season"
+    ],
+    "cons": [
+      "The apnea figure is RingConn's own 90.7% accuracy claim, not an FDA-cleared diagnostic — it flags risk, it does not diagnose",
+      "Rose Gold is $359, $90 above the sale price of the other finishes",
+      "Bluetooth 4.0-class radio and a 2024 sensor stack; the Gen 3 adds vibration alerts and vascular trending",
+      "14-day return window, and RingConn sizes do not map to standard US ring sizes",
+      "No published data-export route, so your history lives in RingConn's app"
+    ],
+    "images": [],
+    "amazonAsin": "B0DG2S6GC1",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ringconn-gen-3",
+      "ringconn-gen-2-air",
+      "circular-ring-2",
+      "oura-ring-4"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "iphone-compatible"
+    ],
+    "shortTagline": "The cheapest way to get sleep-apnea screening on a finger with no monthly bill."
+  },
+  {
+    "id": "sr-ringconn-gen-2-air",
+    "categorySlug": "smart-rings",
+    "brand": "RingConn",
+    "series": "Gen 2",
+    "model": "RingConn Gen 2 Air (2025)",
+    "slug": "ringconn-gen-2-air",
+    "releaseYear": 2025,
+    "price": 199.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Dune Gold",
+      "Galaxy Silver"
+    ],
+    "material": "Titanium steels with PVD coating and medical-grade epoxy resin; 2mm thick, 2.5-4g",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.0"
+    ],
+    "features": [
+      "$199 with no subscription — the cheapest credible ring here",
+      "Up to 10 days of battery and 5-7 days of offline storage",
+      "6.8mm wide and 2mm thick, so it reads as a plain band",
+      "IP68 / 100m water rating",
+      "Sizes 6-14 with a free sizing kit"
+    ],
+    "specs": {
+      "batteryLifeDays": 10,
+      "batteryAssumptions": "RingConn publishes 'up to 10 days'. There is no vibration motor and no apnea engine running overnight, which is part of why it holds up. Full charge takes about 90 minutes; the ring stores 5-7 days of data offline if you do not open the app.",
+      "subscriptionModel": "None. Everything the ring measures is free — but note that what it measures is a shorter list than the Gen 2, because sleep-apnea monitoring is removed.",
+      "threeYearCostUsd": 199.0,
+      "sizeRange": "US 6-14, no half sizes; RingConn sizing differs from standard US ring sizes",
+      "sizingKit": "Free sizing kit selectable at checkout and shipped before the ring, adding one to two weeks to the order.",
+      "returnExchange": "14 days for returns and exchanges.",
+      "sensorReality": "Optical heart-rate sensor, skin-temperature sensor and accelerometer. Heart rate, SpO2, HRV, respiratory rate and skin temperature are tracked; stress is a derived score. Sleep-apnea monitoring, which the full Gen 2 has, is absent from this model.",
+      "fdaClearance": "None published. General wellness product.",
+      "waterRating": "IP68 (100m/328ft)",
+      "phonePlatforms": "iOS 17.0+ and Android 10.0+",
+      "chargerAndExport": "Magnetic charging dock rather than the Gen 2's case — the biggest thing you give up alongside apnea monitoring, because there is no pocketable reserve of charges. Export: not published by the manufacturer."
+    },
+    "scores": {
+      "subscriptionFreedom": 9.5,
+      "sleepTracking": 7.8,
+      "healthSensing": 6.8,
+      "batteryLife": 8.3,
+      "sizingAndFit": 8.3,
+      "appAndData": 7.3,
+      "durability": 7.8,
+      "value": 9.0
+    },
+    "pros": [
+      "$199 all-in, and $199 is still the three-year cost — a base Oura Ring 5 is $608.97 over the same period",
+      "Ten-day battery in a 2mm, 2.5-4g band that does not look like a wearable",
+      "Same IP68 / 100m rating as RingConn's flagship",
+      "RingConn's Oura settlement means the US supply is licensed, not provisional"
+    ],
+    "cons": [
+      "Sleep-apnea monitoring is removed — that is the specific feature the $269 Gen 2 keeps, and the reason for the price gap",
+      "Dock charger instead of a charging case, so no reserve charges when travelling",
+      "Only two finishes, both light-coloured, and no matte black",
+      "14-day return window in a category where the number one complaint is fit",
+      "No published data export"
+    ],
+    "images": [],
+    "amazonAsin": "B0DWJDFLT8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ringconn-gen-2",
+      "amazfit-helio-ring",
+      "renpho-lynx-smart-ring",
+      "ringconn-gen-3"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "iphone-compatible"
+    ],
+    "shortTagline": "$199 once, ten-day battery, no monthly bill — the apnea engine is what you gave up."
+  },
+  {
+    "id": "sr-ultrahuman-ring-pro",
+    "categorySlug": "smart-rings",
+    "brand": "Ultrahuman",
+    "series": "Ring",
+    "model": "Ultrahuman Ring PRO (2026)",
+    "slug": "ultrahuman-ring-pro",
+    "releaseYear": 2026,
+    "price": 479.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Bionic Gold",
+      "Space Silver",
+      "Aster Black",
+      "Raw Titanium"
+    ],
+    "material": "Titanium unibody with PVD coating, epoxy and polycarbonate, with a ProRelease cutaway for emergency removal",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Ultrahuman)"
+    ],
+    "features": [
+      "Up to 15 days of battery, the longest claim in this comparison",
+      "PRO charging case extends that to a claimed 45 days",
+      "250 days of on-device storage — it works for months without a phone",
+      "ProRelease cutaway so the ring can be safely cut off if the finger swells",
+      "Redesigned internals after the Oura patent case; back on sale in the US in 2026"
+    ],
+    "specs": {
+      "batteryLifeDays": 15,
+      "batteryAssumptions": "Ultrahuman claims up to 15 days in standard mode, and 'up to 45 days' only when you count recharges held in the PRO charging case. Independent long-term battery testing under continuous SpO2 and temperature sensing was not available at the time of writing — the ring has only been shipping in the US for weeks.",
+      "subscriptionModel": "No subscription for your core data — sleep, recovery, movement, stress and circadian insights are included. But the clinical-sounding features are sold as optional annual PowerPlugs at $24-$39 each, and AFib detection is one of them. 'No subscription' and 'AFib included' are not the same sentence.",
+      "threeYearCostUsd": 479.0,
+      "sizeRange": "US 5-14, no half sizes. Ultrahuman states its sizes may differ slightly from standard US ring sizes.",
+      "sizingKit": "Complimentary sizing kit with plastic sizers in sizes 5-14, shipped with the order.",
+      "returnExchange": "Not published on the pages reviewed. Check Ultrahuman's US terms at checkout before ordering a size.",
+      "sensorReality": "PPG optical sensing plus skin temperature and motion, processed by an on-ring dual-core chip with on-chip machine learning. AFib detection, metabolic insight for GLP-1 users, ovulation tracking, snoring analysis and migraine insight are all software PowerPlugs layered on the same sensors — buying more PowerPlugs does not add hardware.",
+      "fdaClearance": "Not published by Ultrahuman for the Ring PRO or its AFib PowerPlug in the sources reviewed. Coverage of the US relaunch describes AFib detection as a paid PowerPlug and does not cite an FDA clearance.",
+      "waterRating": "100m / 328ft",
+      "phonePlatforms": "iOS and Android",
+      "chargerAndExport": "Standard charger and a 1m USB-C cable in the box; the PRO Charging Case is a $100 accessory (bundled into the $479 configuration). Export: not published by the manufacturer, though 250 days of history is retained on the ring itself."
+    },
+    "scores": {
+      "subscriptionFreedom": 7.0,
+      "sleepTracking": 8.0,
+      "healthSensing": 8.3,
+      "batteryLife": 9.5,
+      "sizingAndFit": 8.0,
+      "appAndData": 7.5,
+      "durability": 7.5,
+      "value": 6.5
+    },
+    "pros": [
+      "15-day claimed battery and 45 days with the case — nothing else here is close",
+      "250 days of on-ring storage means it keeps working through a phone loss, a trip or a long stretch offline",
+      "ProRelease cutaway is the only answer any of these brands has to a swollen finger and a ring that cannot come off",
+      "Core sleep, recovery and stress data carries no recurring fee"
+    ],
+    "cons": [
+      "AFib detection is a paid annual PowerPlug ($24-$39), so the 'no subscription' pitch does not cover the feature people most want",
+      "Ship dates keep moving — TechTimes said 20 June, gadgetsandwearables said 10 August, and Ultrahuman's own page now says 15 September onwards",
+      "Ultrahuman was banned from US import in October 2025 over Oura's patent; the Ring PRO is a redesign, and that history is a real supply risk",
+      "$479 as configured is the most expensive ring here, and the $399 version does not include the charging case",
+      "No FDA clearance is published for the AFib PowerPlug in the coverage of the US relaunch"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oura-ring-5",
+      "ringconn-gen-3",
+      "circular-ring-2",
+      "samsung-galaxy-ring"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "iphone-compatible",
+      "heart-health"
+    ],
+    "shortTagline": "15-day battery and no subscription — until you notice AFib is a paid add-on."
+  },
+  {
+    "id": "sr-circular-ring-2",
+    "categorySlug": "smart-rings",
+    "brand": "Circular",
+    "series": "Ring",
+    "model": "Circular Ring 2 (2025)",
+    "slug": "circular-ring-2",
+    "releaseYear": 2025,
+    "price": 299.0,
+    "msrp": 349.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Obsidian Black",
+      "Silver",
+      "Gold",
+      "Rose Gold"
+    ],
+    "material": "Titanium body with a hypoallergenic interior; 3g, 2.55mm thick",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Circular)"
+    ],
+    "features": [
+      "On-demand ECG with FDA-cleared AFib detection — the only ring here with electrodes",
+      "40-second reading taken at the finger",
+      "Camera-based digital sizing, or a $5 physical sizing kit",
+      "8 days in power mode, 5 days in performance mode",
+      "Premium screens unlockable with coins earned by wearing the ring, rather than a subscription"
+    ],
+    "specs": {
+      "batteryLifeDays": 8,
+      "batteryAssumptions": "Circular publishes two numbers, not one: 8 days in power mode and 5 days in performance mode — performance mode is the one that samples more often. Tom's Guide's tester got a week or more in practice.",
+      "subscriptionModel": "No mandatory subscription today; core features come with the ring, and some advanced screens are unlocked with in-app coins earned by wearing it. Circular has said a premium tier covering blood glucose and blood pressure is coming, with neither price nor date published — so the no-subscription position is provisional, not guaranteed.",
+      "threeYearCostUsd": 299.0,
+      "sizeRange": "US 6-14",
+      "sizingKit": "Two routes: a camera-and-credit-card digital sizing flow that needs no kit at all, or a $5 physical replica-ring kit. This is the only brand here that lets you skip the kit wait entirely.",
+      "returnExchange": "14-day no-questions-asked return policy, 1-year warranty (2 years in the EU).",
+      "sensorReality": "The only ring in this comparison with actual ECG electrodes: a 40-second single-lead reading screened for atrial fibrillation. Everything else — the 140+ 'biosignals' across 13+ health features — is derived from the same PPG, temperature and motion stack every other ring uses.",
+      "fdaClearance": "Circular states, and Tom's Guide's review confirms, that the ring is FDA-cleared to monitor for irregular heartbeats indicating AFib. That clearance covers the AFib feature, not the other 140 biosignals.",
+      "waterRating": "Sources conflict: Circular's own store page lists IP68 only, while Tom's Guide's review states 50m water resistance with IP68 — either way, half the 100m rating Oura and RingConn claim",
+      "phonePlatforms": "iOS and Android",
+      "chargerAndExport": "Proprietary charger. Export: not published by the manufacturer. Tom's Guide reported sync failures that lost whole nights of sleep data, so what reaches the app is not always complete."
+    },
+    "scores": {
+      "subscriptionFreedom": 8.0,
+      "sleepTracking": 7.0,
+      "healthSensing": 8.5,
+      "batteryLife": 8.0,
+      "sizingAndFit": 8.0,
+      "appAndData": 4.5,
+      "durability": 5.5,
+      "value": 7.0
+    },
+    "pros": [
+      "The only ring here with real ECG electrodes and an FDA clearance for AFib detection",
+      "Digital sizing by phone camera removes the one-to-two-week sizing-kit wait every rival imposes",
+      "$299 with no mandatory subscription, against $608.97 over three years for a base Oura Ring 5",
+      "Advanced screens are earned by wearing the ring rather than billed monthly"
+    ],
+    "cons": [
+      "The app is the weak link: Tom's Guide hit sync failures that lost sleep reports outright, and could not get the ECG feature to run during testing",
+      "Circular has announced a future premium tier for glucose and blood pressure with no price or date, so the no-subscription promise is not locked in",
+      "Water rating is half the category norm, and sources disagree on whether it is 50m or IP68-only",
+      "Titanium finish was described as scratch-prone, and the interior sensors protrude enough to leave marks on the finger",
+      "Fitness tracking is thin next to Samsung and Oura — this ring is aimed at cardiac screening, not training"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "ringconn-gen-3",
+      "ultrahuman-ring-pro",
+      "oura-ring-4",
+      "ringconn-gen-2"
+    ],
+    "useCases": [
+      "no-subscription",
+      "heart-health",
+      "iphone-compatible",
+      "sleep-tracking"
+    ],
+    "shortTagline": "The only FDA-cleared AFib ring — attached to the buggiest app in the category."
+  },
+  {
+    "id": "sr-amazfit-helio-ring",
+    "categorySlug": "smart-rings",
+    "brand": "Amazfit",
+    "series": "Helio",
+    "model": "Amazfit Helio Ring (2024)",
+    "slug": "amazfit-helio-ring",
+    "releaseYear": 2024,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Titanium"
+    ],
+    "material": "Skin-friendly titanium alloy",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth (version not published by Amazfit)"
+    ],
+    "features": [
+      "A real EDA sensor for stress, not just a PPG-derived score",
+      "10ATM water rating at $149.99",
+      "Zepp Aura Premium included free, no subscription",
+      "Pairs with Amazfit watches so ring and watch data merge",
+      "Only three sizes exist: 8, 10 and 12"
+    ],
+    "specs": {
+      "batteryLifeDays": 4,
+      "batteryAssumptions": "Amazfit publishes 'up to 4 days' — the shortest claim in this comparison, and it is the headline figure, so continuous SpO2 and temperature sensing pull it down from there. Wireless charging takes about 1 hour 40 minutes.",
+      "subscriptionModel": "None. Amazfit states no subscriptions are required, and Zepp Aura Premium (sleep sounds, detailed sleep reports, AI chat) is included free rather than sold separately.",
+      "sizeRange": "Three sizes only — 8 (24mm), 10 (25.7mm) and 12 (27.3mm). If your finger falls between them, there is no ring for you; every rival here offers seven to twelve sizes.",
+      "sizingKit": "Not offered in the way rivals do it — with only three sizes Amazfit publishes inner diameters instead. That removes the kit wait but makes a poor fit far more likely.",
+      "returnExchange": "Not published on Amazfit's US product page; the store's standard terms apply and should be checked before ordering.",
+      "threeYearCostUsd": 149.99,
+      "sensorReality": "PPG optical sensor for heart rate and blood oxygen, plus a genuine EDA (electrodermal activity) sensor for stress — one of the few rings here where 'stress' has a dedicated sensor behind it rather than being inferred from HRV alone. Readiness and sleep scores are still derived.",
+      "fdaClearance": "None published. General wellness product; the EDA sensor is not a cleared medical measurement.",
+      "waterRating": "10ATM",
+      "phonePlatforms": "iOS and Android through the Zepp app",
+      "chargerAndExport": "Wireless charging dock, and Amazfit's own US page states the USB-C cable is not included in the box — you supply your own. Export: not published by the manufacturer."
+    },
+    "scores": {
+      "subscriptionFreedom": 9.5,
+      "sleepTracking": 7.0,
+      "healthSensing": 6.5,
+      "batteryLife": 4.5,
+      "sizingAndFit": 3.0,
+      "appAndData": 7.0,
+      "durability": 7.5,
+      "value": 7.0
+    },
+    "pros": [
+      "$149.99 with no subscription — the cheapest ring here from a manufacturer with a real wearables business behind it",
+      "An actual EDA sensor for stress rather than an HRV-derived guess",
+      "10ATM water rating matches rings costing twice as much",
+      "Zepp Aura Premium is bundled, not upsold"
+    ],
+    "cons": [
+      "Three sizes, full stop — 8, 10 and 12. This is the single biggest reason to buy something else",
+      "Four-day battery is the worst here by a wide margin; RingConn's cheapest ring does ten",
+      "Amazfit's own page says no USB-C cable is in the box",
+      "Data is most useful if you already own an Amazfit watch; standalone the Zepp app is thinner than Oura's",
+      "The Helio Ring 2 has been confirmed for the second half of 2026, so this is end-of-cycle hardware"
+    ],
+    "images": [],
+    "amazonAsin": "B0D5LCCLWS",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "renpho-lynx-smart-ring",
+      "ringconn-gen-2-air",
+      "oura-ring-4"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "iphone-compatible"
+    ],
+    "shortTagline": "$150 and a real stress sensor, but it comes in three sizes and lasts four days."
+  },
+  {
+    "id": "sr-renpho-lynx",
+    "categorySlug": "smart-rings",
+    "brand": "Renpho",
+    "series": "LYNX",
+    "model": "Renpho LYNX Smart Ring (2025)",
+    "slug": "renpho-lynx-smart-ring",
+    "releaseYear": 2025,
+    "price": 179.99,
+    "msrp": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Titanium Silver",
+      "Black"
+    ],
+    "material": "Titanium alloy exterior over a stainless steel band",
+    "warrantyMonths": 18,
+    "connectivity": [
+      "Bluetooth Low Energy (version not published by Renpho)"
+    ],
+    "features": [
+      "18-month warranty — the longest in this comparison",
+      "Sizing kit, charging case and cable all in the box",
+      "Writes to Apple Health and Google Health Connect",
+      "12-day claimed battery plus a charging case",
+      "30-day money-back guarantee"
+    ],
+    "specs": {
+      "batteryLifeDays": 12,
+      "batteryAssumptions": "Renpho claims 12 days on a single charge with more available from the case. That is a headline figure with no published conditions attached, and it sits above what comparably-sized rings from RingConn achieve, so treat it as a ceiling rather than a typical result.",
+      "subscriptionModel": "None. Renpho states no subscription fees are required for app connectivity and every tracked metric is included.",
+      "threeYearCostUsd": 179.99,
+      "sizeRange": "US 6-13, no half sizes",
+      "sizingKit": "Included free in the box rather than shipped ahead — so the ring and the sizer arrive together, and a wrong size means an exchange rather than a delayed order.",
+      "returnExchange": "30-day money-back guarantee, the most generous window here, backed by an 18-month warranty.",
+      "sensorReality": "PPG optical sensing for heart rate and blood oxygen plus motion tracking. Stress and sleep scores are derived from those signals; Renpho does not publish a sampling rate, and there is no temperature sensor called out in its US specification.",
+      "fdaClearance": "None published. General wellness product.",
+      "waterRating": "5ATM (50m) — half the rating Oura, RingConn and Ultrahuman claim",
+      "phonePlatforms": "iOS and Android, with sync into Apple Health and Google Health Connect",
+      "chargerAndExport": "Charging case and USB cable both included. Export: data syncs out to Apple Health and Google Health Connect, so history is not trapped in Renpho's app the way it is with RingConn or Circular."
+    },
+    "scores": {
+      "subscriptionFreedom": 9.5,
+      "sleepTracking": 6.5,
+      "healthSensing": 6.0,
+      "batteryLife": 8.5,
+      "sizingAndFit": 8.0,
+      "appAndData": 5.5,
+      "durability": 6.5,
+      "value": 8.0
+    },
+    "pros": [
+      "18-month warranty and a 30-day money-back guarantee — the most forgiving terms in the category by a distance",
+      "Sizing kit ships in the box, so there is no one-to-two-week wait before the ring is dispatched",
+      "Syncs into Apple Health and Google Health Connect, so your history leaves the vendor app",
+      "$179.99 once, no subscription, no upsell tier"
+    ],
+    "cons": [
+      "5ATM/50m water rating is half what Oura, RingConn and Ultrahuman offer",
+      "No temperature sensor is listed in Renpho's US specification, so illness and cycle signals are weaker than rivals'",
+      "The 12-day battery claim carries no published conditions and outruns similarly-sized rivals — expect less",
+      "Live Science's reviewer concluded it is expensive for what it offers; the app is the least sophisticated of the mainstream options here",
+      "Stainless steel band under the titanium finish makes it heavier on the hand than a 2-3g RingConn"
+    ],
+    "images": [],
+    "amazonAsin": "B0DKXC91NX",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazfit-helio-ring",
+      "ringconn-gen-2-air",
+      "ringconn-gen-2"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-tracking",
+      "iphone-compatible",
+      "womens-health"
+    ],
+    "shortTagline": "The friendliest returns and warranty in the category, wrapped around modest sensing."
+  }
+]

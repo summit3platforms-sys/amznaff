@@ -1,0 +1,969 @@
+[
+  {
+    "id": "ft-fitbit-air",
+    "categorySlug": "fitness-trackers",
+    "brand": "Fitbit",
+    "series": "Air",
+    "model": "Google Fitbit Air (2026)",
+    "slug": "fitbit-air",
+    "releaseYear": 2026,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Obsidian",
+      "Fog",
+      "Lavender",
+      "Berry"
+    ],
+    "material": "Recycled-yarn Performance Loop band with polymer sensor module",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth (version not published by Google)"
+    ],
+    "features": [
+      "Screenless — every reading lives in the Google Health app",
+      "24/7 heart rate, HRV, SpO2 and skin-temperature sensing",
+      "AFib alerts from the optical sensor (no ECG electrodes)",
+      "5 minutes on the charger buys a full day of use",
+      "12g with the fabric loop band fitted"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. Distance, pace and route come from the paired phone, so no phone means no route",
+      "displayType": "None — screenless; there is no way to read a metric off the band itself",
+      "batteryLifeDays": 7,
+      "batteryAssumptions": "Google claims 'up to one week'. Continuous HR and SpO2 are on by default; there is no always-on display to switch off. Full charge ~90 minutes; a 5-minute top-up gives one day",
+      "subscriptionModel": "Optional but the AI half is gated — Google Health Coach (adaptive plans, AI sleep-trend analysis) needs Google Health Premium. Heart rate, sleep stages, recovery guidance and women's health tracking are free. 3-month trial in the box",
+      "annualSubscriptionUsd": 99.99,
+      "waterRating": "Not published in Google's launch materials — the bands are described only as 'sweatproof, wetproof silicone'",
+      "ecgAfibStatus": "AFib alerts from the PPG sensor. No ECG electrodes, so no on-demand ECG at any price",
+      "spo2Sensor": "Yes — dedicated red and infrared SpO2 sensors",
+      "phoneCompatibility": "iOS and Android",
+      "chargerType": "Proprietary magnetic contact charger — lose it and only Google sells the replacement",
+      "dataExport": "Google Takeout export of the Google Health/Fitbit archive (JSON and CSV bundles)"
+    },
+    "scores": {
+      "trackingAccuracy": 7.5,
+      "subscriptionFreedom": 6.5,
+      "gpsIndependence": 2.0,
+      "batteryLife": 6.5,
+      "displayUsability": 3.0,
+      "healthFeatures": 7.5,
+      "appAndData": 8.0,
+      "value": 8.5
+    },
+    "pros": [
+      "$99.99 buys the whole feature set — unlike Whoop there is no membership standing between you and the hardware",
+      "Tom's Guide measured a full 7 days with 15% left after a dozen workouts",
+      "Heart rate held up against Garmin's entry-level watch in independent side-by-side testing",
+      "5-minute charge for a day of use removes the usual 'flat band, lost night of sleep data' problem"
+    ],
+    "cons": [
+      "No GPS chip and no screen: leave your phone behind on a run and you get no route, no pace and nothing to glance at",
+      "Google Health Coach — the AI coaching the launch was built around — costs $9.99/month or $99.99/year after the 3-month trial",
+      "Replacement bands start at $34.99 from Google and no third-party straps have appeared yet",
+      "Auto-detection needs 15+ minutes of activity, and only 41 exercise modes are supported",
+      "Google does not publish a water-resistance rating for the device in its launch materials"
+    ],
+    "images": [],
+    "amazonAsin": "B0GTMVZB39",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazfit-helio-strap",
+      "whoop-5-0",
+      "fitbit-inspire-3",
+      "polar-loop"
+    ],
+    "useCases": [
+      "screenless",
+      "sleep-recovery",
+      "everyday-steps"
+    ],
+    "shortTagline": "The $99 screenless Fitbit — great value, but no phone means no route and no screen."
+  },
+  {
+    "id": "ft-fitbit-charge-6",
+    "categorySlug": "fitness-trackers",
+    "brand": "Fitbit",
+    "series": "Charge",
+    "model": "Fitbit Charge 6 (2023)",
+    "slug": "fitbit-charge-6",
+    "releaseYear": 2023,
+    "price": 159.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Obsidian / Black Aluminum",
+      "Porcelain / Silver Aluminum",
+      "Coral / Champagne Gold Aluminum"
+    ],
+    "material": "Aluminium case with Gorilla Glass 3 and flexible silicone band",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "NFC (Google Wallet)",
+      "Built-in GPS + GLONASS"
+    ],
+    "features": [
+      "Built-in GPS + GLONASS — the only Fitbit band that maps a run without a phone",
+      "Heart-rate broadcast to gym equipment and Peloton over Bluetooth",
+      "ECG and EDA electrical sensors on the case sides",
+      "Google Maps directions and Google Wallet on the wrist",
+      "Small and large bands both included in the box"
+    ],
+    "specs": {
+      "gpsType": "Built-in GPS + GLONASS — works with the phone left at home",
+      "displayType": "AMOLED colour touchscreen under Gorilla Glass 3, with optional always-on mode",
+      "batteryLifeDays": 7,
+      "batteryAssumptions": "Google's 'up to 7 days' assumes the always-on display OFF and SpO2 off; the spec sheet states both 'will require more frequent charging'. Full charge takes ~2 hours",
+      "subscriptionModel": "Optional in name, heavy in practice — Daily Readiness Score, the Sleep Score breakdown, the detailed Stress Management breakdown and the workout library all sit behind Google Health Premium. 3 months included",
+      "annualSubscriptionUsd": 99.99,
+      "waterRating": "5 ATM / 50 m to ISO 22810:2010 — Google notes water resistance 'decreases or is lost over time'",
+      "ecgAfibStatus": "ECG app via multipurpose electrical sensors plus PPG irregular-rhythm notifications. Fitbit's ECG feature is FDA-cleared in the US; Google's current Charge 6 spec sheet does not restate the clearance",
+      "spo2Sensor": "Yes — red and infrared sensors, overnight SpO2",
+      "phoneCompatibility": "iOS 16.4+ or Android 11+, and setup requires a Google account",
+      "chargerType": "Proprietary magnetic cable shared with Charge 5 and Luxe; Google sells it as a standalone accessory (the Google Store listing did not render a price when checked)",
+      "dataExport": "Google Takeout export of the Google Health/Fitbit archive (JSON and CSV bundles)"
+    },
+    "scores": {
+      "trackingAccuracy": 8.0,
+      "subscriptionFreedom": 5.0,
+      "gpsIndependence": 8.5,
+      "batteryLife": 6.5,
+      "displayUsability": 8.0,
+      "healthFeatures": 8.5,
+      "appAndData": 8.0,
+      "value": 7.0
+    },
+    "pros": [
+      "Genuine built-in GPS — the single spec that separates it from every other Fitbit band",
+      "Bluetooth heart-rate broadcast to treadmills, bikes and Peloton is rare at this price",
+      "Both S and L bands ship in the box rather than being a $30 upsell",
+      "ECG and EDA electrodes give it health hardware the cheaper bands physically lack"
+    ],
+    "cons": [
+      "Daily Readiness Score and the useful half of the sleep analysis are Google Health Premium features — $99.99/year once the 3-month trial lapses, up from Fitbit Premium's old $79.99",
+      "The 7-day figure assumes always-on display and SpO2 both off; turn either on and Google itself says to expect less",
+      "A Google account is mandatory to set the tracker up at all",
+      "Proprietary charging cable that fits only Charge 5, Charge 6 and Luxe",
+      "Wrist optical HR degrades badly above ~150bpm — peer-reviewed testing found Fitbit units underestimate HR during intense intervals"
+    ],
+    "images": [],
+    "amazonAsin": "B0CC62ZG1M",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fitbit-inspire-3",
+      "garmin-vivosmart-5",
+      "amazfit-bip-6",
+      "fitbit-air"
+    ],
+    "useCases": [
+      "built-in-gps",
+      "everyday-steps",
+      "sleep-recovery"
+    ],
+    "shortTagline": "The only Fitbit band with real GPS — but the best metrics are a $99.99/year rental."
+  },
+  {
+    "id": "ft-fitbit-inspire-3",
+    "categorySlug": "fitness-trackers",
+    "brand": "Fitbit",
+    "series": "Inspire",
+    "model": "Fitbit Inspire 3 (2022)",
+    "slug": "fitbit-inspire-3",
+    "releaseYear": 2022,
+    "price": 99.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight Zen / Black",
+      "Morning Glow / Black",
+      "Lilac Bliss / Black"
+    ],
+    "material": "Polymer case with silicone band",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "Up to 10 days per charge — the longest-lasting Fitbit band",
+      "Colour touchscreen with optional always-on mode",
+      "Overnight SpO2 and skin-temperature variation",
+      "Small and large bands included",
+      "5 ATM so it survives swimming"
+    ],
+    "specs": {
+      "gpsType": "Connected GPS — borrows the paired phone's GPS. There is no GPS chip in the band, so no phone means no route or pace",
+      "displayType": "Colour touchscreen with optional always-on display (Google does not publish the panel size on the current store page)",
+      "batteryLifeDays": 10,
+      "batteryAssumptions": "'Up to 10 days' with the always-on display off; Google states always-on 'may require more frequent charging'. Continuous HR is on by default",
+      "subscriptionModel": "Optional — steps, HR, sleep stages and the basic Sleep Score are free. The Stress Management Score breakdown, most mindfulness content, the Wellness Report PDF and the Gemini-powered coaching need Google Health Premium",
+      "annualSubscriptionUsd": 99.99,
+      "waterRating": "5 ATM / 50 m to ISO 22810:2010, shallow water only",
+      "ecgAfibStatus": "No ECG electrodes. PPG-based irregular-rhythm notifications only",
+      "spo2Sensor": "Yes — overnight SpO2",
+      "phoneCompatibility": "iOS and Android; a Google account is required for setup",
+      "chargerType": "Proprietary clip-on magnetic charger, not shared with the Charge line",
+      "dataExport": "Google Takeout export of the Google Health/Fitbit archive (JSON and CSV bundles)"
+    },
+    "scores": {
+      "trackingAccuracy": 7.0,
+      "subscriptionFreedom": 6.0,
+      "gpsIndependence": 2.5,
+      "batteryLife": 8.5,
+      "displayUsability": 6.5,
+      "healthFeatures": 6.5,
+      "appAndData": 8.0,
+      "value": 7.5
+    },
+    "pros": [
+      "Ten days between charges beats the Charge 6 by three and the Apple/Samsung watches by a week",
+      "Both band sizes in the box, and 5 ATM means you can swim in it",
+      "Cheapest route into the Fitbit/Google Health ecosystem with a real screen",
+      "Same free sleep-stage data as the Charge 6 for $60 less"
+    ],
+    "cons": [
+      "Connected GPS only — the phone has to come with you or the run has no distance or route",
+      "The 10-day claim collapses if you enable the always-on display, by Google's own admission",
+      "No ECG hardware and no exercise-equipment heart-rate broadcast",
+      "Yet another proprietary charger, and it is not the Charge 5/6/Luxe cable",
+      "Now four years old and outflanked by the newer, screenless Fitbit Air at the same price"
+    ],
+    "images": [],
+    "amazonAsin": "B0B5F9SZW7",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fitbit-charge-6",
+      "fitbit-air",
+      "xiaomi-smart-band-10",
+      "garmin-vivosmart-5"
+    ],
+    "useCases": [
+      "everyday-steps",
+      "sleep-recovery"
+    ],
+    "shortTagline": "Ten-day battery and a real screen for $99.95 — but the GPS is your phone's."
+  },
+  {
+    "id": "ft-garmin-vivosmart-5",
+    "categorySlug": "fitness-trackers",
+    "brand": "Garmin",
+    "series": "vívosmart",
+    "model": "Garmin vívosmart 5 (2022)",
+    "slug": "garmin-vivosmart-5",
+    "releaseYear": 2022,
+    "price": 149.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "White",
+      "Cool Mint"
+    ],
+    "material": "Polymer case with silicone band, replaceable in S/M and L sizes",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "ANT+"
+    ],
+    "features": [
+      "Body Battery energy monitoring and all-day stress tracking",
+      "Pulse Ox on demand, all day or overnight",
+      "Physically replaceable bands in two sizes",
+      "Garmin Connect with nothing paywalled",
+      "Incident detection and Assistance when paired with a phone"
+    ],
+    "specs": {
+      "gpsType": "Connected GPS — the band has no GPS chip and uses the paired phone's location for outdoor distance and route",
+      "displayType": "OLED touchscreen, 66% larger than the vívosmart 4 (Garmin's press release does not state the panel dimensions)",
+      "batteryLifeDays": 7,
+      "batteryAssumptions": "'Up to 7 days' in smartwatch mode. Garmin does not publish a separate figure for all-day Pulse Ox enabled, which is the setting that drains it fastest",
+      "subscriptionModel": "None for anything on the device. Garmin Connect is free; the optional Garmin Connect+ tier adds AI summaries but gates nothing the vívosmart 5 measures",
+      "annualSubscriptionUsd": 0,
+      "waterRating": "5 ATM — Garmin rates it swim- and shower-proof",
+      "ecgAfibStatus": "No ECG hardware and no AFib detection on this model — Garmin's ECG app is limited to its Venu/fenix lines",
+      "spo2Sensor": "Yes — Pulse Ox, spot-check, all-day or overnight",
+      "phoneCompatibility": "iOS and Android via Garmin Connect",
+      "chargerType": "Proprietary 4-pin Garmin clip charger",
+      "dataExport": "Garmin Connect exports individual activities as GPX/TCX/CSV, offers a full account data export, and has a documented developer API"
+    },
+    "scores": {
+      "trackingAccuracy": 8.0,
+      "subscriptionFreedom": 9.5,
+      "gpsIndependence": 3.0,
+      "batteryLife": 6.5,
+      "displayUsability": 6.0,
+      "healthFeatures": 7.0,
+      "appAndData": 9.0,
+      "value": 6.5
+    },
+    "pros": [
+      "Nothing it measures is paywalled — Body Battery, stress, sleep and Pulse Ox are all free, forever",
+      "Best data portability in the category: per-activity GPX/TCX/CSV plus a documented API",
+      "Bands are genuinely user-replaceable and come in two wrist sizes",
+      "Garmin Connect's training and sleep history is deeper than anything Fitbit gives away free"
+    ],
+    "cons": [
+      "$149.99 for connected GPS only — the $159.95 Fitbit Charge 6 has a real GPS chip for $10 more",
+      "Four years old with no successor, and the screen is small and dim next to a $52 Xiaomi band",
+      "Garmin does not publish what all-day Pulse Ox does to the 7-day battery claim",
+      "No ECG, no AFib detection, no exercise-equipment heart-rate broadcast",
+      "Yet another proprietary clip charger"
+    ],
+    "images": [],
+    "amazonAsin": "B09VY63659",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fitbit-charge-6",
+      "fitbit-inspire-3",
+      "polar-loop",
+      "withings-scanwatch-light"
+    ],
+    "useCases": [
+      "no-subscription",
+      "everyday-steps",
+      "sleep-recovery"
+    ],
+    "shortTagline": "Nothing paywalled and the best data export in the category — but the GPS is your phone's."
+  },
+  {
+    "id": "ft-whoop-5-0",
+    "categorySlug": "fitness-trackers",
+    "brand": "WHOOP",
+    "series": "5.0",
+    "model": "WHOOP 5.0 (Peak membership)",
+    "slug": "whoop-5-0",
+    "releaseYear": 2025,
+    "price": 239.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Onyx SuperKnit (additional bands sold separately)"
+    ],
+    "material": "Woven SuperKnit band with polymer sensor module",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "Recovery, Strain and Sleep scores computed from 24/7 HRV and heart rate",
+      "Sensor samples 26 times per second, 7% smaller module than 4.0",
+      "Wireless PowerPack charges the band on the wrist",
+      "Healthspan / WHOOP Age and hormonal-insight features on the Peak tier",
+      "No screen at all — nothing to glance at, nothing to distract"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. Route and pace exist only if the phone comes with you",
+      "displayType": "None — screenless; the band shows nothing and every metric is app-only",
+      "batteryLifeDays": 4,
+      "batteryAssumptions": "WHOOP claims '4+ days' from the device itself. The advertised '14+ days' is the band PLUS the wireless PowerPack — which the Peak tier includes and the cheapest One tier does not",
+      "subscriptionModel": "Mandatory. WHOOP does not sell the hardware at any price — Peak is $239/year and the band comes with it. WHOOP states it stops collecting, uploading and analysing your data once the membership ends",
+      "annualSubscriptionUsd": 239.0,
+      "waterRating": "WHOOP markets the band as swim-safe; no ATM or IP figure is published in the 5.0 launch materials",
+      "ecgAfibStatus": "No ECG hardware on 5.0 — the ECG electrodes and the FDA-cleared ECG feature are exclusive to the WHOOP MG. 5.0 gets PPG-based irregular-heart-rhythm notifications",
+      "spo2Sensor": "Yes — blood oxygen, included on the Peak tier",
+      "phoneCompatibility": "iOS and Android",
+      "chargerType": "Wireless PowerPack (Peak and Life tiers). The $199 One tier ships a basic wired charger and a certified pre-owned 5.0 rather than a new one",
+      "dataExport": "Member data download and a developer API while the membership is active; access to the archive follows the membership"
+    },
+    "scores": {
+      "trackingAccuracy": 8.0,
+      "subscriptionFreedom": 1.0,
+      "gpsIndependence": 2.0,
+      "batteryLife": 5.5,
+      "displayUsability": 2.0,
+      "healthFeatures": 8.0,
+      "appAndData": 6.5,
+      "value": 4.5
+    },
+    "pros": [
+      "Best-in-class recovery and sleep modelling — the Strain/Recovery framework is still the one everyone else copies",
+      "26Hz sampling and a 7% smaller module make it genuinely comfortable to sleep in",
+      "The wireless PowerPack means you never take the band off to charge it",
+      "HSA/FSA eligible, which softens the annual cost for some US buyers"
+    ],
+    "cons": [
+      "There is no purchase price — you cannot own a WHOOP. Stop paying and the band stops collecting, uploading and analysing anything",
+      "$239/year for Peak means three years costs $717, more than four Fitbit Charge 6s",
+      "The $199 One tier quietly ships a certified pre-owned band and the old wired charger",
+      "No screen and no GPS chip: without your phone you get no pace, no route and no way to check anything mid-workout",
+      "Independent testing consistently finds wrist optical HR unreliable above ~150bpm, which is exactly where Strain is calculated"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "whoop-mg",
+      "amazfit-helio-strap",
+      "polar-loop",
+      "fitbit-air"
+    ],
+    "useCases": [
+      "screenless",
+      "sleep-recovery"
+    ],
+    "shortTagline": "The best recovery analytics in wearables, rented for $239/year and never owned."
+  },
+  {
+    "id": "ft-whoop-mg",
+    "categorySlug": "fitness-trackers",
+    "brand": "WHOOP",
+    "series": "MG",
+    "model": "WHOOP MG (Life membership)",
+    "slug": "whoop-mg",
+    "releaseYear": 2025,
+    "price": 359.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Onyx SuperKnit (additional bands sold separately)"
+    ],
+    "material": "Woven SuperKnit band with polymer sensor module and ECG contacts",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "On-demand ECG readings with FDA-cleared AFib detection",
+      "Daily Blood Pressure Insights (wellness feature, not a cleared medical device)",
+      "Everything in the Peak tier plus Healthspan and hormonal insights",
+      "Wireless PowerPack included",
+      "Priority phone support"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. Route and pace exist only if the phone comes with you",
+      "displayType": "None — screenless; every metric is app-only",
+      "batteryLifeDays": 4,
+      "batteryAssumptions": "'4+ days' from the band itself; the '14+ days' headline is the band plus the wireless PowerPack that the Life tier includes",
+      "subscriptionModel": "Mandatory and top-tier only — the MG hardware exists only inside the $359/year Life membership and is not sold separately",
+      "annualSubscriptionUsd": 359.0,
+      "waterRating": "WHOOP markets the band as swim-safe; no ATM or IP figure is published in the launch materials",
+      "ecgAfibStatus": "FDA-cleared ECG and AFib detection. Blood Pressure Insights is NOT FDA-cleared — the FDA issued WHOOP a warning letter in July 2025 over marketing it without authorisation, and closed the letter in June 2026 only after WHOOP relabelled it as a wellness feature",
+      "spo2Sensor": "Yes — blood oxygen",
+      "phoneCompatibility": "iOS and Android",
+      "chargerType": "Wireless PowerPack included at this tier",
+      "dataExport": "Member data download and a developer API while the membership is active"
+    },
+    "scores": {
+      "trackingAccuracy": 8.0,
+      "subscriptionFreedom": 0.5,
+      "gpsIndependence": 2.0,
+      "batteryLife": 5.5,
+      "displayUsability": 2.0,
+      "healthFeatures": 9.0,
+      "appAndData": 6.5,
+      "value": 3.5
+    },
+    "pros": [
+      "One of the very few wrist wearables with an FDA-cleared ECG and AFib detection",
+      "Everything Peak offers plus longevity/Healthspan metrics and priority support",
+      "Wireless PowerPack included, so the band never leaves your wrist",
+      "HSA/FSA eligible"
+    ],
+    "cons": [
+      "$359/year, forever — the MG cannot be bought outright and stops working as a tracker when the membership lapses",
+      "The headline Blood Pressure Insights feature is explicitly not FDA-cleared and drew an FDA warning letter in July 2025",
+      "Early MG units suffered widely reported sensor failures within hours of setup in May 2025",
+      "No screen and no GPS chip despite costing more per year than most GPS running watches cost outright",
+      "The ECG contacts do not change the fact that Strain is still computed from wrist PPG, which degrades at high intensity"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "whoop-5-0",
+      "withings-scanwatch-light",
+      "fitbit-charge-6",
+      "polar-loop"
+    ],
+    "useCases": [
+      "screenless",
+      "sleep-recovery"
+    ],
+    "shortTagline": "FDA-cleared ECG on a screenless band you never own, at $359 every single year."
+  },
+  {
+    "id": "ft-amazfit-helio-strap",
+    "categorySlug": "fitness-trackers",
+    "brand": "Amazfit",
+    "series": "Helio",
+    "model": "Amazfit Helio Strap (2025)",
+    "slug": "amazfit-helio-strap",
+    "releaseYear": 2025,
+    "price": 99.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black"
+    ],
+    "material": "Woven nylon strap with polymer sensor module",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "Screenless recovery tracking with no subscription of any kind",
+      "BioCharge readiness and PAI activity scoring in the Zepp app",
+      "10-day rated battery — Tom's Guide measured 12",
+      "27 sport modes including strength training and Hyrox",
+      "Roughly a third the first-year cost of a WHOOP Peak membership"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. Outdoor workouts borrow the phone's GPS through the Zepp app",
+      "displayType": "None — screenless; all data is read in the Zepp app",
+      "batteryLifeDays": 10,
+      "batteryAssumptions": "Amazfit rates 10 days with continuous HR on; Tom's Guide got 12 days in review testing. Recharge takes under 2 hours",
+      "subscriptionModel": "None. Every metric the strap produces is free forever — this is the device's entire pitch against WHOOP",
+      "annualSubscriptionUsd": 0,
+      "waterRating": "Amazfit markets it as sweat- and shower-safe; a formal ATM rating was not stated in the retail listings consulted",
+      "ecgAfibStatus": "No ECG hardware and no AFib detection",
+      "spo2Sensor": "Yes — blood oxygen via the Zepp app",
+      "phoneCompatibility": "iOS and Android via the Zepp app",
+      "chargerType": "Proprietary magnetic charging clip",
+      "dataExport": "Zepp syncs to Strava, Google Fit and Apple Health; Amazfit does not publish a documented bulk-export format"
+    },
+    "scores": {
+      "trackingAccuracy": 7.0,
+      "subscriptionFreedom": 9.5,
+      "gpsIndependence": 2.0,
+      "batteryLife": 8.5,
+      "displayUsability": 2.0,
+      "healthFeatures": 6.5,
+      "appAndData": 6.0,
+      "value": 9.0
+    },
+    "pros": [
+      "$99.99 once versus $239/year — the same screenless recovery concept without the rental model",
+      "Beat its own 10-day rating in independent testing, hitting 12 days",
+      "Zepp pushes workouts to Strava, Google Fit and Apple Health without a paid tier",
+      "Comfortable enough to sleep in, which is where a screenless band earns its keep"
+    ],
+    "cons": [
+      "Automatic workout detection is unreliable — reviewers found it missed yoga entirely and invented short bike rides",
+      "No GPS chip and no screen: without the phone you have no pace, distance or route",
+      "Recovery modelling is less mature than WHOOP's, and the Zepp app is busier and less polished",
+      "Amazfit does not publish a documented bulk data export or a water-resistance rating",
+      "Proprietary magnetic charging clip with no standard alternative"
+    ],
+    "images": [],
+    "amazonAsin": "B0F9J3TFMB",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "whoop-5-0",
+      "polar-loop",
+      "fitbit-air",
+      "amazfit-bip-6"
+    ],
+    "useCases": [
+      "no-subscription",
+      "screenless",
+      "sleep-recovery"
+    ],
+    "shortTagline": "A WHOOP-shaped band with no membership — the subscription trap's cheapest antidote."
+  },
+  {
+    "id": "ft-amazfit-bip-6",
+    "categorySlug": "fitness-trackers",
+    "brand": "Amazfit",
+    "series": "Bip",
+    "model": "Amazfit Bip 6 (2025)",
+    "slug": "amazfit-bip-6",
+    "releaseYear": 2025,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Stone",
+      "Red"
+    ],
+    "material": "Polymer case with silicone strap on a standard 22mm quick-release fitting",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Bluetooth calling",
+      "Built-in GNSS (five satellite systems)"
+    ],
+    "features": [
+      "Built-in five-system GNSS with free downloadable offline maps",
+      "1.97-inch AMOLED — the largest screen in this comparison",
+      "14 days typical, 26 days in battery-saver mode",
+      "Standard 22mm straps, so replacements cost a few dollars",
+      "Bluetooth calling and Zepp Flow voice control"
+    ],
+    "specs": {
+      "gpsType": "Built-in GNSS across five satellite systems, with free offline maps — no phone required for route or pace",
+      "displayType": "1.97-inch AMOLED touchscreen",
+      "batteryLifeDays": 14,
+      "batteryAssumptions": "Amazfit's 14 days is 'typical use'; battery-saver mode stretches to 26 days. Continuous GPS use and the always-on display are not covered by the 14-day figure. Full charge 1.5–2.5 hours",
+      "subscriptionModel": "None — every metric and the offline maps are free",
+      "annualSubscriptionUsd": 0,
+      "waterRating": "5 ATM / 50 m for up to 10 minutes",
+      "ecgAfibStatus": "No ECG hardware and no AFib detection",
+      "spo2Sensor": "Yes — blood oxygen plus stress and sleep via BioTracker",
+      "phoneCompatibility": "iOS and Android via the Zepp app (text reply is Android-only)",
+      "chargerType": "Proprietary magnetic charging cradle terminating in USB-C. Amazfit's US product page states a cable is not included as a sustainability measure — confirm box contents before buying",
+      "dataExport": "Zepp syncs to Strava, Google Fit and Apple Health; no documented bulk-export format"
+    },
+    "scores": {
+      "trackingAccuracy": 7.0,
+      "subscriptionFreedom": 9.5,
+      "gpsIndependence": 9.0,
+      "batteryLife": 9.0,
+      "displayUsability": 9.0,
+      "healthFeatures": 6.0,
+      "appAndData": 6.0,
+      "value": 9.5
+    },
+    "pros": [
+      "Real multi-band GNSS and offline maps for $79.99 — half the price of the cheapest Fitbit with a GPS chip",
+      "14-day typical battery with a 1.97-inch AMOLED is a combination nothing else here matches",
+      "Standard 22mm quick-release straps, so replacements are a few dollars rather than $35",
+      "No subscription, no gated metrics, works with both iPhone and Android"
+    ],
+    "cons": [
+      "Amazfit's US page says no charging cable is included in the box — verify before you buy, because the cradle is proprietary",
+      "No ECG, no AFib detection and no FDA-cleared health feature of any kind",
+      "Zepp's recovery and sleep modelling is shallower than Garmin's or WHOOP's, and there is no documented bulk data export",
+      "Sits awkwardly between band and watch — it is 46mm, so it wears like a watch not a slim tracker",
+      "The 14-day claim does not survive regular GPS workouts or the always-on display"
+    ],
+    "images": [],
+    "amazonAsin": "B0DYJKTHYF",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xiaomi-smart-band-10",
+      "samsung-galaxy-fit3",
+      "fitbit-charge-6",
+      "amazfit-helio-strap"
+    ],
+    "useCases": [
+      "built-in-gps",
+      "no-subscription",
+      "everyday-steps"
+    ],
+    "shortTagline": "Real built-in GPS and 14-day battery for $79.99 — the connected-GPS trap's cheapest escape."
+  },
+  {
+    "id": "ft-xiaomi-smart-band-10",
+    "categorySlug": "fitness-trackers",
+    "brand": "Xiaomi",
+    "series": "Smart Band",
+    "model": "Xiaomi Smart Band 10 (2025, Global Version)",
+    "slug": "xiaomi-smart-band-10",
+    "releaseYear": 2025,
+    "price": 51.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight Black",
+      "Glacier Silver",
+      "Mystic Rose"
+    ],
+    "material": "Aluminium alloy frame with TPU strap (ceramic, leather, metal and knit straps sold separately)",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.4"
+    ],
+    "features": [
+      "1.72-inch AMOLED at 1500 nits — brighter than trackers costing three times as much",
+      "21 days of typical battery life",
+      "150+ sport modes and an electronic compass",
+      "5 ATM water resistance",
+      "15.95g without the strap"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. Xiaomi's own spec sheet does not list GNSS; outdoor distance depends on the phone",
+      "displayType": "1.72-inch AMOLED touchscreen, 1500 nits high-brightness mode",
+      "batteryLifeDays": 21,
+      "batteryAssumptions": "Xiaomi publishes three figures: 21 days typical, 9 days with the always-on display, 8 days under heavy load. The 21-day headline assumes AOD off",
+      "subscriptionModel": "None — no paid tier exists for the Mi Fitness app",
+      "annualSubscriptionUsd": 0,
+      "waterRating": "5 ATM / 50 m to ISO 22810; Xiaomi explicitly excludes hot showers and saunas",
+      "ecgAfibStatus": "No ECG hardware and no AFib detection",
+      "spo2Sensor": "Yes — blood oxygen and stress via the nine-axis sensor package",
+      "phoneCompatibility": "iOS and Android via Mi Fitness, but US units are 'Global Version' grey imports with no US Xiaomi warranty channel",
+      "chargerType": "Proprietary magnetic pogo-pin charger",
+      "dataExport": "Not documented by Xiaomi — Mi Fitness syncs to Strava and Apple Health/Google Fit, but there is no published bulk export"
+    },
+    "scores": {
+      "trackingAccuracy": 6.5,
+      "subscriptionFreedom": 9.5,
+      "gpsIndependence": 1.5,
+      "batteryLife": 9.5,
+      "displayUsability": 8.5,
+      "healthFeatures": 5.5,
+      "appAndData": 5.0,
+      "value": 9.5
+    },
+    "pros": [
+      "Three weeks of battery and a 1500-nit AMOLED for around $52",
+      "Genuinely nothing is paywalled — no premium tier exists at all",
+      "5 ATM and 15.95g make it the easiest band here to forget you are wearing",
+      "Huge choice of first-party straps including ceramic, leather and metal"
+    ],
+    "cons": [
+      "No GPS chip at all — Xiaomi does not even list GNSS on the spec sheet, so every outdoor distance is the phone's",
+      "US buyers get 'Global Version' imports; there is no US Xiaomi warranty or support channel behind them",
+      "The 21-day figure drops to 9 days the moment you turn on the always-on display",
+      "No documented way to bulk-export your own data out of Mi Fitness",
+      "Sleep and recovery analysis is shallow compared with Garmin, Polar or WHOOP"
+    ],
+    "images": [],
+    "amazonAsin": "B0DYF82545",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "samsung-galaxy-fit3",
+      "amazfit-bip-6",
+      "fitbit-inspire-3",
+      "amazfit-helio-strap"
+    ],
+    "useCases": [
+      "no-subscription",
+      "everyday-steps"
+    ],
+    "shortTagline": "Three weeks of battery and a brilliant screen for $52 — with zero GPS and grey-import support."
+  },
+  {
+    "id": "ft-samsung-galaxy-fit3",
+    "categorySlug": "fitness-trackers",
+    "brand": "Samsung",
+    "series": "Galaxy Fit",
+    "model": "Samsung Galaxy Fit3 (2024)",
+    "slug": "samsung-galaxy-fit3",
+    "releaseYear": 2024,
+    "price": 59.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Dark Gray",
+      "Silver",
+      "Pink Gold"
+    ],
+    "material": "Aluminium body with silicone strap",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "Aluminium body — unusual at this price",
+      "1.6-inch AMOLED, 45% wider than the Fit2",
+      "13 days rated with the always-on display off",
+      "5 ATM plus IP68 dust and water resistance",
+      "Fall detection and SOS via the paired phone"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. It uses the paired phone's location; without a phone it estimates distance from the accelerometer and reviewers measured it undermeasuring a 5km track by 50m or more",
+      "displayType": "1.6-inch AMOLED touchscreen with optional always-on mode",
+      "batteryLifeDays": 13,
+      "batteryAssumptions": "Samsung's 13 days is explicitly 'with Always On Display turned off (default setting)'. Independent testing under moderate-to-heavy use returned roughly 7–10 days",
+      "subscriptionModel": "None — Samsung Health is free",
+      "annualSubscriptionUsd": 0,
+      "waterRating": "5 ATM (50 m for 10 minutes) plus IP68",
+      "ecgAfibStatus": "No ECG hardware and no AFib detection — Samsung's ECG is restricted to Galaxy Watch models paired with a Galaxy phone",
+      "spo2Sensor": "Yes — blood oxygen during sleep",
+      "phoneCompatibility": "Android only. There is no iOS app for the Fit3, and setup is smoothest on a Samsung phone",
+      "chargerType": "Proprietary pogo-pin cable; no wall adapter is included in the box",
+      "dataExport": "Samsung Health offers a personal-data download; third-party sync generally needs Health Connect on Android"
+    },
+    "scores": {
+      "trackingAccuracy": 6.0,
+      "subscriptionFreedom": 9.5,
+      "gpsIndependence": 1.5,
+      "batteryLife": 8.5,
+      "displayUsability": 8.0,
+      "healthFeatures": 5.5,
+      "appAndData": 5.5,
+      "value": 8.5
+    },
+    "pros": [
+      "Aluminium body and a 1.6-inch AMOLED for $59.99",
+      "5 ATM plus IP68 is the most thorough water/dust rating in the budget tier",
+      "Nothing is paywalled and Samsung Health is a mature, free app",
+      "Fall detection and SOS are rare features at this price"
+    ],
+    "cons": [
+      "Android only — there is no iPhone app, which rules the Fit3 out entirely for iOS users",
+      "No GPS chip, and phone-free distance estimation was measured undermeasuring a 5km track by 50m+",
+      "The 13-day claim is with the always-on display off; real-world use lands nearer 7–10 days",
+      "Proprietary pogo-pin charging cable and no wall adapter in the box",
+      "Best-behaved on a Samsung phone; on other Android handsets setup is clumsier"
+    ],
+    "images": [],
+    "amazonAsin": "B0DPB9YBDR",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "xiaomi-smart-band-10",
+      "fitbit-inspire-3",
+      "amazfit-bip-6"
+    ],
+    "useCases": [
+      "no-subscription",
+      "everyday-steps"
+    ],
+    "shortTagline": "An aluminium AMOLED band for $59.99 — as long as you never want to use an iPhone."
+  },
+  {
+    "id": "ft-polar-loop",
+    "categorySlug": "fitness-trackers",
+    "brand": "Polar",
+    "series": "Loop",
+    "model": "Polar Loop (2025)",
+    "slug": "polar-loop",
+    "releaseYear": 2025,
+    "price": 199.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Greige",
+      "Blue"
+    ],
+    "material": "Polymer sensor module with textile wristband; S/M and M/L bands included",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "Screenless 24/7 tracking with Polar's Precision Prime optical sensor",
+      "SleepWise alertness prediction and Nightly Recharge recovery scoring",
+      "No subscription — every feature from day one",
+      "Both S/M and M/L bands included in the box",
+      "Four weeks of onboard memory if you leave your phone behind"
+    ],
+    "specs": {
+      "gpsType": "None — no GPS chip. The Polar Flow app can use the phone's GPS when you start an outdoor session manually",
+      "displayType": "None — screenless; everything is read in Polar Flow",
+      "batteryLifeDays": 8,
+      "batteryAssumptions": "Polar rates up to 8 days with continuous HR active; the band holds about four weeks of data if it goes unsynced",
+      "subscriptionModel": "None. Polar states full access to every feature from day one with no monthly fee — the explicit anti-WHOOP position",
+      "annualSubscriptionUsd": 0,
+      "waterRating": "WR30 — Polar rates it for bathing and swimming, a weaker rating than the 5 ATM bands here",
+      "ecgAfibStatus": "No ECG hardware and no AFib detection",
+      "spo2Sensor": "Not listed by Polar for the Loop — the sensor package is optical HR, HRV and accelerometer",
+      "phoneCompatibility": "iOS and Android via Polar Flow",
+      "chargerType": "Proprietary Polar Charge 2.0 USB-C cable (included)",
+      "dataExport": "Strongest in the screenless class — Polar Flow exports sessions as TCX/GPX, offers a full account data export and a documented AccessLink API"
+    },
+    "scores": {
+      "trackingAccuracy": 8.0,
+      "subscriptionFreedom": 9.5,
+      "gpsIndependence": 2.5,
+      "batteryLife": 6.0,
+      "displayUsability": 2.0,
+      "healthFeatures": 6.5,
+      "appAndData": 8.5,
+      "value": 6.5
+    },
+    "pros": [
+      "Polar's sports-science pedigree — Nightly Recharge and SleepWise — with no subscription attached",
+      "Two band sizes in the box, so the fit problem is solved at purchase",
+      "Real data portability: TCX/GPX export, account export and a documented API",
+      "Two-year warranty, double the Fitbit and Amazfit norm"
+    ],
+    "cons": [
+      "$199.99 for a screenless band with no GPS chip and no SpO2 — the $99.99 Amazfit Helio Strap does the same job",
+      "WR30 rather than 5 ATM, the weakest water rating in this comparison",
+      "8 days is the shortest battery life of any screenless band here",
+      "No ECG, no AFib detection, no FDA-cleared health feature",
+      "Polar Flow's interface is dated next to WHOOP's and Google Health's"
+    ],
+    "images": [],
+    "amazonAsin": "B0G2X12YRY",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "whoop-5-0",
+      "amazfit-helio-strap",
+      "fitbit-air",
+      "garmin-vivosmart-5"
+    ],
+    "useCases": [
+      "no-subscription",
+      "screenless",
+      "sleep-recovery"
+    ],
+    "shortTagline": "WHOOP's format with Polar's science and no membership — but $200 and no GPS chip."
+  },
+  {
+    "id": "ft-withings-scanwatch-light",
+    "categorySlug": "fitness-trackers",
+    "brand": "Withings",
+    "series": "ScanWatch",
+    "model": "Withings ScanWatch Light (37mm)",
+    "slug": "withings-scanwatch-light",
+    "releaseYear": 2024,
+    "price": 249.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Black & Silver",
+      "White & Rose Gold",
+      "Green",
+      "Blue"
+    ],
+    "material": "Stainless steel case, Gorilla Glass, fluoroelastomer strap",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth"
+    ],
+    "features": [
+      "Hybrid analogue dial with a 0.63-inch grayscale OLED sub-display",
+      "Up to a month between charges",
+      "24/7 heart rate with high/low alerts and cycle tracking",
+      "Stainless steel case at 37mm — the only metal-cased device here",
+      "HSA/FSA eligible"
+    ],
+    "specs": {
+      "gpsType": "Connected GPS at best — the Amazon listing advertises 'Connected GPS' using the phone, while Withings' own shop spec sheet does not list GPS at all. Sources conflict; either way there is no GPS chip in the watch",
+      "displayType": "Analogue hands plus a 0.63-inch grayscale OLED sub-display (282 PPI)",
+      "batteryLifeDays": 30,
+      "batteryAssumptions": "Sources conflict: Withings' own shop page claims up to 35 days, while the Amazon listing title and launch coverage say 30 days. No SpO2 sensor is drawing power",
+      "subscriptionModel": "Optional — Withings+ adds cardiologist ECG review, the AI Health Assistant, NutriCare and Readiness scoring. One month is included. Withings does not publish the Withings+ price on its US product or subscription pages",
+      "annualSubscriptionUsd": "Not published on Withings' US Withings+ page",
+      "waterRating": "5 ATM / 50 m, swimproof",
+      "ecgAfibStatus": "No ECG on the Light — Withings reserves ECG and AFib detection for ScanWatch 2 and Nova. The cardiologist ECG review sold under Withings+ therefore does not apply to this model",
+      "spo2Sensor": "No — Withings explicitly omits the SpO2 sensor on the Light",
+      "phoneCompatibility": "iOS and Android via Withings Health Mate",
+      "chargerType": "Proprietary magnetic puck",
+      "dataExport": "Health Mate offers a full account data export in CSV, and Withings publishes a developer API"
+    },
+    "scores": {
+      "trackingAccuracy": 7.0,
+      "subscriptionFreedom": 8.0,
+      "gpsIndependence": 2.0,
+      "batteryLife": 9.5,
+      "displayUsability": 5.0,
+      "healthFeatures": 5.5,
+      "appAndData": 8.0,
+      "value": 5.5
+    },
+    "pros": [
+      "A month or more per charge, by far the longest run time in this comparison",
+      "Stainless steel and real analogue hands — it passes as a watch, not a fitness band",
+      "CSV account export and a public API make your data genuinely portable",
+      "Two-year warranty and HSA/FSA eligibility"
+    ],
+    "cons": [
+      "$249.95 buys no ECG, no SpO2 and no GPS chip — the 'Light' name is doing a lot of work",
+      "Sources conflict on both battery life (30 vs 35 days) and whether connected GPS is supported at all",
+      "The Withings+ features most people want, including cardiologist ECG review, need hardware this model does not have",
+      "Withings does not publish the Withings+ price on its US pages, so the real cost of ownership is unclear at purchase",
+      "The 0.63-inch grayscale sub-display shows very little at a glance"
+    ],
+    "images": [],
+    "amazonAsin": "B0CG9RZFLN",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "garmin-vivosmart-5",
+      "whoop-mg",
+      "fitbit-charge-6",
+      "polar-loop"
+    ],
+    "useCases": [
+      "no-subscription",
+      "sleep-recovery",
+      "everyday-steps"
+    ],
+    "shortTagline": "A month of battery in a steel watch case — with no ECG, no SpO2 and no GPS chip."
+  }
+]

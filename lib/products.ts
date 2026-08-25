@@ -26,6 +26,10 @@ import { cordlessVacuumProducts } from '@/data/products/cordless-vacuums';
 import { humidifierProducts } from '@/data/products/humidifiers';
 import { airPurifierProducts } from '@/data/products/air-purifiers';
 import { dehumidifierProducts } from '@/data/products/dehumidifiers';
+import { smartwatchProducts } from '@/data/products/smartwatches';
+import { fitnessTrackerProducts } from '@/data/products/fitness-trackers';
+import { gpsRunningWatchProducts } from '@/data/products/gps-running-watches';
+import { smartRingProducts } from '@/data/products/smart-rings';
 
 // ---------------------------------------------------------------------------
 // Central product registry. Add a new category's product file here and it
@@ -60,7 +64,11 @@ const allProducts: Product[] = [
   ...cordlessVacuumProducts,
   ...humidifierProducts,
   ...airPurifierProducts,
-  ...dehumidifierProducts
+  ...dehumidifierProducts,
+  ...smartwatchProducts,
+  ...fitnessTrackerProducts,
+  ...gpsRunningWatchProducts,
+  ...smartRingProducts
 ];
 
 export function getAllProducts(): Product[] {

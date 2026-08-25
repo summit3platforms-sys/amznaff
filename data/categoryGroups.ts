@@ -46,7 +46,12 @@ export const categoryGroups: CategoryGroup[] = [
   {
     name: 'Wearables',
     iconKey: 'wearable',
-    items: [{ name: 'Smartwatches' }, { name: 'Fitness Trackers' }, { name: 'GPS Watches' }, { name: 'Smart Rings' }]
+    items: [
+      { name: 'Smartwatches', slug: 'smartwatches' },
+      { name: 'Fitness Trackers', slug: 'fitness-trackers' },
+      { name: 'GPS Running Watches', slug: 'gps-running-watches' },
+      { name: 'Smart Rings', slug: 'smart-rings' }
+    ]
   },
   {
     name: 'Smart Home',

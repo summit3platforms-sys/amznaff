@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "sw-apple-watch-series-11",
+    "categorySlug": "smartwatches",
+    "brand": "Apple",
+    "series": "Apple Watch Series",
+    "model": "Apple Watch Series 11 (42mm, GPS, Aluminum)",
+    "slug": "apple-watch-series-11",
+    "releaseYear": 2025,
+    "price": 399.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Jet Black",
+      "Rose Gold",
+      "Space Gray",
+      "Silver"
+    ],
+    "material": "100% recycled aluminum case with Ion-X strengthened front glass",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "NFC",
+      "Optional 5G cellular (separate SKU)"
+    ],
+    "features": [
+      "24-hour battery, up from 18 hours on every Apple Watch before Series 10",
+      "Hypertension notifications — FDA-cleared and live in the US",
+      "Sleep Score plus FDA-cleared sleep apnea notifications",
+      "Ion-X glass Apple rates as 2x more scratch resistant than Series 10",
+      "The only watch here with a genuinely large native third-party app catalogue"
+    ],
+    "specs": {
+      "phoneCompatibility": "iPhone only. Requires iPhone 11 or later running iOS 26 or later. There is no Android support and never has been — an Apple Watch is permanently bricked as a smartwatch if you switch to Android.",
+      "batteryHours": 24,
+      "batteryAssumption": "Apple's 24 h figure is measured with the always-on display active, 90 time checks, 90 notifications, 15 min of app use and one 60-minute workout with music played from the watch. It does NOT include LTE use or overnight sleep tracking; sleep tracking means you must find a second charging window in your day.",
+      "caseSize": 42,
+      "displayType": "LTPO3 wide-angle OLED, always-on, up to 2000 nits",
+      "os": "watchOS 26",
+      "appEcosystem": "Full on-device App Store with native watchOS apps — by far the deepest third-party catalogue in this category",
+      "healthSensorsUS": "Live in the US: ECG, irregular rhythm notifications, high/low heart rate alerts, sleep apnea notifications and hypertension notifications (all FDA-cleared). Blood Oxygen works but, following the Masimo patent case, the redesigned US version collects data on the watch and calculates the reading on the paired iPhone; the ITC closed the import-ban case in Apple's favour on 17 April 2026.",
+      "subscription": "No subscription is required for any health or fitness metric. Apple Fitness+ ($9.99/mo) is optional and only adds guided workout classes.",
+      "lteOption": "Separate SKU: GPS + Cellular starts at $499, a $100 upcharge, and needs its own carrier line (typically $10/mo).",
+      "waterRating": "50 m water resistant (WR50), IP6X dust resistant",
+      "batteryService": "Apple out-of-warranty battery service is a flat $99. AppleCare+ only covers the battery once capacity has fallen below 80%."
+    },
+    "scores": {
+      "battery": 5.5,
+      "health": 9.6,
+      "fitness": 8.4,
+      "ecosystemFreedom": 1.0,
+      "apps": 10.0,
+      "display": 9.2,
+      "build": 8.6,
+      "value": 7.6
+    },
+    "pros": [
+      "Hypertension notifications and sleep apnea notifications are both FDA-cleared and switched on in the US, which is rarer than the marketing implies",
+      "Native watchOS App Store dwarfs every Wear OS and proprietary rival here",
+      "Every health metric is free — no Fitbit Premium / Zepp Aura / Connect+ equivalent",
+      "Flat $99 battery service from Apple, versus makers who will not replace a battery at all"
+    ],
+    "cons": [
+      "iPhone-only, permanently: switch to Android and the watch becomes unusable and unsellable to Android buyers",
+      "24 hours is still last place among everything here except the SE — overnight sleep tracking forces a second daily charge",
+      "Blood Oxygen is still the post-litigation workaround: the watch collects, the iPhone computes",
+      "Cellular is a $100 pricier SKU plus a monthly carrier line, and the ASIN is different"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQFL8PZ5",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-watch-se-3",
+      "apple-watch-ultra-3",
+      "galaxy-watch-9",
+      "pixel-watch-5"
+    ],
+    "useCases": [
+      "iphone",
+      "heart-health"
+    ],
+    "shortTagline": "The most complete smartwatch you can buy — if you will never own anything but an iPhone."
+  },
+  {
+    "id": "sw-apple-watch-se-3",
+    "categorySlug": "smartwatches",
+    "brand": "Apple",
+    "series": "Apple Watch SE",
+    "model": "Apple Watch SE 3 (40mm, GPS, Aluminum)",
+    "slug": "apple-watch-se-3",
+    "releaseYear": 2025,
+    "price": 249.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Midnight",
+      "Starlight"
+    ],
+    "material": "100% recycled aluminum case with Ion-X strengthened front glass",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "NFC",
+      "Optional LTE cellular (separate SKU)"
+    ],
+    "features": [
+      "Gains the always-on display the SE line never had",
+      "Same S10 chip as Series 11, so on-device Siri and the same watchOS 26 features",
+      "Adds the ECG app, wrist temperature sensing and sleep apnea notifications",
+      "Fast charging: Apple's SE 3 is the first SE that charges quickly",
+      "$249 buys FDA-cleared heart features that cost $400+ elsewhere"
+    ],
+    "specs": {
+      "phoneCompatibility": "iPhone only. Requires iPhone 11 or later running iOS 26 or later. No Android support of any kind.",
+      "batteryHours": 18,
+      "batteryAssumption": "Apple's 18 h figure assumes the same mixed-use day as Series 11 (90 time checks, 90 notifications, 15 min app use, 60 min workout) with the always-on display active and no LTE. Add overnight sleep tracking and you are charging twice a day.",
+      "caseSize": 40,
+      "displayType": "LTPO OLED, always-on (new to the SE line), up to 1000 nits",
+      "os": "watchOS 26",
+      "appEcosystem": "Full on-device App Store — identical native watchOS catalogue to Series 11 and Ultra 3",
+      "healthSensorsUS": "Live in the US: ECG, irregular rhythm notifications, sleep apnea notifications and hypertension notifications (FDA-cleared), plus wrist temperature. Blood Oxygen uses the same post-Masimo design as Series 11 — captured on the watch, calculated on the iPhone. There is no depth gauge and no skin-temperature-driven ovulation estimate beyond what Series 11 offers.",
+      "subscription": "None required; Apple Fitness+ ($9.99/mo) is optional.",
+      "lteOption": "Separate SKU: Apple lists SE 3 GPS + Cellular at a $50 upcharge and it needs its own carrier line. The cellular 40mm has repeatedly been discounted to $249.99 at Amazon, closing the gap.",
+      "waterRating": "50 m water resistant (WR50), IP6X dust resistant",
+      "batteryService": "Apple out-of-warranty battery service is a flat $99 — over a third of the watch's price."
+    },
+    "scores": {
+      "battery": 4.5,
+      "health": 8.8,
+      "fitness": 7.8,
+      "ecosystemFreedom": 1.0,
+      "apps": 10.0,
+      "display": 7.4,
+      "build": 7.6,
+      "value": 9.0
+    },
+    "pros": [
+      "Cheapest route to a US-enabled ECG plus hypertension and sleep apnea notifications",
+      "Same S10 chip and same watchOS 26 as the $399 Series 11 — the gap is display and sensors, not speed",
+      "Always-on display and fast charging finally arrive on the SE line",
+      "No subscription gates any metric, unlike the similarly-priced Fitbit Sense 2"
+    ],
+    "cons": [
+      "18 hours is the shortest battery life of any watch in this comparison",
+      "1000-nit display is half the brightness of Series 11 and a sixth of Galaxy Watch Ultra2's",
+      "Aluminum only, two colours only, no titanium and no larger 46mm option",
+      "iPhone-only — worthless the day you switch to Android"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQFW7M9H",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-watch-series-11",
+      "fitbit-sense-2",
+      "galaxy-watch-9",
+      "amazfit-bip-6"
+    ],
+    "useCases": [
+      "iphone"
+    ],
+    "shortTagline": "FDA-cleared heart features for $249 — the best-value Apple Watch, with the worst battery here."
+  },
+  {
+    "id": "sw-apple-watch-ultra-3",
+    "categorySlug": "smartwatches",
+    "brand": "Apple",
+    "series": "Apple Watch Ultra",
+    "model": "Apple Watch Ultra 3 (49mm, GPS + Cellular, Titanium)",
+    "slug": "apple-watch-ultra-3",
+    "releaseYear": 2025,
+    "price": 799.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Natural Titanium",
+      "Black Titanium"
+    ],
+    "material": "Aerospace-grade titanium case with flat sapphire crystal front",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "NFC",
+      "5G cellular (included)",
+      "Satellite messaging and Emergency SOS"
+    ],
+    "features": [
+      "42 hours normal use, 72 hours in Low Power Mode — nearly double Series 11",
+      "Satellite messaging and Emergency SOS with no phone in range",
+      "3000-nit display, the brightest Apple has shipped",
+      "100 m water resistance with a depth gauge good to 40 m and EN13319 dive certification",
+      "5G cellular is built into every unit — no separate SKU decision"
+    ],
+    "specs": {
+      "phoneCompatibility": "iPhone only. Requires iPhone 11 or later on iOS 26. Satellite features additionally require the watch to be out of cellular range, and are US/Canada-region dependent.",
+      "batteryHours": 42,
+      "batteryAssumption": "Apple's 42 h figure assumes the always-on display active and a mixed-use day with one workout; 72 h is Low Power Mode with the always-on display disabled and some sensors throttled. Multi-hour GPS workouts and satellite use pull it down sharply.",
+      "caseSize": 49,
+      "displayType": "LTPO3 wide-angle OLED, always-on, up to 3000 nits",
+      "os": "watchOS 26",
+      "appEcosystem": "Full on-device App Store — the same native watchOS catalogue as Series 11, plus dive and outdoor apps that use the depth sensor",
+      "healthSensorsUS": "Live in the US: ECG, irregular rhythm notifications, sleep apnea notifications and hypertension notifications (all FDA-cleared), plus wrist temperature and a depth gauge. Blood Oxygen is the post-Masimo redesign — sampled on the watch, computed on the iPhone.",
+      "subscription": "None required. Satellite features are included with the hardware, not sold as a subscription.",
+      "lteOption": "Not an option — 5G cellular is included in every Ultra 3 and is part of the $799 price. A carrier line is still required and billed separately.",
+      "waterRating": "100 m water resistant (WR100), IP6X dust, EN13319 dive certified to 40 m",
+      "batteryService": "Apple out-of-warranty battery service is a flat $99, the same as the aluminium models."
+    },
+    "scores": {
+      "battery": 7.5,
+      "health": 9.6,
+      "fitness": 9.4,
+      "ecosystemFreedom": 1.0,
+      "apps": 10.0,
+      "display": 9.8,
+      "build": 9.6,
+      "value": 6.8
+    },
+    "pros": [
+      "Best battery of any Apple Watch by a wide margin — 42 h claimed, 72 h in Low Power",
+      "Satellite messaging works with no phone and no cell signal, which nothing else here offers",
+      "Titanium and sapphire, 100 m rating and a real depth gauge for the price of a Galaxy Watch Ultra2",
+      "Cellular is included rather than being a $100 upcharge and a second ASIN"
+    ],
+    "cons": [
+      "$799 and iPhone-only — the most money you can spend on a watch that one phone switch renders useless",
+      "49mm and titanium make it genuinely large and heavy on small wrists",
+      "Even 42 hours is beaten by a $79 Amazfit and a $250 OnePlus",
+      "Satellite features are region-limited and depend on being outdoors with a clear sky"
+    ],
+    "images": [],
+    "amazonAsin": "B0FQFHVZYL",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-watch-series-11",
+      "galaxy-watch-ultra-2",
+      "garmin-venu-4-41mm"
+    ],
+    "useCases": [
+      "iphone",
+      "outdoors",
+      "long-battery",
+      "heart-health"
+    ],
+    "shortTagline": "Satellite SOS, 42-hour battery and a depth gauge — Apple's only watch that lasts a weekend."
+  },
+  {
+    "id": "sw-galaxy-watch-9",
+    "categorySlug": "smartwatches",
+    "brand": "Samsung",
+    "series": "Galaxy Watch",
+    "model": "Samsung Galaxy Watch9 (44mm, Bluetooth, Aluminum)",
+    "slug": "galaxy-watch-9",
+    "releaseYear": 2026,
+    "price": 409.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Graphite",
+      "Silver"
+    ],
+    "material": "Aluminum case with sapphire crystal front glass",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi 2.4/5GHz",
+      "NFC",
+      "GPS/GLONASS/Galileo/BeiDou",
+      "Optional LTE (separate SKU)"
+    ],
+    "features": [
+      "First Qualcomm-powered Galaxy Watch — Snapdragon Wear Elite replaces Exynos",
+      "3000-nit display, matching the brightest Wear OS screens",
+      "445 mAh battery in the 44mm, Samsung's largest in a standard Galaxy Watch",
+      "BioActive sensor adds body composition (BIA) that no Apple or Pixel watch offers",
+      "Two-year Samsung warranty, double Apple's and Google's"
+    ],
+    "specs": {
+      "phoneCompatibility": "Android only, and heavily Samsung-favoured. Requires Android 13 or later with at least 1.5 GB RAM. It will NOT pair with an iPhone at all. On a non-Samsung Android phone you lose ECG and blood pressure (the Samsung Health Monitor app is Galaxy-phone only), the SmartThings camera-feed integration, the Camera Controller remote shutter, DND/bedtime sync and audio messages.",
+      "batteryHours": 24,
+      "batteryAssumption": "The 24 h here is a measured figure, not a Samsung claim: Samsung publishes no hours figure on the US Galaxy Watch9 page — only that the larger battery means 'less frequent charging'. GSMArena's review of the 40mm (390 mAh) got roughly 24 hours of normal use including a 3-hour GPS hike, and under 24 hours with the always-on display plus a 1.5-hour tracked workout. The 44mm reviewed here carries 445 mAh.",
+      "caseSize": 44,
+      "displayType": "Super AMOLED under sapphire crystal, up to 3000 nits",
+      "os": "Wear OS (One UI Watch)",
+      "appEcosystem": "Google Play Store on the watch — a real Wear OS catalogue, though thinner than watchOS and with several Samsung-phone-gated first-party apps",
+      "healthSensorsUS": "ECG and irregular heart rhythm notifications are FDA-cleared; sleep apnea detection is FDA-cleared. Blood pressure began a phased US rollout on 31 March 2026 — but it is NOT FDA-cleared, it runs through the Samsung Health Monitor app, and it must be re-calibrated against a separate upper-arm cuff every 28 days. BIA body composition and skin temperature are wellness features, not cleared measurements.",
+      "subscription": "No subscription is required for core metrics. Samsung bundles trial subscriptions to third-party fitness apps that renew at full price.",
+      "lteOption": "Separate SKU and separate ASIN: the LTE Galaxy Watch9 is a roughly $50 upcharge over Bluetooth at each size, plus a carrier line.",
+      "waterRating": "IP68 and 5 ATM (50 m), MIL-STD-810H",
+      "batteryService": "Samsung does not sell a consumer battery-replacement service for Galaxy Watch; the case is sealed and the practical answer from service centres is a whole-unit swap."
+    },
+    "scores": {
+      "battery": 5.8,
+      "health": 8.6,
+      "fitness": 8.4,
+      "ecosystemFreedom": 2.5,
+      "apps": 8.5,
+      "display": 9.2,
+      "build": 8.0,
+      "value": 7.0
+    },
+    "pros": [
+      "3000-nit sapphire display and a real Google Play Store on the wrist",
+      "BIA body composition and blood pressure trends that Apple and Google do not offer at all",
+      "Two-year warranty is the longest of any major-brand watch here",
+      "Snapdragon Wear Elite makes it the fastest standard Galaxy Watch yet"
+    ],
+    "cons": [
+      "Will not pair with an iPhone under any circumstances",
+      "On a Pixel or OnePlus phone you lose ECG and blood pressure entirely — Samsung Health Monitor only installs on Galaxy phones",
+      "Blood pressure is not FDA-cleared and needs a separate arm cuff to re-calibrate every 28 days",
+      "Samsung publishes no battery-hours figure at all; reviewers get roughly a day with AOD on",
+      "No consumer battery replacement — a worn-out battery means a new watch"
+    ],
+    "images": [],
+    "amazonAsin": "B0H1D9TSCJ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "pixel-watch-5",
+      "apple-watch-series-11",
+      "oneplus-watch-3-43mm",
+      "galaxy-watch-ultra-2"
+    ],
+    "useCases": [
+      "android",
+      "heart-health"
+    ],
+    "shortTagline": "The best Wear OS watch — as long as the phone on your desk is also a Samsung."
+  },
+  {
+    "id": "sw-galaxy-watch-ultra-2",
+    "categorySlug": "smartwatches",
+    "brand": "Samsung",
+    "series": "Galaxy Watch Ultra",
+    "model": "Samsung Galaxy Watch Ultra2 (47mm, LTE, Titanium)",
+    "slug": "galaxy-watch-ultra-2",
+    "releaseYear": 2026,
+    "price": 699.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Titanium Gray",
+      "Titanium Silver"
+    ],
+    "material": "Titanium case with sapphire crystal front glass",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "LTE (included)",
+      "Bluetooth",
+      "Wi-Fi 2.4/5GHz",
+      "NFC",
+      "Dual-band GPS L1+L5"
+    ],
+    "features": [
+      "800 mAh battery — Samsung claims up to 60 hours with the always-on display ON",
+      "5000-nit display, the brightest screen on any smartwatch",
+      "10 ATM, IP69K and EN13319 dive certification to 40 m",
+      "12% thinner than the first Ultra at 10.7mm despite the bigger battery",
+      "Trail-running mode with elevation and pace guidance; dive app due later in 2026"
+    ],
+    "specs": {
+      "phoneCompatibility": "Android only. Requires Android 13 or later with 1.5 GB RAM minimum. No iPhone support. On non-Samsung Android you lose ECG, blood pressure, SmartThings camera feeds, Camera Controller and DND/bedtime sync — the same list as the Galaxy Watch9.",
+      "batteryHours": 60,
+      "batteryAssumption": "Samsung's 60-hour figure is quoted with the always-on display ON, which is unusually honest for this category — but it is still a mixed-use claim, not a workout claim. Continuous dual-band GPS and LTE-only use (with the phone left behind) drain it far faster.",
+      "caseSize": 47,
+      "displayType": "1.52-inch Super AMOLED under sapphire crystal, up to 5000 nits — the brightest smartwatch display sold",
+      "os": "Wear OS (One UI Watch)",
+      "appEcosystem": "Google Play Store on the watch, same Wear OS catalogue as the Galaxy Watch9",
+      "healthSensorsUS": "ECG, irregular rhythm notifications and sleep apnea detection are FDA-cleared. Blood pressure rolled out in the US from 31 March 2026 but is not FDA-cleared, is Samsung-phone gated, and needs 28-day cuff re-calibration. BIA body composition included.",
+      "subscription": "No subscription for core metrics; bundled third-party fitness trials auto-renew at full price.",
+      "lteOption": "Not an option — LTE is built into every Ultra2 and included in the $699.99 price. You still pay a carrier for the line.",
+      "waterRating": "10 ATM (100 m), IP69K, MIL-STD-810H, EN13319 dive certified to 40 m",
+      "batteryService": "No consumer battery-replacement programme; the titanium case is sealed."
+    },
+    "scores": {
+      "battery": 7.8,
+      "health": 8.8,
+      "fitness": 9.0,
+      "ecosystemFreedom": 2.5,
+      "apps": 8.5,
+      "display": 9.6,
+      "build": 9.4,
+      "value": 6.6
+    },
+    "pros": [
+      "60 hours quoted with the always-on display ON — the only maker here that states the harder number",
+      "5000 nits is genuinely twice as bright as the brightest Apple Watch",
+      "10 ATM plus EN13319 dive certification and IP69K, on a Wear OS watch with Play Store apps",
+      "LTE included rather than a $50 upcharge and a second ASIN"
+    ],
+    "cons": [
+      "Same iPhone lock-out and the same non-Samsung Android feature loss as the Galaxy Watch9",
+      "$699.99 buys you a watch whose blood-pressure headline feature is not FDA-cleared",
+      "The dive app was still 'coming later in 2026' at launch — you are buying a promise",
+      "47mm titanium is heavy, and Samsung will not replace the battery"
+    ],
+    "images": [],
+    "amazonAsin": "B0H1D46MPG",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-watch-ultra-3",
+      "galaxy-watch-9",
+      "garmin-venu-4-41mm",
+      "ticwatch-atlas"
+    ],
+    "useCases": [
+      "android",
+      "outdoors",
+      "long-battery"
+    ],
+    "shortTagline": "60 hours with the always-on display actually on, and the brightest screen on any wrist."
+  },
+  {
+    "id": "sw-pixel-watch-5",
+    "categorySlug": "smartwatches",
+    "brand": "Google",
+    "series": "Pixel Watch",
+    "model": "Google Pixel Watch 5 (41mm, Wi-Fi)",
+    "slug": "pixel-watch-5",
+    "releaseYear": 2026,
+    "price": 399.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Obsidian",
+      "Fog",
+      "Canyon",
+      "Olive"
+    ],
+    "material": "Aerospace-grade aluminum case with domed Corning Gorilla Glass",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "NFC",
+      "GPS",
+      "Optional LTE (separate SKU)"
+    ],
+    "features": [
+      "Wear OS 7 with Gemini on the wrist for voice timers, alarms and proactive suggestions",
+      "Snapdragon W5 Gen 2 with a Cortex-M55 coprocessor, 3GB RAM and 64GB storage",
+      "Up to 40 hours claimed, and 15 hours of charge in 15 minutes on the Quick Charge Dock",
+      "Loss of Pulse Detection with automatic emergency calling",
+      "3000-nit Actua 360 domed display"
+    ],
+    "specs": {
+      "phoneCompatibility": "Android only — Google requires a compatible phone running Android 12.0 or newer. iPhone is explicitly not supported. Unlike Samsung, Google does not gate health features to its own phones: the Pixel Watch works the same on a Samsung or OnePlus handset as on a Pixel.",
+      "batteryHours": 40,
+      "batteryAssumption": "Google's 40 h claim is for the 41mm in its default mode; droid-life reports a 40-72 h range across sizes and power modes, so the top of that range needs the larger 45mm and a battery-saver profile. Google's marketing does not state whether the always-on display is enabled for the claim. LTE and continuous GPS both cut it further.",
+      "caseSize": 41,
+      "displayType": "Actua 360 domed OLED under Gorilla Glass, up to 3000 nits",
+      "os": "Wear OS 7 with Gemini",
+      "appEcosystem": "Google Play Store on the watch — the reference Wear OS implementation, first to every Wear OS release",
+      "healthSensorsUS": "Live now: ECG with AFib detection, Loss of Pulse Detection with emergency calling (FDA-cleared), heart rate variability, SpO2, breathing rate and skin temperature. The two headline launch features — blood pressure trends and insulin resistance trends — were announced as 'coming this fall', i.e. NOT enabled on day one, and Google has not published FDA clearance for either.",
+      "subscription": "The Fitbit app is now the Google Health app. Google Health Premium (3 months included) gates Gemini coaching, adaptive fitness plans, sleep guidance and proactive insights; the raw metrics stay free.",
+      "lteOption": "Separate SKU and separate ASIN: LTE adds $100 (41mm LTE $499, 45mm LTE $529). Google Fi includes 2 years of data on the LTE model, but the watch does not support calling on it.",
+      "waterRating": "IP68 water and dust resistant (no ATM swim depth rating published)",
+      "batteryService": "Google does not offer a battery-replacement service for Pixel Watch; earlier Pixel Watch generations were widely reported as non-repairable whole-unit swaps."
+    },
+    "scores": {
+      "battery": 6.8,
+      "health": 8.4,
+      "fitness": 8.6,
+      "ecosystemFreedom": 3.0,
+      "apps": 8.5,
+      "display": 9.2,
+      "build": 7.8,
+      "value": 7.2
+    },
+    "pros": [
+      "Health features are not gated to Google's own phone — a real advantage over Galaxy Watch on a non-Samsung Android",
+      "Loss of Pulse Detection with automatic emergency calling is FDA-cleared and unique to Pixel Watch",
+      "Fastest Wear OS hardware here: 3GB RAM, 64GB storage, W5 Gen 2 plus an M55 coprocessor",
+      "15 hours of battery from a 15-minute charge is the best top-up rate in the category"
+    ],
+    "cons": [
+      "Blood pressure and insulin resistance — the two features the launch was built on — were 'coming this fall', not shipping at launch, with no published FDA clearance",
+      "No iPhone support at all",
+      "LTE is a $100 upcharge and a different ASIN, and it still cannot make calls over LTE on Google Fi's included plan",
+      "IP68 only, with no ATM swim depth rating, versus 5 ATM on nearly everything else here",
+      "No battery replacement path from Google"
+    ],
+    "images": [],
+    "amazonAsin": "B0H7X25DRT",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "galaxy-watch-9",
+      "apple-watch-series-11",
+      "fitbit-sense-2",
+      "oneplus-watch-3-43mm"
+    ],
+    "useCases": [
+      "android",
+      "heart-health"
+    ],
+    "shortTagline": "The Wear OS watch that doesn't punish you for owning the wrong Android phone."
+  },
+  {
+    "id": "sw-oneplus-watch-3-43mm",
+    "categorySlug": "smartwatches",
+    "brand": "OnePlus",
+    "series": "OnePlus Watch",
+    "model": "OnePlus Watch 3 43mm",
+    "slug": "oneplus-watch-3-43mm",
+    "releaseYear": 2025,
+    "price": 249.99,
+    "msrp": 299.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black Steel",
+      "Silver Steel"
+    ],
+    "material": "Stainless steel case with fluoroelastomer strap",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth 5.2",
+      "Wi-Fi 2.4/5GHz",
+      "NFC",
+      "Multi-GNSS GPS"
+    ],
+    "features": [
+      "Dual-engine architecture: Snapdragon W5 for Wear OS plus a BES2800 RTOS chip for the low-power layer",
+      "Up to 60 hours in smart mode — roughly 2.5 days from a 345 mAh cell",
+      "1.32-inch LTPO AMOLED in a 37.8 g stainless steel case",
+      "Full Google Play Store access on Wear OS 5",
+      "50 m water resistance plus IP68"
+    ],
+    "specs": {
+      "phoneCompatibility": "Android only in practice. OnePlus markets it as a Wear OS watch requiring Android; the Amazon listing title states in plain text 'not Compatible with iOS'. Sources conflict: Smartprix's spec sheet lists 'Android 9.0+ and iOS', which contradicts both OnePlus and the retail listing — treat iOS as unsupported.",
+      "batteryHours": 60,
+      "batteryAssumption": "OnePlus's 60 h smart-mode figure assumes the low-power RTOS co-processor handling the always-on layer and no heavy GPS. Power Saver mode extends it further but drops Wear OS features; continuous GPS workouts and LTE-style always-connected use are not part of the claim.",
+      "caseSize": 43,
+      "displayType": "1.32-inch LTPO AMOLED, 466x466. Peak brightness is not published by OnePlus.",
+      "os": "Wear OS 5 by Google plus RTOS dual-engine",
+      "appEcosystem": "Google Play Store on the watch — a full Wear OS catalogue, unusual at this price",
+      "healthSensorsUS": "Heart rate, SpO2, skin temperature, stress and sleep — all wellness-grade. There is NO ECG and no FDA-cleared feature of any kind on this model in the US; the health story is the weakest of any Wear OS watch here.",
+      "subscription": "None. OHealth is free and does not paywall any metric.",
+      "lteOption": "No LTE variant is sold in the US — the OnePlus Watch 3 43mm is Bluetooth/Wi-Fi only.",
+      "waterRating": "5 ATM (50 m) plus IP68",
+      "batteryService": "OnePlus does not publish a consumer battery-replacement service for the Watch 3."
+    },
+    "scores": {
+      "battery": 8.2,
+      "health": 6.0,
+      "fitness": 7.0,
+      "ecosystemFreedom": 3.0,
+      "apps": 8.0,
+      "display": 8.2,
+      "build": 8.2,
+      "value": 8.4
+    },
+    "pros": [
+      "60 hours of real Wear OS battery life — two and a half times a Galaxy Watch9",
+      "Stainless steel case at 37.8 g, lighter and better built than most sub-$300 rivals",
+      "Full Google Play Store, so you are not stuck in a proprietary app gallery",
+      "Frequently discounted to $199, which is remarkable for a Wear OS watch"
+    ],
+    "cons": [
+      "No ECG and no FDA-cleared health feature at all — a $249 wellness tracker, not a heart-health device",
+      "Android only; the Amazon listing says so in the product title",
+      "No LTE variant sold in the US",
+      "OnePlus's own store price has drifted around ($270 at last check versus $249.99 on Amazon) — shop the ASIN, not the brand site",
+      "Peak display brightness is not published by OnePlus"
+    ],
+    "images": [],
+    "amazonAsin": "B0FDK2QHGH",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "pixel-watch-5",
+      "galaxy-watch-9",
+      "ticwatch-atlas",
+      "amazfit-bip-6"
+    ],
+    "useCases": [
+      "android",
+      "long-battery"
+    ],
+    "shortTagline": "Two and a half days of real Wear OS battery for $250 — but zero cleared health features."
+  },
+  {
+    "id": "sw-withings-scanwatch-nova-brilliant",
+    "categorySlug": "smartwatches",
+    "brand": "Withings",
+    "series": "ScanWatch",
+    "model": "Withings ScanWatch Nova Brilliant (39mm)",
+    "slug": "withings-scanwatch-nova-brilliant",
+    "releaseYear": 2025,
+    "price": 599.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Two-tone gold and steel with cream dial",
+      "Silver steel with white dial"
+    ],
+    "material": "Stainless steel case and bracelet with sapphire crystal and Super-LumiNova hands",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth Low Energy",
+      "Connected GPS (uses the phone's GPS)"
+    ],
+    "features": [
+      "A genuine analogue watch with hands, sapphire glass and a steel bracelet — plus a medical-grade ECG",
+      "Up to 30-35 days per charge, an order of magnitude beyond any touchscreen rival",
+      "Works fully on both iPhone and Android, which almost nothing else here does",
+      "24/7 wrist temperature tracking with variation notifications",
+      "5 ATM swimproof with a real sapphire crystal"
+    ],
+    "specs": {
+      "phoneCompatibility": "iOS and Android both fully supported — this is one of only three watches here that does not punish you for your phone choice. Nothing is gated to a Withings-branded handset because Withings does not make phones.",
+      "batteryHours": 720,
+      "batteryAssumption": "Sources conflict: Withings' own US shop page states 'up to 35 days'; the Amazon listing title states '30-Day Battery Life'. Either figure assumes the tiny greyscale sub-dial rather than a colour touchscreen, connected GPS (borrowing the phone's radio rather than its own), and no continuous SpO2. The 720 hours recorded here is the conservative 30-day reading.",
+      "caseSize": 39,
+      "displayType": "Analogue hands over a small greyscale OLED sub-dial — there is no colour touchscreen",
+      "os": "Withings proprietary firmware (no third-party OS)",
+      "appEcosystem": "None. There is no app store and no third-party apps — the watch shows a small greyscale sub-dial and notifications only. This is a health instrument in a dress-watch case, not a smartwatch platform.",
+      "healthSensorsUS": "ECG with AFib detection, SpO2, 24/7 wrist temperature, respiratory scan, sleep staging with HRV, and cycle tracking — all available in the US. Withings' ECG holds regulatory clearance; the blood-pressure device Withings sells (BPM) is a separate cuff product, not part of this watch.",
+      "subscription": "Withings+ is optional and includes a one-month trial. All baseline health data — ECG, SpO2, temperature, sleep score — is available without paying. Withings+ adds programmes, deeper reports and coaching.",
+      "lteOption": "No LTE variant exists; the watch has no cellular radio and no standalone GPS.",
+      "waterRating": "5 ATM (50 m), swimproof",
+      "batteryService": "Withings sells the watch as a sealed unit; there is no published consumer battery-replacement service, but at 30+ days per charge the cell sees a fraction of the cycles of a daily-charge watch."
+    },
+    "scores": {
+      "battery": 9.6,
+      "health": 8.0,
+      "fitness": 4.5,
+      "ecosystemFreedom": 9.5,
+      "apps": 2.0,
+      "display": 3.0,
+      "build": 9.4,
+      "value": 5.5
+    },
+    "pros": [
+      "Works identically on iPhone and Android — no ecosystem trap at all",
+      "A month per charge versus a day for Apple and Samsung",
+      "Sapphire crystal, steel bracelet and Super-LumiNova on a watch that also runs an ECG",
+      "No subscription is needed to see any health metric",
+      "Two-year warranty"
+    ],
+    "cons": [
+      "No app ecosystem whatsoever — notifications and a greyscale sub-dial are the entire smart layer",
+      "No on-board GPS: workouts borrow your phone's location, so you must carry the phone",
+      "$599.95 is Apple Watch Ultra money for a watch that cannot run a single third-party app",
+      "Withings' own page says 35 days and the Amazon listing says 30 — the maker's own claim is inconsistent",
+      "The Amazon ASIN here is the gold two-tone variant; confirm the finish before buying"
+    ],
+    "images": [],
+    "amazonAsin": "B0DPLF8TX8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fitbit-sense-2",
+      "garmin-venu-4-41mm",
+      "apple-watch-series-11"
+    ],
+    "useCases": [
+      "iphone",
+      "android",
+      "long-battery",
+      "heart-health"
+    ],
+    "shortTagline": "A month of battery, an ECG and real watch hands — with no apps and no on-board GPS."
+  },
+  {
+    "id": "sw-ticwatch-atlas",
+    "categorySlug": "smartwatches",
+    "brand": "Mobvoi",
+    "series": "TicWatch",
+    "model": "Mobvoi TicWatch Atlas",
+    "slug": "ticwatch-atlas",
+    "releaseYear": 2024,
+    "price": 349.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver"
+    ],
+    "material": "Stainless steel bezel over a polymer case",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "NFC",
+      "GPS with compass"
+    ],
+    "features": [
+      "Mobvoi's dual-display trick: an AMOLED panel with an ultra-low-power display layered over it",
+      "Up to 90 hours in Smart Mode and up to 45 days in Essential Mode",
+      "30-minute fast charge for two days of use",
+      "5 ATM plus MIL-STD-810H and open-water swim certification",
+      "110+ workout modes with heat-map training views"
+    ],
+    "specs": {
+      "phoneCompatibility": "Android only — Mobvoi requires Android 8.0 or later with Google Play Store (Go edition excluded). The Amazon listing states 'Android Compatible Only' in the product title. There is no iPhone support.",
+      "batteryHours": 90,
+      "batteryAssumption": "The 90-hour Smart Mode figure leans on the second ultra-low-power display doing most of the always-on work; the 45-day Essential Mode figure turns Wear OS off entirely and leaves you with a monochrome watch that shows time, steps and heart rate. Reviewers running it as a normal Wear OS watch report a consistent 2-3 days, not 90 hours.",
+      "caseSize": 47,
+      "displayType": "1.43-inch AMOLED (466x466) layered with a second ultra-low-power always-on display. Peak brightness is not published by Mobvoi.",
+      "os": "Wear OS 4 by Google",
+      "appEcosystem": "Google Play Store on the watch, but stranded on Wear OS 4 — no Gemini, no Google Assistant, and no confirmed upgrade to Wear OS 5 or later",
+      "healthSensorsUS": "Heart rate, SpO2, skin temperature, barometer and compass. No ECG and no FDA-cleared health feature. Fall detection is present. This is outdoor-and-fitness hardware, not a heart-health device.",
+      "subscription": "None required; Mobvoi's app does not paywall metrics.",
+      "lteOption": "No LTE variant is sold in the US.",
+      "waterRating": "5 ATM (50 m), open-water swim rated, MIL-STD-810H",
+      "batteryService": "Mobvoi publishes no consumer battery-replacement service."
+    },
+    "scores": {
+      "battery": 8.8,
+      "health": 5.5,
+      "fitness": 7.5,
+      "ecosystemFreedom": 3.0,
+      "apps": 7.5,
+      "display": 8.4,
+      "build": 8.6,
+      "value": 6.5
+    },
+    "pros": [
+      "The dual-display design delivers the longest genuine Wear OS battery life you can buy",
+      "MIL-STD-810H, 5 ATM and open-water swim certification at well under Galaxy Watch Ultra money",
+      "Full Google Play Store, unlike Amazfit or Fitbit",
+      "Regularly discounted far below list — it has sold as low as $192.99 on Amazon"
+    ],
+    "cons": [
+      "Still on Wear OS 4 with no confirmed path to Wear OS 5+ — no Gemini and no Google Assistant on a Google-powered watch",
+      "Android only, stated outright in the Amazon product title",
+      "No ECG and no cleared health features at $349.99 list",
+      "47.2 g and 52mm across; it is a large watch with only one size option",
+      "Availability has become patchy and list price is rarely what anyone actually pays"
+    ],
+    "images": [],
+    "amazonAsin": "B0DG2NL4SZ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "oneplus-watch-3-43mm",
+      "galaxy-watch-9",
+      "garmin-venu-4-41mm",
+      "pixel-watch-5"
+    ],
+    "useCases": [
+      "android",
+      "long-battery",
+      "outdoors"
+    ],
+    "shortTagline": "90 hours of Wear OS from a dual display — stuck on Wear OS 4 with no Assistant."
+  },
+  {
+    "id": "sw-amazfit-bip-6",
+    "categorySlug": "smartwatches",
+    "brand": "Amazfit",
+    "series": "Bip",
+    "model": "Amazfit Bip 6 (46mm)",
+    "slug": "amazfit-bip-6",
+    "releaseYear": 2025,
+    "price": 79.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Charcoal",
+      "Stone",
+      "Red"
+    ],
+    "material": "Aluminum alloy frame with silicone strap",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "GPS",
+      "Bluetooth calling"
+    ],
+    "features": [
+      "1.97-inch, 2000-nit AMOLED for $79.99 — brighter than an Apple Watch SE 3",
+      "Up to two weeks per charge",
+      "Offline maps and navigation with round-trip routing, free, at this price",
+      "140+ workout modes including HYROX race training",
+      "Works fully with both iPhone and Android"
+    ],
+    "specs": {
+      "phoneCompatibility": "Both iOS and Android, with no feature gated to a particular phone brand. Amazfit makes no phones, so there is no lock-in — the one genuinely neutral tier of this category. Camera control is iPhone-only.",
+      "batteryHours": 336,
+      "batteryAssumption": "Amazfit's 'up to two weeks' figure is a typical-use claim with the always-on display OFF, notifications on and no continuous GPS. Turning on the always-on display or tracking daily GPS workouts cuts it to a handful of days. Amazfit does not publish a mAh capacity in the press materials.",
+      "caseSize": 46,
+      "displayType": "1.97-inch AMOLED, up to 2000 nits",
+      "os": "Zepp OS (proprietary)",
+      "appEcosystem": "Closed proprietary Zepp OS app store — a small curated list of mini-apps and watch faces, nothing like a Play Store or App Store. Do not expect your bank, your podcast player or your transit app.",
+      "healthSensorsUS": "BioTracker 6.0 optical heart rate, SpO2, stress and HRV. No ECG, no FDA-cleared feature, no blood pressure. Everything here is wellness-grade estimation.",
+      "subscription": "Core tracking is free. Zepp Aura — the AI sleep and meditation layer — is $11.99/mo or $69.99/yr after a 14-day trial; the free tier caps you at one AI assistant message per day and withholds the weekly and monthly sleep analyses.",
+      "lteOption": "None — no cellular variant exists.",
+      "waterRating": "5 ATM (50 m)",
+      "batteryService": "Amazfit publishes no consumer battery-replacement service; at $79.99 the watch is effectively disposable."
+    },
+    "scores": {
+      "battery": 9.4,
+      "health": 5.0,
+      "fitness": 7.2,
+      "ecosystemFreedom": 9.0,
+      "apps": 2.5,
+      "display": 7.8,
+      "build": 6.2,
+      "value": 9.6
+    },
+    "pros": [
+      "A 2000-nit AMOLED, GPS with offline maps and two weeks of battery, all for $79.99",
+      "Works equally well on iPhone and Android with nothing gated by phone brand",
+      "5 ATM and 140+ workout modes — spec-for-spec it embarrasses watches at four times the price",
+      "Frequently drops to around $60 on Amazon"
+    ],
+    "cons": [
+      "Zepp OS is a closed platform: a handful of mini-apps, no real third-party ecosystem",
+      "No ECG, no cleared health feature, no blood pressure — wellness estimates only",
+      "The two-week claim assumes the always-on display is off; switch it on and it collapses",
+      "Zepp Aura paywalls the AI sleep analysis at $11.99/mo after a 14-day trial",
+      "No battery replacement path at all"
+    ],
+    "images": [],
+    "amazonAsin": "B0DYJN3ZM8",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "fitbit-sense-2",
+      "apple-watch-se-3",
+      "oneplus-watch-3-43mm",
+      "huawei-watch-gt-6"
+    ],
+    "useCases": [
+      "iphone",
+      "android",
+      "long-battery"
+    ],
+    "shortTagline": "Two weeks, 2000 nits and offline maps for $80 — with a closed OS and no cleared health tech."
+  },
+  {
+    "id": "sw-fitbit-sense-2",
+    "categorySlug": "smartwatches",
+    "brand": "Fitbit",
+    "series": "Sense",
+    "model": "Fitbit Sense 2",
+    "slug": "fitbit-sense-2",
+    "releaseYear": 2022,
+    "price": 249.95,
+    "currency": "USD",
+    "colorOptions": [
+      "Shadow Grey / Graphite"
+    ],
+    "material": "Aluminum case with silicone infinity band",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "NFC",
+      "Built-in GPS"
+    ],
+    "features": [
+      "cEDA sensor for continuous all-day stress (body response) tracking — nothing else here has it",
+      "ECG app plus SpO2 and skin temperature",
+      "6+ days of battery, and a day's charge in 12 minutes",
+      "Works fully with both iPhone and Android",
+      "Still sold by Google alongside the newer displayless Fitbit Air"
+    ],
+    "specs": {
+      "phoneCompatibility": "Both iOS and Android — Google states most phones running Android 11.0 or iOS 16.4 or newer. A Google Account and internet access are required for full functionality. No feature is gated to a Pixel phone.",
+      "batteryHours": 144,
+      "batteryAssumption": "Google's '6+ day' claim assumes the always-on display OFF and GPS used sparingly. Turning on the always-on display or tracking daily GPS runs pulls it well below a week; overnight sleep tracking is included in the claim, unlike Apple's.",
+      "caseSize": 41,
+      "displayType": "1.58-inch AMOLED with an optional always-on mode. Peak brightness is not published by Google.",
+      "os": "Fitbit OS (proprietary)",
+      "appEcosystem": "Effectively none. Google shut Fitbit Studio in 2023, leaving Sense 2 and Versa 4 with third-party WATCH FACES but no third-party apps, and third-party faces and apps were pulled entirely for EU users in 2024. Fitbit OS is a closed platform with a shrinking gallery.",
+      "healthSensorsUS": "ECG app with AFib detection and irregular rhythm notifications, SpO2, skin temperature and the continuous cEDA stress sensor are all available in the US. There is no blood pressure and no hypertension notification.",
+      "subscription": "The heaviest subscription wall here. The Fitbit app is now the Google Health app; Google Health Premium (3 months included, then paid) gates the Daily Readiness Score, the on-demand workout library and the Google Health Coach. Raw steps, heart rate, sleep stages and ECG remain free.",
+      "lteOption": "None — no cellular variant of Sense 2 exists.",
+      "waterRating": "Water resistant to 50 m",
+      "batteryService": "Google does not offer battery replacement for Fitbit watches; a degraded battery means a replacement device."
+    },
+    "scores": {
+      "battery": 8.0,
+      "health": 7.4,
+      "fitness": 6.4,
+      "ecosystemFreedom": 9.0,
+      "apps": 1.5,
+      "display": 6.4,
+      "build": 6.6,
+      "value": 5.0
+    },
+    "pros": [
+      "Works properly on both iPhone and Android with nothing gated by phone brand",
+      "The cEDA continuous stress sensor is genuinely unique in this comparison",
+      "ECG plus six days of battery, which no Apple or Samsung watch gets close to",
+      "Google is still selling and discounting it — around $200 direct — four years after launch"
+    ],
+    "cons": [
+      "Daily Readiness Score, the workout library and Google Health Coach all sit behind Google Health Premium once the 3-month trial ends",
+      "No third-party apps at all — Fitbit Studio was shut in 2023 and EU users lost third-party faces too",
+      "2022 hardware at a $249.95 list price, sold beside a $249 Apple Watch SE 3 with newer silicon",
+      "No blood pressure, no hypertension notifications, no LTE",
+      "Google will not replace the battery"
+    ],
+    "images": [],
+    "amazonAsin": "B0B4N2T7GL",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-watch-se-3",
+      "withings-scanwatch-nova-brilliant",
+      "amazfit-bip-6",
+      "pixel-watch-5"
+    ],
+    "useCases": [
+      "iphone",
+      "android",
+      "heart-health"
+    ],
+    "shortTagline": "ECG and a unique stress sensor on any phone — behind the steepest subscription wall here."
+  },
+  {
+    "id": "sw-garmin-venu-4-41mm",
+    "categorySlug": "smartwatches",
+    "brand": "Garmin",
+    "series": "Venu",
+    "model": "Garmin Venu 4 (41mm)",
+    "slug": "garmin-venu-4-41mm",
+    "releaseYear": 2025,
+    "price": 549.99,
+    "currency": "USD",
+    "colorOptions": [
+      "Slate with Black band",
+      "Silver with Periwinkle band",
+      "Lunar Gold with Bone band"
+    ],
+    "material": "Stainless steel bezel with a polymer case and Corning Gorilla Glass 3",
+    "warrantyMonths": 12,
+    "connectivity": [
+      "Bluetooth",
+      "Wi-Fi",
+      "ANT+",
+      "NFC (Garmin Pay)",
+      "Multi-band GNSS"
+    ],
+    "features": [
+      "Up to 10 days on the 41mm (12 days on the 45mm) — the longest battery of any mainstream lifestyle smartwatch",
+      "Built-in LED flashlight, speaker and microphone",
+      "Health Status flags unusual heart rate, HRV and respiration trends against your own baseline",
+      "80+ preloaded sport apps with mixed-session activity profiles",
+      "Works fully on both iPhone and Android"
+    ],
+    "specs": {
+      "phoneCompatibility": "Both iOS and Android, with no feature gated to a Garmin-branded phone (Garmin makes none). Garmin Connect is the same app on both platforms — the widest genuine compatibility of any premium watch here.",
+      "batteryHours": 240,
+      "batteryAssumption": "Garmin's 10-day 41mm figure is smartwatch mode with the always-on display OFF (the 45mm is rated 12 days). Enabling the always-on display, multi-band GNSS or continuous pulse-ox roughly halves it; Garmin publishes a separate 'battery life assumptions' support page per size because the modes differ so much.",
+      "caseSize": 41,
+      "displayType": "1.2-inch AMOLED with an optional always-on mode. Peak brightness is not published by Garmin.",
+      "os": "Garmin proprietary OS",
+      "appEcosystem": "Garmin Connect IQ store — a real third-party store with watch faces, data fields and apps, but a much smaller and more fitness-skewed catalogue than the Play Store or App Store",
+      "healthSensorsUS": "ECG app with AFib detection is FDA-cleared and available in the US (adults 22+ only, and region-restricted elsewhere). Also Pulse Ox, wrist temperature, HRV status, respiration and the new Health Status baseline alerts. No blood pressure and no hypertension notification.",
+      "subscription": "Core metrics are free, but Garmin now runs a paywall: Garmin Connect+ costs $6.99/mo and gates Active Intelligence AI insights, extra coaching and premium performance dashboards. Buying a $549.99 watch does not include it.",
+      "lteOption": "The Venu 4 has no LTE variant; Garmin's cellular models sit in other product lines.",
+      "waterRating": "5 ATM (50 m)",
+      "batteryService": "Garmin does not sell a user or dealer battery-replacement service for the Venu line; out-of-warranty support is a discounted replacement unit."
+    },
+    "scores": {
+      "battery": 9.0,
+      "health": 8.2,
+      "fitness": 9.2,
+      "ecosystemFreedom": 8.5,
+      "apps": 6.0,
+      "display": 8.4,
+      "build": 8.4,
+      "value": 7.0
+    },
+    "pros": [
+      "Ten days of battery with an AMOLED screen, versus one day from Apple and Samsung",
+      "FDA-cleared ECG that works identically on iPhone and Android",
+      "Connect IQ is a real third-party store, unlike Fitbit OS, Zepp OS or Withings",
+      "Best-in-class training analysis, sleep metrics and Health Status baseline alerts"
+    ],
+    "cons": [
+      "$549.99 and Garmin still charges $6.99/mo for Connect+ to unlock Active Intelligence and premium coaching",
+      "The 10-day claim is with the always-on display off; turn it on and you lose roughly half",
+      "Connect IQ apps are fitness-skewed — it is not a substitute for a Play Store",
+      "No LTE, no blood pressure, no hypertension notifications",
+      "No battery replacement service; out of warranty means buying a discounted replacement"
+    ],
+    "images": [],
+    "amazonAsin": "B0FRGFDWDQ",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "apple-watch-ultra-3",
+      "galaxy-watch-ultra-2",
+      "withings-scanwatch-nova-brilliant",
+      "ticwatch-atlas"
+    ],
+    "useCases": [
+      "iphone",
+      "android",
+      "long-battery",
+      "heart-health"
+    ],
+    "shortTagline": "Ten days, an FDA-cleared ECG and full iPhone/Android parity — with a $6.99/mo AI paywall."
+  },
+  {
+    "id": "sw-huawei-watch-gt-6",
+    "categorySlug": "smartwatches",
+    "brand": "Huawei",
+    "series": "Watch GT",
+    "model": "Huawei Watch GT 6 (46mm)",
+    "slug": "huawei-watch-gt-6",
+    "releaseYear": 2025,
+    "price": 285.0,
+    "currency": "USD",
+    "colorOptions": [
+      "Black",
+      "Silver",
+      "Gold"
+    ],
+    "material": "Stainless steel frame with glass front",
+    "warrantyMonths": 24,
+    "connectivity": [
+      "Bluetooth 6.0",
+      "NFC",
+      "Multi-band GNSS"
+    ],
+    "features": [
+      "867 mAh cell — Huawei claims up to 21 days on the 46mm",
+      "1.47-inch, 3000-nit AMOLED in an 11mm-thick case",
+      "IP69 plus 5 ATM, rated for high-pressure water jets as well as swimming",
+      "Kirin A3 with 64GB storage running HarmonyOS 6",
+      "10W wireless charging"
+    ],
+    "specs": {
+      "phoneCompatibility": "Android 9.0+ or iOS 13.0+ via the Huawei Health app — but Huawei Health is not on the Google Play Store in the US, so Android owners must sideload it from Huawei's AppGallery, and Huawei explicitly warns that 'actual feature availability may vary depending on the phone model and operating system'. On iOS the feature set is materially reduced.",
+      "batteryHours": 504,
+      "batteryAssumption": "Huawei publishes four figures for the 46mm and only the first is the headline: 21 days light use, 12 days typical use, 7 days with the always-on display enabled, and 40 hours in outdoor sport mode. Buy it for 21 days and use it with AOD on and you get one third of that. The 41mm is rated 14 / 7 / 5 days and 25 hours respectively.",
+      "caseSize": 46,
+      "displayType": "1.47-inch AMOLED, up to 3000 nits",
+      "os": "HarmonyOS 6",
+      "appEcosystem": "Huawei AppGallery only — no Google Play, no Google services, and a small watch app catalogue. In the US there is effectively no third-party app story at all.",
+      "healthSensorsUS": "Not applicable — Huawei does not sell wearables through US retail channels and has sought no US clearance for this model. The hardware carries heart rate, SpO2, skin temperature, barometer and compass; there is no ECG on the standard GT 6 in Western markets.",
+      "subscription": "None required.",
+      "lteOption": "No LTE variant is offered in Western markets.",
+      "waterRating": "IP69 dust tight and high-pressure jet rated, plus 5 ATM (50 m) immersion",
+      "batteryService": "No US service network exists, so there is no practical repair or battery-replacement path for a US buyer."
+    },
+    "scores": {
+      "battery": 9.8,
+      "health": 5.5,
+      "fitness": 7.6,
+      "ecosystemFreedom": 5.0,
+      "apps": 2.0,
+      "display": 8.8,
+      "build": 8.4,
+      "value": 7.8
+    },
+    "pros": [
+      "21 days of claimed battery from an 867 mAh cell — nothing else in this comparison is close",
+      "3000-nit AMOLED and IP69 plus 5 ATM in an 11mm case",
+      "Two-year warranty in the markets where it is sold",
+      "Genuinely works with both Android and iPhone, unlike Apple, Samsung and Google"
+    ],
+    "cons": [
+      "Not sold in the US: no US retail channel, no US warranty, no service network, and grey-market import is the only route",
+      "The 21-day headline drops to 7 days the moment you enable the always-on display, and 40 hours in sport mode",
+      "HarmonyOS with AppGallery only — no Google services and effectively no third-party apps for a US user",
+      "No ECG on the standard GT 6 and no FDA-cleared feature of any kind",
+      "The price shown is a USD conversion of the roughly EUR 260 European price, not a US price"
+    ],
+    "images": [],
+    "amazonAsin": "",
+    "rating": 0,
+    "ratingCount": 0,
+    "competitorSlugs": [
+      "amazfit-bip-6",
+      "garmin-venu-4-41mm",
+      "ticwatch-atlas"
+    ],
+    "useCases": [
+      "android",
+      "long-battery",
+      "outdoors"
+    ],
+    "shortTagline": "21 days on paper, 7 with the screen on — and Huawei will not sell it to you in the US.",
+    "usAvailable": false
+  }
+]
