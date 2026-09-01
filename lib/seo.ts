@@ -29,10 +29,19 @@ import { getProductBySlug } from '@/lib/products';
 // to a sitemap full of URLs pointing at a domain we do not own.
 // ---------------------------------------------------------------------------
 
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.thecomparisonreport.com').replace(
-  /\/+$/,
-  ''
-);
+// The apex domain is what Vercel actually serves: every www URL returns a
+// redirect to the apex. The canonical, the sitemap and robots.txt must name
+// the host that answers 200, or Google is handed a sitemap of redirects whose
+// destination pages then point back at the redirecting host. Stripping a
+// leading "www." here means that stays true even if the environment variable
+// is set to the www spelling by mistake — there is exactly one host this site
+// claims to live on, and it is decided here.
+//
+// If the primary domain in Vercel is ever switched to www, this function is
+// what has to change with it.
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://thecomparisonreport.com')
+  .replace(/\/+$/, '')
+  .replace(/^(https?:\/\/)www\./i, '$1');
 
 // Next resolves a relative canonical against metadataBase, so pages pass a
 // path and never build the absolute URL themselves. One place decides the host.
