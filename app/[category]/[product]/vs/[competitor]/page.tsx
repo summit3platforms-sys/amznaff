@@ -4,6 +4,9 @@ import type { Metadata } from 'next';
 import { categories as allCategories, getCategory } from '@/data/categories';
 import { getAllComparisonPairs, getProductBySlug } from '@/lib/products';
 import { comparisonCanonical } from '@/lib/seo';
+import { breadcrumbSchema, jsonLd } from '@/lib/structured-data';
+import { dataUpdatedAt, formatUpdated } from '@/data/freshness';
+import { decapitalize } from '@/lib/content-generator';
 import { determineOverallWinner, overallScore } from '@/lib/scoring';
 import { generateComparisonCopy } from '@/lib/content-generator';
 import { alternativeComparisons, cheaperAlternative, premiumAlternative } from '@/lib/related';
@@ -64,9 +67,13 @@ export function generateMetadata({
 
   return {
     title: `${a.model} vs ${b.model}: Which Should You Buy?`,
-    description: `${a.model} vs ${b.model} compared on ${category.scoreDimensions
-      .map((d) => d.label.toLowerCase())
-      .join(', ')} — full spec breakdown and buying advice.`,
+    // Three dimensions, not all eight: the eight-item version ran to 194
+    // characters, so Google truncated it mid-list on every comparison page.
+    // The names stay cased — lowercasing turned "HDR" into "hdr".
+    description: `${a.model} vs ${b.model}: side-by-side specs, scores for ${category.scoreDimensions
+      .slice(0, 3)
+      .map((d) => d.label)
+      .join(', ')} and more, and which one to buy at ${a.price < b.price ? '$' + a.price.toFixed(0) : '$' + b.price.toFixed(0)}+.`,
     alternates: { canonical: path },
     ...(declared ? {} : { robots: { index: false, follow: true } })
   };
@@ -104,7 +111,20 @@ export default function ComparisonPage({
     <div>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLd(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLd(
+            breadcrumbSchema([
+              { name: 'Home', path: '/' },
+              { name: category.pluralName, path: `/${category.slug}` },
+              { name: a.model, path: `/${category.slug}/${a.slug}` },
+              { name: `vs ${b.model}`, path: `/${category.slug}/${a.slug}/vs/${b.slug}` }
+            ])
+          )
+        }}
       />
       <RecentlyViewedTracker categorySlug={category.slug} slug={a.slug} />
 
@@ -192,20 +212,42 @@ export default function ComparisonPage({
       {category.scoreDimensions.map((dim, i) => {
         const scoreA = a.scores[dim.key] ?? 0;
         const scoreB = b.scores[dim.key] ?? 0;
+        const gap = Math.abs(scoreA - scoreB);
         const leader = scoreA >= scoreB ? a : b;
+        const trailer = scoreA >= scoreB ? b : a;
         const leaderScore = scoreA >= scoreB ? scoreA : scoreB;
         const otherScore = scoreA >= scoreB ? scoreB : scoreA;
-        const isTie = Math.abs(scoreA - scoreB) < 0.15;
+
+        // Only dimensions where the two products actually differ get a written
+        // paragraph. Writing one for all eight produced the same sentence with
+        // different numbers eight times a page, across every comparison on the
+        // site — a near-duplicate block worth nothing to a reader and read by
+        // a search engine as templated filler. Where the scores are level, say
+        // so once and let the score grid above carry it.
+        const body =
+          gap < 0.15 ? (
+            <>
+              The {a.model} and {b.model} are level here, at {scoreA.toFixed(1)}/10 each. {decapitalize(dim.description)}{' '}
+              is not what separates these two — look to the categories where the scores diverge.
+            </>
+          ) : gap < 0.5 ? (
+            <>
+              The {leader.model} is marginally ahead, {leaderScore.toFixed(1)} to {otherScore.toFixed(1)}. A gap this
+              small rarely decides a purchase on its own, though it counts if {decapitalize(dim.description)} is your
+              priority.
+            </>
+          ) : (
+            <>
+              The {leader.model} leads clearly here, {leaderScore.toFixed(1)} against {otherScore.toFixed(1)} — a{' '}
+              {gap.toFixed(1)}-point margin on {decapitalize(dim.description)}. If that is what you are buying for, the{' '}
+              {trailer.model} does not close the gap elsewhere.
+            </>
+          );
+
         return (
           <section key={dim.key} id={dim.key} className={i === 0 ? 'mt-14 scroll-mt-24' : 'mt-10 scroll-mt-24'}>
             <h2 className="mb-3 text-xl font-bold text-slate-900">{dim.label}</h2>
-            <p className="text-slate-600">
-              On {dim.label.toLowerCase()}, the {a.model} scores {scoreA.toFixed(1)}/10 versus {scoreB.toFixed(1)}
-              /10 for the {b.model} — {dim.description.toLowerCase()}.{' '}
-              {isTie
-                ? `The two are essentially tied here.`
-                : `The ${leader.model} has the edge (${leaderScore.toFixed(1)} vs ${otherScore.toFixed(1)}).`}
-            </p>
+            <p className="text-slate-600">{body}</p>
           </section>
         );
       })}
@@ -276,6 +318,21 @@ export default function ComparisonPage({
             </Link>
           )}
         </section>
+      )}
+
+      {/* Freshness. A comparison of two current-model-year products is a
+          freshness-sensitive query: the reader wants to know the price and
+          specs reflect now, not launch day. */}
+      {formatUpdated(dataUpdatedAt(category.slug)) && (
+        <p className="mt-12 text-sm text-slate-400">
+          Specifications and prices for both products last verified{' '}
+          <time dateTime={dataUpdatedAt(category.slug)}>{formatUpdated(dataUpdatedAt(category.slug))}</time>. Scores
+          are calculated from published specifications — see{' '}
+          <Link href="/how-we-compare" className="underline hover:text-brand-600">
+            how we compare products
+          </Link>
+          .
+        </p>
       )}
 
       {/* Alternatives */}

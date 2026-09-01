@@ -13,13 +13,23 @@ import CategoryIcon from './icons/CategoryIcon';
 // show, clearly labeled, and link to the full categories index instead of
 // a dead page.
 export default function CategoryIconCard({ group }: { group: CategoryGroup }) {
-  const liveItem = group.items.find(
+  const liveItems = group.items.filter(
     (item) => item.slug && getCategory(item.slug) && getProductsByCategory(item.slug).length > 0
   );
-  const liveCategory = liveItem?.slug ? getCategory(liveItem.slug) : undefined;
-  const comparisonCount = liveCategory ? getAllComparisonPairs(liveCategory.slug).length : 0;
+  const liveCategory = liveItems[0]?.slug ? getCategory(liveItems[0].slug) : undefined;
 
-  const href = liveCategory ? `/${liveCategory.slug}` : '/categories';
+  // Count every live subcategory in the group, not just the first one. Counting
+  // only the first understated Smart Home as 48 comparisons when it has 327,
+  // and TV & Home Entertainment as 184 when it has 401 — the card was
+  // advertising a fraction of what the group actually holds.
+  const comparisonCount = liveItems.reduce(
+    (total, item) => total + (item.slug ? getAllComparisonPairs(item.slug).length : 0),
+    0
+  );
+
+  // One live subcategory has an obvious destination; more than one does not,
+  // so those send the reader to the index where they can pick.
+  const href = liveItems.length === 1 && liveCategory ? `/${liveCategory.slug}` : '/categories';
 
   return (
     <Link href={href} className="card card-hover flex flex-col items-center gap-3 p-6 text-center">
@@ -29,7 +39,9 @@ export default function CategoryIconCard({ group }: { group: CategoryGroup }) {
       <div>
         <h3 className="font-semibold text-slate-900">{group.name}</h3>
         <p className="mt-1 text-xs text-slate-500">
-          {liveCategory ? `${comparisonCount} comparisons live` : 'Coming soon'}
+          {liveItems.length
+            ? `${comparisonCount.toLocaleString()} comparisons live`
+            : 'Coming soon'}
         </p>
       </div>
     </Link>

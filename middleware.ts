@@ -3,8 +3,13 @@ import { NextRequest, NextResponse } from 'next/server';
 // Password-gates the admin dashboard (/admin) and its API routes
 // (/api/admin) with standard HTTP Basic Auth. This runs on the Edge
 // runtime, so it uses the web-standard atob() rather than Node's Buffer.
-// Username is fixed ("admin"); password comes from ADMIN_PASSWORD (falls
-// back to the site owner's requested default if that env var isn't set).
+// Username is fixed ("admin"); the password comes from ADMIN_PASSWORD.
+//
+// There is deliberately no fallback password. A literal default committed to
+// the repository is not a lock — anyone who can read the source can open the
+// dashboard, and the dashboard holds a GitHub token with write access to this
+// repo. If ADMIN_PASSWORD is unset, admin is closed to everyone rather than
+// open to everyone.
 
 const REALM = 'The Comparison Report Admin';
 
@@ -16,7 +21,14 @@ function unauthorized() {
 }
 
 export function middleware(req: NextRequest) {
-  const expectedPassword = process.env.ADMIN_PASSWORD || 'Simple@#123';
+  const expectedPassword = process.env.ADMIN_PASSWORD;
+  if (!expectedPassword) {
+    return new NextResponse(
+      'Admin is disabled: ADMIN_PASSWORD is not set in this environment.',
+      { status: 503, headers: { 'Cache-Control': 'no-store' } }
+    );
+  }
+
   const header = req.headers.get('authorization');
 
   if (header && header.startsWith('Basic ')) {

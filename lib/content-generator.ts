@@ -23,8 +23,49 @@ export type ComparisonCopy = {
   faqs: { question: string; answer: string }[];
 };
 
+export function formatUsd(n: number): string {
+  return fmtPrice(n);
+}
+
 function fmtPrice(n: number): string {
-  return `$${n.toFixed(2).replace(/\.00$/, '')}`;
+  // Thousands separators matter once a category reaches four figures — a
+  // flagship TV rendered as "$12999.99" reads as a typo.
+  const fixed = n.toFixed(2).replace(/\.00$/, '');
+  const [whole, decimals] = fixed.split('.');
+  const grouped = whole.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  return `$${decimals ? `${grouped}.${decimals}` : grouped}`;
+}
+
+// Lowercases the first word only when it is safe to do so. Blanket
+// .toLowerCase() on an author-written label or description destroys the
+// acronyms and brand names that carry the meaning — "HDMI 2.1 port count and
+// other I/O" became "hdmi 2.1 port count and other i/o", which reads as
+// machine output because it is. A word whose second character onward is not
+// already lowercase (HDR, OS, I/O, LG) is left exactly as written.
+export function decapitalize(text: string): string {
+  const first = text.split(/\s+/)[0] ?? '';
+  if (first.length > 1 && first.slice(1) !== first.slice(1).toLowerCase()) return text;
+  return text.charAt(0).toLowerCase() + text.slice(1);
+}
+
+// Turns a fragment written as a headline (a product tagline, typically) into a
+// standalone sentence: leading capital, closing full stop. Taglines are noun
+// phrases — splicing one into the middle of another sentence produces the
+// ungrammatical run-ons this generator used to emit.
+function sentence(text: string): string {
+  const trimmed = text.trim();
+  if (!trimmed) return '';
+  const capped = trimmed.charAt(0).toUpperCase() + trimmed.slice(1);
+  return /[.!?]$/.test(capped) ? capped : `${capped}.`;
+}
+
+// Deterministic variant selection. Two products always produce the same
+// phrasing, but neighbouring pages don't all open with the same sentence.
+function variantIndex(a: Product, b: Product, count: number): number {
+  const key = `${a.slug}|${b.slug}`;
+  let hash = 0;
+  for (let i = 0; i < key.length; i++) hash = (hash * 31 + key.charCodeAt(i)) >>> 0;
+  return hash % count;
 }
 
 function priceDiffPhrase(a: Product, b: Product): string {
@@ -61,28 +102,38 @@ export function generateComparisonCopy(productA: Product, productB: Product, cat
     .map((dim) => {
       const leader = leaderOnDimension(productA, productB, dim.key);
       const other = leader.id === productA.id ? productB : productA;
-      return `On ${dim.label.toLowerCase()}, the ${leader.model} leads (${leader.scores[dim.key]?.toFixed(
+      return `On ${dim.label}, the ${leader.model} leads (${leader.scores[dim.key]?.toFixed(
         1
-      )} vs ${other.scores[dim.key]?.toFixed(1)}/10) — ${dim.description.toLowerCase()}.`;
+      )} vs ${other.scores[dim.key]?.toFixed(1)}/10) — ${decapitalize(dim.description)}.`;
     })
     .join(' ');
 
-  const summary = `The ${productA.model} and ${productB.model} are both ${productA.releaseYear === productB.releaseYear ? 'current-generation' : 'closely matched'} ${category.name.toLowerCase()}, and ${priceLine}. ${diffSentences} Overall, the ${winner.model} scores ${
+  const summary = `The ${productA.model} and ${productB.model} are both ${productA.releaseYear === productB.releaseYear ? 'current-generation' : 'closely matched'} ${decapitalize(category.name)} models, and ${priceLine}. ${diffSentences} Overall, the ${winner.model} scores ${
     winner.id === productA.id ? scoreA.toFixed(1) : scoreB.toFixed(1)
-  }/10 across our ${category.scoreDimensions.length} test categories versus ${
+  }/10 across our ${category.scoreDimensions.length} scoring categories versus ${
     loser.id === productA.id ? scoreA.toFixed(1) : scoreB.toFixed(1)
   }/10 for the ${loser.model}${
     isClose ? ", though the gap is close enough that your specific use case should decide it" : ''
   }. Below, we break down the full spec sheet, category-by-category scores, and exactly who should buy which one.`;
 
   // --- Verdict -------------------------------------------------------------
-  const verdict = isClose
-    ? `This is a close call. The ${winner.model} edges ahead by ${margin.toFixed(
-        1
-      )} points overall, but the ${loser.model} is still an excellent choice — especially if ${loser.shortTagline.toLowerCase()}`
-    : `The ${winner.model} is the stronger all-around pick, beating the ${loser.model} by ${margin.toFixed(
-        1
-      )} points overall. ${winner.shortTagline}`;
+  // The tagline is a noun phrase, so it becomes its own sentence rather than a
+  // subordinate clause. Three variants per branch, chosen deterministically
+  // from the product pair, so a reader moving between comparisons is not read
+  // the identical sentence every time.
+  const m = margin.toFixed(1);
+  const closeVariants = [
+    `This is close. The ${winner.model} edges ahead by ${m} points, but that margin is inside the noise — the ${loser.model} is a defensible pick on its own terms. ${sentence(loser.shortTagline)}`,
+    `Too close to call on score alone: ${m} points separate them. ${sentence(winner.shortTagline)} The ${loser.model} answers with a different set of strengths, so let the categories below decide it.`,
+    `The ${winner.model} wins by ${m} points, which is not enough to settle it. ${sentence(loser.shortTagline)} Pick on the specs that matter to you, not the overall score.`
+  ];
+  const clearVariants = [
+    `The ${winner.model} is the stronger all-round pick, ahead by ${m} points. ${sentence(winner.shortTagline)}`,
+    `The ${winner.model} takes this by a clear ${m} points. ${sentence(winner.shortTagline)} The ${loser.model} only makes sense if it wins on a category you care about more than the total.`,
+    `A ${m}-point gap makes the ${winner.model} the straightforward choice here. ${sentence(winner.shortTagline)}`
+  ];
+  const pool = isClose ? closeVariants : clearVariants;
+  const verdict = pool[variantIndex(productA, productB, pool.length)];
 
   // --- Choose A / Choose B --------------------------------------------------
   const chooseA = buildChooseList(productA, productB, category);
@@ -128,7 +179,7 @@ function dimensionReason(product: Product, dim: ScoreDimension): string {
   // headphones, without needing a hardcoded per-key template map.
   return `${dim.label} matters most to you — the ${product.model} scores ${product.scores[dim.key]?.toFixed(
     1
-  )}/10 here (${dim.description.toLowerCase()}).`;
+  )}/10 here (${decapitalize(dim.description)}).`;
 }
 
 function buildFaqs(
@@ -153,10 +204,10 @@ function buildFaqs(
     const leader = leaderOnDimension(a, b, dim.key);
     const other = leader.id === a.id ? b : a;
     faqs.push({
-      question: `Which is better for ${dim.label.toLowerCase()}, the ${a.model} or the ${b.model}?`,
-      answer: `The ${leader.model} scores higher on ${dim.label.toLowerCase()} (${leader.scores[dim.key]?.toFixed(
+      question: `Which is better for ${dim.label}, the ${a.model} or the ${b.model}?`,
+      answer: `The ${leader.model} scores higher on ${dim.label} (${leader.scores[dim.key]?.toFixed(
         1
-      )}/10 vs ${other.scores[dim.key]?.toFixed(1)}/10) — ${dim.description.toLowerCase()}.`
+      )}/10 vs ${other.scores[dim.key]?.toFixed(1)}/10) — ${decapitalize(dim.description)}.`
     });
   }
 
@@ -168,7 +219,7 @@ function buildFaqs(
         : `The ${a.price < b.price ? a.model : b.model} is the cheaper option at ${fmtPrice(
             Math.min(a.price, b.price)
           )} versus ${fmtPrice(Math.max(a.price, b.price))}. Whether the pricier model is "worth it" depends on how much you value its lead in ${
-            topDifferentiators(a, b, category, 1)[0]?.label.toLowerCase() ?? 'the categories where it scores higher'
+            topDifferentiators(a, b, category, 1)[0]?.label ?? 'the categories where it scores higher'
           }.`
   });
 
@@ -196,4 +247,84 @@ function buildFaqs(
   });
 
   return faqs;
+}
+
+// ---------------------------------------------------------------------------
+// Product-page copy.
+//
+// Product pages shipped with a spec table, a pros/cons list and no prose at
+// all — about 285 words including the site footer, on a page whose job is to
+// rank for a product name. This builds an opening from facts already in the
+// record: where the product sits in its category's price range, the dimension
+// it is strongest and weakest on, and who should look elsewhere. No new claims.
+// ---------------------------------------------------------------------------
+
+export function generateProductIntro(product: Product, category: Category, categoryProducts: Product[]): string[] {
+  const prices = categoryProducts.map((p) => p.price).sort((x, y) => x - y);
+  const cheapest = prices[0] ?? product.price;
+  const dearest = prices[prices.length - 1] ?? product.price;
+  const rank = prices.filter((p) => p < product.price).length;
+  const percentile = prices.length > 1 ? rank / (prices.length - 1) : 0.5;
+
+  const position =
+    percentile <= 0.25
+      ? `sits among the cheapest we cover`
+      : percentile >= 0.75
+        ? `sits at the premium end of the category`
+        : `sits in the middle of the range`;
+
+  const ranked = [...category.scoreDimensions]
+    .map((dim) => ({ dim, score: product.scores[dim.key] ?? 0 }))
+    .sort((a, b) => b.score - a.score);
+  const best = ranked[0];
+  const worst = ranked[ranked.length - 1];
+
+  const paragraphs: string[] = [];
+
+  paragraphs.push(
+    `${sentence(product.shortTagline)} ` +
+      `At ${fmtPrice(product.price)}, ${product.brand}'s ${product.releaseYear} model ${position} — the ` +
+      `${decapitalize(category.pluralName)} we compare run from ${fmtPrice(cheapest)} to ${fmtPrice(dearest)}. ` +
+      `It scores ${overallScore(product, category).toFixed(1)}/10 overall, calculated from published ` +
+      `specifications across ${category.scoreDimensions.length} categories rather than from a subjective impression.`
+  );
+
+  if (best && worst && best.dim.key !== worst.dim.key) {
+    paragraphs.push(
+      `Its strongest showing is ${best.dim.label} at ${best.score.toFixed(1)}/10 — ${decapitalize(best.dim.description)}. ` +
+        `The weakest is ${worst.dim.label} at ${worst.score.toFixed(1)}/10, which is the trade-off to weigh before buying: ` +
+        `if that is the specification you care about most, one of the alternatives below will serve you better.`
+    );
+  }
+
+  const cons = product.cons.slice(0, 2);
+  if (cons.length) {
+    paragraphs.push(
+      `Worth knowing before you buy: ${cons.map((c) => decapitalize(c.replace(/\.$/, ''))).join('; and ')}. ` +
+        `Every specification on this page comes from ${product.brand}'s own documentation or a verified retail ` +
+        `listing — where a figure is not published, the table says so rather than estimating it.`
+    );
+  }
+
+  return paragraphs;
+}
+
+// A product-page meta description that actually fills the ~155 characters
+// Google will show. The tagline alone ran to a 78-character median, so every
+// product page was giving away half its snippet.
+export function generateProductMetaDescription(product: Product, category: Category): string {
+  const base = `${product.model}: ${product.shortTagline.replace(/\.$/, '')}`;
+  const parts = [base];
+  const spec = category.specFields
+    .map((field) => ({ field, value: product.specs[field.key] }))
+    .find(({ value }) => typeof value === 'number' || (typeof value === 'string' && value.length > 0 && value.length < 40));
+
+  if (spec) {
+    parts.push(`${spec.field.label}: ${spec.value}${spec.field.unit ? ` ${spec.field.unit}` : ''}`);
+  }
+  parts.push(`${fmtPrice(product.price)}, full specs and head-to-head comparisons`);
+
+  let out = parts.join('. ');
+  if (out.length > 158) out = `${out.slice(0, 155).replace(/[\s,;—-]+$/, '')}…`;
+  return out;
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { SITE_URL } from '@/lib/seo';
+import { jsonLd, siteSchema } from '@/lib/structured-data';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
@@ -23,6 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="flex min-h-screen flex-col">
+        {/* Publisher identity, emitted once so every page inherits it rather
+            than each route repeating the same two nodes. */}
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(siteSchema()) }} />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

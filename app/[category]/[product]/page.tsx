@@ -4,6 +4,10 @@ import type { Metadata } from 'next';
 import { getCategory } from '@/data/categories';
 import { getAllProducts, getCompetitors, getProductBySlug, getProductsByCategory } from '@/lib/products';
 import { canonical } from '@/lib/seo';
+import { generateProductIntro, generateProductMetaDescription } from '@/lib/content-generator';
+import { breadcrumbSchema, jsonLd, productSchema } from '@/lib/structured-data';
+import { dataUpdatedAt, formatUpdated } from '@/data/freshness';
+import { amazonLink } from '@/lib/amazon';
 import { cheaperAlternative, premiumAlternative, sameBrand } from '@/lib/related';
 import { overallScore } from '@/lib/scoring';
 import AmazonButton from '@/components/AmazonButton';
@@ -18,14 +22,20 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { category: string; product: string } }): Metadata {
   const product = getProductBySlug(params.category, params.product);
   if (!product) return {};
+  const category = getCategory(params.category);
+  const updated = dataUpdatedAt(params.category);
   return {
     // Hub-style title (not a "review") — each product page is a comparison
     // hub linking out to every relevant "X vs Y" page, matching the site's
     // comparison-first architecture rather than reading as a standalone
     // review article.
     title: `${product.model}: Specs, Features, Price & Comparisons`,
-    description: product.shortTagline,
-    alternates: canonical(`/${params.category}/${params.product}`)
+    // The tagline alone averaged 78 characters, so every product page threw
+    // away half the snippet Google will show. This fills it with the spec and
+    // the price a searcher is actually deciding on.
+    description: category ? generateProductMetaDescription(product, category) : product.shortTagline,
+    alternates: canonical(`/${params.category}/${params.product}`),
+    other: updated ? { 'article:modified_time': updated } : undefined
   };
 }
 
@@ -46,8 +56,28 @@ export default function ProductPage({ params }: { params: { category: string; pr
     ? getProductsByCategory(category.slug).find((p) => p.slug === product.nextModelSlug)
     : undefined;
 
+  const intro = generateProductIntro(product, category, getProductsByCategory(category.slug));
+  const updated = formatUpdated(dataUpdatedAt(category.slug));
+  const buyUrl = product.amazonAsin ? amazonLink(product) : null;
+
   return (
     <div className="container-page py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd(productSchema(product, category, buyUrl)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: jsonLd(
+            breadcrumbSchema([
+              { name: 'Home', path: '/' },
+              { name: category.pluralName, path: `/${category.slug}` },
+              { name: product.model, path: `/${category.slug}/${product.slug}` }
+            ])
+          )
+        }}
+      />
       <RecentlyViewedTracker categorySlug={category.slug} slug={product.slug} />
       <p className="text-sm text-slate-400">
         <Link href={`/${category.slug}`} className="hover:text-brand-600">
@@ -114,6 +144,26 @@ export default function ProductPage({ params }: { params: { category: string; pr
           </div>
         </div>
       </div>
+
+      <section className="mt-14 max-w-3xl">
+        <h2 className="mb-4 text-xl font-bold text-slate-900">
+          {product.model} review: what the specs say
+        </h2>
+        <div className="space-y-4 text-slate-600">
+          {intro.map((paragraph, i) => (
+            <p key={i}>{paragraph}</p>
+          ))}
+        </div>
+        {updated && (
+          <p className="mt-5 text-sm text-slate-400">
+            Specifications and price last verified{' '}
+            <time dateTime={dataUpdatedAt(category.slug)}>{updated}</time>.{' '}
+            <Link href="/report-incorrect-info" className="hover:text-brand-600 underline">
+              Report an error
+            </Link>
+          </p>
+        )}
+      </section>
 
       <section className="mt-14">
         <h2 className="mb-4 text-xl font-bold text-slate-900">Full Specifications</h2>
