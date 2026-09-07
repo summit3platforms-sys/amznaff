@@ -6,6 +6,8 @@ import { getAllComparisonPairs, getProductBySlug } from '@/lib/products';
 import { comparisonCanonical } from '@/lib/seo';
 import { breadcrumbSchema, jsonLd } from '@/lib/structured-data';
 import { dataUpdatedAt, formatUpdated } from '@/data/freshness';
+import { trapsForProducts } from '@/data/marketTraps';
+import MarketTraps from '@/components/MarketTraps';
 import { decapitalize } from '@/lib/content-generator';
 import { determineOverallWinner, overallScore } from '@/lib/scoring';
 import { generateComparisonCopy } from '@/lib/content-generator';
@@ -93,6 +95,7 @@ export default function ComparisonPage({
   const scoreA = overallScore(a, category);
   const scoreB = overallScore(b, category);
   const copy = generateComparisonCopy(a, b, category);
+  const pairTraps = trapsForProducts(category.slug, [a.slug, b.slug]);
   const related = alternativeComparisons(a, b, 6);
   const cheaper = cheaperAlternative(scoreA >= scoreB ? b : a);
   const premium = premiumAlternative(scoreA >= scoreB ? a : b);
@@ -180,7 +183,7 @@ export default function ComparisonPage({
 
       <div className="container-page py-12">
       <div className="mt-2">
-        <JumpNav category={category} />
+        <JumpNav category={category} hasTraps={pairTraps.length > 0} />
       </div>
 
       {/* Quick verdict */}
@@ -318,6 +321,16 @@ export default function ComparisonPage({
             </Link>
           )}
         </section>
+      )}
+
+      {pairTraps.length > 0 && (
+        <MarketTraps
+          traps={pairTraps}
+          category={category}
+          heading={`What the marketing doesn't tell you about these two`}
+          intro={`Findings from our research on this category that name the ${a.model} or the ${b.model} specifically — the things neither product page leads with.`}
+          moreHref={`/${category.slug}#what-marketing-doesnt-tell-you`}
+        />
       )}
 
       {/* Freshness. A comparison of two current-model-year products is a

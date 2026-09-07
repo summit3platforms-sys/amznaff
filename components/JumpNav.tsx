@@ -7,7 +7,7 @@ import { Category } from '@/data/types';
 // The deep-dive section list is generated from the category's own
 // scoreDimensions (not hardcoded), so this works for headphones, TVs, or
 // any future category without changes here.
-export default function JumpNav({ category }: { category: Category }) {
+export default function JumpNav({ category, hasTraps = false }: { category: Category; hasTraps?: boolean }) {
   const sections = [
     { id: 'summary', label: 'Summary' },
     { id: 'specs', label: 'Specs' },
@@ -15,6 +15,8 @@ export default function JumpNav({ category }: { category: Category }) {
     ...category.scoreDimensions.map((dim) => ({ id: dim.key, label: dim.label })),
     { id: 'best-for', label: 'Best For' },
     { id: 'faqs', label: 'FAQs' },
+    // Only offered when the page actually renders the section.
+    ...(hasTraps ? [{ id: 'what-marketing-doesnt-tell-you', label: 'Watch out for' }] : []),
     { id: 'alternatives', label: 'Alternatives' }
   ];
 

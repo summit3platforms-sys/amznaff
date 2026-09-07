@@ -5,7 +5,9 @@ import { getAllComparisonPairs, getProductsByCategory, isCategoryLive } from '@/
 import { productMatchesFilter } from '@/lib/filters';
 import { canonical, comparisonCanonical } from '@/lib/seo';
 import { breadcrumbSchema, itemListSchema, jsonLd } from '@/lib/structured-data';
-import { decapitalize, formatUsd } from '@/lib/content-generator';
+import { decapitalizeWords, formatUsd } from '@/lib/content-generator';
+import { trapsForCategory } from '@/data/marketTraps';
+import MarketTraps from '@/components/MarketTraps';
 import { dataUpdatedAt, formatUpdated } from '@/data/freshness';
 import Link from 'next/link';
 
@@ -86,6 +88,7 @@ export default function CategoryPage({
   });
 
   const updated = formatUpdated(dataUpdatedAt(category.slug));
+  const categoryTraps = trapsForCategory(category.slug);
   const withAsin = allProducts.filter((p) => p.amazonAsin).length;
   const brands = Array.from(new Set(allProducts.map((p) => p.brand)));
   const cheapest = Math.min(...allProducts.map((p) => p.price));
@@ -116,7 +119,7 @@ export default function CategoryPage({
           says what is actually in the set, entirely from the data. */}
       <div className="mt-5 max-w-3xl space-y-3 text-slate-600">
         <p>
-          We compare {allProducts.length} {decapitalize(category.pluralName)} from {brands.length}{' '}
+          We compare {allProducts.length} {decapitalizeWords(category.pluralName)} from {brands.length}{' '}
           {brands.length === 1 ? 'brand' : 'brands'} — {brands.slice(0, 6).join(', ')}
           {brands.length > 6 ? ` and ${brands.length - 6} more` : ''} — priced from {formatUsd(cheapest)} to{' '}
           {formatUsd(dearest)}. Each one is scored across {category.scoreDimensions.length} categories (
@@ -149,6 +152,15 @@ export default function CategoryPage({
 
       {products.length === 0 && (
         <p className="mt-10 text-center text-slate-400">No models match this filter yet.</p>
+      )}
+
+      {categoryTraps && (
+        <MarketTraps
+          traps={categoryTraps.traps}
+          category={category}
+          heading={`What the marketing doesn't tell you about ${decapitalizeWords(category.pluralName)}`}
+          intro={categoryTraps.intro}
+        />
       )}
 
       {canonicalPairs.length > 0 && (

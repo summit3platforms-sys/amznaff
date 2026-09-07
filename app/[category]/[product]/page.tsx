@@ -7,6 +7,8 @@ import { canonical } from '@/lib/seo';
 import { generateProductIntro, generateProductMetaDescription } from '@/lib/content-generator';
 import { breadcrumbSchema, jsonLd, productSchema } from '@/lib/structured-data';
 import { dataUpdatedAt, formatUpdated } from '@/data/freshness';
+import { trapCount, trapsForProducts } from '@/data/marketTraps';
+import MarketTraps from '@/components/MarketTraps';
 import { amazonLink } from '@/lib/amazon';
 import { cheaperAlternative, premiumAlternative, sameBrand } from '@/lib/related';
 import { overallScore } from '@/lib/scoring';
@@ -59,6 +61,7 @@ export default function ProductPage({ params }: { params: { category: string; pr
   const intro = generateProductIntro(product, category, getProductsByCategory(category.slug));
   const updated = formatUpdated(dataUpdatedAt(category.slug));
   const buyUrl = product.amazonAsin ? amazonLink(product) : null;
+  const productTraps = trapsForProducts(category.slug, [product.slug]);
 
   return (
     <div className="container-page py-12">
@@ -164,6 +167,16 @@ export default function ProductPage({ params }: { params: { category: string; pr
           </p>
         )}
       </section>
+
+      {productTraps.length > 0 && (
+        <MarketTraps
+          traps={productTraps}
+          category={category}
+          heading={`What the marketing doesn't tell you about the ${product.model}`}
+          intro={`${productTraps.length} of the ${trapCount(category.slug)} things we found worth knowing in this category apply directly to this model.`}
+          moreHref={`/${category.slug}#what-marketing-doesnt-tell-you`}
+        />
+      )}
 
       <section className="mt-14">
         <h2 className="mb-4 text-xl font-bold text-slate-900">Full Specifications</h2>

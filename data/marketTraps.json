@@ -1,0 +1,2184 @@
+[
+  {
+    "categorySlug": "air-purifiers",
+    "intro": "Air purifier marketing runs on numbers that are technically true and practically useless: room sizes computed at one air change an hour, HEPA grades that describe the filter media rather than the machine, and certification badges the certifying body's own directory does not confirm. Everything below can be checked against the specs on this page.",
+    "traps": [
+      {
+        "id": "coverage-is-a-one-air-change-number",
+        "title": "The headline square footage is a one-air-change-an-hour number",
+        "body": "One air change an hour does almost nothing against smoke or pollen; AHAM's suggested room size assumes 4.8. Blueair's own page rates the 211i Max at 674 sq ft at 4.8 ACH; the retail listing says 3,235. Honeywell's HPA180B is AHAM-Verifide for 206 sq ft and sold as \"990 Ft² Rooms in 1 Hour\". Coway's box says 1,748; its own 4.8 ACH figure is 361. Alen sells 2,800 where its CADR implies about 580. IKEA's UPPÅTVIND is the sole exception: 75 sq ft at five air changes.",
+        "affects": [
+          "blueair-blue-pure-211i-max",
+          "honeywell-insight-hpa180b",
+          "coway-airmega-ap-1512hh",
+          "alen-breathesmart-75i",
+          "ikea-uppatvind"
+        ],
+        "specKey": "coverageClaim"
+      },
+      {
+        "id": "aham-verifide-badges-outrun-the-directory",
+        "title": "An \"AHAM Verifide\" badge is claimed more often than it is held",
+        "body": "Querying the AHAM directory's brand index in August 2026 returns 58 brands. Coway, Dyson, Molekule, Shark and Alen are not in it at all. Medify Air is in the index with zero currently certified models, while every product tile on medifyair.com carries an \"AHAM Verified\" badge. Levoit's Core 300S-P listing carries the badge too, but the Levoit models actually in the directory are LAP-C171, LAP-C201S, LAP-C311S, LAP-C341S and LAP-P501S, none of which matches the Core 300S's 141 CFM.",
+        "affects": [
+          "medify-ma-40",
+          "levoit-core-300s-p",
+          "coway-airmega-ap-1512hh",
+          "dyson-purifier-cool-tp10",
+          "molekule-air-pro",
+          "shark-neverchange-air-purifier-max-hp302",
+          "alen-breathesmart-75i"
+        ],
+        "specKey": "ahamCadr"
+      },
+      {
+        "id": "annual-filter-cost-spans-a-factor-of-ten",
+        "title": "Annual filter cost spans a factor of ten across these twelve",
+        "body": "Coway is the cheapest real option at $54.99 a year: one HEPA at 12 months plus two deodorisation filters at six months each, exactly a year in a box, with a washable pre-filter. Winix is one $55.99–79.99 part a year. Molekule is $174.99 every six months, $349.98 a year, about a third of the machine's own price annually. Medify sits at $120–180 depending on which of its own pages you believe: 120 days on the filter page, 180 on the purifier page, \"3,000 hours or 4-5 months\" in body copy.",
+        "affects": [
+          "coway-airmega-ap-1512hh",
+          "winix-5510",
+          "molekule-air-pro",
+          "medify-ma-40"
+        ],
+        "specKey": "annualFilterCost"
+      },
+      {
+        "id": "lifetime-claims-carry-conditions",
+        "title": "The five-year and lifetime claims come with conditions",
+        "body": "Shark's five-year NeverChange filter is the headline reason to buy the HP302; independent analysis of Shark's own stated test conditions (cleanairadviser.com, 2026) reports it is measured in a 300 sq ft room, 12 hours a day at maximum fan speed, to an endpoint that permits clean-air delivery to fall by 50%. Alen's \"Forever Guarantee\" is printed as applying \"with Product Registration & Active Air Filter Subscription\". Blueair's warranty is one year and reaches three only on registration. Medify's limited lifetime warranty carries no subscription condition.",
+        "affects": [
+          "shark-neverchange-air-purifier-max-hp302",
+          "alen-breathesmart-75i",
+          "blueair-blue-pure-211i-max",
+          "medify-ma-40"
+        ],
+        "specKey": "warrantyTerms"
+      },
+      {
+        "id": "carb-electronic-means-ozone-capable",
+        "title": "Five of these twelve are CARB-certified as ozone-capable \"Electronic\" devices",
+        "body": "CARB certification is not a clean bill of health. \"Mechanical\" means filtration only; \"Electronic\" means the device can generate ozone and was certified because it tested at no more than 0.050 ppm. The Coway AP-1512HH, Winix 5510, Blueair 211i Max, Alen 75i_V2 and Molekule Air Pro are all Electronic. Coway, Winix and Alen each give the stage its own switch. Blueair's ion charging is integral to HEPASilent, has no off switch, and its page makes no ozone statement. Molekule's own FDA table says the Air Pro \"does not product ozone\".",
+        "affects": [
+          "coway-airmega-ap-1512hh",
+          "winix-5510",
+          "blueair-blue-pure-211i-max",
+          "alen-breathesmart-75i",
+          "molekule-air-pro"
+        ],
+        "specKey": "ionizerOzone"
+      },
+      {
+        "id": "hepa-h13-and-hepa-type-are-different-claims",
+        "title": "\"True HEPA\", \"H13\" and \"HEPA-Type\" are three different claims",
+        "body": "AHAM's own filter-type field logs the Levoit Core Mini platform and the Core 200S as \"HEPA-Type\", and logs the Blueair 211i Max as \"Fabric\" — the honest description of charged-media HEPASilent. Medify's H13/H14 claim is footnoted on its own site as \"Tested by Intertek Lab for HEPA filter material\", a media grade rather than a whole-unit rating. Winix's 99.99% rests on a Korean KCL report to a modified SPS-KACA method. IKEA claims EPA 12 to EN 1822-1. Only Dyson claims the machine itself is sealed to H13.",
+        "affects": [
+          "levoit-core-mini-p",
+          "blueair-blue-pure-211i-max",
+          "medify-ma-40",
+          "winix-5510",
+          "ikea-uppatvind",
+          "dyson-purifier-cool-tp10"
+        ],
+        "specKey": "filterType"
+      },
+      {
+        "id": "sensors-range-from-six-channel-to-none",
+        "title": "Three of these have no sensor at all, and the middle of the range is vague",
+        "body": "Molekule (PM1/2.5/10, VOC, CO2, RH), Alen (PM2.5, TVOC, eCO2, temperature, RH) and Blueair (PM1/2.5/10) publish real multi-channel particulate sensing, and Dyson puts numeric PM2.5 and PM10 on an LCD. Coway calls the AP-1512HH's element a \"dust sensor\" and reserves \"MegaScan laser sensor (PM 1, 2.5, 10)\" for the newer Mighty2; Levoit's \"AirSight Plus\" is described nowhere as a laser counter. The IKEA UPPÅTVIND, the Levoit Core Mini-P and the $249.99 Medify MA-40 have no sensor, and therefore no auto mode.",
+        "affects": [
+          "molekule-air-pro",
+          "alen-breathesmart-75i",
+          "blueair-blue-pure-211i-max",
+          "dyson-purifier-cool-tp10",
+          "coway-airmega-ap-1512hh",
+          "ikea-uppatvind",
+          "levoit-core-mini-p",
+          "medify-ma-40"
+        ],
+        "specKey": "sensor"
+      },
+      {
+        "id": "three-brands-publish-no-decibel-figure",
+        "title": "Honeywell, Shark and Dyson publish no decibel figure for these models",
+        "body": "Where both ends are published, the quiet end is genuinely quiet: Levoit Core 300S-P 22–50 dB, Blueair 23–53 dB, Winix 23.5 dB minimum, Alen 25–51 dBA, Levoit Core Mini-P 25–44 dB. Molekule's floor is 33 dBA and its ceiling 64 dBA. Medify publishes only \"as low as 40.5 dBA\" for sleep mode and nothing for full speed, and 40.5 dBA is louder than most of this field's mid speeds. Honeywell, Shark and Dyson publish nothing at either end.",
+        "affects": [
+          "levoit-core-300s-p",
+          "blueair-blue-pure-211i-max",
+          "winix-5510",
+          "alen-breathesmart-75i",
+          "levoit-core-mini-p",
+          "molekule-air-pro",
+          "medify-ma-40",
+          "honeywell-insight-hpa180b",
+          "shark-neverchange-air-purifier-max-hp302",
+          "dyson-purifier-cool-tp10"
+        ],
+        "specKey": "noiseRange"
+      }
+    ]
+  },
+  {
+    "categorySlug": "charging-stations",
+    "intro": "A charging station's headline wattage is a budget shared across every device on it, and the AC outlets on the side may carry no surge protection at all. Both are recorded per product here, along with what each wireless pad and watch puck actually supports.",
+    "traps": [
+      {
+        "id": "ac-outlets-without-surge-protection",
+        "title": "Anker's Prime 140W 6-in-1 has two AC outlets and no surge protection",
+        "body": "Anker states that outright. In that respect it is a power strip rather than a protected one, so plugging a desktop or a monitor into it gives that gear none of the protection a surge strip would. Where protection does exist here it is modest: 300 joules on the Anker 525 and across the Nano 7-in-1's three outlets, 1,200 joules on the Baseus PowerCombo. Anker's Nano 6-in-1 has two AC outlets and publishes no joule rating at all.",
+        "affects": [
+          "anker-prime-140w-6in1",
+          "anker-525-station",
+          "anker-nano-7in1-100w",
+          "baseus-powercombo-65w",
+          "anker-nano-6in1"
+        ],
+        "specKey": "surgeProtection"
+      },
+      {
+        "id": "total-wattage-is-a-budget",
+        "title": "The total wattage is a budget, not a per-port promise",
+        "body": "The split across ports is rarely even. The Anker 525's USB-C never reaches 65W once a second device is attached, and four ports give 30W plus 20W plus 15W. UGREEN's Nexode Pro 100W drops to about 45W sustained with all five ports loaded, and the Satechi 165W gives 60W plus 45W plus 30W plus 30W across four. The Anker Prime 250W is the least lossy here, holding 240W across two ports and 250W across three or more. Baseus' 120W and UGREEN's 500W publish no table at all.",
+        "affects": [
+          "anker-525-station",
+          "ugreen-nexode-pro-100w",
+          "satechi-165w-4port",
+          "anker-prime-250w",
+          "baseus-120w-6in1",
+          "ugreen-nexode-500w"
+        ],
+        "specKey": "powerSharing"
+      },
+      {
+        "id": "watch-pucks-are-not-interchangeable",
+        "title": "An unlicensed watch puck will not fast-charge",
+        "body": "Galaxy Watch charging is a different standard again, so a puck-shaped pad on its own tells you nothing. Only two products here charge a watch at all: Belkin's 3-in-1 stand, which is fast-charge capable, and Twelve South's HiRise 3, which charges at 5W and supports the Apple fast charger. The other ten have no watch charging of any kind. Look for the manufacturer stating licensing or fast-charge support, not just for the pad.",
+        "affects": [
+          "belkin-3in1-stand",
+          "twelve-south-hirise-3"
+        ],
+        "specKey": "appleWatchCharging"
+      },
+      {
+        "id": "wireless-charging-says-nothing-about-speed",
+        "title": "\"Wireless charging\" alone does not tell you the speed or the standard",
+        "body": "A single station commonly mixes USB-C PD, PPS and Qi or Qi2, and the two docks here differ: Belkin's stand is Qi2 at 15W, while Twelve South's HiRise 3 is MagSafe at 15W plus a second 7.5W Qi pad on the back. Both run a fixed allocation from a supplied 36W adapter that you cannot change, and Twelve South advises against substituting a third-party USB-C charger. Neither has a USB-C or USB-A port for anything else.",
+        "affects": [
+          "belkin-3in1-stand",
+          "twelve-south-hirise-3"
+        ],
+        "specKey": "wirelessPad"
+      }
+    ]
+  },
+  {
+    "categorySlug": "cordless-vacuums",
+    "intro": "The runtime on the box was measured in eco mode with a tool that has no motor in it, and the suction figure beside it is quoted in whichever of three incompatible units flatters the machine most. Both are recorded here in the terms the manufacturer actually used.",
+    "traps": [
+      {
+        "id": "runtime-is-eco-mode-with-no-powered-head",
+        "title": "The headline runtime is eco mode with a non-powered tool",
+        "body": "Miele publishes the truth on its own support site: 60 minutes at MIN with the PowerUnit alone, 14-17 minutes at maximum with the electrobrush, and the \"120 minutes\" on the box is two batteries added together. LG's 120 minutes is also two batteries, in Normal mode, \"without power nozzles\". Shark's 70 minutes is ECO at the bare handheld. Levoit's 60 becomes 40 with the motorised head and 12 in Turbo. Dyson publishes no per-mode figure; TechGearLab measured 9 minutes on Boost against a claimed 60. Samsung's own table reads 100/49/16/1.",
+        "affects": [
+          "miele-triflex-hx2-pro",
+          "lg-cordzero-a937",
+          "shark-powerdetect-cordless",
+          "levoit-lvac-300",
+          "dyson-v15-detect-plus",
+          "dyson-v15s-detect-submarine",
+          "samsung-bespoke-ai-jet-ultra"
+        ],
+        "specKey": "runtimePoweredHead"
+      },
+      {
+        "id": "air-watts-pascals-and-motor-watts",
+        "title": "Air watts, Pascals and motor watts are three different numbers",
+        "body": "Only air watts describes work done at the cleaning head. Dyson (240 AW), Samsung (400 AW), LG (210 AW, and only on a retailer spec sheet) and Levoit (90 AW) publish air watts. Roborock and Tineco publish Pascals, which is sealed suction at a blocked inlet. Wyze quotes both 20,000 Pa and \"100 AW\" for the same machine. Shark, Hoover, Bissell and Miele publish no suction figure at all — Abt's 380 W for the Shark and Hoover's 20 V are input power, not suction.",
+        "affects": [
+          "dyson-v15-detect-plus",
+          "samsung-bespoke-ai-jet-ultra",
+          "lg-cordzero-a937",
+          "levoit-lvac-300",
+          "roborock-f25-ultra",
+          "tineco-floor-one-s7-stretch-ultra",
+          "wyze-cordless-vacuum-s",
+          "shark-powerdetect-cordless",
+          "hoover-onepwr-evolve-pet-elite",
+          "bissell-crosswave-omniforce-edge",
+          "miele-triflex-hx2-pro"
+        ],
+        "specKey": "suctionRating"
+      },
+      {
+        "id": "what-is-not-in-the-box",
+        "title": "Only LG ships a second battery, and only LG and Samsung ship a base",
+        "body": "Dyson and Miele ship a wall bracket that has to be drilled into a wall, with no free-standing dock; Wyze ships a bare AC charger and no mount of any kind. Only LG includes two batteries. Only LG and Samsung include an auto-empty base, and Samsung's is bagged, so the bags are a permanent consumable while LG's tower is bagless. Shark's auto-empty base is a different SKU that cannot be added to the IP1251 later. Tineco and Bissell both steer you to their own detergent.",
+        "affects": [
+          "dyson-v15-detect-plus",
+          "dyson-v15s-detect-submarine",
+          "miele-triflex-hx2-pro",
+          "wyze-cordless-vacuum-s",
+          "lg-cordzero-a937",
+          "samsung-bespoke-ai-jet-ultra",
+          "shark-powerdetect-cordless",
+          "tineco-floor-one-s7-stretch-ultra",
+          "bissell-crosswave-omniforce-edge"
+        ],
+        "specKey": "dockOrMount"
+      },
+      {
+        "id": "self-clean-cycles-use-cold-water",
+        "title": "Most wet-dry self-clean cycles wash with cold water",
+        "body": "Tineco's headline \"185°F FlashDry\" is the drying air temperature, not the wash water; hot-water washing requires the more expensive S7 Stretch Steam. Bissell's self-clean flushes with tank water and has no drying stage at all, so the roller is stored damp. Only the Roborock F25 Ultra genuinely washes hot — 194°F water, 356°F steam — and then dries at 203°F. Dyson's V15s Submarine has no self-clean cycle whatsoever. Every washer still needs its dirty-water tank emptied and rinsed by hand.",
+        "affects": [
+          "tineco-floor-one-s7-stretch-ultra",
+          "bissell-crosswave-omniforce-edge",
+          "roborock-f25-ultra",
+          "dyson-v15s-detect-submarine"
+        ],
+        "specKey": "maintenance"
+      },
+      {
+        "id": "hepa-on-the-box-is-not-sealed-filtration",
+        "title": "\"HEPA\" on the box is not sealed filtration",
+        "body": "Only Dyson claims whole-machine sealed filtration outright, and its 99.99% figure is stated for Boost mode. Wyze calls its filter HEPA and then rates it at 95% of particles below 0.3 microns, where real HEPA is 99.97%. Hoover claims 99.4% at an unstated particle size and never says HEPA. Shark markets its Anti-Allergen Complete Seal on the corded PowerDetect but not on this cordless one, and sources conflict on whether the IP1251 has a HEPA element at all. None of the wet-dry washers makes any filtration claim.",
+        "affects": [
+          "dyson-v15-detect-plus",
+          "dyson-v15s-detect-submarine",
+          "wyze-cordless-vacuum-s",
+          "hoover-onepwr-evolve-pet-elite",
+          "shark-powerdetect-cordless"
+        ],
+        "specKey": "filtration"
+      },
+      {
+        "id": "trigger-hold-versus-push-button",
+        "title": "Both Dysons need the trigger held down for the whole clean",
+        "body": "Shark, Miele, LG, Samsung, Levoit and Wyze use a push button you press once and forget. Dyson's trigger has to be held for the entire clean, which is a comfort difference you feel long before the battery gives out, and it is worth trying in a store if you have hand or grip problems.",
+        "affects": [
+          "dyson-v15-detect-plus",
+          "dyson-v15s-detect-submarine",
+          "shark-powerdetect-cordless",
+          "miele-triflex-hx2-pro",
+          "lg-cordzero-a937",
+          "samsung-bespoke-ai-jet-ultra",
+          "levoit-lvac-300",
+          "wyze-cordless-vacuum-s"
+        ]
+      }
+    ]
+  },
+  {
+    "categorySlug": "dehumidifiers",
+    "intro": "Dehumidifier capacity is published against at least four different test conditions, so the same unchanged machine can be sold as a 70-pint, a 50-pint or a 34-pint depending on which one a listing uses. Where a manufacturer filed a number with ENERGY STAR, that filing is recorded here beside the marketing claim.",
+    "traps": [
+      {
+        "id": "four-pint-scales-in-circulation",
+        "title": "A \"70-pint\" and a \"50-pint\" are often the same machine",
+        "body": "DOE rated portable dehumidifiers at 80°F/60% RH before 2019 and at 65°F/60% RH after. Cooler air holds less water, so identical hardware tests lower: 70 becomes 40-45 pints, 50 becomes 30. Appliance Guys sells the Frigidaire as \"50 Pint Dehumidifier (Old 70 Pint)\"; Walmart's hOmeLabs title reads \"50 Pint (Previously 70 Pint)\". A third scale, saturation at roughly 95°F/90% RH, produces Waykar's \"34 pints\" and hOmeLabs' \"MAX 120 Pint\". Whole-home units test at 73°F/60% RH, which is why AprilAire's E080 files at 65.00 pints/day.",
+        "affects": [
+          "frigidaire-fhdd5033w1-50-pint",
+          "homelabs-hme020031n-50-pint",
+          "waykar-pd160b",
+          "aprilaire-e080"
+        ],
+        "specKey": "ratedCapacity"
+      },
+      {
+        "id": "waykar-pd160b-34-pints-versus-9-81",
+        "title": "The Waykar PD160B is sold as 34 pints and files with ENERGY STAR at 9.81",
+        "body": "Waykar's own page rates the PD160B at \"34 pints / day\" under 95°F, 90% RH, and a Ubuy mirror of the same Amazon listing calls it a \"40-Pint\". The ENERGY STAR database records Waykar's filed DOE Appendix X1 capacity for model PD160B as 9.81 pints/day (IEF 1.73, 122 kWh/yr, R290) — the marketing figure is 3.5 times the verified one. The PD160B-PRO files at 10.16 pints/day and carries ENERGY STAR Most Efficient. The same platform is filed under \"waykar, KESNOS, YAUFEY, Fehom\": four brands, one OEM.",
+        "affects": [
+          "waykar-pd160b"
+        ],
+        "specKey": "verifiedDoeCapacity"
+      },
+      {
+        "id": "compressors-quit-in-a-cool-basement",
+        "title": "A compressor unit stops working in the 55°F basement you bought it for",
+        "body": "A refrigerant dehumidifier frosts its coil below roughly 65°F; auto-defrost recovers the coil but spends runtime doing it. Every portable here has a 41°F floor, which is where it stops, not where it works. For a 50-55°F basement or garage the fix is a desiccant rotor — the Ivation runs from 33°F and does not care about coil temperature — or a hot-gas-defrost crawlspace unit like the AlorAir Sentinel HDi90, rated from 33.8°F. Midea, Waykar and hOmeLabs publish no minimum operating temperature for these models.",
+        "affects": [
+          "ivation-19-pint-desiccant",
+          "alorair-sentinel-hdi90",
+          "midea-cube-50-pint-pump",
+          "waykar-pd160b",
+          "homelabs-hme020031n-50-pint"
+        ],
+        "specKey": "lowTempOperation"
+      },
+      {
+        "id": "energy-star-claims-absent-from-the-database",
+        "title": "Several ENERGY STAR claims here are not in the ENERGY STAR database",
+        "body": "Honeywell markets the TPFIT50PWK as \"Most Efficient ENERGY STAR certified\" on two of its own sites; that model's ENERGY STAR record carries meets_most_efficient_criteria = No. amgair.com sells the AprilAire E070 as \"Most Efficient | Energy Star Rated\" and the AlorAir Sentinel HDi90 as \"Energy Star listed\", and neither appears in the certified database. hOmeLabs' 50-pint runs under \"Energy Star Dehumidifier\" titles while only its 24-pint and 32-pint models are certified. The AprilAire E080 is the one Most Efficient claim that survives a look.",
+        "affects": [
+          "honeywell-tpfit50pwk",
+          "aprilaire-e070",
+          "alorair-sentinel-hdi90",
+          "homelabs-hme020031n-50-pint",
+          "aprilaire-e080"
+        ],
+        "specKey": "energyStar"
+      },
+      {
+        "id": "honeywell-prints-the-scales-inverted",
+        "title": "Honeywell's own page prints the two pint scales the wrong way round",
+        "body": "honeywellstore.com's TPFIT50PWK page reads \"50 pints/day (70 pints per 2019 DOE standard)\". The 2019 standard produces the lower number, so that is inverted; myhomeclimate.com sells the sibling TP70PWKN as \"70 Pint (50 Pint 2019 DOE Standard)\", the same two figures the right way round. Honeywell's own ENERGY STAR filing settles it at 49.66 pints/day, so a buyer trusting the manufacturer's page expects 40% more machine than arrives. That page also lists R-410A as the refrigerant while the filing records HFC-32.",
+        "affects": [
+          "honeywell-tpfit50pwk"
+        ],
+        "specKey": "verifiedDoeCapacity"
+      },
+      {
+        "id": "running-cost-is-a-third-of-the-price-each-year",
+        "title": "Electricity costs about a third of the purchase price every year",
+        "body": "The mainstream 50-pints all file between 515 and 521 kWh/yr, about $88 a year at $0.17/kWh, on a machine that runs most of the year. From year two the $419.95 Honeywell and the $299 GE are identical to own except for pump lift and warranty. It also reframes the small units: the Pro Breeze costs about $34/yr for 0.56 pints a day, the worst cost per pint here by an order of magnitude, while Waykar's $21/yr is low because the machine is small.",
+        "affects": [
+          "honeywell-tpfit50pwk",
+          "ge-adse50xwt-50-pint-pump",
+          "pro-breeze-mini-dehumidifier",
+          "waykar-pd160b"
+        ],
+        "specKey": "runningCost"
+      },
+      {
+        "id": "continuous-drainage-means-four-things",
+        "title": "\"Continuous drainage\" means four different things, and tanks fill in hours",
+        "body": "The GE ADSE50XWT is rated 49.64 pints/day with a 10-pint tank — five emptyings a day if the pump is not plumbed in. hOmeLabs pairs 50 pints/day with 1.6 gallons, the Frigidaire with 1.9. Drainage splits four ways: gravity port with no hose in the box (Frigidaire, hOmeLabs), gravity with a hose included (Waykar, Ivation, AprilAire's 10 ft of tubing), a real pump with lift (Midea, GE 16 ft, Honeywell 15 ft, AlorAir), and pump-only with no bucket. Both AprilAires, at $1,441 and $1,507, are gravity-only.",
+        "affects": [
+          "ge-adse50xwt-50-pint-pump",
+          "homelabs-hme020031n-50-pint",
+          "frigidaire-fhdd5033w1-50-pint",
+          "frigidaire-fhdd2234w1-22-pint",
+          "waykar-pd160b",
+          "ivation-19-pint-desiccant",
+          "aprilaire-e070",
+          "aprilaire-e080",
+          "midea-cube-50-pint-pump",
+          "honeywell-tpfit50pwk",
+          "alorair-sentinel-hdi90"
+        ],
+        "specKey": "drainage"
+      },
+      {
+        "id": "thermoelectric-minis-remove-half-a-pint",
+        "title": "The mini dehumidifier removes about half a pint a day",
+        "body": "Walmart's spec table for the Pro Breeze PB-02-US states it \"Collects up to 9oz of water per day\" — 0.56 pints, roughly one ninetieth of a 50-pint compressor unit — while the same product is listed against a 215 sq ft coverage claim. Thermoelectric Peltier units fall outside the DOE test scope entirely, so no verified capacity figure exists for any of them.",
+        "affects": [
+          "pro-breeze-mini-dehumidifier"
+        ],
+        "specKey": "technology"
+      }
+    ]
+  },
+  {
+    "categorySlug": "fitness-trackers",
+    "intro": "In this category the sticker price is often not the price, the word GPS often means your phone's GPS, and every headline battery figure assumes something is switched off. Each point below can be checked against the spec rows on the individual product pages.",
+    "traps": [
+      {
+        "id": "subscription-lock-in",
+        "title": "WHOOP has no purchase price, and Fitbit's went up in May 2026",
+        "body": "WHOOP sells no hardware at any tier: Peak is $239/year, the $359 Life tier alone includes the MG with its FDA-cleared ECG, and the $199 One tier ships a certified pre-owned band with the old wired charger, not the wireless PowerPack. WHOOP stops collecting, uploading and analysing data once a membership ends. Fitbit Premium became Google Health Premium in May 2026 and rose from $79.99 to $99.99/year, gating Daily Readiness, the Sleep Score and Stress Management breakdowns, the workout library and Google Health Coach; three months are bundled, so the bill lands after the return window.",
+        "affects": [
+          "whoop-5-0",
+          "whoop-mg",
+          "fitbit-air",
+          "fitbit-charge-6",
+          "fitbit-inspire-3"
+        ],
+        "specKey": "subscriptionModel"
+      },
+      {
+        "id": "connected-gps-is-not-built-in-gps",
+        "title": "Only two of these twelve trackers have a GPS chip of their own",
+        "body": "The Fitbit Charge 6 (GPS plus GLONASS) and the $79.99 Amazfit Bip 6 (five-system GNSS with offline maps) are the only ones. Everything else borrows your phone's GPS or has no GPS story at all, including the $149.99 Garmin vivosmart 5, the $249.95 Withings ScanWatch Light and both WHOOPs. Xiaomi does not even list GNSS on the Smart Band 10 spec sheet, and reviewers measured the Galaxy Fit3 undermeasuring a known 5km track by more than 50m when running phone-free.",
+        "affects": [
+          "fitbit-charge-6",
+          "amazfit-bip-6",
+          "garmin-vivosmart-5",
+          "withings-scanwatch-light",
+          "whoop-5-0",
+          "whoop-mg",
+          "xiaomi-smart-band-10",
+          "samsung-galaxy-fit3"
+        ],
+        "specKey": "gpsType"
+      },
+      {
+        "id": "fda-clearance-claimed-vs-held",
+        "title": "Two heart features here are FDA-cleared; one drew a warning letter",
+        "body": "WHOOP MG's ECG and AFib detection are FDA-cleared. Its Blood Pressure Insights feature is not: the FDA issued WHOOP a warning letter in July 2025 for marketing it without authorisation and closed the letter only in June 2026, after WHOOP relabelled it a wellness feature. Fitbit's ECG app is cleared and present on the Charge 6, though Google's current spec sheet does not restate that. Withings sells cardiologist ECG review under Withings+, but the ScanWatch Light has no ECG hardware, so that benefit does not apply to it.",
+        "affects": [
+          "whoop-mg",
+          "whoop-5-0",
+          "fitbit-charge-6",
+          "withings-scanwatch-light"
+        ],
+        "specKey": "ecgAfibStatus"
+      },
+      {
+        "id": "battery-claims-and-their-assumptions",
+        "title": "Every battery claim here assumes something is switched off",
+        "body": "Google's Charge 6 spec sheet states that always-on display and SpO2 will require more frequent charging. Samsung prints \"with Always On Display turned off (default setting)\" next to its 13-day claim, and independent testing returned 7 to 10 days. Xiaomi publishes all three figures for the Smart Band 10: 21 days typical, 9 with the display always on, 8 under heavy load. WHOOP's \"14+ days\" is a 4-day band plus the PowerPack accessory. Withings' own 30-day and 35-day figures for the ScanWatch Light both circulate.",
+        "affects": [
+          "fitbit-charge-6",
+          "samsung-galaxy-fit3",
+          "xiaomi-smart-band-10",
+          "whoop-5-0",
+          "whoop-mg",
+          "withings-scanwatch-light"
+        ],
+        "specKey": "batteryAssumptions"
+      },
+      {
+        "id": "platform-lock-out",
+        "title": "The Galaxy Fit3 has no iOS app, and Fitbit needs a Google account",
+        "body": "The Samsung Galaxy Fit3 is Android-only, which rules it out for iPhone owners no matter how it compares on every other spec. Fitbit devices now require a Google account before you can complete setup at all. If you are on iOS, or would rather not open an account to use hardware you have bought, read the phone compatibility row before anything else.",
+        "affects": [
+          "samsung-galaxy-fit3",
+          "fitbit-air",
+          "fitbit-charge-6",
+          "fitbit-inspire-3"
+        ],
+        "specKey": "phoneCompatibility"
+      },
+      {
+        "id": "proprietary-chargers-and-straps",
+        "title": "Every tracker here but one charges on a cable only it can use",
+        "body": "The Amazfit Bip 6 is the exception, and several proprietary cables are incompatible within their own brand — the Charge 5, 6 and Luxe cable does not fit an Inspire 3. Samsung ships no wall adapter, and Amazfit's own US page for the Bip 6 says a cable is not included at all. Straps run the same way: Google's Fitbit Air replacements start at $34.99 with no third-party options yet, while the Bip 6 takes standard 22mm quick-release bands costing a few dollars.",
+        "affects": [
+          "amazfit-bip-6",
+          "fitbit-charge-6",
+          "fitbit-inspire-3",
+          "samsung-galaxy-fit3",
+          "fitbit-air"
+        ],
+        "specKey": "chargerType"
+      },
+      {
+        "id": "getting-your-data-out",
+        "title": "Three brands let you export your history; two publish no export at all",
+        "body": "Garmin, Polar and Withings support documented exports — GPX, TCX and CSV, plus public APIs. Fitbit gives you a Google Takeout archive instead. Xiaomi and Amazfit publish no bulk export at all. WHOOP's export exists only while the membership does, so cancelling ends both the analysis and your route out with the data.",
+        "affects": [
+          "garmin-vivosmart-5",
+          "polar-loop",
+          "withings-scanwatch-light",
+          "fitbit-charge-6",
+          "fitbit-inspire-3",
+          "fitbit-air",
+          "xiaomi-smart-band-10",
+          "amazfit-bip-6",
+          "amazfit-helio-strap",
+          "whoop-5-0",
+          "whoop-mg"
+        ],
+        "specKey": "dataExport"
+      },
+      {
+        "id": "wrist-heart-rate-above-150bpm",
+        "title": "Wrist heart-rate accuracy falls off above about 150bpm",
+        "body": "No maker discloses this. Peer-reviewed validation across 1,286 paired samples (MDPI Bioengineering 10(2):254; see also JMIR Cardio 2025;e67110) found wrist optical heart-rate accuracy holds to roughly 150bpm and deteriorates sharply above it, with Fitbit and Samsung units underestimating during intense work, and concluded that an effective intervention is required to register accurate readings at high intensity. That matters most where the whole product is a derived score: WHOOP Strain, Garmin's Body Battery, Amazfit's PAI.",
+        "affects": [
+          "whoop-5-0",
+          "whoop-mg",
+          "garmin-vivosmart-5",
+          "amazfit-bip-6",
+          "amazfit-helio-strap",
+          "fitbit-charge-6",
+          "samsung-galaxy-fit3"
+        ]
+      }
+    ]
+  },
+  {
+    "categorySlug": "gps-running-watches",
+    "intro": "Every headline number in this category is quoted in the mode that flatters it: battery life in the least accurate satellite setting, screen life with the display off, \"navigation\" that turns out to be a breadcrumb line. The rows on each product page separate those out.",
+    "traps": [
+      {
+        "id": "gnss-mode-battery",
+        "title": "The headline GPS hours are the least accurate satellite mode",
+        "body": "The COROS VERTIX 2S is sold on 118 hours of GPS. That is single-band standard GPS; the dual-frequency mode you bought it for lasts 43 hours, a 63 percent cut. The Amazfit T-Rex 3 Pro's 85 hours is power-saving GPS, while accurate dual-band is 38, and Polar's 90 hours is Eco mode against 30 in Performance. Each watch here lists its single-band and multiband GPS hours separately, so compare the mode you will actually run in.",
+        "affects": [
+          "coros-vertix-2s",
+          "amazfit-t-rex-3-pro",
+          "polar-grit-x2"
+        ],
+        "specKey": "batteryGpsMultibandHours"
+      },
+      {
+        "id": "multiband-is-a-tier",
+        "title": "Multiband L1+L5 is a price tier, and the $299.99 Garmin lacks it",
+        "body": "Multiband is the difference between a usable trace among tall buildings or under tree cover and a useless one. The $299.99 Forerunner 170 does not have it: DC Rainmaker's hands-on and the garminrumors spec wiki both confirm single-band only, though the5krunner's spec page loosely calls it multi-frequency. The cheaper $249 COROS PACE 4 does have it. Read the GNSS bands row rather than the marketing bullet.",
+        "affects": [
+          "garmin-forerunner-170",
+          "coros-pace-4"
+        ],
+        "specKey": "gnssBands"
+      },
+      {
+        "id": "maps-vs-breadcrumbs",
+        "title": "A navigation bullet often means a breadcrumb line, not a map",
+        "body": "Routable offline topo maps are on the Forerunner 970, fenix 8 Pro, APEX 4, VERTIX 2S, both Suuntos, the Grit X2 and the T-Rex 3 Pro. The Forerunner 170, 570, PACE 4 and Instinct 3 Solar have none — Garmin's $549.99 Forerunner 570 included. Suunto and Amazfit maps are free but must be pulled over Wi-Fi region by region, a transfer Android Police called messy and time-consuming. Garmin Connect+ resells 3D topo and Trails+ routing on top.",
+        "affects": [
+          "garmin-forerunner-970",
+          "garmin-fenix-8-pro",
+          "coros-apex-4",
+          "coros-vertix-2s",
+          "suunto-race-2",
+          "suunto-vertical-2",
+          "polar-grit-x2",
+          "amazfit-t-rex-3-pro",
+          "garmin-forerunner-170",
+          "garmin-forerunner-570",
+          "coros-pace-4",
+          "garmin-instinct-3-solar"
+        ],
+        "specKey": "maps"
+      },
+      {
+        "id": "amoled-always-on-tax",
+        "title": "Turning the AMOLED screen always-on roughly halves the battery",
+        "body": "AMOLED watches quote smartwatch battery with the screen off between glances. Always-on takes the Forerunner 170 from 10 days to 4, the COROS PACE 4 from 19 days to 6, the Forerunner 970 from 15 days to 7 and its multiband GPS from 21 hours to 15, and the fenix 8 Pro 47mm from 15 days to 8. The MIP-screen watches — Instinct 3 Solar, APEX 4, VERTIX 2S — pay no such tax.",
+        "affects": [
+          "garmin-forerunner-170",
+          "coros-pace-4",
+          "garmin-forerunner-970",
+          "garmin-fenix-8-pro",
+          "garmin-instinct-3-solar",
+          "coros-apex-4",
+          "coros-vertix-2s"
+        ],
+        "specKey": "batteryAlwaysOn"
+      },
+      {
+        "id": "hardware-and-airtime-upsells",
+        "title": "Two headline Garmin features need hardware or airtime you buy separately",
+        "body": "Garmin Connect+ is $6.99 a month, but no core training metric sits behind it. The real upsells are hardware and airtime: without the HRM-600 chest strap, the Forerunner 970's headline Running Economy and Step Speed Loss metrics do not exist at all, and without the fenix 8 Pro's $7.99 to $29.99 a month satellite and LTE plan, the feature the watch is named for is dead. COROS, Polar and Suunto have no paid tier; Amazfit's Zepp Aura is paid but gates no training data.",
+        "affects": [
+          "garmin-forerunner-970",
+          "garmin-fenix-8-pro",
+          "amazfit-t-rex-3-pro"
+        ],
+        "specKey": "trainingPlatform"
+      },
+      {
+        "id": "wrist-hr-and-ant-plus",
+        "title": "Only Garmin here speaks ANT+, and the Grit X2's wrist HR tested badly",
+        "body": "DC Rainmaker's Polar Grit X2 testing missed every single interval on 400m repeats and logged 3,100m for a roughly 1,900m open-water swim. Separately, only Garmin supports ANT+ in this group; COROS, Polar, Suunto and Amazfit are Bluetooth-only, which rules out an ANT+-only power meter you may already own. Check the external sensors row before assuming your existing chest strap or meter will pair.",
+        "affects": [
+          "polar-grit-x2",
+          "coros-pace-4",
+          "coros-apex-4",
+          "coros-vertix-2s",
+          "suunto-race-2",
+          "suunto-vertical-2",
+          "amazfit-t-rex-3-pro"
+        ],
+        "specKey": "externalSensors"
+      },
+      {
+        "id": "fenix-9-already-announced",
+        "title": "Garmin announced the fenix 9 line on 25 August 2026",
+        "body": "The fenix 9, fenix 9 Pro and Enduro 4 were announced on 25 August 2026, the day this data was compiled, with no confirmed US pricing yet. The fenix 8 Pro stays listed because it is the priced, verifiable, in-market flagship. At that price, though, its successor is already public, which is worth either waiting out or trading against a discount on the 8 Pro.",
+        "affects": [
+          "garmin-fenix-8-pro"
+        ]
+      },
+      {
+        "id": "figures-that-disagree",
+        "title": "Where the maker and the reviewers disagree, both numbers are shown",
+        "body": "The Forerunner 970's multiband GPS runs 21 hours per the5krunner and 19 per the garminrumors wiki. The VERTIX 2S is 40 days on its spec sheet and 36 on COROS' current product page. The Instinct 3 Solar's GPS-only figure is quoted at both 40 and 50 hours, and its storage at 32GB by the wiki against roughly 120 to 128MB by DC Rainmaker and Tom's Guide. The Suunto Race 2 is 18 days per Suunto, 16 per DC Rainmaker.",
+        "affects": [
+          "garmin-forerunner-970",
+          "coros-vertix-2s",
+          "garmin-instinct-3-solar",
+          "suunto-race-2"
+        ]
+      }
+    ]
+  },
+  {
+    "categorySlug": "humidifiers",
+    "intro": "The three numbers on a humidifier box — tank size, output per day and quoted runtime — are measured at three different settings and rarely reconcile, and the mist that carries your tap water's minerals onto the furniture is never mentioned at all. What follows is what the listings leave out.",
+    "traps": [
+      {
+        "id": "ultrasonic-mist-carries-white-dust",
+        "title": "Every ultrasonic unit here puts your tap water's minerals on the furniture",
+        "body": "An ultrasonic humidifier atomises water mechanically, so dissolved minerals leave with the mist and land on the furniture as white powder. The EPA's humidifier fact sheet says ultrasonic and impeller units \"are very efficient at dispersing minerals in tap water into the air\" and \"can disperse materials, such as microorganisms and minerals, from their water tanks into indoor air\". The ultrasonic models here are the Levoit Classic 300S, Carepod One, Dreo HM713S, Pure Enrichment MistAire and Crane Drop. Evaporative and boiled-steam units cannot produce white dust at all.",
+        "affects": [
+          "levoit-classic-300s",
+          "carepod-one",
+          "dreo-hm713s",
+          "pure-enrichment-mistaire",
+          "crane-drop-ee-5301"
+        ],
+        "specKey": "whiteDust"
+      },
+      {
+        "id": "filter-free-is-not-consumable-free",
+        "title": "Filter-free is not consumable-free, and the cheapest machine costs the most to own",
+        "body": "Canopy sells a $159 humidifier that eats a $17 paper filter every 45 days by its own instruction — roughly $96-136 a year. Venta advertises \"filter-free\", then specifies $17.99 Water Treatment Additive every 10-14 days plus $16.99 cleaner twice a year. The Honeywell HCM350 stacks a HAC-504 wick (Honeywell's 3-pack $32.95) every 30-60 days on top of a 30-day Protec cartridge. AIRCARE's $23.09 MAF1 is one per season per AIRCARE and \"30 to 90 days\" per Home Depot. Only the $19.79 Vicks and $279 Carepod need nothing.",
+        "affects": [
+          "canopy-bedside-humidifier-2",
+          "venta-lw25-original",
+          "honeywell-hcm350-germ-free",
+          "aircare-ma1201",
+          "vicks-warm-steam-vaporizer-v150",
+          "carepod-one"
+        ],
+        "specKey": "consumables"
+      },
+      {
+        "id": "humidistat-usually-means-fixed-speeds",
+        "title": "\"Humidistat\" usually means fixed speeds and a timer",
+        "body": "Only four of these twelve run a genuine closed loop: the Levoit Classic 300S, the Levoit Superior 6000S, the Dreo HM713S (±5%, 30-90% setpoint) and the AIRCARE MA1201 (25-65% in 5% increments with an auto fan mode). Venta charges $299.99 for the LW25 Original with no humidity sensing whatsoever and sells the \"digital hygrostat\" as a separate $399.99 Comfort Plus version of the same LW25. Canopy's \"auto\" mode is described by Target's own listing as light-sensitive. The Vicks V150 has one switch and boils until the tank is dry.",
+        "affects": [
+          "levoit-classic-300s",
+          "levoit-superior-6000s",
+          "dreo-hm713s",
+          "aircare-ma1201",
+          "venta-lw25-original",
+          "canopy-bedside-humidifier-2",
+          "vicks-warm-steam-vaporizer-v150"
+        ],
+        "specKey": "humidistat"
+      },
+      {
+        "id": "output-and-runtime-do-not-reconcile",
+        "title": "Rated output and quoted runtime are measured at different settings",
+        "body": "The Honeywell HCM350's manual rates it at \"2 US gallons (7.6 liters) output per day\" from a 1.1 gallon tank quoted at \"up to 24 hours\" — the two claims are a factor of two apart. Crane's EE-5301 rates 2.3 gal/day from a 1 gallon tank. The AIRCARE MA1201 is the extreme: 12 gal/day from a 3.6 gallon reservoir quoted at 36 hours, about three refills a day. Dreo publishes enough to check itself and fails — 6 L at its own 300 mL/hr is 20 hours, not 60.",
+        "affects": [
+          "honeywell-hcm350-germ-free",
+          "crane-drop-ee-5301",
+          "aircare-ma1201",
+          "dreo-hm713s"
+        ],
+        "specKey": "outputPerDay"
+      },
+      {
+        "id": "warm-mist-is-two-different-machines",
+        "title": "\"Warm mist\" covers both a boiling chamber and 86°F water",
+        "body": "The Honeywell HWM845's manual says \"The tank feeds water into the boiling chamber where it is heated to a steam vapor\" and warns \"DO NOT touch the steam vapor. Steam can cause burns\" — that output is genuinely sterilised, and genuinely a scald hazard. The Dreo HM713S is sold on the same two words, but its own spec sheet says warm mode \"reaches 86°F in 5 minutes\": 30°C water pushed through the same piezo disc, which sterilises nothing and still makes white dust, at 280W rather than 26W.",
+        "affects": [
+          "honeywell-hwm845b-warm-mist",
+          "dreo-hm713s"
+        ],
+        "specKey": "mistTemperature"
+      },
+      {
+        "id": "vicks-v150-cannot-run-on-distilled-water",
+        "title": "The Vicks vaporizer will not run on distilled water",
+        "body": "The V150 boils by passing current through the water itself, so pure water does not conduct and the unit simply will not steam. Vicks' own FAQ says \"These units require water with minerals in it in order to function properly\", tells owners to \"Add one or two pinches (1/8 tsp) of salt\" — up to half a teaspoon — and warns that \"too much salt can cause excessive boiling or blow a fuse\". Nothing on the box or the retail listings says this.",
+        "affects": [
+          "vicks-warm-steam-vaporizer-v150"
+        ],
+        "specKey": "technology"
+      },
+      {
+        "id": "cleaning-intervals-nobody-keeps",
+        "title": "The EPA says clean it every third day; three of these make that realistic",
+        "body": "Honeywell's HWM845 manual specifies weekly cleaning with a two-cup vinegar soak, Crane's says empty daily and deep-clean weekly, Vicks says weekly vinegar plus a bleach disinfection, and Venta says every 10-14 days. Three products make the interval keepable: the Honeywell HCM350, whose manual states the tank and water tray are top-rack dishwasher safe below 158°F; the Canopy 2.0, with dishwasher-safe tank, cap and tray plus an auto-dry fan cycle; and the Carepod One, whose stainless parts Carepod says to hand-wash or boil, not put in a dishwasher.",
+        "affects": [
+          "honeywell-hwm845b-warm-mist",
+          "crane-drop-ee-5301",
+          "vicks-warm-steam-vaporizer-v150",
+          "venta-lw25-original",
+          "honeywell-hcm350-germ-free",
+          "canopy-bedside-humidifier-2",
+          "carepod-one"
+        ],
+        "specKey": "cleaningBurden"
+      },
+      {
+        "id": "antimicrobial-claims-are-water-side",
+        "title": "Germ-free and UV claims describe the water, not the air",
+        "body": "Honeywell's \"Up to 99.9% Germ Free*\" is footnoted in its own manual to independent testing of microbial reduction after two hours of UV exposure in the water tray, and Canopy's UV LED is likewise a before-evaporation claim. The Crane EE-5301 is the worst case: Home Depot's listing says it is \"made with clean control anti-microbial material which reduces mold and bacteria growth by up to 99.96%\", FiltersFast's listing for the same model states that no antimicrobial claims are made, and Crane's own manual contains no such claim anywhere.",
+        "affects": [
+          "honeywell-hcm350-germ-free",
+          "canopy-bedside-humidifier-2",
+          "crane-drop-ee-5301"
+        ],
+        "specKey": "antimicrobial"
+      }
+    ]
+  },
+  {
+    "categorySlug": "portable-power-stations",
+    "intro": "Two of the headline numbers on a power station — surge watts and solar input — describe modes and conditions that most real loads and most real panel arrays never meet. Capacity and cycle life are quoted honestly more often, but not always to the same endpoint.",
+    "traps": [
+      {
+        "id": "power-lifting-and-x-boost-are-voltage-reduction",
+        "title": "BLUETTI's Power Lifting and EcoFlow's X-Boost lower voltage rather than add watts",
+        "body": "Neither delivers more power. Both reduce output voltage so a resistive load — a kettle, a space heater — draws less current and appears to run. Neither will start an inductive load such as a compressor or a pump, and neither equals true inverter surge headroom. The BLUETTI Elite 30 V2's 1,500W and Elite 200 V2's 3,900W are Power Lifting figures; the Delta 3 Plus's 3,600W is X-Boost, as is the Delta Pro 3's 6,000W continuous. The DJI Power 1000 V2 and Anker SOLIX F3800 Plus publish no surge figure.",
+        "affects": [
+          "bluetti-elite-30-v2",
+          "bluetti-elite-200-v2",
+          "ecoflow-delta-3-plus",
+          "ecoflow-delta-pro-3",
+          "dji-power-1000-v2",
+          "anker-solix-f3800-plus"
+        ],
+        "specKey": "surgeWatts"
+      },
+      {
+        "id": "usable-capacity-is-about-85-percent",
+        "title": "About 85% of the rated watt-hours reaches an AC load",
+        "body": "Inverter conversion losses and the reserve the battery management system holds back take the rest. On the 1,024Wh units — the EcoFlow Delta 3 Plus, Anker SOLIX C1000 Gen 2 and DJI Power 1000 V2 — that works out to roughly 870Wh at the outlet, and on the 256Wh Jackery Explorer 240 v2 to roughly 218Wh. Where a maker publishes a measured usable figure it is recorded alongside the rated one; most do not publish one at all.",
+        "affects": [
+          "ecoflow-delta-3-plus",
+          "anker-solix-c1000-g2",
+          "dji-power-1000-v2",
+          "jackery-explorer-240-v2"
+        ],
+        "specKey": "capacityWh"
+      },
+      {
+        "id": "cycle-life-endpoints-differ",
+        "title": "Cycle-life claims here are not measured to the same endpoint",
+        "body": "LiFePO4 cells are rated for roughly 3,000-4,000 cycles to 80% capacity, against roughly 500-800 for the older NMC chemistry — cycled weekly, that is a decade versus about three years, and it matters more than headline capacity. Every unit here is LiFePO4, but the endpoints differ: Jackery quotes the Explorer 240 v2 at 3,000 cycles and the 1000 v2 and 2000 v2 at 4,000, all to 70% capacity, while EcoFlow, Anker, BLUETTI and DJI quote theirs to 80%. BLUETTI's Elite 200 V2 claims 6,000+.",
+        "affects": [
+          "jackery-explorer-240-v2",
+          "jackery-explorer-1000-v2",
+          "jackery-explorer-2000-v2",
+          "bluetti-elite-200-v2",
+          "ecoflow-delta-3-plus",
+          "anker-solix-c1000-g2",
+          "dji-power-1000-v2"
+        ],
+        "specKey": "cycleLife"
+      },
+      {
+        "id": "solar-input-is-a-gated-maximum",
+        "title": "The solar input figure is a ceiling gated by voltage and current windows",
+        "body": "Most panel arrays never satisfy both windows at once, so the headline watt figure is rarely what you see. The Anker SOLIX F3800 Plus's 3,200W is spread across dual MPPT trackers at 11 to 165V; Goal Zero's 900W is really 300W through the 8mm port plus 600W through the High Power Port. DJI is the messiest: retailer spec sheets state 1,800W while hands-on reviews measure around 1,200W, and solar charging requires DJI's own SDC adapter, sold separately.",
+        "affects": [
+          "anker-solix-f3800-plus",
+          "goal-zero-yeti-1500",
+          "dji-power-1000-v2"
+        ],
+        "specKey": "solarInputWatts"
+      },
+      {
+        "id": "fast-recharge-is-a-mode-and-often-to-80-percent",
+        "title": "Fast recharge times are a special mode, and several are quoted to 80%",
+        "body": "The quick figure usually assumes a high-power mode that runs the fan loudly and, on some chemistries, shortens cell life. The BLUETTI Elite 30 V2 takes about 120 minutes normally and 45 minutes to 80% in turbo; the Elite 200 V2 is 84 minutes to full but 50 to 66 minutes to 80% in TurboBoost. Jackery's Explorer 240 v2 is 120 standard and about 60 in app fast-charge mode, the 1000 v2 95 or about 60 in emergency mode. Anker's F3800 Plus publishes no figure.",
+        "affects": [
+          "bluetti-elite-30-v2",
+          "bluetti-elite-200-v2",
+          "jackery-explorer-240-v2",
+          "jackery-explorer-1000-v2",
+          "anker-solix-f3800-plus"
+        ],
+        "specKey": "rechargeTimeMin"
+      }
+    ]
+  },
+  {
+    "categorySlug": "power-banks",
+    "intro": "The two numbers on a power bank box — capacity in mAh and peak output in watts — are both measured under conditions you will never charge in. Watt-hours, the split across ports and the input wattage are the ones that decide what you actually get.",
+    "traps": [
+      {
+        "id": "cell-capacity-is-not-usable-capacity",
+        "title": "A 10,000mAh bank delivers roughly 6,000-6,800mAh to your phone",
+        "body": "The mAh on the box rates the internal 3.6-3.7V cells. Charging a phone means stepping that up to 5V or higher, and conversion runs roughly 60-70% efficient in practice. Watt-hours is the only figure comparable across banks, and it is also the number airlines regulate — 100Wh is the usual carry-on limit without airline approval. Only some makers here publish it: the INIU Carry P50 at 36Wh, the Nitecore NB10000 G4 at 39Wh, the Anker 737 and Sharge 170 at 86.4Wh, the UGREEN Nexode 25K at 90Wh.",
+        "specKey": "capacityWh"
+      },
+      {
+        "id": "ekrist-25800mah-is-a-cell-count",
+        "title": "Ekrist's \"25,800mAh\" is a cell-count figure, not a rated pack capacity",
+        "body": "It is a sum across cells rather than a capacity the pack can deliver, and no watt-hour rating is published anywhere first-party. That leaves two things you cannot check: how it compares with the banks that do publish watt-hours, and whether it clears the 100Wh airline carry-on limit, which a bank of that claimed size sits close to. Its rated output is 15W.",
+        "affects": [
+          "ekrist-hx160y8"
+        ],
+        "specKey": "capacityMah"
+      },
+      {
+        "id": "peak-wattage-is-one-port-only",
+        "title": "Peak wattage is a single-port figure",
+        "body": "Load two or three ports and per-port output drops sharply. The larger banks publish the split themselves: the Anker Prime 26K is 300W total but 140W from one port, the Prime 20K 220W total and 140W single, the UGREEN Nexode 25K 200W and 140W, the Sharge 170 170W and 140W. The Nitecore NB10000 G4 runs the other way, 22.5W from a single port against 15W total. Where a maker does not publish the split, treat the headline as one port's number.",
+        "affects": [
+          "anker-prime-26k-300w",
+          "anker-prime-20k-220w",
+          "ugreen-nexode-25k-200w",
+          "sharge-170",
+          "nitecore-nb10000-g4"
+        ],
+        "specKey": "maxOutputWatts"
+      },
+      {
+        "id": "input-wattage-is-far-below-output",
+        "title": "Refilling the bank is much slower than emptying it",
+        "body": "Input wattage is frequently far below output wattage, so a bank that can push 200W out takes hours to take a charge back in. The UGREEN Nexode 25K caps input at 65W per port against 200W out; the Anker Prime 20K takes 100W in against 220W out. INIU, Nitecore, Belkin and Ekrist publish no full-charge time at all, and Anker's Nano 10K publishes only \"50% in 45 minutes\". The Anker 737 publishes a full 60 minutes and the Sharge 170 about 20 minutes to half.",
+        "affects": [
+          "ugreen-nexode-25k-200w",
+          "anker-prime-20k-220w",
+          "iniu-carry-p50-e1",
+          "nitecore-nb10000-g4",
+          "belkin-boostcharge-qi2-10k",
+          "ekrist-hx160y8",
+          "anker-nano-10k-30w",
+          "anker-737",
+          "sharge-170"
+        ],
+        "specKey": "rechargeTimeMin"
+      }
+    ]
+  },
+  {
+    "categorySlug": "robot-vacuums",
+    "intro": "Robot vacuum marketing is built on a Pascal figure that no two sources agree on, while the two numbers that decide whether you are still happy in year two — what the dock costs to feed and how far the mop actually lifts off your rug — are printed in the fine print or not at all.",
+    "traps": [
+      {
+        "id": "pascal-suction-is-not-a-measurement",
+        "title": "The Pascal number is not a measurement and is not comparable",
+        "body": "Roborock announced the Saros 10R at 19,000 Pa at CES 2025, sells the identical robot as 22,000 Pa today, and a third-party spec database lists it at 18,000 — no hardware change. eufy claims 30,000 Pa on the Omni S2, and Vacuum Wars still scores its mopping about 20% below average; TP-Link claims 5,300 Pa on the Tapo RV30 Max Plus and it took PCMag's Editors' Choice. TechRadar's tester says the figure stopped predicting cleaning around 10,000 Pa. iRobot quotes no Pascals, only \"70x\" or \"175x\" a 2013 Roomba.",
+        "affects": [
+          "roborock-saros-10r",
+          "eufy-omni-s2",
+          "tapo-rv30-max-plus",
+          "roomba-105-combo-autoempty",
+          "roomba-max-705-combo"
+        ],
+        "specKey": "claimedSuction"
+      },
+      {
+        "id": "self-empty-dock-running-cost",
+        "title": "The self-empty dock is a running cost unless it is bagless",
+        "body": "iRobot's 3-pack of dirt-disposal bags for the AutoEmpty and AutoWash docks (part 4849916) is $19.99 for bags rated 75 days each, roughly $32 a year, and the near-identical older Clean Base 3-pack at $11.17 does not fit. Roborock's 6-pack is $25.59 direct or $31.99 at Abt on about seven-week bags, before $20.99 mop cloths, a $22.99 main brush and $11.19 side brushes. Narwal's 120-day and Dreame's 100-day bags mean three or four a year. The Shark's bagless HEPA tray and the ECOVACS X11's washable cyclonic bin cost nothing.",
+        "affects": [
+          "roomba-105-combo-autoempty",
+          "roomba-max-705-combo",
+          "roborock-saros-10r",
+          "roborock-qrevo-curv",
+          "narwal-flow",
+          "dreame-x50-ultra",
+          "shark-powerdetect-self-empty",
+          "ecovacs-deebot-x11-omnicyclone"
+        ],
+        "specKey": "dockBagsAndRunningCost"
+      },
+      {
+        "id": "mop-lift-height-is-the-tell",
+        "title": "\"Mopping\" covers two different machines, and the lift height is the tell",
+        "body": "The Tapo RV30 Max Plus and the Roomba 105 Combo drag a damp clip-on pad that cannot lift at all; the manufacturers' carpet strategy is that the robot avoids carpet, so you zone your rugs out by hand. In the middle are spinning pads (Roborock 17 mm, Dreame 10.5 mm) and washed rollers (ECOVACS 10 mm, Narwal 12 mm). The eufy Omni S2's 28 mm is the only figure here that clears a plush rug. Roborock publishes both \"17mm Mop Lift\" and \"22mm\" for the Saros 10R; iRobot publishes nothing.",
+        "affects": [
+          "tapo-rv30-max-plus",
+          "roomba-105-combo-autoempty",
+          "roborock-qrevo-curv",
+          "dreame-x50-ultra",
+          "ecovacs-deebot-x11-omnicyclone",
+          "narwal-flow",
+          "eufy-omni-s2",
+          "roborock-saros-10r",
+          "roomba-max-705-combo"
+        ],
+        "specKey": "mopLift"
+      },
+      {
+        "id": "avoidance-is-a-camera-or-a-bumper",
+        "title": "Obstacle avoidance is either a camera or a bumper, and only iRobot insures pet waste",
+        "body": "The eufy 11S MAX has no sensors beyond a bumper and cliff detectors; the Tapo and the Roomba 105 map with LiDAR but cannot identify anything; Vacuum Wars measured the Shark's 3D sensors and lasers at roughly half flagship effectiveness. Only the Saros 10R and the eufy Omni S2 scored a perfect 24/24 on that obstacle course. Every Chinese brand here lists pet waste as a recognised object and offers no remedy. iRobot's P.O.O.P. Promise is still written against the Roomba j7+, not the Max 705 or the 105.",
+        "affects": [
+          "eufy-robovac-11s-max",
+          "tapo-rv30-max-plus",
+          "roomba-105-combo-autoempty",
+          "shark-powerdetect-self-empty",
+          "roborock-saros-10r",
+          "eufy-omni-s2",
+          "roomba-max-705-combo"
+        ],
+        "specKey": "navigationAndAvoidance"
+      },
+      {
+        "id": "runtime-is-always-the-lowest-setting",
+        "title": "The quoted runtime is always the lowest suction setting",
+        "body": "Vacuum Wars confirms that the Saros 10R's 180 minutes and the Narwal Flow's 190 are both lowest-power figures. Dreame is the honest outlier and prints the condition: 220 minutes in quiet mode, vacuuming and mopping. ECOVACS' 369-minute claim for the X11 includes mid-run PowerBoost recharges, against Vacuum Wars' own figure of 254 minutes. iRobot publishes no runtime for either Roomba, SwitchBot none for the S20. Read it against bin size: the X11's 220 ml and the Shark's 227 ml fill before the battery does.",
+        "affects": [
+          "roborock-saros-10r",
+          "narwal-flow",
+          "dreame-x50-ultra",
+          "ecovacs-deebot-x11-omnicyclone",
+          "roomba-105-combo-autoempty",
+          "roomba-max-705-combo",
+          "switchbot-s20",
+          "shark-powerdetect-self-empty"
+        ],
+        "specKey": "ratedRuntime"
+      },
+      {
+        "id": "camera-cloud-and-account-records",
+        "title": "All but one of these need an account and sync your map to the maker's cloud",
+        "body": "Roborock, Dreame and ECOVACS are reported by independent privacy write-ups to process obstacle-avoidance frames on-device rather than uploading them; Narwal says the same of its own AI chip; SwitchBot publishes nothing. Three incidents belong to named brands: the August 2024 DEF CON demonstration of ECOVACS robots taken over via Bluetooth with camera and microphone access and no indicator light, since patched; iRobot's 2022 leak of development images, including a woman on a toilet, through a data-annotation contractor; and eufy's security-camera cloud-upload scandal.",
+        "affects": [
+          "roborock-saros-10r",
+          "roborock-qrevo-curv",
+          "dreame-x50-ultra",
+          "ecovacs-deebot-x11-omnicyclone",
+          "narwal-flow",
+          "switchbot-s20",
+          "roomba-105-combo-autoempty",
+          "roomba-max-705-combo",
+          "eufy-omni-s2",
+          "eufy-robovac-11s-max"
+        ],
+        "specKey": "accountCloudAndCamera"
+      },
+      {
+        "id": "irobot-is-trading-through-a-bankruptcy",
+        "title": "iRobot is trading through a completed Chapter 11",
+        "body": "iRobot filed a prepackaged Chapter 11 on 14 December 2025 and was sold to Picea, its China-based manufacturing partner and primary secured lender, with the restructuring expected to conclude by February 2026. Shareholders were wiped out. iRobot says apps, warranties and customer service continue, and irobot.com is currently selling the 105/205, Plus and Max 705/715/775 lines at live US prices, so both Roombas here are real and buyable. The residual risk is long-term app and parts support, and maps and scheduling are cloud-dependent.",
+        "affects": [
+          "roomba-105-combo-autoempty",
+          "roomba-max-705-combo"
+        ]
+      },
+      {
+        "id": "no-robot-here-needs-a-subscription",
+        "title": "No robot here needs a subscription, whatever the round-ups say",
+        "body": "None of these requires a subscription for core cleaning, mapping or scheduling. A widely syndicated 2026 subscription comparison lists an iRobot Select plan at $29.99 a month and an ECOVACS premium plan at $2.99 a month. iRobot in fact closed Select to new customers in January 2024, after the Amazon acquisition collapsed, and ECOVACS does not advertise a premium plan on its US product pages. Both figures are third-party assertions that the manufacturers' own pages contradict.",
+        "affects": [
+          "roomba-105-combo-autoempty",
+          "roomba-max-705-combo",
+          "ecovacs-deebot-x11-omnicyclone"
+        ]
+      }
+    ]
+  },
+  {
+    "categorySlug": "security-cameras",
+    "intro": "Two facts decide whether a security camera is any use, and neither appears in the marketing: the frame rate at the resolution on the box, and what the camera still does once you stop paying. The spread on both is enormous across these twelve.",
+    "traps": [
+      {
+        "id": "free-tier-is-often-nothing",
+        "title": "With no plan, several of these record nothing at all",
+        "body": "Ring, the Arlo Pro 6 and the Arlo Ultra 3 drop to live view plus a push notification with no plan — nothing is recorded, ever, and Arlo's own Ultra 3 FAQ says so in writing. Nest's free tier is six hours of \"Event Video Previews\", which Google defines as 10-second clips, not the event recordings the older three-hour tier gave. Blink still sends motion alerts but paywalls person and vehicle detection, and Wyze's free 12-second clips carry a five-minute cooldown, so a ten-minute burglary produces one clip. eufy, Reolink, Tapo, Aqara, Lorex and Ubiquiti need no plan at all.",
+        "affects": [
+          "ring-outdoor-cam-plus",
+          "arlo-pro-6",
+          "arlo-ultra-3",
+          "nest-cam-indoor-3rd-gen",
+          "blink-outdoor-2k-plus",
+          "wyze-cam-v4"
+        ],
+        "specKey": "noSubscriptionBehaviour"
+      },
+      {
+        "id": "4k-rarely-runs-at-30fps",
+        "title": "\"4K\" and \"2K\" here almost never run at 30 fps",
+        "body": "Lorex's own E895AB datasheet says 4K at 15 fps, 30 fps only at 5MP; eufy's S3 Pro sheet says up to 15 fps at 4K. Reolink's Argus 4 Pro is 15 fps, and its \"4K\" is a stitched 5120x1440 dual-lens panorama with a 50-degree vertical field, not a 3840x2160 frame. Wyze publishes 20 fps by day and 15 at night, Blink 24 fps at 2K, and only the UniFi G6 Instant does 4K at 30 fps; Ring, Google, Arlo, TP-Link and Aqara publish no frame rate at all. On the Arlo Ultra 3, 4K also requires the higher Secure Plus tier.",
+        "affects": [
+          "lorex-e895ab",
+          "eufycam-s3-pro",
+          "reolink-argus-4-pro",
+          "wyze-cam-v4",
+          "blink-outdoor-2k-plus",
+          "unifi-g6-instant",
+          "ring-outdoor-cam-plus",
+          "nest-cam-indoor-3rd-gen",
+          "arlo-pro-6",
+          "arlo-ultra-3",
+          "tapo-c120",
+          "aqara-camera-hub-g5-pro"
+        ],
+        "specKey": "topResolutionFrameRate"
+      },
+      {
+        "id": "local-storage-means-buying-something-else",
+        "title": "Local storage nearly always means a hub, a card or both, sold separately",
+        "body": "Blink's bundled Sync Module Core has no USB port and no card slot, so Blink's advertised local storage needs a Sync Module 2 plus a USB drive, or a Sync Module XR plus a microSD, all sold separately with a 256 GB ceiling. Arlo needs a SmartHub — the Ultra 3 kit includes one, a single or add-on camera does not, and the microSD never is. Ring Edge requires a Ring Alarm Pro base station and the top $19.99/mo plan. Nest has none at any price, and every microSD camera here ships without the card.",
+        "affects": [
+          "blink-outdoor-2k-plus",
+          "arlo-ultra-3",
+          "arlo-pro-6",
+          "ring-outdoor-cam-plus",
+          "nest-cam-indoor-3rd-gen",
+          "reolink-argus-4-pro"
+        ],
+        "specKey": "localStorage"
+      },
+      {
+        "id": "battery-claims-use-settings-you-would-not-use",
+        "title": "Battery figures are measured at settings you would not actually run",
+        "body": "Blink's two-year figure is, in Blink's own FAQ, \"based on battery efficiency settings with 1080p resolution\" — not the 2K the camera is named after. Arlo claims 8 months for the Pro 6 and 6 months for the Ultra 3 with no events-per-day assumption for either, and Trusted Reviews' tester put the Ultra 3 nearer four months. Ring publishes no figure for the Outdoor Cam Plus beyond batteries \"designed to go months between charges\", and Reolink only claims \"30% more battery life\" than an unnamed IR camera. eufy shows its working: 450-900 mAh harvested daily against 100-200 mAh used.",
+        "affects": [
+          "blink-outdoor-2k-plus",
+          "arlo-pro-6",
+          "arlo-ultra-3",
+          "ring-outdoor-cam-plus",
+          "reolink-argus-4-pro",
+          "eufycam-s3-pro"
+        ],
+        "specKey": "batteryLifeClaim"
+      },
+      {
+        "id": "colour-night-vision-means-two-things",
+        "title": "Colour night vision is either a big sensor or a lamp that drains the battery",
+        "body": "Sensor-based colour — eufy MaxColor Vision, Reolink ColorX, the Aqara G5 Pro — uses a large sensor and an f/1.0 lens and costs nothing in battery. Spotlight-based colour on the Arlo Pro 6, Arlo Ultra 3, Wyze, Lorex and Tapo needs a lamp burning, which is the single biggest drain there is on a battery camera. Blink's \"colour vision in low light\" is neither: it is dusk colour that reverts to 850nm infrared in real darkness. The UniFi G6 Instant has no colour night mode and rates its infrared to just 6 m.",
+        "affects": [
+          "eufycam-s3-pro",
+          "reolink-argus-4-pro",
+          "aqara-camera-hub-g5-pro",
+          "arlo-pro-6",
+          "arlo-ultra-3",
+          "wyze-cam-v4",
+          "lorex-e895ab",
+          "tapo-c120",
+          "blink-outdoor-2k-plus",
+          "unifi-g6-instant"
+        ],
+        "specKey": "nightVision"
+      },
+      {
+        "id": "wired-does-not-mean-powered",
+        "title": "Wired cameras often arrive without the power supply they need",
+        "body": "The Wyze Cam v4 includes an indoor-rated 5V/1A adapter, so mounting it outside means Wyze's $19.98 Outdoor Power Adapter. Aqara's G5 Pro PoE ships a power cable and an RJ45 waterproof kit but no PoE injector or switch, and Lorex ships an Ethernet extension cable with no injector, switch or 12V adapter. Ring sells the PoE adapter for the Outdoor Cam Plus at $29.99 and solar panels at $39.99-$59.99. The UniFi G6 Instant does include a USB-C adapter but records nothing without a UniFi Protect console from $199, making its real entry price about $378.",
+        "affects": [
+          "wyze-cam-v4",
+          "aqara-camera-hub-g5-pro",
+          "lorex-e895ab",
+          "ring-outdoor-cam-plus",
+          "unifi-g6-instant"
+        ],
+        "specKey": "powerSource"
+      },
+      {
+        "id": "rtsp-onvif-outlives-the-app",
+        "title": "Only three of these twelve will talk to third-party recording software",
+        "body": "To reach Blue Iris, Frigate, Synology or a generic NVR you need the Tapo C120 (RTSP and ONVIF Profile S, no two-way audio, a camera account must be enabled, and TP-Link permits only two of Tapo Care, SD recording and NVR/ONVIF at once), the Aqara G5 Pro (RTSP and SMB NAS from launch, ONVIF added in firmware 4.3.4), or arguably the Lorex, which simply publishes neither. Reolink's support article says its battery cameras do \"not support RTSP, RTMP, ONVIF\" standalone. Ring, Nest, Arlo, eufy and Blink support none of it.",
+        "affects": [
+          "tapo-c120",
+          "aqara-camera-hub-g5-pro",
+          "lorex-e895ab",
+          "reolink-argus-4-pro",
+          "ring-outdoor-cam-plus",
+          "nest-cam-indoor-3rd-gen",
+          "arlo-pro-6",
+          "arlo-ultra-3",
+          "eufycam-s3-pro",
+          "blink-outdoor-2k-plus"
+        ],
+        "specKey": "rtspOnvif"
+      },
+      {
+        "id": "plan-names-and-prices-changed-in-2026",
+        "title": "The plan prices you looked up last year are not the prices now",
+        "body": "Ring renamed every subscription on 14 January 2026: Home Basic became Ring Solo at $4.99, Home Standard became Ring Multi at $9.99, and Ring Pro is $19.99. Nest Aware became Google Home Premium in 2025 at $10 and $20 a month. Wyze raised annual Cam Plus from $19.99 to $29.99 per camera in March 2026. Any comparison written before those dates prices the wrong thing, so check the monthly figure on this page against the plan you would actually need.",
+        "affects": [
+          "ring-outdoor-cam-plus",
+          "nest-cam-indoor-3rd-gen",
+          "wyze-cam-v4"
+        ],
+        "specKey": "cheapestPlanMonthly"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smart-displays",
+    "intro": "On a device where the assistant is the product, two things decide the experience and neither is on the box: whether the assistant costs money every month, and whether the screen shows you adverts you cannot switch off. The category has also narrowed to two vendors, which makes the lock-in permanent.",
+    "traps": [
+      {
+        "id": "alexa-plus-is-a-paid-subscription",
+        "title": "Alexa+ on Echo hardware needs Prime or $19.99 a month",
+        "body": "Every 2025 and 2026 Echo Show is marketed on Alexa+, and Amazon's own Alexa+ FAQ states plainly that \"there is not a free experience for Alexa+ on Echo\": it requires Prime, or a Standard plan at $19.99 a month. On a device where the assistant is the product, that is the single most important line on the page. Price the display and the plan together, and check what the device still does on the free tier of Alexa.",
+        "affects": [
+          "echo-show-5-3rd-gen",
+          "echo-show-8-2025",
+          "echo-show-11-2025",
+          "echo-show-15-2nd-gen",
+          "echo-show-21",
+          "echo-spot-2024",
+          "echo-hub"
+        ],
+        "specKey": "assistantSubscription"
+      },
+      {
+        "id": "sponsored-cards-cannot-be-turned-off",
+        "title": "Amazon says its sponsored home-screen cards cannot be turned off",
+        "body": "Amazon's help page \"Manage Ads and Other Suggested Content on Your Echo Devices\" says of Sponsored cards: \"You can't turn off these ads, but you can skip an ad by swiping.\" Switching off Home Content and Themes reduces the volume of suggestions but does not remove Sponsored placements. Google's Nest Hubs carry no sponsored cards at all; Google monetises through Google Home Premium instead. If the screen will sit in a kitchen or bedroom all day, this is the difference you will notice most.",
+        "affects": [
+          "echo-show-5-3rd-gen",
+          "echo-show-8-2025",
+          "echo-show-11-2025",
+          "echo-show-15-2nd-gen",
+          "echo-show-21",
+          "echo-spot-2024",
+          "echo-hub",
+          "nest-hub-2nd-gen",
+          "nest-hub-max"
+        ],
+        "specKey": "homeScreenAds"
+      },
+      {
+        "id": "hub-radios-differ-by-model",
+        "title": "The $99.99 Nest Hub out-hubs the $399 Pixel Tablet",
+        "body": "Echo Show 8 (2025), Show 11 (2025), Show 15, Show 21 and the Echo Hub carry a Zigbee hub, a Matter controller and Thread. The Echo Show 5, Show 5 Kids and Echo Spot carry Matter over Wi-Fi only — no Zigbee, no Thread border router. On the Google side, Google's support page names exactly three Thread border routers: Nest Hub (2nd gen), Nest Hub Max and Nest Wifi Pro. The Pixel Tablet is not among them, so the cheapest Google display hubs more than the dearest.",
+        "affects": [
+          "echo-show-8-2025",
+          "echo-show-11-2025",
+          "echo-show-15-2nd-gen",
+          "echo-show-21",
+          "echo-hub",
+          "echo-show-5-3rd-gen",
+          "echo-show-5-kids-3rd-gen",
+          "echo-spot-2024",
+          "nest-hub-2nd-gen",
+          "nest-hub-max",
+          "pixel-tablet"
+        ],
+        "specKey": "smartHomeHub"
+      },
+      {
+        "id": "assistant-lock-in-is-the-purchase",
+        "title": "The assistant you pick decides who you can call and what you can control",
+        "body": "An Echo Show will not speak to Apple HomeKit, will not run Google Meet, and its video calling never leaves the Alexa network — Skype support died with Skype in May 2025. A Nest Hub will not run Alexa Skills, and its video calling is Google Meet only, with Duo folded into Meet in October 2025 and Zoom dropped in 2023. Matter narrows the gap for lights, plugs and locks and nothing else. Only the Pixel Tablet, which runs full Android, escapes the choice.",
+        "affects": [
+          "echo-show-5-3rd-gen",
+          "echo-show-8-2025",
+          "echo-show-11-2025",
+          "echo-show-15-2nd-gen",
+          "echo-show-21",
+          "echo-spot-2024",
+          "echo-hub",
+          "echo-show-5-kids-3rd-gen",
+          "nest-hub-2nd-gen",
+          "nest-hub-max",
+          "pixel-tablet"
+        ],
+        "specKey": "videoCalling"
+      },
+      {
+        "id": "2025-echo-shows-dropped-the-lens-cover",
+        "title": "The 2025 Echo Show 8 and 11 have no physical camera shutter",
+        "body": "Every earlier Echo Show had a sliding lens cover. The redesigned 2025 Show 8 and Show 11 have only a button that electronically disables the camera and microphones. Confusingly, the older and cheaper Show 5, and the larger Show 15 and Show 21, all still have real shutters. Several 2026 round-ups still assert that all Echo Show displays feature a physical sliding shutter, which is no longer true — check this model by model rather than by brand.",
+        "affects": [
+          "echo-show-8-2025",
+          "echo-show-11-2025",
+          "echo-show-5-3rd-gen",
+          "echo-show-15-2nd-gen",
+          "echo-show-21"
+        ],
+        "specKey": "cameraShutter"
+      },
+      {
+        "id": "the-dock-and-stand-are-extra",
+        "title": "A Pixel Tablet smart display actually costs $528",
+        "body": "The Charging Speaker Dock that makes the Pixel Tablet a smart display at all used to be in the box and is now a $129 accessory, so the working price is $528 rather than $399. The Echo Show 15 and 21 ship with a wall mount, but the counter stand is $99.99 and the decorative frames $34.99 and $39.99. The Echo Hub supports Power over Ethernet without including a PoE splitter. Add the accessory before comparing prices.",
+        "affects": [
+          "pixel-tablet",
+          "echo-show-15-2nd-gen",
+          "echo-show-21",
+          "echo-hub"
+        ],
+        "specKey": "wallMountable"
+      },
+      {
+        "id": "nest-hubs-are-supported-but-thinning-out",
+        "title": "Google's Nest Hubs are still updated and quietly losing features",
+        "body": "Both Nest Hubs remain on sale and are still getting firmware — Google previewed Thread 1.4 firmware for Nest displays in August 2026 and moved them to Gemini for Home. Google has also quietly deleted most of the on-device apps, including Netflix, Podcasts, Meet and Reminders. The Nest Hub Max dates from 2019 with several colourways sold out, and the successor \"Google Home Display\", named in Google Home app code, has not shipped. Buy on what the hub does today, not on a roadmap.",
+        "affects": [
+          "nest-hub-2nd-gen",
+          "nest-hub-max"
+        ]
+      },
+      {
+        "id": "amazon-does-not-publish-2025-resolutions",
+        "title": "Amazon publishes no screen resolution for the 2025 Show 8 and 11",
+        "body": "For the two newest Echo Shows, the resolution figure is simply not in Amazon's technical details, and the third-party sources that quote one disagree with each other. One third-party FAQ also denies the Echo Show 21's Thread border router, contradicting Amazon's own tech specs. Where you see a resolution quoted for these models in a review, treat it as that outlet's estimate rather than a manufacturer figure.",
+        "affects": [
+          "echo-show-8-2025",
+          "echo-show-11-2025",
+          "echo-show-21"
+        ],
+        "specKey": "resolution"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smart-lights",
+    "intro": "Every bulb and strip here is sold on one brightness number, and in every case that number was measured on white light. The hub you need, what survives an internet outage and what the maker's own fine print says are the other things worth checking before you fill a room with these.",
+    "traps": [
+      {
+        "id": "the-lumen-number-is-a-white-number",
+        "title": "Not one of these twelve publishes lumens at a saturated colour",
+        "body": "The headline brightness figure is always a white measurement, and no maker here publishes colour output. Three at least admit the gap: TP-Link prints \"Brightness may vary in color mode\" on its US spec page, SwitchBot's listing says \"up to 1200lm brightness (varies by color)\", and Aqara publishes two white figures, 1,100 lm at 6500K and 950 lm at 2700K, a 14% spread. Signify is the worst at the top of the market: the $98.99 Chromasync A19 publishes only \"Lumen output at 4000K: 810\", while its cheaper Essential bulb publishes both white points.",
+        "affects": [
+          "tapo-l530e-4-pack",
+          "switchbot-led-strip-light-3",
+          "aqara-led-bulb-t2-e26",
+          "hue-white-color-ambiance-a19-2-pack",
+          "hue-essential-a19-4-pack"
+        ],
+        "specKey": "lumensColor"
+      },
+      {
+        "id": "no-hub-required-is-almost-never-true",
+        "title": "Only four of these work fully with nothing else bought",
+        "body": "LIFX, Tapo and the two Wyze bulbs need no extra box. Hue bulbs pair over Bluetooth, but Signify's spec sheet carries the row \"Voice assistants (Hue Bridge required)\" and the Play bar's page states flatly \"Philips Hue Bridge required\" — $69.99 for the Bridge, $139.99 for the Bridge Pro, neither in any box. Aqara's T2 needs a Thread border router or an Aqara hub. Govee's Matter FAQ says \"a Matter hub — or a Matter controller is required\" plus an IPv6 network; SwitchBot and Nanoleaf say the same.",
+        "affects": [
+          "lifx-supercolor-a19-1100-2-pack",
+          "tapo-l530e-4-pack",
+          "wyze-bulb-color-a19-4-pack",
+          "wyze-bulb-color-br30-4-pack",
+          "hue-white-color-ambiance-a19-2-pack",
+          "hue-essential-a19-4-pack",
+          "hue-play-light-bar-2-pack",
+          "aqara-led-bulb-t2-e26",
+          "govee-led-strip-light-m1-matter",
+          "switchbot-led-strip-light-3",
+          "nanoleaf-shapes-hexagons-7-pack"
+        ],
+        "specKey": "hubRequired"
+      },
+      {
+        "id": "matter-carries-four-things-only",
+        "title": "Over Matter you get on/off, brightness, colour temperature and colour",
+        "body": "Govee's Matter FAQ lists the supported features outright — \"switching on/off, brightness adjustment, color temperature adjustment, and color changing. More features TBD\" — so every gradient, scene, music mode and DreamView group stays locked in the vendor app. The same FAQ answers \"Thread or Wi-Fi?\" with \"Wi-Fi\", and warns that changing Wi-Fi networks from inside the Govee app disables Matter until the device is reset and re-commissioned. Govee also confirms only the 2 m M1 is Matter-native; the 5 m version needs a Matter-enabled control box.",
+        "affects": [
+          "govee-led-strip-light-m1-matter",
+          "govee-floor-lamp-2"
+        ],
+        "specKey": "protocol"
+      },
+      {
+        "id": "which-lights-survive-an-outage",
+        "title": "Tapo and both Wyze bulbs stop working when the internet does",
+        "body": "Hue over Zigbee through the Bridge — its spec row reads \"WiFi: Works without Wi-Fi\" — and Aqara over Thread or Zigbee both execute locally and keep running with the internet down. LIFX keeps LAN and Matter control but loses remote access. Govee and SwitchBot are halfway: Matter and Bluetooth are local, but the scenes people bought the product for are not. Tapo and both Wyze bulbs are cloud-only, with no Matter, no local API and no fallback beyond the wall switch.",
+        "affects": [
+          "hue-white-color-ambiance-a19-2-pack",
+          "hue-essential-a19-4-pack",
+          "hue-play-light-bar-2-pack",
+          "aqara-led-bulb-t2-e26",
+          "lifx-supercolor-a19-1100-2-pack",
+          "govee-led-strip-light-m1-matter",
+          "govee-floor-lamp-2",
+          "switchbot-led-strip-light-3",
+          "tapo-l530e-4-pack",
+          "wyze-bulb-color-a19-4-pack",
+          "wyze-bulb-color-br30-4-pack"
+        ],
+        "specKey": "localControl"
+      },
+      {
+        "id": "cri-does-not-follow-price",
+        "title": "The $49.50 Hue bulb publishes a lower CRI than the $5.49 Tapo",
+        "body": "The $5.49-a-bulb Tapo publishes CRI of 90 or better, the $11.11 Wyze publishes 90+, and the $23.99 Aqara publishes Ra above 90. The $49.50-a-bulb Philips Hue publishes \">80\" — the identical figure it prints on its own $11.99 Essential bulb. LIFX publishes 82 and Nanoleaf 80. Signify publishes no CRI at all for the Play light bar, Govee publishes none for either product, and SwitchBot none for its strip. The inequality signs are the maker's own wording, and they are the point.",
+        "affects": [
+          "tapo-l530e-4-pack",
+          "wyze-bulb-color-a19-4-pack",
+          "aqara-led-bulb-t2-e26",
+          "hue-white-color-ambiance-a19-2-pack",
+          "hue-essential-a19-4-pack",
+          "lifx-supercolor-a19-1100-2-pack",
+          "nanoleaf-shapes-hexagons-7-pack",
+          "hue-play-light-bar-2-pack",
+          "govee-led-strip-light-m1-matter",
+          "govee-floor-lamp-2",
+          "switchbot-led-strip-light-3"
+        ],
+        "specKey": "cri"
+      },
+      {
+        "id": "dimming-floors-span-two-orders-of-magnitude",
+        "title": "Hue's own two A19 bulbs dim to 0.2% and 2% respectively",
+        "body": "The Chromasync A19 reaches 0.2% and is marked \"Deep dimmable: Yes\"; Hue's Essential stops at 2% and is marked \"Deep dimmable: No\" — a tenfold difference inside one brand. Tapo, LIFX and SwitchBot publish 1%, and Wyze publishes an absolute 30 lm floor, about 2.7% of its 1,100 lm. Govee, Nanoleaf, Aqara and the Hue Play bar publish no floor at all. No maker here publishes a PWM frequency or percent-flicker figure; The Verge's photosensitive-epilepsy warning about Govee's built-in M1 scenes is the only citable flicker fact.",
+        "affects": [
+          "hue-white-color-ambiance-a19-2-pack",
+          "hue-essential-a19-4-pack",
+          "tapo-l530e-4-pack",
+          "lifx-supercolor-a19-1100-2-pack",
+          "switchbot-led-strip-light-3",
+          "wyze-bulb-color-a19-4-pack",
+          "govee-led-strip-light-m1-matter",
+          "nanoleaf-shapes-hexagons-7-pack",
+          "aqara-led-bulb-t2-e26",
+          "hue-play-light-bar-2-pack"
+        ],
+        "specKey": "dimmingFloor"
+      },
+      {
+        "id": "govee-m1-cannot-make-daylight-white",
+        "title": "Tunable white ranges vary hugely, and Govee's M1 stops at 4000 K",
+        "body": "Hue's Chromasync A19 spans 1000-20000 K, Aqara 2000-9000 K, LIFX 1500-9000 K, Wyze 1800-6500 K, Hue Essential 2200-6500 K and Tapo 2500-6500 K. Govee's M1 light strip spans 2700-4000 K, so it physically cannot make a daylight white — a limitation that appears in reviewers' spec boxes rather than in Govee's marketing. If you want the strip to match cool daylight bulbs elsewhere in the room, check the range before the colour count.",
+        "affects": [
+          "hue-white-color-ambiance-a19-2-pack",
+          "aqara-led-bulb-t2-e26",
+          "lifx-supercolor-a19-1100-2-pack",
+          "wyze-bulb-color-a19-4-pack",
+          "hue-essential-a19-4-pack",
+          "tapo-l530e-4-pack",
+          "govee-led-strip-light-m1-matter"
+        ],
+        "specKey": "colorTempRange"
+      },
+      {
+        "id": "makers-contradict-their-own-pages",
+        "title": "Three makers' own fine print contradicts their headline copy",
+        "body": "SwitchBot's comparison table, printed on the LED Strip Light 3 page, marks that strip \"Equipped with IC Chip: no\", \"Can only display solid colors\" and \"Segmented Dynamic Scenes: no\", while Amazon calls it \"RGB LED Strip Lights\" and SwitchBot's store calls it \"3-in-1 RGBCCT\". Govee's Floor Lamp 2 bullets say RGBICWW; the FAQ on the same page says it \"lacks segmented lighting control\". Nanoleaf's own table lists Hexagons in white at 100 lm per panel and in black at 10 lm.",
+        "affects": [
+          "switchbot-led-strip-light-3",
+          "govee-floor-lamp-2",
+          "nanoleaf-shapes-hexagons-7-pack"
+        ],
+        "specKey": "lumensWhite"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smart-locks",
+    "intro": "Smart-lock marketing hides more of the decisive facts than almost any other category: what happens when the batteries die, whether the lock holds a published ANSI/BHMA grade, and whether the Matter or Apple Home badge on the box describes something the lock does on its own.",
+    "traps": [
+      {
+        "id": "no-key-no-way-in",
+        "title": "The most expensive locks here are the hardest to get into when the battery dies",
+        "body": "The $399 Schlage Sense Pro has no physical keyway at all; the only fallback is a USB-C port under the escutcheon. The $349 Level Lock Pro has keys and fobs but no emergency power contact, so a flat CR2 means digging out the metal key. The $80 Wyze has both a key and a USB-C contact. In this set price and fail-safe access are close to inversely correlated, so check the backup route before the feature list.",
+        "affects": [
+          "schlage-sense-pro",
+          "level-lock-pro",
+          "wyze-lock-bolt-v2"
+        ],
+        "specKey": "backupAccess"
+      },
+      {
+        "id": "ansi-bhma-grade-is-usually-missing",
+        "title": "Only three of these publish a checkable ANSI/BHMA grade",
+        "body": "Only Schlage's Encode Plus (A156.36 Grade 1 and A156.40 Grade AAA), Level (Grade 1/A, BHMA AAA, 250,000 cycles) and Kwikset (BHMA Grade AAA plus a UL 20-minute fire rating) publish anything checkable. Aqara says only \"BHMA-certified\", Lockly publishes no grade at all on a $349 lock, and Ultraloq's \"ANSI Grade 1\" appears in marketing and reviews but not in a certification listing. eufy's E30 is Grade 3, the weakest residential grade, which surfaced only in PCWorld's review. Schlage markets the $399 Sense Pro as an \"AAA Certified Deadbolt\" while Tom's Guide and AppleInsider report ANSI Grade 2, and Schlage's own ratings article omits it.",
+        "affects": [
+          "schlage-encode-plus",
+          "level-lock-pro",
+          "kwikset-halo-select",
+          "aqara-u200",
+          "lockly-visage-zeno",
+          "ultraloq-bolt-fingerprint-matter",
+          "eufy-smart-lock-e30",
+          "schlage-sense-pro"
+        ],
+        "specKey": "ansiBhmaGrade"
+      },
+      {
+        "id": "matter-badge-may-need-a-box-you-dont-own",
+        "title": "Four different arrangements hide behind \"works with Matter\"",
+        "body": "Wi-Fi inside the lock — Wyze, eufy, August, Kwikset, Schlage Encode Plus, Lockly — works remotely with no extra box. Matter over Thread on the Aqara U200, Ultraloq, Level and Schlage Sense Pro needs a Thread border router you already own, or the lock is inert to the outside world. SwitchBot's own page says the Lock Pro \"is not directly Matter enabled\": the hub is the smart device, and the Yale Approach ships a bridge on this SKU that cheaper Approach listings omit. Kwikset's Halo Select has both radios, but its own comparison shows Matter mode loses access-code add and remove, code scheduling, event history and door-sensor settings.",
+        "affects": [
+          "wyze-lock-bolt-v2",
+          "eufy-smart-lock-e30",
+          "august-wifi-smart-lock",
+          "kwikset-halo-select",
+          "schlage-encode-plus",
+          "lockly-visage-zeno",
+          "aqara-u200",
+          "ultraloq-bolt-fingerprint-matter",
+          "level-lock-pro",
+          "schlage-sense-pro",
+          "switchbot-lock-pro",
+          "yale-approach-wifi"
+        ],
+        "specKey": "hubRequired"
+      },
+      {
+        "id": "battery-claims-collapse-under-testing",
+        "title": "Published battery life runs two to three times the tested life",
+        "body": "August's own page says up to three months on two CR123A cells and owners report replacing them every 90 days. Schlage publishes no figure for the Encode Plus, where owners report two to three months. Lockly claims up to eight months, but Tom's Guide found the default settings wanted monthly charging, and its Sense Pro was at 51% after a fortnight. Schlage's Sense Pro page even names the wrong cell size, AAA, against two reviewers who counted four AAs.",
+        "affects": [
+          "august-wifi-smart-lock",
+          "schlage-encode-plus",
+          "lockly-visage-zeno",
+          "schlage-sense-pro"
+        ],
+        "specKey": "batteryClaimMonths"
+      },
+      {
+        "id": "apple-home-key-is-claimed-more-than-held",
+        "title": "Only five of these twelve actually do Apple Home Key",
+        "body": "Tap-to-unlock with an iPhone or Watch works on the Aqara U200, Schlage Encode Plus, Level Lock Pro, Lockly Visage and Schlage Sense Pro. August supports HomeKit control but not tap-to-unlock, and Ultraloq's Bolt series has no NFC unlock at all — U-tec confirms that in its own FAQ. UWB unlocking is narrower still: it needs a UWB-equipped iPhone and exists on the Sense Pro and Ultraloq's Bolt Mission, with Aliro support for Android announced but not shipped.",
+        "affects": [
+          "aqara-u200",
+          "schlage-encode-plus",
+          "level-lock-pro",
+          "lockly-visage-zeno",
+          "schlage-sense-pro",
+          "august-wifi-smart-lock",
+          "ultraloq-bolt-fingerprint-matter"
+        ],
+        "specKey": "appleHomeKey"
+      },
+      {
+        "id": "door-thickness-quietly-disqualifies-buyers",
+        "title": "Level fits only 1.75-2.0 inch doors, and most makers publish nothing",
+        "body": "Level Lock Pro fits doors 1.75 to 2.0 inches thick and no thinner, which rules out a great many 1-3/8 inch American doors; the limit is buried in Level's technical specifications. Kwikset publishes a full 1-3/8 to 1-3/4 inch range with backset and bore. Most other makers publish nothing at all. Aqara adds a second limit: the U200's wireless keypad must sit within about 6 ft of the lock, and slim-profile US deadbolts need replacing before the retrofit will fit.",
+        "affects": [
+          "level-lock-pro",
+          "kwikset-halo-select",
+          "aqara-u200"
+        ],
+        "specKey": "doorFit"
+      },
+      {
+        "id": "retrofit-locks-inherit-your-old-deadbolt",
+        "title": "A retrofit lock cannot be stronger than the deadbolt it bolts onto",
+        "body": "The SwitchBot Lock Pro, Aqara U200, Yale Approach and August Wi-Fi Smart Lock all mount over the inside thumbturn, so your existing exterior keyway keeps working. That is excellent when the battery dies and a problem if the deadbolt underneath is an ungraded builder's special, because a retrofit cannot raise the grade of the lock it sits on. Judge these four by the deadbolt already in your door, not by the module going over it.",
+        "affects": [
+          "switchbot-lock-pro",
+          "aqara-u200",
+          "yale-approach-wifi",
+          "august-wifi-smart-lock"
+        ],
+        "specKey": "keepsExistingKeyway"
+      },
+      {
+        "id": "auto-unlock-is-three-different-mechanisms",
+        "title": "Auto-unlock by geofence is not the same as unlocking by distance",
+        "body": "Bluetooth or GPS geofencing on the August, SwitchBot and Kwikset fires on a radius, which is where most \"it unlocked while I was in the back garden\" complaints come from. Ultra-wideband on the Schlage Sense Pro measures the distance to the door itself. Lockly's Visage uses radar to recognise a face rather than a phone. All three get called auto-unlock, so check which mechanism a lock actually uses before trusting it to open on approach.",
+        "affects": [
+          "august-wifi-smart-lock",
+          "switchbot-lock-pro",
+          "kwikset-halo-select",
+          "schlage-sense-pro",
+          "lockly-visage-zeno"
+        ],
+        "specKey": "uwbUnlock"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smart-plugs",
+    "intro": "Almost every plug here prints \"15A / 1,800W\", and almost none of them will run the appliance you had in mind at that figure. The other two questions the listings dodge are which hub you need and whether the energy monitoring is visible outside the maker's own app.",
+    "traps": [
+      {
+        "id": "15a-is-resistive-the-motor-rating-is-the-limit",
+        "title": "\"15A / 1,800W\" is a resistive figure; the motor rating is much lower",
+        "body": "TP-Link's own EP25P4 sheet adds \"1/6 HP motor\" — about 125W of motor — behind its 15A claim. The outdoor EP40M is rated 1/2 HP and the Zooz ZEN15 1 HP, while Meross, Eve, Aqara, SwitchBot, Amazon and Emporia publish no motor rating at all. Space heaters are worse: a 1,500W heater sits at 83% of an 1,800W plug indefinitely, and the Zooz manual, the most load-serious document here, explicitly prohibits electric heaters. If you are switching a pump, compressor or heater, the motor figure is the one that matters.",
+        "affects": [
+          "kasa-ep25-4-pack",
+          "kasa-ep40m-outdoor",
+          "zooz-zen15-power-switch",
+          "meross-mss315-4-pack",
+          "eve-energy-matter",
+          "aqara-smart-plug",
+          "switchbot-plug-mini-4-pack",
+          "amazon-smart-plug",
+          "emporia-smart-plug"
+        ],
+        "specKey": "motorLoadRating"
+      },
+      {
+        "id": "no-hub-required-means-no-hub-for-our-app",
+        "title": "\"No hub required\" usually means no hub for the maker's own app",
+        "body": "Aqara's plug is Zigbee and needs an Aqara hub — its Amazon title shouts as much. Zooz is Z-Wave and needs a gateway, and Eve is Matter over Thread, inert without a Thread border router. Even the Matter-over-Wi-Fi plugs are only hub-free inside their own app: Meross's store page states plainly that \"A Matter-Compatible hub is required\", and the Kasa and Tapo Matter devices need a HomePod, Echo, Nest Hub or SmartThings hub to appear in those ecosystems. None of those hubs is in any box.",
+        "affects": [
+          "aqara-smart-plug",
+          "zooz-zen15-power-switch",
+          "eve-energy-matter",
+          "meross-mss315-4-pack",
+          "kasa-kp125m-4-pack",
+          "kasa-ep40m-outdoor",
+          "tapo-p316m-power-strip"
+        ],
+        "specKey": "hubRequired"
+      },
+      {
+        "id": "energy-monitoring-is-three-different-things",
+        "title": "Energy monitoring comes in three grades, one of which is none",
+        "body": "Emporia, Zooz (watts, amps, volts and kWh) and the Tapo P316M (per outlet) give you measurement you can actually see. The Kasa KP125M measures power but Matter does not carry it, so in Apple Home or Google you see nothing — BGR's review is blunt about that. The Amazon Smart Plug has none, and neither does the Matter outdoor EP40M, where TP-Link staff told a customer on TP-Link's own forum that \"the energy monitoring feature cannot be added through a firmware update\" and marked the request Declined.",
+        "affects": [
+          "emporia-smart-plug",
+          "zooz-zen15-power-switch",
+          "tapo-p316m-power-strip",
+          "kasa-kp125m-4-pack",
+          "amazon-smart-plug",
+          "kasa-ep40m-outdoor"
+        ],
+        "specKey": "energyMonitoring"
+      },
+      {
+        "id": "emporia-is-a-10a-plug-with-a-15a-label",
+        "title": "Emporia's plug is 10A continuous, and it was recalled in 2023",
+        "body": "Emporia's own store lists \"10A max continuous\", with 15A allowed only as a peak for up to an hour a day, and quotes \"1800W @ 120V\" on the same page. Emporia also publishes a do-not-use list — fridges, freezers, pumps, pet heat lamps, routers — that eliminates most of the loads people buy an energy-monitoring plug to measure. CPSC recall 23-274, in September 2023, covered roughly 80,000 Emporia Smart Plugs sold between July 2022 and May 2023 for inadequate grounding and an electric-shock hazard.",
+        "affects": [
+          "emporia-smart-plug"
+        ],
+        "specKey": "maxLoad"
+      },
+      {
+        "id": "which-plugs-survive-an-internet-outage",
+        "title": "Three of these stop responding when your internet drops",
+        "body": "Eve (Thread, no account at all), Zooz (Z-Wave), Aqara (Zigbee, executed by its hub) and the Kasa and Tapo Matter plugs keep working through an outage. The Amazon Smart Plug, Emporia and Wyze do not: control, schedules and voice all route through a vendor cloud. SwitchBot is a halfway case, where Bluetooth LE keeps working in range while remote control does not. If the plug runs anything you need during a broadband failure, this is the line to read.",
+        "affects": [
+          "eve-energy-matter",
+          "zooz-zen15-power-switch",
+          "aqara-smart-plug",
+          "kasa-kp125m-4-pack",
+          "tapo-p316m-power-strip",
+          "amazon-smart-plug",
+          "emporia-smart-plug",
+          "wyze-plug-outdoor",
+          "switchbot-plug-mini-4-pack"
+        ],
+        "specKey": "localControl"
+      },
+      {
+        "id": "homekit-and-matter-are-sku-level",
+        "title": "HomeKit and Matter vary between SKUs that look identical",
+        "body": "SwitchBot sells the Plug Mini in two physically similar variants: the standard W1901400 listed here has no HomeKit, while a dearer \"HomeKit Enabled\" SKU does, and Matter needs a SwitchBot Hub on top of either. TP-Link's line fractures the other way — the EP25 has native HomeKit but no Matter, while the KP125M has Matter but reaches Apple Home only through a Matter controller. The \"with Energy Monitoring\" wording has also quietly left the EP25 4-pack listing title since the 2022 press release.",
+        "affects": [
+          "switchbot-plug-mini-4-pack",
+          "kasa-ep25-4-pack",
+          "kasa-kp125m-4-pack"
+        ],
+        "specKey": "protocol"
+      },
+      {
+        "id": "ip64-describes-the-empty-box",
+        "title": "Outdoor IP64 ratings describe the plug, not the plug with a cord in it",
+        "body": "Both outdoor plugs here are IP64, meaning dust-tight and splash-resistant. Neither TP-Link nor Wyze publishes any rating for a socket with a cord plugged into it, which is the only state an outdoor plug is ever actually in, and both expect the sockets to face downward. Treat the rating as a description of the box on the shelf and plan the mounting orientation yourself.",
+        "affects": [
+          "kasa-ep40m-outdoor",
+          "wyze-plug-outdoor"
+        ],
+        "specKey": "weatherRating"
+      },
+      {
+        "id": "per-outlet-cost-varies-fivefold",
+        "title": "Cost per switched outlet runs from $7.50 to $39.95 here",
+        "body": "Multi-pack pricing makes headline prices useless for comparison. A SwitchBot in a 4-pack works out at $7.50 per outlet against $39.95 for a single Eve Energy, and the six-outlet Tapo strip is $8.33 per outlet — though those six share one 1,875W budget between them, so cheap outlets are not the same as six independent 15A plugs. Compare on cost per switched outlet, and check what each outlet is allowed to draw.",
+        "affects": [
+          "switchbot-plug-mini-4-pack",
+          "eve-energy-matter",
+          "tapo-p316m-power-strip"
+        ],
+        "specKey": "pricePerOutlet"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smart-rings",
+    "intro": "Smart rings are a young category where the sticker price is rarely the price, almost nothing marketed as a measurement is one, and a ring you cannot resize arrives after a sizer you have to wait for. Every figure below is on the product pages, in the rows the marketing does not lead with.",
+    "traps": [
+      {
+        "id": "three-year-cost-not-sticker-price",
+        "title": "Three years of Oura Ring 5 costs $608.97; a RingConn Gen 2 Air costs $199.00",
+        "body": "Oura is the only brand here charging a recurring fee, and it charges on every model: $5.99 a month or $69.99 a year, first month free so the bill lands after the return window. Without a membership, Oura's own FAQ says, the ring and app \"will still function, but the insights, personal health data, and benefits you receive will be much more limited\" — you keep three headline scores and lose the 50-plus metrics behind them. Over three years a base Oura Ring 5 comes to $608.97; a RingConn Gen 2 Air comes to $199.00.",
+        "affects": [
+          "oura-ring-5",
+          "oura-ring-4",
+          "oura-ring-4-ceramic",
+          "ringconn-gen-2-air"
+        ],
+        "specKey": "threeYearCostUsd"
+      },
+      {
+        "id": "no-subscription-is-a-marketing-line",
+        "title": "\"No subscription\" does not always mean no recurring cost",
+        "body": "Ultrahuman advertises no subscription, then sells AFib detection, ovulation tracking and metabolic insight as annual PowerPlugs at $24 to $39 each. Circular has no mandatory subscription today but has announced a future premium tier for glucose and blood pressure, with neither a price nor a date attached. Both claims are quoted here in the vendor's own words; read the line underneath before treating either as a one-time purchase.",
+        "affects": [
+          "ultrahuman-ring-pro",
+          "circular-ring-2"
+        ],
+        "specKey": "subscriptionModel"
+      },
+      {
+        "id": "one-fda-clearance-in-the-field",
+        "title": "Exactly one of these eleven rings holds an FDA clearance",
+        "body": "The Circular Ring 2 is FDA-cleared to monitor for irregular heartbeats indicating AFib, per Circular and confirmed in Tom's Guide's review — and that clearance covers the AFib feature, not the other 140 biosignals it advertises. Oura, Samsung, RingConn, Amazfit and Renpho publish no clearance at all and market everything as general wellness. Ultrahuman sells AFib detection as a paid PowerPlug with no clearance appearing in the coverage of its US relaunch. Samsung's cleared ECG and blood pressure are Galaxy Watch features; the ring has no electrodes.",
+        "affects": [
+          "circular-ring-2",
+          "oura-ring-5",
+          "oura-ring-4",
+          "oura-ring-4-ceramic",
+          "samsung-galaxy-ring",
+          "ringconn-gen-3",
+          "ringconn-gen-2",
+          "ringconn-gen-2-air",
+          "amazfit-helio-ring",
+          "renpho-lynx-smart-ring",
+          "ultrahuman-ring-pro"
+        ],
+        "specKey": "fdaClearance"
+      },
+      {
+        "id": "sizing-is-a-one-way-door",
+        "title": "A ring cannot be resized, and Oura's size range just got narrower",
+        "body": "The Oura Ring 5 covers US sizes 6 to 13 where the Ring 4 covered 4 to 15; Oura told TechCrunch the smaller form factor is harder to manufacture at the extremes. The Amazfit Helio Ring offers three sizes: 8, 10 and 12. RingConn and Ultrahuman warn their sizes do not map to standard US sizes. Oura, Samsung, RingConn and Ultrahuman ship a free sizer first, adding one to two weeks; Renpho boxes it with the ring and Circular sizes you by camera. Returns run 14 days at RingConn and Circular, 30 at Renpho, and Oura publishes none.",
+        "affects": [
+          "oura-ring-5",
+          "oura-ring-4",
+          "oura-ring-4-ceramic",
+          "amazfit-helio-ring",
+          "ringconn-gen-3",
+          "ringconn-gen-2",
+          "ringconn-gen-2-air",
+          "ultrahuman-ring-pro",
+          "samsung-galaxy-ring",
+          "renpho-lynx-smart-ring",
+          "circular-ring-2"
+        ],
+        "specKey": "sizeRange"
+      },
+      {
+        "id": "galaxy-ring-has-no-ios-app",
+        "title": "The Samsung Galaxy Ring has no iOS app of any kind",
+        "body": "An iPhone is a disqualification here, not a degraded experience, and several of the Galaxy Ring's features assume a Samsung Galaxy phone specifically rather than any Android device. Every other ring in this category supports both platforms, and RingConn is the only one an independent reviewer explicitly confirmed as having no platform-specific feature gaps. Check the phone platforms row before you compare anything else.",
+        "affects": [
+          "samsung-galaxy-ring",
+          "ringconn-gen-3",
+          "ringconn-gen-2",
+          "ringconn-gen-2-air"
+        ],
+        "specKey": "phonePlatforms"
+      },
+      {
+        "id": "computed-scores-not-measurements",
+        "title": "Stress, readiness and recovery are computed, not measured",
+        "body": "Nearly every ring here carries the same three sensors — optical PPG, skin temperature, accelerometer — and everything sold as stress, readiness, recovery or resilience is a score derived from them. Oura reports blood oxygen as an overnight figure rather than an all-day trace, while RingConn tracks it continuously. RingConn's Vascular Trends, sold as the first vascular feature on a ring, needs an external cuff reading to calibrate, so it trends a number you supplied; Oura's Blood Pressure Signals is likewise not cuff-equivalent. Only the Circular Ring 2 has real ECG electrodes.",
+        "affects": [
+          "ringconn-gen-3",
+          "ringconn-gen-2",
+          "ringconn-gen-2-air",
+          "oura-ring-5",
+          "oura-ring-4",
+          "oura-ring-4-ceramic",
+          "circular-ring-2"
+        ],
+        "specKey": "sensorReality"
+      },
+      {
+        "id": "battery-claims-and-the-warranty",
+        "title": "Battery claims assume a setting off, and the battery is not covered",
+        "body": "RingConn's \"up to 14 days\" on the Gen 3 assumes vibration alerts are off; RingConn itself quotes 10 to 12 with them on, and The Gadgeteer measured 34 percent remaining after seven days of full use. Samsung's 14 days is seven days of wear plus a charge held in the cradle, and the smallest sizes reach only six. Oura publishes 6 to 9 days and says size moves it; Ultrahuman's 45 days is 15 plus the PRO charging case. Oura's warranty covers manufacturing defects only, and treats batteries as a non-covered consumable.",
+        "affects": [
+          "ringconn-gen-3",
+          "samsung-galaxy-ring",
+          "oura-ring-5",
+          "oura-ring-4",
+          "oura-ring-4-ceramic",
+          "ultrahuman-ring-pro"
+        ],
+        "specKey": "batteryAssumptions"
+      },
+      {
+        "id": "import-bans-and-data-that-cannot-leave",
+        "title": "One brand was import-banned in 2025, and most publish no data export",
+        "body": "In September 2025 the ITC ruled for Oura against both Ultrahuman and RingConn: Ultrahuman was banned from US import on 21 October 2025 and returned in 2026 with a redesigned Ring PRO, while RingConn settled and took a multi-year patent licence. Only Samsung and Renpho document a route for your history to leave the app; Oura offers a Cloud API token but no one-click download, and RingConn, Circular, Ultrahuman and Amazfit publish no export at all. Oura's charging dock is size-specific, so a replacement has to match your ring.",
+        "affects": [
+          "ultrahuman-ring-pro",
+          "ringconn-gen-3",
+          "ringconn-gen-2",
+          "ringconn-gen-2-air",
+          "samsung-galaxy-ring",
+          "renpho-lynx-smart-ring",
+          "circular-ring-2",
+          "amazfit-helio-ring"
+        ],
+        "specKey": "chargerAndExport"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smart-thermostats",
+    "intro": "The C wire is why smart thermostats get returned, and every brand handles it differently — including two that advertise not needing one. Voltage type, stage counts and what a Matter badge actually does are the other three things the listings tend not to spell out.",
+    "traps": [
+      {
+        "id": "no-c-wire-required-in-most-homes",
+        "title": "Nest's \"no C wire required in most homes\" leaves out a lot of homes",
+        "body": "Google makes that claim on both Nest models, but Google's own store pages state that heating-only, cooling-only, zone-controlled and heat pump systems all need the $24.99 Nest Power Connector — a very large slice of US housing stock. Copeland's Sensi Lite is the most honest of the set, with the exception written into the product title: \"C-Wire Not Required, Except On Heat/Cool Only and Heat Pump Systems\". Work out which of those your system is before you trust either claim.",
+        "affects": [
+          "nest-learning-thermostat-4th-gen",
+          "nest-thermostat",
+          "sensi-lite"
+        ],
+        "specKey": "cWireRequired"
+      },
+      {
+        "id": "who-ships-the-c-wire-adapter",
+        "title": "ecobee's Essential is a $164.98 thermostat in a four-wire house",
+        "body": "ecobee's Premium and Enhanced ship the Power Extender Kit in the box, so the problem is solved at purchase. The Essential does not: the identical kit is a $24.99 accessory, which quietly turns the $139.99 Essential into a $164.98 buy in a four-wire house. Amazon's thermostat, the Honeywell X2S and X8S and the Sensi Touch 2 all require a C wire outright — the X8S at least includes a voucher for a free mail-in adapter, Copeland charges about $28, and Amazon sells a separate bundle SKU.",
+        "affects": [
+          "ecobee-smart-thermostat-premium",
+          "ecobee-smart-thermostat-enhanced",
+          "ecobee-smart-thermostat-essential",
+          "amazon-smart-thermostat",
+          "honeywell-home-x2s",
+          "honeywell-home-x8s",
+          "sensi-touch-2"
+        ],
+        "specKey": "cWireWorkaroundIncluded"
+      },
+      {
+        "id": "line-voltage-vs-low-voltage",
+        "title": "The two Mysa units switch 120/240V baseboard heat, not a furnace",
+        "body": "Ten of these twelve are 24VAC devices. The two Mysa baseboard models are 120/240V, 16A line-voltage switches rated 3,800W at 240V, so a Nest, ecobee, Sensi or Honeywell cannot control electric baseboard heat and a Mysa baseboard unit cannot control a furnace. Home Depot's X8S and Resideo's X2S listings are among the few that say \"does not work with electric baseboard heat (120-240V)\" out loud. The Mysa units also need both line conductors, L1 and L2/neutral, in the gang box, so a two-wire switch loop will not work.",
+        "affects": [
+          "mysa-baseboard-v2",
+          "mysa-baseboard-lite",
+          "honeywell-home-x8s",
+          "honeywell-home-x2s"
+        ],
+        "specKey": "voltageType"
+      },
+      {
+        "id": "matter-certified-is-not-matter-working",
+        "title": "Matter certification here does not mean full control from another app",
+        "body": "Both Nest models, the X2S and the X8S are Matter certified. Matter Alpha's X8S review found the air-quality data the thermostat measures is not exposed over Matter at all and scheduling still needs the First Alert app; its X2S review could read temperature and mode in SmartThings but could not make setpoint changes stick. Both Resideo models make you install First Alert just to generate the Matter pairing code. ecobee, with the most capable hardware here, lists HomeKit, Alexa, Google, SmartThings and IFTTT but never mentions Matter.",
+        "affects": [
+          "nest-learning-thermostat-4th-gen",
+          "nest-thermostat",
+          "honeywell-home-x2s",
+          "honeywell-home-x8s",
+          "ecobee-smart-thermostat-premium",
+          "ecobee-smart-thermostat-enhanced",
+          "ecobee-smart-thermostat-essential"
+        ],
+        "specKey": "matterSupport"
+      },
+      {
+        "id": "remote-sensor-means-three-things",
+        "title": "Only two brands' remote sensors detect people as well as temperature",
+        "body": "ecobee's SmartSensor and Resideo's X8S room sensors sense occupancy; Google's Nest Temperature Sensor is temperature-only, and TechHive's review states the Sensi Room Sensor reads temperature and humidity with no motion detection. Three products take no sensor at all: Google says the Nest Thermostat (2020) is not compatible with its Temperature Sensor, the X2S has no sensor option, and the Amazon has none — Best Buy's listing offers \"comfort zones\" reading temperature off select Echo devices instead. Published maximums are ecobee 32, Resideo 20, Nest Learning 6+1.",
+        "affects": [
+          "ecobee-smart-thermostat-premium",
+          "ecobee-smart-thermostat-enhanced",
+          "honeywell-home-x8s",
+          "nest-learning-thermostat-4th-gen",
+          "nest-thermostat",
+          "sensi-touch-2",
+          "honeywell-home-x2s",
+          "amazon-smart-thermostat"
+        ],
+        "specKey": "remoteSensors"
+      },
+      {
+        "id": "stage-counts-unpublished-or-contradictory",
+        "title": "The X8S's own stage count contradicts Home Depot's listing for it",
+        "body": "ecobee, Copeland and Resideo publish real stage numbers; Amazon publishes none at all. Resideo is worse than silent: its own X8S page says up to 4 Heat/2 Cool on a heat pump or 3 Heat/4 Cool conventional, while Home Depot's listing for the same thermostat says 3 Heat/2 Cool or 2 Heat/2 Cool. The ecobee Essential hides a subtler catch — a single OB terminal that doubles as W2 or Y2, so \"2H/1C or 1H/2C\" means one extra stage in total, not one of each.",
+        "affects": [
+          "honeywell-home-x8s",
+          "amazon-smart-thermostat",
+          "ecobee-smart-thermostat-essential"
+        ],
+        "specKey": "heatCoolStages"
+      },
+      {
+        "id": "no-subscription-but-an-account-is-mandatory",
+        "title": "None of these charge a subscription, and all of them require an account",
+        "body": "No thermostat here charges for scheduling, learning, geofencing or remote sensors, which is worth saying plainly because buyers expect otherwise. Every one still requires a vendor account and app: Google retired the standalone Nest app, so Google Home is mandatory; Amazon's thermostat is close to unconfigurable without the Alexa app because most settings are not on the device screen at all; and both Resideo models need First Alert. ecobee's only paid tier is Smart Security, the intrusion-monitoring layer, not climate control.",
+        "affects": [
+          "nest-learning-thermostat-4th-gen",
+          "nest-thermostat",
+          "amazon-smart-thermostat",
+          "honeywell-home-x2s",
+          "honeywell-home-x8s",
+          "ecobee-smart-thermostat-premium"
+        ],
+        "specKey": "subscriptionRequired"
+      },
+      {
+        "id": "utility-programs-move-your-setpoint",
+        "title": "Demand-response enrolment lets the utility move your temperature",
+        "body": "Every product here is ENERGY STAR certified and rebate-eligible, but rebates and demand response are separate things and the second one has a cost. Google's support page says Rush Hour Rewards, run by Renew Home with your energy provider, makes adjustments \"typically up to 4°F\" for three to four hours during demand events. ecobee says eco+ Community Energy Savings events move your temperature 1-4°F for a few hours a handful of times a year across 150+ utilities, with per-event opt-out and enrolment rebates up to $125. Resideo's X2S launch material specifically advertises utility energy-management enrolment.",
+        "affects": [
+          "nest-learning-thermostat-4th-gen",
+          "nest-thermostat",
+          "ecobee-smart-thermostat-premium",
+          "ecobee-smart-thermostat-enhanced",
+          "honeywell-home-x2s"
+        ],
+        "specKey": "utilityPrograms"
+      }
+    ]
+  },
+  {
+    "categorySlug": "smartwatches",
+    "intro": "A smartwatch spec sheet quotes battery life without the assumptions underneath it, calls a sensor a health feature whether or not it is FDA-cleared or even shipping yet, and rarely leads with which phone you need to own. Every claim below is checkable against the spec rows on each product page.",
+    "traps": [
+      {
+        "id": "phone-lock-in",
+        "title": "Apple and Samsung lock to a phone brand; four makers here do not",
+        "body": "Apple Watch pairs only with an iPhone, permanently. Galaxy Watch will not pair with an iPhone at all, and on a non-Samsung Android it loses ECG and blood pressure outright, because Samsung Health Monitor installs only on Galaxy phones — along with SmartThings camera feeds, Camera Controller, DND and bedtime sync, and audio messages. Pixel Watch 5 is Android-only but does not gate health features to Pixel phones. Withings, Garmin, Amazfit and Fitbit are the genuinely neutral options.",
+        "affects": [
+          "apple-watch-series-11",
+          "apple-watch-se-3",
+          "apple-watch-ultra-3",
+          "galaxy-watch-9",
+          "galaxy-watch-ultra-2",
+          "pixel-watch-5",
+          "withings-scanwatch-nova-brilliant",
+          "garmin-venu-4-41mm",
+          "amazfit-bip-6",
+          "fitbit-sense-2"
+        ],
+        "specKey": "phoneCompatibility"
+      },
+      {
+        "id": "fda-cleared-vs-marketed-health-features",
+        "title": "Apple holds the only FDA-cleared health features in this group",
+        "body": "Apple's hypertension and sleep apnea notifications are FDA-cleared. Samsung's blood pressure began a phased US rollout on 31 March 2026 but is not FDA-cleared, needs an upper-arm cuff to re-calibrate every 28 days, and runs only through the Galaxy-phone-only Samsung Health Monitor app. Pixel Watch 5's blood-pressure and insulin-resistance headline features were announced as coming this fall, and were not shipping at the 20 August 2026 launch, with no published clearance. OnePlus, TicWatch, Amazfit and Huawei have no cleared health feature at all.",
+        "affects": [
+          "apple-watch-series-11",
+          "apple-watch-se-3",
+          "apple-watch-ultra-3",
+          "galaxy-watch-9",
+          "galaxy-watch-ultra-2",
+          "pixel-watch-5",
+          "oneplus-watch-3-43mm",
+          "ticwatch-atlas",
+          "amazfit-bip-6",
+          "huawei-watch-gt-6"
+        ],
+        "specKey": "healthSensorsUS"
+      },
+      {
+        "id": "battery-hours-rest-on-assumptions",
+        "title": "Every battery figure here rests on an assumption the box does not print",
+        "body": "Apple's 24 hours assumes the always-on display is on, one 60-minute workout, and no sleep tracking; track sleep and you charge twice a day. Huawei's 21-day headline becomes 7 days with the always-on display on, and 40 hours in sport mode; TicWatch Atlas's 45 days is Essential Mode, which switches Wear OS off entirely; Garmin's 10 days is with the display off. Samsung publishes no figure for the Galaxy Watch9; the ~24 hours shown is GSMArena's measurement. Only the Galaxy Watch Ultra2 quotes its 60 hours with the display on.",
+        "affects": [
+          "apple-watch-series-11",
+          "apple-watch-se-3",
+          "apple-watch-ultra-3",
+          "huawei-watch-gt-6",
+          "ticwatch-atlas",
+          "garmin-venu-4-41mm",
+          "galaxy-watch-9",
+          "galaxy-watch-ultra-2"
+        ],
+        "specKey": "batteryAssumption"
+      },
+      {
+        "id": "subscription-walls",
+        "title": "Four of these watches put shipped features behind a monthly fee",
+        "body": "Google Health Premium gates the Daily Readiness Score, the workout library and Google Health Coach on the Fitbit Sense 2 and Pixel Watch 5; three months included, then you pay. Garmin Connect+ is $6.99 a month for Active Intelligence and premium coaching on a $549.99 watch. Zepp Aura is $11.99 a month or $69.99 a year after a 14-day trial, and caps the free tier at one AI message a day with no weekly or monthly sleep analysis. Withings+ withholds no baseline metric; Apple charges for nothing beyond optional Fitness+.",
+        "affects": [
+          "fitbit-sense-2",
+          "pixel-watch-5",
+          "garmin-venu-4-41mm",
+          "amazfit-bip-6",
+          "withings-scanwatch-nova-brilliant",
+          "apple-watch-series-11"
+        ],
+        "specKey": "subscription"
+      },
+      {
+        "id": "lte-is-a-separate-sku",
+        "title": "Cellular is a separate SKU at a separate price on most of these",
+        "body": "Series 11 adds $100, the SE 3 adds $50, the Galaxy Watch9 roughly $50, and Pixel Watch 5 adds $100 — and Google Fi's two included years of data still will not let you make calls over LTE. Apple Watch Ultra 3 and Galaxy Watch Ultra2 include cellular in the base price. OnePlus, TicWatch, Withings, Amazfit, Fitbit, the Garmin Venu 4 and Huawei have no US LTE variant at all. A carrier line costs extra in every case.",
+        "affects": [
+          "apple-watch-series-11",
+          "apple-watch-se-3",
+          "apple-watch-ultra-3",
+          "galaxy-watch-9",
+          "galaxy-watch-ultra-2",
+          "pixel-watch-5",
+          "oneplus-watch-3-43mm",
+          "ticwatch-atlas",
+          "withings-scanwatch-nova-brilliant",
+          "amazfit-bip-6",
+          "fitbit-sense-2",
+          "garmin-venu-4-41mm",
+          "huawei-watch-gt-6"
+        ],
+        "specKey": "lteOption"
+      },
+      {
+        "id": "no-battery-replacement-service",
+        "title": "Apple is the only maker here that will replace a worn battery",
+        "body": "Apple runs a flat $99 out-of-warranty battery service, and AppleCare+ covers the battery only once its health drops below 80 percent. Samsung, Google — for both Pixel Watch and Fitbit — OnePlus, Mobvoi, Amazfit and Garmin publish no consumer battery-replacement service at all. The practical outcome when the cell wears out is a whole-unit swap, which is worth pricing in on any watch you intend to keep for several years.",
+        "affects": [
+          "apple-watch-series-11",
+          "apple-watch-se-3",
+          "apple-watch-ultra-3",
+          "galaxy-watch-9",
+          "galaxy-watch-ultra-2",
+          "pixel-watch-5",
+          "fitbit-sense-2",
+          "oneplus-watch-3-43mm",
+          "ticwatch-atlas",
+          "amazfit-bip-6",
+          "garmin-venu-4-41mm"
+        ],
+        "specKey": "batteryService"
+      },
+      {
+        "id": "app-support-is-not-one-thing",
+        "title": "App support here ranges from a real store to watch faces only",
+        "body": "watchOS and Wear OS — Galaxy, Pixel, OnePlus, TicWatch — have genuine third-party stores. Garmin's Connect IQ is real but fitness-skewed. Fitbit OS has effectively nothing: Google shut Fitbit Studio in 2023, leaving the Sense 2 with third-party watch faces but no third-party apps, and EU users lost even the faces in 2024. Zepp OS and HarmonyOS are closed, Withings has no app layer at all, and the TicWatch Atlas has the Play Store but is stranded on Wear OS 4 with no Google Assistant and no Gemini.",
+        "affects": [
+          "fitbit-sense-2",
+          "ticwatch-atlas",
+          "withings-scanwatch-nova-brilliant",
+          "amazfit-bip-6",
+          "huawei-watch-gt-6",
+          "garmin-venu-4-41mm"
+        ],
+        "specKey": "appEcosystem"
+      },
+      {
+        "id": "specs-that-disagree-or-do-not-exist",
+        "title": "Where the maker and the retail listing disagree, both figures are shown",
+        "body": "Withings rates the ScanWatch Nova Brilliant at 35 days; its Amazon listing says 30. OnePlus and the Amazon title both describe the Watch 3 as Android-only, while Smartprix's spec sheet claims iOS support — worth settling before an iPhone owner buys one. OnePlus publishes no peak brightness figure for that watch at all. And the Huawei Watch GT 6 is not sold in the US; the price shown is a conversion of its roughly 260 euro European price, for comparison only.",
+        "affects": [
+          "withings-scanwatch-nova-brilliant",
+          "oneplus-watch-3-43mm",
+          "huawei-watch-gt-6"
+        ]
+      }
+    ]
+  },
+  {
+    "categorySlug": "usb-chargers",
+    "intro": "The wattage on a multi-port charger is what one port delivers on its own, and the protocol behind it decides whether your particular phone or laptop can use it. Both are recorded per port here rather than as a single headline figure.",
+    "traps": [
+      {
+        "id": "headline-wattage-is-one-port-alone",
+        "title": "The wattage on the box is a single-port figure",
+        "body": "UGREEN's Nexode 65W drops to 45W plus 8.5W plus 8.5W once all three ports are occupied, so it cannot fast-charge a laptop and a phone at the same time. Belkin's 45W dual becomes 25W plus 20W with both ports in use. Anker's Prime 100W gives 65W plus 35W across two USB-C, and 89W total across three. The Baseus PicoGo 140W splits to 70W plus 70W, or 90W plus 45W. INIU publishes no per-port table at all, and neither does UGREEN for the Nexode X 160W.",
+        "affects": [
+          "ugreen-nexode-65w-3port",
+          "belkin-45w-dual",
+          "anker-prime-100w",
+          "baseus-picogo-140w",
+          "inju-i624-65w",
+          "ugreen-nexode-x-160w"
+        ],
+        "specKey": "powerSharing"
+      },
+      {
+        "id": "pps-is-not-the-same-as-pd",
+        "title": "Without PPS, a 65W charger charges a Galaxy at 25W",
+        "body": "Samsung's 45W Super Fast Charging 2.0 and several other fast-charge modes require PPS (Programmable Power Supply), not just USB-C PD. Samsung's own 45W publishes the range that triggers it: 3.3-21V/2.25A. Apple's 20W has PD 2.0 and 3.0 with no PPS at all, and Apple's 40W Dynamic uses AVS rather than PPS, so it will not trigger Samsung's mode either. Anker's Nano 30W and UGREEN's Nexode 30W both carry PPS and publish their windows.",
+        "affects": [
+          "samsung-45w",
+          "apple-20w",
+          "apple-40w-dynamic",
+          "anker-nano-30w",
+          "ugreen-nexode-30w"
+        ],
+        "specKey": "pdVersion"
+      },
+      {
+        "id": "usb-a-ports-are-not-pd",
+        "title": "A USB-A port will not fast-charge a modern iPhone or MacBook",
+        "body": "USB-A tops out at Quick Charge speeds no matter what the charger's total rating says, and the per-port numbers show it: the Anker Prime 67W and Prime 100W both give 22.5W from USB-A against 67W and 100W from USB-C, and the Baseus PicoGo 140W gives 44W from USB-A against 140W from C1 or C2. Count the USB-C ports rather than the total — the UGREEN Nexode 65W's three ports are two USB-C and one USB-A.",
+        "affects": [
+          "anker-prime-67w",
+          "anker-prime-100w",
+          "baseus-picogo-140w",
+          "ugreen-nexode-65w-3port"
+        ],
+        "specKey": "portCount"
+      },
+      {
+        "id": "gan-changes-size-not-speed",
+        "title": "GaN affects size and heat, not charging speed",
+        "body": "Marketing tends to imply otherwise, but speed is set by wattage and protocol; GaN shows up in the dimensions and the weight, which is where it is worth comparing. Samsung names the part in its 45W (GaN Systems GS-065-008-1-L), Anker brands its version GaNPrime and UGREEN calls its own GaNInfinity. Apple's 20W is not GaN at all, and Apple does not state the switching material for the 40W Dynamic — teardowns have not confirmed it either.",
+        "affects": [
+          "samsung-45w",
+          "anker-prime-67w",
+          "ugreen-nexode-x-160w",
+          "apple-20w",
+          "apple-40w-dynamic"
+        ],
+        "specKey": "gan"
+      }
+    ]
+  },
+  {
+    "categorySlug": "video-doorbells",
+    "intro": "In this category the spec sheet and the marketing disagree more often than they agree: \"2K\" and \"4K\" are pixel totals rather than widths, the wired models split over transformer voltage, and several of these doorbells record nothing at all until you start paying monthly.",
+    "traps": [
+      {
+        "id": "no-plan-means-no-recording",
+        "title": "Several of these record nothing at all without a monthly plan",
+        "body": "With no subscription a Ring doorbell — including the $249.99 Battery Doorbell Pro 4K — records nothing and fires no person or package alerts; it is a live-view intercom. Tom's Guide describes the unsubscribed Arlo as \"stripped to a grossly basic live view and motion detector functionality\", and Arlo Secure has risen from $2.99 to $4.99 to $7.99 a month for one camera. SimpliSafe's cheapest recording plan is $9.99/mo. Google is the outlier among cloud brands: person, package, vehicle and animal alerts plus six hours of event previews cost nothing.",
+        "affects": [
+          "ring-battery-doorbell-2k",
+          "ring-battery-doorbell-pro-4k",
+          "arlo-video-doorbell-2k-2nd-gen",
+          "simplisafe-video-doorbell-pro",
+          "nest-doorbell-wired-3rd-gen"
+        ],
+        "specKey": "subscriptionFree"
+      },
+      {
+        "id": "2k-and-4k-are-pixel-totals",
+        "title": "\"2K\" and \"4K\" here count total pixels, not the width of the frame",
+        "body": "Every doorbell here that shoots a square frame counts total pixels. Ring's \"Retinal 2K\" is 1920 x 1920 and Blink's $39.99 \"2K+\" is the identical 1920 x 1920, for which Ring charges $99.99. Ring's \"Retinal 4K\" is 2880 x 2880, 960 pixels narrower than UHD; Arlo's 2K is 1944 x 1944 and Wyze's is 2048 x 1536. The genuinely sharper sensors are cheaper: Reolink and Tapo both shoot a real 5MP 2560 x 1920 and the Lorex is 8MP. Google publishes no pixel count for the Nest's \"2K HDR\" at all.",
+        "affects": [
+          "ring-battery-doorbell-2k",
+          "ring-battery-doorbell-pro-4k",
+          "blink-wired-doorbell-2k-plus",
+          "arlo-video-doorbell-2k-2nd-gen",
+          "wyze-video-doorbell-v2",
+          "reolink-video-doorbell-wifi",
+          "tapo-d230s1-video-doorbell",
+          "lorex-4k-wired-video-doorbell",
+          "nest-doorbell-wired-3rd-gen"
+        ],
+        "specKey": "resolution"
+      },
+      {
+        "id": "transformer-voltage-is-the-real-gate",
+        "title": "Older doorbell transformers rule out the Nest, the Wyze and the Lorex",
+        "body": "Wired models split into two camps and the split is invisible in marketing. Google's Nest demands 16-24VAC at 10-40VA, Wyze 16-24VAC at 10VA or more, and the Lorex 16-24VAC — none runs on the 8-10VAC transformer common in older US houses. Ring accepts 8-24VAC, SimpliSafe 8-24VAC at 30VA max, and Blink, Aqara and Reolink take 12-24VAC; Reolink ships an indoor plug-in adapter, so it needs no transformer at all. Blink's FAQ adds that its Wired Doorbell 2K+ \"does not ring your existing in-home mechanical chime\" without a bypass cable that disables it, and SimpliSafe supports mechanical chimes only.",
+        "affects": [
+          "nest-doorbell-wired-3rd-gen",
+          "wyze-video-doorbell-v2",
+          "lorex-4k-wired-video-doorbell",
+          "ring-battery-doorbell-2k",
+          "ring-battery-doorbell-pro-4k",
+          "simplisafe-video-doorbell-pro",
+          "blink-wired-doorbell-2k-plus",
+          "aqara-video-doorbell-g410",
+          "reolink-video-doorbell-wifi"
+        ],
+        "specKey": "transformerRequirement"
+      },
+      {
+        "id": "aspect-ratio-decides-if-you-see-the-parcel",
+        "title": "A 16:9 frame shows the visitor's face but not the parcel on the mat",
+        "body": "A 1:1 or 3:4 frame shows a visitor head-to-toe plus the doormat; 16:9 and 4:3 do not. SimpliSafe sells a 16:9 1080p camera for $169, and Wyze is 4:3 at 135° horizontal. Reolink is the strangest case: the same product name ships 4:3 in black and 3:4 in white, so the colour you pick changes the framing. eufy sidesteps the problem with a second downward-facing lens. Google's own page says 1:1 while Tom's Guide's review says 3:4, and Aqara lists a 4:3 ratio beside a 16:9 sensor output on one page.",
+        "affects": [
+          "simplisafe-video-doorbell-pro",
+          "wyze-video-doorbell-v2",
+          "reolink-video-doorbell-wifi",
+          "eufy-video-doorbell-e340",
+          "nest-doorbell-wired-3rd-gen",
+          "aqara-video-doorbell-g410"
+        ],
+        "specKey": "aspectRatio"
+      },
+      {
+        "id": "local-storage-often-needs-a-second-box",
+        "title": "\"Local storage\" usually means buying a hub that isn't in the box",
+        "body": "Aqara, Reolink, Wyze, Lorex and Tapo record to a card you control — Lorex ships one fitted, and Tapo's card goes in the included hub. eufy is the only one with storage inside the doorbell itself, 8GB of eMMC, expandable only by adding a HomeBase S280 or S380 sold separately. Blink needs a Sync Module 2 or Sync Module XR, neither of which is in the $39.99 box, and Arlo needs a SmartHub or Base Station. Ring, Nest and SimpliSafe have no local storage path at any price.",
+        "affects": [
+          "aqara-video-doorbell-g410",
+          "reolink-video-doorbell-wifi",
+          "wyze-video-doorbell-v2",
+          "lorex-4k-wired-video-doorbell",
+          "tapo-d230s1-video-doorbell",
+          "eufy-video-doorbell-e340",
+          "blink-wired-doorbell-2k-plus",
+          "arlo-video-doorbell-2k-2nd-gen",
+          "ring-battery-doorbell-2k",
+          "ring-battery-doorbell-pro-4k",
+          "nest-doorbell-wired-3rd-gen",
+          "simplisafe-video-doorbell-pro"
+        ],
+        "specKey": "localStorage"
+      },
+      {
+        "id": "battery-claims-omit-the-event-count",
+        "title": "Battery claims here come without the events-per-day they assume",
+        "body": "Ring publishes no runtime figure at all for either of its battery doorbells. Arlo claims \"up to 6 months, dependent on usage\" and Aqara five months on six AA cells, neither with an event count; eufy publishes nothing, though Linkd Home's 30-day heavy-use test projected roughly 78 days. SafeWise's tester recharged the $249.99 Ring 4K Pro about every two weeks on a busy porch while Tom's Guide lost under 25% in a fortnight on a quiet one. Only TP-Link states its assumption: 180 days at 10-20 events a day.",
+        "affects": [
+          "ring-battery-doorbell-2k",
+          "ring-battery-doorbell-pro-4k",
+          "arlo-video-doorbell-2k-2nd-gen",
+          "aqara-video-doorbell-g410",
+          "eufy-video-doorbell-e340",
+          "tapo-d230s1-video-doorbell"
+        ],
+        "specKey": "batteryLife"
+      },
+      {
+        "id": "5ghz-wifi-is-the-exception",
+        "title": "Only five of these twelve have a 5GHz radio",
+        "body": "The Ring Battery Doorbell Pro 4K (Wi-Fi 6, and it wants 15 Mbps upload), the Nest 3rd gen (802.11ac), the Aqara G410, the Reolink and the Lorex are the five with a 5GHz radio. The $99.99 Ring Battery Doorbell 2K is single-band Wi-Fi 4 while its own $249.99 stablemate is dual-band Wi-Fi 6. Arlo, eufy, Wyze, Blink, SimpliSafe and Tapo are 2.4GHz only, which matters if your router hands out a single combined network.",
+        "affects": [
+          "ring-battery-doorbell-pro-4k",
+          "nest-doorbell-wired-3rd-gen",
+          "aqara-video-doorbell-g410",
+          "reolink-video-doorbell-wifi",
+          "lorex-4k-wired-video-doorbell",
+          "ring-battery-doorbell-2k"
+        ],
+        "specKey": "wifiBands"
+      },
+      {
+        "id": "matter-badge-does-not-carry-video",
+        "title": "A Matter badge on a doorbell has nothing to do with its video",
+        "body": "Matter carries no camera stream, so the badge refers to something else. The Aqara G410 is the only Matter device here, and its Matter role is as a controller and Thread border router for other people's gear; its own video reaches Apple Home through HomeKit Secure Video, which downgrades the stream — Aqara states \"when using the HSV, the maximum resolution is 1200p\". Real Apple Home support in this set is Aqara and Arlo, whose community manager confirmed it for 2nd-gen devices in March 2025.",
+        "affects": [
+          "aqara-video-doorbell-g410",
+          "arlo-video-doorbell-2k-2nd-gen"
+        ],
+        "specKey": "smartHomeSupport"
+      }
+    ]
+  },
+  {
+    "categorySlug": "wireless-chargers",
+    "intro": "This is the category with the most misleading marketing on the site. \"MagSafe compatible\" is a claim about magnets, \"up to 25W\" is a claim about somebody else's phone, and half of these arrive without the brick they need to hit their rated speed.",
+    "traps": [
+      {
+        "id": "magsafe-compatible-is-not-qi2",
+        "title": "\"MagSafe compatible\" describes the magnets, not the charging speed",
+        "body": "A pad can align perfectly and still be plain Qi at 7.5W. The $22.99 ESR HaloLock kickstand is exactly that: one third the speed of the Qi2.2 pads that cost $10 to $20 more, despite the \"MagSafe compatible\" marketing. Qi2 means 15W with Wireless Power Consortium certification and Qi2.2 means 25W; the Qi standard row on each page states which certification a charger actually holds, or that it holds neither.",
+        "affects": [
+          "esr-halolock-kickstand"
+        ],
+        "specKey": "qiStandard"
+      },
+      {
+        "id": "no-power-adapter-in-the-box",
+        "title": "Six of these twelve ship without a power adapter",
+        "body": "The Anker MagGo pad, UGREEN MagFlow pad, ESR HaloLock kickstand, Apple's 25W MagSafe, the UGREEN MagFlow 2-in-1 and the Twelve South Butterfly SE all arrive without one. Several also need a specific PD wattage to reach their rated speed — 30W or better for the 15W pads, 45W for UGREEN's 2-in-1 — so that is a real $20 to $40 addition to the price. Belkin's UltraCharge is sold as two listings differing only by whether an adapter is included, roughly $10 to $15 apart.",
+        "affects": [
+          "anker-maggo-pad",
+          "ugreen-magflow-pad",
+          "esr-halolock-kickstand",
+          "apple-magsafe-25w",
+          "ugreen-magflow-2in1",
+          "twelve-south-butterfly-se",
+          "belkin-ultracharge-qi2"
+        ],
+        "specKey": "adapterIncluded"
+      },
+      {
+        "id": "up-to-watts-depends-on-your-phone",
+        "title": "\"Up to 25W\" is a claim about the phone, not the charger",
+        "body": "Qi2.2's 25W applies only to phones that support Qi2.2. iPhone 12 through 15 fall back to 15W on the UGREEN MagFlow, the Belkin UltraCharge and the other 25W pads, and many Android handsets fall back to 5W or to the maker's own proprietary rate. Apple's 2025 MagSafe revision is Qi2 25W certified, so it does reach 25W on Pixel and other Qi2.2 phones as well as iPhone. Check your handset against the max phone watts row.",
+        "affects": [
+          "ugreen-magflow-pad",
+          "belkin-ultracharge-qi2",
+          "apple-magsafe-25w"
+        ],
+        "specKey": "maxPhoneWatts"
+      },
+      {
+        "id": "what-2in1-and-3in1-actually-charge",
+        "title": "Belkin's \"2-in-1\" is phone plus AirPods, not phone plus watch",
+        "body": "That is a very common misreading, and the AirPods port on it is only 5W. The Twelve South Butterfly SE charges a phone plus an Apple Watch, or AirPods on the watch puck, but not both at once. Multi-device stands also share one supply exactly as wired chargers do, so a 3-in-1 rarely delivers its phone-pad maximum while a watch and earbuds are drawing from it too. Read the devices-charged row before assuming a count.",
+        "affects": [
+          "belkin-2in1-foldable",
+          "twelve-south-butterfly-se"
+        ],
+        "specKey": "devicesCharged"
+      },
+      {
+        "id": "sustained-25w-is-a-cooling-question",
+        "title": "Only two of these hold 25W under sustained load",
+        "body": "The ESR CryoBoost 3-in-1 uses an active fan and the Anker Prime 3-in-1 pairs active cooling with a folding body; both sustain 25W rather than throttling. The Satechi 3-in-1 and the Baseus PicoGo 3-in-1 are passively cooled and will drop below 25W under sustained load. That is the difference between a rated figure and a delivered one, and the cooling row on each page says which you are buying.",
+        "affects": [
+          "esr-cryoboost-3in1",
+          "anker-prime-3in1",
+          "satechi-3in1-foldable",
+          "baseus-picogo-3in1"
+        ],
+        "specKey": "cooling"
+      },
+      {
+        "id": "old-skus-and-contradictory-listings",
+        "title": "The superseded 2024 MagSafe is still on sale at nearly the same price",
+        "body": "Apple's 2024 puck sits alongside the 2025 revision on Amazon at a nearly identical price, and it is not Qi2 25W certified — the listing title is the only thing separating them. Anker's own product page for the Prime 3-in-1 says a 45W adapter is needed separately, while the Amazon listing and reviews confirm one is included. Both conflicts are shown here rather than quietly resolved, so check the title and in-box contents before ordering.",
+        "affects": [
+          "apple-magsafe-25w",
+          "anker-prime-3in1"
+        ]
+      },
+      {
+        "id": "case-thickness-limit",
+        "title": "Past roughly 3mm of case, alignment and charge rate both fall off",
+        "body": "Magnetic alignment and charging speed degrade beyond about 3mm of case thickness, so a thick wallet case, a battery case or a ring accessory can pull a genuinely certified Qi2 pad below its rated speed or stop it holding the phone at all. Each product page records the manufacturer's own stated case limit, which is worth reading against the case you actually use rather than a bare phone.",
+        "specKey": "magnetic"
+      }
+    ]
+  }
+]

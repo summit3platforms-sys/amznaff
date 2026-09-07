@@ -48,6 +48,19 @@ export function decapitalize(text: string): string {
   return text.charAt(0).toLowerCase() + text.slice(1);
 }
 
+// Lowercases every word of a multi-word name that is plain Title Case, while
+// leaving acronyms and initialisms intact: "Air Purifiers" becomes "air
+// purifiers", but "USB Chargers" becomes "USB chargers" and "GPS Running
+// Watches" becomes "GPS running watches". decapitalize() only touches the
+// first word, which is right mid-sentence for a description but wrong for a
+// category name, where every word needs the same treatment.
+export function decapitalizeWords(text: string): string {
+  return text
+    .split(' ')
+    .map((word) => (word.length > 1 && word.slice(1) !== word.slice(1).toLowerCase() ? word : word.toLowerCase()))
+    .join(' ');
+}
+
 // Turns a fragment written as a headline (a product tagline, typically) into a
 // standalone sentence: leading capital, closing full stop. Taglines are noun
 // phrases — splicing one into the middle of another sentence produces the
